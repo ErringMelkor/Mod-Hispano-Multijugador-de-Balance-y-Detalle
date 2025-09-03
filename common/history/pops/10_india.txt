@@ -35,7 +35,7 @@ POPS = {
 		}
 	}
 	s:STATE_WEST_BENGAL = {
-		region_state:DLH = {
+		region_state:BGL = {
 			create_pop = {
 				culture = bengali
 				religion = hindu

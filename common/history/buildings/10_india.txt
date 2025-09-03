@@ -61,13 +61,8 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:GBR"
-						levels = 4
+						levels = 2
 						region = "STATE_HOME_COUNTIES"
-					}
-					company = {
-						type=company_east_india_company
-						country="c:DLH"
-						levels=8
 					}
 				}
 				reserves = 1
@@ -133,12 +128,12 @@
 		}
 	}
 	s:STATE_WEST_BENGAL= {
-		region_state:DLH = {
+		region_state:BGL = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:BGL"
 						levels = 18
 					}
 				}
@@ -151,7 +146,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:DLH"
+						country="c:BGL"
 						levels=3
 						region="STATE_WEST_BENGAL"
 					}
@@ -168,7 +163,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:BGL"
 						levels = 2
 					}
 				}
@@ -206,7 +201,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:DLH"
+						country = "c:BGL"
 						levels = 4
 						region = "STATE_WEST_BENGAL"
 					}
@@ -219,20 +214,15 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
-						levels = 5
+						country = "c:BGL"
+						levels = 1
 						region = "STATE_WEST_BENGAL"
 					}
 					building = {
 						type = "building_manor_house"
 						country = "c:GBR"
-						levels = 5
+						levels = 2
 						region = "STATE_HOME_COUNTIES"
-					}
-					company={
-						type=company_east_india_company
-						country="c:DLH"
-						levels= 15
 					}
 				}
 				reserves = 1
@@ -271,11 +261,6 @@
 						country = "c:GBR"
 						levels = 3
 						region = "STATE_HOME_COUNTIES"
-					}
-					company={
-						type=company_east_india_company
-						country="c:DLH"
-						levels=1
 					}
 				}
 				reserves = 1
@@ -665,18 +650,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_dye_workshops" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
-			create_building={
-				building="building_opium_plantation"
-				add_ownership={
-					company={
-						type=company_east_india_company
-						country="c:DLH"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
-			}
 		}
 	}
 	s:STATE_AWADH= {
@@ -754,11 +727,6 @@
 						country = "c:GBR"
 						levels = 2
 						region = "STATE_HOME_COUNTIES"
-					}
-					company = {
-						type=company_east_india_company
-						country="c:DLH"
-						levels=5
 					}
 				}
 				reserves = 1
@@ -1747,18 +1715,6 @@
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					company = {
-						type=company_east_india_company
-						country="c:GBR"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
-			}
-			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
@@ -1787,7 +1743,7 @@
 					company = {
 						type=company_east_india_company
 						country="c:GBR"
-						levels=8
+						levels=4
 					}
 				}
 				reserves=1

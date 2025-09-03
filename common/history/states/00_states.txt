@@ -3696,7 +3696,7 @@ STATES = {
 	}
 	s:STATE_WEST_BENGAL = {
 		create_state = {
-			country = c:DLH
+			country = c:BGL
 			owned_provinces = {x13A493 x0A2277 x1DBB94 x272AEE x2FF791 x397092 x802A5E x82150A x844FCF x89538D x89D769 x8F846C xBF385A xD0B0DF xE2E92B xEF5060 xD2FEA1 }
 		}	
 
