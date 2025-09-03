@@ -1,10 +1,10 @@
 ﻿
 POPS = {
 	s:STATE_BIHAR = {
-		region_state:DLH = {
+		region_state:BIH = {
 			create_pop = {
 				culture = bihari
-				size = 9969689
+				size = 8369689
 			}
 			create_pop = {
 				culture = british
@@ -31,6 +31,12 @@ POPS = {
 				culture = bihari
 				religion = sunni
 				size = 128903
+			}
+		}
+		region_state:BGL = {
+			create_pop = {
+				culture = bihari
+				size = 1669689
 			}
 		}
 	}
@@ -856,7 +862,7 @@ POPS = {
 		}
 	}
 	s:STATE_PUNJAB = {
-		region_state:PEC = {
+		region_state:PAN = {
 			create_pop = {
 				culture = panjabi
 				religion = sunni
@@ -2279,7 +2285,7 @@ POPS = {
 		}
 	}
 	s:STATE_HILL_PUNJAB = {
-		region_state:DLH = {
+		region_state:PAN = {
 			create_pop = {
 				culture = panjabi
 				religion = hindu

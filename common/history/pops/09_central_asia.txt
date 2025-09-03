@@ -1234,7 +1234,7 @@
 	}
 	s:STATE_PASHTUNISTAN = {
 		# Downscaled data from 1931 census
-		region_state:PEC = {
+		region_state:PAN = {
 			# Peshawar (minority)
 			create_pop = {
 				culture = pashtun

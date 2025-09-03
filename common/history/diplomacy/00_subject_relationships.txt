@@ -213,180 +213,187 @@
 		}
 	}
 	c:DLH ?= {
-
 		create_diplomatic_pact = {
 			country = c:BHO
-			type = puppet
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:BIH
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BGL
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:AWA
-			type = puppet
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:PAN
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BUN
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:NAG
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BAS
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:HYD
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MYS
-			type = puppet
+			type = vassal
 		}
 
 		create_diplomatic_pact = {
 			country = c:IND
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MEW
-			type = puppet
+			type = vassal
 		}	
 		create_diplomatic_pact = {
 			country = c:JAI
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BER
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:JOD
-			type = puppet
+			type = vassal
 		}	
 
 		create_diplomatic_pact = {
 			country = c:JAS
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:COO
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:ASM
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:MNP
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:JHN
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:PUD
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KOT
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:IDA
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:NAW
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:DHA
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:JUN
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BHV
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:PLP
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:SAT
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KHP
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BAG
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:SUR
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KNO
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:ALW
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:PTA
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:GAR
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MUG
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:JEY
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:NAR
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:PTN
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MYB
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:MYB
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:COC
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:GWA
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BHW
-			type = protectorate
+			type = tributary
 		}
 	}
 	c:DAI ?= {
