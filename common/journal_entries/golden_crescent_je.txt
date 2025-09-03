@@ -1,0 +1,66 @@
+﻿je_golden_crescent = {
+
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		c:PER ?= this
+	}
+
+	possible = {
+		has_technology_researched = intensive_agriculture
+		any_scope_state = {
+			count >= 5
+			is_capital = no
+			OR = {
+				has_building = building_opium_plantation
+				has_building = building_tea_plantation
+				is_incorporated = yes
+			}
+		}
+		country_has_building_group_levels = {
+			type = bg_plantations
+			value  >= 40
+		}
+	}
+
+	immediate = {
+		trigger_event = { id = golden_crescent.1 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			100 = 0
+			10 = golden_crescent.2
+		}
+	}
+
+	complete = {
+		OR = {
+			leading_producer_of = g:opium
+			leading_producer_of = g:fabric
+			leading_producer_of = g:dye
+			leading_producer_of = g:tobacco
+		}
+		country_has_building_group_levels = {
+			type = bg_plantations
+			value  >= 150
+		}
+	}
+
+	on_complete = {
+		ig:ig_rural_folk = {
+			remove_ideology = ideology_agrarian
+			add_ideology = ideology_modern_agrarian
+		}
+		add_modifier = {
+			name = persian_boom
+			months = 60
+			is_decaying = yes
+		}
+	}
+
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}

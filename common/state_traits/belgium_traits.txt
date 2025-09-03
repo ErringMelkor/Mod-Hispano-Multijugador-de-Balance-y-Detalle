@@ -1,0 +1,8 @@
+﻿state_trait_ardennes_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+		modifier = {
+			building_group_bg_logging_throughput_add = 0.15
+			state_infrastructure_mult = -0.1
+	}
+}

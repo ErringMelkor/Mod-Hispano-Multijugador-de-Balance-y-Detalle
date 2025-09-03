@@ -1,0 +1,30 @@
+﻿towards_to_modernity1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.02
+	country_bureaucracy_add = 10
+}
+towards_to_modernity2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.04
+	country_bureaucracy_add = 20
+}
+towards_to_modernity3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.06
+	country_bureaucracy_add = 30
+}
+towards_to_modernity4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.08
+	country_bureaucracy_add = 40
+}
+towards_to_modernity5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.1
+	country_bureaucracy_add = 50
+}
+towards_to_modernity6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_spread_mult = 0.125
+	country_bureaucracy_add = 60
+}

@@ -1,0 +1,253 @@
+﻿Namespace = five_year_plan
+
+#este es el evento para mas larpeo jiji.
+#el five year plan .1 es el del rio amarillo, el .2 es el del rio yangtze o tambien conocido como rio azul
+
+five_year_plan.1 = {
+	type = country_event
+		placement = root
+
+		duration = 3
+
+		title = five_year_plan.1.t
+		desc = five_year_plan.1.d 
+		flavor = five_year_plan.1.f
+
+		event_image = {
+			video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+		}
+
+		icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+		cooldown = { months = normal_modifier_time }
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				has_state_trait =  state_trait_yellow_river
+			}
+		}
+	}
+	
+	option = {
+		name = five_year_plan.1.a
+		default_option = yes
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SHANXI
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_NINGXIA
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_QINGHAI
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_HENAN
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_ZHILI
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SHANDONG
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_HINGGAN
+			}
+			add_modifier = {
+				name = yellow_river_boom_demografico
+				months = 300
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+five_year_plan.2 = {
+	type = country_event
+		placement = root
+
+		duration = 3
+
+		title = five_year_plan.2.t
+		desc = five_year_plan.2.d 
+		flavor = five_year_plan.2.f
+
+		event_image = {
+			video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+		}
+
+		icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+		cooldown = { months = normal_modifier_time }
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				has_state_trait =  state_trait_yangtze_river
+			}
+		}
+	}
+	
+	option = {
+		name = five_year_plan.2.a
+		default_option = yes
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICHUAN
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+	    
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_YUNNAN
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CHONGQING
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_NANJING
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_JIANGXI
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SOUTHERN_ANHUI
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_HUBEI
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_EASTERN_HUBEI
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_HUNAN
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SUZHOU
+			}
+			add_modifier = {
+				name = blue_river_boom_demografico
+				months = 300
+				is_decaying = yes 
+			}
+		}
+	}
+}

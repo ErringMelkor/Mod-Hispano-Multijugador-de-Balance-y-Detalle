@@ -1,0 +1,628 @@
+﻿# INSTITUTIONS
+country_institution_size_change_speed_institution_military_mult = {
+
+	percent = yes
+
+}
+
+country_institution_cost_institution_military_mult = {
+
+	percent = yes
+}
+
+# --- CAVALRY --- #
+
+unit_combat_unit_type_revolver_cavalry_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_lancers_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_carabineer_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_offense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_offense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_offense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_lancers_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_revolver_cavalry_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_carabineer_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_lancers_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_revolver_cavalry_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_carabineers_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_hussars_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_dragoons_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_cuirassiers_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_lancers_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_revolver_cavalry_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_carabineer_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+unit_combat_unit_type_light_tank_offense_add ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_light_tank_offense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_light_tank_defense_add ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_light_tank_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+# --- INFANTRY --- #
+
+unit_combat_unit_type_irregular_infantry_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_line_infantry_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_skirmish_infantry_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_trench_infantry_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_squad_infantry_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mechanized_infantry_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_irregular_infantry_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_line_infantry_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_skirmish_infantry_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_trench_infantry_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_squad_infantry_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mechanized_infantry_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_irregular_infantry_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_line_infantry_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_skirmish_infantry_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_trench_infantry_defense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_squad_infantry_defense_add ={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mechanized_infantry_defense_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_irregular_infantry_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_line_infantry_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_skirmish_infantry_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+unit_combat_unit_type_trench_infantry_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_squad_infantry_defense_mult ={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mechanized_infantry_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+# --- ARTILLERY --- #
+
+unit_combat_unit_type_canon_artillery_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mobile_artillery_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_shrapnel_artillery_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_siege_artillery_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_heavy_tanks_offense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_canon_artillery_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mobile_artillery_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_shrapnel_artillery_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_siege_artillery_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_heavy_tanks_offense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_canon_artillery_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mobile_artillery_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_shrapnel_artillery_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_siege_artillery_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_heavy_tanks_defense_add = {
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_canon_artillery_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_mobile_artillery_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_shrapnel_artillery_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_siege_artillery_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_heavy_tanks_defense_mult = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+# --- SHIPS --- #

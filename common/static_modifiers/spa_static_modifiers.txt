@@ -1,0 +1,103 @@
+﻿carlist_war_legacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_birth_rate_mult = -0.02
+	state_working_adult_ratio_add = -0.01
+}
+
+upset_intelligentsia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+
+	interest_group_ig_intelligentsia_approval_add = -5
+}
+
+fino_balance = {
+		icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+
+	interest_group_in_opposition_approval_add = 3
+}
+
+mendizabal_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 3500
+	country_clergymen_pol_str_mult  = -0.1
+	country_loan_interest_rate_mult = -0.05
+}
+
+mendizabal_people = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_radicals_and_loyalists_from_sol_change_mult = -0.1
+	country_clergymen_pol_str_mult  = -0.1
+}
+
+mendizabal_people_radical = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_lower_strata_standard_of_living_add = 0.5
+	state_radicals_and_loyalists_from_sol_change_mult = -0.1
+	country_clergymen_pol_str_mult  = -0.1
+}
+
+madoz_people = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_radicals_and_loyalists_from_sol_change_mult = -0.25
+	country_clergymen_pol_str_mult  = -0.25
+}
+
+madoz_people_radical = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_lower_strata_standard_of_living_add = 1
+	state_radicals_and_loyalists_from_sol_change_mult = -0.35
+	country_clergymen_pol_str_mult  = -0.35
+}
+
+madoz_capitalists = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_clergymen_pol_str_mult  = -0.35
+	country_capitalists_pol_str_mult = 0.25
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+}
+
+madoz_capitalists_radical = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_clergymen_pol_str_mult  = -0.35
+	country_capitalists_pol_str_mult = 0.5
+	state_radicals_and_loyalists_from_sol_change_mult = 0.2
+}
+
+madoz_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 10000
+	country_loan_interest_rate_mult = -0.1
+	country_clergymen_pol_str_mult  = -0.35
+}
+
+regenta_maria_cristina = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.33
+	interest_group_ig_intelligentsia_pol_str_mult = 0.5
+
+}
+
+estatuto_real = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+
+	country_law_enactment_time_mult = 0.2
+	interest_group_ig_intelligentsia_pol_str_mult = 0.25
+}
+
+gaditanos_renovados = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_ig_intelligentsia_pol_str_mult = 1
+}
+
+fervor_nacional = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+
+	building_training_rate_mult = 0.25
+}
+
+planear_gran_campana = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+
+	country_diplomatic_play_maneuvers_add = 35
+}

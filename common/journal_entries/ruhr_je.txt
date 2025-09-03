@@ -1,0 +1,75 @@
+﻿je_ruhr_boom_main = {
+	icon = "gfx/interface/icons/event_icons/waving_flag_ger.dds"
+
+	group = je_group_internal_affairs
+
+
+	is_shown_when_inactive = {
+		is_player = yes
+		any_scope_state = {
+			state_region = s:STATE_WESTPHALIA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_RUHR
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_NORTH_RHINE
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = { has_variable = ruhr_boom_done }
+		}
+	}
+
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_WESTPHALIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_RUHR
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_NORTH_RHINE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 15
+			}
+		}
+		
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = ruhr_boom.1
+		}
+		set_variable = {
+			name = ruhr_boom_done
+			value = yes
+		}
+	}
+
+	
+	
+	
+
+	possible = {
+		has_technology_researched = dynamite
+		has_technology_researched = watertube_boiler
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

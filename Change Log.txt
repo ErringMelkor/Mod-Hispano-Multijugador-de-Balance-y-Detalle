@@ -1,0 +1,469 @@
+07/06/2025
+CHINA: Ajustar tierra arable, para que tenga hueco de crecimiento. La idea es que cada provincia no este tan ocupada (plantaciones)
+	Fujian: 80 --> 85
+	Eastern Guandong (SHAOZHOU): 110 --> 116 
+	Hunan 81 --> 87
+	Jiangxi 90 --> 99
+	Chongqing 93 --> 103
+	Ningxia 60 --> 73 
+	Xian 60 --> 72
+	Eastern Hubei 98 --> 101
+	Southern Anhui 124 --> 131
+	Suzhou 64 --> 76
+	Nanjing 60 --> 63
+	Northern Anhui 47 --> 53
+	Henan 90 --> 95
+	Beijing 55 --> 58
+	
+	Se agrego modificador estatal del Mar de Bohai/ Bohai Sea esto da:
+		10% throughput al pescado. 
+		Lista de estados donde se agrego:
+			Yangseo
+			Shengjing
+			Beijing
+			Hebei
+			Shandong
+Se agregaron dos journals juevos, FIVE YEAR PLANS.
+Se restauraron las misiones de China
+Se agrego un diario de literacy
+Se le dio una tech adicional, ideologia a la iglesia.
+			
+Japon:
+Se agrego, fabricas de armas, ropa y hierro en Kanto para que pueda sostener la infanteria de linea que se le agrego.
+13/6/25
+Se agregaron los journals de balanceo militar y los modificadores militares apropiados
+Se agregó el metodo de carbon vegetal para los aserraderos.
+Se fusiono la tecnologia de malaria prevention y antibioticos, y pasteurizacion con corriente alterna
+Se asignaron los metodos de pasteurizacion para que se activaran con corriente alterna, aunque el de pescado y ballenas no se pudieron asignar correctamente
+Se rebalancearon los decretos
+Se cambiaron los eventos de: Vampiro, nursing tech, event 03 y silk para reemplazar las techs que fueron borradas
+se agregaron mas localizaciones en el mismo archivo que antes updategatoasia
+
+
+------------------------------------------------------------------
+
+# 15-06-25 Erring
+
+Anotaciones generales:
+	Desacuerdo sobre la sobredosis de recursos (por ahora en Otomano).
+	Cambiar la localización de los "South_Slavic"
+
+Métodos de Producción:
+	Carbón Vegetal: 10 -> 5.
+
+Mapa:
+	Otomanos: 
+		Reajuste de sus recursos naturales, que suplían el MAPI al agregar carbón vegetal, y en preparativa a la Entrada de Diario de la Guerra de Crimea. Si no se nombra el bien, es carbón.
+		"otomanos_state_region":
+			Ankara: 2 -> 0
+			Trabzon: 2 -> 0 
+			Mosul: 6 -> 0
+			Konya: 8 -> 0
+			Hudavedingar: 6 -> 0
+			Diyarbakir: 0 hierro -> 32. Agregado Malatya Iron Deposits para un +10% throughput.
+			Kars: 0 hierro -> 12 hierro; 9 madera -> 10 madera
+			Cyprus: 0 hierro; 0 oro -> 12 hierro; 1 oro.
+			Kastamonu: 14 madera -> 22 madera
+			Aydin: 18 pescado -> 10 pescado.
+		"01_south_europe":
+			Eastern_Thrace: Eliminado carbón y plomo, reducido el hierro (sigue siendo más que en vanilla). Tierra Arable: 100 -> 80.
+			Bosnia: 4 -> 0
+			Northern_Thrace: 12 -> 0
+			Bulgaria: 12 -> 0
+			Northern Serbia: 6 -> 0
+			Egean Islands: 2 -> 0
+			Attica: 2 -> 0
+			Thessalia: 4 -> 0
+			Macedonia: 6 -> 0
+			Peloponnese: 2 -> 0
+			Western Thrace: 8 -> 0
+		"caucaso_state_regions":
+			Greater_Caucasus: 40 carbón; 24 hierro; 20 plomo -> 72 carbón; 28 hierro; 28 plomo.
+			Armenia: 27 hierro; 21 plomo; 2 madera -> 42 hierro; 31 plomo; 4 madera; 1 oro.
+	Escandinavia: 
+		Reajuste de sus recursos naturales con la adición del carbón vegetal.
+		El rasgo estatal de "Scandianvian Forests" aumenta el bono al throughput: 20% -> 25%.
+		"00_west_europe":
+			Minas de carbón:
+				Svealand: 19 -> 0
+				Scania: 12 -> 8
+				Eastern_Norway: 36 -> 0
+			Madera:
+				Svealand: 32 -> 58
+				Gotaland: 24 -> 28
+				Norrland: 26 -> 56
+				Northern_Norway: 12 -> 14
+				Western_Norway: 18 -> 22
+	España:
+		Agregado el modificador de la Meseta Ibérica a los estados de Castilla, Badajoz y Toledo, que otorga 10% al throughput de los ranchos.
+
+
+-------------------------------------------------
+
+# 19-06-25 Erring
+
+Métodos de Producción:
+	Carbón Vegetal: 5 -> 10
+
+Defines:
+	Recomiendo reducir el % del commit a las leyes por tratado de 0.25 a 0.05. (Cambio no incorporado).
+	Aumentado el mínimo de días para checkpoint de ley de 1 a 30.
+	Recomiendo reajustar el sistema de infamia, particularmente el escalado según la población, para que sea más barato conquistar territorios no incorporados y que el gradiente de población relativo y máximo del a infamia sea mayor.
+	Manpower perdido por desgaste máximo: 0.12 -> 0.16
+	Manpower multiplicador por desgaste a los ejércitos exiliados: 0.2 -> 0.25
+	Actualizados los defines.
+
+	Pop_Needs:
+		Experimental: Aumentado el peso del grano a 0.75 (1 en la 1.9); reducido el consumo máximo de 0.9 a 0.75.
+
+On_Actions:
+	Actualizados los dos archivos. Si queremos la unificacion de indonesia hay que meterlo.
+
+Static_Modifiers:
+	Aumentada la ganancia/pérdida de popularidad de los generales con las batallas a +-5.
+	Revertida la tax capacity de la capital de +100% a +25%.
+	Revisar el debuff de los salarios gubernamentales.
+	Nerfeado el bono por bienes de prestigio militares.
+
+Map Data:
+	Por hacer:
+		Agregar los recursos nuevos de UK a sus colonias.
+		Reducir la madera de la mainland de UK.
+		Considerar nerf a los edificios iniciales de GB.
+		Regresar los bufos de madera y pescado a Francia (salvo pescado en picardía).
+
+		Las Compañías Iniciales de día año 1 (y las techs respectivas).
+		La Compañía ruso americana de Alaska.
+
+		Agregar sectores de construcción y sectores de comercio a los países medios y pequeños (para los sectores de comercio, consultar la demanda inicial de los sectores; 100 de demanda = 1 sector).
+
+		Revisar el spawn de los formables nuevos en 00_code_on_actions (falta el de indochina).
+
+	Inglaterra:
+		Reducido el petróleo nativo de 40 a 10.
+		Reducida la madera nativa muy ligeramente (10 unidades); mover a Canadá (todavía no hecho).
+	Francia:
+		Revertidos los cambios a la madera.
+	Alemania:
+		Reducida su madera nativa en 10.
+	Sudamérica:
+		Aumentado su petróleo a los niveles de vanilla (en torno a 300-400 unidades más).
+	Otomanos:
+		Concentrados sus recursos residuales en provincias de la periferia; reducido el carbón de Constantinopla; aumentada la madera de Kastamonu.
+		
+
+Localizaciones pendientes:
+	La Plata Agro Complex (compañía).
+	Localizaciones de las JE del balanceo militar (Reasons/Texto).
+	
+
+Tareas por hacer:
+	Pasarle pincel a China (GM Corrupto).
+	Agregar las Ardenas a Valonia (+ aserraderos y 10% throughput, -10% infra).
+	Finalizar y localizar el evento de VietNam. (Pensar bono de unificacion: +5% EduAcc y -5% mortality?)
+	Modificador de hierro de Diyarbakir.
+	La apertura de Japón no funciona apropiadamente (te asigna solo el debuff completo a los Landowners).
+	Actualizar todos los modificadores de ríos/costa. En Italia solo a Campania y Venecia.
+
+	Rework a las compañías: 10% de throughput a todas las compañías y 1 charter adicional para suez. Panamá solo tiene el charter adicional.
+
+Tareas Hechas:
+	Creada la primera iteracion de compañías para la 1.9.0
+
+
+-------------------------------------------
+# 20/6/2025 Erring
+
+Compañías:
+	Actualizadas UK; RUS; USA para que las compañías empiecen con edificios y puedan ser rentables día 1. La de USA es medio pocha.
+	Quedan pendientes Francia, Prusia y los posibles minors que las tengan.
+	Queda pendiente actualizar las compañías austríacas para que no se pierdan con la formación de la SGF.
+
+Rasgos estatales:
+	Queda pendiente renovar los rasgos estatales costeros.
+	Quizá quede alguna localización pendiente.
+
+India:
+	Agregado un doble evento introductorio para la situación/lore de la compañía. Primera iteración.
+	Agregados tratados y puertos según el plan original de la Compañía Patwar. Queda pendiente agregar el tratado con UK. Términos y números a discutir para todos, por ahora orientativos narrativamente.
+
+China:
+	Revisar recursos, journal entries, modificadores.
+	Reajustar el puerto de Macao, que actualmente es una trampa por falta de tierra arable.
+	
+
+Localización:
+	Compactada la mayoría de la localización española para facilidad de edición y por redundancias. Todavía quedan algunos textos en inglés.
+	Localización inglesa pendiente de renovar para eliminar redundancias.
+
+Sugerencias/brainstorming:
+	Ahora que tenemos el sistema mundial de recursos podemos limitar mucho más la autarquía o escasez de los países.
+	Rusia: eliminar sulfuro en Viatka y Samara; que su sulfuro esté limitrado a la periferia.
+	Austria, Francia: Sin cambios, están bien como están, salvo quizás tema madera.
+	Prusia: También sin mayores cambios, yo diría.
+	UK: Petróleo a cuentagotas; quizá reducir su sulfuro (si nos ponemos técnico-históricos, lo sé, lo sé, UK se quedó atras con la 2da industrial pq no usaron industria quimica, explosivos y fertilizantes al mismo nivel que otros países como Alemania o USA.
+	USA: Yo le dejaría los recursos que tiene, USA debería ser el perfecto caso de aislación espléndida. Movería quizá un poco sus recursos para que no estén tan concentrados, pero el cambio más importante me parece su población. Es el nerfeo que más le puede doler comparativamente, imho.
+
+
+
+
+-----------------------------------------------------------
+
+# 24-06-25 Erring
+
+Nota: Por la prisa requerida el domingo, han quedado numerosos pequeños cambios sin registrar; puede que haya inconsistencia con los registros anteriores.
+
+Tratados:
+	Ajustada la Asistencia Militar para que no sea tan fuerte.
+	Ajustado el pago de dinero para que no cueste maniobras ni infamia.
+
+Modificadores:
+	Rebalanceado el modificador del Etíope para que no tenga una investigación tan desproporcionada.
+
+
+-------------------------------------------------------------
+
+# 25-06-25 Erring
+
+Actualizado hasta "diplomatic plays", inclusive, para el hotfix de la 1.9.3. Queda revisar el resto.
+
+PD: Comparando el consumo de los bienes de prestigio del vanilla al mod, me alegro mucho, mucho, de haberlos bajado a 0.1 de cuota mínima.
+
+
+------------------------------------------------------------
+
+# 27-06-25 Erring
+
+Actualizados dos eventos militares de avión/zeppelin (content 02; : 30 bono plano al Ataque -> 5 bono plano al Ataque.
+
+
+
+-----------------------------------------------------------
+
+#03-07-25 Erring
+
+Segundo reajuste general a la comida y agricultura.
+
+Subsistencia:
+	Grano: 0.8 -> 0.7
+	Servicios: 0.5 -> 0.45
+
+Demandas:
+	Aumentada en torno a un 10% la demanda de alimentos básicas.
+	Mínimo de consumo de 0.25 sobre 1 para el grano bajo la demanda de alimentos básicos.
+	El vino constituye un % menor de la demanda de bebidas de lujo, pero mayor como intoxicante.
+	La demanda de bebidas de lujo (té, café, vino) comienza antes: 15 SOL mínimo -> 8 SOL mínimo (idea tomada de Poorer Pops Drink Tea and Coffee - Luxury Drinks Reworked, por Ploofy. Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3502118742 Visto el: 03/07/2025).
+	Esta nueva demanda se ve compensada por la cantidad nimia que piden y por una reducción equivalente en costo a su necesidad de intoxicantes.
+
+Defines:
+	Reajustada la curva del crecimiento máximo por estándar de vida: 19 -> 17. Para subsanar la ligera mayor pobreza que hay de early game. Recomiendo usar de marco referencial a Francia de día 1, cuyo pop growth debería ser entre 0,2 y 0,3% anual.
+
+
+Principios:
+	Reworkeados los siguientes principios: Coordinación Ofensiva y Defensiva; Cívica Sagrada; Inversión extranjera.
+	Oficinas Coloniales: Otorga 2/4% de throughput a edificios en territorios no incorporados (hasta máximo de +10/20% a nivel 5).
+	Nuevo Principio: Enfoque Sanitario (estándar de vida; mortalidad; polución); Enfoque Agricultural; Enfoque Minería; Enfoque Burocracia.
+	#Posible principio de plantaciones, que te otorgue ventaja comercial en las exportaciones (pero habría que crear las definiciones).
+	#Inversión extranjera, bono al throughput de las sedes regionales? Hay que crear las definiciones.
+
+
+Map data:
+	Corregida la población de Nepal y aumentada su tierra arable para sostenerla.
+	#Para ti, 2000 años en el futuro: Separar Zanzíbar de Omán.
+
+	#PAra Erring: reajustar el tema de las tecnologias
+		tier 3 más caro
+		dividir tecnologías militares
+		bufar la rama de influencia en sociedad
+		mover filosofía analítica a tier 4 temprano.
+
+
+-------------------------------------------------------
+
+#04-07-25 Erring
+
+Demandas:
+	Introducida demanda mínima al azúcar para la comida de lujo e introducida la posibilidad de consumo de azúcar como alimento básico (cantidad muy pequeña, útil como aporte calórico, en torno a un 0,25% de los gastos alimentarios de una pop con 17 SOL va al azúcar).
+
+Principios:
+	Finalizado el esqueleto del Principio Agricultural.
+
+
+--------------------------------------------------------
+
+# 07-07-2025 Erring
+
+Arte:
+	Agregados iconos para los nuevos métodos.
+	
+Tecnologías:
+	Ligeramente encarecida la Era 3: 11750 -> 12000 (500pts más barato que vanilla).
+	Reestructuración del árbol de tecnologías militar: agregadas varias tecnologías nuevas y divididas otras tantas.
+	Alterado el orden de Filosofía Analítica; Behavorism; Psicoanálisis. Movidas a tier 4. Posible tier 5: Psicología Gestalt.
+	Behavorism otorga reducción de exhaustion y reducción a la pérdida de moral.
+	Pendiente: Scientific Management. Tier 5, tras Corporate Management.
+	
+	
+
+Militar:
+	Logística:
+		Aumentado el tiempo necesario para mobilizar y demobilizar el ejército.
+		Mayor importancia del transporte para la mobilización y velocidad de movimiento de las tropas.
+		Aumentadas las bajas por desgaste entre un 33% y un 50%.
+		Las bajas por desgaste causan menos mortalidad: 30% -> 20%.
+		Ahora métodos de mobilización y tecnologías reducen las bajas por desgaste.
+		Coste de convoyes por batallón: 10 -> 15.
+		(Pendiente: Mover coste de la mobilización de ferrocarriles al bien de Transporte y no solo a motores).
+
+		Base de datos para las unidades militares. Enlace: https://docs.google.com/spreadsheets/d/1f9nYKnBmY1LeLgLFVBrBxSeXpzPA1AIELPOVIYcdhf0/edit?usp=sharing
+
+	Batalla:
+		Reducida la ganancia de moral en el ejército: 0.03 -> 0.015
+		Dos nuevas unidades de caballería: con revolver y con carabina.
+		Rebalanceados los métodos de mobilización.
+		Aumentados los bonos por experiencia de las unidades.
+		Agregado un quinto nivel de veteranía.
+	
+	Naval:
+		Aumentada la velocidad de presencia naval en un nodo.
+		Aumentado el convoy raiding.
+		Dos nuevas unidades navales pre acorazados.
+		Agregado coste de carbón y petróleo a las unidades navales.
+
+Map Data:
+	Actualizado el petróleo a nivel mundial en base a los valores vanilla (teniendo en cuenta también las anteriores incorporaciones del mod).
+	Creado mapa de recursos gracias a Vic3MapCSharp. Actualizar y subirlo públicamente una vez esté finalizado el mod. Actualizar el mapa político tras la partida semanal.
+	Enlace: https://forum.paradoxplaza.com/forum/threads/tool-vic3-mapper.1550357/
+	
+Hotfixes: Bajadas las warreps a 5% de ingresos hasta que Paradox arregle su mierda.
+	
+Anotación: Angola, Congo Brazzaville, Cameroon, Côte d’Ivoire, Guinea and Ghana. Ukwazi. Hierro.
+	https://gmesgeoportal.rcmrd.org/maps/e1f8c7cfc20d47ca906fdbdd0d8c761b/explore?location=-29.065676%2C19.822075%2C5.89
+
+
+
+
+----------------
+
+#10-7-25 Erring
+
+Países:
+	Estados Unidos:
+		Aumentado el penalizador del Compromiso de Missouri.
+	Gran Bretaña:
+		Movido el líder de la PB a agitador. Sustituido por el líder histórico del gobierno británico de ese momento, de ideología proteccionista.
+		Sustituida Libertad de Conciencia por Religión de Estado.
+
+Leyes:
+	Económicas:
+		Reducido el % mínimo de propiedad para granjeros bajo Homesteading: 50% -> 25%
+
+Militar:
+	Aumentado el penalizador por bloqueo: 75% -> 90%
+
+Revisar Alemania (cambiar petroleo por recursos en el ruhr). Revisar bono del Ruhr.
+
+
+---------------
+
+#14-07-25 Erring
+
+Mapa:
+	Alemania: Rebalanceo de los recursos para favorecer al Ruhr; reducido su petróleo.
+		Elba; Hanover: 60 petróleo -> 20
+		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
+	Buff a Alsacia-Lorena.
+	Reducido el sulfuro en el territorio core ruso.
+	Motosierra de Milei a los recursos (no mires misy).
+
+Economía:
+	Aumentada la mortalidad para obreros y maquinistas en edificios de minería e industria pesada.
+	Trasferidos los bonos de las compañías de los valores base a relativo del ranking y, sobre todo, al bien de prestigio (5 -> 20%).
+
+Compañías:
+	Buff a la compañía del mandato de construcción.
+
+Principios:
+	Actualizados los principios.
+	
+Militar:
+	Añadidas nuevas battle conditions.
+	Aumentado el bono de throughput por el bien de prestigio militar.
+
+Bloques:
+	La IA no debería abandonar el bloque nunca. 
+	La única "excepción" es si otro bloque tiene potestad sobre esta y decide saltar de bloque; posible solución sería poner condición de aceptación para la IA más alta.
+
+TO-DO:
+		Revisar lógica de la IA para la compra de edificios por parte de las compañías; que prefieran construir nuevos antes que comprar.
+		Nerf a tintes (plantación).
+		
+		Potato Famine.
+		Revisar Unión Ideológica.
+		Sacred Civics única de la Iglesia.
+		Paz Scripteada para la Guerra Ruso-Turca.
+		Devolver los 20 de caballería a francia.
+		USA dar mas fuerza compromiso missouri. #Hecho
+		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
+		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
+		Finalizar los tratados "históricos" de la Compañía Patwar.
+		Terminar de localizar la Guerra Ruso-Turca.
+
+-----------------
+
+#20-07-25 Erring
+
+Rusia:
+	Terminada la Guerra Ruso-Turca; si hay tiempo agregar un botón scripteado de contenido adicional para firmar la paz (en caso de que no hayan tomado las opciones más drásticas).
+
+Latinoamérica:
+	Aumentado el bono de los modificadores de IG para Brasil y Mexico.
+
+USA:
+	Aumentada la dificultad de la Guerra Civil y del movimiento Pro Esclavitud.
+	La aceptación requerida para volver cultura primaria a los afroamericanos pasa de ser base al promedio total de los modificadores.
+	Comienza con una variante de Tasación al Consumo.
+
+Mexico:
+	Agregada una Decisión para obtener claims sobre las llanuras americanas, destino manifiesto reversed.
+
+Map Data:
+	Reajustes de recursos para que sea más concentrado y limitado.
+
+Compañías:
+	Mexico: Fusiles Mondragón; Cooperativa La Cruz Azul.
+	Rusia: Ahlstrom; Lena.
+	África: Groupe Managem.
+
+Métodos:
+	Nerf a las plantaciones de tinte.
+
+TO-DO:
+		Potato Famine. #Medio Hecho, tiene una journal de opresión a los irlandeses.
+		Revisar Unión Ideológica.
+		Sacred Civics única de la Iglesia.
+		Paz Scripteada para la Guerra Ruso-Turca.
+		Devolver los 20 de caballería a francia. #Hecho
+		Irlanda Nerf para UK. #Hecho
+		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
+		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla. #NicolPendiente
+		Finalizar los tratados "históricos" de la Compañía Patwar.
+		Terminar de localizar la Guerra Ruso-Turca. #Hecho
+		Formable de Indochina/Vietnam.
+
+		Revisar los recursos de China: Petróleo y Plomo.
+
+		Buffar los IG de Mexico.
+
+		Hacer compañía exclusiva de etiopia (1-2).
+		
+
+------------------
+
+Mapa:
+	América:
+		Agregado el Estrecho de Darién.
+	Asia:
+		Ajustado Macao para que sea funcional bajo las circunstancias del mod.
+	África:
+		Agregada tierra arable a Mozambique (el mozambique portugués comenzaba con 10k desempleados).

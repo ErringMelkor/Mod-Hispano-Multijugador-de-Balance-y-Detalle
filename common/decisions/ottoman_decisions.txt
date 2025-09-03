@@ -1,0 +1,125 @@
+﻿la_ultima_cruzada = {
+	is_shown = {
+		C:TUR ?= this
+		NOT = { has_variable = la_ultima_cruzada }
+	}
+
+	possible = {
+		has_law = law_type:law_state_religion
+		has_law = law_type:law_monarchy
+		is_at_war = yes
+	}
+
+	when_taken = {
+
+		add_loyalists = {
+			value = 0.05
+			religion = rel:sunni
+		}
+
+		add_loyalists = {
+			value = 0.1
+			religion = rel:shiite
+		}
+
+		add_radicals = {
+			value = 0.15
+			religion =rel:catholic
+		}
+
+		add_radicals = {
+			value = 0.20
+			religion =rel:orthodox
+		}
+
+		add_modifier = {
+			name = la_ultima_cruzada
+			months = 12
+			is_decaying = yes
+		}
+
+		set_variable = {
+			name = la_ultima_cruzada
+			months = 120
+		}
+
+		add_modifier = {
+			name = sponsored_state_jihad
+			months = 120
+		}
+	}
+
+	ai_chance = {
+		base = 4
+	}
+}
+
+integrar_ejercito = {
+	is_shown = {
+		C:TUR ?= this
+		NOT = { has_variable = integrar_ejercito }
+	}
+
+	possible = {
+		NOT = { has_law = law_type:law_peasant_levies }
+		OR = {
+			has_law = law_type:law_cultural_exclusion
+			has_law = law_type:law_multicultural
+		}
+			has_law = law_type:law_total_separation
+	}
+
+	when_taken = {
+
+		add_loyalists = {
+			value = 0.05
+			culture = cu:greek
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:bulgarian
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:albanian
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:kurdish
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:serb
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:mashriqi
+		}
+		add_loyalists = {
+			value = 0.05
+			culture = cu:misri
+		}
+
+		add_radicals = {
+			value = 0.1
+			culture = cu:turkish
+		}
+
+		add_radicals = {
+			value = 0.1
+			religion = rel:sunni
+		}
+
+		ig:ig_armed_forces = {
+				set_ig_trait = ig_trait:ig_trait_the_unshackled_empire
+
+				add_ideology = ideology_state_ottomanism
+			}
+		set_variable = integrar_ejercito
+	}
+
+	ai_chance = {
+		base = 4
+	}
+
+}

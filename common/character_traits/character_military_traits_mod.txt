@@ -1,0 +1,747 @@
+﻿basic_cavalry_commander = {
+ 	type = skill
+	texture = gfx/interface/icons/character_trait_icons/basic_cavalry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_hussars_offense_mult = 0.05
+		unit_combat_unit_type_dragoons_defense_mult = 0.05
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.05
+		unit_combat_unit_type_lancers_offense_mult = 0.05
+		unit_combat_unit_type_revolver_cavalry_offense_mult = 0.05
+		unit_combat_unit_type_carabineer_defense_mult = 0.05
+ 	}
+
+ 	possible = {
+ 		has_role = general
+ 		owner ?= {
+ 			has_technology_researched = standing_army
+ 		}
+ 		NOR = {
+ 			has_trait = experienced_cavalry_commander
+ 			has_trait = expert_cavalry_commander
+ 		}
+ 		NOT = { age < define:NCharacters|ADULT_AGE }
+ 	}
+
+ 	weight = {
+ 		value = 5
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_hussars
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_dragoons
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_cuirassiers
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_lancers
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_revolver_cavalry
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_carabineer
+							value >= 0.25
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		inexperienced
+ 	}
+
+ 	value = 1
+}
+
+experienced_cavalry_commander = {
+	type = skill
+	texture = gfx/interface/icons/character_trait_icons/experienced_cavalry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_hussars_offense_mult = 0.1
+		unit_combat_unit_type_dragoons_defense_mult = 0.1
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.1
+		unit_combat_unit_type_lancers_offense_mult = 0.1
+		unit_combat_unit_type_revolver_cavalry_offense_mult = 0.1
+		unit_combat_unit_type_carabineer_defense_mult = 0.1
+ 	}
+
+ 	possible = {
+		has_trait = basic_cavalry_commander
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+ 	weight = {
+ 		value = 3
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_hussars
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_dragoons
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_cuirassiers
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_lancers
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_revolver_cavalry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_carabineer
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		basic_cavalry_commander
+ 	}
+
+ 	value = 2
+}
+
+expert_cavalry_commander = {
+	type = skill
+	texture = gfx/interface/icons/character_trait_icons/expert_cavalry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_hussars_offense_mult = 0.15
+		unit_combat_unit_type_dragoons_defense_mult = 0.15
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.15
+		unit_combat_unit_type_lancers_offense_mult = 0.15
+		unit_combat_unit_type_revolver_cavalry_offense_mult = 0.15
+		unit_combat_unit_type_carabineer_defense_mult = 0.15
+ 	}
+
+ 	possible = {
+		has_trait = experienced_cavalry_commander
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+ 	weight = {
+ 		value = 3
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_hussars
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_dragoons
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_cuirassiers
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_lancers
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_revolver_cavalry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_carabineer
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		experienced_cavalry_commander
+ 	}
+
+ 	value = 3
+}
+
+basic_infantry_commander = {
+ 	type = skill
+	texture = gfx/interface/icons/character_trait_icons/basic_infantry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_line_infantry_defense_mult = 0.05
+		unit_combat_unit_type_skirmish_infantry_defense_mult = 0.05
+		unit_combat_unit_type_trench_infantry_defense_mult = 0.05
+		unit_combat_unit_type_squad_infantry_defense_mult = 0.05
+		unit_combat_unit_type_mechanized_infantry_defense_mult = 0.05
+ 	}
+
+ 	possible = {
+ 		has_role = general
+ 		owner ?= {
+ 			has_technology_researched = standing_army
+ 		}
+ 		NOR = {
+ 			has_trait = experienced_infantry_commander
+ 			has_trait = expert_infantry_commander
+ 		}
+ 		NOT = { age < define:NCharacters|ADULT_AGE }
+ 	}
+
+ 	weight = {
+ 		value = 5
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_line_infantry
+							value >= 0.75
+						}
+					}
+				}
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_trench_infantry
+							value >= 0.75
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_skirmish_infantry
+							value >= 0.75
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_squad_infantry
+							value >= 0.75
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_mechanized_infantry
+							value >= 0.75
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		inexperienced
+ 	}
+
+ 	value = 1
+}
+
+experienced_infantry_commander = {
+	type = skill
+	texture = gfx/interface/icons/character_trait_icons/experienced_infantry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_line_infantry_defense_mult = 0.05
+		unit_combat_unit_type_skirmish_infantry_defense_mult = 0.05
+		unit_combat_unit_type_trench_infantry_defense_mult = 0.05
+		unit_combat_unit_type_squad_infantry_defense_mult = 0.05
+		unit_combat_unit_type_mechanized_infantry_defense_mult = 0.05
+ 	}
+
+ 	possible = {
+		has_trait = basic_infantry_commander
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+ 	weight = {
+ 		value = 2
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_line_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_trench_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_skirmish_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_squad_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_mechanized_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		basic_infantry_commander
+ 	}
+
+ 	value = 2
+}
+
+expert_infantry_commander = {
+	type = skill
+	texture = gfx/interface/icons/character_trait_icons/expert_infantry_commander.dds
+
+ 	command_modifier = {
+ 		unit_combat_unit_type_line_infantry_defense_mult = 0.05
+		unit_combat_unit_type_skirmish_infantry_defense_mult = 0.05
+		unit_combat_unit_type_trench_infantry_defense_mult = 0.05
+		unit_combat_unit_type_squad_infantry_defense_mult = 0.05
+		unit_combat_unit_type_mechanized_infantry_defense_mult = 0.05
+ 	}
+
+ 	possible = {
+		has_trait = experienced_infantry_commander
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+ 	weight = {
+ 		value = 2
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_line_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_trench_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_skirmish_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_squad_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					any_military_formation = {
+						is_army = yes
+						any_scope_general = {
+							this = root
+						}
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_mechanized_infantry
+							value >= 0.20
+						}
+					}
+				}
+			}
+			multiply = 10
+		}
+ 	}
+
+ 	replace = {
+		expert_infantry_commander
+ 	}
+
+ 	value = 3
+}
+
+

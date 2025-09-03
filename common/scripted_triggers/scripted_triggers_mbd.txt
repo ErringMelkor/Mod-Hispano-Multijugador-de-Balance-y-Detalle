@@ -1,0 +1,50 @@
+﻿
+is_russo-turkish_east_region = {
+	AND = {
+		any_scope_state = {
+			state_region = s:STATE_KARS
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_TRABZON
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_ERZURUM
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_KASTAMONU
+			is_incorporated = yes
+			is_split_state = no
+		}
+	}
+}
+
+is_russo-turkish_west_region = {
+	AND = {
+		any_scope_state = {
+			state_region = s:STATE_MOLDOVA
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_DOBRUDJA
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_WALLACHIA
+			is_incorporated = yes
+			is_split_state = no
+		}
+		any_scope_state = {
+			state_region = s:STATE_BULGARIA
+			is_incorporated = yes
+			is_split_state = no
+		}
+	}
+}

@@ -1,0 +1,55 @@
+﻿GLOBAL = {
+	s:STATE_ARAGON = {
+		set_devastation = 20
+
+		region_state:SPA = {
+			add_modifier = {
+				name = carlist_war_legacy
+				years = 5
+				is_decaying = yes
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+		}
+	}
+
+	s:STATE_CATALONIA = {
+		set_devastation = 20
+
+		region_state:SPA = {
+			add_modifier = {
+				name = carlist_war_legacy
+				years = 5
+				is_decaying = yes
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+		}
+	}
+
+	s:STATE_NAVARRA = {
+		set_devastation = 20
+
+			region_state:SPA = {
+				add_modifier = {
+					name = carlist_war_legacy
+					years = 5
+					is_decaying = yes
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+			add_radicals_in_state = {
+				value = 0.05
+			}
+		}
+	}
+}	

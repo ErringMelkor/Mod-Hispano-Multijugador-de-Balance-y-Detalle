@@ -1,0 +1,347 @@
+﻿ideology_indian_princes = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = neutral
+		law_theocracy = disapprove			
+		law_presidential_republic = approve
+		law_parliamentary_republic = neutral
+		law_corporate_state = disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_single_party_state = neutral
+		law_landed_voting = approve
+		law_autocracy = strongly_approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = neutral
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = approve
+		law_appointed_bureaucrats = neutral
+		law_elected_bureaucrats = disapprove
+	}
+	
+	lawgroup_economic_system = {
+		law_laissez_faire = strongly_disapprove
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+		law_industry_banned = disapprove		
+		law_interventionism = neutral
+		law_agrarianism = neutral
+		law_traditionalism = approve
+		law_extraction_economy = strongly_approve
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = neutral
+		law_land_based_taxation = positive
+		law_proportional_taxation = disapprove
+		law_consumption_based_taxation = strongly_approve
+		law_graduated_taxation = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_disapprove
+		law_legacy_slavery = disapprove
+		law_slave_trade = neutral
+		law_debt_slavery = strongly_approve
+	}
+
+	lawgroup_caste_hegemony = {
+		law_hindu_caste_enforced = strongly_approve
+		law_hindu_caste_codified = approve
+		law_hindu_caste_not_enforced = disapprove
+		law_affirmative_action = strongly_disapprove
+	}
+}
+
+ideology_indian_princes_2 = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = neutral
+		law_theocracy = disapprove			
+		law_presidential_republic = approve
+		law_parliamentary_republic = neutral
+		law_corporate_state = disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_single_party_state = neutral
+		law_landed_voting = approve
+		law_autocracy = strongly_approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = neutral
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = approve
+		law_appointed_bureaucrats = neutral
+		law_elected_bureaucrats = disapprove
+	}
+	
+	lawgroup_economic_system = {
+		law_laissez_faire = neutral
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = disapprove
+		law_industry_banned = disapprove		
+		law_interventionism = neutral
+		law_agrarianism = strongly_approve
+		law_traditionalism = neutral
+		law_extraction_economy = strongly_disapprove
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = neutral
+		law_land_based_taxation = positive
+		law_proportional_taxation = disapprove
+		law_consumption_based_taxation = strongly_approve
+		law_graduated_taxation = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_disapprove
+		law_legacy_slavery = disapprove
+		law_slave_trade = neutral
+		law_debt_slavery = strongly_approve
+	}
+
+	lawgroup_caste_hegemony = {
+		law_hindu_caste_enforced = strongly_approve
+		law_hindu_caste_codified = approve
+		law_hindu_caste_not_enforced = neutral
+		law_affirmative_action = disapprove
+	}
+}
+
+ideology_physiocrats = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = 	strongly_disapprove
+		law_theocracy = disapprove			
+		law_presidential_republic = approve
+		law_parliamentary_republic = approve
+		law_corporate_state = approve
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_single_party_state = neutral
+		law_landed_voting = approve
+		law_autocracy = strongly_approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = neutral
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = disapprove
+		law_appointed_bureaucrats = neutral
+		law_elected_bureaucrats = approve
+	}
+	
+	lawgroup_economic_system = {
+		law_laissez_faire = strongly_disapprove
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+		law_industry_banned = disapprove
+		law_traditionalism = disapprove	
+		law_interventionism = approve
+		law_extraction_economy = approve
+		law_agrarianism = strongly_approve
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = neutral
+		law_land_based_taxation = approve
+		law_proportional_taxation = disapprove
+		law_consumption_based_taxation = strongly_approve
+		law_graduated_taxation = strongly_approve
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = approve
+		law_legacy_slavery = neutral
+		law_slave_trade = disapprove
+		law_debt_slavery = disapprove
+	}
+
+	lawgroup_caste_hegemony = {
+		law_hindu_caste_enforced = approve
+		law_hindu_caste_codified = approve
+		law_hindu_caste_not_enforced = neutral
+		law_affirmative_action = disapprove
+	}
+}
+
+ideology_british_entrepeneurs = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = neutral
+		law_theocracy = disapprove			
+		law_presidential_republic = strongly_approve
+		law_parliamentary_republic = neutral
+		law_corporate_state = disapprove
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_single_party_state = approve
+		law_landed_voting = approve
+		law_autocracy = strongly_approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = neutral
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = disapprove
+		law_appointed_bureaucrats = approve
+		law_elected_bureaucrats = neutral
+	}
+	
+	lawgroup_economic_system = {
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+		law_traditionalism = strongly_disapprove
+		law_industry_banned = disapprove		
+		law_agrarianism = disapprove
+		law_interventionism = neutral
+		law_laissez_faire = approve
+		law_extraction_economy = strongly_approve
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = neutral
+		law_land_based_taxation = positive
+		law_proportional_taxation = disapprove
+		law_consumption_based_taxation = strongly_approve
+		law_graduated_taxation = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_disapprove
+		law_legacy_slavery = disapprove
+		law_slave_trade = neutral
+		law_debt_slavery = strongly_approve
+	}
+
+	lawgroup_caste_hegemony = {
+		law_hindu_caste_enforced = strongly_approve
+		law_hindu_caste_codified = approve
+		law_hindu_caste_not_enforced = disapprove
+		law_affirmative_action = strongly_disapprove
+	}
+
+	lawgroup_health_system = {
+		law_private_health_insurance = strongly_approve
+		law_no_health_system = approve
+		law_charitable_health_system = neutral
+		law_public_health_insurance = disapprove
+	}
+	
+	lawgroup_education_system = {
+		law_private_schools = approve
+		law_public_schools = neutral
+		law_religious_schools = neutral
+		law_no_schools = neutral
+	}
+}
+
+ideology_british_entrepeneurs_2 = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = neutral
+		law_theocracy = disapprove			
+		law_presidential_republic = strongly_approve
+		law_parliamentary_republic = neutral
+		law_corporate_state = disapprove
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_single_party_state = approve
+		law_landed_voting = approve
+		law_autocracy = strongly_approve
+		law_oligarchy = strongly_approve
+		law_wealth_voting = neutral
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = disapprove
+		law_appointed_bureaucrats = approve
+		law_elected_bureaucrats = neutral
+	}
+	
+	lawgroup_economic_system = {
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = disapprove
+		law_traditionalism = strongly_disapprove
+		law_industry_banned = strongly_disapprove		
+		law_agrarianism = disapprove
+		law_interventionism = neutral
+		law_laissez_faire = strongly_approve
+		law_extraction_economy = strongly_disapprove
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = neutral
+		law_land_based_taxation = positive
+		law_proportional_taxation = disapprove
+		law_consumption_based_taxation = strongly_approve
+		law_graduated_taxation = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_disapprove
+		law_legacy_slavery = disapprove
+		law_slave_trade = neutral
+		law_debt_slavery = strongly_approve
+	}
+
+	lawgroup_caste_hegemony = {
+		law_hindu_caste_enforced = strongly_approve
+		law_hindu_caste_codified = approve
+		law_hindu_caste_not_enforced = neutral
+		law_affirmative_action = disapprove
+	}
+
+	lawgroup_health_system = {
+		law_private_health_insurance = strongly_approve
+		law_no_health_system = approve
+		law_charitable_health_system = neutral
+		law_public_health_insurance = disapprove
+	}
+	
+	lawgroup_education_system = {
+		law_private_schools = approve
+		law_public_schools = neutral
+		law_religious_schools = neutral
+		law_no_schools = neutral
+	}
+}

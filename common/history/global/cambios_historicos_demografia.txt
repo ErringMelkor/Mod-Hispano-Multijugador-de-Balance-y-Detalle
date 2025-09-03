@@ -1,0 +1,185 @@
+﻿GLOBAL = {
+
+	### Francia ###
+
+	s:STATE_FRENCH_LOW_COUNTRIES = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_PICARDY = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_NORMANDY = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_BRITTANY = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_MAINE_ANJOU = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_ORLEANS = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_ILE_DE_FRANCE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_CHAMPAGNE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_BURGUNDY = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_LORRAINE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_ALSACE_LORRAINE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_FRANCHE_COMTE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_POITOU = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_AQUITAINE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_AUVERGNE_LIMOUSIN = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_GUYENNE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25 
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_LANGUEDOC = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_RHONE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25
+				is_decaying = yes
+			}
+		}
+	}
+	s:STATE_CORSICA = {
+		region_state:FRA = {
+			add_modifier = {
+				name = fra_napoleonic_wars_legacy
+				years = 25
+				is_decaying = yes
+			}
+		}
+	}
+}

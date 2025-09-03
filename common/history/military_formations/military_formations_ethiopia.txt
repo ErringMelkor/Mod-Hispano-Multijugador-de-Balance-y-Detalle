@@ -1,0 +1,53 @@
+﻿MILITARY_FORMATIONS = {
+	c:SHW ?= {
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ethiopia
+			name = Shewan_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_OROMIA
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AMHARA
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_AMHARA
+				count = 10
+			}
+			save_scope_as = shewa_ethi_arm
+		}
+
+		create_character = { # EGY, admiral
+			is_general = yes
+			first_name = Haile
+			last_name = Giorgis
+			historical = yes
+			culture = cu:oromo
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			birth_date = 1801.1.22
+			hq = region_ethiopia
+			commander_rank = commander_rank_3
+			traits = {
+				direct
+				ambitious
+				meticulous
+				brave
+				mountain_commander
+				tactful
+			}
+			save_scope_as = shewa_ethi_gen
+		}
+
+		scope:shewa_ethi_gen = {
+			transfer_to_formation = scope:shewa_ethi_arm
+		}
+	}
+}

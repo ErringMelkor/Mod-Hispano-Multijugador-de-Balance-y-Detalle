@@ -1,0 +1,66 @@
+﻿russian_small_border_pursuit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_infamy_decay_mult = -0.15
+	country_diplomatic_play_maneuvers_add = 15
+}
+
+russian_big_border_pursuit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_infamy_decay_mult = -0.35
+	country_diplomatic_play_maneuvers_add = 25
+}
+
+russian_gentle_border_pursuit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_infamy_decay_mult = 0.1
+	country_influence_mult = 0.1
+}
+
+no_russo-turkish_war = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_approval_add = -3
+}
+
+rally_against_russia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_conscription_rate_mult = 0.25
+	building_training_rate_mult = 0.1
+}
+
+russian_national_pride_hurt = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_in_opposition_approval_add = -3
+	country_influence_mult = -0.25
+	country_prestige_mult = -0.1
+	state_assimilation_mult = -0.25
+	building_training_rate_mult = -0.1
+	unit_morale_damage_mult = -0.1
+}
+
+russian_national_pride_destroyed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_in_opposition_approval_add = -3
+	country_influence_mult = -0.35
+	country_prestige_mult = -0.1
+	state_assimilation_mult = -0.5
+	building_training_rate_mult = -0.15
+	unit_morale_damage_mult = -0.15
+}
+
+russian_winner = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_influence_mult = 0.15
+	unit_morale_damage_mult = 0.1
+}
+
+russian_big_winner = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_influence_mult = 0.25
+	unit_morale_damage_mult = 0.15
+}
+
+ottoman_winner = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_influence_mult = 0.15
+	unit_morale_damage_mult = 0.1
+}

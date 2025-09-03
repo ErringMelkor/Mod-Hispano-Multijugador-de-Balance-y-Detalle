@@ -1,0 +1,29 @@
+﻿GLOBAL = {
+	s:STATE_WEST_BENGAL = {
+		set_devastation = 5
+	}
+	s:STATE_EAST_BENGAL = {
+		set_devastation = 5
+	}
+	s:STATE_BIHAR = {
+		set_devastation = 5
+	}
+	s:STATE_AWADH = {
+		set_devastation = 5
+	}
+	s:STATE_AGRA = {
+		set_devastation = 5
+	}
+	s:STATE_DELHI = {
+		set_devastation = 5
+	}
+	s:STATE_ORISSA = {
+		set_devastation = 5
+	}
+	s:STATE_CIRCARS = {
+		set_devastation = 5
+	}
+	s:STATE_MADRAS = {
+		set_devastation = 5
+	}
+}	

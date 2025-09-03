@@ -1,0 +1,88 @@
+﻿namespace = manifest_destiny_mexico
+
+# Completed Destino de Mexico JE
+manifest_destiny_mexico.1 = {
+	type = country_event
+	placement = ROOT
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	title = manifest_destiny.1.t
+	desc = manifest_destiny.1.d
+	flavor = manifest_destiny.1.f
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = manifest_destiny_mexico.1.a
+		default_option = yes
+		s:STATE_CALIFORNIA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_NEVADA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_UTAH = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_ARIZONA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_NEW_MEXICO = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_TEXAS = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_WYOMING = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_MONTANA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_NORTH_DAKOTA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_SOUTH_DAKOTA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_NEBRASKA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_KANSAS = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_OKLAHOMA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_LOUISIANA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_ARKANSAS = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_MISSOURI = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_IOWA = {
+			add_homeland = cu:mexican
+		}
+		s:STATE_MINNESOTA = {
+			add_homeland = cu:mexican
+		}
+		add_modifier = {
+			name = mex_explosion_demografica
+			years = 10
+			is_decaying = yes
+		}
+	}
+}

@@ -1,0 +1,65 @@
+﻿GLOBAL = {
+
+	s:STATE_MUNSTER = {
+		region_state:GBR = {
+			add_modifier = {
+				name = irish_oppression
+			}
+			add_radicals_in_state = {
+				value = 0.1
+				culture = cu:irish
+			}
+			add_acceptance = {
+				target = cu:irish
+				value = -20
+			}
+		}
+	}
+
+	s:STATE_LEINSTER = {
+		region_state:GBR = {
+			add_modifier = {
+				name = irish_oppression
+			}
+			add_radicals_in_state = {
+				value = 0.15
+				culture = cu:irish
+			}
+			add_acceptance = {
+				target = cu:irish
+				value = -20
+			}
+		}
+	}
+
+	s:STATE_CONNAUGHT = {
+		region_state:GBR = {
+			add_modifier = {
+				name = irish_oppression
+			}
+			add_radicals_in_state = {
+				value = 0.1
+				culture = cu:irish
+			}
+			add_acceptance = {
+				target = cu:irish
+				value = -20
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:GBR = {
+			add_modifier = {
+				name = irish_oppression
+			}
+			add_radicals_in_state = {
+				value = 0.1
+				culture = cu:irish
+			}
+			add_acceptance = {
+				target = cu:irish
+				value = -20
+			}
+		}
+	}
+}	

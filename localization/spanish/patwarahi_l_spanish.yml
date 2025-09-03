@@ -1,0 +1,24 @@
+﻿l_spanish:
+ 
+ patwarahi_new_india_modifier: "La Noveau Europe"
+
+ patwarahi.1.t: "El Nacimiento de la Compañía Patwar"
+ patwarahi.1.d: "En esta línea temporal la India no fue conquistada en exclusiva por Gran Bretaña. Para hacer frente a los Imperios Mogol y Maratha, los intereses europeos, encabezados por individuos y capital privados, forjaron una frágil alianza transnacional: la Compañía Patwar. Tras una espectacular victoria que les aseguraría el dominio de Bengal a finales del siglo XVII, quizás no vista desde los tiempos de Cortés y Pizarro, las riquezas de la región atrayeron a muchos europeos, principalmente franceses, valones, flamencos y neerlandeses, que daría lugar al nacimiento de la cultura criolla patwarahi. Muchos de estos nuevos mestizos pasarían a componer las clases medias de la creciente Compañía Patwar, que para finales del siglo XVIII ya habría derrotado por completo a ambos imperios indios y subyugado al resto."
+ patwarahi.1.f: "Lo que podrían hacer por aquí es una buena guerra. ¿Qué más se puede esperar con una paz descontrolada? ¿Sabes cuál es el problema de la paz? Que no hay organización. - Bertolt Brech" 
+ patwarahi.1.a: "Así pues, tiene lugar el último argumento de los reyes."
+
+ patwarahi.2.t: "Independencia, sólo en nombre"
+ patwarahi.2.d: "Con el dominio europeo sobre la India consolidado, los gobiernos de las monarquías francesa y británica comienzan a ejercer una influencia cada vez más opresiva sobre la Compañía. Para mediados del siglo XVIII, las tensiones ya eran máximas y los bandos estaban formados en torno a los [SCOPE.gsInterestGroup('physiocrats_scope').GetName] franceses y los [SCOPE.gsInterestGroup('entrepeneurs_scope').GetName]. Cuando estalla la Guerra de los Siete Años la Compañía es un ente disfuncional. El conflicto estallaría de manera abierta con la Revolución Francesa y el Imperio Napoleónico. Dos décadas más tarde, en 1809, tras la victoria de Napoleón en la Quinta Coalición, el destino de la Compañía tomaría un giro inesperado. El Ejército de Bengala, liderado por Roeland de Cintre-Sarkar, mestizo patwarahi, da un golpe de estado, expulsando a los elementos más divisivos de la Compañía y declarándola un ente independiente de sus maestros europeos. La victoria patwarahi sería agridulce: con Napoleón derrotado, los británicos hicieron un último esfuerzo por recuperar lo posible. Bajos de fondos y sin aliados, la Compañía se comprometería a otorgar numerosas concesiones a las potencias europeas. La independencia no se lograría por las armas..."
+ patwarahi.2.f: "Deberíamos perdonar a nuestros enemigos, pero no hasta que los hayamos colgado. - Heinrich Heine"
+ patwarahi.2.a: "Sino a golpe de talonario."
+
+ 
+ Leonard_2: "Leonard"
+ Avard: "Avard"
+ Theodore_2: "Theodore"
+ Masur: "Masur"
+ Indrene: "Indrene"
+ de_Farc: "de Farc"
+ Giorgis: "Giorgis"
+ 
+ 

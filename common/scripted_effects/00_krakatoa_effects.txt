@@ -1,0 +1,10 @@
+﻿krakatoa_tsunami_effect = {
+	every_state_region = {
+		limit = {
+			OR = {
+				region = sr:region_indonesia
+			}
+		}
+		add_devastation = 10
+	}
+}

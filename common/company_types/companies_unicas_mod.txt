@@ -1,0 +1,599 @@
+﻿### ---------- SOUTH AMERICA ---------- ### 
+# Companhia Agrícola Fazenda Dumont
+company_CAFD = {
+	icon = "gfx/interface/icons/company_icons/fazenda.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	flavored_company = yes
+	preferred_headquarters = { STATE_SAO_PAULO }
+	
+	possible_prestige_goods = {
+		prestige_good_generic_coffee
+	}
+	
+	building_types = {  #25
+		building_coffee_plantation
+		building_sugar_plantation
+		building_tobacco_plantation
+		
+		
+	}
+	
+	extension_building_types = {
+
+		building_tea_plantation
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_brazil
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_SAO_PAULO
+			}
+		}
+	}		
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_SAO_PAULO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coffee_plantation
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_landowners_approval_add = 1 #4
+
+		state_slave_import_mult = 0.75
+	}
+	
+
+	ai_will_do = {
+		any_scope_state = {
+			state_region = s:STATE_SAO_PAULO
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_coffee_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_SAO_PAULO
+			}
+		}
+	}
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+    }
+}
+
+# Fábrica Brasileira de Alpargatas e Calçados / Alpargatas S.A.
+company_Alpargatas = {
+	icon = "gfx/interface/icons/company_icons/alpargatas.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored_company = yes
+	preferred_headquarters = { STATE_SAO_PAULO }
+	
+
+	
+	building_types = {  #26
+        building_cotton_plantation
+		building_logging_camp
+	}
+	
+	extension_building_types = {
+		building_rubber_plantation
+	}
+	
+	potential = {
+	    OR = {
+		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = region_la_plata
+		}
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+			    OR = {
+				state_region = s:STATE_SAO_PAULO
+				state_region = s:STATE_BUENOS_AIRES
+				state_region = s:STATE_URUGUAY
+				}
+			}
+		}
+	}		
+
+	possible = {
+		any_scope_state = {
+			OR = {
+			state_region = s:STATE_SAO_PAULO
+			state_region = s:STATE_BUENOS_AIRES
+			state_region = s:STATE_URUGUAY
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mills
+				level >= 3
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_coffee_plantations_throughput_add = 0.15 #16
+
+	}
+	
+
+	ai_will_do = {
+		any_scope_state = {
+			OR = {
+			state_region = s:STATE_SAO_PAULO
+			state_region = s:STATE_BUENOS_AIRES
+			state_region = s:STATE_URUGUAY
+			}
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_textile_mills = {
+			level = 5
+			state_trigger = {
+				OR = {
+			    state_region = s:STATE_SAO_PAULO
+			    state_region = s:STATE_BUENOS_AIRES
+			    state_region = s:STATE_URUGUAY
+			    }
+			}
+		}
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+    }
+}
+La_plata_agro_complex = {
+	icon = "gfx/interface/icons/company_icons/lpac.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_wheat_farm
+		building_maize_farm
+	}
+
+	extension_building_types = {
+		building_tobacco_plantation
+		building_vineyard_plantation
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_generic_grain
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_la_plata
+		OR = {
+			c:ARG ?= this
+			c:PLT ?= this
+		}
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_BUENOS_AIRES
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_BUENOS_AIRES
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_wheat_farm
+				level >= 10
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+	
+		building_wheat_farm_throughput_add = 0.25
+		building_maize_farm_throughput_add = 0.25
+		building_group_bg_plantations_throughput_add = 0.1
+		state_birth_rate_mult = 0.05
+	}	
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_grain_complete_tt
+			has_variable = prestige_good_generic_grain_var
+		}
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+
+
+### -------------- NORTH AMERICA --------- ###
+
+#Fusiles Mondragón
+company_mondragon = {
+	icon = "gfx/interface/icons/company_icons/mondragon.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_arms_industry
+	}
+
+	extension_building_types = {
+		building_iron_mine
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_generic_small_arms
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_mexico
+		
+		c:MEX ?= this
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_MEXICO
+			}
+		}
+	}		
+	
+	possible = {
+		has_technology_researched = bolt_action_rifles
+		any_scope_state = {
+			state_region = s:STATE_MEXICO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_arms_industry
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		unit__army_defense_mult = 0.05
+		unit_combat_unit_type_trench_infantry_defense_add = 5
+		unit_combat_unit_type_trench_infantry_offense_add = 5
+	}	
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_small_arms_complete_tt
+			has_variable = prestige_good_generic_small_arms_var
+		}
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+#Cooperativa La Cruz Azul
+company_la_cruz_azul = {
+	icon = "gfx/interface/icons/company_icons/cruzazul.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_heavy.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_tooling_workshops
+	}
+
+	extension_building_types = {
+		building_logging_camp
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_mexico
+		
+		c:MEX ?= this
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_MEXICO
+			}
+		}
+	}		
+	
+	possible = {
+		has_technology_researched = bolt_action_rifles
+		any_scope_state = {
+			state_region = s:STATE_MEXICO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshops
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+
+		building_tooling_workshops_throughput_add = 0.1
+		building_construction_sector_throughput_add = 0.15
+		country_max_weekly_construction_progress_add = 15
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+
+### ------- AFRICA ------- ###
+
+# Groupe Managem
+company_managem  = {
+	icon = "gfx/interface/icons/company_icons/groupmanagem.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_INNER_MOROCCO }
+
+	building_types = {
+		building_iron_mine
+		building_lead_mine
+		building_gold_mine
+	}
+
+	extension_building_types = {
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_north_africa
+	}
+
+	attainable = {
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_north_africa
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 5
+			}
+		}
+		has_technology_researched = dynamite
+	}
+
+	prosperity_modifier = {
+		building_iron_mine_throughput_add = 0.15
+		building_lead_mine_throughput_add = 0.1
+		building_gold_mine_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			has_potential_resource = bg_iron_mining
+		}
+	}
+
+	ai_construction_targets = {
+		building_gold_mine = {
+			level = 5
+			state_trigger = {
+				region = sr:region_north_africa
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 2 #Higher base value for flavored companies
+	}
+}
+
+
+### ------- ASIA ------- ### 
+
+#LENA
+company_lena_gold_mining_partnertship  = {
+	icon = "gfx/interface/icons/company_icons/lena.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_BURYATIA }
+
+	building_types = {
+		building_gold_mine
+	}
+
+	extension_building_types = {
+	}
+
+	potential = {
+		has_interest_marker_in_region = region_east_siberia
+	}
+
+	attainable = {
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_east_siberia
+			any_scope_building = {
+				is_building_type = building_gold_mine
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_gold_mine_throughput_add = 0.5
+		country_minting_mult = 0.1
+		country_loan_interest_rate_mult = -0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			has_potential_resource = bg_gold_mining
+		}
+	}
+
+	ai_construction_targets = {
+		building_gold_mine = {
+			level = 5
+			state_trigger = {
+				region = sr:region_east_siberia
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 2 #Higher base value for flavored companies
+	}
+}
+
+
+### -------------- EUROPE ------------- ###
+
+company_alhstrom = {
+	icon = "gfx/interface/icons/company_icons/ahlstrom.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_KUOPIO }
+
+	building_types = {
+		building_paper_mills
+		building_logging_camp
+	}
+
+	extension_building_types = {
+		building_glassworks
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_paper_complete_tt
+			has_variable = prestige_good_generic_paper_var
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_KUOPIO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_logging_camp
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_logging_throughput_add = 0.1
+		building_paper_mills_throughput_add = 0.2
+		building_construction_sector_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_paper_mills
+				level >= 3
+			}
+		}
+	}
+}
+company_healthcare_focus = {
+	icon = "gfx/interface/icons/company_icons/lafageda.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+    
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_CATALONIA }
+	
+	building_types = {
+		building_livestock_ranch
+		building_food_industry
+	}
+
+	extension_building_types = {
+	}
+
+    potential = {
+		has_interest_marker_in_region = region_iberia
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_CATALONIA
+			}
+		}
+	}
+	possible = {
+		any_scope_state = {
+		state_region = s:STATE_CATALONIA
+			any_scope_building = {
+				OR = {
+					
+					is_building_type = building_food_industry
+				}
+				level >= 5
+			}
+		}
+	}
+
+	possible_prestige_goods = {
+		prestige_good_yogur_la_fageda
+	}
+
+	
+
+	prosperity_modifier = {
+		country_society_tech_spread_mult = 0.25
+
+        political_movement_radicalism_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_livestock_ranch
+					is_building_type = building_food_industry
+				}
+				level >= 5
+			}
+		}
+	}	
+}

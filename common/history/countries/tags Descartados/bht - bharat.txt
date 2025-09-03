@@ -1,0 +1,40 @@
+﻿COUNTRIES = {
+	c:BHT ?= {
+		effect_starting_technology_tier_4_tech = yes
+		add_technology_researched = urban_planning
+		add_technology_researched = academia
+		add_technology_researched = romanticism
+		add_technology_researched = law_enforcement	
+		add_technology_researched = mandatory_service
+		add_technology_researched = line_infantry
+		
+		set_market_capital = STATE_BOMBAY
+		
+		
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_debt_slavery
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_closed_borders
+
+		effect_starting_politics_traditional = yes
+		
+		
+		
+		
+		add_journal_entry = { type = towards_to_modernity }
+		add_journal_entry = { type = towards_to_modernity_1 }
+		add_journal_entry = { type = towards_to_modernity_2 }
+		add_journal_entry = { type = towards_to_modernity_3 }
+		add_journal_entry = { type = towards_to_modernity_4 }
+		add_journal_entry = { type = towards_to_modernity_5 }
+		add_journal_entry = { type = towards_to_modernity_6 }
+	}
+}

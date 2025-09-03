@@ -1,0 +1,8 @@
+﻿charter_english = {
+}
+charter_portuguese = {
+}
+charter_french = {
+}
+charter_dutch = {
+}

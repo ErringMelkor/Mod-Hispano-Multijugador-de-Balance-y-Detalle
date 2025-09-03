@@ -1,0 +1,110 @@
+﻿MILITARY_FORMATIONS = {	
+	c:EIC ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+			name = Bombay_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BOMBAY
+				count = 25
+				
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_CIRCARS
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CIRCARS
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BOMBAY
+				count = 25
+			}
+
+			save_scope_as = bombay_army
+		}
+
+			create_character = {
+			is_general = yes
+			first_name = Amadhya
+			last_name = Isha
+			culture = cu:marathi
+			hq = region_bombay
+			age = 37
+			commander_rank = commander_rank_3
+			traits = {
+				hedonist
+				experienced_defensive_strategist
+				traditionalist_commander
+			}
+			save_scope_as = bombay_army_gen
+		}
+
+			scope:bombay_army_gen = {
+				transfer_to_formation = scope:bombay_army
+			}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bengal
+			name = Bengal_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WEST_BENGAL
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_AWADH
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AGRA
+				count = 10
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BIHAR
+				count = 25
+			}
+			save_scope_as = madras_army
+
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Eiravati
+			last_name = Pical
+			culture = cu:marathi
+			hq = region_bengal	
+			age = 48
+			commander_rank = commander_rank_3
+			traits = {
+				romantic
+				bandit
+				reckless
+				surveyor
+				
+			}
+			save_scope_as = madras_army_gen
+		}
+
+			scope:madras_army_gen = {
+				transfer_to_formation = scope:madras_army
+			}
+
+		
+	}
+}

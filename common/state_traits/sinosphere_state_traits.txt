@@ -1,0 +1,83 @@
+﻿
+state_trait_jingdezhen_lead_deposits = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_lead_mine_throughput_add = 0.15
+	}
+}
+
+state_trait_daye_iron_mine = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_iron_mine_throughput_add = 0.10
+	}
+}
+
+# Qinghai
+state_trait_Khingan_Mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_construction_mult = -0.0.5
+		state_infrastructure_mult = -0.1
+	}
+}
+
+# Uliastai
+state_trait_Altai_Mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_construction_mult = -0.1
+		state_infrastructure_mult = -0.05
+	}
+}
+
+# Tian Shan Mountain (Tajikistan, Kirghizia, Tianshan)
+
+state_trait_tian_shan_mountain = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_mult = -0.2
+		state_construction_mult = -0.1
+	}
+}
+
+# Tian Shan Foothills (Ili, Tianshan, Dzungaria, Eastern Afghanistan, Uzbekia, Kashmir)
+
+state_trait_tian_shan_foothills = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_mult = -0.1
+		state_construction_mult = -0.0.5
+	}
+}
+
+state_trait_north_china_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_rice_farm_throughput_add = 0.1
+		building_wheat_farm_throughput_add = 0.1 
+	}
+}
+
+state_trait_southern_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_infrastructure_mult = -0.1
+		state_construction_mult = -0.05
+	}
+}
+state_trait_Bohai_Sea = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
+	
+	modifier = {
+		building_group_bg_fishing_throughput_add = 0.1
+	}
+}

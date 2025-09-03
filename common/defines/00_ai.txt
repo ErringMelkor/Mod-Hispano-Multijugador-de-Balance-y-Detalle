@@ -1,0 +1,23 @@
+﻿NAI = {
+	LEAVE_POWER_BLOC_SCORE_THRESHOLD = -5000 				# Leave the power bloc if score is less than this. Score is the acceptance value for 'invite_to_power_bloc' diplomatic action
+	POWER_BLOC_KICK_MEMBER_LOW_COHESION_THRESHOLD = 1					# If current cohesion is less than this consider it low and add the corresponding score
+	POWER_BLOC_KICK_MEMBER_LOW_COHESION_SCORE = 1						# Score to kick a member (which is anyone) if current cohesion is low (multiplied by delta between cohesion and threshold)
+	POWER_BLOC_KICK_MEMBER_COHESION_CHANGE_SCORE = 2					# Score to kick the member if cohesion change is high enough (multiplied by cohesion chance)
+	POWER_BLOC_KICK_MEMBER_LEVERAGE_ADVANTAGE_SCORE = -0.1			# Score to kick the member if active leverage on them is high enough (multiplied by active leverage)
+	POWER_BLOC_KICK_MEMBER_POOR_RELATIONS_SCORE = 25				# Score to kick the member if relations with the member are Poor, x2 if Cold, x3 if Hostile
+	POWER_BLOC_KICK_MEMBER_HOSTILE_ATTITUDE_SCORE = 25 				# Score to kick the member if attitude towards them is Hostile, x2 if Very Hostile
+	POWER_BLOC_KICK_MEMBER_MARKET_SHARE_SCORE = -550					# Score to kick the member based on their market share in the bloc (if PB has a unified market)
+	POWER_BLOC_KICK_MEMBER_HIGH_ARMY_MILITARY_STRENGTH_SCORE = -250		# Score to kick the member if their army strength is above average (if PB is a military alliance)
+	POWER_BLOC_KICK_MEMBER_HIGH_NAVY_MILITARY_STRENGTH_SCORE = -250		# Score to kick the member if their navy strength is above average (if PB is a military alliance)
+	POWER_BLOC_KICK_MEMBER_SCORE_THRESHOLD = 100						# Kick the member if the total score is less than this
+	POWER_BLOC_KICK_MEMBER_RANDOM_FACTOR = 0.1							# The higher this is, the more random AI will be about which member to kick from the power bloc
+
+	MILITARY_UNITS_PER_FORMATION_ARMY = 200				# The AI aims to have armies of roughly this size, and will create new formations in land HQs accordingly
+	MILITARY_UNITS_PER_FORMATION_FLEET = 200			# The AI aims to have fleets of roughly this size, and will create new formations in naval HQs accordingly
+	MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION = 15 		# If a land HQ has at least this number of units we set the minimum number of formations to 2, so that there will be a garrison formation present
+	MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION_IN_CAPITAL_HQ = 5 		# Overrides MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION for the capital land HQ, since not leaving the capital undefended is extremely critical
+	MILITARY_UNITS_GARRISON_BATTALION_MULT = 0.1		# The garrison formation in each HQ should receive this portion of its total number of battalions
+	MILITARY_UNITS_MIN_DELTA_TO_TRANSFER_UNITS = 0.05   # There must be at least this delta between the fraction of a HQ's units that a formation wants and the fraction that it has to bother with transfering units to/from it
+
+
+}

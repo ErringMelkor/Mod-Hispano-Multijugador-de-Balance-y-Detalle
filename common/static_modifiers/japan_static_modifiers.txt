@@ -1,0 +1,13 @@
+﻿modifier_jap_terakoya1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.25
+	state_peasants_education_access_add = 0.20
+	country_tech_research_speed_mult = -0.10
+}
+
+modifier_legacy_of_terakoya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.25
+	country_tech_research_speed_mult = 0.1
+}
+

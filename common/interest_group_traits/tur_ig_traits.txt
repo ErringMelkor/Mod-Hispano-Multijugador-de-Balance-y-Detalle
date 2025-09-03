@@ -1,0 +1,31 @@
+﻿ig_trait_the_unshackled_empire = {
+	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
+	min_approval = loyal
+	
+	modifier = {
+		unit_defense_mult = 0.15
+		unit_morale_recovery_mult = 0.10
+		unit_morale_loss_mult = -0.10
+	}	
+}
+
+ig_trait_unwavering_loyalty = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+
+	modifier = {
+		state_radicals_from_political_movements_mult = -0.2
+		country_bureaucracy_mult = 0.1
+		state_education_access_add = 0.1
+	}
+}
+
+ig_trait_gentle_empire = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy
+
+	modifier = {
+		country_authority_per_subject_add = 25
+		
+	}
+}

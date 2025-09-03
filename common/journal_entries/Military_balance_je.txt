@@ -1,0 +1,321 @@
+﻿#Diarios hechos con el fin de nerfear la investigación militar
+#La version sin numero es la que aplica el debufo, la version con numero es la que aplica el bufo
+#Este primero diario esta hecho para que se active al investigar la primera tech militar de tier 3
+
+je_military_balance_era3 = {
+
+    icon = "gfx/interface/icons/event_icons/milbal.png"
+
+	group = je_group_technology
+	is_shown_when_inactive = {
+		is_player = yes
+	}	
+	complete = {
+		OR = {
+	has_technology_researched = modern_nursing
+	has_technology_researched = enlistment_offices
+	has_technology_researched = electric_telegraph
+	has_technology_researched = breech_loading_artillery
+	has_technology_researched = repeaters
+	has_technology_researched = gantry_cranes
+	has_technology_researched = jeune_ecole
+	has_technology_researched = ironclad_tech
+	}
+	}
+	
+	on_complete = {
+		add_modifier = military_balance_1
+		add_journal_entry = {
+			type = je_military_balance_era3_2
+		}
+	}
+	
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era3_2 = {
+
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes 
+	}
+	complete = {
+		has_technology_researched = dynamite
+		has_technology_researched = joint_stock_companies
+		has_technology_researched = postal_savings
+	}
+	on_complete = {
+		remove_modifier = military_balance_1
+	}
+	
+	Posi
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+#Journal Era 3.5, osea, techs militares entre el tier 3 y 4
+je_military_balance_era3_5 = {
+
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+
+	group = je_group_technology
+	
+	is_shown_when_inactive = {
+		is_player = yes
+	}	
+	
+	complete = {
+		OR = {
+			has_technology_researched = military_statistics
+			has_technology_researched = handcranked_machine_gun
+		}
+	}
+	on_complete = {
+		add_modifier = military_balance_2
+		add_journal_entry = {
+			type = je_military_balance_era3_5_2
+		}
+	}
+	possible = {
+		has_technology_researched = repeaters
+		has_technology_researched = breech_loading_artillery
+		OR = {
+			has_technology_researched = line_infantry
+			has_technology_researched = electric_telegraph
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era3_5_2 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes
+	}
+	
+	complete = {
+		has_technology_researched = ac_power
+		has_technology_researched = human_rights
+	}
+	on_complete = {
+		remove_modifier = military_balance_2
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+#Balanceo para techs militares tier 4
+
+je_military_balance_era4 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_inactive = {
+		is_player = yes
+	}
+	
+	complete = {
+		OR = {
+		has_technology_researched = wargaming
+		has_technology_researched = trench_works
+		has_technology_researched = bolt_action_rifles
+		has_technology_researched = landing_craft 
+		}
+	}
+	
+	on_complete = {
+		add_modifier = military_balance_3
+		add_journal_entry = {
+			type = je_military_balance_era4_2
+		}
+	}
+	possible = {
+		has_technology_researched = electric_telegraph
+		has_technology_researched = repeaters
+		}
+		
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era4_2 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes
+	}
+	
+	complete = {
+		has_technology_researched = radio
+	}
+	on_complete = {
+		remove_modifier = military_balance_3
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era4_5 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_inactive = {
+		is_player = yes
+	}
+	
+	complete = {
+		OR = {
+		has_technology_researched = defense_in_depth
+		has_technology_researched = automatic_machine_guns
+		}
+	}
+	on_complete = {
+		add_modifier = military_balance_4
+		add_journal_entry = {
+			type =  je_military_balance_era4_5_2
+		}
+	}
+	possible = {
+		has_technology_researched = trench_works
+		has_technology_researched = bolt_action_rifles
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era4_5_2 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes
+	}
+	complete = {
+		has_technology_researched = combustion_engine
+		has_technology_researched = malaria_prevention
+	}
+	on_complete = {
+		remove_modifier = military_balance_4
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era5 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	group = je_group_technology
+	
+	is_shown_when_inactive = {
+		is_player = yes
+	}
+	complete = {
+		OR = {
+			has_technology_researched = concrete_fortifications
+			has_technology_researched = stormtroopers
+			has_technology_researched = military_aviation
+			has_technology_researched = flamethrowers
+		}
+	}
+    on_complete = {
+		add_modifier = military_balance_5
+		add_journal_entry = {
+			type = je_military_balance_era5_2
+		}
+	}
+	possible = {
+		OR = {
+			has_technology_researched = defense_in_depth
+			has_technology_researched = trench_works
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era5_2 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes
+	}
+	
+	complete = {
+			has_technology_researched = plastics
+			has_technology_researched = electrical_capacitors
+		OR = {
+			has_technology_researched = corporate_management
+			has_technology_researched = elevator
+			has_technology_researched = international_exchange_standards
+		}
+	}
+	on_complete = {
+		remove_modifier = military_balance_5
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era5_5 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_inactive = {
+		is_player = yes
+	}
+	complete = {
+		OR = {
+			has_technology_researched = nco_training
+			has_technology_researched = chemical_warfare
+		}
+	}
+	on_complete = {
+		add_modifier = military_balance_6
+		add_journal_entry = {
+			type = je_military_balance_era5_5_2
+		}
+	}
+	possible = {
+		OR = {
+			has_technology_researched = automatic_machine_guns
+			has_technology_researched = wargaming
+		}
+	}
+	weight = 10000
+	should_be_pinned_by_default = no
+}
+je_military_balance_era5_5_2 = {
+	icon = "gfx/interface/icons/event_icons/milbal.png"
+	
+	group = je_group_technology
+	
+	is_shown_when_active = {
+		is_player = yes
+	}
+	complete = { 
+		has_technology_researched = compression_ignition
+		OR = {
+			has_technology_researched = macroeconomics
+			has_technology_researched = modern_financial_instruments
+		}
+	}
+	on_complete = {
+		remove_modifier = military_balance_6
+	}
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+		
+		
+
+
+
+
+	
+
+	

@@ -1,0 +1,76 @@
+﻿STATE_NORTHERN_BALUCHISTAN = {
+    id = 2005
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0BD446" "x1D8E81" "x21F614" "x2E12A4" "x349C39" "x38045F" "x40F0E0" "x412B8E" "x41F4EB" "x43A01E" "x4D421F" "x4D7261" "x4DC5DC" "x5A406F" "x60A1CC" "x81D144" "x83B3F5" "x8D8DC9" "xB10A2F" "xC0EF60" "xECCEE2" }
+    impassable = { "x1D8E81" "x41F4EB" }
+    city = "x4DC5DC"
+    farm = "x4DC5DC"
+    mine = "x4DC5DC"
+    wood = "x4DC5DC"
+    arable_land = 10
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 2
+    }
+}
+
+
+STATE_BALUCHISTAN = {
+    id = 452
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0279A0" "x0BAF8C" "x109CC0" "x113E0B" "x1161D9" "x17D8AB" "x1D0224" "x1EF53E" "x2B7441" "x2E7961" "x2FF46D" "x35754E" "x3C9B5F" "x3EFD1E" "x407060" "x4070E0" "x43F4B8" "x4529BD" "x45F2DD" "x4B2EAD" "x4DC3FF" "x4E09C5" "x4F800F" "x556C63" "x56CF62" "x5CBA3C" "x61D696" "x626396" "x62BEAA" "x675BCE" "x6D6D6B" "x782112" "x7D60E7" "x7FE584" "x8DC922" "x8ED831" "x951063" "x954C12" "x968562" "x978421" "x97C017" "x9EED5C" "xA3655B" "xA55509" "xB0F79E" "xB2AAA7" "xB7B2BD" "xBAE3D2" "xBB836E" "xC070E0" "xC6D9E8" "xC6E602" "xCD77FD" "xD4EC50" "xD575B0" "xD6DD8A" "xDEE571" "xDF30A0" "xE712E1" "xE7A309" "xE87BBF" "xE92A58" "xEC696F" "xF1414C" "xF78D0D" "xF9577D" }
+    prime_land = { x978421 x4E09C5 xF9577D x45F2DD x113E0B x7FE584 xC070E0 }
+    traits = { "state_trait_golden_crescent" }
+    city = "xC070E0"
+    port = "xB7B2BD"
+    farm = "xF9577D"
+    mine = "x954C12"
+    wood = "x675BCE"
+    arable_land = 63
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" }
+    capped_resources = {
+        bg_iron_mining = 20
+        bg_lead_mining = 10
+        bg_logging = 1
+        bg_fishing = 5
+    }
+    naval_exit_id = 3048
+}
+
+
+STATE_QUETTA = {
+    id = 2009
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1910AD" "x1DDD4D" "x34A39B" "x3C3D7F" "x454FE3" "x4AAAC0" "x5E7221" "x6EA076" "x6F000D" "x7CA0E0" "x8BB146" "xB8655C" "xC13040" "xDB0F57" }
+    traits = { "state_trait_golden_crescent" }
+    city = "x6F000D"
+    farm = "x6F000D"
+    mine = "x6F000D"
+    wood = "x6F000D"
+    arable_land = 42
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" }
+    capped_resources = {
+        bg_iron_mining = 4
+        bg_lead_mining = 8
+        bg_logging = 2
+    }
+}
+
+
+STATE_PASHTUNISTAN = {
+    id = 449
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x076502" "x15A4E6" "x20B0A0" "x4C120A" "x54228F" "x54D767" "x69B8C7" "x7436D6" "x76933F" "x783680" "x8C9774" "x9DA767" "xA96256" "xAAE0FA" "xAFD189" "xB8051E" "xB843AB" "xB943AF" "xC0234F" "xE19C79" "xE9EA78" "xEC3398" "xF8FE8B" }
+    traits = { "state_trait_indus_river" }
+    traits = { "state_trait_golden_crescent" }
+    city = "x69B8C7"
+    farm = "x7436D6"
+    mine = "xAFD189"
+    wood = "xEC3398"
+    arable_land = 150
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_logging = 6
+        bg_lead_mining = 4
+    }
+}

@@ -1,0 +1,177 @@
+﻿#BATTLE CONDITIONS CABALLERÍA
+
+battle_condition_cavalry_charge = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_death_from_below.dds"
+
+	modifier = {
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.1
+		unit_combat_unit_type_lancers_offense_mult = 0.1
+		unit_kill_rate_add = 0.1
+	}
+
+	possible = {
+		scope:is_advancing_side = yes
+		exists = scope:character
+		scope:character = {
+			has_role = general
+			commander_military_formation = {
+				OR = {
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_lancers
+						value >= 0.25
+					}
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_cuirassiers
+						value >= 0.25
+					}
+				}
+			}
+		}
+	}
+
+	weight = {
+		value = 5
+	}
+}
+
+
+battle_condition_decisive_cavalry_charge = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_death_from_below.dds"
+
+	modifier = {
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.15
+		unit_combat_unit_type_lancers_offense_mult = 0.15
+		unit_kill_rate_add = 0.1
+		unit_morale_damage_mult = 0.25
+	}
+
+	possible = {
+		scope:is_advancing_side = yes
+		exists = scope:character
+		scope:character = {
+			has_role = general
+			commander_military_formation = {
+				OR = {
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_lancers
+						value >= 0.25
+					}
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_cuirassiers
+						value >= 0.25
+					}
+				}
+				
+			}
+		}
+		OR = {
+    		has_trait = basic_cavalry_commander
+            has_trait = experienced_cavalry_commander
+            has_trait = expert_cavalry_commander
+    	}
+	}
+
+	weight = {
+		value = 5
+	}
+}
+
+battle_condition_death_ride = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_death_from_below.dds"
+
+	modifier = {
+		unit_combat_unit_type_cuirassiers_offense_mult = 0.25
+		unit_combat_unit_type_lancers_offense_mult = 0.25
+		unit_kill_rate_add = 0.35
+		unit_morale_damage_mult = 0.35
+	}
+
+	possible = {
+		scope:is_advancing_side = yes
+		exists = scope:character
+		scope:character = {
+			has_role = general
+			commander_military_formation = {
+				OR = {
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_lancers
+						value >= 0.25
+					}
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_cuirassiers
+						value >= 0.25
+					}
+				}
+			}
+		}
+		AND = {
+            has_trait = expert_cavalry_commander
+    	}
+	}
+
+	weight = {
+		value = 3
+	}
+}
+
+#BATTLE CONDITIONS ARTILLERÍA
+
+
+battle_condition_gas_attack = {
+	icon = "gfx/interface/icons/battle_conditions_mod/battle_condition_chemical_weapons_attack.dds"
+
+	modifier = {
+		unit_offense_mult = 0.05
+		unit_kill_rate_add = 0.25
+		unit_morale_damage_mult = 0.25
+	}
+
+	possible = {
+		scope:is_advancing_side = yes
+		exists = scope:character
+		scope:character = {
+			has_role = general
+			commander_military_formation = {
+				OR = {
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_siege_artillery
+						value >= 0.25
+					}
+				}
+			}
+		}
+		AND = {
+			has_technology_researched = siege_artillery
+			has_technology_researched = chemical_warfare
+		}
+	}
+
+	weight = {
+		value = 3
+	}
+}
+
+battle_condition_gas_defense = {
+	icon = "gfx/interface/icons/battle_conditions_mod/battle_condition_chemical_weapons_defense.dds"
+
+	modifier = {
+		unit_defense_mult = 0.05
+		unit_morale_loss_mult = -0.35
+	}
+	instant_switch = {
+		opposite_battle_side = {
+			has_battle_condition = battle_condition_gas_attack
+		}
+		has_technology_researched = chemical_warfare
+	}
+
+	weight = {
+		value = 10
+	}
+}
+
+	#GAS ATTACK
+		# Tienes artillería de asedio desbloqueada y un % mínimo en el ejército; gas desbloqueado; usando el método en el ejército.
+
+	#GAS DEFENSE
+		#Inmediate switch si el enemigo está usando GAS ATTACK y tienes gas desbloqueado.

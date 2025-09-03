@@ -1,0 +1,132 @@
+﻿l_english:
+ ger_explosion_demografica: "German Demographic Boom"
+ 
+ state_trait_depositos_del_potosi: "Potosí Deposits"
+ state_trait_depositos_de_lima: "Lima Deposits"
+ state_trait_cerro_de_mutun: "Mutún Hill"
+ state_trait_tagus_estuary: "Tagus Estuary"
+ 
+ fe_en_la_confederacion: "Faith in the Confederacy"
+ 
+ ideology_ottomanism: "Ottomanist"
+ ideology_ottomanism_desc: "This leader believes on renovating the Ottoman Empire following the model of the Western world."
+ 
+ ideology_state_ottomanism: "State Ottomanism"
+  ideology_state_ottomanism_desc: "Ideological wave set to reform the Ottoman Empire along a Western model. However, beware: the spectre of nationalism looms near, and can taint even the purest movement."
+  
+ ideology_ottoman_turkism: "Ottoman Turkism"
+ ideology_ottoman_turkism_desc: "This group believes on an Ottoman state united around the turkic ethnicity and an endorsment of any heterogeneous voice." 
+ 
+ aceptar_nativos_decision: "Accept the Natives"
+ aceptar_nativos_decision_desc: "Our motherland won't prosper until we accept those who preceeded us. Let us set aside our difference and strive towards a common goal."
+ 
+ ig_trait_by_blood_alone: "By Blood Alone"
+ ig_trait_by_blood_alone_desc: "Our country will achieve greatness by blood alone. ¡Avanti!"
+ ig_trait_hacienda_andina: "Andine Estates"
+ ig_trait_hacienda_andina_desc: "Our elites know well what they're doing; they've lived and thrived in a place where many other would perish. Let us gran them our favour, and cooperate in the growth of our nation.   "
+ 
+ ig_trait_mezcolanza_latinoamericana: "Latinoamerican Mixture"
+ ig_trait_mezcolanza_latinoamericana_desc: "Our land harborg two dissimilar cultures: instead of mocking one and maligning the other, we should be proud of both of our heritages."
+ 
+ state_trait_gol_gohar_deposit: "Gol Gohar Deposit"
+ 
+ state_trait_north_china_plain: "Northern China Plain"
+ state_trait_southern_mountains: "Southern Range"
+ 
+ unit_combat_unit_type_line_infantry_offense_add: "Line Infantry Offense"
+ unit_combat_unit_type_skirmish_infantry_offense_add: "Skirmish Infantry Offense"
+ unit_combat_unit_type_mobile_artillery_offense_add: "Mobile Artillery Offense"
+ 
+ mobilization_option_field_works: "Field Works"
+ mobilization_option_close_air_support: "Close Air Support"
+ 
+ country_institution_military_max_investment_add: "Max Military Investment"
+ institution_military: "Military Institution"
+ country_institution_cost_institution_military_mult: "Military Institution Cost"
+ 
+ la_ultima_cruzada: "Sponsor State Jihad"
+ la_ultima_cruzada_desc: "The Ottoman Sultan has also been the Caliph of Islam since 1517, and his word holds the spirit and effort of it's people. If he speaks, they shall rise and defend their faith."
+ sponsored_state_jihad: "Sponsored State Jihad"
+ 
+ integrar_ejercito: "Reestructure the Ottoman Armed Forces"
+ integrar_ejercito_desc: "Our Empire rules over many nationalities, and yet we make shy use of them: many are stuck in offices short of their capabilities. To prevail over the other great powers we must make use of them, and to do that, accept them."
+ 
+ ig_trait_the_unshackled_empire: "Sultanate Unshackled"
+ ig_trait_the_unshackled_empire_desc: "The Sultanate has been shackled by internal dissensions and many great powers wish to partition it. From now onwards, we shall unite all the members of our Empire in the single cause of defending every last inch of soil."
+ ig_trait_unwavering_loyalty: "Unwavering Loyalty"
+ ig_trait_unwavering_loyalty_desc: "The reforms of Mahmut the Second abolished the Timar System in 1831. The new army is a tool for centralization, personally loyal to the Sultan, and operates at different levels of society to ensure the prosperity of the Empire."
+ 
+ nueva_indigeneidad: "New Indigeneity"
+ unit_combat_unit_type_irregular_infantry_defense_mult: "Irregular Infantry Defense"
+ 
+ 
+ desamortizacion_mendizabal: "First Disentailment"
+ desamortizacion_mendizabal_desc: "Our economy lags because of the inaction of the Church. Now that we've done with the Carlist affair we can choose what to make of it. The object of the disentailment will depend on our laws and intent."
+
+ mendizabal.1.t: "First Disentailment"
+ mendizabal.1.d: "All monastic propersties with less than twelve members are fruitless, inert and expensive, and so will be put in the hands of the State."
+ mendizabal.1.f: ""There was, so, Mendizabal for quite the while, and the reforms that the great man had promised in his famous exhibition to the Queen would be... " - Episodios Nacionales, nº21; Benito Perez Galdós."
+
+ mendizabal.1.a: "... to the benefit of the State."
+ mendizabal.1.b: "... to the benefit of the People."
+ mendizabal.1.c: "... to the great benefit of the People."
+
+ desamortizacion_madoz: "Second Disentailment"
+ desamortizacion_madoz_desc: "Now that we've introduced the disentailment process on the legislation we may accomplish a true auction of ecclesiastic properties in mortmain."
+
+ madoz.1.t: "Second Disentailment"
+ madoz.1.d: "The posibilities for the Disentailment are wide, but will greatly depend on our laws and intentions."
+ madoz.1.f: ""Article 1. All rural and urban properties, censuses and forums belonging to: the State are declared in a state of sale, in accordance with the provisions of this law, and without prejudice to the charges and easements to which they are legitimately subject; to the clergy; to the military orders of Santiago, Alcántara, Calatrava, Montesa and San Juan de Jerusalem; to the brotherhoods, pious works and sanctuaries; to the kidnapping of the former Infante D. Carlos; charity; to public instruction. And any others belonging to dead hands, whether or not they are ordered to be sold by previous laws... ""
+
+ madoz.1.a: "... to the benefit of the State."
+ madoz.1.b: "... to the benefit of the People."
+ madoz.1.c: "... to the great benefit of the People."
+ madoz.1.h: "... to the benefit of the Capital."
+ madoz.1.i: "... to the great benefit of the Capital."
+ 
+ upset_intelligentsia: "Liberal agitation"
+ planear_gran_campana: "Planning a Great Campaign"
+ 
+ ig_trait_orden_natural: "The Natural Order"
+ ig_trait_orden_natural_desc: "My father was the owner of these lands; now the state is, but I continue to receive the same income. My father was called lord; I was called cacique. Fortunately, no matter how much progress the liberals want, the natural order of the lands things will remain the same, and the peasants understand it."
+ 
+ ig_trait_tierra_dorada: "New Golden Century"
+ ig_trait_tierra_dorada_desc: "Whether for our summer fields or the precious metals of our extensive domains, Spain, by the grace of God, the king and our nobles, will enter a new golden century."
+ 
+ state_trait_yilgarin_eastern_deposits: "Yilgarin and Eastern Deposits"
+ state_trait_pilbara_deposits: "Pilbara Deposits"
+ state_trait_canadian_forests: "Canadian Forests"
+
+ Chandragupta: "Chandragupta"
+ Misdhi: "Misdhi"
+ Pahli: "Pahli"
+ Eiravati: "Eivarati"
+ Pical: "Pical"
+ Amadhya: "Amadhya"
+ Isha: "Isha"
+ ita_explosion_demografica: "Italian Demographic Boom"
+ 
+ building_palazzo_reale_di_torino: "Palazzo Reale di Torino"
+ building_palais_royal_de_bruxelles: "Palais Royal de Bruxelles"
+ building_sar_i_sang: "Sar-i-Sang Mine"
+ 
+ pm_default_building_improved_dutch_polders: "Improved Production"
+ pm_default_building_elite_dutch_polders: "Advanced Production"
+ 
+ pm_default_building_palais_royal_de_bruxelles: "Basic Production"
+ pm_default_building_palazzo_reale_di_torino: "Basic Production"
+ pm_default_building_sar_i_sang: "Basic Production"
+ 
+ pmg_base_building_palais_royal_de_bruxelles: "Base"
+ pmg_base_building_palazzo_reale_di_torino: "Base"
+ pmg_base_building_sar_i_sang: "Base"
+ 
+ pm_homesteading_building_subsistence_rice_paddies: "Homesteading"
+ 
+ company_lanificio_paoletti: "Lanificio Paoletti"
+ 
+ carlist_war_legacy: "Legacy of the First Warlist War"
+ fra_napoleonic_wars_legacy: "Legacy of the Napoleonic Wars"
+ 
+ 
+ 

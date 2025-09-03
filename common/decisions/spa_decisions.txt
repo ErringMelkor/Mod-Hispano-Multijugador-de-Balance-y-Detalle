@@ -1,0 +1,86 @@
+﻿perseguir_destino_imperial = {
+	is_shown = {
+		C:IBE ?= this
+		ROOT = c:IBE
+
+		not = { has_variable = perseguir_destino_imperial_var }
+		has_variable = conquista_americas_completada
+	}
+
+		when_taken = {
+
+			set_variable = perseguir_destino_imperial_var
+
+			create_incident = {
+				country = c:BRZ
+				value = 10
+			}
+			create_incident = {
+				country = c:MEX
+				value = 10
+			}
+
+			add_journal_entry = {
+				type = 	je_destino_imperial_main
+			}
+
+			add_journal_entry = {
+				type = 	je_reconquista_mexico
+			}
+
+			add_journal_entry = {
+				type = 	je_reconquista_la_plata
+			}
+
+			add_journal_entry = {
+				type = 	je_reconquista_brasil
+			}
+		}
+}
+
+
+desamortizacion_mendizabal = {
+	is_shown = {
+		c:SPA ?= this
+		ROOT = c:SPA
+		not = { has_variable = desamortizacion_mendizabal_var }
+	}
+
+	possible = {
+		NOT = {
+				has_law = law_type:law_autocracy
+				has_law = law_type:law_serfdom
+			}
+			has_variable = guerra_carlista_complete
+	}
+
+	when_taken = {
+		
+		set_variable = desamortizacion_mendizabal_var
+
+		trigger_event = mendizabal.1
+	}
+}
+
+desamortizacion_madoz = {
+	is_shown = {
+		c:SPA ?= this
+		ROOT = c:SPA
+
+		not = { has_variable = desamortizacion_madoz_var }
+		has_variable = desamortizacion_mendizabal_var
+	}
+
+	possible = {
+		NOT = {
+				has_law = law_type:law_state_religion
+			}
+	}
+
+	when_taken = {
+
+		set_variable = desamortizacion_madoz_var
+
+		trigger_event = madoz.1
+	}
+}

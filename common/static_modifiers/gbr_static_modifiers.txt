@@ -1,0 +1,17 @@
+﻿irish_oppression = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+
+	state_irish_standard_of_living_add = -1.5
+	building_rye_farm_throughput_add = 0.2
+	building_livestock_ranch_throughput_add = 0.2
+	state_food_security_add = -0.15
+}
+
+irish_oppression_lessened = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+
+	state_irish_standard_of_living_add = -1
+	building_rye_farm_throughput_add = 0.05
+	building_livestock_ranch_throughput_add = 0.05
+	state_food_security_add = -0.1
+}

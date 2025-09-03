@@ -1,0 +1,103 @@
+﻿l_english:
+ je_russo_turkish_war: "Preamble to the Russo-Turkish War"
+ je_great_russo_turkish_war: "The Great Russo-Turkish War"
+ je_great_russo_turkish_war_reason: "We must achieve total victory over the Turks."
+ je_western_russo_turkish_war: "The Balkan War"
+ je_western_russo_turkish_war_reason: "We must achieve a partial victory over the Turks."
+ je_eastern_russo_turkish_war: "The Eastern Anatolian War"
+ je_eastern_russo_turkish_war_reason: "We must achieve a partial victory over the Turks."
+
+ great_russo_turkish_war_goal_tt: "We have conquered and incorporated the following states: Moldavia, Wallachia, Dobrudja and Bulgaria; Kars, Erzurum and Trabzon."
+ western_russo_turkish_war_goal_tt: "We have conquered and incorporated the following states: Moldavia, Wallachia, Dobrudja and Bulgaria."
+ eastern_russo_turkish_war_goal_tt: "We have conquered and incorporated the following states: Kars, Erzurum and Trabzon."
+ turkish_victory_tt: "We must, directly or indirectly, push them out of either region: Dobrudja and Bessarabia; Georgia and Kars."
+ dismiss_russo-turkish_war_tt: "We will forever reject the notion and void the idea."
+ russia_claims_all_tt: "We now claim all of the Balkans and Anatolia."
+ claim_balkans_tt: "We now claim another piece of the Balkans."
+ claim_all_balkans_tt: "We now claim all of the Balkans, for the Glory of Russia."
+ claim_iraq_tt: "The way to Mesopotamia lays open."
+ claim_iraq_iran_tt: "Why stop on Mesopotamia? Void our agreements with the Persians too."
+ claim_russian_territory_tt: "We lay claim to all of the Black Sea."
+ consolidate_position_tt: "We only lay claim to limited concessions."
+ 
+ russo-turkish_war.1.a: "Mother Russia claims it all."
+ russo-turkish_war.1.b: "We shall focus on the Balkans."
+ russo-turkish_war.1.c: "We shall focus on Anatolia."
+ russo-turkish_war.1.e: "Let's not upset the balance of power."
+ 
+ russo-turkish_war.1.t: "The Focus of the Russo-Turkish War"
+ russo-turkish_war.1.d: "With the gate to the Ottomans open, we shall decide on our approach to the matter."
+ russo-turkish_war.1.f: "The Treaty of Küçük Kaynarca was signed on 1774, and it marked the beginning dominance of Russia over the Ottoman Empire. Thanks to key clauses of the article, and with our victory on the Caucasus, we can rightfully exert dominance over the turks."
+
+ russian_big_winner: "Victor of the Great Russo-Turkish War"
+ russian_winner: "Victor of the Russo-Turkish War"
+ ottoman_winner: "Victor of the Russo-Turkish War"
+ russian_big_border_pursuit: "Very Aggresive Border Policy"
+ russian_small_border_pursuit: "Aggresive Border Policy"
+ russian_gentle_border_pursuit: "Gentle Diplomacy"
+ rally_against_russia: "Rally Against Russia"
+ no_russo-turkish_war: "Military Dissaproval"
+ 
+ russo-turkish_war.2.a: "Пожалуйста, a drink to our victory!"
+ russo-turkish_war.2.t: "Victory in the Great Russo-Turkish War"
+ russo-turkish_war.2.d: "With the turks squashed, we are free to do as we please."
+ russo-turkish_war.2.f: "The strong do what they can, the weak suffer what they must. - Melian Dialogue, Thucydides"
+ 
+ russo-turkish_war.3.a: "We will lift our fellow slavs from the chains of the Ottoman Empire"
+ russo-turkish_war.3.b: "We aren't done yet: let's claim the whole Balkans for the Russian Empire!"
+ russo-turkish_war.3.t: "Victory in the Balkan Russo-Turkish War"
+ russo-turkish_war.3.d: "With the turks squashed, we are free to do as we please."
+ russo-turkish_war.3.f: "The strong do what they can, the weak suffer what they must. - Melian Dialogue, Thucydides"
+ 
+ russo-turkish_war.4.a: "We will lift the orthodox caucasians from the chains of the Ottoman Empire"
+ russo-turkish_war.4.b: "Let's focus our efforts on conquering the Middle East."
+ russo-turkish_war.4.t: "Victory in the Eastern Anatolian Russo-Turkish War"
+ russo-turkish_war.4.d: "With the turks squashed, we are free to do as we please."
+ russo-turkish_war.4.f: "The strong do what they can, the weak suffer what they must. - Melian Dialogue, Thucydides"
+ 
+ russo-turkish_war.5.t: "Barbarians at the Gates"
+ russo-turkish_war.5.d: "After their victory on the Caucasus, the Russians began waiving the old Treaty of Küçük Kaynarca, signed on 1774, as a pretense for domination over our christian subjects. We must quickly decide on a policy over this question."
+ russo-turkish_war.5.a: "Ready the frontier troops, cannons will be our last argument in the game of diplomacy."
+ russo-turkish_war.5.b: "Hasten an embasy before the Russians cross the frontier, we may salvage this yet."
+ 
+ russo-turkish_war.6.t: "Victory against the Russians"
+ russo-turkish_war.6.d: "Though our empire is weaker, we won't suffer what we must. Their impetus is broken; the choice on what we do, ours. "
+ russo-turkish_war.6.f: "Great empires are not maintained by timidity - Book XV, 1, Tacitus."
+ russo-turkish_war.6.a: "Let's pay them in kind: claim the whole sea."
+ russo-turkish_war.6.b: "Enough saber-rattling: contain our military's demands to something more realistic and focus on rebuilding."
+ 
+ russo-turkish_war.7.t: "A halt on the Russian menace"
+ russo-turkish_war.7.d: "Enough time has passed since their proclamation that we can declare the Treaty of 1774 null and void."
+ russo-turkish_war.7.f: ""
+ russo-turkish_war.7.a: "Let's cast it onto Oblivion."
+
+ russo-turkish_war.8.t: "Disaster on the Russo-Turkish War"
+ russo-turkish_war.8.d: "Woe to us, the Barbarians have crossed the gates."
+ russo-turkish_war.8.f: ""
+ russo-turkish_war.8.a: "Let us hope we may live enough to see another day."
+
+ russo-turkish_war.9.t: "Setback on the Ottoman Frontier"
+ russo-turkish_war.9.d: "Though we haven't formally lost, we were unable to fulfill our promises, to the great displeasure of our troops. Let's hope this doesn't ignite a rebellion."
+ russo-turkish_war.9.f: ""
+ russo-turkish_war.9.a: "We must soldier on."
+ 
+ russo-turkish_war.10.t: "Defeat on the Russo-Turkish War"
+ russo-turkish_war.10.d: "We can always prosper on the Urals."
+ russo-turkish_war.10.f: ""
+ russo-turkish_war.10.a: "This can't be good."
+
+ russo-turkish_war.11.t: "Defeat on the Great Russo-Turkish War"
+ russo-turkish_war.11.d: "Our bold claims to the world were a calculated risk, yet it appears that our academics haven't learnt proper math."
+ russo-turkish_war.11.f: ""
+ russo-turkish_war.11.a: "Maybe you should consider abdication."
+
+je_manifest_destiny_pov_mexico: "Manifest Mexican Destiny"
+je_manifest_destiny_pov_mexico_reason: "Uno Reverse Bitch"
+
+je_russo_turkish_war_reason: ""
+
+je_turkish_pov_war: "The Turkish War for Survival"
+je_turkish_pov_war_reason: "We must defend our lands and defeat the russians."
+
+
+

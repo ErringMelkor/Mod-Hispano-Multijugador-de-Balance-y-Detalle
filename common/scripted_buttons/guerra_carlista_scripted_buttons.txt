@@ -1,0 +1,318 @@
+﻿giro_carlista_scripted_button = {
+	visible = {
+		C:SPA ?= this
+		ROOT = c:SPA
+
+		NOT = { has_variable = guerra_carlista_var }
+	}
+
+	possible = {
+		NOT = { has_variable = guerra_carlista_var }
+	}
+
+	name = "giro_carlista_scripted_button"
+	desc = "giro_carlista_scripted_button_desc"
+
+	effect = {
+
+		set_variable = guerra_carlista_var
+
+		create_character = {
+			first_name = carlos_maria_isidro
+			last_name = de_borbon
+ 			culture = cu:spanish
+			religion = rel:catholic
+			female = no
+ 			noble = yes
+ 			ruler = yes
+ 			age = 48
+ 			ideology = ideology_traditionalist
+ 			interest_group = ig_landowners
+ 			traits = { direct pious reckless }
+ 		}
+
+ 		create_character = {
+ 			first_name = carlos_luis_maria_fernando
+ 			last_name = de_borbon
+ 			culture = cu:spanish
+			religion = rel:catholic
+			female = no
+ 			noble = yes
+ 			ruler = no
+ 			heir = yes
+ 			age = 18
+ 			ideology = ideology_traditionalist
+ 			interest_group = ig_landowners
+ 			traits = { honorable romantic imperious  }
+ 		}
+
+ 		add_loyalists = {
+			value = 0.85
+			pop_type = aristocrats
+			culture = cu:basque
+		}
+
+		add_loyalists = {
+			value = 0.85
+			pop_type = aristocrats
+			culture = cu:catalan
+		}
+
+		add_loyalists = {
+			value = 0.35
+			pop_type = aristocrats
+		}
+
+		add_loyalists = {
+			value = 0.35
+			culture = cu:basque
+		}
+
+		add_loyalists = {
+			value = 0.25
+			culture = cu:catalan
+		}
+
+ 		add_radicals = {
+			value = 0.75
+			pop_type = bureaucrats
+		}
+
+		add_radicals = {
+			value = 0.75
+			pop_type = officers
+		}
+
+		add_radicals = {
+			value = 0.50
+			pop_type = clerks
+		}
+
+		add_radicals = {
+			value = 0.2
+			culture = cu:spanish
+		}
+
+		add_radicals = {	
+			value = 0.75
+			interest_group = ig:ig_intelligentsia
+		}
+
+		add_radicals = {	
+			value = 0.25
+			interest_group = ig:ig_armed_forces
+		}
+
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_serfdom
+
+		annex = c:CUB
+		annex = c:PHI
+
+		create_incident = {
+			country = c:BOL
+			value = 25
+		}
+
+		add_journal_entry = {
+			type = 	je_conquista_americas_main
+		}
+
+		add_journal_entry = {
+			type = 	je_reconquista_centroamerica
+		}
+
+		add_journal_entry = {
+			type = 	je_reconquista_nueva_granada
+		}
+
+		add_journal_entry = {
+			type = 	je_reconquista_el_peru
+		}
+
+		ig:ig_devout = {
+			set_ig_trait = ig_trait:ig_trait_santiago_y_cierra
+		}
+
+		ig:ig_landowners = {
+			set_ig_trait = ig_trait:ig_trait_orden_natural
+		}
+	}
+
+	ai_chance = {
+		base = 5
+	}
+}	
+
+abrazar_el_liberalismo_frances_scripted_button = {
+	visible = {
+		C:SPA ?= this
+		ROOT = c:SPA
+
+		not = { has_variable = guerra_carlista_var }
+	}
+
+	possible = {
+		NOT = { has_variable = guerra_carlista_var }
+	}
+
+	name = "abrazar_el_liberalismo_frances_scripted_button"
+	desc = "abrazar_el_liberalismo_frances_scripted_button_desc"
+
+
+	effect = {
+
+		set_variable = guerra_carlista_var
+
+		add_radicals = {
+			value = 0.75
+			pop_type = aristocrats
+		}
+
+		add_radicals = {
+			value = 0.75
+			pop_type = clergymen
+		}
+
+		add_radicals = {
+			value = 0.75
+			pop_type = farmers
+			culture = cu:catalan
+		}
+
+		add_radicals = {
+			value = 0.15
+			pop_type = peasants
+			culture = cu:basque
+		}
+
+		add_radicals = {
+			value = 0.1
+			pop_type = peasants
+			culture = cu:catalan
+		}
+
+		add_radicals = {
+			value = 0.05
+			pop_type = peasants
+			culture = cu:galician
+		}
+
+
+		add_radicals = {
+			value = 0.25
+			pop_type = peasants
+		}
+
+		add_loyalists = {	
+			value = 5
+			interest_group = ig:ig_intelligentsia
+		}
+
+		add_loyalists = {	
+			value = 1.5
+			interest_group = ig:ig_armed_forces
+		}
+
+		ig:ig_intelligentsia = {
+				
+			remove_ideology = ideology_liberal
+			remove_ideology = ideology_anti_clerical_mod
+			remove_ideology = ideology_republican
+			remove_ideology = ideology_anti_slavery
+			add_ideology = ideology_liberalismo_gaditano
+			add_ideology = ideology_liberalismo_gaditano_parte_2
+
+			set_ig_trait = ig_trait:ig_trait_ideal_gaditano
+		}
+
+		add_modifier = {
+			name = gaditanos_renovados
+			months = 60
+			is_decaying = yes
+		}
+	}
+
+	
+
+	ai_chance = {
+		base = 15
+	}
+}
+
+abrazar_el_liberalismo_ingles_scripted_button = {
+	visible = {
+		C:SPA ?= this
+		ROOT = c:SPA
+
+		not = { has_variable = guerra_carlista_var }
+	}
+
+	possible = {
+		NOT = { has_variable = guerra_carlista_var }
+	}
+
+	name = "abrazar_el_liberalismo_ingles_scripted_button"
+	desc = "abrazar_el_liberalismo_ingles_scripted_button_desc"
+
+	effect = {
+
+		set_variable = guerra_carlista_var
+
+		add_radicals = {
+			value = 0.65
+			pop_type = aristocrats
+			culture = cu:basque
+		}
+
+		add_radicals = {
+			value = 0.25
+			pop_type = aristocrats
+			culture = cu:spanish
+		}
+
+		add_radicals = {
+			value = 0.8
+			pop_type = farmers
+			culture = cu:catalan
+		}
+
+		add_radicals = {
+			value = 0.5
+			pop_type = clergymen
+		}
+
+		add_radicals = {
+			value = 0.05
+			pop_type = peasants
+			culture= cu:basque
+		}
+
+		add_radicals = {
+			value = 0.05
+			pop_type = peasants
+			culture= cu:catalan
+		}
+
+		add_loyalists = {
+			value = 1
+			interest_group = ig:ig_intelligentsia
+		}
+
+		ig:ig_intelligentsia = {
+				
+			remove_ideology = ideology_liberal
+			remove_ideology = ideology_anti_clerical
+			remove_ideology = ideology_republican
+			remove_ideology = ideology_anti_slavery
+			add_ideology = ideology_liberalismo_isabelino
+
+			set_ig_trait = ig_trait:ig_trait_firmeza_y_mesura
+		}
+	}
+
+	ai_chance = {
+		base = 80
+	}		
+}

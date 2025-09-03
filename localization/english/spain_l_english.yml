@@ -1,0 +1,92 @@
+﻿l_english:
+ ig_trait_vuelva_usted_manana: "Come again tomorrow"
+ ig_trait_vuelva_usted_manana_desc: "Allow me, monsier Sans-délai, to treat you to a diner for your fifteenth month of stay in Madrid."
+ 
+ je_guerra_carlista_main: "The First Carlist War"
+ je_guerra_carlista_main_reason: "Started in October 1833, the so-called Carlist War channels different political currents born from the War of Independence. Although Queen Isabel's side has military victory within reach, the same cannot be said of its internal situation, since two factions dispute control of the regency; the heirs of Cádiz, heirs of the spirit of the French Revolution, have the most radical ideas, but are unstable and hostile in the population; on the other hand, the Moderates support a similar conservative constitutional model; of the British, rigid but capable of pleasing everyone. Doing so, however, implies a new Spain, which looks beyond its colonial past in the Americas. The Carlists, clinging to said past, still seek to take the throne. But they will only find victory in an almost inconceivable diplomatic agreement, the marriage of Isabel with Charles's first-born son. If this is achieved, they would take over the Crown de facto, and they would be able to set their sights on the domains of yesteryear. We have before us the present dilemma, choosing between one of the factions or praying that the storm subsides." giro_carlista_scripted_button: "Invitar a Carlos al trono"
+ abrazar_el_liberalismo_frances_scripted_button: "Renew the spirit of Cádiz"
+ abrazar_el_liberalismo_ingles_scripted_button: "Quarter ourselves in the Moderates"
+ 
+ giro_carlista_scripted_button_desc: "Carlos María Isidro de Borbón takes the throne, restoring the Old Regime."
+ abrazar_el_liberalismo_frances_scripted_button_desc: "Although a controversial option, fueling the fire of Cadiz radicals would propel Spain to the forefront of democracy in Europe."
+ abrazar_el_liberalismo_ingles_scripted_button_desc: "The most stable option: let us trust that stability means prosperity."
+ 
+ guerra_carlista_breath.1.t: "A moment of respite"
+ guerra_carlista_breath.1.d: "The regent María Cristina applies a new Magna Carta."
+ guerra_carlista_breath.1.f: "The storm has subsided, and, contrary to what was expected, the manager María Cristina has managed to maintain control. The liberal factions have accepted the Royal Statute reluctantly, and the Carlists, exiled throughout Central Europe"
+ guerra_carlista_breath.1.a: "Spain may yet have a moment of respite, even if it's just one."
+ 
+ regenta_maria_cristina: "Regent María Cristina"
+ 
+ ig_trait_firmeza_y_mesura: "Firmness and Restraint"
+ ig_trait_firmeza_y_mesura_desc: "In this country of ours we must be clear about two things to succeed: the first is to firmly follow the liberal regime; the second is to apply its principles with moderation."
+ ig_trait_ideal_gaditano: "Gaditan Ideal"
+ ig_trait_ideal_gaditano_desc: "Although, sometimes ideals remain in pamphlets and Constitutions, the people must fight with all their will to manifest them."
+ ig_trait_santiago_y_cierra: "Santiago y cierra, ¡España!"
+ ig_trait_santiago_y_cierra_desc: "The War of Independence was a cold reminder of the true national identity: God, Country, King. We will defend those ideals to the last drop of blood, noble or commoner, with the grace of God and Santiago."
+
+ ideology_liberalismo_gaditano: "Gaditan Liberalism"
+ ideology_liberalismo_isabelino: "Moderate Liberalism"
+
+ carlos_maria_isidro: "Carlos María Isidro"
+ de_borbon: "de Borbón"
+ carlos_luis_maria_fernando: "Carlos Luis Maria Fernando"
+
+ je_conquista_americas_main: "The Reconquest of the Americas"
+ reclamar_centroamerica_scripted_button: "Reclaim Central America"
+ reclamar_nueva_granada_scripted_button: "Claim the Viceroyalty of New Granada"
+ reclamar_el_peru_scripted_button: "Claim the Viceroyalty of Peru"
+
+ reclamar_centroamerica_scripted_button_desc: "A generation ago it would have been an insignificant possession compared to the rest of the jewels in our crown. Today, however, it is the perfect prize. Weak, separated, it is the ideal territory to establish a beachhead."
+ reclamar_nueva_granada_scripted_button_desc: "The home of the revolutionary. The former Viceroyalty of New Granada, home of the revolutionary Bolívar. The second best objective within our reach: occupying it would allow us to secure the Caribbean possessions and deal a strong blow to the rebels."
+ reclamar_el_peru_scripted_button_desc: "One of the two jewels of the Spanish Crown. Its conquest is difficult, but no less obligatory, nor less graceful: they will pay for their rebellion in silver and blood."
+
+ je_conquista_americas_main_reason: "Spain has been synonymous with America for centuries. A generation has passed since then, and many of our subjects no longer remember what it was like to be masters of half the world. We still have time to reverse it, if we can get those "heirs of Cádiz" come to their senses. Once we achieve this and restore the Iberian Union, we can continue with the rest of the reconquest."
+ je_conquista_americas_main_goal: "We occupied all three objectives."
+
+ perseguir_destino_imperial: "Pursue our imperial destiny"
+ perseguir_destino_imperial_desc: "The House of Bourbon triumphs. Against all the expectations that the Angles and the French had in us, we maintain a firm grip on half of our old colonial possessions. Now that we have established ourselves in the game of the great powers we must finish our reconquest; May this century be once again the Golden Age of Spain."
+
+ je_destino_imperial_main: "El Destino Imperial de la Unión Ibérica."
+ je_destino_imperial_main_reason: "Ante nosotros se presenta una gran hazaña: unir de nuevo España y Portugal con sus colonias. De ser así, tendremos sin duda alguna el imperio más grande entre todas las potencias europeas."
+ je_destino_imperial_main_goal: "Ocupamos los tres objetivos."
+
+ reclamar_mexico_scripted_button_desc: "La primera fuente de riquezas para España. Nueva España es hoy un objetivo más humilde, aunque no menos importante. Es propiedad de la Corona, y mejor en nuestras manos que en las de los anglos."
+ reclamar_mexico_scripted_button: "Reclamar el Virreinato de Nueva España"
+
+ reclamar_la_plata_scripted_button: "Reclamar el Virreinato de la Plata"
+ reclamar_la_plata_scripted_button_desc: "El Virreinato del Río de la Plata componía parte de los Andes, así como mucha de la fértil región de las Pampas. De recuperarlo, sería para nosotros lo que Egipto fue para Roma."
+
+ reclamar_brasil_scripted_button: "Reclamar el Brasil"
+ reclamar_brasil_scripted_button_desc: "El Brasil era la única colonia portuguesa, comparable a uno de nuestros virreinatos. Sus recursos son amplios, para aplicaciones antiguas y modernas, y por ello debemos materializar nuestro dominio sobre el territorio."
+
+ je_reconquista_mexico: "Reclamar el Virreinato de Nueva España"
+ je_reconquista_la_plata: "Reclamar el Virreinato de La Plata"
+ je_reconquista_brasil: "Reclamar el Brasil"
+
+ je_reconquista_centroamerica: "Establecer una cabeza de playa en Centroamérica"
+ je_reconquista_nueva_granada: "Reconquistar el Virreinato de Nueva Granada"
+ je_reconquista_el_peru: "Reconquistar el Virreinato del Perú"
+
+ je_reconquista_centroamerica_reason: "Hace una generación sería una posesión insignificante comparada al resto de joyas de nuestra corona. Hoy, sin embargo, es el premio perfecto. Débil, separada, es el territorio idóneo para establecer una cabeza de playa."
+ je_reconquista_nueva_granada_reason: "El hogar del revolucionario. El antiguo Virreinato de Nueva Granada, hogar del revolucionario Bolívar. El segundo mejor objetivo a nuestro alcance: ocuparlo nos permitiría asegurar las posesiones caribeñas y daría un fuerte golpe a los rebeldes."
+ je_reconquista_el_peru_reason: "Una de las dos joyas de la Corona española. Su conquista se posa difícil, pero no por ello menos obligada, ni menos agraciada: pagarán su rebeldía en plata y sangre."
+
+ je_reconquista_mexico_reason: "La primera fuente de riquezas para España. Nueva España es hoy un objetivo más humilde, aunque no menos importante. Es propiedad de la Corona, y mejor en nuestras manos que en las de los anglos."
+ je_reconquista_la_plata_reason: "El Virreinato del Río de la Plata componía parte de los Andes, así como mucha de la fértil región de las Pampas. De recuperarlo, sería para nosotros lo que Egipto fue para Roma."
+ je_reconquista_brasil_reason: "El Brasil era la única colonia portuguesa, comparable a uno de nuestros virreinatos. Sus recursos son amplios, para aplicaciones antiguas y modernas, y por ello debemos materializar nuestro dominio sobre el territorio."
+
+ guerra_carlista_complete: "The First Carlist War is over"
+
+ mendizabal_state: "First Disentailment"
+ mendizabal_people: "First Disentailment"
+ mendizabal_people_radical: "First Disentailment"
+
+ madoz_state: "Second Disentailment"
+ madoz_people: "Second Disentailment"
+ madoz_people_radical: "Second Disentailment"
+ madoz_capitalists: "Second Disentailment"
+ madoz_capitalista_radical: "Second Disentailment"
+ 
+  giro_carlista_scripted_button: "A deal with the devil"
+

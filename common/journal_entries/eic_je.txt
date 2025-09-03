@@ -1,0 +1,61 @@
+﻿je_eic_ideology = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_internal_affairs
+	
+	is_shown_when_inactive = {
+		is_player = yes
+		root = c:EIC
+	}
+
+	complete = {
+		NOT = {
+			has_law = law_type:law_extraction_economy
+		}
+	}
+
+	on_complete = {
+		ig:ig_landowners = {
+			remove_ideology = ideology_indian_princes
+			add_ideology = ideology_indian_princes_2
+		}
+		ig:ig_industrialists = {
+			remove_ideology = ideology_british_entrepeneurs
+			add_ideology = ideology_british_entrepeneurs_2
+		}
+	}
+
+	weight = 10
+
+	should_be_pinned_by_default = yes
+}
+je_eic_india = {
+	icon = "gfx/interface/icons/achievements/achievement_our_words_are_backed.dds"
+
+	group = je_group_internal_affairs
+	
+	is_shown_when_inactive = {
+		is_player = yes
+		root = c:EIC
+	}
+
+	complete = {
+		has_law = law_type:law_cultural_exclusion
+		has_law = law_type:law_slavery_banned 
+		has_law = law_type:law_affirmative_action
+		NOT = {
+			has_law = law_type:law_extraction_economy
+			has_law = law_type:law_serfdom
+		}
+	}
+
+	on_complete = {
+		trigger_event = { 
+		id = india_home_rule_events.1 
+		}
+	}
+
+	weight = 10
+
+	should_be_pinned_by_default = yes
+}

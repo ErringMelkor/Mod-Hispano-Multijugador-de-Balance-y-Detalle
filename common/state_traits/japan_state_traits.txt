@@ -1,0 +1,14 @@
+﻿state_trait_northern_forests = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.1
+	}
+}
+state_trait_japanese_fishing = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
+
+	modifier = {
+		building_group_bg_fishing_throughput_add = 0.1
+	}
+}

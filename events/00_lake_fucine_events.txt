@@ -1,0 +1,32 @@
+﻿namespace = lake_fucine
+
+lake_fucine.1 = {
+	type = country_event
+	placement = root
+	
+	title = lake_fucine.1.t
+	desc = lake_fucine.1.d
+	flavor = lake_fucine.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+
+	option = {
+		name = lake_fucine.1.a
+		default_option = yes
+
+		s:STATE_ABRUZZO = {
+			remove_state_trait = state_trait_lake_fucine
+		}
+		s:STATE_ABRUZZO = {
+			add_state_trait = state_trait_fucine_basin
+		}
+	}
+}

@@ -1,0 +1,151 @@
+﻿pm_synthetic_rubber_production = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	replacement_if_valid = pm_synthetic_rubber_production_principio_mod
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 30
+			goods_input_oil_add = 30
+
+			# output goods
+			goods_output_rubber_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+
+pm_synthetic_oil_production = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	replacement_if_valid = pm_synthetic_oil_production_principio_mod
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 60
+			goods_input_electricity_add = 40
+
+			# output goods
+			goods_output_oil_add = 20
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+
+pm_dye_production = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	replacement_if_valid = pm_dye_production_principio_industria
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 20
+			goods_input_fertilizer_add = 20
+
+			# output goods
+			goods_output_dye_add = 100
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+
+pm_no_artificial_fibers = {
+	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
+}
+
+pm_rayon = {
+	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
+
+	unlocking_technologies = {
+		art_silk
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 10
+
+			# output goods
+			goods_output_dye_add = -10
+			goods_output_silk_add = 40
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+
+pm_elastics = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_technologies = {
+		vulcanization
+	}
+
+	unlocking_production_methods = {
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods	
+			goods_input_rubber_add = 10 			# x40 = -400
+			goods_input_silk_add = 25				# x40 = -1400
+			goods_input_fabric_add = -35				# x20 =  600
+				
+			# output goods	
+			goods_output_clothes_add = -60 			# x30 = -2100
+			goods_output_luxury_clothes_add = 80		# x60 =  4200
+		}
+		
+		level_scaled = {
+			# profit = 900 (23.4)
+			building_employment_shopkeepers_add = 800
+		}						
+	}
+}

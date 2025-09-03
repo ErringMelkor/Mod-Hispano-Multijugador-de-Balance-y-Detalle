@@ -1,0 +1,36 @@
+﻿drain_lake_fucine_decision = {
+	is_shown = {
+		any_scope_state = {
+			state_region = s:STATE_ABRUZZO
+			is_incorporated = yes
+			has_state_trait = state_trait_lake_fucine
+		}
+		hidden_trigger = {
+			NOT = { has_variable = draining_lake_fucine_decision_taken }
+		}
+	}
+
+	possible = {
+		bureaucracy >= 250
+	}
+
+	when_taken = {
+
+		add_journal_entry = {
+			type = je_lake_fucine
+		}
+
+		set_variable = {
+			name = draining_lake_fucine_decision_taken
+			value = yes
+		}
+		add_modifier = {
+			name = lake_fucine_draining_modifier
+			months = 60
+		}
+	}
+
+	ai_chance = {
+		base = 4
+	}
+}

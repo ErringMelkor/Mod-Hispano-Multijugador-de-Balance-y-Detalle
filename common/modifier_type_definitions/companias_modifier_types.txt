@@ -1,0 +1,50 @@
+﻿
+goods_output_rubber_mult = {
+
+	percent = no
+
+}
+
+unit_combat_unit_type_line_infantry_defense_mult = {
+
+	percent = yes
+
+}
+
+unit_combat_unit_type_skirmish_infantry_defense_mult = {
+
+	percent = yes
+
+}
+
+unit_combat_unit_type_light_tanks_offense_mult = {
+
+	percent = yes
+
+}
+
+unit_combat_unit_type_frigate_defense_mult = {
+
+	percent = yes
+
+
+}
+
+unit_combat_unit_type_shrapnel_artillery_defense_mult = {
+
+	percent = yes
+
+}
+
+unit_combat_unit_type_mobile_artillery_offense_mult = {
+
+	percent = yes
+
+}
+
+unit_combat_unit_type_shrapnel_artillery_offense_mult = {
+
+	percent = yes
+
+}
+

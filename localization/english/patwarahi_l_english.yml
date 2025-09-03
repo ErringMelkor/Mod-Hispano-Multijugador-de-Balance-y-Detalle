@@ -1,0 +1,24 @@
+﻿l_english:
+ 
+#After all, Its Just Good Business (La compañía prevalece)
+
+ patwarahi_new_india_modifier: "The Noveau Europe"
+
+ patwarahi.1.t: "The Rise of the Patwar Company"
+ patwarahi.1.d: "In this timeline, the Indian Continent wasn't conquered by Great Britain as a whole. Instead, to face the Mughal and Maratha Empires, the european interests, spearheaded by private individuals with private capital, forged a delicate transnational alliance: the Patwar Company. By the late 17th century, the coalition forces secured in an spectacular victory, mayhaps not seen since the times of Cortez and Pizarro, the suzerainty over the Bengal Delta. Soon enough, the wealth of the region attracted many colonists, mostly french and and dutch, that would be the birth of the creole culture of the patwarahi. Many of these creoles would, in turn, form the middle class of the rising Patwar Company, that, by the middle to late of the seventeenth century, would've already destroyed the Mughals and Marathas, and folded the remaining princelings into vassalage to the Company."
+ patwarahi.1.f: "What they could do with 'round here is a good war. What else can you expect with peace running wild all over the place? You know what the trouble with peace is? No organization. - Bertolt Brech"
+ patwarahi.1.a: "Thus, the last argument of kings."
+
+ patwarahi.2.t: "Independence, in name only"
+ patwarahi.2.d: "With european dominance stablished, the french and british monarchies would start closing their fist over the Company. Around the middle of the 18th century, tensions were on the rise, with sides formed around the french [SCOPE.gsInterestGroup('physiocrats_scope').GetName] and the [SCOPE.gsInterestGroup('entrepeneurs_scope').GetName].By the time the Seven Years War starts, the Company is already fully disfunctional. A civil war in the Company would start with the French Revolution and the Napoleonic Empire as a proxy theater. Two decades later, in 1809, with the Napoleonic victory over the Fifth Coalition, the destiny of the company would take a sudden turn. The Bengal Army, led by Roeland de Cintre-Sarkar, a patwarahi creole, would make a coup d'État and expulse all british and french partisans, and formally declaring the Company free of their European overlords. However, victory would be bitersweet: with Napoleon defeated, the british would be able to kickstart a last offensive on the Patwar Company. Low on funds and without allies, the Company would compromise and grant concessions, while securing their independence, not by the arms..."
+ patwarahi.2.f: "We should forgive our enemies, but not before they are hanged. - Heinrich Heine"
+ patwarahi.2.a: "... but by the dint of our deep pockets."
+ 
+ Leonard_2: "Leonard"
+ Avard: "Avard"
+ Theodore_2: "Theodore"
+ Masur: "Masur"
+ Indrene: "Indrene"
+ de_Farc: "de Farc"
+ Giorgis: "Giorgis"
+ 

@@ -1,0 +1,77 @@
+﻿
+STATE_KABUL = {
+    id = 451
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01CB5D" "x2130A0" "x272245" "x3D34F8" "x3F6DF7" "x401B5D" "x40F059" "x4DE0D5" "x5DF6B2" "x6B01D6" "x70FE4E" "x7C90B0" "x885677" "x8D643D" "x90FCC5" "x91126C" "xA54030" "xA89F7A" "xBAA598" "xBB54C2" "xD37042" "xDCB746" "xDFF634" "xE0898D" "xE40309" "xE81774" "xEF9ECA" "xF7D682" }
+    impassable = { "x6B01D6" "xF7D682" "xDCB746" "xBAA598" "x70FE4E" "x8D643D" "xBB54C2" "x272245" }
+    traits = { "state_trait_golden_crescent" }
+    city = "xEF9ECA"
+    farm = "x401B5D"
+    mine = "x3ACBE0"
+    wood = "xB1300D"
+    arable_land = 80
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_coal_mining = 6
+        bg_iron_mining = 10
+        bg_logging = 4
+    }
+}
+
+
+STATE_KANDAHAR = {
+    id = 2010
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1BC1AF" "x1BF39F" "x3276E4" "x339975" "x3991B0" "x3ACBE0" "x42A020" "x52BEAF" "x55B1FD" "x621FFA" "x64ABBA" "xA0B020" "xAE8F58" "xBBE7A9" "xC57D6B" "xCB758F" "xDA8A5E" "xE7F59C" "xF0407A" "xF1FBC5" }
+    impassable = { "x64ABBA" "xAE8F58" "xA0B020" }
+    traits = { "state_trait_golden_crescent" }
+    city = "x99A835"
+    farm = "x99A835"
+    mine = "x99A835"
+    wood = "x99A835"
+    arable_land = 50
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_logging = 2
+        bg_coal_mining = 4
+        bg_iron_mining = 5
+    }
+}
+
+
+STATE_BALKH = {
+    id = 2007
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0487A7" "x0E5E2E" "x11B523" "x16620F" "x216DD8" "x357612" "x3672D9" "x3C909A" "x4D6A94" "x4D7E7C" "x4E989A" "x54A683" "x596A90" "x5A2C89" "x5E6C67" "x69FEB3" "x7520FB" "x7D64E2" "x854685" "x8BB3DE" "x8C7935" "x9B29C7" "xA030A0" "xA77FF1" "xB1300D" "xB4E735" "xB6BC96" "xB7ED78" "xBFE803" "xCA3319" "xD7BD36" "xE1BF87" "xE63AF6" "xE78EEE" "xEABDEE" "xEBD91F" "xF36208" "xF902AB" "xF9780E" }
+    traits = { "state_trait_golden_crescent" }
+    city = "xB7ed78"
+    farm = "xB7ed78"
+    mine = "xB7ed78"
+    wood = "xB7ed78"
+    arable_land = 40
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_coal_mining = 14
+        bg_iron_mining = 14
+        bg_logging = 7
+    }
+}
+
+STATE_CENTRAL_HIGHLANDS = {
+    id = 450
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x04B03F" "x09828D" "x0EE28B" "x18B003" "x27FE11" "x2F26B8" "x4414C8" "x4F1DA7" "x548EAA" "x5C6E60" "x60B0A0" "x68901F" "x6DBF4A" "x6F8118" "x7AA1D1" "x7FED21" "x8831D3" "x8FACBC" "x938A92" "x99A835" "xA45DA0" "xAD7935" "xAF1A31" "xB6EB52" "xDB584F" "xDC008F" "xE8122E" }
+    traits = { "state_trait_golden_crescent" }
+    city = "x58040A"
+    farm = "x8C7935"
+    mine = "x138C13"
+    wood = "x138C13"
+    arable_land = 40
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_iron_mining = 16
+        bg_lead_mining = 8
+        bg_logging = 4
+    }
+}
+

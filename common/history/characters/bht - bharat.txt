@@ -1,0 +1,28 @@
+﻿COUNTRIES = {
+	c:BHT ?= {
+		create_character = {
+			first_name = Chandragupta
+			last_name = Misdhi
+			ruler = yes
+			age = 46
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				imposing
+				popular_commander
+				stalwart_defender
+				forest_commander
+		}
+	}
+	create_character = {
+		first_name = Pahli
+		last_name = Misdhi
+		heir = yes
+		age = 4
+		interest_group = ig_industrialists
+		ideology = ideology_reformer
+		traits = {
+			charismatic
+		}
+	}
+}

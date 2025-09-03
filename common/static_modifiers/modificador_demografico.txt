@@ -1,0 +1,59 @@
+﻿fra_napoleonic_wars_legacy = { 
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_birth_rate_mult = -0.125
+}
+
+rus_siberian_explosion = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.05
+}
+
+major_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.10
+}
+
+ger_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.15
+}
+
+sca_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.20
+}
+
+ita_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.15
+}
+
+eth_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.35
+	country_tech_spread_mult = 1
+	state_construction_mult = 0.15
+}
+plt_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.20
+}
+unt_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.1
+}
+
+mex_explosion_demografica = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
+
+	state_birth_rate_mult = 0.15
+	state_migration_pull_mult = 0.25
+}

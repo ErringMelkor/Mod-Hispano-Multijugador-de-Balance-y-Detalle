@@ -1,0 +1,72 @@
+﻿ig_trait_neoconfucian_retreat = {
+	icon = "gfx/interface/icons/ig_trait_icons/social_criticism.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		country_society_tech_research_speed_mult = -0.10
+		country_tech_spread_mult = -0.05
+	}
+}
+
+ig_trait_turban_rebellion = {
+	icon = "gfx/interface/icons/ig_trait_icons/old_ways.dds"
+	max_approval = unhappy
+
+	modifier = {
+		state_radicals_from_political_movements_mult = 0.3
+		state_farmers_investment_pool_efficiency_mult = -0.1
+	}
+}
+
+ig_trait_manchu_quarreling = {
+	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		country_authority_mult = -0.15
+	
+		
+	}
+}
+
+ig_trait_lack_of_leadership = {
+	icon = "gfx/interface/icons/ig_trait_icons/materiel_waste.dds"
+	max_approval = unhappy
+	
+	modifier = {
+	unit_morale_recovery_mult = -0.1
+	unit_morale_loss_mult = 0.1
+	unit_supply_consumption_mult = 0.25
+	}
+}
+
+ig_trait_stunted_innovation = {
+	icon = "gfx/interface/icons/ig_trait_icons/tax_avoidance.dds"
+	max_approval = unhappy
+
+	modifier = {
+		state_capitalists_investment_pool_efficiency_mult = -0.15
+		country_production_tech_research_speed_mult = -0.1
+	}	
+}
+
+ig_trait_fierce_quotaism = {
+	icon = "gfx/interface/icons/ig_trait_icons/pious_fiction.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		state_education_access_add = -0.1
+		state_radicals_from_political_movements_mult = 0.1
+	}
+}
+
+ig_trait_autonomous_breakdown = {
+	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		country_loan_interest_rate_add = 0.1
+		state_tax_capacity_mult = -0.1
+		state_construction_mult = -0.05
+	}
+}

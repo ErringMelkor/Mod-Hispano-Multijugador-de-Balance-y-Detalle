@@ -1,0 +1,27 @@
+﻿je_investigacion_peruana = {
+    icon = "gfx/interface/icons/event_icons/innovation.dds"
+    
+    group = je_group_internal_affairs
+
+    modifiers_while_active = {
+        modifier_peruano
+    }
+
+    complete = {
+        institution_investment_level = {
+            institution = institution_schools
+            value >= 3
+        }
+    }
+
+    on_complete = {
+        add_modifier = {
+            name = modifier_legado_peruano
+            years = 35
+            is_decaying = yes
+        }
+    }
+
+    weight = 100
+    should_be_pinned_by_default = yes
+}

@@ -1,0 +1,33 @@
+﻿je_guerra_carlista_main = {
+	icon = "gfx/interface/icons/event_icons/carlismo.dds"
+
+	group = je_group_internal_affairs
+
+
+	immediate = {
+	}
+
+	complete = {
+		has_variable = guerra_carlista_var
+	}
+
+	on_complete = {
+		set_variable = guerra_carlista_complete
+	}
+
+	scripted_button = giro_carlista_scripted_button
+	scripted_button = abrazar_el_liberalismo_frances_scripted_button
+	scripted_button = abrazar_el_liberalismo_ingles_scripted_button
+
+	timeout = 1460
+
+	on_timeout = {
+		trigger_event = {
+			id = guerra_carlista_breath.1
+		}
+	}
+
+	weight = 10000
+
+	should_be_pinned_by_default = yes
+}

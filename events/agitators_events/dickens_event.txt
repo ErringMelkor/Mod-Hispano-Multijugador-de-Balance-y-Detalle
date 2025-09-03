@@ -1,0 +1,91 @@
+historical_agitators.14 = { #Dickens
+	type = country_event
+	placement = root
+
+	gui_window = event_window_1char_tabloid
+	left_icon = scope:historic_agitator_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	title = historical_agitators.14.t
+	desc = historical_agitators.14.d
+	flavor = historical_agitators.14.f
+
+	duration = 3
+
+	dlc = dlc004
+
+	trigger = {
+		has_dlc_feature = voice_of_the_people_content
+		empty_agitator_slots >= 1
+		country_has_primary_culture = cu:british
+		country_is_in_europe = yes
+		game_date > 1848.1.1
+		game_date < 1870.1.1
+		NOT = { has_global_variable = dickens_spawn }
+	}
+
+	immediate = {
+		create_character = {
+			template = gbr_charles_dickens_character_template
+			on_created = {
+				set_variable = dickens_var
+			}
+		}
+		random_scope_character = {
+			limit = {
+				has_variable = dickens_var
+			}
+			save_scope_as = historic_agitator_scope
+		}
+		set_global_variable = dickens_spawn
+		random_country = {
+			limit = {
+				country_has_primary_culture = cu:french
+			}
+			save_scope_as = french_scope
+		}
+		capital = {
+			save_scope_as = capital_scope
+		}
+	}
+
+	option = {
+		name = historical_agitators.14.a
+		default_option = yes
+		show_as_tooltip = {
+			create_character = {
+				template = gbr_charles_dickens_character_template
+			}
+		}
+		change_relations = {
+			country = scope:french_scope
+			value = 15
+		}
+		scope:historic_agitator_scope = {
+			add_modifier = {
+				name = modifier_activist_author
+			}
+		}
+	}
+	option = {
+		name = historical_agitators.14.b
+		show_as_tooltip = {
+			create_character = {
+				template = gbr_charles_dickens_character_template
+			}
+		}
+		add_modifier = {
+			name = modifier_dickensian_reading_campaign
+			days = long_modifier_time
+		}
+		scope:historic_agitator_scope = {
+			add_modifier = {
+				name = modifier_activist_author
+			}
+		}
+	}
+}

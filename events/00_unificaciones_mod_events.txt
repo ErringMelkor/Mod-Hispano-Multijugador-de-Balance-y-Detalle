@@ -1,0 +1,370 @@
+﻿namespace = formation
+
+# Iberia
+formation.5 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.5.t
+	desc = formation.5.d
+	flavor = {
+		first_valid = {
+			triggered_desc = {
+				desc = formation.5.f
+				trigger = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			triggered_desc = {
+				desc = formation.5.f2
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		c:IBE ?= THIS
+		NOT = { has_global_variable = has_formed_ibe }
+	}
+
+	immediate = {
+		set_global_variable = has_formed_ibe
+		save_scope_as = formation_country
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_ibe
+		}
+	}
+
+	option = {
+		name = formation.5.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		add_modifier = {
+				name = major_explosion_demografica
+				months = 240
+				is_decaying = yes
+		}
+		unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# Scandinavia
+formation.10 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.10.t
+	desc = formation.10.d
+	flavor = formation.10.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		c:SCA ?= THIS
+		NOT = { has_global_variable = has_formed_sca }
+	}
+
+	immediate = {
+		set_global_variable = has_formed_sca
+		save_scope_as = formation_country
+		cu:norwegian = {
+			save_scope_as = unification_culture
+		}
+		cu:icelandic = {
+			save_scope_as = unification_culture_2
+		}
+		cu:danish = {
+			save_scope_as = unification_culture_3
+		}
+		cu:swedish = {
+			save_scope_as = unification_culture_4
+		}
+		cu:finnish = {
+			save_scope_as = finns_scope
+		}
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_four_culture
+		}
+	}
+
+	option = {
+		name = formation.5.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		add_modifier = {
+			name = sca_explosion_demografica
+			months = 240
+			is_decaying = yes
+		}
+		unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+		s:STATE_EAST_KARELIA = { 
+			add_homeland = cu:finnish
+		}
+		s:STATE_KOLA = { 
+			add_homeland = cu:finnish
+		}
+	}
+
+}
+
+# United Netherlands
+formation.19 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.19.t
+	desc = formation.19.d
+	flavor = formation.19.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		c:UNL ?= THIS
+		NOT = { has_global_variable = has_formed_unl }
+	}
+
+	immediate = {
+		set_global_variable = has_formed_unl
+		save_scope_as = formation_country
+		ruler = { save_scope_as = ruler_scope }
+		cu:dutch = {
+			save_scope_as = unification_culture
+		}
+		cu:flemish = {
+			save_scope_as = unification_culture_2
+		}
+		cu:wallonian = {
+			save_scope_as = unification_culture_3
+		}
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_three_culture
+		}
+	}
+
+	option = {
+		name = formation.19.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		add_modifier = {
+				name = unt_explosion_demografica
+				months = 240
+				is_decaying = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Ethiopia
+formation.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.4.t
+	desc = formation.4.d
+	flavor = formation.4.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_age_of_princes
+	}
+
+	immediate = {
+		save_scope_as = formation_country
+		ruler = {
+			save_scope_as = ruler_scope
+		}
+		cu:amhara = {
+			save_scope_as = unification_culture
+		}
+		cu:oromo = {
+			save_scope_as = unification_culture_2
+		}
+		cu:tigray = {
+			save_scope_as = unification_culture_3
+		}
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_three_culture
+		}
+	}
+
+	option = {
+		name = formation.4.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+
+		add_modifier = {
+			name = eth_explosion_demografica
+			years = 30
+			is_decaying = yes
+		}
+
+		s:STATE_SOMALILAND = {
+			add_claim = ROOT
+		}
+		s:STATE_ERITREA = {
+			add_claim = ROOT
+		}
+
+		if = {
+			limit = { exists = c:AUS }
+			change_relations = {
+				country = c:AUS
+				value = 50
+			}
+		}
+		if = {
+			limit = { exists = c:PRU }
+			change_relations = {
+				country = c:PRU
+				value = 50
+			}
+		}
+		if = {
+			limit = { exists = c:GBR }
+			change_relations = {
+				country = c:GBR
+				value = 50
+			}
+		}
+		if = {
+			limit = { exists = c:FRA }
+			change_relations = {
+				country = c:FRA
+				value = 50
+			}
+		}
+		if = {
+			limit = { exists = c:SPA }
+			change_relations = {
+				country = c:SPA
+				value = 50
+			}
+		}
+		if = {
+			limit = { exists = c:RUS }
+			change_relations = {
+				country = c:RUS
+				value = 80
+			}
+		}
+	}
+}
+#Rio de la plata
+formation.69 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.69.t
+	desc = formation.69.d
+	
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+	
+		c:PLT ?= THIS
+		
+	}
+
+
+	option = {
+		name = formation.13.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		add_modifier = {
+			name = plt_explosion_demografica
+			months = 240
+			is_decaying = yes
+		}
+		unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+		
+		
+	}
+
+}

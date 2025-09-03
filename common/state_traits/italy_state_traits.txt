@@ -1,0 +1,75 @@
+﻿state_trait_lake_fucine = {
+
+	icon = "gfx/interface/icons/state_trait_icons/malaria.dds"
+
+	modifier = {
+		state_mortality_mult = 0.02
+	}
+}
+
+state_trait_fucine_basin = {
+
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		state_birth_rate_mult = 0.08
+		building_group_bg_agriculture_throughput_add = 0.15
+		building_group_bg_plantations_throughput_add = 0.15
+	}
+}
+
+state_trait_golfo_di_cagliari = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_shipyards_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.1
+		state_building_naval_base_max_level_add = 10
+	}
+}
+
+state_trait_golfo_di_genoa = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_shipyards_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.1
+		state_building_naval_base_max_level_add = 10
+	}
+}
+
+state_trait_golfo_di_napoli = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_shipyards_throughput_add = 0.15
+		building_military_shipyards_throughput_add = 0.15
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.25
+		state_building_naval_base_max_level_add = 15
+		state_market_access_price_impact = 0.05
+	}
+}
+
+state_trait_golfo_di_tarento = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_shipyards_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.1
+		state_building_naval_base_max_level_add = 10
+	}
+}
+
+state_trait_laguna_veneta = {
+	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+	
+	modifier = {
+		building_shipyards_throughput_add = 0.15
+		building_military_shipyards_throughput_add = 0.15
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.25
+		state_building_naval_base_max_level_add = 15
+		state_market_access_price_impact = 0.05
+	}
+}

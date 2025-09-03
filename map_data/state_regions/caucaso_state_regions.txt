@@ -1,0 +1,112 @@
+﻿
+STATE_DAGESTAN = {
+    id = 433
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01D041" "x0F3A99" "x3B6A9E" "x4C6398" "x537501" "x72A1AB" "x84A24F" "x8FD393" "x9F1D8F" "xBD38C5" "xC01040" "xC09041" "xDA5ABE" }
+    city = "x72A1AB"
+    farm = "x0F3A99"
+    mine = "xDA5ABE"
+    wood = "x01D041"
+    arable_land = 25
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_logging = 10
+    }
+    traits = { "state_trait_caucasus_mountains" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+}
+
+
+STATE_KUBAN = {
+    id = 434
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0E69B9" "x16687C" "x191F70" "x2CF115" "x2E1A32" "x33CC4D" "x3C9016" "x405000" "x469A99" "x522F82" "x594403" "x61D073" "x6BB70E" "x6F16AA" "x708C99" "x76B63F" "x7BCBCC" "x80D080" "x89223D" "x9809B7" "x9A01E0" "xAF4F59" "xB63D94" "xBCF376" "xC88562" "xD5648D" "xD9CD9D" "xE6667B" "xEB2EF5" "xF51533" }
+    traits = { "state_trait_western_steppe" "state_trait_black_soil" }
+    city = "x80D080"
+    port = "x9809B7"
+    farm = "x405000"
+    mine = "x1ED727"
+    wood = "xD9CD9D"
+    arable_land = 105
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_coal_mining = 10
+        bg_lead_mining = 27
+        bg_iron_mining = 10
+        bg_logging = 35
+        bg_fishing = 7
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+    naval_exit_id = 3036
+}
+
+
+STATE_ARMENIA = {
+    id = 435
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x005000" "x16A02D" "x30DF60" "x3161E0" "x805000" "xAB3AF1" "xDC0812" }
+    city = "x805000"
+    farm = "x005000"
+    mine = "x805000"
+    wood = "x3161E0"
+    arable_land = 60
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_iron_mining = 27
+        bg_lead_mining = 21
+        bg_logging = 2
+    }
+}
+
+STATE_AZERBAIJAN = {
+    #done
+    id = 436
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x007060" "x008FBF" "x0467D5" "x0B74ED" "x0E8C3E" "x493F0B" "x69FE0D" "x6EB08E" "xBFD159" "xD77566" "xE7B07C" }
+    traits = { "state_trait_caucasus_mountains" }
+    city = "x6EB08E"
+    farm = "x493F0B"
+    mine = "x0E8C3E"
+    wood = "x69FE0D"
+    arable_land = 30
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_lead_mining = 18
+        bg_logging = 4
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 240
+    }
+}
+
+STATE_GREATER_CAUCASUS = {
+    id = 437
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x011141" "x3537D5" "x40D001" "x4A4DF9" "x73A639" "x74A861" "x801000" "x85DCE4" "x9BC69B" "xC0CF80" "xC27075" "xC9B445" "xD15CBD" "xD1A8AF" "xD62036" "xD65AC8" "xF0E0DF" "xFB38B0" "xFB53B8" }
+    traits = { "state_trait_caucasus_mountains" }
+    city = "x3537D5"
+    port = "x011141"
+    farm = "x40D001"
+    mine = "x4A4DF9"
+    wood = "xD62036"
+    arable_land = 75
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_coal_mining = 40
+        bg_lead_mining = 20
+        bg_gold_mining = 3
+        bg_iron_mining = 24
+        bg_logging = 19
+        bg_fishing = 5
+    }
+    naval_exit_id = 3036
+}
+
+

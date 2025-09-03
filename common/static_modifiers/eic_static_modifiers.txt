@@ -1,0 +1,52 @@
+﻿physiocrat_experiment= {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 1
+	state_bureaucracy_population_base_cost_factor_mult = -0.25
+	tax_income_add = 0.1
+}
+
+collapse_portuguese_regime = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_bureaucracy_population_base_cost_factor_mult = 0.35
+	state_unincorporated_starting_wages_mult = -0.15
+}
+
+
+last_marathi_revolt = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_construction_mult = -0.25
+	state_radicals_from_political_movements_mult = 0.25
+	country_authority_mult = -0.05
+}
+
+dutch_buyout = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+		country_prestige_mult = -0.05
+		country_expenses_add = 2000
+		political_movement_radicalism_add = 0.05
+		state_capitalists_investment_pool_efficiency_mult = -0.05
+}
+
+dutch_eic_buyout = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+		country_prestige_mult = 0.05
+		country_expenses_add = -2000
+		political_movement_radicalism_add = -0.10
+}
+
+patwarahi_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+patwarahi_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+patwarahi_new_india_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_prestige_mult = -0.65
+	country_law_enactment_time_mult = 0.25
+	
+}

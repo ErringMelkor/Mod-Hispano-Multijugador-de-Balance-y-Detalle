@@ -1,0 +1,148 @@
+﻿namespace = golden_crescent
+
+golden_crescent.1 = {
+	type = country_event
+	placement = root
+
+	duration = 3
+
+	title = golden_crescent.1.t
+	desc = golden_crescent.1.d
+	flavor = golden_crescent.1.f
+
+	event_image = {
+		video = "rp1_amazon_exploitation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/middleclass_cafe"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+	
+	immediate = {
+		set_strategy = ai_strategy_plantation_economy
+	}
+	
+	option = {
+		name = golden_crescent.1.a
+		default_option = yes
+		add_modifier = {
+			name = golden_crescent_rural_folk
+			years = 10
+			is_decaying = yes
+		}
+	}
+
+	option = {
+		name = golden_crescent.1.b
+		add_modifier = {
+			name = golden_crescent_landowners
+			years = 10
+			is_decaying = yes
+		}
+	}
+}
+
+golden_crescent.2 = {
+	type = country_event
+	placement = scope:reinvestment_state
+
+	duration = 3
+
+	title = golden_crescent.2.t
+	desc = golden_crescent.2.d
+	flavor = golden_crescent.2.f
+
+	event_image = {
+		video = "rp1_brazilian_city"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/middleclass_cafe"
+
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	cooldown = { months = 12 }
+
+	trigger = {
+		any_scope_state = {
+			OR = {
+				any_scope_building = {
+					is_building_type = building_opium_plantation
+					level >= 10
+				}
+				any_scope_building = {
+					is_building_type = building_dye_plantation
+					level >= 10
+				}
+				any_scope_building = {
+					is_building_type = building_tobacco_plantation
+					level >= 10
+				}
+				any_scope_building = {
+					is_building_type = building_cotton_plantation
+					level >= 10
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		ordered_scope_state = {
+			limit = {
+				OR = {
+					any_scope_building = {
+						is_building_type = building_opium_plantation
+						level >= 10
+					}
+					any_scope_building = {
+						is_building_type = building_dye_plantation
+						level >= 10
+					}
+					any_scope_building = {
+						is_building_type = building_tobacco_plantation
+						level >= 10
+					}
+					any_scope_building = {
+						is_building_type = building_cotton_plantation
+						level >= 10
+					}
+				}
+			}
+			save_scope_as = reinvestment_state
+		}
+	}
+	
+	option = {
+		name = golden_crescent.2.a 
+		
+		scope:reinvestment_state = {
+			add_modifier = {
+				name = golden_crescent_slavery 
+				months = 12
+			}
+			add_radicals_in_state = {
+				value = small_radicals
+				strata = lower
+			}
+		}
+	}
+
+	option = {
+		name = golden_crescent.2.b
+		default_option = yes
+		scope:reinvestment_state = {
+			add_radicals_in_state = {
+				value = medium_radicals
+				strata = upper
+			}
+			add_modifier = {
+			name = golden_crescent_workers
+			months = 12
+			}
+		}
+	}
+}

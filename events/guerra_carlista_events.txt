@@ -1,0 +1,39 @@
+﻿namespace = guerra_carlista_breath
+
+guerra_carlista_breath.1 = {
+	type = country_event
+	placement = root
+	title = guerra_carlista_breath.1.t
+	desc = guerra_carlista_breath.1.d
+	flavor = guerra_carlista_breath.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+
+	option = {
+		name = guerra_carlista_breath.1.a
+		default_option = yes
+
+		add_loyalists = {
+			value = 0.01
+		}
+
+		add_modifier = {
+			name = estatuto_real
+			years = 10
+		}
+
+		add_modifier = {
+			name = regenta_maria_cristina
+			years = 10
+		}
+	}
+}

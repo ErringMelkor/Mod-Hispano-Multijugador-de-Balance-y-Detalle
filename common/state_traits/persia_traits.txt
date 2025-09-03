@@ -1,0 +1,43 @@
+﻿state_trait_gol_gohar_deposit = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_iron_mine_throughput_add = 0.1
+	}
+}
+
+state_trait_zagros_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.1
+	}
+}
+
+state_trait_alborz_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_construction_mult = -0.05
+		state_infrastructure_mult = -0.15
+	}
+}
+
+state_trait_golden_crescent = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+state_trait_amu_daria_delta = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+		state_infrastructure_mult = -0.1
+	}
+}

@@ -1,0 +1,27 @@
+﻿je_terakoya = {
+	icon = "gfx/interface/icons/event_icons/innovation.dds"
+	
+	group = je_group_historical_content
+
+	modifiers_while_active = {
+		modifier_jap_terakoya1
+	}
+
+	complete = {
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 3
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_legacy_of_terakoya
+			years = 35
+			is_decaying = yes
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

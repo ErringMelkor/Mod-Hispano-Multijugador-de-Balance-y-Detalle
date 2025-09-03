@@ -1,0 +1,36 @@
+﻿opium_wars_lost1 = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+    country_legitimacy_base_add = -65
+    state_turmoil_effects_mult = 0.35
+	state_mortality_mult = 0.08
+}
+
+opium_wars_no_response = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+    country_legitimacy_base_add = -85
+    state_turmoil_effects_mult = 0.75
+    state_radicals_and_loyalists_from_sol_change_mult = -0.35
+    state_mortality_mult = 0.08
+    interest_group_approval_add = -10
+}
+
+opium_wars_response = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+    country_legitimacy_base_add = -25
+    state_turmoil_effects_mult = 0.25
+    state_radicals_and_loyalists_from_sol_change_mult = -0.1
+    state_mortality_mult = 0.08
+}
+
+modifier_imperial_examinations = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+    state_education_access_add = 0.05
+    state_pop_qualifications_mult = 0.25
+}
+
+modifier_legacy_imperial_examinations = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+    state_education_access_add = 0.1
+    country_tech_spread_mult = 0.10
+    state_pop_qualifications_mult = 0.35
+}

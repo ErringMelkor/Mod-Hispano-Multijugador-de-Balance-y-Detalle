@@ -1,0 +1,42 @@
+﻿country_institution_military_max_investment_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_institution_cost_institution_health_system_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+country_institution_cost_institution_military_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_group_bg_subsistence_agriculture_mortality_mult={
+	decimals=0
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+state_bureaucrats_investment_pool_contribution_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}

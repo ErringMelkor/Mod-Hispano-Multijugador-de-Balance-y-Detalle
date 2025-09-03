@@ -1,0 +1,49 @@
+﻿aceptar_nativos_decision = {
+	is_shown = {
+		OR = {
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+		}
+		NOT = {
+			country_has_primary_culture = cu:aimara
+		}
+	}
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		has_law = law_type:law_cultural_exclusion	
+	}
+
+	when_taken = { 
+		add_primary_culture = cu:quechua
+		add_primary_culture = cu:aimara
+
+		add_radicals = {
+			value = 0.15
+			culture = cu:south_andean
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:north_andean
+		}
+
+		add_loyalists = {
+			value = 0.2
+			culture = cu:quechua
+		}
+		add_loyalists = {
+			value = 0.2
+			culture = cu:aimara
+		}
+
+		add_modifier = {
+			name = nueva_indigeneidad
+			months =  120
+			is_decaying = yes
+		}
+	}
+
+	ai_chance = {
+		base = 4
+	}
+}

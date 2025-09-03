@@ -1,0 +1,395 @@
+﻿towards_to_modernity = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs
+	
+	
+	immediate = {
+		set_variable = {
+			name = modernity_var
+			value = 0
+		}
+	}
+	
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity1
+		add_journal_entry = {
+				type = towards_to_modernity2
+		}
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+towards_to_modernity2 = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	group = je_group_internal_affairs	
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity2
+		remove_modifier = towards_to_modernity1
+		add_journal_entry = {
+				type = towards_to_modernity3
+		}
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+} 
+towards_to_modernity3 = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs	
+	
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity3
+		remove_modifier = towards_to_modernity2
+		add_journal_entry = {
+				type = towards_to_modernity4
+		}
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+} 
+
+towards_to_modernity4 = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs	
+	
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity4
+		remove_modifier = towards_to_modernity3
+		add_journal_entry = {
+				type = towards_to_modernity5
+		}
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+} 
+towards_to_modernity5 = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs	
+	
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity5
+		remove_modifier = towards_to_modernity4
+		add_journal_entry = {
+				type = towards_to_modernity6
+		}
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+} 
+towards_to_modernity6 = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs	
+	
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		add_modifier = towards_to_modernity6
+		remove_modifier = towards_to_modernity5
+	}
+
+
+	current_value = {
+		value = var:modernity_var
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+} 
+
+towards_to_modernity_1 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+		
+	complete = {
+		NOR = { 
+			has_law = law_type:law_traditionalism
+			has_law = law_type:law_land_based_taxation
+			has_law = law_type:law_serfdom
+		}
+	
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+
+towards_to_modernity_2 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+	complete = {
+
+		GDP >= 150000000
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+towards_to_modernity_3 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+	complete = {
+		OR = {
+			navy_size >= 120
+			army_size >= 450
+		}
+		NOR = {
+			any_scope_building = {
+				is_building_type = building_barracks				
+				OR = {
+					building_has_goods_shortage = yes
+					has_active_production_method = pm_no_organization
+				}
+			}
+			any_military_formation = {
+				filter = {
+					is_army = yes
+				}
+				any_combat_unit = {
+					has_unit_type = unit_type:combat_unit_type_skirmish_infantry
+				}
+				percent <= 0.5
+			}
+			has_law = law_type:law_peasant_levies
+		}
+		
+	
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+towards_to_modernity_4 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+	complete = {
+		
+		NOR = { 
+			has_law = law_type:law_no_schools
+			has_law = law_type:law_no_health_system
+		}
+
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+towards_to_modernity_5 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+	complete = {
+
+		pop_type_percent_country = {
+			pop_type = peasants
+			percent < 0.50
+			
+			}
+
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+towards_to_modernity_6 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs	
+	
+	complete = {
+
+		literacy_rate >= 0.4
+
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}
+towards_to_modernity_7 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_internal_affairs
+	
+	complete = {
+
+		GDP >= 150000000
+	}
+
+	on_complete = {
+		change_variable = {
+			name = modernity_var
+			add = 1
+		}
+	}
+
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+}

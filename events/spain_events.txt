@@ -1,0 +1,90 @@
+﻿namespace = mendizabal
+
+mendizabal.1= {
+	type = country_event
+	placement = root
+	title = mendizabal.1.t
+	desc = mendizabal.1.d
+	flavor = mendizabal.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	trigger = {
+	}
+
+
+	option = {
+		name = mendizabal.1.a
+		default_option = yes
+
+		add_modifier ={
+			name = mendizabal_state
+			months = 36
+		}
+
+		add_radicals = {	
+			value = 0.15
+			interest_group = ig:ig_devout
+		}
+	}
+
+	option = {
+		name = mendizabal.1.b
+		trigger = {
+			OR = {
+				has_law = law_type:law_tenant_farmers
+				has_law = law_type:law_homesteading
+			}
+		}
+
+		add_modifier = {
+			name = mendizabal_people
+			months = 36
+		}
+
+		add_loyalists = {
+			value = 0.05
+			pop_type = peasants
+		}
+
+		add_radicals = {	
+			value = 0.15
+			interest_group = ig:ig_devout
+		}
+	}
+
+	option = {
+		name = mendizabal.1.c
+
+		trigger = {
+			has_law = law_type:law_homesteading
+			NOT = {
+				has_law = law_type:law_oligarchy
+			}
+		}
+
+		add_modifier = {
+			name = mendizabal_people_radical
+			months = 36
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = peasants
+		}
+
+		add_radicals = {	
+			value = 0.15
+			interest_group = ig:ig_devout
+		}
+	}
+}
+

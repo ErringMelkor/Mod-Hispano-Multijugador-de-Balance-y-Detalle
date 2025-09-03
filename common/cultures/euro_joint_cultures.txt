@@ -1,0 +1,402 @@
+﻿Baltic= {
+	color= hsv{ 0.96 0.59 0.63 }
+	religion = protestant
+	traits = { baltic_culture_group finnic european_heritage }
+	male_common_first_names = {
+		Aaron
+		Abrams
+		Alberts
+		Aleksandrs
+		Aloisz
+		Andrejs
+		Arkadij
+		Armands
+		Arnolds
+		Atis
+		Brunis
+		Bruno
+		Eduards
+		Eliass
+		Elmars
+		Emils
+		Evgenijs
+		Filips
+		Fricis
+		Gustavs
+		Heinrihs
+		Hermanis
+		Izaks
+		Janis
+		Jazeps
+		Jekabs
+		Johans
+		Juris
+		Karlis
+		Krisjanis
+		Leo
+		Mark
+		Martins
+		Mihails
+		Mikelis
+		Nikolajs
+		Oskars
+		Pauls
+		Peteris
+		Rihards
+		Roberts
+		Romans
+		Sandis
+		Sergejs
+		Valdemars
+		Valerians
+		Valter
+		Vilis
+		Vladimirs
+		Zigfrids
+		Adolfas
+		Aleksandras
+		Algirdas
+		Andrius
+		Antanas
+		Arturas
+		Arunas
+		Augustinas
+		Balys
+		Boris
+		Bronislovas
+		Danielius
+		Darius
+		Gendiminas
+		Henrikas
+		Jonas
+		Jonusas
+		Juozas
+		Juras
+		Jurgis
+		Justas
+		Kazimieras
+		Kazys
+		Kipras
+		Konstantinas
+		Lukas
+		Marijus
+		Markas
+		Mikalojus
+		Mindaugas
+		Motejus
+		Mykolas
+		Paulius
+		Petras
+		Povilas
+		Ramunas
+		Ringaudas
+		Rolandas
+		Simonas
+		Stasys
+		Steponas
+		Tadas
+		Valdas
+		Valdemaras
+		Viktoras
+		Vilhelmas
+		Visvaldas
+		Vladimiras
+		Vygantas
+		Vytautas
+		Zydrunas
+	}
+	female_common_first_names = {
+		Amida
+		Antonija 
+		Benigna
+		Berta
+		Diana
+		Elfriede 
+		Elza 
+		Emilija
+		Inguna
+		Johanna
+		Julija
+		Karoline
+		Klara
+		Lidija
+		Lizete
+		Magda
+		Marija
+		Marta
+		Matilde
+		Regina
+		Roze
+	}	
+	noble_last_names = {
+		Krek
+		Penikis
+		Plavins
+		Tontegode
+		von_Knabenau
+		von_Lieven
+		von_Mengden
+		von_Plettenberg
+		von_Stamm
+		von_Wolff
+	}
+	common_last_names = {
+		Abakovskis
+		Apsenieks
+		Balodis
+		Baumanis
+		Berkis
+		Berzin
+		Betins
+		Braons
+		Caks
+		Cakste
+		Caps
+		Celmins
+		Dalins
+		Dambitis
+		Darzins
+		Desslers
+		Eizenteins
+		Goppers
+		Halsmans
+		Irbitis
+		Kalnins
+		Kalpaks
+		Kovalevskis
+		Krogzems
+		Kronvalds
+		Kucis
+		Kuks
+		Kviesis
+		Lacis
+		Leiko
+		Loskis
+		Maters
+		Matisons
+		Meierovics
+		Mihelssons
+		Milenbahs
+		Millers
+		Needra
+		Ozolins
+		Petrovs
+		Plieksans
+		Pumpurs
+		Rothko
+		Simanis
+		Stucka
+		Tumins
+		Ulmanis
+		Veidenbaums
+		de_Kolongs
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+Finno-Ugric = {
+	color= hsv{ 0.50 0.32 0.62 }
+	religion = orthodox
+	traits = { finnic european_heritage }
+	male_common_first_names = {
+		Aleksandr
+		Dmitri
+		Ivan
+		Jukka
+		Santeri
+		Vladimir
+	}
+	female_common_first_names = {
+		Aili
+		Margareta
+		Marja
+		Nasti
+	}	
+	noble_last_names = {
+		Ubmeje 
+		Nuorane 
+		Gajka 
+		Kaise 
+		Saiva 
+		Keite 
+		Magga 
+		Guoladat
+	}
+	common_last_names = {
+		Kokko
+		Likhachev
+		Mamin
+		Minin
+		Sibiriak
+		Tikhanov
+		Zubov
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = decentralised_americas
+}
+
+South_Slavic ={
+	color= hsv{ 0.97 0.26 0.58 }
+	religion = orthodox
+	traits = { otomanosphere european_heritage }
+	male_common_first_names={
+		Alaksandar
+		Arsenije
+		Blagoje
+		Bozidar
+		Branko
+		Danilo
+		Dejan
+		Djordje
+		Dragan
+		Dragisa
+		Dragoljub
+		Dragutin
+		Draza
+		Dusan
+		Gavrilo
+		Goran
+		Janko
+		Jovan
+		Koca
+		Kosta
+		Krsto
+		Ljubisa
+		Mihailo
+		Milan
+		Miliutin
+		Milivoje
+		Milojko
+		Milos
+		Miodrag
+		Mirko
+		Miroslav
+		Momcilo
+		Nebojsa
+		Nikola
+		Pavle
+		Peko
+		Petar
+		Radomir
+		Ratko
+		Sava
+		Slobodan
+		Stepa
+		Stojan
+		Vaselien
+		Veljko
+		Vladimir
+		Vojislav
+		Zivojin
+		Zivota
+		Zoran
+		Zvezdan
+	}
+	female_common_first_names = {
+		Alexandra
+		Anka
+		Darinka
+		Draga
+		Jekaterina
+		Jelena
+		Katarina
+		Maria
+		Milena
+		Natalia
+		Ruza
+		Simeona
+		Stamena
+		Stojna
+		Tomanija
+		Milica
+	}	
+	noble_last_names = {
+		Anastasijevic
+		Avakumovic
+		Bogicevic
+		Garasanin
+		Konstantinovic
+		Nenadovic
+		Obrenovic
+	}
+	common_last_names={
+		Adzic
+		Arandelovic
+		Belimarkovic
+		Blaznacac
+		Bojovic
+		Bozanovic
+		Bozinovic
+		Brankovic
+		Damjanic
+		Dapcevic
+		Dragutinovic
+		Grujic
+		Hadzilic
+		Horvatovic
+		Isakovic
+		Jankovic
+		Jokic
+		Jovanovic
+		Kadijevic
+		Karadordevic
+		Kundak
+		Lesjanin
+		Ljubicic
+		Maric
+		Maricic
+		Mihailovic
+		Miliutinovic
+		Miloradovic
+		Misic
+		Nad
+		Nedic
+		Novak
+		Ojdanic
+		Panic
+		Paskas
+		Pavkovic
+		Pesic
+		Petrovic
+		Popovic
+		Putnik
+		Radulovic
+		Rasic
+		Sijan
+		Simovic
+		Sokolovic
+		Stepanovic
+		Vasiljevic
+		Veric
+		Vojvodic
+		Vukotic
+		Zivkovic
+	}
+	male_regal_first_names = {
+		Alaksandar
+		Danilo
+		Mihailo Milan Milos
+		Nikola
+		Pavle Petar
+	}
+	female_regal_first_names = {
+		Alexandra
+		Darinka Draga
+		Maria Milena
+		Natalia
+	}
+	regal_last_names = {
+		Karadordevic
+		Obrenovic
+		Petrovic_Njegos
+	}	
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}

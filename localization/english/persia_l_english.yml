@@ -1,0 +1,44 @@
+﻿l_english:
+
+ je_golden_crescent: "The Birth of the Golden Crescent"
+ persian_boom: "Demographic Boom of Persia"
+ golden_crescent.1.t: "Money grows on trees"
+ ideology_modern_agrarian: "Persian Agrarianism"
+ ideology_modern_agrarian_desc: "This group believes on a focus on agriculture and farmers while incorporating many ideas from the broader world."
+ 
+ golden_crescent_rural_folk: "Golden Crescent: Empowerment of the Farmers"
+ golden_crescent_landowners: "Golden Crescent: Production Surge"
+ 
+ golden_crescent.1.a: "Let our farmers make the best of this"
+ golden_crescent.1.b: "Our aristocrats will make the country prosper"
+ 
+ golden_crescent.1.d: "Commodities for the world, made in Persia."
+ golden_crescent.1.f: "For millenia we've sold and traded exotic crops to be sold at the markets of great empires, west and east. Our goods can now reach the whole world, and we shall prosper from it."
+ 
+ golden_crescent.2.t: "Local production surge"
+ golden_crescent.2.a: "Import slaves to make up for demand"
+ golden_crescent.2.b: "Encourage migration to the provinces"
+ golden_crescent.2.d: "Our plantations exceed expectations."
+ golden_crescent.2.f: "As our plantation economy develops we require even more hands to man the fields. Until we find a way to reduce the workload, we must decide on a course of action to keep increasing our economy."
+
+ 
+ golden_crescent_slavery: "Importing slaves"
+ golden_crescent_workers: "Encourage workers"
+ 
+ je_sick_man_bread_basket: "Tanzimat: Breadbasket"
+ je_sick_man_industrial_heartland: "Tanzimat: Industrial Heartland"
+ ottoman_rural_boom: "New Agrarian Practices"
+ ottoman_industrial_boom: "Ottoman Industrial Boom"
+ 
+ je_sick_man_bread_basket_reason: "Our empire tows a fine line between modernizing and providing for our people. Doing one musn't mean neglecting the other: thus, we should create a new breadbasket for our empire, be it in Mesopotamia or Egypt, for we are a river to our people."
+ je_sick_man_industrial_heartland_reason: "To be in line with the other powers in Europe we require raw materials. Shall we meet those needs, we will foster an industry ready for the fight."
+ 
+ state_trait_northern_forests: "Northern Forests"
+ state_trait_japanese_fishing: "Japanese Fishing Hubs"
+ 
+ ig_trait_famine_reserves_per: "Silo Preservation"
+ ig_trait_famine_reserves_per_desc: "Cooperating aristocrats know better than to let the hand that feeds them starve."
+ building_group_bg_subsistence_agriculture_mortality_mult: "Subsistence Agriculture Employee Mortality"
+ building_group_bg_subsistence_agriculture_mortality_mult_desc: "A reduction on mortality of Subsistence Agriculture employees."
+ 
+

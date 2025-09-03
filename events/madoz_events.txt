@@ -1,0 +1,163 @@
+﻿namespace = madoz
+
+madoz.1 = {
+	type = country_event
+	placement = root
+	title = madoz.1.t
+	desc = madoz.1.d
+	flavor = madoz.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	trigger = {
+	}
+
+
+	option = {
+		name = madoz.1.a
+		default_option = yes
+
+		add_modifier ={
+			name = madoz_state
+			months = 60
+		}
+
+		add_radicals = {	
+			value = 0.5
+			interest_group = ig:ig_devout
+		}
+	}
+
+	option = {
+		name = madoz.1.b
+		trigger = {
+			OR = {
+				has_law = law_type:law_tenant_farmers
+				has_law = law_type:law_homesteading
+			}
+		}
+
+		add_modifier = {
+			name = madoz_people
+			months = 60
+		}
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = farmers
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = peasants
+		}
+
+		add_radicals = {	
+			value = 0.5
+			interest_group = ig:ig_devout
+		}
+
+		add_radicals = {	
+			value = 0.1
+			interest_group = ig:ig_industrialists
+		}
+	}
+
+	option = {
+		name = madoz.1.c
+		trigger = {
+			OR = {
+				has_law = law_type:law_homesteading
+			}
+			NOT = {
+				has_law = law_type:law_oligarchy
+			}
+		}
+
+		add_modifier = {
+			name = madoz_people_radical
+			months = 60
+		}
+
+		add_loyalists = {
+			value = 0.35
+			pop_type = farmers
+		}
+
+		add_loyalists = {
+			value = 0.15
+			pop_type = peasants
+		}
+
+		add_radicals = {	
+			value = 0.5
+			interest_group = ig:ig_devout
+		}
+	}
+
+	option = {
+		name = madoz.1.h
+		trigger = {
+		}
+
+		add_modifier = {
+			name = madoz_capitalists
+			months = 60
+		}
+
+		add_loyalists = {
+			value = 0.35
+			pop_type = capitalists
+		}
+
+		add_radicals = {	
+			value = 0.5
+			interest_group = ig:ig_devout
+		}
+
+		add_radicals = {
+			value = 0.05
+			pop_type = peasants
+		}
+
+	}
+
+	option = {
+		name = madoz.1.i
+		trigger = {
+			OR = {
+				has_law = law_type:law_laissez_faire
+				has_law = law_type:law_wealth_voting
+				has_law = law_type:law_free_trade
+			}
+		}
+
+		add_modifier = {
+			name = madoz_capitalists_radical
+			months = 60
+		}
+
+		add_loyalists = {
+			value = 0.35
+			pop_type = capitalists
+		}
+
+		add_radicals = {
+			value = 0.1
+			pop_type = peasants
+		}
+
+		add_radicals = {	
+			value = 0.5
+			interest_group = ig:ig_devout
+		}
+	}
+}

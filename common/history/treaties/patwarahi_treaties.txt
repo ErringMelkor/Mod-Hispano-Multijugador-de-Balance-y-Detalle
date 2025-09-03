@@ -1,0 +1,126 @@
+﻿TREATIES = {
+
+	#Renovación de Goa
+	create_treaty = {
+		name = treaty_name_luso_patwarahi_agreement
+		first_country = c:POR
+		second_country = c:EIC
+
+		is_draft = no
+		entered_into_force_on = 1814.5.18 # Normalización del Virreinato tras las Guerras Napoleónicas.
+		binding_period = { years = 80 } 
+
+		articles_to_create = {
+			{
+				article = treaty_port
+				source_country = c:EIC
+				target_country = c:POR
+				inputs = {
+					{ state = s:STATE_BOMBAY.region_state:EIC }
+				}
+			}
+			{
+				article = money_transfer
+				source_country = c:EIC
+				target_country = c:POR
+				inputs = {
+					{ quantity = 800 } # Reparaciones por la pérdida de propiedades del Virreinato Portugués.
+				}
+			}
+		}
+	}
+
+	# Tratado de los Dos Leones
+	create_treaty = {
+		name = treaty_name_nederlander_patwarahi_agreement
+		first_country = c:NET
+		second_country = c:EIC
+
+		is_draft = no
+		entered_into_force_on = 1814.4.23 # Normalización de relaciones tras las Guerras Napoleónicas.
+		binding_period = { years = 45 } 
+
+		articles_to_create = {
+			{
+				article = treaty_port
+				source_country = c:EIC
+				target_country = c:NET
+				inputs = {
+					{ state = s:STATE_ORISSA.region_state:EIC }
+				}
+			}
+			{ # Wood trade
+					article = goods_transfer
+					source_country = c:EIC
+					target_country = c:NET
+					inputs = {
+						{ goods = g:wood }
+						{ quantity = 250 }
+					}
+			}
+			{ # Intereses económicos neerlandeses en la EIC
+					article = foreign_investment_rights
+					source_country = c:EIC
+					target_country = c:NET
+			}
+			{ # Intereses comerciales neerlandeses
+					article = trade_privilege
+					source_country = c:EIC
+					target_country = c:NET
+			}
+		}
+	}
+
+	#Tratado de Lys
+	create_treaty = {
+		name = treaty_name_french_patwarahi_agreement
+		first_country = c:FRA
+		second_country = c:EIC
+
+		is_draft = no
+		entered_into_force_on = 1828.4.23 # Normalización de relaciones tras las Guerras Napoleónicas.
+		binding_period = { years = 25 } 
+
+		articles_to_create = {
+			{
+				article = treaty_port
+				source_country = c:EIC
+				target_country = c:FRA
+				inputs = {
+					{ state = s:STATE_MADRAS.region_state:EIC }
+				}
+			}
+			{ # Intereses económicos franceses en la EIC
+					article = foreign_investment_rights
+					source_country = c:EIC
+					target_country = c:FRA
+			}
+		}
+	}
+
+	create_treaty = {
+		name = treaty_name_swedish_patwarahi_agreement
+		first_country = c:SWE
+		second_country = c:EIC
+
+		is_draft = no
+		entered_into_force_on = 1810.4.23 # Compra de un puerto por suecia para pagar deudas de la EIC.
+		binding_period = { years = 55 } 
+
+		articles_to_create = {
+			{
+				article = treaty_port
+				source_country = c:EIC
+				target_country = c:SWE
+				inputs = {
+					{ state = s:STATE_MADRAS.region_state:EIC }
+				}
+			}
+			{ # Intereses económicos franceses en la EIC
+					article = foreign_investment_rights
+					source_country = c:EIC
+					target_country = c:SWE
+			}
+		}
+	}
+}

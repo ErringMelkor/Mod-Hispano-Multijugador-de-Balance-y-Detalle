@@ -1,0 +1,275 @@
+﻿#Journals similares a la explosión del Ruhr, pero de los rios en China
+#El numero uno hace referencia a el Rio amarillo, el numero 2  al rio yangtze tambien llamado rio azul
+#Aqui es donde se crea el journal.
+
+#RIO AMARILLO
+je_five_year_plan_1 = {
+	icon = "gfx/interface/icons/event_icons/china.dds"
+	
+	group = je_group_internal_affairs
+	
+	is_shown_when_inactive = {
+		is_player = yes
+		any_scope_state = {
+			state_region = s:STATE_SHANXI
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_NINGXIA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_QINGHAI
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_HENAN
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_ZHILI
+			is_incorporated = yes
+		}
+		any_scope_state =  {
+			state_region = s:STATE_SHANDONG
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_HINGGAN
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = {has_variable = five_year_plan_done }
+		}
+	}
+	
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_SHANXI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_NINGXIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_logging_camp
+				level >= 10
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_QINGHAI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_HENAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_sulfur_mine
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_ZHILI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >=20
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_SHANDONG
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 10
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_HINGGAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 20
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = five_year_plan.1
+		}
+		set_variable = {
+			name = five_year_plan_done
+			value = yes
+		}
+		add_journal_entry = {
+			type = je_five_year_plan_2
+		}
+	}
+	
+	possible = {
+		has_technology_researched = dynamite
+		has_technology_researched = watertube_boiler
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+#RIO YANGTZE
+je_five_year_plan_2 = {
+	icon = "gfx/interface/icons/event_icons/china.dds"
+	
+	group = je_group_internal_affairs
+	
+	is_shown_when_active = {
+		is_player = yes
+		any_scope_state = {
+			state_region = s:STATE_SICHUAN
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_YUNNAN
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_CHONGQING
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_NANJING
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_JIANGXI
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_SOUTHERN_ANHUI
+			is_incorporated = yes 
+		}
+		any_scope_state = {
+			state_region = s:STATE_WESTERN_HUBEI
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_EASTERN_HUBEI
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_HUNAN
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_SUZHOU
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = {has_variable = five_year_plan_done_2 }
+		}
+	}
+	
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_SICHUAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_explosives_factory
+				level >= 5
+			}
+		}
+		any_scope_state = { 
+			state_region = s:STATE_YUNNAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_explosives_factory 
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_CHONGQING
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshops
+				level >= 20
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_NANJING
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_explosives_factory
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_JIANGXI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 15
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_SOUTHERN_ANHUI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshops
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_WESTERN_HUBEI
+			is_incorporated = yes 
+			any_scope_building = {
+				is_building_type = building_explosives_factory
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_EASTERN_HUBEI
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshops
+				level >= 15
+			}
+		}	
+		any_scope_state = {
+			state_region = s:STATE_HUNAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_explosives_factory
+				level >= 5
+			}
+		}	
+		any_scope_state = {
+			state_region = s:STATE_SUZHOU
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_furniture_manufacturies
+				level >= 10
+			}
+		}
+	}
+		
+		
+		on_complete = {
+			trigger_event = {
+				id = five_year_plan.2
+			}
+			set_variable = {
+				name = five_year_plan_done_2
+				value = yes
+			}
+		}
+		
+		weight = 10000
+		should_be_pinned_by_default = yes
+	}

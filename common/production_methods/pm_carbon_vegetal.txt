@@ -1,0 +1,17 @@
+﻿
+pm_charcoal = {
+	texture = "gfx/interface/icons/production_method_icons/charcoal.dds"
+
+	unlocking_production_methods = {
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -25
+			goods_output_coal_add = 10
+		}
+	}
+}
