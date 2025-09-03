@@ -1,11 +1,11 @@
 ﻿BUILDINGS= {
 	s:STATE_BIHAR= {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -16,7 +16,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 3
 					}
 				}
@@ -41,7 +41,7 @@
 				add_ownership = {
 					building = {
 						type = "building_paper_mills"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BIHAR"
 					}
@@ -54,7 +54,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_BIHAR"
 					}
@@ -66,7 +66,7 @@
 					}
 					company = {
 						type=company_east_india_company
-						country="c:EIC"
+						country="c:DLH"
 						levels=8
 					}
 				}
@@ -78,7 +78,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BIHAR"
 					}
@@ -97,7 +97,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BIHAR"
 					}
@@ -116,7 +116,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_BIHAR"
 					}
@@ -133,12 +133,12 @@
 		}
 	}
 	s:STATE_WEST_BENGAL= {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 18
 					}
 				}
@@ -151,7 +151,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:EIC"
+						country="c:DLH"
 						levels=3
 						region="STATE_WEST_BENGAL"
 					}
@@ -168,7 +168,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -206,7 +206,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 4
 						region = "STATE_WEST_BENGAL"
 					}
@@ -219,7 +219,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 5
 						region = "STATE_WEST_BENGAL"
 					}
@@ -231,7 +231,7 @@
 					}
 					company={
 						type=company_east_india_company
-						country="c:EIC"
+						country="c:DLH"
 						levels= 15
 					}
 				}
@@ -243,7 +243,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
 					}
@@ -262,7 +262,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
 					}
@@ -274,7 +274,7 @@
 					}
 					company={
 						type=company_east_india_company
-						country="c:EIC"
+						country="c:DLH"
 						levels=1
 					}
 				}
@@ -285,7 +285,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -310,7 +310,7 @@
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
 					}
@@ -323,7 +323,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_WEST_BENGAL"
 					}
@@ -336,7 +336,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
 					}
@@ -399,7 +399,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 5
 					}
 				}
@@ -452,7 +452,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_WEST_BENGAL"
 					}
@@ -590,12 +590,12 @@
 		}
 	}
 	s:STATE_DELHI= {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 8
 					}
 				}
@@ -633,7 +633,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_DELHI"
 					}
@@ -645,7 +645,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -670,7 +670,7 @@
 				add_ownership={
 					company={
 						type=company_east_india_company
-						country="c:EIC"
+						country="c:DLH"
 						levels=1
 					}
 				}
@@ -745,7 +745,7 @@
 				activate_production_methods = { "default_building_dye_plantation" "pm_road_carts" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_opium_plantation"
 				add_ownership = {
@@ -757,7 +757,7 @@
 					}
 					company = {
 						type=company_east_india_company
-						country="c:EIC"
+						country="c:DLH"
 						levels=5
 					}
 				}
@@ -819,7 +819,7 @@
 		}
 	}
 	s:STATE_AGRA= {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_taj_mahal"
 				level=1
@@ -830,7 +830,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:EIC"
+						country="c:DLH"
 						levels=1
 						region="STATE_AGRA"
 					}
@@ -841,7 +841,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 22
 					}
 				}
@@ -942,7 +942,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -954,7 +954,7 @@
 				add_ownership = {
 					building = {
 						type = "building_textile_mills"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_AGRA"
 					}
@@ -967,7 +967,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 6
 						region = "STATE_AGRA"
 					}
@@ -1112,13 +1112,13 @@
 				activate_production_methods = { "pm_muskets" "pm_automation_disabled" }
 			}
 		}
-		region_state:EIC= {
+		region_state:DLH= {
 			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BUNDELKHAND"
 					}
@@ -1508,12 +1508,12 @@
 		}
 	}
 	s:STATE_HILL_PUNJAB= {
-		region_state:EIC= {
+		region_state:DLH= {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 5
 					}
 				}
@@ -1525,7 +1525,7 @@
 				add_ownership = {
 					building = {
 						type = "building_furniture_manufacturies"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_HILL_PUNJAB"
 					}
@@ -1538,7 +1538,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_HILL_PUNJAB"
 					}
@@ -1551,7 +1551,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_HILL_PUNJAB"
 					}
@@ -1563,7 +1563,7 @@
 				building = "building_iron_mine" # State-owned iron mines used for arms manufacturing
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -1670,13 +1670,13 @@
 				activate_production_methods = { "default_building_dye_plantation" "pm_road_carts" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -1702,7 +1702,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -2048,13 +2048,13 @@
 				activate_production_methods = { "default_building_sugar_plantation" "pm_road_carts" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_ORISSA"
 					}
@@ -2067,7 +2067,7 @@
 					add_ownership={
 						building={
 							type="building_manor_house"
-							country="c:EIC"
+							country="c:DLH"
 							levels=2
 							region="STATE_ORISSA"
 						}
@@ -2117,12 +2117,12 @@
 				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 5
 					}
 				}
@@ -2135,7 +2135,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:EIC"
+						country="c:DLH"
 						levels=1
 						region="STATE_MADRAS"
 					}
@@ -2146,7 +2146,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2171,7 +2171,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_CIRCARS"
 					}
@@ -2203,7 +2203,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_CIRCARS"
 					}
@@ -2221,7 +2221,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2261,7 +2261,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_MYSORE"
 					}
@@ -2286,7 +2286,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2305,13 +2305,13 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_coffee_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_MYSORE"
 					}
@@ -2323,7 +2323,7 @@
 				building = "building_gold_mine"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -2415,14 +2415,14 @@
 				activate_production_methods = { "pm_basic_port" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:EIC"
+						country="c:DLH"
 						levels=1
 						region="STATE_MADRAS"
 					}
@@ -2433,7 +2433,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 8
 					}
 				}
@@ -2458,7 +2458,7 @@
 		#		add_ownership = {
 		#			building={
 		#				type="building_financial_district"
-		#				country="c:EIC"
+		#				country="c:DLH"
 		#				levels=1
 		#				region="STATE_BOMBAY"
 		#			}
@@ -2470,7 +2470,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2482,7 +2482,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_MADRAS"
 					}
@@ -2513,7 +2513,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -2564,7 +2564,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 4
 						region = "STATE_MADRAS"
 					}
@@ -2602,7 +2602,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2612,13 +2612,13 @@
 		}
 	}
 	s:STATE_KURNOOL = {
-		region_state:EIC= {
+		region_state:DLH= {
 			create_building = {
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_KURNOOL"
 					}
@@ -2759,12 +2759,12 @@
 				activate_production_methods = { "pm_anchorage" }
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 10
 					}
 				}
@@ -2776,7 +2776,7 @@
 					add_ownership={
 						building={
 							type="building_manor_house"
-							country="c:EIC"
+							country="c:DLH"
 							levels=6
 							region="STATE_BOMBAY"
 						}
@@ -2789,7 +2789,7 @@
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2802,7 +2802,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BOMBAY"
 					}
@@ -2827,7 +2827,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2851,7 +2851,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 3
 					}
 				}
@@ -2862,7 +2862,7 @@
 				building = "building_artillery_foundries"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2874,7 +2874,7 @@
 				add_ownership = {
 					building = {
 						type = "building_fishing_wharf"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2886,7 +2886,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -2898,7 +2898,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:EIC"
+						country = "c:DLH"
 						levels = 6
 						region = "STATE_BOMBAY"
 					}

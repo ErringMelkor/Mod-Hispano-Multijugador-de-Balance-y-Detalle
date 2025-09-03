@@ -47,7 +47,7 @@ DIPLOMACY = {
 	}	
 }
 DIPLOMACY = {
-	c:EIC= {
+	c:DLH= {
 		create_bidirectional_truce = {
 			country = c:BUN
 			months = 48

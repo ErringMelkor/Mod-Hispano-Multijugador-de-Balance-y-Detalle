@@ -212,7 +212,7 @@
 			type = puppet
 		}
 	}
-	c:EIC ?= {
+	c:DLH ?= {
 
 		create_diplomatic_pact = {
 			country = c:BHO

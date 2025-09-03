@@ -1,7 +1,7 @@
 ﻿
 POPS = {
 	s:STATE_BIHAR = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = bihari
 				size = 9969689
@@ -15,11 +15,6 @@ POPS = {
 				culture = bihari
 				religion = sunni
 				size = 1442941
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = protestant
-				size = 244441
 			}
 			create_pop = {
 				culture = bihari
@@ -40,21 +35,11 @@ POPS = {
 		}
 	}
 	s:STATE_WEST_BENGAL = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = bengali
 				religion = hindu
 				size = 11621021
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = protestant
-				size = 804853
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = hindu
-				size = 104821
 			}
 			create_pop = {
 				culture = french
@@ -276,7 +261,7 @@ POPS = {
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = hindustani
 				religion = hindu
@@ -309,11 +294,6 @@ POPS = {
 			}
 			create_pop = {
 				culture = hindustani
-				religion = hindu
-				size = 355557
-			}
-			create_pop = {
-				culture = patwarahi
 				religion = hindu
 				size = 355557
 			}
@@ -377,21 +357,11 @@ POPS = {
 				size = 46204
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = bihari
 				religion = hindu
 				size = 1221251
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = hindu
-				size = 355557
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = protestant
-				size = 255557
 			}
 			create_pop = {
 				culture = bihari
@@ -1043,7 +1013,7 @@ POPS = {
 				size = 172011
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = bundeli
 				size = 281175
@@ -1532,15 +1502,10 @@ POPS = {
 				size = 350
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = oriya
 				size = 869092
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = hindu
-				size = 45557
 			}
 		}
 		region_state:NET = {
@@ -1591,15 +1556,10 @@ POPS = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = telegu
 				size = 2295020
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = protestant
-				size = 215557
 			}
 			create_pop = {
 				culture = tamil
@@ -1710,7 +1670,7 @@ POPS = {
 				size = 40023
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = kannada # tulu
 				size = 184548
@@ -1843,15 +1803,10 @@ POPS = {
 				size = 201
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = tamil
 				size = 7168370
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = hindu
-				size = 355557
 			}
 			create_pop = {
 				culture = tamil
@@ -1983,7 +1938,7 @@ POPS = {
 				size = 5681
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = marathi
 				size = 7146020
@@ -2138,7 +2093,7 @@ POPS = {
 		}
 	}
 	s:STATE_KURNOOL = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = telegu
 				size = 960075
@@ -2200,7 +2155,7 @@ POPS = {
 				size = 85655
 			}
 		}
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = bundeli
 				size = 314352
@@ -2252,7 +2207,7 @@ POPS = {
 		}
 	}		
 	s:STATE_AGRA = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = hindustani	
 				size = 16962075
@@ -2266,16 +2221,6 @@ POPS = {
 				culture = hindustani
 				religion = shiite
 				size = 158858
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = protestant
-				size = 186868
-			}
-			create_pop = {
-				culture = patwarahi
-				religion = hindu
-				size = 48022
 			}
 			create_pop = {
 				culture = pathan
@@ -2334,7 +2279,7 @@ POPS = {
 		}
 	}
 	s:STATE_HILL_PUNJAB = {
-		region_state:EIC = {
+		region_state:DLH = {
 			create_pop = {
 				culture = panjabi
 				religion = hindu
