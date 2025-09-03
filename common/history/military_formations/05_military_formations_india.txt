@@ -122,7 +122,19 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_HYDERABAD
-				count = 10
+				count = 35
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CIRCARS
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CIRCARS
+				count = 15
 			}
 
 			combat_unit = {
@@ -932,6 +944,37 @@
 			}
 		}
 	}
+	c:BIH ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bengal
+			name = BiharArmy
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:BIHAR
+				count = 15
+			}
+		}
+	}
+	c:BGL ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bengal
+			name = BengalArmy
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WEST_BENGAL
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EAST_BENGAL
+				count = 25
+			}
+		}
+	}
 	c:JAI ?= {
 		create_military_formation = {
 			type = army
@@ -1242,28 +1285,28 @@
 	c:DLH ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_delhi
+			hq_region = sr:region_punjab
 			name = DelhiArmy
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_DELHI
-				count = 80
+				count = 55
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_DELHI
-				count = 20
+				count = 15
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_DELHI
-				count = 15
+				count = 20
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_AGRA
-				count = 75
+				count = 65
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
@@ -1322,6 +1365,7 @@
 				cruel
 				direct
 				arrogant
+				traditionalist_commander
 			}
 			save_scope_as = mughal_gen2
 		}
@@ -1338,26 +1382,25 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_AWADH
-				count = 65
+				count = 55
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_AWADH
-				count = 35
+				count = 25
 			}
 			save_scope_as = frontier_army
 		}
-	}
 
-	create_character = {
+		create_character = {
 			is_general = yes
 			first_name = Govind
 			last_name = Nehru
 			culture = cu:hindustani
 			interest_group = ig_armed_forces
 			historical = yes
-			hq = region_delhi
-			commander_rank = commander_rank_4
+			hq = sr:region_central_india
+			commander_rank = commander_rank_3
 			age = 37
 			traits = {
 				expert_cavalry_commander
@@ -1370,5 +1413,90 @@
 		scope:frontier_gen = {
 			transfer_to_formation = scope:frontier_army
 		}
+	}
 
+	c:MRT ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+			name = MarathaArmy
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BOMBAY
+				count = 55
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_BOMBAY
+				count = 45
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CENTRAL_PROVINCES
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MYSORE
+				count = 35
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CENTRAL_PROVINCES
+				count = 10
+			}
+			
+			save_scope_as = maratha_army
+
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Sawai
+			last_name = Gaekwad
+			culture = cu:marathi
+			interest_group = ig_armed_forces
+			historical = yes
+			hq = sr:region_bombay
+			commander_rank = commander_rank_4
+			age = 32
+			traits = {
+				basic_offensive_planner
+				expert_cavalry_commander
+				basic_diplomat
+			}
+			save_scope_as = maratha_gen
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Balaji
+			last_name = Bhonsle
+			culture = cu:marathi
+			interest_group = ig_landowners
+			historical = yes
+			hq = sr:region_bombay
+			commander_rank = commander_rank_3
+			age = 52
+			traits = {
+				basic_cavalry_commander
+				tactful
+				woodland_combat_expert
+			}
+			save_scope_as = maratha_gen2
+		}
+
+		scope:maratha_gen = {
+			transfer_to_formation = scope:maratha_army
+		}
+
+		scope:maratha_gen2 = {
+			transfer_to_formation = scope:maratha_army
+		}
+	}
 }

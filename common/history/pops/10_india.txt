@@ -271,17 +271,17 @@ POPS = {
 			create_pop = {
 				culture = hindustani
 				religion = hindu
-				size = 1881169
+				size = 2881169
 			}
 			create_pop = {
 				culture = panjabi
 				religion = hindu
-				size = 152527
+				size = 252527
 			}
 			create_pop = {
 				culture = hindustani
 				religion = sunni
-				size = 706490
+				size = 906490
 			}
 			create_pop = {
 				culture = panjabi

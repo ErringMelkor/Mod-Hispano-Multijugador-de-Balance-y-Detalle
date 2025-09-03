@@ -253,7 +253,7 @@ pm_default_building_taj_mahal = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_tax_capacity_mult = 0.5
+			state_tax_capacity_mult = 1
 			state_slaves_mortality_mult = 0.1
 		}
 	}
