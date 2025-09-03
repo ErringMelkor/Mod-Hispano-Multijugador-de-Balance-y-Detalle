@@ -11,7 +11,7 @@ PEC = {
 	social_hierarchy = british_indian_caste_system
 	
 	cultures = { british }
-	capital = STATE_PUNJAB
+	capital = STATE_SINDH
 }
 
 USA = {
@@ -119,7 +119,7 @@ SON = {
 	
 	cultures = { yue } 
 	religion = mahayana
-	capital = STATE_SHAOZHOU
+	capital = STATE_GUANGDONG
 	primary_unit_color = { 159 196 221 }
     secondary_unit_color  = { 252 247 149 }
     tertiary_unit_color = { 64 64 64 }
