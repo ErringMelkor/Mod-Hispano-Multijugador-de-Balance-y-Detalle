@@ -1399,6 +1399,7 @@ STATES = {
 		create_state = {
 			country = c:GBR
 			owned_provinces = { x5B5C22 }
+			state_type = unincorporated
 		}
 
 		add_homeland = cu:tamil

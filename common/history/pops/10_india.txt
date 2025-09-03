@@ -7,11 +7,6 @@ POPS = {
 				size = 8369689
 			}
 			create_pop = {
-				culture = british
-				pop_type = bureaucrats
-				size = 192
-			}
-			create_pop = {
 				culture = bihari
 				religion = sunni
 				size = 1442941
@@ -48,21 +43,6 @@ POPS = {
 				size = 11621021
 			}
 			create_pop = {
-				culture = french
-				religion = catholic
-				size = 43999
-			}
-			create_pop = {
-				culture = dutch
-				religion = protestant
-				size = 10211
-			}
-			create_pop = {
-				culture = portuguese
-				religion = catholic
-				size = 6000
-			}
-			create_pop = {
 				culture = bengali
 				size = 3572012
 			}
@@ -89,25 +69,6 @@ POPS = {
 				pop_type = slaves
 				culture = bengali
 				size = 210002
-			}
-			create_pop = {
-				culture = armenian
-				size = 901
-			}
-			create_pop = {
-				culture = british # including Irish
-				size = 12292
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = british
-				size = 800
-				pop_type = capitalists
-			}
-			create_pop = {
-				culture = scottish
-				size = 1712
-				pop_type = officers
 			}
 			create_pop = {
 				culture = bengali
@@ -162,16 +123,6 @@ POPS = {
 				culture = bengali
 				size = 770400
 			}
-			create_pop = {
-				culture = british # including Irish
-				size = 2191
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = scottish
-				size = 301
-				pop_type = bureaucrats
-			}
 		}
 	}
 	s:STATE_ASSAM = {
@@ -197,16 +148,6 @@ POPS = {
 				culture = bengali
 				religion = hindu
 				size = 70120
-			}
-			create_pop = {
-				culture = british # including Irish
-				size = 420
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = scottish
-				size = 140
-				pop_type = bureaucrats
 			}
 			create_pop = {
 				culture = lushai
@@ -602,30 +543,6 @@ POPS = {
 				culture = persian
 				religion = animist # parsis
 				size = 5120
-			}
-			create_pop = {
-				culture = british
-				pop_type = capitalists
-				size = 800
-			}
-			create_pop = {
-				culture = british
-				pop_type = bureaucrats
-				size = 1000
-			}
-			create_pop = {
-				culture = british
-				pop_type = officers
-				size = 200
-			}
-			create_pop = {
-				culture = scottish
-				pop_type = bureaucrats
-				size = 310
-			}
-			create_pop = {
-				culture = armenian
-				size = 210
 			}
 			create_pop = {
 				culture = gujarati
@@ -1450,12 +1367,12 @@ POPS = {
 			create_pop = {
 				culture = tamil
 				pop_type = laborers
-				size = 49
+				size = 4900
 			}
 			create_pop = {
 				culture = swahili
 				pop_type = laborers
-				size = 46
+				size = 460
 			}
 			create_pop = {
 				culture = afro_antillean
@@ -1989,36 +1906,6 @@ POPS = {
 				size = 69482
 			}
 			create_pop = {
-				culture = scottish
-				pop_type = bureaucrats
-				size = 3212
-			}
-			create_pop = {
-				culture = british
-				pop_type = capitalists
-				size = 700
-			}
-			create_pop = {
-				culture = scottish
-				pop_type = capitalists
-				size = 100
-			}
-			create_pop = {
-				culture = british
-				pop_type = bureaucrats
-				size = 21211
-			}
-			create_pop = {
-				culture = british
-				pop_type = officers
-				size = 2012
-			}
-			create_pop = {
-				culture = scottish
-				pop_type = officers
-				size = 710
-			}
-			create_pop = {
 				culture = sindi
 				size = 203012
 			}
@@ -2225,35 +2112,6 @@ POPS = {
 				culture = panjabi
 				religion = sikh	
 				size = 1612
-			}
-			create_pop = {
-				culture = british
-				pop_type = capitalists
-				size = 200
-			}
-			create_pop = {
-				culture = british
-				pop_type = bureaucrats
-				size = 9012
-			}
-			create_pop = {
-				culture = scottish
-				pop_type = bureaucrats
-				size = 1812
-			}
-			create_pop = {
-				culture = british
-				pop_type = officers
-				size = 801
-			}
-			create_pop = {
-				culture = scottish
-				pop_type = officers
-				size = 200
-			}
-			create_pop = {
-				culture = armenian
-				size = 451
 			}
 		}
 		region_state:GAR = {
