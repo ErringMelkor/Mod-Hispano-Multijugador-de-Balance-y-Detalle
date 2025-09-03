@@ -907,12 +907,6 @@ POPS = {
 				size = 32012
 			}
 			create_pop = {
-				culture = panjabi
-				religion = hindu
-				pop_type = slaves
-				size = 12012
-			}
-			create_pop = {
 				culture = rajput
 				size = 7120
 			}
@@ -924,6 +918,28 @@ POPS = {
 				culture = panjabi
 				religion = sikh
 				size = 9001
+			}
+		}
+		region_state:PEC = {
+			create_pop = {
+				culture = panjabi
+				religion = sunni
+				size = 491500
+			}
+			create_pop = {
+				culture = pashtun
+				religion = sunni
+				size = 31520
+			}
+			create_pop = {
+				culture = panjabi
+				religion = sikh
+				size = 201001
+			}
+			create_pop = {
+				culture = hindustani
+				religion = hindu
+				size = 84000
 			}
 		}
 	}

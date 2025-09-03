@@ -1239,6 +1239,8 @@
 	s:STATE_PUNJAB= {
 		region_state:PAN={
 		}
+		region_state:PEC={
+		}
 	}
 	s:STATE_HILL_PUNJAB= {
 		region_state:PAN= {
