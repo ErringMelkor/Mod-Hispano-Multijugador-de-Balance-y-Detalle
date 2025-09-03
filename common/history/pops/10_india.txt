@@ -1019,7 +1019,7 @@ POPS = {
 				size = 172011
 			}
 		}
-		region_state:DLH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = bundeli
 				size = 281175
@@ -1508,7 +1508,7 @@ POPS = {
 				size = 350
 			}
 		}
-		region_state:DLH = {
+		region_state:ORI = {
 			create_pop = {
 				culture = oriya
 				size = 869092
@@ -1562,28 +1562,19 @@ POPS = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:DLH = {
+		region_state:HYD = {
 			create_pop = {
 				culture = telegu
-				size = 2295020
+				size = 2095020
 			}
 			create_pop = {
 				culture = tamil
 				size = 270201
 			}
 			create_pop = {
-				culture = oriya
-				size = 105020
-			}
-			create_pop = {
 				culture = gondi
 				size = 30301
 				religion = animist
-			}
-			create_pop = {
-				culture = telegu
-				religion = sunni
-				size = 204004
 			}
 			create_pop = {
 				culture = tamil
@@ -1599,20 +1590,16 @@ POPS = {
 				religion = sunni
 				size = 12002
 			}
+		}
+		region_state:ORI = {
 			create_pop = {
-				culture = tamil
-				size = 31022
-				religion = protestant
+				culture = oriya
+				size = 305020
 			}
 			create_pop = {
-				culture = british
-				size = 520
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = scottish
-				size = 105
-				pop_type = bureaucrats
+				culture = telegu
+				religion = sunni
+				size = 204004
 			}
 		}
 		region_state:JEY = {
@@ -1676,7 +1663,7 @@ POPS = {
 				size = 40023
 			}
 		}
-		region_state:DLH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = kannada # tulu
 				size = 184548
@@ -1809,7 +1796,7 @@ POPS = {
 				size = 201
 			}
 		}
-		region_state:DLH = {
+		region_state:HYD = {
 			create_pop = {
 				culture = tamil
 				size = 7168370
@@ -1818,20 +1805,6 @@ POPS = {
 				culture = tamil
 				religion = protestant
 				size = 61145
-			}
-			create_pop = {
-				culture = british
-				size = 2500
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = british
-				size = 15890
-			}
-			create_pop = {
-				culture = scottish
-				size = 6123
-				pop_type = bureaucrats
 			}
 			create_pop = {
 				culture = kannada
@@ -1944,7 +1917,7 @@ POPS = {
 				size = 5681
 			}
 		}
-		region_state:DLH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = marathi
 				size = 7146020
@@ -2099,7 +2072,7 @@ POPS = {
 		}
 	}
 	s:STATE_KURNOOL = {
-		region_state:DLH = {
+		region_state:MYS = {
 			create_pop = {
 				culture = telegu
 				size = 960075
@@ -2116,7 +2089,6 @@ POPS = {
 			}
 			create_pop = {
 				culture = telegu
-				religion = protestant
 				size = 22590
 			}
 			create_pop = {
