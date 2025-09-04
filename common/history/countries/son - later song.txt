@@ -5,6 +5,9 @@ COUNTRIES = {
 		add_technology_researched = sericulture
 		add_technology_researched = academia
 		add_technology_researched = law_enforcement
+		add_technology_researched = mandatory_service
+		add_technology_researched = mass_communication
+		add_technology_researched = stock_exchange
 		
 		set_market_capital = STATE_GUANGDONG	
 		activate_law = law_type:law_freedom_of_conscience

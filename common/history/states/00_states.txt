@@ -4419,7 +4419,7 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:SON
+			country = c:SNG
 			owned_provinces = {
 				xCADABE x41E095 xE0A0B0 xF585F7 xB8DCEE xE6BB6C xC4A102 x21747A x95F250 x78E8C9 x392A56 x9CFE3A x527F48
 			}

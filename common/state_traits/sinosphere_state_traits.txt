@@ -20,7 +20,7 @@ state_trait_Khingan_Mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
-		state_construction_mult = -0.0.5
+		state_construction_mult = -0.05
 		state_infrastructure_mult = -0.1
 	}
 }
@@ -53,7 +53,7 @@ state_trait_tian_shan_foothills = {
 	
 	modifier = {
 		state_infrastructure_mult = -0.1
-		state_construction_mult = -0.0.5
+		state_construction_mult = -0.05
 	}
 }
 
@@ -79,5 +79,37 @@ state_trait_Bohai_Sea = {
 	
 	modifier = {
 		building_group_bg_fishing_throughput_add = 0.1
+	}
+}
+
+state_trait_pearl_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+
+	modifier = {
+		state_infrastructure_add = 20
+		building_group_bg_agriculture_throughput_add = 0.05
+		building_group_bg_plantations_throughput_add = 0.05
+	}
+}
+
+state_trait_yangtze_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+
+	modifier = {
+		state_infrastructure_add = 35
+		state_market_access_price_impact = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+state_trait_yellow_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+
+	modifier = {
+		state_infrastructure_add = 25
+		state_market_access_price_impact = 0.05
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
