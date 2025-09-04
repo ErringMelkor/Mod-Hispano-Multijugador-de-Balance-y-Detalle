@@ -50,6 +50,50 @@
 				state_region = s:STATE_HENAN
 				count = 15
 			}
+			save_scope_as = Bordered_Golden_Banner
+		}
+
+
+		create_character = { # General
+			is_general = yes
+			first_name = Dunhua
+			last_name = Aisin
+			historical = yes
+			birth_date = 1794.1.5
+			hq = region_north_china
+			culture = cu:manchu
+			commander_rank = commander_rank_4
+			interest_group = ig_landowners
+			traits = {
+				experienced_cavalry_commander
+				direct
+				cruel
+			}
+			save_scope_as = aisin_general
+		}
+
+		create_character = { # General
+			is_general = yes
+			first_name = Dunhua
+			last_name = Aisin
+			historical = yes
+			birth_date = 1794.1.5
+			hq = region_north_china
+			interest_group = ig_landowners
+			commander_rank = commander_rank_4
+			traits = {
+				brave
+				ambitious
+				expert_political_operator
+			}
+			save_scope_as = aisin_general2
+		}
+
+		scope:aisin_general2 = {
+			transfer_to_formation = Bordered_Golden_Banner
+		}
+		scope:aisin_general = {
+			transfer_to_formation = Bordered_Golden_Banner
 		}
 	}
 
@@ -57,7 +101,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_china
-			name = Bordered_Golden_Banner
+			name = ImperialSongArmy
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
