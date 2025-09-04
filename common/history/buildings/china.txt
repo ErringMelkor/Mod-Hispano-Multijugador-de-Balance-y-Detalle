@@ -861,7 +861,7 @@
 					building={
 						type="building_glassworks"
 						country="c:SON"
-						levels=4
+						levels=2
 						region="STATE_JIANGXI"
 					}
 				}
