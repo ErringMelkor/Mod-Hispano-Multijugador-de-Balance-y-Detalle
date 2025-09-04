@@ -563,13 +563,26 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_secular_bureaucrats" }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:DLH"
+						levels=5
+						region="STATE_DELHI"
+					}
+				}
+				reserves=1
+			}
 			create_building = {
 				building = "building_paper_mills"
 				add_ownership = {
 					building = {
 						type = "building_paper_mills"
 						country = "c:DLH"
-						levels = 3
+						levels = 4
 						region = "STATE_DELHI"
 					}
 				}
@@ -582,7 +595,7 @@
 					building={
 						type="building_manor_house"
 						country="c:DLH"
-						levels=16
+						levels=26
 						region="STATE_DELHI"
 					}
 				}
@@ -595,7 +608,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:DLH"
-						levels = 2
+						levels = 6
 						region = "STATE_DELHI"
 					}
 				}
@@ -701,7 +714,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:DLH"
-						levels = 3
+						levels = 8
 						region = "STATE_AWADH"
 					}
 				}	
@@ -1350,7 +1363,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -1362,10 +1375,10 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						type = "building_financial_district"
-						country = "c:GBR"
+						type = "building_iron_mine"
+						country = "c:MRT"
 						levels = 1
-						region = "STATE_HOME_COUNTIES"
+						region = "STATE_CENTRAL_PROVINCES"
 					}
 				}
 				reserves = 1
@@ -1376,15 +1389,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
-					}
-					building = {
-						type = "building_manor_house"
-						country = "c:GBR"
-						levels = 1
-						region = "STATE_HOME_COUNTIES"
 					}
 				}
 				reserves = 1
@@ -1729,7 +1736,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
+						country = "c:ORI"
 						levels = 2
 						region = "STATE_ORISSA"
 					}
@@ -1742,7 +1749,7 @@
 					add_ownership={
 						building={
 							type="building_manor_house"
-							country="c:DLH"
+							country="c:ORI"
 							levels=2
 							region="STATE_ORISSA"
 						}
@@ -1754,7 +1761,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:FRA"
+						country = "c:ORI"
 						levels = 1
 					}
 				}
@@ -1879,7 +1886,7 @@
 					building = {
 						type = "building_manor_house"
 						country = "c:MRT"
-						levels = 1
+						levels = 4
 						region = "STATE_MYSORE"
 					}
 				}
@@ -2138,7 +2145,7 @@
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 10
 					}
 				}
@@ -2150,7 +2157,7 @@
 					add_ownership={
 						building={
 							type="building_manor_house"
-							country="c:DLH"
+							country="c:MRT"
 							levels=6
 							region="STATE_BOMBAY"
 						}
@@ -2158,12 +2165,36 @@
 					reserves=1
 					activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:MRT"
+						levels=4
+						region="STATE_BOMBAY"
+					}
+				}
+				reserves=1
+			}
+			create_building = {
+				building = "building_gold_mine"
+				add_ownership = {
+					country= {
+						country = "c:MRT"
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
 			create_building = {
 				building = "building_shipyards"
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2176,7 +2207,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 1
 						region = "STATE_BOMBAY"
 					}

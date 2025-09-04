@@ -1599,7 +1599,7 @@ POPS = {
 		region_state:MRT = {
 			create_pop = {
 				culture = kannada # tulu
-				size = 184548
+				size = 284548
 			}
 			create_pop = {
 				culture = kannada # tulu
@@ -1608,7 +1608,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = kannada
-				size = 68075
+				size = 168075
 			}
 			create_pop = {
 				culture = kannada
@@ -1853,7 +1853,7 @@ POPS = {
 		region_state:MRT = {
 			create_pop = {
 				culture = marathi
-				size = 7146020
+				size = 6546020
 			}
 			create_pop = {
 				culture = marathi

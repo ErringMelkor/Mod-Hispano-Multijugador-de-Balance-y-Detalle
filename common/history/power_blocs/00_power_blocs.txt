@@ -137,7 +137,7 @@
 				has_dlc_feature = power_bloc_features
 			}
 			power_bloc = {
-				add_principle = principle_external_trade_1
+				add_principle = principle_external_trade_2
 			}
 		}
 	}
@@ -150,7 +150,54 @@
 
 			founding_date = 1453.5.29
 			identity = identity_trade_league
-			principle = principle_external_trade_1
+			principle = principle_external_trade_3
 		}
-	}	
+	}
+	
+	# Mughal Empire
+	c:DLH = {
+		create_power_bloc = {
+			name = mughal_empire
+
+			map_color = { 19 59 6 }
+
+			founding_date = 1556.11.5
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+
+			member = c:BGL
+			member = c:PAN
+
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_3
+			}
+		}
+	}
+
+	# Maratha Confederacy
+	c:MRT = {
+		create_power_bloc = {
+			name = maratha_confederacy
+
+			map_color = { 252 166 8 }
+
+			founding_date = 1756.11.5
+			identity = identity_military_treaty_organization
+			principle = principle_aggressive_coordination_3
+
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_external_trade_2
+			}
+		}
+	}
 }

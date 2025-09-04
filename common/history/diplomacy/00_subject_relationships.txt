@@ -214,25 +214,13 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
-			country = c:BGL
-			type = tributary
-		}
-		create_diplomatic_pact = {
 			country = c:AWA
-			type = vassal
-		}
-		create_diplomatic_pact = {
-			country = c:PAN
 			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:BUN
 			type = vassal
-		}
-		
-		
-		
-
+		}	
 		create_diplomatic_pact = {
 			country = c:IND
 			type = vassal
