@@ -138,6 +138,32 @@
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
 			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:SON"
+						levels=1
+						region="STATE_SHAOZHOU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning"  "pm_manual_dough_processing" "pm_disabled_distillery" }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:SON"
+						levels=2
+						region="STATE_SHAOZHOU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_no_luxury_clothes" }
+			}
+			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
@@ -842,7 +868,7 @@
 						type="building_textile_mills"
 						country="c:SON"
 						levels=2
-						region="STATE_NANJING"
+						region="STATE_GUANDONG"
 					}
 				}
 				reserves=1
@@ -1018,7 +1044,7 @@
 					building={
 						type="building_paper_mills"
 						country="c:SON"
-						levels=4
+						levels=5
 						region="STATE_FUJIAN"
 					}
 				}
@@ -1031,7 +1057,7 @@
 					building={
 						type="building_furniture_manufacturies"
 						country="c:SON"
-						levels=2
+						levels=3
 						region="STATE_FUJIAN"
 					}
 				}
@@ -1044,7 +1070,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:SON"
-						levels=4
+						levels=7
 						region="STATE_FUJIAN"
 					}
 				}
@@ -1517,11 +1543,24 @@
 				add_ownership={
 					country={
 						country="c:SON"
-						levels=4
+						levels=5
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:SON"
+						levels=3
+						region="STATE_SOUTHERN_ANHUI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
 		}
 	}
