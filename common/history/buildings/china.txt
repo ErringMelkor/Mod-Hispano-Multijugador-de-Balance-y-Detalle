@@ -130,12 +130,25 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:SON"
-						levels=1
+						levels=2
 						region="STATE_SHAOZHOU"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:SON"
+						levels=4
+						region="STATE_SHAOZHOU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rice_farm"
@@ -192,6 +205,7 @@
 		}
 	}
 	s:STATE_HINGGAN={
+		# Inner Mongolia
 		region_state:MGL={
 			create_building={
 				building="building_livestock_ranch"
@@ -205,6 +219,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:MGL"
+						levels=3
+						region="STATE_HINGGAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 		}
 	}
@@ -222,6 +249,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:SON"
+						levels=4
+						region="STATE_GUANGXI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -252,6 +292,19 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:NHA"
+						levels=1
+						region="STATE_BEIJING"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					building={
@@ -263,6 +316,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_artillery_foundries"
+				add_ownership={
+					country={
+						country="c:NHA"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -296,12 +360,12 @@
 					building={
 						type="building_logging_camp"
 						country="c:NHA"
-						levels=2
+						levels=3
 						region="STATE_BEIJING"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -337,7 +401,7 @@
 					building={
 						type="building_textile_mills"
 						country="c:NHA"
-						levels=1
+						levels=2
 						region="STATE_SHENGJING"
 					}
 				}
@@ -350,7 +414,7 @@
 					building={
 						type="building_manor_house"
 						country="c:NHA"
-						levels=3
+						levels=8
 						region="STATE_SHENGJING"
 					}
 				}
@@ -381,7 +445,7 @@
 				add_ownership={
 					country={
 						country="c:MCH"
-						levels=3
+						levels=8
 					}
 				}
 				reserves=1
@@ -535,12 +599,25 @@
 					building={
 						type="building_manor_house"
 						country="c:NHA"
-						levels=3
+						levels=5
 						region="STATE_GANSU"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NHA"
+						levels=8
+						region="STATE_GANSU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_government_administration"
@@ -633,7 +710,7 @@
 				add_ownership={
 					country={
 						country="c:SON"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -645,7 +722,7 @@
 					building={
 						type="building_manor_house"
 						country="c:SON"
-						levels=8
+						levels=14
 						region="STATE_CHONGQING"
 					}
 				}
@@ -668,6 +745,32 @@
 					}
 				}
 				reserves=1
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:SON"
+						levels=1
+						region="STATE_GUANGDONG"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:SON"
+						levels=1
+						region="STATE_GUANGDONG"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_shipyards"
@@ -723,7 +826,7 @@
 					building={
 						type="building_manor_house"
 						country="c:SON"
-						levels=4
+						levels=6
 						region="STATE_GUANGDONG"
 					}
 				}
@@ -736,7 +839,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:SON"
-						levels=10
+						levels=14
 						region="STATE_GUANGDONG"
 					}
 				}
@@ -876,7 +979,7 @@
 					building={
 						type="building_paper_mills"
 						country="c:SON"
-						levels=2
+						levels=4
 						region="STATE_FUJIAN"
 					}
 				}
@@ -902,7 +1005,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:SON"
-						levels=3
+						levels=4
 						region="STATE_FUJIAN"
 					}
 				}
@@ -914,7 +1017,7 @@
 				add_ownership={
 					country={
 						country="c:SON"
-						levels=8
+						levels=10
 					}
 				}
 				reserves=1
@@ -926,7 +1029,7 @@
 					building={
 						type="building_manor_house"
 						country="c:SON"
-						levels=2
+						levels=6
 						region="STATE_FUJIAN"
 					}
 				}
@@ -939,7 +1042,7 @@
 					building={
 						type="building_manor_house"
 						country="c:SON"
-						levels=2
+						levels=3
 						region="STATE_FUJIAN"
 					}
 				}
@@ -965,7 +1068,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:SON"
-						levels=1
+						levels=4
 						region="STATE_FUJIAN"
 					}
 				}
@@ -1001,12 +1104,25 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
 			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SON"
+						levels=6
+						region="STATE_ZHEJIANG"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:SON"
-						levels=5
+						levels=7
 						region="STATE_ZHEJIANG"
 					}
 				}
@@ -1019,7 +1135,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:SON"
-						levels=1
+						levels=2
 						region="STATE_ZHEJIANG"
 					}
 				}
@@ -1228,11 +1344,37 @@
 				add_ownership={
 					country={
 						country="c:NHA"
-						levels=4
+						levels=8
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NHA"
+						levels=12
+						region="STATE_ZHILI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NHA"
+						levels=6
+						region="STATE_ZHILI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 		}
 	}
@@ -1428,6 +1570,19 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
+			create_building={
+				building="building_rice_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:SON"
+						levels=5
+						region="STATE_HUNAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
+			}
 		}
 	}
 	s:STATE_FORMOSA={
@@ -1605,7 +1760,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:SON"
-						levels=1
+						levels=2
 						region="STATE_SUZHOU"
 					}
 				}

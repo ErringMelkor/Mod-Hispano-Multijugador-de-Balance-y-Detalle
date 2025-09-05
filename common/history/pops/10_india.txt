@@ -220,6 +220,12 @@ POPS = {
 				size = 252527
 			}
 			create_pop = {
+				culture = panjabi
+				religion = hindu
+				pop_type = slaves
+				size = 252527
+			}
+			create_pop = {
 				culture = hindustani
 				religion = sunni
 				size = 906490
@@ -1285,7 +1291,7 @@ POPS = {
 	}
 	
 	s:STATE_CEYLON = {
-		region_state:BCE = {
+		region_state:FRA = {
 			create_pop = {
 				culture = sinhala
 				size = 849208
@@ -1313,7 +1319,7 @@ POPS = {
 				size = 16400
 			}
 			create_pop = {
-				culture = british
+				culture = french
 				size = 7992
 			}
 			create_pop = {
@@ -1867,7 +1873,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = kannada
-				religion = protestant
+				pop_type = slaves
 				size = 351181
 			}
 			create_pop = {
@@ -1902,7 +1908,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = kannada
-				religion = protestant
+				pop_type = slaves
 				size = 69482
 			}
 			create_pop = {
@@ -2091,12 +2097,17 @@ POPS = {
 		region_state:DLH = {
 			create_pop = {
 				culture = hindustani	
-				size = 16962075
+				size = 15962075
 			}
 			create_pop = {
 				culture = hindustani
 				religion = sunni
 				size = 2373401
+			}
+			create_pop = {
+				culture = hindustani
+				pop_type = slaves
+				size = 1962075
 			}
 			create_pop = {
 				culture = hindustani

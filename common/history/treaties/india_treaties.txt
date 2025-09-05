@@ -97,8 +97,8 @@ TREATIES = {
 		articles_to_create = {
 			{
 				article = treaty_port
-				source_country = c:MRT
-				target_country = c:HYD
+				source_country = c:HYD
+				target_country = c:FRA
 				inputs = {
 					{ state = s:STATE_MADRAS.region_state:HYD }
 				}
@@ -106,25 +106,4 @@ TREATIES = {
 		}
 	}
 
-	#Pondicherry
-	create_treaty = {
-		name = treaty_name_pondicherry
-		first_country = c:SWE
-		second_country = c:HYD
-
-		is_draft = no
-		entered_into_force_on = 1834.5.18
-		binding_period = { years = 21 } 
-
-		articles_to_create = {
-			{
-				article = treaty_port
-				source_country = c:SWE
-				target_country = c:HYD
-				inputs = {
-					{ state = s:STATE_MADRAS.region_state:HYD }
-				}
-			}
-		}
-	}
 }

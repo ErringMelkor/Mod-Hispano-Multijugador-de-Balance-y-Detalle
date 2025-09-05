@@ -231,11 +231,11 @@
 			#+600k hakka; +400k yue.
 			create_pop = {
 				culture = yue
-				size = 4381992
+				size = 5381992
 			}
 			create_pop = {
 				culture = hakka
-				size = 2164000
+				size = 2964000
 			}
 		}
 	}
@@ -528,7 +528,7 @@
 			#+2m han.
 			create_pop = {
 				culture = han # nanfaren
-				size = 3692980
+				size = 5692980
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -545,28 +545,28 @@
 			#+2m yue.
 			create_pop = {
 				culture = yue
-				size = 3798400
+				size = 3598400
 				religion = mahayana
 			}
 			create_pop = {
 				culture = yue
-				size = 1258400
+				size = 2258400
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 64132
+				size = 464132
 			}
 			create_pop = {
 				culture = min
-				size = 350996
+				size = 850996
 			}
 			create_pop = {
 				culture = miao
-				size = 260004
+				size = 460004
 			}
 			create_pop = {
 				culture = zhuang
-				size = 320000
+				size = 520000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -634,11 +634,11 @@
 			#+1m hakka; +1m min.
 			create_pop = {
 				culture = min
-				size = 3060004
+				size = 3860004
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 781700
+				size = 811700
 			}
 			create_pop = {
 				culture = hakka
@@ -666,7 +666,7 @@
 			#+500k han; +200k miao; +400k min.
 			create_pop = {
 				culture = han # nanfaren
-				size = 1932928
+				size = 2332928
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -680,11 +680,11 @@
 			create_pop = {
 				culture = min
 				religion = animist
-				size = 752000
+				size = 852000
 			}
 			create_pop = {
 				culture = miao
-				size = 472000
+				size = 872000
 			}
 		}
 	}
@@ -714,7 +714,7 @@
 			#+500k han.
 			create_pop = {
 				culture = han # nanfaren
-				size = 2178817
+				size = 3478817
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -782,16 +782,16 @@
 			#+1m hakka.
 			create_pop = {
 				culture = han # nanfaren
-				size = 2541242
+				size = 2941242
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 641242
+				size = 1241242
 				religion = mahayana
 			}
 			create_pop = {
 				culture = hakka
-				size = 4504600
+				size = 5704600
 				religion = mahayana
 			}
 			create_pop = {
@@ -989,7 +989,7 @@
 			#+3m han.
 			create_pop = {
 				culture = han # nanfaren
-				size = 4870667
+				size = 5670667
 			}
 			create_pop = {
 				culture = han # nanfaren
