@@ -314,7 +314,7 @@ POPS = {
 			create_pop = {
 				culture = bihari
 				religion = hindu
-				size = 1221251
+				size = 3221251
 			}
 			create_pop = {
 				culture = bihari
@@ -1605,7 +1605,7 @@ POPS = {
 		region_state:MRT = {
 			create_pop = {
 				culture = kannada # tulu
-				size = 284548
+				size = 684548
 			}
 			create_pop = {
 				culture = kannada # tulu
@@ -1859,7 +1859,7 @@ POPS = {
 		region_state:MRT = {
 			create_pop = {
 				culture = marathi
-				size = 6546020
+				size = 6046020
 			}
 			create_pop = {
 				culture = marathi
@@ -2097,17 +2097,17 @@ POPS = {
 		region_state:DLH = {
 			create_pop = {
 				culture = hindustani	
-				size = 15962075
+				size = 14962075
 			}
 			create_pop = {
 				culture = hindustani
 				religion = sunni
-				size = 2373401
+				size = 2673401
 			}
 			create_pop = {
 				culture = hindustani
 				pop_type = slaves
-				size = 1962075
+				size = 462075
 			}
 			create_pop = {
 				culture = hindustani
