@@ -1,5 +1,16 @@
 #05-09-25 Erring
 
+TO-DO LIST:
+
+Terminar el set-up de India y China.
+IGs de China e India.
+Monumento burocracia para París.
+Monumento gran canal (?).
+Unificación de China con nacionalismo o pan nacionalismo (?).
+Reintroducir el Krakatoa con el sistema nuevo, pero limitar la devastación a un 10% en indonesia.
+Revertir los cambios a la compañía de Brasil, lo de los esclavos es overkill.
+Reducir algo más la tierra arable de Italia, particularmente en Nápoles y Roma (salvo Sicilia).
+Cambiar el setup de tecnologia de Cerdeña-Piamonte (tier 2 -> tier 3) y añadir las techs relevantes, sin Mass Comunications, para que tardes algo más en formar Italia.
 
 
 
