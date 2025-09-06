@@ -324,4 +324,8 @@
 		set_relations = { country = c:RUS value = 10 }
 		set_relations = { country = c:HER value = -20 }
 	}
+
+	c:MRT ?= { 
+		set_relations = { country = c:HYD value = 80 }
+	}
 }

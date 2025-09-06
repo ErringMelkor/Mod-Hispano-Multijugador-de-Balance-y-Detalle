@@ -33,7 +33,7 @@
 		law_right_of_assembly = approve
 		law_protected_speech = approve
 		law_censorship = neutral
-		law_outlawed_dissent = dissapprove
+		law_outlawed_dissent = disapprove
 	}
 	
 	lawgroup_rights_of_women = {
@@ -150,7 +150,7 @@ ideology_liberalismo_isabelino = {
 		law_right_of_assembly = approve
 		law_censorship = strongly_approve
 		law_protected_speech = disapprove
-		law_outlawed_dissent = dissapprove
+		law_outlawed_dissent = disapprove
 	}
 	
 	lawgroup_rights_of_women = {

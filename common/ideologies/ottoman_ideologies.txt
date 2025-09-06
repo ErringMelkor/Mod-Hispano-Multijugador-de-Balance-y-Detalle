@@ -120,14 +120,6 @@ ideology_ottomanism = {
 		law_appointed_bureaucrats = strongly_approve
 		law_elected_bureaucrats = approve
 	}
-
-	possible = {
-		c:TUR = this
-	}
-	
-	leader_weight = {
-			value = 100
-		}
 }
 
 ideology_state_ottomanism = {

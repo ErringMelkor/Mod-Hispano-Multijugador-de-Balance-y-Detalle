@@ -2040,9 +2040,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:HYD"
+						country = "c:MRT"
 						levels = 5
-						region = "STATE_HYDERABAD"
+						region = "STATE_BOMBAY"
 					}
 				}
 				reserves = 3
@@ -2064,9 +2064,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:HYD"
+						country = "c:MRT"
 						levels = 2
-						region = "STATE_HYDERABAD"
+						region = "STATE_BOMBAY"
 					}
 				}
 				reserves = 1
@@ -2077,9 +2077,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:HYD"
+						country = "c:MRT"
 						levels = 3
-						region = "STATE_HYDERABAD"
+						region = "STATE_BOMBAY"
 					}
 				}
 				reserves = 1
@@ -2090,9 +2090,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:HYD"
+						country = "c:MRT"
 						levels = 3
-						region = "STATE_HYDERABAD"
+						region = "STATE_BOMBAY"
 					}
 				}
 				reserves = 1

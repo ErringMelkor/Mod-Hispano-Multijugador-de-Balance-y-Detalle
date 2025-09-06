@@ -35,6 +35,7 @@ ITA = {
 
 	possible = {
 		country_has_primary_culture = cu:north_italian
+		has_technology_researched = nationalism
 	}
 }	
 
