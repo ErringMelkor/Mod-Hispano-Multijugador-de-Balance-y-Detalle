@@ -12,7 +12,9 @@ Revertir los cambios a la compañía de Brasil, lo de los esclavos es overkill.
 Reducir algo más la tierra arable de Italia, particularmente en Nápoles y Roma (salvo Sicilia). #DONE
 Cambiar el setup de tecnologia de Cerdeña-Piamonte (tier 2 -> tier 3) y añadir las techs relevantes, sin Mass Comunications, para que tardes algo más en formar Italia.
 Revertir y condensar los nuevos Principios.
-
+Finalizar las condiciones de batalla nuevas (caballería; ataque/defensa con gas).
+Agregar más slots de construcción por tecnología; beneficia sobre todo a países de pocos estados.
+Maratha -> Francia; Mogoles -> GBR
 
 
 
