@@ -30,11 +30,11 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		# +300k; + 200k 
+		# +300k; + 200k; -150k
 		region_state:SAR = {
 			create_pop = {
 				culture = south_italian
-				size = 1024084
+				size = 8524084
 			}
 		}
 	}
@@ -51,11 +51,11 @@
 		}
 	}
 	s:STATE_UMBRIA = {
-		# +400k población; +200k 
+		# +400k población; +200k; -100k
 		region_state:PAP = {
 			create_pop = {
 				culture = south_italian
-				size = 1051000
+				size = 951000
 			}
 		}
 	}
@@ -85,10 +85,10 @@
 	}
 	s:STATE_CALABRIA = {
 		region_state:SIC = {
-			# +200k pop; +400k
+			# +200k pop; +400k; -100k
 			create_pop = {
 				culture = south_italian
-				size = 1282848
+				size = 1182848
 			}
 		}
 	}
@@ -102,10 +102,10 @@
 	}
 	s:STATE_ABRUZZO = {
 		region_state:SIC = {
-			#+300k pop
+			#+300k pop; -40k
 			create_pop = {
 				culture = south_italian
-				size = 1060448
+				size = 1020448
 			}
 		}
 	}
@@ -161,10 +161,10 @@
 	}
 	s:STATE_ROMAGNA = {
 		region_state:PAP = {
-			# +400k
+			# +400k; -100k
 			create_pop = {
 				culture = north_italian
-				size = 1203600
+				size = 1103600
 			}
 		}
 	}
