@@ -874,7 +874,12 @@ mobilization_option_first_aid = {
 		triage
 	}
 	possible = {
-		NOT = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_field_hospitals } }
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_field_hospitals
+				has_mobilization_option = mobilization_option:mobilization_option_ambulances
+			}
+		}
 		market ?= {
 			mg:fabric ?= {
 				market_goods_sell_orders > 0
@@ -934,7 +939,12 @@ mobilization_option_field_hospitals = {
 		modern_nursing
 	}
 	possible = {
-		NOT = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_first_aid } }
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_first_aid
+				has_mobilization_option = mobilization_option:mobilization_option_ambulances
+			}
+		}
 		market ?= {
 			mg:opium ?= {
 				market_goods_sell_orders > 0
@@ -991,7 +1001,12 @@ mobilization_option_ambulances = {
 		combustion_engine
 	}
 	possible = {
-		NOT = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_first_aid } }
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_field_hospitals
+				has_mobilization_option = mobilization_option:mobilization_option_first_aid
+			}
+		}
 		market ?= {
 			mg:opium ?= {
 				market_goods_sell_orders > 0
@@ -1185,9 +1200,12 @@ mobilization_option_handcranked_machinegun = {
 	texture = "gfx/interface/icons/mobilization_options/handcranked_machine_guns.dds"
 
 	possible = {
-		NOR = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_heavy_machineguns
-											 has_mobilization_option = mobilization_option:mobilization_option_light_machineguns } 
-		}			
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_light_machineguns
+				has_mobilization_option = mobilization_option:mobilization_option_heavy_machineguns
+			}
+		}		
 		market ?= {
 			mg:ammunition ?= {
 				market_goods_sell_orders > 0
@@ -1237,9 +1255,12 @@ mobilization_option_light_machineguns = {
 	texture = "gfx/interface/icons/mobilization_options/light_machine_guns.dds"
 
 	possible = {
-		NOR = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_handcranked_machineguns
-											 has_mobilization_option = mobilization_option:mobilization_option_light_machineguns } 
-		}
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_handcranked_machinegun
+				has_mobilization_option = mobilization_option:mobilization_option_heavy_machineguns
+			}
+		}	
 		market ?= {
 			mg:ammunition ?= {
 				market_goods_sell_orders > 0
@@ -1289,8 +1310,11 @@ mobilization_option_heavy_machineguns = {
 	texture = "gfx/interface/icons/mobilization_options/heavy_machine_guns.dds"
 
 	possible = {
-		NOR = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_handcranked_machineguns
-											 has_mobilization_option = mobilization_option:mobilization_option_light_machineguns } 
+		scope:military_formation = {
+			NOR = {
+				has_mobilization_option = mobilization_option:mobilization_option_handcranked_machinegun
+				has_mobilization_option = mobilization_option:mobilization_option_light_machineguns
+			}
 		}
 		market ?= {
 			mg:ammunition ?= {
