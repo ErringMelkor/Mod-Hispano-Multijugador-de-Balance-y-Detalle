@@ -94,6 +94,7 @@ law_interventionism = {
 					has_modifier = shogun_ig_forced_to_open_market
 					has_journal_entry = je_meiji_main
 					has_journal_entry = je_great_reforms_serfdom
+					has_journal_entry = je_hawaii
 				}
 				has_law = law_type:law_traditionalism
 			}
@@ -429,9 +430,9 @@ law_laissez_faire = {
 	}
 
 	modifier = {
-		country_loan_interest_rate_mult = -0.25
+		country_loan_interest_rate_mult = -0.1
 		state_shopkeepers_investment_pool_efficiency_mult = 0.25
-		state_capitalists_investment_pool_efficiency_mult = 0.25
+		state_capitalists_investment_pool_efficiency_mult = 0.15
 		country_private_construction_allocation_mult = 0.75
 		country_government_dividends_reinvestment_add = 1.0
 		country_free_charters_add = 2
@@ -454,6 +455,7 @@ law_laissez_faire = {
 					has_modifier = shogun_ig_forced_to_open_market
 					has_journal_entry = je_meiji_main
 					has_journal_entry = je_great_reforms_serfdom
+					has_journal_entry = je_hawaii
 				}
 				has_law = law_type:law_traditionalism
 			}
@@ -611,7 +613,7 @@ law_command_economy = {
 		country_government_dividends_efficiency_add = 0.4
 		country_private_construction_allocation_mult = 0.1
 		country_free_charters_add = 1
-        country_government_dividends_reinvestment_add = 0.10
+        country_government_dividends_reinvestment_add = 0.1
         state_bureaucrats_investment_pool_contribution_add = 0.1
 		country_leverage_resistance_mult = 0.25
 
