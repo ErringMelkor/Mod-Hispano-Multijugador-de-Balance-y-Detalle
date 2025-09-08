@@ -47,13 +47,13 @@ principle_group_advanced_research = {
 	}
 }
 
-principle_group_defensive_cooperation = {
+principle_group_defensive_cooperation_focus = {
 	primary_for_identity = identity_military_treaty_organization
 
 	levels = {
-		principle_defensive_cooperation_1
-		principle_defensive_cooperation_2
-		principle_defensive_cooperation_3
+		principle_defensive_cooperation_focus_1
+		principle_defensive_cooperation_focus_2
+		principle_defensive_cooperation_focus_3
 	}
 }
 
@@ -102,19 +102,19 @@ principle_group_military_industry = {
 	}
 }
 
-principle_group_colonial_offices = {
+principle_group_colonial_focus = {
 	levels = {
-		principle_colonial_offices_1
-		principle_colonial_offices_2
-		principle_colonial_offices_3
+		principle_colonial_focus_1
+		principle_colonial_focus_2
+		principle_colonial_focus_3
 	}
 }
 
-principle_group_foreign_investment = {
+principle_group_foreign_investment_focus = {
 	levels = {
-		principle_foreign_investment_1
-		principle_foreign_investment_2
-		principle_foreign_investment_3
+		principle_foreign_investment_focus_1
+		principle_foreign_investment_focus_2
+		principle_foreign_investment_focus_3
 	}
 }
 
