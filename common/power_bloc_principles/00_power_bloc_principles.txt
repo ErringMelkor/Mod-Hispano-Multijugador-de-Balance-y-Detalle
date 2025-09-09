@@ -394,101 +394,6 @@ principle_advanced_research_3 = {
 	}	
 }
 
-### DEFENSIVE COOPERATION
-
-principle_defensive_cooperation_1 = {
-	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	power_bloc_modifier = {
-		# Members cannot start wars amongst each other
-		power_bloc_disallow_war_bool = yes
-		
-	}
-	
-	ai_weight = {
-		value = 100
-		
-		if = {
-			limit = {
-				OR = {
-					has_strategy = ai_strategy_socialism_in_one_country
-					has_strategy = ai_strategy_armed_isolationism
-				}	
-			}
-			multiply = 1.5
-		}
-		
-		if = {
-			limit = { 
-				power_bloc ?= { has_principle_group = principle_group:principle_group_aggressive_coordination }			
-			}
-			multiply = 0.5
-		}
-
-		if = {
-			limit = {
-				power_bloc ?= { NOT = { has_identity = identity:identity_military_treaty_organization } } 				
-			}
-			multiply = 0.5
-		}		
-	}
-}
-
-principle_defensive_cooperation_2 = {
-	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-		# Countries forced to join defensive plays against members
-		state_conscription_rate_add = 0.01
-	}
-
-	power_bloc_modifier = {
-		# Modifiers from previous level(s)
-		power_bloc_disallow_war_bool = yes
-		
-		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
-		power_bloc_target_sway_cost_mult = -0.5
-	}
-	
-	leader_modifier = {
-		# Allows leader to impose their own law onto member countries in the army_model law group
-		country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_defensive_cooperation_3 = {
-	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-
-	member_modifier = {
-		# Countries forced to join defensive plays against members
-		country_join_power_bloc_member_in_defensive_plays_bool = yes
-		state_conscription_rate_add = 0.01
-		unit_defense_mult = 0.05
-		country_military_tech_spread_mult = 0.1
-	}
-
-	power_bloc_modifier = {
-		# Modifiers from previous level(s)
-		power_bloc_disallow_war_bool = yes
-		power_bloc_target_sway_cost_mult = -0.5
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
 ### AGGRESSIVE COORDINATION
 
 principle_aggressive_coordination_1 = {
@@ -918,183 +823,6 @@ principle_military_industry_3 = {
 		# Members get an unique mobilization option mechanic
 	}
 	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-### Colonial Offices
-
-principle_colonial_offices_1 = {
-	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-	
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	member_modifier = {
-		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.25
-		country_institution_cost_institution_colonial_affairs_mult = -0.1
-		country_disallow_law_no_colonial_affairs_bool = yes
-	}
-
-	leader_modifier = {
-		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
-	}
-	
-	ai_weight = {
-		value = 200 # High base weight if the leader has colonies
-		
-		if = {
-			limit = { has_strategy = ai_strategy_colonial_expansion }
-			multiply = 2.0
-		}
-
-		if = {
-			limit = {
-				NOT = { any_scope_state = { is_under_colonization = yes } }
-			}
-			multiply = 0.0
-		}			
-	}
-}
-
-principle_colonial_offices_2 = {
-	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.4
-		country_institution_cost_institution_colonial_affairs_mult = -0.2
-		country_disallow_law_no_colonial_affairs_bool = yes
-	}
-
-	leader_modifier = {
-		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
-	}
-	
-	institution = institution_colonial_affairs
-	institution_modifier = {
-		# Members get higher colony growth for each level of institution
-		state_colony_growth_creation_factor = 0.05
-		building_group_bg_mining_unincorporated_throughput_add = 0.01
-		building_group_bg_plantations_unincorporated_throughput_add = 0.02
-		building_group_bg_rubber_unincorporated_throughput_add = 0.02
-	}	
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_colonial_offices_3 = {
-	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-	
-	member_modifier = {
-		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
-		country_institution_cost_institution_colonial_affairs_mult = -0.5
-		country_disallow_law_no_colonial_affairs_bool = yes
-	}
-
-	leader_modifier = {
-		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
-	}
-	
-	institution = institution_colonial_affairs
-	institution_modifier = {
-		# Modifiers from previous level(s)	
-		state_colony_growth_creation_factor = 0.05
-		country_infamy_generation_against_unrecognized_mult = -0.05
-		building_group_bg_mining_unincorporated_throughput_add = 0.02
-		building_group_bg_plantations_unincorporated_throughput_add = 0.04
-		building_group_bg_rubber_unincorporated_throughput_add = 0.04
-	}				
-
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-### Foreign Investment
-
-principle_foreign_investment_1 = {
-	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	member_modifier = {
-		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
-		country_higher_leverage_from_economic_dependence_bool = yes
-	}
-	
-	ai_weight = {
-		value = 100
-		
-		if = {
-			limit = {
-				OR = {
-					ig:ig_industrialists ?= { is_in_government = yes }
-					ig:ig_landowners ?= { is_in_government = yes }
-				}
-			}	
-			add = 100
-		}		
-		
-		if = {
-			limit = { has_strategy = ai_strategy_economic_imperialism }
-			multiply = 2.0
-		}		
-	}
-}
-
-principle_foreign_investment_2 = {
-	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-
-		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
-		country_higher_leverage_from_economic_dependence_bool = yes
-		state_capitalists_investment_pool_contribution_mult = 0.05
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_foreign_investment_3 = {
-	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-	
-	# Members can always invest in power bloc coutries of lower rank
-	# Does not generate a tooltip, so a dummy modifier is required to show this effect
-	allows_foreign_investment_in_lower_rank = yes
-	
-	member_modifier = {
-		# Modifiers from previous level(s)	
-		country_nationalization_cost_non_members_mult = -0.5
-
-		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
-		country_higher_leverage_from_economic_dependence_bool = yes
-		state_capitalists_investment_pool_efficiency_mult = 0.05
-		country_company_construction_efficiency_bonus_add = 0.2
-		country_capitalists_pol_str_mult = 0.15
-	}
-	
-	power_bloc_modifier = {
-		# This modifier has no effects and is only here to generate a tooltip
-		power_bloc_allow_foreign_investment_lower_rank_bool = yes 
-	}
-
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}
@@ -1638,7 +1366,7 @@ principle_companies_1 = {
 	}
 
 	member_modifier = {
-		country_company_throughput_bonus_add = 0.1
+		country_company_throughput_bonus_add = 0.05
 	}
 
 	ai_weight = {
@@ -1664,10 +1392,10 @@ principle_companies_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_company_throughput_bonus_add = 0.1
+		country_company_throughput_bonus_add = 0.05
 
 		# Adds one free company charter
-		country_free_charters_add = 2
+		country_free_charters_add = 1
 	}
 
 	ai_weight = {
@@ -1681,7 +1409,7 @@ principle_companies_3 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_company_throughput_bonus_add = 0.1
+		country_company_throughput_bonus_add = 0.05
 		country_free_charters_add = 1
 
 		# Adds one company slot
@@ -2035,6 +1763,287 @@ principle_manufacturing_focus_3 = {
 		
 	}
 	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+
+### COLONIAL FOCUS - MOD
+
+principle_colonial_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		# Cheaper and faster colonial institution
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.25
+		country_institution_cost_institution_colonial_affairs_mult = -0.1
+		country_disallow_law_no_colonial_affairs_bool = yes
+	}
+
+	leader_modifier = {
+		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
+	}
+	
+	ai_weight = {
+		value = 200 # High base weight if the leader has colonies
+		
+		if = {
+			limit = { has_strategy = ai_strategy_colonial_expansion }
+			multiply = 2.0
+		}
+
+		if = {
+			limit = {
+				NOT = { any_scope_state = { is_under_colonization = yes } }
+			}
+			multiply = 0.0
+		}			
+	}
+}
+
+principle_colonial_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		# Cheaper and faster colonial institution
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.4
+		country_institution_cost_institution_colonial_affairs_mult = -0.2
+		country_disallow_law_no_colonial_affairs_bool = yes
+	}
+
+	leader_modifier = {
+		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
+	}
+	
+	institution = institution_colonial_affairs
+	institution_modifier = {
+		# Members get higher colony growth for each level of institution
+		state_colony_growth_creation_factor = 0.1
+		building_group_bg_plantations_unincorporated_throughput_add = 0.04
+		building_group_bg_rubber_unincorporated_throughput_add = 0.04
+	}	
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_colonial_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+	
+	member_modifier = {
+		# Cheaper and faster colonial institution
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
+		country_institution_cost_institution_colonial_affairs_mult = -0.5
+		country_disallow_law_no_colonial_affairs_bool = yes
+	}
+
+	leader_modifier = {
+		country_can_impose_same_lawgroup_colonization_in_power_bloc_bool = yes
+	}
+	
+	institution = institution_colonial_affairs
+	institution_modifier = {
+		# Modifiers from previous level(s)	
+		state_colony_growth_creation_factor = 0.1
+		country_infamy_generation_against_unrecognized_mult = -0.1
+		building_group_bg_plantations_unincorporated_throughput_add = 0.06
+		building_group_bg_rubber_unincorporated_throughput_add = 0.06
+	}				
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+### FOREIGN INVESTMENT FOCUS - MOD
+
+principle_foreign_investment_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
+		country_higher_leverage_from_economic_dependence_bool = yes
+		country_company_construction_efficiency_bonus_add = 0.05
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				OR = {
+					ig:ig_industrialists ?= { is_in_government = yes }
+					ig:ig_landowners ?= { is_in_government = yes }
+				}
+			}	
+			add = 100
+		}		
+		
+		if = {
+			limit = { has_strategy = ai_strategy_economic_imperialism }
+			multiply = 2.0
+		}		
+	}
+}
+
+principle_foreign_investment_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+
+		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
+		country_company_construction_efficiency_bonus_add = 0.05
+		state_capitalists_investment_pool_efficiency_mult = 0.1
+		country_higher_leverage_from_economic_dependence_bool = yes
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_foreign_investment_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+	
+	# Members can always invest in power bloc coutries of lower rank
+	# Does not generate a tooltip, so a dummy modifier is required to show this effect
+	allows_foreign_investment_in_lower_rank = yes
+	
+	member_modifier = {
+		# Modifiers from previous level(s)	
+		country_nationalization_cost_non_members_mult = -0.5
+
+		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
+		country_higher_leverage_from_economic_dependence_bool = yes
+		state_capitalists_investment_pool_efficiency_mult = 0.1
+		country_company_construction_efficiency_bonus_add = 0.1
+		country_capitalists_pol_str_mult = 0.15
+	}
+	
+	power_bloc_modifier = {
+		# This modifier has no effects and is only here to generate a tooltip
+		power_bloc_allow_foreign_investment_lower_rank_bool = yes 
+	}
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+### DEFENSIVE COOPERATION FOCUS - MOD
+
+principle_defensive_cooperation_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	power_bloc_modifier = {
+		# Members cannot start wars amongst each other
+		power_bloc_disallow_war_bool = yes
+		state_conscription_rate_add = 0.01
+		unit_defense_mult = 0.05
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_socialism_in_one_country
+					has_strategy = ai_strategy_armed_isolationism
+				}	
+			}
+			multiply = 1.5
+		}
+		
+		if = {
+			limit = { 
+				power_bloc ?= { has_principle_group = principle_group:principle_group_aggressive_coordination }			
+			}
+			multiply = 0.5
+		}
+
+		if = {
+			limit = {
+				power_bloc ?= { NOT = { has_identity = identity:identity_military_treaty_organization } } 				
+			}
+			multiply = 0.5
+		}		
+	}
+}
+
+principle_defensive_cooperation_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		# Countries forced to join defensive plays against members
+		state_conscription_rate_add = 0.01
+	}
+
+	power_bloc_modifier = {
+		# Modifiers from previous level(s)
+		power_bloc_disallow_war_bool = yes
+		unit_defense_mult = 0.05
+		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
+		power_bloc_target_sway_cost_mult = -0.75
+		country_military_tech_spread_mult = 0.05
+	}
+	
+	leader_modifier = {
+		# Allows leader to impose their own law onto member countries in the army_model law group
+		country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_defensive_cooperation_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		# Countries forced to join defensive plays against members
+		country_join_power_bloc_member_in_defensive_plays_bool = yes
+		state_conscription_rate_add = 0.02
+		unit_defense_mult = 0.05
+		country_military_tech_spread_mult = 0.1
+	}
+
+	power_bloc_modifier = {
+		# Modifiers from previous level(s)
+		power_bloc_disallow_war_bool = yes
+		power_bloc_target_sway_cost_mult = -0.75
+	}
+	
+	leader_modifier = {
+		# Allows leader to impose their own law onto member countries in the army_model law group
+		country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+		unit_defense_mult = 0.05
+	}
+
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}
