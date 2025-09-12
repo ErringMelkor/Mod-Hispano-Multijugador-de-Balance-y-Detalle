@@ -64,3 +64,11 @@ Added localization for military technologies, mobilization options and both the 
 principles and the previously added reworked ones.
 
 
+# 12-09-25 Erring
+
+TO-DO LIST:
+	Monumento para París: Departamento Central.
+	Tags de Gran Jin; Gran Song y Gran Nam.
+	Variante de Colonización de Fronteras para Rusia.
+	Ajuste de los claims coloniales rusos en Sakhalin, Alaska y Turkestan.
+	
