@@ -13,15 +13,10 @@ company_CAFD = {
 	
 	building_types = {  #25
 		building_coffee_plantation
-		building_sugar_plantation
-		building_tobacco_plantation
-		
-		
+		building_sugar_plantation	
 	}
 	
 	extension_building_types = {
-
-		building_tea_plantation
 	}
 	
 	potential = {
@@ -48,9 +43,9 @@ company_CAFD = {
 	}
 	
 	prosperity_modifier = {
-		interest_group_ig_landowners_approval_add = 1 #4
-
-		state_slave_import_mult = 0.75
+		interest_group_ig_landowners_approval_add = 3
+		interest_group_ig_landowners_pop_attraction_mult =  0.15
+		state_slave_import_mult = 0.15
 	}
 	
 
@@ -519,8 +514,8 @@ company_alhstrom = {
 
 	prosperity_modifier = {
 		building_group_bg_logging_throughput_add = 0.1
-		building_paper_mills_throughput_add = 0.2
-		building_construction_sector_throughput_add = 0.05
+		building_paper_mills_throughput_add = 0.1
+		building_construction_sector_throughput_add = 0.075
 	}
 
 	ai_will_do = {

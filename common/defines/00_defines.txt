@@ -166,7 +166,7 @@ NPolitics = {
 	LAW_MIN_SUCCESS_CHANCE = 0.01			# Law must have at least this minimum chance to be considered.
 	
 	STATE_BUREAUCRACY_BASE_COST = 10		# The base cost per incorporated state
-	STATE_BUREAUCRACY_POP_BASE_COST = 4		# The base BUR multiplier per population multiple
+	STATE_BUREAUCRACY_POP_BASE_COST = 5		# The base BUR multiplier per population multiple
 	STATE_BUREAUCRACY_POP_MULTIPLE = 100000	# Number of people BUR cost is based on
 	MINIMUM_INVESTMENT_COST = 10			# The absolute minimum cost in BUR per investment level
 
@@ -253,7 +253,7 @@ NPolitics = {
 
 	MIN_INSTITUTION_INVESTMENT = 1						# Lowest Investment Level for active Institutions (modifier is clamped to this)
 	MAX_INSTITUTION_INVESTMENT = 5						# Highest Investment Level for active Institutions (modifier is clamped to this)
-	DAILY_INSTITUTION_SIZE_CHANGE = 0.0028				# Percent increase / decrease in Institution Size per day (0.0028 ~ 1/365)
+	DAILY_INSTITUTION_SIZE_CHANGE = 0.0020				# Percent increase / decrease in Institution Size per day (0.0028 ~ 1/365)
 
 	INITIAL_MOMENTUM_VARIANCE = 0.5						# How much Momentum should vary at the start of the election period
 	POPULARITY_MOMENTUM_FACTOR = 0.005					# How much Momentum does a party gain or lose from their leader's popularity
