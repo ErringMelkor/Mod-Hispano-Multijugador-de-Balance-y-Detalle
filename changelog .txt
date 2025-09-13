@@ -71,4 +71,5 @@ TO-DO LIST:
 	Tags de Gran Jin; Gran Song y Gran Nam.
 	Variante de Colonización de Fronteras para Rusia.
 	Ajuste de los claims coloniales rusos en Sakhalin, Alaska y Turkestan.
+	Rebalancear el PM de las sucursales de las compañíasy los bonos % a inversión.
 	
