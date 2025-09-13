@@ -570,7 +570,7 @@ NEconomy = {
 	SUBVENTION_LEVEL_EFFECT_MAXIMUM = 1.0				# The fraction of subvention rate applied at maximum level
 
 	REINVESTMENT_EFFICIENCY_MAX = 3.0					# Maximum conversion of reinvestment to investment pool
-	REINVESTMENT_BASE_EFFICIENCY_THRESHOLD = 50000000	# Below this amount of GDP, increase reinvestment multiplier on a linear scale up to REINVESTMENT_EFFICIENCY_MAX at 0
+	REINVESTMENT_BASE_EFFICIENCY_THRESHOLD = 25000000	# Below this amount of GDP, increase reinvestment multiplier on a linear scale up to REINVESTMENT_EFFICIENCY_MAX at 0
 	REINVESTMENT_SUBSISTENCE_FRACTION_REDUCTION = 0.5	# Reinvestment from pops in ownership buildings is multiplied by ( 1 - this * the share of levels owned that are subsistence buildings )
 
 	COMPANY_OVER_LIMIT_BONUS_PENALTY_MIN = 0.33			# If the number of companies in the country exceeds the limit, all company bonuses get penalty. The penalty is scaled proportionally to the limit (exceeding the limit by 100% reduces bonuses by 100%) and the minimum value is this
