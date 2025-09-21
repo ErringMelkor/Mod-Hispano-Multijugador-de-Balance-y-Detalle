@@ -231,3 +231,20 @@ RAX = {
 		}
 	}
 }	
+
+YUA = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_yuan
+	leadership_play = dp_leadership_yuan
+
+	required_states_fraction = 0.75
+	
+	ai_will_do = { has_technology_researched = nationalism }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}

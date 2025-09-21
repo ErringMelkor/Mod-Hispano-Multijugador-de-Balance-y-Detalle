@@ -73,3 +73,7 @@ TO-DO LIST:
 	Ajuste de los claims coloniales rusos en Sakhalin, Alaska y Turkestan.
 	Rebalancear el PM de las sucursales de las compañíasy los bonos % a inversión.
 	
+#21-09-25 Nicol
+
+Added localization for the new Indian and Chinese nations's, names, armies and power blocks.
+Added the Great Yuan tag and basic unification.
