@@ -1,7 +1,9 @@
 ﻿Native_Noramerican = {
 	color= hsv{ 0.63 0.30 0.52 }
 	religion = animist
-	traits = { indigenous_american_heritage north_american_group }
+	heritage = heritage_eastern_woodlands_indian
+	language = language_iroquoian
+	traditions = { }
 	male_common_first_names = {
 		Hehaka
 		Inkpaduta
@@ -53,7 +55,9 @@
 Native_Mesoamerican = {
 	color= hsv{ 0.47 0.29 0.38 }
 	religion = catholic
-	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	heritage = heritage_mesoamerican
+	language = language_nahuan
+	traditions = { }
 	male_common_first_names = {
 		Antonio
 		Carlos
