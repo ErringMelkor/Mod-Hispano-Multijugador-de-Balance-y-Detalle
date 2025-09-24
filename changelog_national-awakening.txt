@@ -4,6 +4,3 @@ Orden de cambios:
 	Culturas y religión
 	State Traits
 	Special Character Traits
-
-
-
