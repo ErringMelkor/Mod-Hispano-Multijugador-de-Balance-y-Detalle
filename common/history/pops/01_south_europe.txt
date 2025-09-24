@@ -648,7 +648,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = South_Slavic
 				religion = catholic
@@ -674,7 +674,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = South_Slavic
 				religion = catholic
@@ -767,7 +767,7 @@
 			}
 		}
 	}
-	s:STATE_NORTHERN_SERBIA = {
+	s:STATE_WESTERN_SERBIA = {
 		region_state:SER = {
 			create_pop = {
 				culture = South_Slavic
@@ -775,7 +775,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_SERBIA = {
+	s:STATE_EASTERN_SERBIA = {
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
@@ -790,17 +790,30 @@
 				culture = South_Slavic
 				size = 581800
 			}
+		}
+	}
+	s:STATE_KOSOVO = {
+		region_state:TUR = {
 			create_pop = {
-				culture = greek
-				size = 8000
+				culture = albanian
+				size = 167012
 			}
 			create_pop = {
 				culture = albanian
-				size = 192596
+				religion = catholic
+				size = 23010
 			}
 			create_pop = {
-				culture = South_Slavic
-				size = 49404
+				culture = turkish
+				size = 21020
+			}
+			create_pop = {
+				culture = bosniak
+				size = 7912
+			}
+			create_pop = {
+				culture = romanian
+				size = 4929
 			}
 		}
 	}

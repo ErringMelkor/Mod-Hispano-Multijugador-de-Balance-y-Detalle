@@ -23,7 +23,7 @@
 				size = 75418
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 2062
 			}
 			create_pop = {
@@ -47,7 +47,7 @@
 				size = 354472
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 35872
 			}
 			create_pop = {
@@ -112,7 +112,7 @@
 				size = 4424
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 12324
 			}
 		}
@@ -124,7 +124,7 @@
 				size = 362898
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 52775
 			}
 			create_pop = {
@@ -159,7 +159,7 @@
 				size = 96273
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 1621
 			}
 			create_pop = {
@@ -201,19 +201,19 @@
 			}
 			create_pop = {
 				culture = polish
-				size = 136510
+				size = 6021
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 26366
 			}
 			create_pop = {
 				culture = russian
-				size = 44443
+				size = 9366
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 31056
+				size = 16056
 			}
 		}
 	}
@@ -228,7 +228,7 @@
 				size = 180591
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 39499
 			}
 			create_pop = {
@@ -261,7 +261,7 @@
 				size = 358977
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 134245
 			}
 			create_pop = {
@@ -286,7 +286,7 @@
 				size = 117162
 			}
 			create_pop = {
-				culture = north_german
+				culture = east_german
 				size = 19663
 			}
 			create_pop = {
@@ -567,7 +567,7 @@
 				size = 44400
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 40819
 			}
 			create_pop = {
@@ -587,7 +587,7 @@
 				size = 2610320
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 30125
 			}
 			create_pop = {
@@ -623,7 +623,7 @@
 				size = 75704
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 12010
 			}
 			create_pop = {
@@ -699,7 +699,7 @@
 				size = 39420
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 32500
 			}
 			create_pop = {
@@ -743,7 +743,7 @@
 				size = 55930
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 57928
 			}
 			create_pop = {
@@ -779,7 +779,7 @@
 				size = 28832
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 16864
 			}
 			create_pop = {
@@ -816,7 +816,7 @@
 				size = 15405
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 2513
 			}
 		}
@@ -865,7 +865,7 @@
 				size = 92855
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 681
 			}
 			create_pop = {
