@@ -103,6 +103,7 @@
 						OR = {
 							country_has_state_religion = rel:sunni
 							country_has_state_religion = rel:shiite
+							country_has_state_religion = rel:ibadi
 						}
 						NOT = { c:TUR ?= this }
 					}
@@ -134,7 +135,7 @@
 				country_has_state_religion = rel:mahayana
 				country_has_primary_culture = cu:japanese
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_buddhist_monks
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_buddhist_moralist
@@ -146,7 +147,7 @@
 				country_has_state_religion = rel:shinto
 				country_has_primary_culture = cu:japanese
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_shinto_monks
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_shinto_moralist
@@ -158,7 +159,7 @@
 				country_has_state_religion = rel:protestant
 				country_has_primary_culture = cu:hawaiian
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_christian_missionaries
 				add_ideology = ideology_laissez_faire
 			}
@@ -176,7 +177,7 @@
 					c:NRU ?= this
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_anglican_church
 			}
 		}
@@ -190,7 +191,7 @@
 					country_has_primary_culture = cu:ukrainian
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_orthodox_church
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_russian_patriarch
@@ -202,7 +203,7 @@
 				country_has_state_religion = rel:protestant
 				country_has_primary_culture = cu:danish
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_church_of_denmark
 			}
 		}
@@ -212,7 +213,7 @@
 				country_has_state_religion = rel:protestant
 				country_has_primary_culture = cu:norwegian
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_church_of_norway
 			}
 		}
@@ -222,7 +223,7 @@
 				country_has_state_religion = rel:protestant
 				country_has_primary_culture = cu:finnish
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_church_of_finland
 			}
 		}
@@ -232,7 +233,7 @@
 				country_has_state_religion = rel:protestant
 				country_has_primary_culture = cu:swedish
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_church_of_sweden
 			}
 		}
@@ -243,7 +244,7 @@
 						c:CHI ?= this
 					}
 				}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_confucian
 				
 				remove_ideology = ideology_pious
@@ -268,7 +269,7 @@
 					country_has_primary_culture = cu:cherokee
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_evangelicals
 			}
 		}
@@ -277,7 +278,7 @@
 			limit = {
 				c:PAP ?= this
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_roman_curia
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_papal_moralist
@@ -290,7 +291,7 @@
 		# Catholic Church
 		else_if = {
 			limit = { country_has_state_religion = rel:catholic }
-			ig:ig_devout = { 
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_catholic_church 
 			}
 		}
@@ -303,22 +304,44 @@
 		}
 		# Sunni Ulema
 		else_if = {
-			limit = { country_has_state_religion = rel:sunni }
-			ig:ig_devout = { 
+			limit = {
+				OR = {
+					country_has_state_religion = rel:sunni
+					# Ibadi Arab Zanzibar still gets a Sunni Devout IG to represent the non-Ibadi majority
+					c:ZAN ?= this
+				}
+			}
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_sunni_madrasahs
 			}
 		}
 		# Shi'a Ulema
 		else_if = {
-			limit = { country_has_state_religion = rel:shiite }
-			ig:ig_devout = { 
+			limit = {
+				country_has_state_religion = rel:shiite
+			}
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_shia_madrasahs
+			}
+		}
+		# Ibadi Ulema
+		else_if = {
+			limit = {
+				country_has_state_religion = rel:ibadi
+				NOT = { c:ZAN ?= this }
+			}
+			ig:ig_devout ?= {
+				set_interest_group_name = ig_ibadi_madrasahs
+				remove_ideology = ideology_moralist
+				remove_ideology = ideology_patriarchal
+				add_ideology = ideology_ibadi_shura
+				add_ideology = ideology_ibadi_imamate
 			}
 		}
 		# Oriental Orthodox Church
 		else_if = {
 			limit = { country_has_state_religion = rel:oriental_orthodox }
-			ig:ig_devout = { 
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_oriental_orthodox_church
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_oriental_orthodox_patriarch
@@ -332,18 +355,32 @@
 					country_has_primary_culture = cu:russian
 					country_has_primary_culture = cu:byelorussian
 					country_has_primary_culture = cu:ukrainian
+					ROOT = c:MON
 				}
 			}
-			ig:ig_devout = { 
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_orthodox_church
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_orthodox_patriarch
 			}
 		}
+		else_if = {
+			limit = {
+				ROOT = c:MON
+				country_has_state_religion = rel:orthodox
+			}
+			ig:ig_devout ?= {
+				set_interest_group_name = ig_orthodox_church
+				remove_ideology = ideology_patriarchal
+				add_ideology = ideology_orthodox_patriarch
+				remove_ideology = ideology_moralist
+				add_ideology = ideology_montenegrin_moralist
+			}
+		}
 		# Hindu Priesthood
 		else_if = {
 			limit = { country_has_state_religion = rel:hindu }
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_hindu_priesthood
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_hindu_moralist
@@ -352,7 +389,7 @@
 		# Vajrayana Monks
 		else_if = {
 			limit = { country_has_state_religion = rel:gelugpa }
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_vajrayana_monks
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_buddhist_moralist
@@ -361,7 +398,7 @@
 		# Vajrayana Monks
 		else_if = {
 			limit = { country_has_state_religion = rel:theravada }
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_theravada_monks
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_buddhist_moralist
@@ -370,7 +407,7 @@
 		# Mahayana Monks
 		else_if = {
 			limit = { country_has_state_religion = rel:mahayana }
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_mahayana_monks
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_buddhist_moralist
@@ -379,7 +416,7 @@
 		# Sikh Granthis
 		else_if = {
 			limit = { country_has_state_religion = rel:sikh }
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				set_interest_group_name = ig_granthis
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_sikh_moralist
@@ -391,7 +428,7 @@
 			limit = {
 				has_technology_researched = corporatism
 			}
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				remove_ideology = ideology_pious
 				add_ideology = ideology_corporatist
 			}
@@ -411,6 +448,26 @@
 				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani
 			}
 		}
+		rule = {
+			trigger = {
+				c:ZAN ?= this
+				any_primary_culture = {
+					cu:bedouin = this
+				}
+			}
+			cultures = {
+				swahili
+			}
+		}
+		rule = {
+			trigger = {
+				c:HAW ?= this
+				NOT = { has_variable = deported_americans }
+			}
+			cultures = {
+				yankee dixie british hawaiian
+			}
+		}
 	}
 
 	on_character_ig_membership = {
@@ -424,9 +481,17 @@
 		}
 		else_if = {
 			limit = {
+				owner = {
+					c:ZAN ?= this
+				}
+			}
+			change_character_religion = rel:sunni
+		}
+		else_if = {
+			limit = {
 				NOT = {
 					owner = {
-						has_law = law_type:law_state_atheism
+						has_law_or_variant = law_type:law_state_atheism
 					}
 				}
 			}
@@ -445,6 +510,11 @@
 				exists = c:BIC
 				owner ?= c:BIC
 				has_pop_religion = hindu
+			}
+			AND = {
+				exists = c:ZAN
+				owner ?= c:ZAN
+				has_pop_religion = sunni
 			}
 		}
 		NOT = {
@@ -481,7 +551,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_state_atheism
+					has_law_or_variant = law_type:law_state_atheism
 				}
 			}
 			multiply = {
@@ -493,7 +563,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_state_religion
+					has_law_or_variant = law_type:law_state_religion
 				}
 			}
 			multiply = {
@@ -505,7 +575,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_freedom_of_conscience
+					has_law_or_variant = law_type:law_freedom_of_conscience
 				}
 			}
 			multiply = {
@@ -517,13 +587,13 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_religious_schools
+					has_law_or_variant = law_type:law_religious_schools
 				}
 			}
 			multiply = {
 				desc = "RELIGIOUS_SCHOOLS_LAW"
 				value = owner.institution:institution_schools.investment
-				divide = 5
+				divide = 10
 				add = 1
 			}
 		}
@@ -533,8 +603,8 @@
 				owner = {
 					has_technology_researched = corporatism
 					NOT = {
-						has_law = law_type:law_total_separation
-						has_law = law_type:law_state_atheism
+						has_law_or_variant = law_type:law_total_separation
+						has_law_or_variant = law_type:law_state_atheism
 					}
 				}
 			}
@@ -548,7 +618,7 @@
 			desc = "POP_LITERACY"
 			this = {
 				value = literacy_rate
-				multiply = -20
+				multiply = -25
 			}
 		}
 
@@ -631,7 +701,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_state_religion
+					has_law_or_variant = law_type:law_state_religion
 				}
 			}
 			multiply = {
@@ -642,7 +712,7 @@
 		if = {
 			limit = {
 				owner = {
-					NOT = { has_law = law_type:law_state_religion }
+					NOT = { has_law_or_variant = law_type:law_state_religion }
 				}
 			}
 			multiply = {
@@ -653,7 +723,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_state_atheism
+					has_law_or_variant = law_type:law_state_atheism
 				}
 			}
 			multiply = {
@@ -680,7 +750,7 @@
 		# Agitators will never be part of a marginalized IG
 		if = {
 			limit = {
-				owner.ig:ig_devout = {
+				owner.ig:ig_devout ?= {
 					is_marginal = yes
 				}
 			}
@@ -716,7 +786,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_womens_suffrage
+					has_law_or_variant = law_type:law_womens_suffrage
 				}
 
 			}
@@ -732,7 +802,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_women_own_property
+					has_law_or_variant = law_type:law_women_own_property
 				}
 
 			}
@@ -744,7 +814,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_women_in_the_workplace
+					has_law_or_variant = law_type:law_women_in_the_workplace
 				}
 
 			}
@@ -756,7 +826,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_womens_suffrage
+					has_law_or_variant = law_type:law_womens_suffrage
 				}
 
 			}

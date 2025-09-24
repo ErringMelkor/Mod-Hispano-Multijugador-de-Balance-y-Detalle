@@ -791,6 +791,24 @@
 				size = 581800
 			}
 		}
+		region_state:SER = {
+			create_pop = {
+				culture = South_Slavic
+				size = 203567
+			}
+			create_pop = {
+				culture = romanian
+				size = 75573
+			}
+			create_pop = {
+				culture = albanian
+				size = 2031
+			}
+			create_pop = {
+				culture = sephardic
+				size = 201
+			}
+		}
 	}
 	s:STATE_KOSOVO = {
 		region_state:TUR = {

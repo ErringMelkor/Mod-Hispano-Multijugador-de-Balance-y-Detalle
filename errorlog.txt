@@ -1,0 +1,380 @@
+[18:10:56][jomini_effect.cpp:1138]: Variable 'german_confederation_country_list' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Variable 'failed_sick_man_separatism' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Variable 'failed_sick_man_main' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Variable 'peoples_springtime_happened' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Variable 'bp_member_backs_down' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1134]: Variable 'is_aus_franz_ferdinand' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[18:10:56][jomini_effect.cpp:1134]: Variable 'is_aus_franz_josef_I' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[18:10:56][jomini_effect.cpp:1138]: Variable 'balkan_league_fought_alone_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Event target 'revolutionary_country' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_effect.cpp:1138]: Event target 'dixie_acw_scope' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[18:10:56][jomini_eventmanager.cpp:376]: Event historical_agitators.14 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event bulgaria_events.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event bulgaria_events.3 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event german_unification.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event galicia_formation.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event peoples_springtime.9 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event peoples_springtime.71 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event slave_revolt.4 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event zanzibar.6 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_events.30 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_events.31 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_events.32 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_events.33 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_events.40 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event hungary_events.11 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event hungary_events.13 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event austria_germany.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event balkan_wars.13 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event eastern_question_austria.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.6 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.7 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.10 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.11 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.12 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.13 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.19 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event mon_state_formation.20 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event ottoman_monarchs.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event ottoman_monarchs.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event serbia.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event subjecthood_events.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event subjecthood_events.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event subjecthood_events.3 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event subjecthood_events.4 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event subjecthood_events.5 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.1 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.2 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.3 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.4 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.5 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.6 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.7 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.8 is orphaned
+[18:10:56][jomini_eventmanager.cpp:376]: Event labour_associations_events.9 is orphaned
+
+[18:10:59][route_graphics.cpp:878]: Strip between locators 11902 and 12100 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:888]: Strip between locators 11902 and 12100 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:878]: Strip between locators 15504 and 15604 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:888]: Strip between locators 15504 and 15604 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:878]: Strip between locators 15501 and 16100 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:888]: Strip between locators 15501 and 16100 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:878]: Strip between locators 16202 and 17200 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:888]: Strip between locators 16202 and 17200 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:878]: Strip between locators 12001 and 17302 connects state region to a non-adjacent one
+[18:10:59][route_graphics.cpp:888]: Strip between locators 12001 and 17302 connects state region to a non-adjacent one
+
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'region_state' returned an invalid object
+  Script location: common/history/pops/08_middle_east.txt:877
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/pops/08_middle_east.txt:878
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/pops/08_middle_east.txt:882
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/pops/08_middle_east.txt:886
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: add_principle effect [ Power bloc principle provided is invalid ]
+  Script location: common/history/power_blocs/00_power_blocs.txt:18
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: add_principle effect [ Power bloc principle provided is invalid ]
+  Script location: common/history/power_blocs/00_power_blocs.txt:45
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: add_principle effect [ Power bloc principle provided is invalid ]
+  Script location: common/history/power_blocs/00_power_blocs.txt:115
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'c' returned an unset scope
+  Script location: common/history/power_blocs/00_power_blocs.txt:145
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: create_power_bloc effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/history/power_blocs/00_power_blocs.txt:146
+
+[18:11:08][jomini_script_system.cpp:247]: Script system error!
+  Error: add_principle effect [ Power bloc principle provided is invalid ]
+  Script location: common/history/power_blocs/00_power_blocs.txt:177
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_CENTRAL_HUNGARY for Austria for building ownership ]
+  Script location: common/history/buildings/01_south_europe.txt:4101
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'region_state' returned an invalid object
+  Script location: common/history/buildings/01_south_europe.txt:4128
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4129
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4140
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4159
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4172
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4185
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4204
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4217
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'region_state' returned an invalid object
+  Script location: common/history/buildings/01_south_europe.txt:4231
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4232
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4243
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/01_south_europe.txt:4256
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,EgIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip BRN530!flag_overlay! Borana!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:961
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,EgIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip BRN530!flag_overlay! Borana!! must have invented tooltippable_name tooltip:dw_2693000601,kGU27vgDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Standing Army!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:974
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,GAIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip WLO536!flag_overlay! Wello!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:1106
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,GAIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip WLO536!flag_overlay! Wello!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:1119
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,GAIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip WLO536!flag_overlay! Wello!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:1132
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,GAIAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip WLO536!flag_overlay! Wello!! must have invented tooltippable_name tooltip:dw_2693000601,kGU27vgDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Standing Army!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:1145
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,+gEAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ACH506!flag_overlay! Acholi!! must have invented tooltippable_name tooltip:dw_2693000601,kGU27vgDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Standing Army!! ]
+  Script location: common/history/buildings/04_subsaharan_africa.txt:1629
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Cannot find company of Type company_russian_american_company (122) in Country Russia (3) ]
+  Script location: common/history/buildings/05_north_america.txt:821
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Cannot find company of Type company_russian_american_company (122) in Country Russia (3) ]
+  Script location: common/history/buildings/05_north_america.txt:833
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Cannot find company of Type company_russian_american_company (122) in Country Russia (3) ]
+  Script location: common/history/buildings/05_north_america.txt:845
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_BIHAR for Hindustan for building ownership ]
+  Script location: common/history/buildings/10_india.txt:65
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_BIHAR for Hindustan for building ownership ]
+  Script location: common/history/buildings/10_india.txt:78
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_BIHAR for Hindustan for building ownership ]
+  Script location: common/history/buildings/10_india.txt:91
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_WEST_BENGAL for Hindustan for building ownership ]
+  Script location: common/history/buildings/10_india.txt:207
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid state in STATE_WEST_BENGAL for Hindustan for building ownership ]
+  Script location: common/history/buildings/10_india.txt:226
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,jgAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI142!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/10_india.txt:1734
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,jgAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI142!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,sHH/6/gDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/10_india.txt:1747
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,jgAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI142!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,QGc27vgDAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Navigation!! ]
+  Script location: common/history/buildings/10_india.txt:1760
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Prussia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:109
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Prussia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:109
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Prussia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:109
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Prussia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:109
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Prussia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:109
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_TRANSDANUBIA ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_CENTRAL_HUNGARY ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_BEKES ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_SOUTHERN_TRANSYLVANIA ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_NORTHERN_TRANSYLVANIA ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_DELVIDEK ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:451
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_CROATIA ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:590
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Austria does not have state in STATE_SLAVONIA ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:590
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Serbia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:3194
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Serbia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:3194
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Serbia does not have state in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:3194
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Ottoman Empire does not have state in  ]
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:58
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Patiala does not have state in  ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:316
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Patiala does not have state in  ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:316
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Patiala does not have state in  ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:316
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Bihar does not have state in  ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:948
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_character effect [ Failed to create character ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:1476
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: Undefined event target 'maratha_gen2'
+  Script location: common/history/military_formations/05_military_formations_india.txt:1498
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'scope' returned an unset scope
+  Script location: common/history/military_formations/05_military_formations_india.txt:1498
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: transfer_to_formation effect [ Wrong scope for effect: none, expected character ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:1499
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_treaty effect [ Refusing to create a treaty with invalid creation options: red_cross! A treaty must have a valid _SecondCountry ]
+  Script location: common/history/treaties/00_historical_treaties.txt:503
+
+[18:11:09][pdx_assert.cpp:628]: Assertion failed: Coastal building in non coastal states, check it out From state Gujarat (433) To State Portuguese Gujarat (435)
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_treaty effect [ Refusing to create a treaty with invalid creation options: red_cross! Country Marathas (450) is part of an article not bound by the treaty the article is part of ]
+  Script location: common/history/treaties/india_treaties.txt:56
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'c' returned an unset scope
+  Script location: common/history/lobbies/00_lobbies.txt:457
+
+[18:11:09][jomini_script_system.cpp:247]: Script system error!
+  Error: create_political_lobby effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/history/lobbies/00_lobbies.txt:458
+
+[18:11:13][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:13][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+
+
+[18:11:13][character_templates_utils.cpp:34]: Invalid Culture scope when creating Character in C:\mnt\gsg\caligula\caligula\source\logic\character_templates_utils.cpp:350
+[18:11:13][pdx_assert.cpp:628]: Assertion failed: ExistsInternal( Index )
+[18:11:13][country.cpp:10253]: The ruler of Unyamwezi is scripted to be gfx/interface/_default_icon.dds  but that character leads the interest group of title tooltippable_concept tooltip:dw_1813705710,AAD8YfgDAAA=,DATA_GAME_CONCEPT_TYPE_NAME_TOOLTIP,GameConceptTypeTooltip Politically Unaligned!!! that they belong to, which is not allowed under Dictatorial/Hereditary
+[18:11:13][initializefrombookmark.cpp:1400]: Historical diplomatic pact embargo between TUR and MON cannot be maintained and will break soon
+[18:11:13][country_law_manager.cpp:442]: Country KRA is not permitted to retain law Guild System, fix this or consider Combination Acts instead
+[18:11:13][country_law_manager.cpp:442]: Country SON is not permitted to retain law Canton System, fix this or consider Mercantilism instead
+
+[18:11:16][pdx_gui_container.cpp:145]: gui/companies_panel.gui:414 - A (flow)co ntainer (gui/companies_panel.gui:414) can't have an hbox/vbox (gui/companies_panel.gui:422) as a direct child.
+[18:11:16][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'religion' returned an invalid object
+  Script location: common/coat_of_arms/template_lists/coa_templates.txt:177
+
