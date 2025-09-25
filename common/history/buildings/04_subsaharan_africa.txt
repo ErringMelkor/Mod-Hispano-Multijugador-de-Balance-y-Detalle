@@ -963,7 +963,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BRN"
+						country="c:HDY"
 						levels=1
 						region="STATE_AMHARA"
 					}
@@ -975,7 +975,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:BRN"
+						country="c:HDY"
 						levels=8
 					}
 				}
@@ -1016,6 +1016,32 @@
 					country={
 						country="c:KFA"
 						levels=13
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+				region_state:WLT={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:WLT"
+						levels=1
+						region="STATE_AMHARA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:WLT"
+						levels=3
 					}
 				}
 				reserves=1
@@ -1102,13 +1128,13 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:WLO={
+		region_state:QWR={
 			create_building={
 				building="building_millet_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:WLO"
+						country="c:QWR"
 						levels=1
 						region="STATE_GONDER"
 					}
@@ -1121,7 +1147,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:WLO"
+						country="c:QWR"
 						levels=1
 						region="STATE_GONDER"
 					}
@@ -1134,7 +1160,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:WLO"
+						country="c:QWR"
 						levels=1
 						region="STATE_GONDER"
 					}
@@ -1146,7 +1172,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:WLO"
+						country="c:QWR"
 						levels=16
 					}
 				}
@@ -1706,6 +1732,32 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:TGI={
+			create_building={
+				building="building_millet_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:TGI"
+						levels=1
+						region="STATE_MOCAMBIQUE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:TGI"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 		region_state:MRV={

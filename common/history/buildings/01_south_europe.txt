@@ -4105,7 +4105,7 @@
 						type="building_manor_house"
 						country="c:AUS"
 						levels=2
-						region="STATE_CENTRAL_HUNGARY"
+						region="STATE_AUSTRIA"
 					}
 				}
 				reserves=1
@@ -4125,12 +4125,12 @@
 		}
 	}
 	s:STATE_CROATIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:AUS"
+						country="c:CRO"
 						levels=3
 					}
 				}
@@ -4142,15 +4142,15 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:CRO"
 						levels=1
 						region="STATE_CROATIA"
 					}
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:HUN"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_TRANSDANUBIA"
 					}
 				}
 				reserves=1
@@ -4161,9 +4161,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:HUN"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_TRANSDANUBIA"
 					}
 				}
 				reserves=1
@@ -4174,7 +4174,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:CRO"
 						levels=1
 						region="STATE_CROATIA"
 					}
@@ -4187,7 +4187,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:AUS"
+						country="c:CRO"
 						levels=1
 						region="STATE_CROATIA"
 					}
@@ -4206,7 +4206,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:AUS"
+						country="c:CRO"
 						levels=2
 						region="STATE_CROATIA"
 					}
@@ -4218,7 +4218,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:AUS"
+						country="c:CRO"
 						levels=1
 					}
 				}
@@ -4228,12 +4228,12 @@
 		}
 	}
 	s:STATE_SLAVONIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:AUS"
+						country="c:CRO"
 						levels=2
 					}
 				}
@@ -4245,9 +4245,9 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:HUN"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_TRANSDANUBIA"
 					}
 				}
 				reserves=1
@@ -4258,7 +4258,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:AUS"
+						country="c:CRO"
 						levels=1
 						region="STATE_SLAVONIA"
 					}

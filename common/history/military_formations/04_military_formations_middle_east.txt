@@ -37,7 +37,7 @@
 			last_name = Pasha
 			historical = yes
 			culture = cu:serb
-			religion = sunni
+			religion = rel:sunni
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1806.9.24
@@ -68,7 +68,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SOUTHERN_SERBIA
+				state_region = s:STATE_EASTERN_SERBIA
 				count = 10
 			}
 
@@ -362,8 +362,21 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KABUL
+				state_region = s:STATE_PASHTUNISTAN
 				count = 4
+			}
+		}
+	}
+
+	c:KAF = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_persia
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_KABUL
+				count = 3
 			}
 		}
 	}
@@ -444,14 +457,45 @@
 		}
 	}
 
-	c:MAK = {
+	c:CHT = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_persia
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SISTAN
+				state_region = s:STATE_PASHTUNISTAN
+				count = 4
+			}
+		}
+	}
+
+	c:KAL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BALUCHISTAN
+				count = 6
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_BALUCHISTAN
+				count = 1
+			}
+		}
+	}
+
+	c:MAK = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_bombay
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BALUCHISTAN
 				count = 2
 			}
 			combat_unit = {
