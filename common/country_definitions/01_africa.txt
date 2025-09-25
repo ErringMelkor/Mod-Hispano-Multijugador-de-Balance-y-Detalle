@@ -847,7 +847,7 @@ HAR = {
 	
 	tier = principality
 	
-	cultures = { amhara }
+	cultures = { Etiope }
 	religion = sunni
 	capital = STATE_OROMIA
 }
@@ -858,7 +858,7 @@ BRN = {
 	
 	tier = principality
 	
-	cultures = { oromo }
+	cultures = { Etiope }
 	religion = sunni
 	capital = STATE_AMHARA
 }
@@ -869,7 +869,7 @@ KFA = {
 	
 	tier = principality
 	
-	cultures = { sidama oromo }
+	cultures = { Etiope  }
 	religion = oriental_orthodox
 	capital = STATE_AMHARA
 }
@@ -880,7 +880,7 @@ SDM = {
 	
 	tier = principality
 	
-	cultures = { sidama }
+	cultures = { Etiope }
 	religion = oriental_orthodox
 	capital = STATE_AMHARA
 }
@@ -891,7 +891,7 @@ WLG = {
 	
 	tier = principality
 	
-	cultures = { oromo }
+	cultures = { Etiope }
 	capital = STATE_AMHARA
 }
 	
@@ -901,7 +901,7 @@ TGR = {
 	
 	tier = principality
 	
-	cultures =  { tigray amhara }
+	cultures =  { Etiope }
 	capital = STATE_AMHARA
 }
 
@@ -911,7 +911,7 @@ GJM = {
 	
 	tier = principality
 	
-	cultures = { amhara }
+	cultures = { Etiope }
 	capital = STATE_AMHARA
 }
 
@@ -921,7 +921,7 @@ WLO = {
 	
 	tier = principality
 	
-	cultures = { amhara }
+	cultures = { Etiope }
 	capital = STATE_AMHARA
 }
 
@@ -931,7 +931,7 @@ BGM = {
 	
 	tier = principality
 	
-	cultures = { amhara oromo tigray }
+	cultures = { Etiope }
 	capital = STATE_AMHARA
 }
 
@@ -1669,7 +1669,7 @@ ORM = { # Orma
 
 	tier = principality
 
-	cultures = { oromo }
+	cultures = { Etiope }
 	religion = animist
 	capital = STATE_KENYA
 }
@@ -1681,7 +1681,7 @@ SKY = { # Sakuye
 
 	tier = principality
 
-	cultures = { oromo }
+	cultures = { Etiope }
 	religion = animist
 	capital = STATE_KENYA
 }
@@ -1717,7 +1717,7 @@ QWR = { # Qwara, sometimes spelled 'Quara' in literature, or even 'Quoara' if yo
 
 	tier = principality
 
-	cultures = { amhara }
+	cultures = { Etiope }
 	capital = STATE_GONDER
 }
 
@@ -1738,7 +1738,7 @@ WLT = {
 
 	tier = principality
 
-	cultures = { sidama }
+	cultures = { Etiope }
 	religion = oriental_orthodox
 	capital = STATE_AMHARA
 }
@@ -1749,7 +1749,7 @@ HDY = {
 
 	tier = principality
 
-	cultures = { oromo }
+	cultures = { Etiope }
 	religion = sunni
 	capital = STATE_AMHARA
 }
@@ -1760,7 +1760,7 @@ ARS = {
 
 	tier = principality
 
-	cultures = { oromo }
+	cultures = { Etiope }
 	religion = sunni
 	capital = STATE_OROMIA
 }
@@ -1782,7 +1782,7 @@ OMO = {
 
 	tier = principality
 
-	cultures = { sidama }
+	cultures = { Etiope }
 	religion = animist
 	capital = STATE_AMHARA
 }
