@@ -126,7 +126,7 @@ POPS = {
 		}
 	}
 	s:STATE_ASSAM = {
-		region_state:ASM = {
+		region_state:BIC = {
 			create_pop = {
 				culture = assamese
 				size = 341202
@@ -150,13 +150,29 @@ POPS = {
 				size = 70120
 			}
 			create_pop = {
+				culture = british # including Irish
+				size = 420
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = scottish
+				size = 140
+				pop_type = bureaucrats
+			}
+		}
+		region_state:KKI = {
+			create_pop = {
 				culture = lushai
 				size = 24591
 			}
+		}
+		region_state:NGA = {
 			create_pop = {
 				culture = naga
 				size = 123919
 			}
+		}
+		region_state:MNP = {
 			create_pop = {
 				culture = manipuri
 				size = 258104
@@ -174,14 +190,20 @@ POPS = {
 				culture = naga
 				size = 39192
 			}
+		}
+		region_state:MGH = {
 			create_pop = {
 				culture = naga # Khasi
 				size = 62201
 			}
+		}
+		region_state:TIP = {
 			create_pop = {
 				culture = lushai # Tipperah
 				size = 45102
 			}
+		}
+		region_state:ASM = {
 			create_pop = {
 				culture = assamese
 				size = 705200
