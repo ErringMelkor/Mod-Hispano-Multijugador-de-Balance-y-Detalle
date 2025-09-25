@@ -5,8 +5,9 @@
 	progressiveness = -50
 	
 	modifier = {
+		country_can_only_conscript_peasants_bool = yes
 		unit_morale_loss_mult = 0.15
-		unit_experience_gain_mult = -0.35
+		unit_experience_gain_mult = -0.25
 		state_conscription_rate_add = 0.04
 		country_aristocrats_pol_str_mult = 0.25
 		country_officers_pol_str_mult = 1
@@ -33,14 +34,14 @@
 		if = {
 			limit = {
 				NOT = {
-					has_law = law_type:law_peasant_levies
+					has_law_or_variant = law_type:law_peasant_levies
 				}
 			}
 			custom_tooltip = aristocrats_af_ig_shift_effect_tt
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_professional_army
+				has_law_or_variant = law_type:law_professional_army
 			}
 			custom_tooltip = military_pops_af_ig_shift_effect_negative_tt
 			custom_tooltip = non_military_pops_af_ig_shift_effect_negative_tt
@@ -70,14 +71,13 @@ law_eight_banner_army = {
 	progressiveness = -50
 	
 	modifier = {
-		unit_morale_loss_mult = 0.25
-		unit_experience_gain_mult = -0.5
+		unit_experience_gain_mult = -0.15
 		country_military_wages_mult = 0.25
 		state_conscription_rate_add = 0.05
 		country_aristocrats_pol_str_mult = 0.25
 		country_officers_pol_str_mult = 0.75
 		state_building_barracks_max_level_add = 50
-		state_building_conscription_center_max_level_add = 35
+		state_building_conscription_center_max_level_add = 50
 	}
 	
 	is_visible = {
@@ -132,8 +132,7 @@ law_professional_army = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.01
-		country_officers_pol_str_mult = 2
-		country_soldiers_pol_str_mult = 0.50
+		country_officers_pol_str_mult = 0.5
 		state_building_barracks_max_level_add = 150
 		state_building_conscription_center_max_level_add = 50
 		country_institution_military_max_investment_add = 1
@@ -162,14 +161,14 @@ law_professional_army = {
 	on_enact = {
 		if = {
 			limit = {
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
 			}
 			custom_tooltip = aristocrats_af_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 				NOT = {
-					has_law = law_type:law_professional_army
+					has_law_or_variant = law_type:law_professional_army
 				}
 			}
 			custom_tooltip = non_military_pops_af_ig_shift_effect_tt
@@ -188,7 +187,14 @@ law_professional_army = {
 		if = {
 			limit = { 
 				has_journal_entry = je_sick_man_army
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
+			}
+			add = 1000
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_hawaii
 			}
 			add = 1000
 		}			
@@ -225,8 +231,7 @@ law_national_militia = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.025
-		country_officers_pol_str_mult = 1
-		country_soldiers_pol_str_mult = 1
+		country_officers_pol_str_mult = -0.25
 		country_leverage_resistance_mult = 0.5
 		state_building_barracks_max_level_add = 5
 		state_building_conscription_center_max_level_add = 150
@@ -255,13 +260,13 @@ law_national_militia = {
 	on_enact = {
 		if = {
 			limit = {
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
 			}
 			custom_tooltip = aristocrats_af_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_professional_army
+				has_law_or_variant = law_type:law_professional_army
 			}
 			custom_tooltip = military_pops_af_ig_shift_effect_negative_tt
 			custom_tooltip = non_military_pops_af_ig_shift_effect_negative_tt
@@ -295,10 +300,9 @@ law_mass_conscription = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.025
-		state_building_barracks_max_level_add = 125
-		state_building_conscription_center_max_level_add = 125
-		country_officers_pol_str_mult = 1.5
-		country_soldiers_pol_str_mult = 1
+		state_building_barracks_max_level_add = 150
+		state_building_conscription_center_max_level_add = 150
+		country_officers_pol_str_mult = 0.25
 		country_institution_cost_institution_military_mult = 0.35
 		country_institution_military_max_investment_add = 1
 	}
@@ -306,7 +310,7 @@ law_mass_conscription = {
 	institution = institution_military
 	institution_modifier = {
 		state_conscription_rate_add = 0.01
-		building_training_rate_mult = 0.25
+		building_training_rate_mult = 0.3
 		unit_morale_loss_mult = 0.02
 	}
 
@@ -327,13 +331,13 @@ law_mass_conscription = {
 	on_enact = {
 		if = {
 			limit = {
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
 			}
 			custom_tooltip = aristocrats_af_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_professional_army
+				has_law_or_variant = law_type:law_professional_army
 			}
 			custom_tooltip = military_pops_af_ig_shift_effect_negative_tt
 			custom_tooltip = non_military_pops_af_ig_shift_effect_negative_tt
@@ -354,7 +358,7 @@ law_mass_conscription = {
 					has_journal_entry = je_sick_man_army
 					has_journal_entry = je_great_reforms_military
 				}
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
 			}
 			add = 1000
 		}			
@@ -362,7 +366,7 @@ law_mass_conscription = {
 		# AI should really try to get out of Peasant Levies under the right circumstances
 		if = {
 			limit = {
-				has_law = law_type:law_peasant_levies
+				has_law_or_variant = law_type:law_peasant_levies
 				NOT = { has_strategy = ai_strategy_reactionary_agenda }
 				OR = {
 					NOT = { has_strategy = ai_strategy_conservative_agenda }
