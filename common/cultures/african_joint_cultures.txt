@@ -2,7 +2,8 @@
 	color= rgb{ 56 153 122 }
 	religion = oriental_orthodox
 	heritage = african_heritage
-	traditions = { ethiopian east_african_culture_group }
+	language = language_amharic
+	traditions = { }
 	male_common_first_names = {
 		Abadula
 		Abdus
@@ -50,8 +51,9 @@
 West_Afro = {
 	color= hsv{ 0.12 0.56 0.73 }
 	religion = sunni
-	heritage = african_heritage
-	traditions = { west_african_culture_group }
+	heritage = heritage_sahelian
+	language = language_mande
+	traditions = { }
 	male_common_first_names = {
 		Alhassani
 		Amara
@@ -106,7 +108,9 @@ West_Afro = {
 East_Afro = {
 	color= hsv{ 0.88 0.35 0.64 }
 	religion = animist
-	heritage = { east_african_culture_group }
+	heritage = heritage_sahelian
+	language = language_mande
+	traditions = { }
 	male_common_first_names = {
 		Adongo
 		Kimoi
@@ -141,8 +145,9 @@ East_Afro = {
 Center_Afro = { # Gabon + Cameroon + CAR
 	color= rgb{ 227 194 96 }
 	religion = animist
-	heritage = { african_heritage }
-	traditions = { central_african_culture_group bantu }
+	heritage = heritage_sahelian
+	language = language_mande
+	traditions = { }
 	male_common_first_names = {
 		Bakar
 		Essomba
@@ -192,8 +197,9 @@ Center_Afro = { # Gabon + Cameroon + CAR
 South_Afro = {
 	color= hsv{ 0.72 0.43 0.63 }
 	religion = animist
-	heritage = { african_heritage }
-	traditions = { southern_african_culture_group bantu }
+	heritage = heritage_sahelian
+	language = language_mande
+	traditions = { }
 	male_common_first_names = {
 		Cetshwayo
 		Dabulamanzi

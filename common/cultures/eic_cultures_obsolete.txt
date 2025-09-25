@@ -1,7 +1,9 @@
 ﻿patwarahi= { # patois (patwa) + rarhi
 	color= rgb{ 171 36 207 }
 	religion = protestant
-	traits = { european_heritage indo_aryan_language charter_english charter_portuguese charter_french charter_dutch }
+	heritage = heritage_sahelian #stub
+	language = language_mande #stub
+	traditions = { }
 	obsessions = { tea }
 	male_common_first_names = {
 		Algernon Aylmer Ambrose Ahmad Avard 
