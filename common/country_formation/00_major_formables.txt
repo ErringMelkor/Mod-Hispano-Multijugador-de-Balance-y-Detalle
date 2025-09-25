@@ -196,6 +196,41 @@ PLT = {
 		}
 	}
 }	
+RAX = {
+	states = { 
+		STATE_TONKIN
+		STATE_ANNAM
+		STATE_MEKONG
+		STATE_CAMBODIA
+		STATE_NAKHON_RATCHASIMA
+		STATE_CHIANG_MAI
+		STATE_LAOS
+		STATE_BANGKOK
+		STATE_TENASSERIM
+		STATE_MALAYA
+		STATE_SHAN_STATES
+		STATE_PEGU
+		STATE_KACHIN
+		STATE_BURMA
+	}
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:vietnamese
+			
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:vietnamese
+				
+			}	
+			has_technology_researched = nationalism	
+		}
+	}
+}	
 
 YUA = {
 	use_culture_states = yes
