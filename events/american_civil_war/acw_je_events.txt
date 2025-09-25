@@ -109,7 +109,6 @@ acw_je_events.1 = {
 				}
 			}
 		}
-
 		set_global_variable = {
 			name = american_civil_war
 			value = yes
@@ -124,6 +123,18 @@ acw_je_events.1 = {
 			remove_modifier = missouri_compromise
 			c:CSA = {
 				set_variable = acw_slave_nation_var
+			}
+
+			# historical Confederates move to CSA
+			every_scope_character = {
+				limit = {
+					has_variable = historical_csa
+					NOR = {
+						is_ruler = yes
+						is_heir = yes
+					}
+				}
+				transfer_character = c:CSA
 			}
 		}
 		else_if = {
@@ -146,7 +157,7 @@ acw_je_events.1 = {
 			c:CSA = {
 				add_modifier = {
 					name = csa_static_modifier
-					years = 3
+					years = 2
 					is_decaying = yes
 				}
 			}
@@ -259,7 +270,7 @@ acw_je_events.2 = {
 		add_journal_entry = { type = je_acw_reincorporate }
 		if = {
 			limit = {
-				has_law = law_type:law_slavery_banned
+				has_law_or_variant = law_type:law_slavery_banned
 			}
 			add_journal_entry = {
 				type = je_acw_equality

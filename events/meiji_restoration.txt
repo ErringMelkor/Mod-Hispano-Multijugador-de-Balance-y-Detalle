@@ -197,7 +197,7 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
-				NOT = { has_law = law_type:law_serfdom }
+				NOT = { has_law_or_variant = law_type:law_serfdom }
 				ig:ig_armed_forces = {
 					is_powerful = no
 					is_in_government = no
@@ -231,7 +231,7 @@ meiji.1 = {
 			limit = {
 				NOT = { has_variable = completed_je_meiji_diplomacy }
 				NOT = { is_country_type = unrecognized }
-				NOT = { has_law = law_type:law_isolationism }
+				NOT = { has_law_or_variant = law_type:law_isolationism }
 			}
 			change_variable = {
 				name = meiji_var
@@ -316,7 +316,7 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
-				NOT = { has_law = law_type:law_serfdom }
+				NOT = { has_law_or_variant = law_type:law_serfdom }
 				ig:ig_armed_forces = {
 					is_powerful = no
 					is_in_government = no
@@ -350,7 +350,7 @@ meiji.1 = {
 			limit = {
 				NOT = { has_variable = completed_je_meiji_diplomacy }
 				NOT = { is_country_type = unrecognized }
-				NOT = { has_law = law_type:law_isolationism }
+				NOT = { has_law_or_variant = law_type:law_isolationism }
 			}
 			change_variable = {
 				name = meiji_var
@@ -575,7 +575,7 @@ meiji.4 = {
 		NOT = {	has_modifier = western_military_consultant }
 		OR = {
 			AND = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
@@ -586,7 +586,7 @@ meiji.4 = {
 			AND = {
 				has_journal_entry = je_meiji_diplomacy
 				OR = {
-					NOT = { has_law = law_type:law_isolationism }
+					NOT = { has_law_or_variant = law_type:law_isolationism }
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
 					is_enacting_law = law_type:law_free_trade
@@ -644,7 +644,7 @@ meiji.4 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -664,7 +664,7 @@ meiji.4 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -701,7 +701,7 @@ meiji.5 = {
 		NOT = { has_modifier = japan_society_tech_modifier }
 		OR = {
 			AND = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
@@ -712,7 +712,7 @@ meiji.5 = {
 			AND = {
 				has_journal_entry = je_meiji_diplomacy
 				OR = {
-					NOT = { has_law = law_type:law_isolationism }
+					NOT = { has_law_or_variant = law_type:law_isolationism }
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
 					is_enacting_law = law_type:law_free_trade
@@ -761,7 +761,7 @@ meiji.5 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -785,7 +785,7 @@ meiji.5 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -805,7 +805,7 @@ meiji.5 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -840,7 +840,7 @@ meiji.6 = {
 		NOT = { has_modifier = japan_production_tech_modifier }
 		OR = {
 			AND = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
@@ -851,7 +851,7 @@ meiji.6 = {
 			AND = {
 				has_journal_entry = je_meiji_diplomacy
 				OR = {
-					NOT = { has_law = law_type:law_isolationism }
+					NOT = { has_law_or_variant = law_type:law_isolationism }
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_agrarianism
 					is_enacting_law = law_type:law_free_trade
@@ -904,7 +904,7 @@ meiji.6 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -924,7 +924,7 @@ meiji.6 = {
 		}
 		if = {
 			limit = {
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				OR = {
 					is_enacting_law = law_type:law_mercantilism
 					is_enacting_law = law_type:law_protectionism
@@ -1324,7 +1324,7 @@ meiji.11 = {
 
 	trigger = {
 		NOT = { has_variable = japan_port_incident }
-		has_law = law_type:law_isolationism
+		has_law_or_variant = law_type:law_isolationism
 		any_scope_state = {
 			has_port = yes
 		}

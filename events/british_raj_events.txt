@@ -61,7 +61,7 @@ raj.1 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_appointed_bureaucrats
+						has_law_or_variant = law_type:law_appointed_bureaucrats
 					}
 				}
 				activate_law = law_type:law_appointed_bureaucrats
@@ -69,7 +69,7 @@ raj.1 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_autocracy
+						has_law_or_variant = law_type:law_autocracy
 					}
 				}
 				activate_law = law_type:law_autocracy
@@ -77,8 +77,8 @@ raj.1 = {
 			if = {
 				limit = {
 					NOR = {
-						has_law = law_type:law_hindu_caste_enforced
-						has_law = law_type:law_hindu_caste_codified
+						has_law_or_variant = law_type:law_hindu_caste_enforced
+						has_law_or_variant = law_type:law_hindu_caste_codified
 					}
 				}
 				activate_law = law_type:law_hindu_caste_codified
@@ -670,7 +670,7 @@ raj.7 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_appointed_bureaucrats
+						has_law_or_variant = law_type:law_appointed_bureaucrats
 					}
 				}
 				activate_law = law_type:law_appointed_bureaucrats
@@ -678,7 +678,7 @@ raj.7 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_autocracy
+						has_law_or_variant = law_type:law_autocracy
 					}
 				}
 				activate_law = law_type:law_autocracy
@@ -687,10 +687,10 @@ raj.7 = {
 				limit = {
 					OR = {
 						NOT = {
-							has_law = law_type:law_hindu_caste_enforced
+							has_law_or_variant = law_type:law_hindu_caste_enforced
 						}
 						NOT = {
-							has_law = law_type:law_hindu_caste_codified
+							has_law_or_variant = law_type:law_hindu_caste_codified
 						}
 					}
 				}
