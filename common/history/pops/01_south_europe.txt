@@ -774,12 +774,23 @@
 				size = 809604
 			}
 		}
+		region_state:TUR = {
+			create_pop = {
+				culture = South_Slavic
+				religion = sunni
+				size = 22396
+			}
+			create_pop = {
+				culture = South_Slavic
+				size = 81800
+			}
+		}
 	}
 	s:STATE_EASTERN_SERBIA = {
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 124400
+				size = 84400
 			}
 			create_pop = {
 				culture = South_Slavic
@@ -788,7 +799,7 @@
 			}
 			create_pop = {
 				culture = South_Slavic
-				size = 581800
+				size = 481800
 			}
 		}
 		region_state:SER = {
