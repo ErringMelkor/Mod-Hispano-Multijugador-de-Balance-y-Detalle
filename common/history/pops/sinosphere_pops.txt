@@ -387,6 +387,23 @@
 				size = 60204
 			}
 		}
+		region_state:KLO = {
+			create_pop = {
+				culture = khmer
+				religion = animist
+				size = 33000
+			}
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 7000
+			}
+			create_pop = {
+				culture = champa
+				religion = animist
+				size = 5000
+			}
+		}
 	}
 	s:STATE_BANGKOK = {
 		region_state:SIA = {
@@ -523,6 +540,18 @@
 				size = 210000
 			}
 		}
+		region_state:DGR = {
+			create_pop = {
+				culture = champa
+				religion = animist
+				size = 50000
+			}
+			create_pop = {
+				culture = khmer
+				religion = animist
+				size = 5000
+			}
+		}
 	}
 	s:STATE_LAOS = {
 		region_state:LUA = {
@@ -585,6 +614,31 @@
 				pop_type = slaves
 				culture = lao
 				size = 5000
+			}
+		}
+		region_state:DAI = {
+			create_pop = {
+				culture = lao
+				size = 64918
+			}
+			create_pop = {
+				culture = khmu
+				size = 6900
+			}
+			create_pop = {
+				culture = thai
+				size = 18334
+			}
+			create_pop = {
+				culture = miao
+				size = 2400
+			}
+		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 11000
 			}
 		}
 	}
