@@ -665,18 +665,6 @@
   Error: add_principle effect [ Invalid database object 'principle_defensive_cooperation_3' ]
   Script location: common/history/power_blocs/00_power_blocs.txt:177
 
-[19:38:34][jomini_script_system.cpp:247]: Script system error!
-  Error: create_state effect [ Province 'x673438' crossing multiple state regions ]
-  Script location: common/history/states/00_states.txt:3805
-
-[19:38:34][jomini_script_system.cpp:247]: Script system error!
-  Error: create_state effect [ Province 'x21A090' crossing multiple state regions ]
-  Script location: common/history/states/00_states.txt:4444
-
-[19:38:34][jomini_script_system.cpp:247]: Script system error!
-  Error: create_state effect [ Province 'x614121' crossing multiple state regions ]
-  Script location: common/history/states/00_states.txt:7186
-
 
   [19:38:44][jomini_script_system.cpp:247]: Script system error!
   Error: Event target link 'region_state' returned an invalid object

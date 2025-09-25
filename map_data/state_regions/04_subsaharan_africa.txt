@@ -525,12 +525,6 @@ STATE_KENYA = {
     mine = "x89BA83"
     wood = "xF59538"
     prime_land = { x35554F x941594 x22D39E x5C1ADA x6CCF4B x6B52F1 xA02190 x21A090 x9E9F57 xC53497 xC52E48 xE23000 } # coast
-
-
-
-
-
-
     arable_land = 80
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
