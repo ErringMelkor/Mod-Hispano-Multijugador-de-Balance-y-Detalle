@@ -490,10 +490,6 @@ company_alhstrom = {
 		building_glassworks
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_paper
-	}
-
 	prestige_goods_trigger = {
 		custom_tooltip = {
 			text = je_prestige_goods_paper_complete_tt
@@ -515,7 +511,7 @@ company_alhstrom = {
 	prosperity_modifier = {
 		building_group_bg_logging_throughput_add = 0.1
 		building_paper_mills_throughput_add = 0.1
-		building_construction_sector_throughput_add = 0.075
+		building_construction_sector_throughput_add = 0.05
 	}
 
 	ai_will_do = {
@@ -527,68 +523,4 @@ company_alhstrom = {
 			}
 		}
 	}
-}
-company_healthcare_focus = {
-	icon = "gfx/interface/icons/company_icons/lafageda.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
-    
-	flavored_company = yes
-
-	preferred_headquarters = { STATE_CATALONIA }
-	
-	building_types = {
-		building_livestock_ranch
-		building_food_industry
-	}
-
-	extension_building_types = {
-	}
-
-    potential = {
-		has_interest_marker_in_region = region_iberia
-	}
-
-	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_CATALONIA
-			}
-		}
-	}
-	possible = {
-		any_scope_state = {
-		state_region = s:STATE_CATALONIA
-			any_scope_building = {
-				OR = {
-					
-					is_building_type = building_food_industry
-				}
-				level >= 5
-			}
-		}
-	}
-
-	possible_prestige_goods = {
-		prestige_good_yogur_la_fageda
-	}
-
-	
-
-	prosperity_modifier = {
-		country_society_tech_spread_mult = 0.25
-
-        political_movement_radicalism_add = 0.05
-	}
-
-	ai_will_do = {
-		any_scope_state = {
-			any_scope_building = {
-				OR = {
-					is_building_type = building_livestock_ranch
-					is_building_type = building_food_industry
-				}
-				level >= 5
-			}
-		}
-	}	
 }
