@@ -435,7 +435,7 @@ raj.5 = {
 			}
 			any_scope_pop = {
 				is_pop_type = clergymen
-				religion = { has_discrimination_trait = christian }
+				religion = { has_discrimination_trait = heritage_christian }
 			}
 		}
 	}
@@ -456,7 +456,7 @@ raj.5 = {
 				}
 				any_scope_pop = {
 					is_pop_type = clergymen
-					religion = { has_discrimination_trait = christian }
+					religion = { has_discrimination_trait = heritage_christian }
 				}
 			}
 			save_scope_as = missionaries_suspicion_state
@@ -473,7 +473,7 @@ raj.5 = {
 			random_scope_pop = {
 				limit = {
 					is_pop_type = clergymen
-					religion = { has_discrimination_trait = christian }
+					religion = { has_discrimination_trait = heritage_christian }
 				}
 				religion = { save_scope_as = suspected_missionaries }
 				save_scope_as = suspected_missionaries_pop
