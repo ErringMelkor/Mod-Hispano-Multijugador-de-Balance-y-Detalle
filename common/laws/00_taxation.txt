@@ -27,10 +27,12 @@ law_usa_consumption = {
 
 	tax_modifier_very_low = {
 		tax_consumption_add = 0.15
+		state_capitalists_investment_pool_efficiency_mult = 0.25
 	}
 
 	tax_modifier_low = {
 		tax_consumption_add = 0.20
+		state_capitalists_investment_pool_efficiency_mult = 0.15
 	}
 
 	tax_modifier_medium = {
