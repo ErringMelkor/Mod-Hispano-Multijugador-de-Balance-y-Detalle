@@ -9,7 +9,7 @@ tur_koca_mustafa_reshid_pasha = { # Damad (or Damat) Mehmed Asi Pasha, grand viz
     culture = cu:turkish
     female = no
     dna = dna_damat_mehmed_ali_pasha
-    religion = sunni
+    religion = rel:sunni
     ideology = ideology_ottomanism
     interest_group = ig_intelligentsia
     birth_date = 1813.1.1
@@ -51,7 +51,7 @@ tur_mahmut_osmanoglu_template = {
     traits = {
         ambitious
 		direct
-		cancer
+		tuberculosis
         meticulous
     }
 }
@@ -101,6 +101,73 @@ tur_abdulhamid_ii_template = {
     }   
 }
 
+# Generated agitators
+
+# Butrus al-Bustani, Lebanese intellectual of the Nahda
+tur_butrus_al_bustani = {
+	first_name = "Butrus"
+	last_name = "al-Bustani"
+	historical = yes
+	birth_date = 1819.1.11 # Born on an unknown day in January of 1819
+	culture = cu:mashriqi
+	religion = rel:protestant # Born into a Maronite family, but converted to Protestantism around 1840. Mix of Congregationalist and Presbyterian, look up the National Evangelical Church of Beirut for more on the theology if you're interested.
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	traits = {
+		romantic
+		innovative
+		aesthete
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_LEBANON
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1861.1.1 # His most major contributions to the Nahda began after the Lebanese civil war of 1860/61.
+		latest_usage_date = 1883.5.1 # died May 1st, 1883
+		chance = 50
+	}
+}
+
+# Warda al-Yaziji, Lebanese feminist and poet
+tur_warda_al-yaziji = {
+	first_name = "Warda"
+	last_name = "al-Yaziji"
+	historical = yes
+	female = yes
+	birth_date = 1838.6.7 # Born in 1838, exact date unknown. Died 1924, exact date unknown.
+	culture = cu:mashriqi
+	religion = rel:catholic # Melkite Greek Catholic
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	traits = {
+		persistent
+		aesthete
+		erudite
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_LEBANON
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_petty_bourgeoisie
+			}
+		}
+		earliest_usage_date = 1867.1.1 # Al-Yaziji's first collection of poems was published in 1867
+		latest_usage_date = 1899.1.1 # still active in the early 20th century, but it's best if she's spawned before she's deep into her 60s
+		chance = 50
+	}
+}
+
 ### commanders
 tur_general_pasha = {
 	first_name = Mehmed_Naik
@@ -108,7 +175,7 @@ tur_general_pasha = {
 	historical = yes
 	culture = cu:turkish
 	female = no
-	religion = sunni
+	religion = rel:sunni
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1804.2.4 # Only birth year certain
@@ -133,7 +200,7 @@ tur_admiral_hobart = { # Augustus Charles Hobart-Hampden
 	historical = yes
 	culture = cu:british
 	female = no
-	religion = protestant
+	religion = rel:protestant
 	ideology = ideology_moderate
 	commander_rank = default
 	interest_group = ig_armed_forces
@@ -159,7 +226,7 @@ tur_general_mehmed_ali = { # Ludwig Karl Friedrich Detroit
 	historical = yes
 	culture = cu:north_german
 	female = no
-	religion = sunni
+	religion = rel:sunni
 	ideology = ideology_traditionalist
 	commander_rank = default
 	interest_group = ig_armed_forces
@@ -185,7 +252,7 @@ tur_general_osman_nuri = {
 	historical = yes
 	culture = cu:turkish
 	female = no
-	religion = sunni
+	religion = rel:sunni
 	ideology = ideology_moderate
 	commander_rank = default
 	interest_group = ig_armed_forces

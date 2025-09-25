@@ -36,7 +36,7 @@
 			first_name = Omer_Lutfi
 			last_name = Pasha
 			historical = yes
-			culture = cu:serb
+			culture = cu:South_Slavic
 			religion = rel:sunni
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist

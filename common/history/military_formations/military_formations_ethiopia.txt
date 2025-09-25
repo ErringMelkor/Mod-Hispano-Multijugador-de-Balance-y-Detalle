@@ -29,7 +29,7 @@
 			first_name = Haile
 			last_name = Giorgis
 			historical = yes
-			culture = cu:oromo
+			culture = cu:Etiope
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1801.1.22
