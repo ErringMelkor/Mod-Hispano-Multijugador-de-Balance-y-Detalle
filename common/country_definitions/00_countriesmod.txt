@@ -58,16 +58,6 @@ SHW = {
 	cultures = { amhara oromo Etiope }
 	capital = STATE_OROMIA
 }
-RAX = {
-	color = { 42 183 181 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { vietnamese }
-	capital = STATE_TONKIN
-}
 
 DLH = {
 	color = { 33 96 48 }
