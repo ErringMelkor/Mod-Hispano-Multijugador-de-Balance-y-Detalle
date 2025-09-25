@@ -155,6 +155,8 @@ STATE_WEST_GALICIA = {
     mine = "x5F3456"
     wood = "x5F3456" # TODO FIX
 
+
+
     arable_land = 145
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
