@@ -259,8 +259,6 @@ combat_unit_type_squad_infantry = {
     group = combat_unit_group_infantry
 	max_manpower = 1000
 
-    conscript_peasant_levies = yes
-
     upkeep_modifier = {
         goods_input_small_arms_add = 1.5
         goods_input_ammunition_add = 2
