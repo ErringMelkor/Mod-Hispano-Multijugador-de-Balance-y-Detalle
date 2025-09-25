@@ -115,7 +115,7 @@ STATE_GUIZHOU = {
 }
 
 STATE_SHAOZHOU = {
-	#En el juego se llama Eastern Guandong
+    #En el juego se llama Eastern Guandong
     id = 483
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x07C8D6" "x12DF0F" "x12F28E" "x242A48" "x31B061" "x40D43A" "x4CF229" "x845B19" "x8D6A1E" "x9C3F91" "xA0C90D" "xA613C9" "xAADB15" "xACD8B5" "xB03161" "xCD4039" "xD2A4C7" "xDFB220" "xE6F815" "xEA597E" "xEAB2D0" "xF070E0" "xF7C5ED" }
@@ -230,7 +230,7 @@ STATE_SHENGJING = {
     id = 680
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x04FCF3" "x167EE8" "x169772" "x20E6F2" "x311D9E" "x474AF5" "x5C7F26" "x5DC943" "x61D001" "x6707A1" "x68FAEC" "x709001" "x7E008D" "x7F79DA" "x8D1556" "x955331" "x964A4F" "xA202E9" "xB75C7A" "xC7B981" "xCD72A9" "xCEB565" "xCF4570" "xD0B789" "xD7F9BA" "xE01101" "xE05101" "xE7363A" "xE9E896" "xE9FEDB" "xEFCA02" "xF6155A" }
-    traits = { "state_trait_dalian_bay" "state_trait_north_china_plain" "state_trait_Bohai_Sea"  }
+    traits = { "state_trait_dalian_bay" "state_trait_north_china_plain" "state_trait_Bohai_Sea" }
     city = "xA202E9"
     port = "x709001"
     farm = "x474AF5"
@@ -1150,7 +1150,7 @@ STATE_KYUSHU = {
     capped_resources = {
         bg_coal_mining = 72
         bg_lead_mining = 36
-		bg_iron_mining = 45
+        bg_iron_mining = 45
         bg_sulfur_mining = 40
         bg_fishing = 18
         bg_logging = 9
@@ -1311,7 +1311,7 @@ STATE_PYONGYANG = {
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x096D79" "x11044D" "x12BC01" "x47D537" "x5204B8" "x605101" "x640C37" "x701180" "x7BEA9E" "x808E39" "x880F26" "x913CAF" "xA2DB51" "xB8F465" "xC5EF9A" "xDD6252" "xEAF581" "xF01000" "xF01180" }
     traits = { "state_trait_Bohai_Sea" }
-	city = "xDD6252"
+    city = "xDD6252"
     port = "x11044D"
     farm = "xDD6252"
     mine = "x880F26"
