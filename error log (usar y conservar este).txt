@@ -100,15 +100,7 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 248" in file: "common/decisions/manifest_destiny.txt" near line: 248
 [18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 53" in file: "common/decisions/ottoman_decisions.txt" near line: 53
 [18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 122" in file: "common/decisions/ottoman_decisions.txt" near line: 122
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 17" in file: "gfx/map/spline_network/route_graphics/00_ep1_naval_vehicles.txt" near line: 21
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 26" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 31
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 60" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 67
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 82" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 86
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 98" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 102
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 17" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 25
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 37" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 45
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 57" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 65
-[18:12:57][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 77" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 85
+
 [18:12:57][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:68
 [18:12:57][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:69
 [18:12:57][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:70
@@ -712,12 +704,8 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [18:13:03][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_defense_mult is not a valid static or dynamic modifier type.
 [18:13:03][modifier_type_definition_database.cpp:43]: Modifier type definition state_radicals_from_sol_change_mult is not a valid static or dynamic modifier type.
 [18:13:03][modifier_type_definition_database.cpp:43]: Modifier type definition state_loyalists_from_sol_change_mult is not a valid static or dynamic modifier type.
-[18:13:03][travel_node_definition.cpp:237]: Anchor ID 7 is of type land, but in a non-land state region ?
-[18:13:03][travel_connection_definition.cpp:64]: Strip between locators 51503 and 8440509 has anchors of different type (naval/land)
-[18:13:03][travel_connection_definition.cpp:64]: Strip between locators 51900 and 8440509 has anchors of different type (naval/land)
-[18:13:03][travel_connection_definition.cpp:73]: Strip between locators 8440508 and 8693908 has unknown anchor 8440508
-[18:13:03][travel_connection_definition.cpp:64]: Strip between locators 51800 and 8694008 has anchors of different type (naval/land)
-[18:13:03][travel_connection_definition.cpp:128]: Port node 51803 in state Annam has no harbor node to connect to
+
+
 [18:13:03][eventtargetlinks.cpp:3906]: Failed to find country! Country: EIC, File Location: common/interest_groups/00_industrialists.txt:103
 [18:13:03][eventtargetlinks.cpp:3906]: Failed to find country! Country: EIC, File Location: common/interest_groups/00_landowners.txt:240
 [18:13:03][eventtargetlinks.cpp:3906]: Failed to find country! Country: EIC, File Location: common/interest_groups/00_petty_bourgeoisie.txt:123
@@ -910,11 +898,7 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [18:13:03][jomini_eventmanager.cpp:376]: Event galicia_formation.1 is orphaned
 [18:13:03][jomini_eventmanager.cpp:376]: Event austria_germany.1 is orphaned
 
-[18:13:06][route_graphics.cpp:896]: Unable to get valid state region from strip's lower anchor 7, LowerStateRegionID = 0
-[18:13:06][route_graphics.cpp:896]: Unable to get valid state region from strip's lower anchor 7, LowerStateRegionID = 0
-[18:13:06][route_graphics.cpp:814]: Strip between locators 51503 and 8440509 goes between anchors of different type (naval/land)
-[18:13:06][route_graphics.cpp:814]: Strip between locators 51900 and 8440509 goes between anchors of different type (naval/land)
-[18:13:06][route_graphics.cpp:814]: Strip between locators 51800 and 8694008 goes between anchors of different type (naval/land)
+
 [18:13:06][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
 
   Error: Failed to scope to country by tag 'WLT'
