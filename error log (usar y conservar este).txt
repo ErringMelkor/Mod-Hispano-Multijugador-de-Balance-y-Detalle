@@ -659,15 +659,7 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
   Script location: common/ai_strategies/00_default_strategy.txt:6636
 
 [18:13:00][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6636
-[18:13:03][state_region_template.cpp:299]: Failed to assign impassable province xf745c to state region! State region: STATE_EAST_SAHARA, Error: Expected a hex value, example: x000000. Failed to match the string length
-[18:13:03][state_region_template.cpp:299]: Failed to assign impassable province x7e5a68 to state region! State region: STATE_WEST_SAHARA, Error: Referencing non-existent province!
-[18:13:03][state_region_template.cpp:305]: Province x4B6139 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province x8271D9 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province x583802 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province x3F7038 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province x4905B4 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province x94395E is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
-[18:13:03][state_region_template.cpp:305]: Province xB0F0C0 is specified as impassable for but is not actually in state region STATE_WEST_SAHARA
+
 [18:13:03][state_region_template.cpp:299]: Failed to assign impassable province x to state region! State region: STATE_MAURITANIA, Error: Expected a hex value, example: x000000. Failed to match the string length
 [18:13:03][state_region_template.cpp:435]: Failed to assign hub origin to state region! State Region: STATE_LIMA, HubType: mine, Error: Expected a hex value, example: x000000. Failed to match the string length
 [18:13:03][state_region_template.cpp:1525]: State Region STATE_GOTLAND (4) is missing a mine hub
