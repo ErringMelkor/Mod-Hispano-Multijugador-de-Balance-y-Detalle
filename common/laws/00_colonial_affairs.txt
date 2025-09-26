@@ -11,6 +11,10 @@
 			text = disallow_law_no_colonial_affairs_tt
 		}
 	}
+
+	modifier = {
+		country_acceptance_homeland_add = 10
+	}
 	
 	ai_will_do = {
 		has_law_or_variant = law_type:law_council_republic
