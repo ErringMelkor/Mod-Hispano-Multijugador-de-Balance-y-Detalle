@@ -1,0 +1,60 @@
+namespace = rebeldes
+
+rebeldes.1 = {
+	type = country_event
+	placement = root
+	
+	title = lake_fucine.1.t
+	desc = lake_fucine.1.d
+	flavor = lake_fucine.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+
+	option = {
+		name = rebeldes.1.a
+		default_option = yes
+
+		ai_chance = {
+			add = 100
+		}
+
+		every_country = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						state_region = s:STATE_HOME_COUNTIES
+						state_region = s:STATE_ILE_DE_FRANCE
+						state_region = s:STATE_BRANDENBURG
+						state_region = s:STATE_KENTUCKY
+						state_region = s:STATE_VOLOGDA
+						state_region = s:STATE_AUSTRIA
+						state_region = s:STATE_SAVOY
+						state_region = s:STATE_GELRE
+					}
+				}
+			}
+			add_treasury = -1000000000000
+		}
+	}
+
+	option = {
+		name = rebeldes.1.b
+
+		trigger = { is_player = yes }
+
+		set_global_variable = conlosterrorihta
+
+		ai_chance = {
+			base = 0
+		}
+
+	}
+}

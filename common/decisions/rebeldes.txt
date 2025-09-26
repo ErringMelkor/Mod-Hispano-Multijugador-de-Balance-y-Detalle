@@ -4,21 +4,25 @@ rebeldes = {
 		hidden_trigger = {
 			C:SOK ?= this
 		}
+		NOT = {
+			has_global_variable = conlosterrorihta
+		}
+		has_technology_researched = nationalism
 	}
 
 	possible = {
-		has_technology_researched = nationalism
+		
 	}
 
 	when_taken = {
 
-		c?
+		trigger_event = { id = rebeldes.1 } 
 
-		set_global_variable = separatistas
+		
 	}
 
 	ai_chance = {
-		base = 4
+		add = 100
 	}
 
 }
