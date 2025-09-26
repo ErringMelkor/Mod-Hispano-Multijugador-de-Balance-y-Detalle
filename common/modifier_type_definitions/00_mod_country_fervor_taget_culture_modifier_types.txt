@@ -1,0 +1,87 @@
+country_fervor_target_Etiope_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_West_Afro_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_East_Afro_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_Center_Afro_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_South_Afro_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_Native_Noramerican_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_Native_Mesoamerican_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_patwarahi_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_Baltic_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_Finno-Ugric_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_fervor_target_South_Slavic_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}

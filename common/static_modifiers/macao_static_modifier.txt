@@ -1,4 +1,4 @@
-modifier_macao = {
+﻿modifier_macao = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	state_trade_advantage_mult = 1
 }

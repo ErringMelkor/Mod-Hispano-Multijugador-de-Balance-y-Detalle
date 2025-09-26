@@ -1,4 +1,4 @@
-historical_agitators.14 = { #Dickens
+﻿historical_agitators.14 = { #Dickens
 	type = country_event
 	placement = root
 

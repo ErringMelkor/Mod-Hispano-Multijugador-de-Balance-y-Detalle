@@ -1,4 +1,4 @@
-GLOBAL = {
+﻿GLOBAL = {
 	s:STATE_GUANGDONG={
 		region_state:POR = {
 			add_modifier = {

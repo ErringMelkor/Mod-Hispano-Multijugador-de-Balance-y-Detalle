@@ -1,4 +1,4 @@
-# Krakatoa values
+﻿# Krakatoa values
 krakatoa_large_devastation = 10
 krakatoa_medium_devastation = 5
 krakatoa_decree_emergency_relief_devastation_recovery_chance = 20

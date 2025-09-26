@@ -1,0 +1,87 @@
+country_Etiope_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_West_Afro_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_East_Afro_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_Center_Afro_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_South_Afro_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_Native_Noramerican_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_Native_Mesoamerican_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_patwarahi_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_Baltic_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_Finno-Ugric_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+country_South_Slavic_cultural_acceptance_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}

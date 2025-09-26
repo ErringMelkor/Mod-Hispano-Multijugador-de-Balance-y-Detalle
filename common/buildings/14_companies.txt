@@ -1,4 +1,4 @@
-
+﻿
 building_company_headquarter = {
 	building_group = bg_company_headquarter
 	city_type = city

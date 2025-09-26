@@ -1,4 +1,4 @@
-TREATIES = {
+﻿TREATIES = {
 
 	#Renovación de Goa
 	create_treaty = {
