@@ -312,30 +312,6 @@
 			}
 		}
 	}
-	c:PTA ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_punjab
-			name = PatialaArmy
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 3
-			}
-		}
 	}
 	c:MYS ?= {
 		create_military_formation = {
@@ -941,19 +917,6 @@
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_RAJPUTANA
 				count = 2
-			}
-		}
-	}
-	c:BIH ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_bengal
-			name = BiharArmy
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:BIHAR
-				count = 15
 			}
 		}
 	}

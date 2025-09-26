@@ -2184,22 +2184,6 @@ Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence
   Script location: common/history/military_formations/04_military_formations_middle_east.txt:461
 
 [04:40:47][jomini_script_system.cpp:247]: Script system error!
-  Error: create_military_formation effect [ Patiala does not have state in  ]
-  Script location: common/history/military_formations/05_military_formations_india.txt:316
-
-[04:40:47][jomini_script_system.cpp:247]: Script system error!
-  Error: create_military_formation effect [ Patiala does not have state in  ]
-  Script location: common/history/military_formations/05_military_formations_india.txt:316
-
-[04:40:47][jomini_script_system.cpp:247]: Script system error!
-  Error: create_military_formation effect [ Patiala does not have state in  ]
-  Script location: common/history/military_formations/05_military_formations_india.txt:316
-
-[04:40:47][jomini_script_system.cpp:247]: Script system error!
-  Error: create_military_formation effect [ Bihar does not have state in  ]
-  Script location: common/history/military_formations/05_military_formations_india.txt:948
-
-[04:40:47][jomini_script_system.cpp:247]: Script system error!
   Error: create_character effect [ Failed to create character ]
   Script location: common/history/military_formations/05_military_formations_india.txt:1476
 
