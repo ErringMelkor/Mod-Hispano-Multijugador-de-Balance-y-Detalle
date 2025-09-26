@@ -312,7 +312,6 @@
 			}
 		}
 	}
-	}
 	c:MYS ?= {
 		create_military_formation = {
 			type = army
