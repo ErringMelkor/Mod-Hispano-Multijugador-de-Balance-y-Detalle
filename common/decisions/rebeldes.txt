@@ -1,0 +1,24 @@
+
+rebeldes = {
+	is_shown = {
+		hidden_trigger = {
+			C:SOK ?= this
+		}
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	when_taken = {
+
+		c?
+
+		set_global_variable = separatistas
+	}
+
+	ai_chance = {
+		base = 4
+	}
+
+}
