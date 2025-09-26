@@ -616,30 +616,6 @@
 				size = 5000
 			}
 		}
-		region_state:DAI = {
-			create_pop = {
-				culture = lao
-				size = 64918
-			}
-			create_pop = {
-				culture = khmu
-				size = 6900
-			}
-			create_pop = {
-				culture = thai
-				size = 18334
-			}
-			create_pop = {
-				culture = miao
-				size = 2400
-			}
-		}
-		region_state:SCT = {
-			create_pop = {
-				culture = lao
-				religion = animist
-				size = 11000
-			}
 		}
 	}
 	s:STATE_CHIANG_MAI = {

@@ -69,7 +69,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 1
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -82,7 +82,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 1
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -95,7 +95,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -211,7 +211,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 					building = {
 						type = "building_manor_house"
@@ -230,7 +230,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 					building = {
 						type = "building_manor_house"

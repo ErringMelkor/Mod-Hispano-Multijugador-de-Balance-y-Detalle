@@ -126,40 +126,6 @@ POPS = {
 		}
 	}
 	s:STATE_ASSAM = {
-		region_state:BIC = {
-			create_pop = {
-				culture = assamese
-				size = 341202
-			}
-			create_pop = {
-				culture = manipuri
-				size = 10002
-			}
-			create_pop = {
-				culture = assamese
-				pop_type = slaves
-				size = 51020
-			}
-			create_pop = {
-				culture = bengali
-				size = 80102
-			}
-			create_pop = {
-				culture = bengali
-				religion = hindu
-				size = 70120
-			}
-			create_pop = {
-				culture = british # including Irish
-				size = 420
-				pop_type = bureaucrats
-			}
-			create_pop = {
-				culture = scottish
-				size = 140
-				pop_type = bureaucrats
-			}
-		}
 		region_state:KKI = {
 			create_pop = {
 				culture = lushai
