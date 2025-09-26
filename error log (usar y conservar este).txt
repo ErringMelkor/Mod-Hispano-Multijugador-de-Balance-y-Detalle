@@ -882,10 +882,7 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [18:13:03][jomini_effect.cpp:1138]: Variable 'consolidated_colonial_rule' is used but is never set. Setting it in an unused scripted trigger or effect does not count
 [18:13:03][jomini_effect.cpp:1138]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
 [18:13:03][jomini_effect.cpp:1138]: Event target 'dixie_acw_scope' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-[18:13:03][jomini_eventmanager.cpp:376]: Event historical_agitators.14 is orphaned
-[18:13:03][jomini_eventmanager.cpp:376]: Event east_indies.1 is orphaned
-[18:13:03][jomini_eventmanager.cpp:376]: Event east_indies.2 is orphaned
-[18:13:03][jomini_eventmanager.cpp:376]: Event east_indies.3 is orphaned
+
 [18:13:03][jomini_eventmanager.cpp:376]: Event german_unification.2 is orphaned
 [18:13:03][jomini_eventmanager.cpp:376]: Event galicia_formation.1 is orphaned
 [18:13:03][jomini_eventmanager.cpp:376]: Event austria_germany.1 is orphaned

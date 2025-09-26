@@ -1,4 +1,6 @@
-﻿historical_agitators.14 = { #Dickens
+﻿namespace = historical_agitators
+
+historical_agitators.14 = { #Dickens
 	type = country_event
 	placement = root
 
