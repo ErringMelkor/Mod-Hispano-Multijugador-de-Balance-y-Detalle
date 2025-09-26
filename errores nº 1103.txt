@@ -410,15 +410,7 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 248" in file: "common/decisions/manifest_destiny.txt" near line: 248
 [10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 53" in file: "common/decisions/ottoman_decisions.txt" near line: 53
 [10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 122" in file: "common/decisions/ottoman_decisions.txt" near line: 122
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 17" in file: "gfx/map/spline_network/route_graphics/00_ep1_naval_vehicles.txt" near line: 21
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 26" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 31
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 60" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 67
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 82" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 86
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 98" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 102
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 17" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 25
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 37" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 45
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 57" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 65
-[10:40:22][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 77" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 85
+
 [10:40:22][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:68
 [10:40:22][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:69
 [10:40:22][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:70
