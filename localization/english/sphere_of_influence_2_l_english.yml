@@ -392,6 +392,7 @@ company_anglo_persian_oil_tt: "We do not have the #bold National Iranian Oil Com
 
  Koninklijk_Nederlands_Leger: "Koninklijk Nederlands Leger"
  Armee_Belge: "Armée Belge"
+ 
 
  je_conference_of_london: "London Conference"
  je_conference_of_london_reason: "The great powers have sent their delegations to London to decide on a solution to the unsolved border issues between Netherlands and Belgium. \n\n#variable [GetGlobalVariable( 'je_conference_of_london_participants_var' ).GetValue]#! [Concept('concept_great_power', '$concept_great_powers$')] are participating in the Conference.\n#bold #tooltippable #tooltip:favour_belgium_button_desc $favour_belgium_button$#!#!#! has received #variable [GetGlobalVariable( 'je_conference_of_london_proposal_1' ).GetValue]#! votes\n#bold #tooltippable #tooltip:favour_netherlands_button_desc $favour_netherlands_button$#!#!#! has received #variable [GetGlobalVariable( 'je_conference_of_london_proposal_2' ).GetValue]#! votes\n#bold #tooltippable #tooltip:partition_compromise_button_desc $partition_compromise_button$#!#!#! has received #variable [GetGlobalVariable( 'je_conference_of_london_proposal_3' ).GetValue]#! votes\n#bold #tooltippable #tooltip:luxembourg_compromise_button_desc $luxembourg_compromise_button$#!#!#! has received #variable [GetGlobalVariable( 'je_conference_of_london_proposal_4' ).GetValue]#! votes\n\nThe conference will conclude in #variable [GetGlobalVariable('je_conference_of_london_timer').GetValue]#! months. The proposal with the #tooltippable #tooltip:london_treaty_voting_rules most votes#!#! will then be selected as the conference's offical solution.\n\n#Bold Result#!\nThe Conference has [ROOT.GetCountry.GetCustom('treaty_of_london_coutcome')]"
@@ -426,6 +427,11 @@ company_anglo_persian_oil_tt: "We do not have the #bold National Iranian Oil Com
  treaty_of_london_events.1.a: "Agreed. Call for a conference to settle the matter at last."
  treaty_of_london_events.1.b: "We do not negotiate with rebels."
  treaty_of_london_explanation_tt: "Participating [Concept('concept_great_power', '$concept_great_powers$')] will vote on a solution to be ratified by $BEL$ and $NET$."
+
+rebeldes: "rebeldes"
+rebeldes.1: "rebeldes"
+rebeldes.1.a: "rebeldes"
+rebeldes.1.b: "rebeldes"
 
  treaty_of_london_events.2.t: "The Hague Call for a Conference"
  treaty_of_london_events.2.d: "Weary of the uneasy truce existing between our two countries, the [SCOPE.sCountry('netherlands_scope').GetAdjective] government has approached us with a proposal for a conference to resolve our current territorial and legal disputes."
