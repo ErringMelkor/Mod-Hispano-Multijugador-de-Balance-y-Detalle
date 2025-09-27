@@ -223,7 +223,12 @@
 		# Scholar Officials
 		else_if = {
 			limit = {
-				c:CHI ?= this
+				owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 			}
 			ig:ig_landowners ?= { 
 				set_interest_group_name = ig_scholar_officials

@@ -241,7 +241,10 @@
 		else_if = {
 			limit = {
 					owner = {
-						c:CHI ?= this
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
 					}
 				}
 			ig:ig_devout ?= {

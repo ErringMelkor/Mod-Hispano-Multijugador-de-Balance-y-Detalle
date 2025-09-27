@@ -30,14 +30,15 @@
 			if = {
 				limit = {
 					owner = {
-						c:CHI ?= this
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_newly_created_army
 				set_ig_trait = ig_trait:ig_trait_self_strengthening
 				set_ig_trait = ig_trait:ig_trait_lack_of_leadership
-				
-				add_ideology = ideology_manchu_supremacy
 			}
 			else_if = {
 				limit = {

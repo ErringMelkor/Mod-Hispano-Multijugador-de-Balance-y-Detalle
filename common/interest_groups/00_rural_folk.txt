@@ -56,7 +56,12 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:CHI ?= this }
+					owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_farmers_markets
 				set_ig_trait = ig_trait:ig_trait_honest_work

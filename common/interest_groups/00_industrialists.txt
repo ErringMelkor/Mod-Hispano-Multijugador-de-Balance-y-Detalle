@@ -59,7 +59,12 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:CHI ?= this }
+					owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_stunted_innovation
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress

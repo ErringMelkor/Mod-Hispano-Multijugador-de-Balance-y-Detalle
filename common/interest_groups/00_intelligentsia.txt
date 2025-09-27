@@ -37,7 +37,12 @@
 		ig:ig_intelligentsia ?= {
 			if = {
 				limit = {
-					owner = { c:CHI ?= this }
+					owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_neoconfucian_retreat
 				set_ig_trait = ig_trait:ig_trait_avant_garde

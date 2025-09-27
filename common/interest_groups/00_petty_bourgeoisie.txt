@@ -63,7 +63,12 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:CHI ?= this }
+					owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 				}
 						set_ig_trait = ig_trait:ig_trait_autonomous_breakdown
 						set_ig_trait = ig_trait:ig_trait_middle_managers
