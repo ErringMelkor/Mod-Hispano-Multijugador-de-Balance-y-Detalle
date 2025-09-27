@@ -436,8 +436,8 @@ dp_annex_subject = {
 		trigger_if = {
 			limit = {
 				OR = {
-					c:EIC ?= this
-					c:BHT ?= this
+					c:DLH ?= this
+					c:MRT ?= this
 				}
 				is_at_war = no
 				NOT = { has_variable = doctrine_of_lapse_cooldown }

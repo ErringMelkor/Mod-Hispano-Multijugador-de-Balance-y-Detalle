@@ -100,24 +100,6 @@
 			else_if = {
 				limit = {
 					owner = {
-						c:EIC ?= this
-					}
-				}
-				set_interest_group_name = ig_british_entrepeneurs
-				remove_ideology = ideology_laissez_faire
-				add_ideology = ideology_colonialist
-				remove_ideology = ideology_plutocratic
-				add_ideology = ideology_enclavist
-				remove_ideology = ideology_individualist_mod
-				add_ideology = ideology_british_entrepeneurs
-
-				set_ig_trait = ig_trait:ig_trait_wounded_honor
-				set_ig_trait = ig_trait:ig_trait_stamped_and_signed
-				set_ig_trait = ig_trait:ig_trait_responsible_government
-			}
-			else_if = {
-				limit = {
-					owner = {
 						c:PEC ?= this
 					}
 				}

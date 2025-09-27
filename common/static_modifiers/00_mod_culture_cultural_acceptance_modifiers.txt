@@ -1,71 +1,71 @@
 ﻿Etiope_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Etiope_cultural_acceptance_add = 1
+    country_etiope_cultural_acceptance_add = 1
 }
 
 Etiope_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Etiope_cultural_acceptance_add = 1
+    country_etiope_cultural_acceptance_add = 1
 }
 
 West_Afro_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_West_Afro_cultural_acceptance_add = 1
+    country_west_afro_cultural_acceptance_add = 1
 }
 
 West_Afro_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_West_Afro_cultural_acceptance_add = 1
+    country_west_afro_cultural_acceptance_add = 1
 }
 
 East_Afro_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_East_Afro_cultural_acceptance_add = 1
+    country_east_afro_cultural_acceptance_add = 1
 }
 
 East_Afro_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_East_Afro_cultural_acceptance_add = 1
+    country_east_afro_cultural_acceptance_add = 1
 }
 
 Center_Afro_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Center_Afro_cultural_acceptance_add = 1
+    country_center_afro_cultural_acceptance_add = 1
 }
 
 Center_Afro_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Center_Afro_cultural_acceptance_add = 1
+    country_center_afro_cultural_acceptance_add = 1
 }
 
 South_Afro_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_South_Afro_cultural_acceptance_add = 1
+    country_south_afro_cultural_acceptance_add = 1
 }
 
 South_Afro_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_South_Afro_cultural_acceptance_add = 1
+    country_south_afro_cultural_acceptance_add = 1
 }
 
 Native_Noramerican_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Native_Noramerican_cultural_acceptance_add = 1
+    country_native_noramerican_cultural_acceptance_add = 1
 }
 
 Native_Noramerican_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Native_Noramerican_cultural_acceptance_add = 1
+    country_native_noramerican_cultural_acceptance_add = 1
 }
 
 Native_Mesoamerican_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Native_Mesoamerican_cultural_acceptance_add = 1
+    country_native_mesoamerican_cultural_acceptance_add = 1
 }
 
 Native_Mesoamerican_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Native_Mesoamerican_cultural_acceptance_add = 1
+    country_native_mesoamerican_cultural_acceptance_add = 1
 }
 
 patwarahi_cultural_acceptance_modifier_positive = {
@@ -80,30 +80,30 @@ patwarahi_cultural_acceptance_modifier_negative = {
 
 Baltic_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Baltic_cultural_acceptance_add = 1
+    country_baltic_cultural_acceptance_add = 1
 }
 
 Baltic_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Baltic_cultural_acceptance_add = 1
+    country_baltic_cultural_acceptance_add = 1
 }
 
-Finno-Ugric_cultural_acceptance_modifier_positive = {
+FinnoUgric_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_Finno-Ugric_cultural_acceptance_add = 1
+    country_finnougric_cultural_acceptance_add = 1
 }
 
-Finno-Ugric_cultural_acceptance_modifier_negative = {
+FinnoUgric_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_Finno-Ugric_cultural_acceptance_add = 1
+    country_finnougric_cultural_acceptance_add = 1
 }
 
 South_Slavic_cultural_acceptance_modifier_positive = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-    country_South_Slavic_cultural_acceptance_add = 1
+    country_south_slavic_cultural_acceptance_add = 1
 }
 
 South_Slavic_cultural_acceptance_modifier_negative = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-    country_South_Slavic_cultural_acceptance_add = 1
+    country_south_slavic_cultural_acceptance_add = 1
 }

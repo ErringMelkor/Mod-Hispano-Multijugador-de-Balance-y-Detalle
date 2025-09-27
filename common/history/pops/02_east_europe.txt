@@ -22,7 +22,7 @@
 				size = 12961
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = orthodox
 				size = 4187
 			}
@@ -87,7 +87,7 @@
 				size = 1149142
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 82966
 			}
 		}
@@ -115,11 +115,11 @@
 				size = 6562
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 3281
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = orthodox
 				size = 5495
 			}
@@ -160,7 +160,7 @@
 				size = 682318
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 5002
 			}
 			create_pop = {
@@ -172,7 +172,7 @@
 				size = 29880
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = orthodox
 				size = 41453
 			}

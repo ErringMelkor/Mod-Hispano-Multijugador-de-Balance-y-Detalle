@@ -1,4 +1,4 @@
-country_Etiope_cultural_acceptance_add={
+﻿country_etiope_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -6,7 +6,7 @@ country_Etiope_cultural_acceptance_add={
     }
 }
 
-country_West_Afro_cultural_acceptance_add={
+country_west_afro_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -14,7 +14,7 @@ country_West_Afro_cultural_acceptance_add={
     }
 }
 
-country_East_Afro_cultural_acceptance_add={
+country_east_afro_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -22,7 +22,7 @@ country_East_Afro_cultural_acceptance_add={
     }
 }
 
-country_Center_Afro_cultural_acceptance_add={
+country_center_afro_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -30,7 +30,7 @@ country_Center_Afro_cultural_acceptance_add={
     }
 }
 
-country_South_Afro_cultural_acceptance_add={
+country_south_afro_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -38,7 +38,7 @@ country_South_Afro_cultural_acceptance_add={
     }
 }
 
-country_Native_Noramerican_cultural_acceptance_add={
+country_native_noramerican_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -46,7 +46,7 @@ country_Native_Noramerican_cultural_acceptance_add={
     }
 }
 
-country_Native_Mesoamerican_cultural_acceptance_add={
+country_native_mesoamerican_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -62,7 +62,7 @@ country_patwarahi_cultural_acceptance_add={
     }
 }
 
-country_Baltic_cultural_acceptance_add={
+country_baltic_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -70,7 +70,7 @@ country_Baltic_cultural_acceptance_add={
     }
 }
 
-country_Finno-Ugric_cultural_acceptance_add={
+country_finnougric_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={
@@ -78,7 +78,7 @@ country_Finno-Ugric_cultural_acceptance_add={
     }
 }
 
-country_South_Slavic_cultural_acceptance_add={
+country_south_slavic_cultural_acceptance_add={
     decimals=1
     color=good
     game_data={

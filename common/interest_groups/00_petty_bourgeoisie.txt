@@ -120,21 +120,6 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:EIC ?= this }
-				}
-
-				set_interest_group_name = ig_physiocrats
-
-				set_ig_trait = ig_trait:ig_trait_bah_humbug
-				set_ig_trait = ig_trait:ig_trait_civil_service
-				set_ig_trait = ig_trait:ig_trait_old_lady_of_threadneedle_street
-
-				remove_ideology = ideology_reactionary
-				remove_ideology = ideology_meritocratic
-				add_ideology = ideology_physiocrats
-			}
-			else_if = {
-				limit = {
 					owner = { 
 						OR = {
 							c:BIC ?= this

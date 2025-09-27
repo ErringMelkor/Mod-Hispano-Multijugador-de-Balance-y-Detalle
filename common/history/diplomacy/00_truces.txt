@@ -89,10 +89,6 @@ DIPLOMACY = {
 			months = 48
 		}
 		create_bidirectional_truce = {
-			country = c:EIC
-			months = 36
-		}
-		create_bidirectional_truce = {
 			country = c:USA
 			months = 48
 		}

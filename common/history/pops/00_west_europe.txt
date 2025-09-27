@@ -54,7 +54,7 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = protestant
 				size = 18000
 			}
@@ -107,7 +107,7 @@
 				size = 384860
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = protestant
 				size = 40000
 			}

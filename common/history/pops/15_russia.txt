@@ -67,7 +67,7 @@
 				size = 9440
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = protestant
 				size = 2360
 			}
@@ -136,7 +136,7 @@
 				size = 12963
 			}
 			create_pop = {
-				culture = Finno-Ugric #Livs
+				culture = FinnoUgric #Livs
 				religion = protestant
 				size = 900
 			}
@@ -367,7 +367,7 @@
 				size = 1250
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = protestant
 				size = 57500
 			}
@@ -392,7 +392,7 @@
 				size = 3975
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = protestant
 				size = 1178
 			}
@@ -405,7 +405,7 @@
 				size = 126
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 258
 			}
 		}
@@ -421,7 +421,7 @@
 				size = 757
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 53619
 			}
 		}
@@ -433,7 +433,7 @@
 				size = 17170
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 13904
 			}
 		}
@@ -453,7 +453,7 @@
 				size = 682176
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				religion = orthodox
 				size = 64328
 			}
@@ -949,7 +949,7 @@
 				size = 3005300
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 4795
 			}
 		}
@@ -973,7 +973,7 @@
 				size = 2383492
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 218090
 			}
 			create_pop = {
@@ -993,7 +993,7 @@
 				size = 34193
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 58187
 			}
 			create_pop = {
@@ -1013,11 +1013,11 @@
 				size = 240262
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 87860
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 17154
 			}
 			create_pop = {
@@ -1033,11 +1033,11 @@
 				size = 1215648
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 211680
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 24192
 			}
 			create_pop = {
@@ -1061,7 +1061,7 @@
 				size = 44970
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 13488
 			}
 			create_pop = {
@@ -1069,7 +1069,7 @@
 				size = 10220
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 6711
 			}
 		}
@@ -1093,7 +1093,7 @@
 				size = 9149
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 4978
 			}
 			create_pop = {
@@ -1123,7 +1123,7 @@
 				size = 420
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 710
 			}
 		}
@@ -1137,7 +1137,7 @@
 				size = 46034
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 1218
 			}
 		}
@@ -1149,7 +1149,7 @@
 				size = 320760
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 23760
 			}
 			create_pop = {

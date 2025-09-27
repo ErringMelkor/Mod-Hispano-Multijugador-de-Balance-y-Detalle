@@ -199,7 +199,7 @@
 	graphics = european
 }
 
-Finno-Ugric = {
+FinnoUgric = {
 	color= hsv{ 0.50 0.32 0.62 }
 	religion = orthodox
 	heritage = heritage_nordic

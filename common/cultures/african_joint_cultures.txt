@@ -1,7 +1,7 @@
 ﻿Etiope = {
 	color= rgb{ 56 153 122 }
 	religion = oriental_orthodox
-	heritage = heritage_african
+	heritage = heritage_sahelian
 	language = language_amharic
 	traditions = { }
 	male_common_first_names = {

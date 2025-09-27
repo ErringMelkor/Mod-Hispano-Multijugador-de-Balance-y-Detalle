@@ -1,4 +1,4 @@
-country_fervor_target_Etiope_add={
+﻿country_fervor_target_etiope_add={
     decimals=1
     color=good
     game_data={
@@ -6,7 +6,7 @@ country_fervor_target_Etiope_add={
     }
 }
 
-country_fervor_target_West_Afro_add={
+country_fervor_target_west_afro_add={
     decimals=1
     color=good
     game_data={
@@ -14,7 +14,7 @@ country_fervor_target_West_Afro_add={
     }
 }
 
-country_fervor_target_East_Afro_add={
+country_fervor_target_east_afro_add={
     decimals=1
     color=good
     game_data={
@@ -22,7 +22,7 @@ country_fervor_target_East_Afro_add={
     }
 }
 
-country_fervor_target_Center_Afro_add={
+country_fervor_target_center_afro_add={
     decimals=1
     color=good
     game_data={
@@ -30,7 +30,7 @@ country_fervor_target_Center_Afro_add={
     }
 }
 
-country_fervor_target_South_Afro_add={
+country_fervor_target_south_afro_add={
     decimals=1
     color=good
     game_data={
@@ -38,7 +38,7 @@ country_fervor_target_South_Afro_add={
     }
 }
 
-country_fervor_target_Native_Noramerican_add={
+country_fervor_target_native_noramerican_add={
     decimals=1
     color=good
     game_data={
@@ -46,7 +46,7 @@ country_fervor_target_Native_Noramerican_add={
     }
 }
 
-country_fervor_target_Native_Mesoamerican_add={
+country_fervor_target_native_mesoamerican_add={
     decimals=1
     color=good
     game_data={
@@ -62,7 +62,7 @@ country_fervor_target_patwarahi_add={
     }
 }
 
-country_fervor_target_Baltic_add={
+country_fervor_target_baltic_add={
     decimals=1
     color=good
     game_data={
@@ -70,7 +70,7 @@ country_fervor_target_Baltic_add={
     }
 }
 
-country_fervor_target_Finno-Ugric_add={
+country_fervor_target_finnougric_add={
     decimals=1
     color=good
     game_data={
@@ -78,7 +78,7 @@ country_fervor_target_Finno-Ugric_add={
     }
 }
 
-country_fervor_target_South_Slavic_add={
+country_fervor_target_south_slavic_add={
     decimals=1
     color=good
     game_data={
