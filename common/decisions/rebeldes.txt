@@ -2,7 +2,13 @@
 rebeldes = {
 	is_shown = {
 		hidden_trigger = {
-			C:SOK ?= this
+			OR = {
+				C:SOK ?= this
+				c:HAW ?= this
+				c:DEN ?= this
+				c:BTN ?= this
+			}
+			
 		}
 		NOT = {
 			has_global_variable = conlosterrorihta
@@ -13,7 +19,7 @@ rebeldes = {
 			has_technology_researched = intensive_agriculture
 			has_technology_researched = napoleonic_warfare
 		}
-		
+		is_player = no
 	}
 
 	possible = {
