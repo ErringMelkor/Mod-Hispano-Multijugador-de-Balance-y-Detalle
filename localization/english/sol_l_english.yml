@@ -1,10 +1,32 @@
 ﻿l_english:
 
- state_radicals_from_sol_change_mult:0 "$concept_radicals$ from [concept_sol] changes"
- state_radicals_from_sol_change_mult_desc:0 "A bonus or penalty to how many [Concept('concept_pop', '$concept_pops$')] will become [concept_radical] from changes in [concept_sol]"
+ state_radicals_from_sol_change_mult: "$concept_radicals$ from [concept_sol] changes"
+ state_radicals_from_sol_change_mult_desc: "A bonus or penalty to how many [Concept('concept_pop', '$concept_pops$')] will become [concept_radical] from changes in [concept_sol]"
 
- state_loyalists_from_sol_change_mult:0 "$concept_loyalists$ from [concept_sol] changes"
- state_loyalists_from_sol_change_mult_desc:0 "A bonus or penalty to how many [Concept('concept_pop', '$concept_pops$')] will become [concept_loyalist] from changes in [concept_sol]"
+ state_loyalists_from_sol_change_mult: "$concept_loyalists$ from [concept_sol] changes"
+ state_loyalists_from_sol_change_mult_desc: "A bonus or penalty to how many [Concept('concept_pop', '$concept_pops$')] will become [concept_loyalist] from changes in [concept_sol]"
+ company_da_afghan_nassaji_sherkat: "Da Afghan Nassaji Sherkat"
+company_iranian_state_railway: "Iranian State Railway"
+company_tashkent_railroad: "Tashkent Railroad"
+company_west_ural_petroleum: "West Ural Petroleum Company, Limited"
+company_sherkat_shemali: "Sherkat-e Ettehadiya-ye Welayat-e Shemali"
+company_opium_export_monopoly: "Bongah-e Enhesar-e Saderat-e Taryak"
+company_sherkate_eslamiya: "Sherkat-e Eslamiya"
+company_nicolas_portalis: "MM. Nicolas Portalis et Cie."
+company_hanseong_jeongi_hoesa: "Hanseong Jeongi Hoesa"
+company_kirgizian_mining_company: "Kirgizian Mining Joint Stock Company"
+company_persshelk: "Persshelk"
+company_perskhlopok: "Perskhlopok"
+company_moscow_irrigation_company: "Moscow Irrigation Company"
+company_guinness: "Arthur Guinness Son & Co. Ltd"
+company_oriental_development_company: "Oriental Development Company"
+company_turkish_petroleum: "Turkish Petroleum Company"
+company_anglo_persian_oil: "Anglo-Persian Oil Company"
+company_national_iranian_oil: "National Iranian Oil Company"
+rebeldes: "rebeldes"
+meiji.69: "rebeldes"
+meiji.69.a: "rebeldes"
+meiji.69.b: "rebeldes"
  
  
  

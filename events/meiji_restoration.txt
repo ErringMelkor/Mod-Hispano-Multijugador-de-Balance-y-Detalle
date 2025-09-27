@@ -36,7 +36,7 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
-				year < 1846
+				year <=1846
 			}
 			create_character = {
 				template = JAP_ninko_yamato
@@ -48,7 +48,7 @@ meiji.1 = {
 		else_if = {
 			limit = {
 				year >= 1846
-				year < 1867
+				year <=1867
 			}
 			create_character = {
 				template = JAP_komei_yamato
@@ -69,7 +69,7 @@ meiji.1 = {
 		else_if = {
 			limit = {
 				year >= 1867
-				year < 1912
+				year <=1912
 			}
 			create_character = {
 				template = JAP_meiji_yamato
@@ -90,7 +90,7 @@ meiji.1 = {
 		else_if = {
 			limit = {
 				year >= 1912
-				year < 1927
+				year <=1927
 			}
 			create_character = {
 				template = JAP_taisho_yamato
@@ -106,7 +106,7 @@ meiji.1 = {
 		else_if = {
 			limit = {
 				year >= 1927
-				year < 1989
+				year <=1989
 			}
 			create_character = {
 				template = JAP_showa_yamato
@@ -181,7 +181,7 @@ meiji.1 = {
 						level >= 5
 					}
 					has_building = building_railway
-					percent > 0.7
+					percent >=0.7
 				}
 			}
 			change_variable = {
@@ -300,7 +300,7 @@ meiji.1 = {
 						level >= 5
 					}
 					has_building = building_railway
-					percent > 0.7
+					percent >=0.7
 				}
 			}
 			change_variable = {
@@ -678,6 +678,165 @@ meiji.4 = {
 	}
 }
 
+meiji.69 = {
+	type = country_event
+	placement = root
+	
+	title = lake_fucine.1.t
+	desc = lake_fucine.1.d
+	flavor = lake_fucine.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+
+	option = {
+		name = meiji.69.a
+		default_option = yes
+
+		ai_chance = {
+			add = 100
+		}
+
+		if = {
+			limit = {
+				game_date >= 1836.1.1
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_HOME_COUNTIES
+							state_region = s:STATE_ILE_DE_FRANCE
+							state_region = s:STATE_BRANDENBURG
+							state_region = s:STATE_KENTUCKY
+							state_region = s:STATE_PERM
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_SAVOY
+							state_region = s:STATE_GELRE
+						}
+					}
+				}
+			add_treasury = -50000
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >= 1840.1.2
+				game_date <= 1851.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_HOME_COUNTIES
+							state_region = s:STATE_ILE_DE_FRANCE
+							state_region = s:STATE_BRANDENBURG
+							state_region = s:STATE_KENTUCKY
+							state_region = s:STATE_PERM
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_SAVOY
+							state_region = s:STATE_GELRE
+						}
+					}
+				}
+			add_treasury = -150000
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1851.1.2
+				game_date <=1861.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_HOME_COUNTIES
+							state_region = s:STATE_ILE_DE_FRANCE
+							state_region = s:STATE_BRANDENBURG
+							state_region = s:STATE_KENTUCKY
+							state_region = s:STATE_PERM
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_SAVOY
+							state_region = s:STATE_GELRE
+						}
+					}
+				}
+			add_treasury = -300000
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1861.1.2
+				game_date <=1871.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_HOME_COUNTIES
+							state_region = s:STATE_ILE_DE_FRANCE
+							state_region = s:STATE_BRANDENBURG
+							state_region = s:STATE_KENTUCKY
+							state_region = s:STATE_PERM
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_SAVOY
+							state_region = s:STATE_GELRE
+						}
+					}
+				}
+			add_treasury = -450000
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1871.1.2
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_HOME_COUNTIES
+							state_region = s:STATE_ILE_DE_FRANCE
+							state_region = s:STATE_BRANDENBURG
+							state_region = s:STATE_KENTUCKY
+							state_region = s:STATE_PERM
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_SAVOY
+							state_region = s:STATE_GELRE
+						}
+					}
+				}
+			add_treasury = -1000000000
+			}
+		}
+	}
+
+	option = {
+		name = meiji.69.b
+
+		trigger = { is_player = yes }
+
+		set_global_variable = conlosterrorihta
+
+		ai_chance = {
+			base = 0
+		}
+
+	}
+}
+
 # Embassy to the West
 meiji.5 = {
 	type = country_event
@@ -964,7 +1123,7 @@ meiji.7 = {
 			country_rank = rank_value:great_power
 			has_technology_researched = railways
 			NOT = { has_war_with = root }
-			relations:root > 0
+			relations:root >=0
 		}
 	}
 
@@ -975,7 +1134,7 @@ meiji.7 = {
 				country_rank = rank_value:great_power
 				has_technology_researched = railways
 				NOT = { has_war_with = root }
-				relations:root > 0
+				relations:root >=0
 			}
 			save_scope_as = railway_engineer_country_1
 		}
@@ -985,7 +1144,7 @@ meiji.7 = {
 					country_rank = rank_value:great_power
 					has_technology_researched = railways
 					NOT = { has_war_with = root }
-					relations:root > 0
+					relations:root >=0
 					NOT = { this = scope:railway_engineer_country_1 }
 				}
 			}
@@ -994,7 +1153,7 @@ meiji.7 = {
 					country_rank = rank_value:great_power
 					has_technology_researched = railways
 					NOT = { has_war_with = root }
-					relations:root > 0
+					relations:root >=0
 					NOT = { this = scope:railway_engineer_country_1 }
 				}
 				save_scope_as = railway_engineer_country_2
@@ -1007,7 +1166,7 @@ meiji.7 = {
 					country_rank = rank_value:great_power
 					has_technology_researched = railways
 					NOT = { has_war_with = root }
-					relations:root > 0
+					relations:root >=0
 					NOT = { this = scope:railway_engineer_country_1 }
 					NOT = { this = scope:railway_engineer_country_2 }
 				}
@@ -1017,7 +1176,7 @@ meiji.7 = {
 					country_rank = rank_value:great_power
 					has_technology_researched = railways
 					NOT = { has_war_with = root }
-					relations:root > 0
+					relations:root >=0
 					NOT = { this = scope:railway_engineer_country_1 }
 					NOT = { this = scope:railway_engineer_country_2 }
 				}

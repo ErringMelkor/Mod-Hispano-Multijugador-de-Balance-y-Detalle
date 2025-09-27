@@ -616,7 +616,6 @@
 				size = 5000
 			}
 		}
-		}
 	}
 	s:STATE_CHIANG_MAI = {
 		region_state:CMI = {
@@ -683,5 +682,4 @@
 			}
 		}
 	}
-
 }

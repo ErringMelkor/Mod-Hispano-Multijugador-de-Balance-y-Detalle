@@ -1495,26 +1495,4 @@
 			}
 		}
 	}
-	s:STATE_EASTERN_HIMALAYAS = {
-		region_state:SIK = {
-			create_pop = {
-				culture = tibetan
-				size = 60301
-			}
-			create_pop = {
-				culture = nepali
-				size = 24091
-			}
-		}
-		region_state:BHU = {
-			create_pop = {
-				culture = tibetan
-				size = 140396
-			}
-			create_pop = {
-				culture = nepali
-				size = 16004
-			}
-		}
-	}
 }
