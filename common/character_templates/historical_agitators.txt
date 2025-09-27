@@ -253,7 +253,7 @@ agitator_frederick_douglass = {
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			NOT = { has_law = law_type:law_slavery_banned }
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
 			OR = {
 				c:USA ?= this
 				c:CSA ?= this
@@ -775,7 +775,7 @@ agitator_prince_sabahaddin = { # Prince Sabahaddin de Neuchâtel
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
 			c:TUR ?= this
-			has_law = law_type:law_monarchy
+			has_law_or_variant = law_type:law_monarchy
 		}
         interest_group_trigger = {
             is_marginal = no
@@ -1034,7 +1034,7 @@ agitator_jose_do_patrocinio = { # José do Patrocínio
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			NOT = { has_law = law_type:law_slavery_banned }
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
 			OR = {
 				c:BRZ ?= this
 				c:AGJ ?= this # Unlikely, but just in case
@@ -1329,7 +1329,7 @@ agitator_harriet_tubman = {
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			NOT = { has_law = law_type:law_slavery_banned }
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
 			OR = {
 				c:USA ?= this
 				c:CSA ?= this
@@ -1465,13 +1465,6 @@ agitator_giuseppe_mazzini = {
 	traits = {
 		firebrand
 		persistent # the man did NOT STOP
-	}
-	on_created = {
-		if = {
-			limit = { is_in_exile_pool = no }
-			exile_character = yes
-		}	
-		set_variable = mazzini_var
 	}
 }
 
@@ -1635,6 +1628,7 @@ fra_georges_boulanger_character_template = {
 		demagogue
         innovative
         romantic
+        special_character_general_revanche
 	}
 }
 pru_ferdinand_lassalle_character_template = {
@@ -1813,7 +1807,7 @@ ibsen_character_template = {
 						exists = c:NOR
 					}
 					any_primary_culture = {
-						has_discrimination_trait = scandinavian_culture_group
+						has_discrimination_trait = heritage_nordic
 					}
 					any_scope_state = {
 						OR = {

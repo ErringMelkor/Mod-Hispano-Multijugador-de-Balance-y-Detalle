@@ -46,6 +46,13 @@ ai_strategy_default = {
 			add = 100
 		}
 
+		if = {
+			limit = {
+				has_journal_entry = je_the_grand_collapse
+			}
+			add = 100
+		}
+
 		# Revolution aversion for July Monarchy
 		if = {
 			limit = { has_journal_entry = je_divided_monarchists }
@@ -152,7 +159,7 @@ ai_strategy_default = {
 				}
 
 				add = {
-					value = -100
+					value = -200
 					desc = "german_leadership_neutrality"
 				}
 			}
@@ -447,6 +454,22 @@ ai_strategy_default = {
 			}
 		}
 
+		if = { # The Balkan League countries supporting each other against the Ottomans.
+			limit = {
+				has_journal_entry = je_the_balkan_league
+				scope:country = {
+					has_journal_entry = je_the_balkan_league
+				}
+				scope:enemy_country = {
+					c:TUR ?= this
+				}
+			}
+			add = {
+				value = 1000
+				desc = "support_for_balkan_league"
+			}
+		}
+
 		if = { # Subjects of an overlord that has committed to assisting a claimant will be more inclined to help.
 			limit = {
 				overlord ?= {
@@ -501,38 +524,6 @@ ai_strategy_default = {
 			}
 		}
 
-		if = { # Donghak Rebellion - Japanese Behaviours - Pro-Government
-			limit = {
-				c:JAP ?= this
-				has_journal_entry = je_korean_rebellion
-				has_variable = sided_with_korean_gov
-				scope:country = {
-					country_has_primary_culture = cu:korean
-					is_revolutionary = no
-				}
-			}
-			add = {
-				value = 100
-				desc = "committed_to_upholding_korean_government"
-			}
-		}
-
-		if = { # Donghak Rebellion - Japanese Behaviours - Anti-Government
-			limit = {
-				c:JAP ?= this
-				has_journal_entry = je_korean_rebellion
-				has_variable = sided_with_korean_rebels
-				scope:country = {
-					country_has_primary_culture = cu:korean
-					is_revolutionary = yes
-				}
-			}
-			add = {
-				value = 100
-				desc = "committed_to_overthrowing_korean_government"
-			}
-		}
-
 		if = { # Modernised Japan and Russia will defend Korea from one another
 			limit = {
 				c:RUS ?= this
@@ -553,8 +544,8 @@ ai_strategy_default = {
 			limit = {
 				c:JAP ?= this
 				NOT = {
-					has_law = law_type:law_isolationism
-					has_law = law_type:law_closed_borders
+					has_law_or_variant = law_type:law_isolationism
+					has_law_or_variant = law_type:law_closed_borders
 				}
 				scope:country = {
 					country_has_primary_culture = cu:korean
@@ -606,6 +597,120 @@ ai_strategy_default = {
 				desc = "recognised_kenesary"
 			}
 		}
+
+		if = { # Chinese unification warlord coalitions
+			limit = {
+				has_journal_entry = je_reunify_china
+				scope:country = {
+					has_journal_entry = je_reunify_china
+				}
+				scope:enemy_country = {
+					has_journal_entry = je_reunify_china
+					this.country_rank >= scope:country.country_rank
+			 	}
+			}
+			add = {
+				value = 25
+				desc = "alignment_politics"
+			}
+		}
+
+		if = { # Russia shouldn't join secession plays, since then it couldn't add wargoals of its own
+			limit = {
+				exists = scope:is_initiator
+				scope:diplomatic_play_type = play_type:dp_secession
+				root = {
+					c:RUS ?= this
+					has_journal_entry = je_eastern_question_russia
+				}
+				OR = {
+					scope:country = {
+						country_has_primary_culture = cu:bulgarian
+					}
+					scope:enemy_country = {
+						country_has_primary_culture = cu:bulgarian
+					}
+				}
+				OR = {
+					scope:enemy_country = {
+						has_journal_entry = je_great_eastern_crisis
+					}
+					scope:country = {
+						has_journal_entry = je_great_eastern_crisis
+					}
+				}
+			}
+			add = {
+				value = -200
+				desc = "focus_on_bulgaria"
+			}
+		}
+
+		if = { # Austria doesn't want anything except for Bosnia
+			limit = {
+				exists = scope:is_initiator
+				scope:diplomatic_play_type = play_type:dp_secession
+				root = {
+					c:AUS ?= this
+					has_journal_entry = je_eastern_question_austria
+				}
+				OR = {
+					scope:enemy_country = {
+						has_journal_entry = je_great_eastern_crisis
+					}
+					scope:country = {
+						has_journal_entry = je_great_eastern_crisis
+					}
+				}
+			}
+			add = {
+				value = -200
+				desc = "focus_on_bosnia"
+			}
+		}
+
+		if = { # War of the Confederation
+			limit = {
+				exists = scope:is_initiator
+				root = {
+					has_variable = attack_bolivia
+				}
+				scope:country = {
+					OR = {
+						has_journal_entry = je_war_of_the_confederation
+						AND = {
+							is_subject_of = scope:enemy_country
+							has_journal_entry = je_peru_bolivia
+						}
+					}
+					NOR = {
+						play_participant_has_war_goal_of_type_against = {
+							type = conquer_state
+							target = scope:enemy_country
+						}
+						play_participant_has_war_goal_of_type_against = {
+							type = make_protectorate
+							target = scope:enemy_country
+						}
+						play_participant_has_war_goal_of_type_against = {
+							type = take_treaty_port
+							target = scope:enemy_country
+						}
+						play_participant_has_war_goal_of_type_against = {
+							type = enforce_treaty_article
+							target = scope:enemy_country
+						}
+					}
+				}
+				scope:enemy_country = {
+					has_journal_entry = je_peru_bolivia
+				}
+			}
+			add = {
+				value = 100
+				desc = "je_war_of_the_confederation"
+			}
+		}
 	}
 
 	# Added to base neutrality in diplomatic plays
@@ -652,7 +757,7 @@ ai_strategy_default = {
 			limit = {
 				exists = c:JAP
 				this = c:JAP
-				has_law = law_type:law_isolationism
+				has_law_or_variant = law_type:law_isolationism
 				scope:diplomatic_play = {
 					has_play_goal = open_market
 				}
@@ -742,11 +847,77 @@ ai_strategy_default = {
 				THIS = {
 					has_journal_entry = je_risorgimento
 				}
-				any_country = {
+				any_diplomatically_relevant_country = {
 					is_diplomatic_play_enemy_of = c:RSM
 				}
 			}
 			add = 50
+		}
+
+		# Second Balkan War, pitting the balkan nations against each other
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				any_diplomatically_relevant_country = {
+					sr:region_balkans = {
+						any_scope_state = {
+							is_homeland_of_country_cultures = root
+							has_claim_by = root
+						}
+					}
+				}
+			}
+			 add = 50
+		}
+
+		# Second Balkan War, pitting the balkan nations against each other (Wallachia)
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				country_has_primary_culture = cu:romanian
+				any_diplomatically_relevant_country = {
+					country_rank <= rank_value:minor_power
+					any_scope_state = {
+						is_homeland_of_country_cultures = root
+						has_claim_by = root
+					}
+				}
+			}
+			add = 50
+		}
+
+		# Balkan minors are quite bold during the Eastern Question
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_crisis_tracker
+				any_enemy_in_diplo_play = {
+					has_journal_entry = je_great_eastern_crisis
+				}
+			}
+			add = 10
+		}
+
+		# Ottomans will tend to back down against Austria when they have the Great Eastern Crisis
+		if = {
+			limit = {
+				has_journal_entry = je_great_eastern_crisis
+				owns_entire_state_region = STATE_BOSNIA
+				any_enemy_in_diplo_play = {
+					has_journal_entry = je_eastern_question_austria
+				}
+			}
+			add = -25
+		}
+
+		# Countries with high-fervour primary cultures are bolder by default
+		if = {
+			limit = {
+				country_fervor_primary_culture > 10
+			}
+			add = {
+				value = country_fervor_primary_culture
+				divide = 4
+			}
 		}
 
 		# Good luck Denmark
@@ -757,6 +928,17 @@ ai_strategy_default = {
 				scope:diplomatic_play.initiator = {
 					has_journal_entry = je_schleswig_holstein_question
 				}
+			}
+			add = 50
+		}
+
+		if = { # War of the Confederation participants
+			limit = {
+				OR = {
+					has_journal_entry = je_peru_bolivia
+					has_journal_entry = je_war_of_the_confederation
+				}
+				is_diplomatic_play_enemy_of = c:BOL
 			}
 			add = 50
 		}
@@ -837,6 +1019,17 @@ ai_strategy_default = {
 				}
 			}
 			add = 0.15
+		}
+
+		# War of the Confederation
+		if = {
+			limit = {
+				has_journal_entry = je_war_of_the_confederation
+				scope:enemy_country = {
+					has_journal_entry = je_peru_bolivia
+				}
+			}
+			add = 0.25
 		}
 	}
 
@@ -1023,6 +1216,17 @@ ai_strategy_default = {
 		min = 0
 		max = 30
 	}
+	
+	# How much does the AI want to include a particular interest group in their government?
+	# Positive values will act as a multiplier (ie 5 means AI will assign a 5x value to this IG)
+	# Negative values will act as a divisor (ie -5 means AI will assign a 0.2x value to this IG)
+	# The AI will still only consider the most legitimate government constellations, as set by define REFORM_GOVERNMENT_NUM_OPTIONS_TO_CHECK
+	# Using this value in other strategies will function additively
+	# root = country
+	# scope:interest_group = IG
+	interest_group_government_weight = {
+		value = 0
+	}
 
 	# How much does the AI desire a state owned by another country
 	# Using this value in other strategies will function additively
@@ -1069,6 +1273,26 @@ ai_strategy_default = {
 					limit = { scope:target_state = { is_treaty_port = yes } }
 					add = 20
 				}
+
+				if = { # High-fervour AI really wants to take its homelands
+					limit = {
+						country_fervor_primary_culture > 10
+						scope:target_state = {
+							is_homeland_of_country_cultures = root
+						}
+						scope:target_country = {
+							NOT = {
+								any_primary_culture = {
+									is_primary_culture_of = root
+								}
+							}
+						}
+					}
+					add = {
+						value = country_fervor_primary_culture
+						divide = 2
+					}
+				}
 			}
 
 			if = {
@@ -1076,8 +1300,22 @@ ai_strategy_default = {
 					scope:target_state = { owner = root }
 				}
 
-				if = { # Very reluctant to cede incorporate states
-					limit = { scope:target_state = { is_incorporated = yes } }
+				if = {
+					limit = {
+						scope:target_state = { ai_can_incorporate_state = yes }
+					}
+					add = 50
+				}
+
+				if = { # Very reluctant to cede incorporated states
+					limit = {
+						scope:target_state = {
+							OR = {
+								is_incorporated = yes
+								ai_can_incorporate_state = yes
+							}
+						}
+					}
 
 					if = {
 						limit = {
@@ -1208,6 +1446,14 @@ ai_strategy_default = {
 				limit = {
 					has_journal_entry = je_greek_nationalism
 					scope:target_state.state_region = { is_homeland = cu:greek }
+				}
+				add = 50
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_eastern_question_austria
+					scope:target_state = { state_region = s:STATE_BOSNIA }
 				}
 				add = 50
 			}
@@ -1400,7 +1646,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
+					has_law = law_type:law_national_supremacy # TODO - Official Nationality
 					has_technology_researched = nationalism
 					scope:target_state = {
 						owner = {
@@ -1851,7 +2097,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
+					has_law = law_type:law_national_supremacy # TODO - Official Nationality
 					has_technology_researched = nationalism
 					OR = {
 						AND = {
@@ -1985,7 +2231,7 @@ ai_strategy_default = {
 			limit = {
 				has_strategy = ai_strategy_economic_imperialism
 				scope:target_country = {
-					has_law = law_type:law_isolationism
+					has_law_or_variant = law_type:law_isolationism
 					gdp >= 5000000
 				}
 			}
@@ -2271,6 +2517,20 @@ ai_strategy_default = {
 			add = 10
 		}
 
+		if = { #Ottomons will get angry and attack Mon even if Mon has allies, if raiding is high enough
+			limit = {
+				has_journal_entry = je_tur_raided
+				scope:target_country = {
+					has_journal_entry = je_montenegrin_raiding
+				}
+			}
+			add = {
+				add = raiding_level
+				subtract = 2
+				min = 0
+			}
+		}
+
 		# USA should be confident against owners of their Manifest Destiny states
 		if = {
 			limit = {
@@ -2290,6 +2550,49 @@ ai_strategy_default = {
 				}
 			}
 			add = 1
+		}
+
+		# 2nd Balkan War aka the "Spoils of War" JE
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				scope:target_country = {
+					sr:region_balkans = {
+					any_scope_state = {
+						is_homeland_of_country_cultures = root
+						has_claim_by = root
+						}
+					}
+				}
+			}
+			 add = 10
+		}
+
+		# 2nd Balkan War aka the "Spoils of War" JE (Wallachia)
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				country_has_primary_culture = cu:romanian
+				scope:target_country = {
+					country_rank <= rank_value:minor_power
+					any_scope_state = {
+						is_homeland_of_country_cultures = root
+						has_claim_by = root
+					}
+				}
+			}
+			add = 10
+		}
+
+		# Balkan minors aggression during the Eastern Question
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_crisis_tracker
+				scope:target_country = {
+					has_journal_entry = je_great_eastern_crisis
+				}
+			}
+			add = 10
 		}
 
 		# Greek Nationalism
@@ -2452,6 +2755,74 @@ ai_strategy_default = {
             }
             add = 2
         }
+
+		# Austria really, really wants to seize Bosnia
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_question_austria
+				scope:target_country = {
+					owns_entire_state_region = STATE_BOSNIA
+				}
+			}
+			add = 10
+		}
+
+		# Russia really, really wants to free Bulgaria
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_question_russia
+				scope:target_country = {
+					has_journal_entry = je_great_eastern_crisis
+				}
+			}
+			add = 5
+		}
+
+		# War of the Confederation
+		if = {
+			limit = {
+				OR = {
+					has_journal_entry = je_war_of_the_confederation
+					has_journal_entry = je_peru_bolivia
+				}
+				scope:target_country = {
+					has_journal_entry = je_peru_bolivia
+				}
+			}
+			add = 5
+		}
+		
+		if = { # Hungary should be reckless about independence
+			limit = {
+				has_journal_entry = je_hungarian_revolution
+				scope:target_country = {
+					has_journal_entry = je_matter_of_hungary
+				}
+			}
+			add = 5
+		}
+
+		# Countries with high-fervour primary cultures are more reckless against rivals or countries with homelands
+		if = {
+			limit = {
+				country_fervor_primary_culture > 10
+				scope:target_country = {
+					OR = {
+						has_diplomatic_pact = {
+							who = root
+							type = rivalry
+						}
+						any_scope_state = {
+							is_homeland_of_country_cultures = root
+						}
+					}
+				}
+			}
+			add = {
+				value = country_fervor_primary_culture
+				divide = 20
+			}
+        }
 	}
 
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
@@ -2495,6 +2866,84 @@ ai_strategy_default = {
 				}
 			}
 			add = 100
+		}
+
+		# Opium wars aggressor should be very, very aggressive against target if they're banning opium
+		if = {
+			limit = {
+				has_journal_entry = je_opium_wars
+				scope:target_country = {
+					has_variable = opium_wars_target
+					is_banning_goods = g:opium
+				}
+			}
+			add = 100
+		}
+
+		if = { #TUR should want to invade MON
+			limit = {
+				has_journal_entry = je_tur_raided
+				scope:target_country = {
+					has_journal_entry = je_montenegrin_raiding
+				}
+			}
+			add = {
+				add = 2
+				multiply = raiding_level
+			}
+		}
+
+		if = { #TUR should especially want to invade MON if it has no one protecting it.
+			limit = {
+				has_journal_entry = je_tur_raided
+				scope:target_country = {
+					has_journal_entry = je_montenegrin_raiding
+					NOT = {
+						any_scope_treaty = {
+							binds = scope:target_country
+							any_scope_article = {
+								has_type = guarantee_independence
+							}
+						}
+					}
+				}
+			}
+			add = {
+				add = 50
+				multiply = raiding_level
+			}
+		}
+
+		# Second Balkan War, pitting the balkan nations against each other
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				scope:target_country = {
+					sr:region_balkans = {
+					any_scope_state = {
+						is_homeland_of_country_cultures = root
+						has_claim_by = root
+						}
+					}
+				}
+			}
+				add = 500
+		}
+
+		# Second Balkan War, pitting the balkan nations against each other (Wallachia)
+		if = {
+			limit = {
+				has_journal_entry = je_spoils_of_war
+				country_has_primary_culture = cu:romanian
+				scope:target_country = {
+					country_rank <= rank_value:minor_power
+					any_scope_state = {
+						is_homeland_of_country_cultures = root
+						has_claim_by = root
+					}
+				}
+			}
+				add = 500
 		}
 
 		# Greek Nationalism
@@ -2599,11 +3048,12 @@ ai_strategy_default = {
 		if = {
 			limit = {
 				has_journal_entry = je_war_of_the_confederation
+				has_variable = attack_bolivia
 				scope:target_country = {
 					has_journal_entry = je_peru_bolivia
 				}
 			}
-			add = 75
+			add = 25
 		}
 
 		# East India Company vs its neighbors
@@ -2721,7 +3171,7 @@ ai_strategy_default = {
 		if = { #Russian Central Asia
 			limit = {
 				country_has_primary_culture = cu:russian
-				has_law = law_type:law_national_supremacy
+				has_law = law_type:law_national_supremacy # TODO - Official Nationality
 				scope:target_country = {
 					any_scope_state = {
 						OR = {
@@ -2754,8 +3204,8 @@ ai_strategy_default = {
 			limit = {
 				country_has_primary_culture = cu:japanese
 				NOT = {
-					has_law = law_type:law_isolationism
-					has_law = law_type:law_closed_borders
+					has_law_or_variant = law_type:law_isolationism
+					has_law_or_variant = law_type:law_closed_borders
 				}
 				scope:target_country = {
 					is_country_type = unrecognized
@@ -3010,11 +3460,11 @@ ai_strategy_default = {
         # Great Powers with slavery banned should be more aggressive against an openly slave trading Brazil
 		if = {
 			limit = {
-				has_law = law_type:law_slavery_banned
+				has_law_or_variant = law_type:law_slavery_banned
 				country_rank >= rank_value:great_power
 				scope:target_country = {
 					has_modifier = brazil_slaving_pariah_modifier
-					has_law = law_type:law_slave_trade
+					has_law_or_variant = law_type:law_slave_trade
 				}
 			}
 			add = 10
@@ -3116,6 +3566,66 @@ ai_strategy_default = {
 			add = 35
 		}
 
+		# Countries with high-fervour primary cultures are more aggressive against rivals or countries with homelands
+		if = {
+			limit = {
+				country_fervor_primary_culture > 10
+				scope:target_country = {
+					OR = {
+						has_diplomatic_pact = {
+							who = root
+							type = rivalry
+						}
+						any_scope_state = {
+							is_homeland_of_country_cultures = root
+						}
+						NOT = {
+							any_primary_culture = {
+								is_primary_culture_of = root
+							}
+						}
+					}
+				}
+			}
+			add = {
+				value = country_fervor_primary_culture
+				divide = 20
+			}
+		}
+
+		# Austria really, really wants to seize Bosnia
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_question_austria
+				scope:target_country = {
+					owns_entire_state_region = STATE_BOSNIA
+				}
+			}
+			add = 50
+		}
+
+		# Russian aggression during the Eastern Question
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_question_russia
+				scope:target_country = {
+					has_journal_entry = je_great_eastern_crisis
+				}
+			}
+			add = 50
+		}
+
+		# Balkan minors aggression during the Eastern Question
+		if = {
+			limit = {
+				has_journal_entry = je_eastern_crisis_tracker
+				scope:target_country = {
+					has_journal_entry = je_great_eastern_crisis
+				}
+			}
+			add = 25
+		}
+
         # Neutral Switzerland
         if = {
             limit = {
@@ -3123,6 +3633,15 @@ ai_strategy_default = {
 				this = c:SWI
             }
             multiply = 0.1
+        }
+
+		# AI Metternich is not inclined to go off on military adventures
+		if = {
+			limit = {
+				c:AUS ?= this
+				has_journal_entry = je_metternich
+			}
+            multiply = 0.5
         }
 
         # Isolationist Paraguay under Francia should not go awol.
@@ -3166,7 +3685,9 @@ ai_strategy_default = {
 
 		add = {
 			value = investment_pool_income
-			divide = 1000 # 1 construction output per this much into the investment pool
+			subtract = 7500 # So small nations don't overshoot early on
+			divide = 750 # 1 construction output per this much into the investment pool
+			min = 0
 		}
 
 		add = {
@@ -3235,7 +3756,6 @@ ai_strategy_default = {
 		}
 
 		min = 10
-		max = 1000
 	}
 
 	# How many levels of barracks should the AI have
@@ -3356,8 +3876,18 @@ ai_strategy_default = {
 		}
 
 		if = {
-			limit = { has_law = law_type:law_national_militia }
+			limit = { has_law_or_variant = law_type:law_national_militia }
 			multiply = 0.33
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_journal_entry = je_prussia_of_the_balkans
+					has_strategy = ai_strategy_prussia_of_the_balkans
+				}
+			}
+			multiply = 2.5
 		}
 
 
@@ -3374,35 +3904,29 @@ ai_strategy_default = {
 			multiply = 0.75
 		}
 
+		min = {
+			value = 1
+
 		if = {
 			limit = {
 				has_journal_entry = je_sick_man_army
 			}
-			min = 125
+				multiply = 125
 		}
-		max = {
-			value = 500
+			if = { #if Mon is raiding, troops pay for themselves and are the countries main source of income
+				limit = {
+					has_journal_entry = je_montenegrin_raiding
+				}
+				multiply = 20
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_prussia_of_the_balkans
+				}
+				multiply = 35
+			}
+				}
 
-			if = {
-				limit = {
-					has_technology_researched = logistics
-				}
-				multiply = 1.25
-			}
-			if = {
-				limit = {
-					has_technology_researched = enlistment_offices
-				}
-				multiply = 1.25
-			}
-			if = {
-				limit = {
-					has_technology_researched = war_propaganda
-				}
-				multiply = 1.25
-			}
-		}
-		min = 1
 	}
 
 	# How many levels of naval base should the AI have
@@ -3514,8 +4038,12 @@ ai_strategy_default = {
 			multiply = 0.25
 		}
 
-		max = 500
-		min = 0
+		if = {
+			limit = {
+				has_journal_entry = je_hawaii
+			}
+			min = 25
+		}
 	}
 
 	# Set the weights for combat unit groups, this determines the ratio that the AI aims to have of each, and thus what unit types it adds to formations
@@ -3546,15 +4074,15 @@ ai_strategy_default = {
 			}
 
 			if = {
-				limit = { has_law = law_type:law_peasant_levies }
+				limit = { has_law_or_variant = law_type:law_peasant_levies }
 				multiply = 0.5
 			}
 			else_if = {
-				limit = { has_law = law_type:law_national_militia }
+				limit = { has_law_or_variant = law_type:law_national_militia }
 				multiply = 0.75
 			}
 			else_if = {
-				limit = { has_law = law_type:law_professional_army }
+				limit = { has_law_or_variant = law_type:law_professional_army }
 				multiply = 1.25
 			}
 		}
@@ -3566,15 +4094,15 @@ ai_strategy_default = {
 			}
 
 			if = {
-				limit = { has_law = law_type:law_national_militia }
+				limit = { has_law_or_variant = law_type:law_national_militia }
 				multiply = 0.5
 			}
 			else_if = {
-				limit = { has_law = law_type:law_professional_army }
+				limit = { has_law_or_variant = law_type:law_professional_army }
 				multiply = 1.25
 			}
 			else_if = {
-				limit = { has_law = law_type:law_peasant_levies }
+				limit = { has_law_or_variant = law_type:law_peasant_levies }
 				multiply = 1.5
 			}
 		}
@@ -3612,15 +4140,15 @@ ai_strategy_default = {
 	conscript_battalion_ratio = {
 		value = 0.5
 		if = {
-			limit = { has_law = law_type:law_national_militia }
+			limit = { has_law_or_variant = law_type:law_national_militia }
 			add = 2.5
 		}
 		else_if = {
-			limit = { has_law = law_type:law_peasant_levies }
+			limit = { has_law_or_variant = law_type:law_peasant_levies }
 			add = 0.5
 		}
 		else_if = {
-			limit = { has_law = law_type:law_mass_conscription }
+			limit = { has_law_or_variant = law_type:law_mass_conscription }
 			add = 0.5
 		}
 
@@ -3665,7 +4193,7 @@ ai_strategy_default = {
 
 		if = {
 			limit = {
-				has_law = law_type:law_command_economy
+				has_law_or_variant = law_type:law_command_economy
 			}
 
 			add = 100
@@ -3696,7 +4224,7 @@ ai_strategy_default = {
 		small_arms = {
 			stance = wants_high_supply
 			trigger = {
-				has_technology_researched = napoleonic_warfare
+				has_technology_researched = line_infantry
 			}
 		}
 		artillery = {
@@ -3772,7 +4300,7 @@ ai_strategy_default = {
 			trigger = {
 				has_technology_researched = centralization
 				total_population >= 1000000
-				NOT = { has_law = law_type:law_traditionalism }
+				NOT = { has_law_or_variant = law_type:law_traditionalism }
 			}
 		}
 		electricity = {
@@ -3852,6 +4380,43 @@ ai_strategy_default = {
 		}
 	}
 
+	# How much does the AI want to liberate a specific tag, added to the wargoal score calculation for liberate_country
+	# Using this value in other strategies will function additively
+	# root = liberator
+	# scope:target = oppressor
+	liberate_country_scores = {
+		HOL = {
+			if = {
+				limit = {
+					wants_to_solve_schleswig_holstein = yes
+					scope:target_country = {
+						is_oppressor_of_schleswig_holstein = yes
+					}
+					can_reach_target_country = no
+				}
+				add = 100
+			}
+		}
+		BUL = {
+			# Russia is inclined to want to release Bulgaria
+			if = {
+				limit = {
+					c:RUS ?= this
+				}
+				add = 200
+			}
+			if = { #especially during Eastern Crisis
+				limit = {
+					has_journal_entry = je_eastern_question_russia
+					scope:target_country = {
+						has_journal_entry = je_great_eastern_crisis
+					}
+				}
+				add = 300
+			}
+		}
+	}
+
 	# How important is it that the AI maintains an interest in a specific strategic region (added on top of region value calculations set in defines)
 	# Using this value in other strategies will function additively
 	strategic_region_scores = {
@@ -3924,7 +4489,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					exists = c:JAP
-					c:JAP = { has_law = law_type:law_isolationism }
+					c:JAP = { has_law_or_variant = law_type:law_isolationism }
 					NOT = { country_rank = rank_value:great_power }
 				}
 				add = -50
@@ -4111,6 +4676,13 @@ ai_strategy_default = {
 				}
 				add = 50
 			}
+			if = { # Russia cares more than anyone else
+				limit = {
+					c:RUS ?= this
+					country_rank >= rank_value:great_power
+				}
+				add = 1000
+			}
 		}
 		region_england = {
 			if = {
@@ -4290,18 +4862,29 @@ ai_strategy_default = {
 	}
 
 	# How likely should the AI be to have a particular strategic desire towards another country
+	# Trigger is used for filtering, so if it fails score will always be 0 from this strategy
 	# Using this value in other strategies will function additively
 	# scope:target_country = target country
 	secret_goal_scores = {
 		none = {
-			value = 0
+			trigger = {
+				NOT = { has_subject_relation_with = scope:target_country }
+			}
+			score = {
+				value = 150
 
-			if = {
+				if = { # Monarchist Austria really does not want revolutions or secessions
 				limit = {
-					scope:target_country = { NOT = { is_subject_of = root } }
-					root = { NOT = { is_subject_of = scope:target_country } }
+						c:AUS ?= this
+						has_law_or_variant = law_type:law_monarchy
+						scope:target_country = {
+							OR = {
+								is_revolutionary = yes
+								is_secessionist = yes
+							}
+						}
 				}
-				add = 150
+					add = 500
 			}
 
 			# Minor german states shouldn't have far-reaching diplomatic ambitions
@@ -4318,8 +4901,6 @@ ai_strategy_default = {
 							country_has_primary_culture = cu:south_german
 						}
 					}
-					scope:target_country = { NOT = { is_subject_of = root } }
-					root = { NOT = { is_subject_of = scope:target_country } }
 					NOT = { is_adjacent_to_country = scope:target_country }
 				}
 				add = 1000
@@ -4328,7 +4909,7 @@ ai_strategy_default = {
 			# Large isolationist countries should ignore the world
 			if = {
 				limit = {
-					has_law = law_type:law_isolationism
+						has_law_or_variant = law_type:law_isolationism
 					gdp >= 5000000
 				}
 				add = 10000
@@ -4339,10 +4920,48 @@ ai_strategy_default = {
 					country_rank = scope:target_country.country_rank
 				}
 				multiply = 0.5
+				}
 			}
 		}
 		befriend = {
+			trigger = {
+				# Don't befriend large isolationist powers
+				NOT = {
+					scope:target_country = {
+						has_law_or_variant = law_type:law_isolationism
+						gdp >= 5000000
+					}
+				}
+
+				# Monarchist Austria really does not want to help revolutions or secessions
+				NAND = {
+					c:AUS ?= this
+					has_law_or_variant = law_type:law_monarchy
+					scope:target_country = {
+						OR = {
+							is_revolutionary = yes
+							is_secessionist = yes
+						}
+					}				
+				}				
+			}
+		
+			score = {
 			value = 200
+
+				if = {
+					limit = {
+						has_journal_entry = je_the_grand_collapse
+						any_subject_or_below = {
+							count >= 1
+						}
+						scope:target_country = {
+							relations:root <= relations_threshold:cordial
+							is_subject_of = root
+						}
+					}
+					add = 500
+				}
 
 			if = {
 				limit = {
@@ -4487,7 +5106,7 @@ ai_strategy_default = {
 					exists = c:SPA
 					scope:target_country = {
 						c:SPA = this
-						has_law = law_type:law_monarchy
+							has_law_or_variant = law_type:law_monarchy
 					}
 				}
 				multiply = 1.5
@@ -4549,24 +5168,10 @@ ai_strategy_default = {
 				}
 				multiply = 0.0
 			}
-
-			# Don't befriend large isolationist powers
-			if = {
-				limit = {
-					scope:target_country = {
-						has_law = law_type:law_isolationism
-						gdp >= 5000000
-					}
-				}
-
-				multiply = 0
 			}
 		}
 		reconcile = {
-			value = 0
-
-			if = {
-				limit = {
+			trigger = {
 					OR = {
 						has_diplomatic_pact = {
 							who = scope:target_country
@@ -4575,9 +5180,14 @@ ai_strategy_default = {
 						scope:target_country = { relations:root <= relations_threshold:poor }
 					}
 
+				# Don't reconcile with your oppressors while civil war is ongoing
+				is_insurrectionary = no
+			
+				# Historical enemies shouldn't start as conciliatory unless we explicitly script this in history
+				game_date >= 1836.1.2			
 				}
-
-				add = 100
+			score = {
+				value = 100
 
 				if = {
 					limit = {
@@ -4605,7 +5215,6 @@ ai_strategy_default = {
 					}
 
 					add = 200
-				}
 			}
 
 			if = {
@@ -4622,8 +5231,16 @@ ai_strategy_default = {
 						country_has_primary_culture = cu:colombian
 						country_has_primary_culture = cu:ecuadorian
 					}
+						NOT = { has_variable = befriend_bolivia }
 				}
 				add = -50
+
+					if = {
+						limit = {
+							has_variable = attack_bolivia
+						}
+						multiply = 5
+					}
 			}
 
 			multiply = {
@@ -4749,27 +5366,60 @@ ai_strategy_default = {
 				}
 				multiply = 5
 			}
-
-			# Historical enemies shouldn't start as conciliatory unless we explicitly script this in history
-			if = {
-				limit = {
-					game_date < 1836.1.2
-				}
-				multiply = 0
 			}
 		}
 		protect = {
-			value = 0
+			trigger = {
+				OR = {
+					country_rank = rank_value:great_power
+					has_strategic_adjacency = scope:target_country
+					AND = {
+						country_rank >= rank_value:major_power
+						scope:target_country = { is_country_type = unrecognized }
+					}
+				}	
 
-			if = {
-				limit = {
+				# Don't protect your overlord
+				NOT = { is_subject_of = scope:target_country }
+				
+				# Don't protect enemies
+				scope:target_country = { relations:root > relations_threshold:poor }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:target_country
+						type = rivalry
+					}	
+				}						
+
+				# Don't protect large isolationist powers
+				NOT = {
+					scope:target_country = {
+						has_law_or_variant = law_type:law_isolationism
+						gdp >= 5000000
+					}
+				}		
+
+				# Valid target for protection?
 					OR = {
 						country_rank > scope:target_country.country_rank
 						scope:target_country = { is_subject_of = root }
-					}
+					has_je_protect_reason = { TARGET = scope:target_country }
 				}
-				add = 200
+				
+				# Monarchist Austria really does not want to help revolutions or secessions
+				NAND = {
+					c:AUS ?= this
+					has_law_or_variant = law_type:law_monarchy
+					scope:target_country = {
+						OR = {
+							is_revolutionary = yes
+							is_secessionist = yes
+						}
+					}				
+				}
 			}
+			score = {
+				value = 200
 
 			if = {
 				limit = {
@@ -4862,7 +5512,7 @@ ai_strategy_default = {
 					exists = c:PAP
 					scope:target_country = {
 						c:PAP = this
-						has_law = law_type:law_theocracy
+							has_law_or_variant = law_type:law_theocracy
 					}
 				}
 				multiply = 1.5
@@ -4903,54 +5553,25 @@ ai_strategy_default = {
 				}
 				multiply = 2.5
 			}
-
-			if = {
-				limit = {
-					OR = {
-						has_diplomatic_pact = {
-							who = scope:target_country
-							type = rivalry
-						}
-						scope:target_country = { relations:root <= relations_threshold:poor }
-					}
-				}
-				multiply = 0.0
-			}
-
-			if = {
-				limit = {
-					NOR = {
-						country_rank = rank_value:great_power
-						has_strategic_adjacency = scope:target_country
-						AND = {
-							country_rank >= rank_value:major_power
-							scope:target_country = { is_country_type = unrecognized }
-						}
-					}
-				}
-				multiply = 0.0
-			}
-
-			if = {
-				limit = {
-					is_subject_of = scope:target_country
-				}
-				multiply = 0.0
-			}
-
-			# Don't protect large isolationist powers
-			if = {
-				limit = {
-					scope:target_country = {
-						has_law = law_type:law_isolationism
-						gdp >= 5000000
-					}
-				}
-
-				multiply = 0
 			}
 		}
 		antagonize = {
+			trigger = {
+				NOT = { scope:target_country = { is_subject_of = root } }
+
+				# Countries scripted to have a friendly pact or same power bloc shouldn't start with hostile goals
+				NAND = {
+					game_date < 1836.1.2
+					OR = {
+						is_in_same_power_bloc = scope:target_country
+						has_friendly_diplomatic_pact = { TARGET = scope:target_country }
+				}
+			}
+
+				# Be nice to tutorial players
+				scope:target_country = { is_still_learning = no }
+		}
+			score = {
 			value = 0
 
 			if = {
@@ -5008,6 +5629,25 @@ ai_strategy_default = {
 				}
 				add = 100
 			}
+				
+				if = {
+					limit = {
+						THIS = {
+							has_journal_entry = je_risorgimento
+						}
+						scope:target_country = {
+							any_scope_state = {
+								state_region = {
+									OR = {
+										is_homeland = cu:north_italian
+										is_homeland = cu:south_italian
+									}
+								}
+							}
+						}
+					}
+					add = 50
+				}			
 
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"
@@ -5055,13 +5695,6 @@ ai_strategy_default = {
 					has_game_rule = low_ai_aggression
 				}
 				multiply = 1.25 # Yes, this is actually intended to be an increase - it's to partially compensate for lowered conquer/dominate desires
-			}
-
-			if = {
-				limit = {
-					scope:target_country = { is_subject_of = root }
-				}
-				multiply = 0.0
 			}
 
 			if = {
@@ -5128,44 +5761,26 @@ ai_strategy_default = {
 				}
 				multiply = 2
 			}
-
-			if = {
-				limit = {
-					THIS = {
-						has_journal_entry = je_risorgimento
-					}
-					scope:target_country = {
-						any_scope_state = {
-							state_region = {
-								OR = {
-									is_homeland = cu:north_italian
-									is_homeland = cu:south_italian
-								}
-							}
-						}
-					}
-				}
-				add = 50
 			}
+		}
+		conquer = {
+			trigger = {
+				can_reach_target_country = yes
+				NOT = { is_subject_of = scope:target_country }
 
-			if = {
-				limit = { scope:target_country = { is_still_learning = yes } }
-				multiply = 0
-			}
+				# Be nice to tutorial players
+				scope:target_country = { is_still_learning = no }
 
 			# Countries scripted to have a friendly pact or same power bloc shouldn't start with hostile goals
-			if = {
-				limit = {
+				NAND = {
 					game_date < 1836.1.2
 					OR = {
 						is_in_same_power_bloc = scope:target_country
 						has_friendly_diplomatic_pact = { TARGET = scope:target_country }
 					}
 				}
-				multiply = 0
 			}
-		}
-		conquer = {
+			score = {
 			value = 0
 
 			if = {
@@ -5311,6 +5926,41 @@ ai_strategy_default = {
 					multiply = 0.1
 				}
 			}
+
+				# Second Balkan War, pitting the balkan nations against each other
+				if = {
+					limit = {
+						has_journal_entry = je_spoils_of_war
+						scope:target_country = {
+							sr:region_balkans = {
+							any_scope_state = {
+								is_homeland_of_country_cultures = root
+								has_claim_by = root
+								}
+							}
+						}
+					}
+					
+					add = 10000
+				}
+
+				# Second Balkan War, pitting the balkan nations against each other (Wallachia)
+				if = {
+					limit = {
+						has_journal_entry = je_spoils_of_war
+						country_has_primary_culture = cu:romanian
+						scope:target_country = {
+							country_rank <= rank_value:minor_power
+							any_scope_state = {
+								is_homeland_of_country_cultures = root
+								has_claim_by = root
+							}
+						}
+					}
+					
+					add = 10000
+				}
+
 			if = { # Britain consolidating South Africa
 				limit = {
 					country_has_primary_culture = cu:british
@@ -5339,7 +5989,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
+						has_law_or_variant = law_type:law_national_supremacy
 					has_technology_researched = nationalism
 					scope:target_country = {
 						OR = {
@@ -5471,39 +6121,43 @@ ai_strategy_default = {
 				}
 				multiply = 0.25
 			}
-
-			if = {
-				limit = {
-					can_reach_target_country = no
-				}
-				multiply = 0.0
 			}
+		}
 
-			if = {
-				limit = {
-					is_subject_of = scope:target_country
-				}
-				multiply = 0.0
-			}
+		dominate = {
+			trigger = {
+				OR = {
+					country_rank = rank_value:great_power
+					has_strategic_adjacency = scope:target_country
+					AND = {
+						country_rank >= rank_value:major_power
+						scope:target_country = { is_country_type = unrecognized }
+					}
+				}					
+				can_reach_target_country = yes
+				NOT = { is_subject_of = scope:target_country }
+				
+				# AI shouldn't be aggressive against subjects of their subjects
+				NOT = {
+					scope:target_country = {
+						is_subject_of = root
+						NOT = { is_direct_subject_of = root }
+					}
+				}				
 
-			if = {
-				limit = { scope:target_country = { is_still_learning = yes } }
-				multiply = 0
-			}
+				# Be nice to tutorial players
+				scope:target_country = { is_still_learning = no }
 
 			# Countries scripted to have a friendly pact or same power bloc shouldn't start with hostile goals
-			if = {
-				limit = {
+				NAND = {
 					game_date < 1836.1.2
 					OR = {
 						is_in_same_power_bloc = scope:target_country
 						has_friendly_diplomatic_pact = { TARGET = scope:target_country }
 					}
 				}
-				multiply = 0
 			}
-		}
-		dominate = {
+			score = {
 			value = 0
 
 			if = {
@@ -5704,7 +6358,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
+						has_law_or_variant = law_type:law_national_supremacy
 					has_technology_researched = nationalism
 					scope:target_country = {
 						OR = {
@@ -5812,55 +6466,6 @@ ai_strategy_default = {
 				}
 				multiply = 1.5
 			}
-
-			if = {
-				limit = {
-					NOR = {
-						country_rank = rank_value:great_power
-						has_strategic_adjacency = scope:target_country
-						AND = {
-							country_rank >= rank_value:major_power
-							scope:target_country = { is_country_type = unrecognized }
-						}
-					}
-				}
-				multiply = 0.0
-			}
-
-			if = {
-				limit = {
-					is_subject_of = scope:target_country
-				}
-				multiply = 0.0
-			}
-
-			# AI shouldn't be aggressive against subjects of subjects
-			if = {
-				limit = {
-					scope:target_country = {
-						is_subject_of = root
-						NOT = { is_direct_subject_of = root }
-					}
-				}
-				multiply = 0.0
-			}
-
-			if = {
-				limit = { scope:target_country = { is_still_learning = yes } }
-				multiply = 0
-			}
-
-			# Countries scripted to have a friendly pact, historical overlord status or same power bloc shouldn't start with randomly generated hostile goals
-			if = {
-				limit = {
-					game_date < 1836.1.2
-					OR = {
-						is_in_same_power_bloc = scope:target_country
-						has_friendly_diplomatic_pact = { TARGET = scope:target_country }
-						scope:target_country = { is_subject_of = root }
-					}
-				}
-				multiply = 0
 			}
 		}
 	}
@@ -5926,6 +6531,16 @@ ai_strategy_default = {
 				add = scope:target_state.ai_state_value:root
 			}
 
+			if = {
+				limit = {
+					has_journal_entry = je_war_of_the_confederation
+					scope:target_country = {
+						has_journal_entry = je_peru_bolivia
+					}
+				}
+				multiply = 0
+			}
+
 			min = 0
 			max = 100
 		}
@@ -5986,6 +6601,19 @@ ai_strategy_default = {
 		}
 
 		make_protectorate = {
+
+			if = { #TUR should want to invade MON
+				limit = {
+					has_journal_entry = je_tur_raided
+					scope:target_country = {
+						has_journal_entry = je_montenegrin_raiding
+					}
+				}
+				add = {
+					add = 20
+					multiply = raiding_level
+				}
+			}
 
 			if = {
 				limit = {
@@ -6090,7 +6718,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
+					has_law_or_variant = law_type:law_national_supremacy
 					has_technology_researched = nationalism
 					scope:target_country = {
 						OR = {
@@ -6106,7 +6734,18 @@ ai_strategy_default = {
 		}
 
 		humiliation = {
-			value = 25
+			value = 0
+
+			if = {
+				limit = {
+					has_diplomatic_pact = {
+						who = scope:target_country
+						type = rivalry
+					}
+				}
+
+				add = 5
+			}
 		}
 
 		join_power_bloc = {
@@ -6476,34 +7115,6 @@ ai_strategy_default = {
 				}
 			}
 
-			if = {
-				limit = {
-					wants_to_solve_schleswig_holstein = yes
-					exists = c:HOL
-					scope:target_country = { this = c:HOL }
-					can_reach_target_country = yes
-				}
-				add = 150
-			}
-
-			if = {
-				limit = {
-					scope:target_country = {
-						has_journal_entry = je_peru_bolivia
-					}
-					OR = {
-						country_has_primary_culture = cu:south_andean
-						country_has_primary_culture = cu:north_andean
-						country_has_primary_culture = cu:platinean
-						country_has_primary_culture = cu:argentine
-						country_has_primary_culture = cu:chilean
-						country_has_primary_culture = cu:colombian
-						country_has_primary_culture = cu:ecuadorian
-					}
-				}
-				add = 75
-			}
-
 			# Relations with subject
 			multiply = {
 				value = "scope:target_country.relations:root"
@@ -6524,10 +7135,41 @@ ai_strategy_default = {
 
 			min = 0
 			max = 100
+
+			if = {
+				limit = {
+					wants_to_solve_schleswig_holstein = yes
+					exists = c:HOL
+					scope:target_country = { this = c:HOL }
+					can_reach_target_country = yes
+				}
+				add = 150
+			}
+
+			if = {
+				limit = {
+					scope:target_country = {
+						has_journal_entry = je_peru_bolivia
+					}
+					OR = {
+						has_journal_entry = je_war_of_the_confederation
+						country_has_primary_culture = cu:south_andean
+						country_has_primary_culture = cu:north_andean
+						country_has_primary_culture = cu:platinean
+						country_has_primary_culture = cu:argentine
+						country_has_primary_culture = cu:chilean
+						country_has_primary_culture = cu:colombian
+						country_has_primary_culture = cu:ecuadorian
+					}
+				}
+				add = 1000
+			}
 		}
 
 		liberate_country = {
 			value = 0
+
+			# If there is a custom value scripted for the tag to be liberated in liberate_country_scores, that value is automatically added to the score here
 
 			if = {
 				limit = {
@@ -6551,16 +7193,6 @@ ai_strategy_default = {
 					}
 					add = 25
 				}
-			}
-
-			if = {
-				limit = {
-					wants_to_solve_schleswig_holstein = yes
-					exists = c:HOL
-					scope:target_country = { this = c:HOL }
-					can_reach_target_country = no
-				}
-				add = 100
 			}
 
 			# Relations with target

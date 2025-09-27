@@ -82,6 +82,22 @@
 			country = c:KRA
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = crown_land
+		}
+		create_diplomatic_pact = {
+			country = c:TRS
+			type = crown_land
+		}
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = crown_land
+		}
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = decrease_payments  
+		}
 	}
 	c:USA ?= {
 		create_diplomatic_pact = {
@@ -504,6 +520,11 @@
 			country = c:MLD
 			type = protectorate
 		}
+		# Colony of Ceylon
+		create_diplomatic_pact = {
+			country = c:BCE
+			type = colony
+		}
 	}
 
 	c:BOL ?= {
@@ -528,6 +549,13 @@
 		}
 	}
 	
+	c:KAL = {
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = vassal
+		}
+	}
+
 	
 	# Starting liberty desire
 	c:PEC = {
@@ -599,14 +627,19 @@
 	}
 
 	c:EGY = {
-		add_liberty_desire = 90
+		add_liberty_desire = 45
 	}
 
+	c:CAM ?= {
+		add_liberty_desire = 20
+	}
 
-	c:EIC ?= {
-		every_subject_or_below = {
-			add_liberty_desire = -20
+	c:NPU = {
+		add_liberty_desire = 30
 		}
+
+	c:IQU = {
+		add_liberty_desire = -10
 	}
 	c:PEC ?= {
 		every_subject_or_below = {
@@ -618,6 +651,18 @@
 				
 				}
 			}
+		}
+	}
+	c:PAN ?= {
+		create_diplomatic_pact = {
+			country = c:KAS
+			type = vassal
+		}
+	}
+	c:BUR ?= {
+		create_diplomatic_pact = {
+			country = c:SHS
+			type = vassal
 		}
 	}
 }

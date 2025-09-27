@@ -1,7 +1,9 @@
 ﻿Baltic= {
 	color= hsv{ 0.96 0.59 0.63 }
 	religion = protestant
-	traits = { baltic_culture_group finnic european_heritage }
+	heritage = heritage_baltic
+	language = language_baltic
+	traditions = { }
 	male_common_first_names = {
 		Aaron
 		Abrams
@@ -197,10 +199,12 @@
 	graphics = european
 }
 
-Finno-Ugric = {
+FinnoUgric = {
 	color= hsv{ 0.50 0.32 0.62 }
 	religion = orthodox
-	traits = { finnic european_heritage }
+	heritage = heritage_nordic
+	language = language_finnic
+	traditions = { }
 	male_common_first_names = {
 		Aleksandr
 		Dmitri
@@ -243,7 +247,9 @@ Finno-Ugric = {
 South_Slavic ={
 	color= hsv{ 0.97 0.26 0.58 }
 	religion = orthodox
-	traits = { otomanosphere european_heritage }
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	traditions = { otomanosphere }
 	male_common_first_names={
 		Alaksandar
 		Arsenije

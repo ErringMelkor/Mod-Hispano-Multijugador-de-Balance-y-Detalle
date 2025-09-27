@@ -9,7 +9,7 @@ law_outlawed_dissent = {
 	progressiveness = -50
 	
 	modifier = {
-		country_authority_add = 400
+		country_authority_add = 450
 		country_bolster_attraction_factor = 0.6
 		country_suppression_attraction_factor = -0.6
 		country_tech_spread_mult = -0.1
@@ -37,7 +37,7 @@ law_censorship = {
 	progressiveness = 0
 	
 	modifier = {
-		country_authority_add = 150
+		country_authority_add = 200
 		country_bolster_attraction_factor = 0.4
 		country_suppression_attraction_factor = -0.4
 		country_tech_spread_mult = -0.05

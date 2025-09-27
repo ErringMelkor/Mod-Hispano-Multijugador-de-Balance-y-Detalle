@@ -1,4 +1,4 @@
-
+﻿
 
 je_the_eastern_border = {
     icon = "gfx/interface/icons/event_icons/expansion.dds"

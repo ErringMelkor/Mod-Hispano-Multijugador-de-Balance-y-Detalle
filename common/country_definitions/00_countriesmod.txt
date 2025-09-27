@@ -58,16 +58,6 @@ SHW = {
 	cultures = { amhara oromo Etiope }
 	capital = STATE_OROMIA
 }
-RAX = {
-	color = { 42 183 181 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { vietnamese }
-	capital = STATE_TONKIN
-}
 
 DLH = {
 	color = { 33 96 48 }
@@ -100,7 +90,7 @@ NHA = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { manchu } 
 	religion = confucian
@@ -115,11 +105,26 @@ SON = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { yue } 
 	religion = mahayana
 	capital = STATE_GUANGDONG
+	primary_unit_color = { 159 196 221 }
+    secondary_unit_color  = { 252 247 149 }
+    tertiary_unit_color = { 64 64 64 }
+}
+
+YUA = {
+	color = { 4 35 125 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { han manchu yue yi tibetan uighur mongol } 
+	religion = mahayana
+	capital = STATE_JIANGSU
 	primary_unit_color = { 159 196 221 }
     secondary_unit_color  = { 252 247 149 }
     tertiary_unit_color = { 64 64 64 }

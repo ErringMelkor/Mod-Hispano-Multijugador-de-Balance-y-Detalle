@@ -1,0 +1,53 @@
+﻿company_east_indies_trading_company = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/suez_company.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	
+	building_types = {
+		building_trade_center
+		building_port
+	}
+
+	extension_building_types = {
+		building_shipyards
+	}
+	
+	potential = {
+		OR = {
+			has_interest_marker_in_region = region_north_china
+        	has_interest_marker_in_region = region_south_china
+        	has_interest_marker_in_region = region_manchuria
+        	has_interest_marker_in_region = region_japan
+		}
+	}
+
+    attainable = {
+	}
+
+	possible = {
+        any_country = {
+            country_rank >= rank_value:great_power
+        }
+		any_scope_state = {
+            OR = {
+                region = sr:region_north_china
+                region = sr:region_south_china
+                region = sr:region_manchuria
+                region = sr:region_japan
+            }
+			is_treaty_port = yes
+            any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_trade_advantage_mult = 0.1
+        country_max_companies_add = 1
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}

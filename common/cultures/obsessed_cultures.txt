@@ -1,7 +1,9 @@
 ﻿yankee={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = protestant
-	traits = { anglophone european_heritage }
+	heritage = heritage_north_american_settler
+	language = language_anglophone
+	traditions = { }
 
 	obsessions = {
 		coffee
@@ -131,7 +133,9 @@
 dixie={
 	color=rgb{ 204 154 91 } # Butternut
 	religion = protestant
-	traits = { anglophone european_heritage }
+	heritage = heritage_north_american_settler
+	language = language_anglophone
+	traditions = { }
 
 	obsessions = {
 		tobacco
@@ -254,7 +258,9 @@ dixie={
 brazilian={
 	color= hsv{ 0.50 0.53 0.40 }
 	religion = catholic
-	traits = { lusophone european_heritage }
+	heritage = heritage_latin_american_settler
+	language = language_lusophone
+	traditions = { }
 
 	obsessions = {
 		coffee
@@ -392,7 +398,9 @@ brazilian={
 russian={
 	color= hsv{ 0.35 0.40 0.37 }
 	religion = orthodox
-	traits = { east_slavic european_heritage }
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	traditions = { tradition_russosphere }
 
 	obsessions = {
 		liquor
@@ -508,7 +516,9 @@ russian={
 byelorussian={
 	color= hsv{ 0.37 0.28 0.54 }
 	religion = orthodox
-	traits = { east_slavic european_heritage }
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	traditions = { }
 
 	obsessions = {
 		tea
@@ -589,7 +599,9 @@ byelorussian={
 ukrainian={
 	color= hsv{ 0.16 0.32 0.62 }
 	religion = orthodox
-	traits = { east_slavic european_heritage }
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	traditions = { }
 
 	obsessions = {
 		liquor
@@ -680,7 +692,9 @@ ukrainian={
 polish={
 	color= hsv{ 0 0.22 0.5 }
 	religion = catholic
-	traits = { west_slavic european_heritage }
+	heritage = heritage_west_slavic
+	language = language_west_slavic
+	traditions = { }
 
 	obsessions = {
 		liquor

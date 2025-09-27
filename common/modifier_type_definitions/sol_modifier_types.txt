@@ -80,7 +80,7 @@ state_Baltic_standard_of_living_add={
 	}
 }
 
-state_Finno-Ugric_standard_of_living_add={
+state_FinnoUgric_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

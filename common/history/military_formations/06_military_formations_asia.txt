@@ -85,6 +85,7 @@
 			historical = yes
 			birth_date = 1802.5.7
 			hq = region_north_china
+			culture = cu:manchu
 			interest_group = ig_landowners
 			commander_rank = commander_rank_4
 			traits = {
@@ -164,6 +165,7 @@
 			historical = yes
 			birth_date = 1776.12.1
 			hq = region_south_china
+			culture = cu:han
 			interest_group = ig_intelligentsia
 			commander_rank = commander_rank_4
 			traits = {
@@ -181,6 +183,7 @@
 			historical = yes
 			birth_date = 1793.7.3
 			hq = region_south_china
+			culture = cu:han
 			interest_group = ig_intelligentsia
 			commander_rank = commander_rank_4
 			traits = {

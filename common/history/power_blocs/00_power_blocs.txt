@@ -15,7 +15,7 @@
 				has_dlc_feature = power_bloc_features
 			}
 			power_bloc = {
-				add_principle = principle_colonial_offices_2
+				add_principle = principle_colonial_focus_2
 			}
 		}
 	}
@@ -42,7 +42,7 @@
 				has_dlc_feature = power_bloc_features
 			}
 			power_bloc = {
-				add_principle = principle_defensive_cooperation_1
+				add_principle = principle_defensive_cooperation_focus_1
 			}
 		}
 	}
@@ -112,7 +112,7 @@
 				has_dlc_feature = power_bloc_features
 			}
 			power_bloc = {
-				add_principle = principle_defensive_cooperation_1
+				add_principle = principle_defensive_cooperation_focus_1
 			}
 		}
 	}
@@ -141,18 +141,6 @@
 			}
 		}
 	}
-
-	c:EIC = {
-		create_power_bloc = {
-			name = Patwarahi
-
-			map_color = { 237 204 40 }
-
-			founding_date = 1453.5.29
-			identity = identity_trade_league
-			principle = principle_external_trade_3
-		}
-	}
 	
 	# Mughal Empire
 	c:DLH = {
@@ -174,7 +162,7 @@
 				has_dlc_feature = power_bloc_features
 			}
 			power_bloc = {
-				add_principle = principle_defensive_cooperation_3
+				add_principle = principle_defensive_cooperation_focus_3
 			}
 		}
 	}

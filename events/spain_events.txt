@@ -40,8 +40,8 @@ mendizabal.1= {
 		name = mendizabal.1.b
 		trigger = {
 			OR = {
-				has_law = law_type:law_tenant_farmers
-				has_law = law_type:law_homesteading
+				has_law_or_variant = law_type:law_tenant_farmers
+				has_law_or_variant = law_type:law_homesteading
 			}
 		}
 
@@ -65,9 +65,9 @@ mendizabal.1= {
 		name = mendizabal.1.c
 
 		trigger = {
-			has_law = law_type:law_homesteading
+			has_law_or_variant = law_type:law_homesteading
 			NOT = {
-				has_law = law_type:law_oligarchy
+				has_law_or_variant = law_type:law_oligarchy
 			}
 		}
 

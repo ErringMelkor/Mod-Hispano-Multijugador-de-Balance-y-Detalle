@@ -219,7 +219,7 @@
 				size = 116076
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 145276
 			}
 			create_pop = {
@@ -283,11 +283,11 @@
 				size = 46043
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 15722
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 8794
 			}
 		}
@@ -307,7 +307,7 @@
 				size = 62827
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 67811
 			}
 			create_pop = {
@@ -453,7 +453,7 @@
 				size = 16451
 			}
 			create_pop = {
-				culture = Finno-Ugric
+				culture = FinnoUgric
 				size = 3581
 			}
 			create_pop = {
@@ -1492,28 +1492,6 @@
 			create_pop = {
 				culture = tibetan
 				size = 192008
-			}
-		}
-	}
-	s:STATE_EASTERN_HIMALAYAS = {
-		region_state:SIK = {
-			create_pop = {
-				culture = tibetan
-				size = 60301
-			}
-			create_pop = {
-				culture = nepali
-				size = 24091
-			}
-		}
-		region_state:BHU = {
-			create_pop = {
-				culture = tibetan
-				size = 140396
-			}
-			create_pop = {
-				culture = nepali
-				size = 16004
 			}
 		}
 	}

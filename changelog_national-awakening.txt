@@ -1,0 +1,9 @@
+Orden de cambios:
+	Map data
+	History
+	Culturas y religión
+	State Traits
+	Special Character Traits
+
+Erring:
+	Hay que revisar todo el sistema de cultura y religión, porque la agrupación y el código son nuevos/distintos, tanto para las culturas en si como los checks de trigger.

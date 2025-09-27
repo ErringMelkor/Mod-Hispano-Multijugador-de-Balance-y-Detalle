@@ -1,4 +1,4 @@
-﻿Namespace = five_year_plan
+﻿namespace = five_year_plan
 
 #este es el evento para mas larpeo jiji.
 #el five year plan .1 es el del rio amarillo, el .2 es el del rio yangtze o tambien conocido como rio azul

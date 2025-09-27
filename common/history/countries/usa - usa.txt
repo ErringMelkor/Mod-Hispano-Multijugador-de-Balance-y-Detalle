@@ -23,6 +23,8 @@
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_no_womens_rights # Women couldn't hold property until ~1839
+
+		add_modifier = usa_capital_intact
 		
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
@@ -39,12 +41,13 @@
 			level = 2
 		}
 
-		ig:ig_rural_folk = { # Andrew Jackson, Jacksonian Democracy & Populism
+		ig:ig_rural_folk ?= { # Andrew Jackson, Jacksonian Democracy & Populism
 			add_ruling_interest_group = yes
 		}
 
 		add_journal_entry = { type = je_texas_usa }
 		add_journal_entry = { type = je_acw_countdown }
+		add_journal_entry = { type = je_seminole_wars }
 
 		add_modifier = {
 			name = missouri_compromise
@@ -55,6 +58,7 @@
 		add_company = company_type:company_william_cramp
 		company:company_william_cramp = {
 			set_company_establishment_date = 1830.1.1
+			set_company_state_region = s:STATE_PENNSYLVANIA
 		}
 	}
 }

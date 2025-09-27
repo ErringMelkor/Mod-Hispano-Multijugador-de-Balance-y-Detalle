@@ -40,8 +40,8 @@ madoz.1 = {
 		name = madoz.1.b
 		trigger = {
 			OR = {
-				has_law = law_type:law_tenant_farmers
-				has_law = law_type:law_homesteading
+				has_law_or_variant = law_type:law_tenant_farmers
+				has_law_or_variant = law_type:law_homesteading
 			}
 		}
 
@@ -75,10 +75,10 @@ madoz.1 = {
 		name = madoz.1.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_homesteading
+				has_law_or_variant = law_type:law_homesteading
 			}
 			NOT = {
-				has_law = law_type:law_oligarchy
+				has_law_or_variant = law_type:law_oligarchy
 			}
 		}
 
@@ -134,9 +134,9 @@ madoz.1 = {
 		name = madoz.1.i
 		trigger = {
 			OR = {
-				has_law = law_type:law_laissez_faire
-				has_law = law_type:law_wealth_voting
-				has_law = law_type:law_free_trade
+				has_law_or_variant = law_type:law_laissez_faire
+				has_law_or_variant = law_type:law_wealth_voting
+				has_law_or_variant = law_type:law_free_trade
 			}
 		}
 

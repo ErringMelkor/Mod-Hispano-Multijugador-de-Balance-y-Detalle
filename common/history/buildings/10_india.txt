@@ -67,9 +67,9 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:BGL"
+						country = "c:DLH"
 						levels = 1
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -82,7 +82,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 1
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -95,7 +95,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_BIHAR"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -211,7 +211,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 					building = {
 						type = "building_manor_house"
@@ -230,7 +230,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 					building = {
 						type = "building_manor_house"
@@ -273,7 +273,7 @@
 						type = "building_financial_district"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -286,7 +286,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 3
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -299,7 +299,7 @@
 						type = "building_manor_house"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 					building = {
 						type = "building_manor_house"
@@ -415,7 +415,7 @@
 						type = "building_logging_camp"
 						country = "c:DLH"
 						levels = 2
-						region = "STATE_WEST_BENGAL"
+						region = "STATE_DELHI"
 					}
 				}
 				reserves = 1
@@ -975,19 +975,6 @@
 			}
 		}
 		region_state:KUT= {
-			create_building = {
-				building = "building_fishing_wharf"
-				add_ownership = {
-					building = {
-						type = "building_fishing_wharf"
-						country = "c:KUT"
-						levels = 1
-						region = "STATE_GUJARAT"
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_simple_fishing" "pm_unrefrigerated" }
-			}
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
@@ -1835,7 +1822,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:DLH"
+						country = "c:MYS"
 						levels = 2
 						region = "STATE_MYSORE"
 					}
@@ -2269,7 +2256,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 3
 					}
 				}
@@ -2280,7 +2267,7 @@
 				building = "building_artillery_foundries"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 1
 					}
 				}
@@ -2292,7 +2279,7 @@
 				add_ownership = {
 					building = {
 						type = "building_fishing_wharf"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2304,7 +2291,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 2
 					}
 				}
@@ -2316,7 +2303,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 6
 						region = "STATE_BOMBAY"
 					}

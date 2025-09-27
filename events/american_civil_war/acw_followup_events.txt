@@ -252,7 +252,7 @@ acw_followup_events.4 = {
 				strata = upper
 			}
 			add_radicals_in_state = {
-				value = 0.25
+				value = 0.5
 				culture = cu:dixie
 				strata = middle
 			}
@@ -276,7 +276,7 @@ acw_followup_events.4 = {
 		scope:land_redistribution_state = {
 			add_radicals_in_state = {
 				culture = cu:afro_american
-				value = 0.15
+				value = 0.25
 			}
 			add_loyalists_in_state = {
 				value = 0.5
@@ -284,7 +284,7 @@ acw_followup_events.4 = {
 				strata = upper
 			}
 			add_loyalists_in_state = {
-				value = 0.15
+				value = 0.25
 				culture = cu:dixie
 				strata = middle
 			}
@@ -358,7 +358,7 @@ acw_followup_events.5 = {
 				strata = upper
 			}
 			add_radicals_in_state = {
-				value = 0.35
+				value = 0.5
 				culture = cu:dixie
 				strata = middle
 			}
@@ -386,11 +386,11 @@ acw_followup_events.5 = {
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_american
 				days = normal_modifier_time
-				multiplier = -3
+				multiplier = -4
 			}
 			add_radicals_in_state = {
 				culture = cu:afro_american
-				value = 0.05
+				value = 0.15
 			}
 			add_loyalists_in_state = {
 				value = 0.35
@@ -472,7 +472,7 @@ acw_followup_events.6 = {
 				value = 0.1
 			}
 			add_loyalists_in_state = {
-				value = 0.35
+				value = 0.5
 				culture = cu:dixie
 			}
 			add_modifier = {
@@ -500,7 +500,7 @@ acw_followup_events.6 = {
 				value = 0.1
 			}
 			add_radicals_in_state = {
-				value = 0.5
+				value = 0.75
 				culture = cu:dixie
 			}
 			add_modifier = {
@@ -569,7 +569,7 @@ acw_followup_events.7 = {
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_american
 				days = normal_modifier_time
-				multiplier = -1
+				multiplier = -4
 			}
 			add_modifier = {
 				name = paramilitary_threats
@@ -605,7 +605,7 @@ acw_followup_events.7 = {
 				days = normal_modifier_time
 			}
 			add_radicals_in_state = {
-				value = 0.35
+				value = 0.75
 				culture = cu:dixie
 			}
 			add_modifier = {
@@ -679,7 +679,7 @@ acw_followup_events.8 = {
 
 		scope:carpetbagger_state = {
 			add_loyalists_in_state = {
-				value = 0.5
+				value = 0.65
 				culture = cu:dixie
 			}
 		}
@@ -696,7 +696,7 @@ acw_followup_events.8 = {
 
 		scope:carpetbagger_state = {
 			add_radicals_in_state = {
-				value = 0.35
+				value = 0.65
 				culture = cu:dixie
 			}
 		}

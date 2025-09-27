@@ -1,6 +1,6 @@
 ﻿fra_napoleonic_wars_legacy = { 
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
-	state_birth_rate_mult = -0.125
+	state_birth_rate_mult = -0.15
 }
 
 rus_siberian_explosion = {
@@ -12,25 +12,25 @@ rus_siberian_explosion = {
 major_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.10
+	state_birth_rate_mult = 0.1
 }
 
 ger_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.1
 }
 
 sca_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.20
+	state_birth_rate_mult = 0.15
 }
 
 ita_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.1
 }
 
 eth_explosion_demografica = {
@@ -43,17 +43,17 @@ eth_explosion_demografica = {
 plt_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.20
+	state_birth_rate_mult = 0.10
 }
 unt_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.1
+	state_birth_rate_mult = 0.05
 }
 
 mex_explosion_demografica = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 
-	state_birth_rate_mult = 0.15
+	state_birth_rate_mult = 0.1
 	state_migration_pull_mult = 0.25
 }

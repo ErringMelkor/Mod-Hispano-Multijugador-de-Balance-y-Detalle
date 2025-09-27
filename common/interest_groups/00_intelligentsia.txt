@@ -17,9 +17,9 @@
 		ideology_radical
 		ideology_reformer
 		ideology_sovereignist_leader
-		ideology_orleanist
 		ideology_despotic_utopian
 		ideology_humanitarian
+		ideology_utopian
 	}
 
 	enable = {
@@ -34,10 +34,15 @@
 	}
 
 	on_enable = {
-		ig:ig_intelligentsia = {
+		ig:ig_intelligentsia ?= {
 			if = {
 				limit = {
-					owner = { c:CHI ?= this }
+					owner = {
+						OR = {
+							c:NHA ?= this
+							c:SON ?= this
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_neoconfucian_retreat
 				set_ig_trait = ig_trait:ig_trait_avant_garde
@@ -56,14 +61,6 @@
 				set_ig_trait = ig_trait:ig_trait_crisis_of_identity
 				set_ig_trait = ig_trait:ig_trait_avant_garde
 				set_ig_trait = ig_trait:ig_trait_propagandists
-			}
-			else_if = {
-				limit = {
-					owner = { c:EIC ?= this }
-				}
-				set_ig_trait = ig_trait:ig_trait_swaraj
-				set_ig_trait = ig_trait:ig_trait_civil_service
-				set_ig_trait = ig_trait:ig_trait_westernisation
 			}
 			else_if = {
 				limit = {
@@ -108,7 +105,7 @@
 			limit = {
 				c:PAP ?= this
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_intelligentsia ?= {
 				remove_ideology = ideology_anti_clerical_mod
 			}
 		}
@@ -117,7 +114,7 @@
 			limit = {
 				country_has_primary_culture = cu:hawaiian
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_intelligentsia ?= {
 				set_interest_group_name = ig_hawaiian_democrats
 			}
 		}
@@ -125,12 +122,12 @@
 		else_if = {
 			limit = {
 				any_primary_culture = {
-					has_discrimination_trait = han_chinese
+					has_discrimination_trait = heritage_han
 				}
 			}
-			ig:ig_intelligentsia = { 
+			ig:ig_intelligentsia ?= { 
 				set_interest_group_name = ig_literati
-				remove_ideology = ideology_anti_clerical_mod
+				remove_ideology = ideology_anti_clerical
 			}
 		}
 		# Brazilian Intelligentsia
@@ -139,11 +136,28 @@
 				has_dlc_feature = rp1_content
 				c:BRZ ?= THIS
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_intelligentsia ?= {
 				set_ig_trait = ig_trait:ig_trait_brasilidade
 				set_ig_trait = ig_trait:ig_trait_bachareis
 				set_ig_trait = ig_trait:ig_trait_social_criticism
 
+				remove_ideology = ideology_republican
+				add_ideology = ideology_constitutionalist
+			}
+		}
+		# Britain and other Constitutionalists
+		if = {
+			limit = {
+				OR = {
+					c:GBR ?= THIS
+					c:JAP ?= THIS
+					c:AUS ?= THIS
+					any_primary_culture = { # Princely States and Nepal
+						has_discrimination_trait_group = heritage_group_south_asian
+					}
+				}
+			}
+			ig:ig_intelligentsia ?= {
 				remove_ideology = ideology_republican
 				add_ideology = ideology_constitutionalist
 			}
@@ -173,6 +187,17 @@
 			}
 			cultures = {
 				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani
+			}
+		}
+		rule = {
+			trigger = {
+				c:ZAN ?= this
+				any_primary_culture = {
+					cu:bedouin = this
+				}
+			}
+			cultures = {
+				swahili bedouin
 			}
 		}
 	}
@@ -233,7 +258,7 @@
 				if = {
 					limit = {
 						owner = {
-							has_law = law_type:law_hereditary_bureaucrats
+							has_law_or_variant = law_type:law_hereditary_bureaucrats
 						}
 					}
 					value = 75
@@ -257,6 +282,8 @@
 						pop_employment_building_group = bg_service
 						pop_employment_building_group = bg_arts
 						pop_employment_building_group = bg_government
+						pop_employment_building_group = bg_private_infrastructure
+						pop_employment_building_group = bg_financial_districts
 					}
 				}
 				value = 100
@@ -276,7 +303,7 @@
 			if = {
 				limit = {
 					culture = {
-						has_discrimination_trait = european_heritage
+						has_discrimination_trait_group = heritage_group_european
 					}
 				}
 				multiply = {
@@ -409,7 +436,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_technocracy
+					has_law_or_variant = law_type:law_technocracy
 				}
 			}
 			multiply = {
@@ -420,7 +447,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_appointed_bureaucrats
+					has_law_or_variant = law_type:law_appointed_bureaucrats
 				}
 			}
 			multiply = {
@@ -446,7 +473,7 @@
 		# Agitators will never be part of a marginalized IG
 		if = {
 			limit = {
-				owner.ig:ig_intelligentsia = {
+				owner.ig:ig_intelligentsia ?= {
 					is_marginal = yes
 				}
 			}
@@ -479,15 +506,19 @@
 	female_politician_chance = {
 		value = 0.0
 
+
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_womens_suffrage
+					has_law_or_variant = law_type:law_womens_suffrage
 				}
-
+				law_stance = {
+					law = law_type:law_womens_suffrage
+					value >= approve
+				}
 			}
 			add = {
-				value = 0.035
+				value = 0.05
 			}
 		}
 	}
@@ -498,7 +529,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_women_own_property
+					has_law_or_variant = law_type:law_women_own_property
 				}
 
 			}
@@ -510,7 +541,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_women_in_the_workplace
+					has_law_or_variant = law_type:law_women_in_the_workplace
 				}
 
 			}
@@ -522,7 +553,7 @@
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_womens_suffrage
+					has_law_or_variant = law_type:law_womens_suffrage
 				}
 
 			}

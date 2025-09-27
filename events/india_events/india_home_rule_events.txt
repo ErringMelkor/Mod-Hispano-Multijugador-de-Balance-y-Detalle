@@ -30,7 +30,7 @@ india_home_rule_events.1 = { # The Indian Home Rule Act
 			text = south_asian_primary_cultures_tt
 			every_scope_culture = {
 				limit = {
-					has_discrimination_trait = south_asian_heritage
+					has_discrimination_trait_group = heritage_group_south_asian
 					save_temporary_scope_as = temp_culture_scope
 					ROOT = {
 						any_scope_state = {
@@ -48,7 +48,7 @@ india_home_rule_events.1 = { # The Indian Home Rule Act
 		if = {
 			limit = {
 				NOT = {
-					has_law = law_type:law_state_atheism
+					has_law_or_variant = law_type:law_state_atheism
 				}
 			}
 			if = {
@@ -59,7 +59,6 @@ india_home_rule_events.1 = { # The Indian Home Rule Act
 					}
 				}
 				set_state_religion = rel:hindu
-				
 			}
 			else_if = {
 				limit = {
@@ -90,6 +89,18 @@ india_home_rule_events.1 = { # The Indian Home Rule Act
 				has_modifier = modifier_india_company_rule
 			}
 			remove_modifier = modifier_india_company_rule
+		}
+		if = {
+			limit = {
+				has_modifier = modifier_india_company_rule_upgraded
+			}
+			remove_modifier = modifier_india_company_rule_upgraded
+		}
+		if = {
+			limit = {
+				has_modifier = modifier_indian_imperial_police
+			}
+			remove_modifier = modifier_indian_imperial_police
 		}
 		recalculate_pop_ig_support = yes
 		call_election = {
@@ -137,7 +148,8 @@ india_home_rule_events.2 = { # Permission for Democratisation
 				save_scope_as = inc_scope
 			}
 		}
-		je:je_india_home_rule = {
+		save_scope_as = india_overlord_scope
+		je:je_india_nationalism_britain ?= {
 			save_scope_as = journal_entry_scope
 		}
 	}
@@ -149,7 +161,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			base = 100
 			modifier = {
 				trigger = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 50
 					}
 				}
@@ -157,7 +169,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			}
 			modifier = {
 				trigger = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 60
 					}
 				}
@@ -165,7 +177,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			}
 			modifier = {
 				trigger = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 70
 					}
 				}
@@ -173,19 +185,19 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			}
 			modifier = {
 				trigger = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 80
 					}
 				}
 				add = -25
 			}
-			modifier = {
+			modifier = { # AI will always accept when above 90
 				trigger = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 90
 					}
 				}
-				add = -25
+				add = -100
 			}
 		}
 		custom_tooltip = {
@@ -195,7 +207,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			custom_tooltip = due_to_current_india_bar_progress_tt
 			if = {
 				limit = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 50
 						"scripted_bar_progress(je_india_home_rule_progressbar)" < 70
 					}
@@ -210,7 +222,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			}
 			else_if = {
 				limit = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 70
 						"scripted_bar_progress(je_india_home_rule_progressbar)" < 90
 					}
@@ -225,7 +237,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			}
 			else_if = {
 				limit = {
-					scope:journal_entry_scope = {
+					scope:journal_entry_scope ?= {
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 90
 					}
 				}
@@ -251,6 +263,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 			add_progress = { value = -25 name = je_india_home_rule_progressbar }
 		}
 		c:BIC ?= {
+			post_notification = overlord_government_reform_denied
 			je:je_india_home_rule ?= {
 				add_progress = { value = -25 name = je_india_home_rule_progressbar }
 			}
@@ -260,6 +273,7 @@ india_home_rule_events.2 = { # Permission for Democratisation
 	option = {
 		name = india_home_rule_events.2.b
 		ai_chance = {
+			base = 25
 			modifier = {
 				trigger = {
 					scope:journal_entry_scope = {
@@ -298,20 +312,23 @@ india_home_rule_events.2 = { # Permission for Democratisation
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 90
 					}
 				}
-				add = 10
+				add = 50
 			}
 		}
 		custom_tooltip = {
 			text = india_can_change_governance_principles_tt
 			c:BIC ?= {
 				set_variable = britain_granted_dop_permission
+				post_notification = overlord_government_reform_accepted
 			}
 		}
 	}
 
 	option = {
 		name = india_home_rule_events.2.c
+		trigger = { c:BIC ?= { "enactment_chance_for_law(law_type:law_wealth_voting)" > 0 } }
 		ai_chance = {
+			base = 25
 			modifier = {
 				trigger = {
 					scope:journal_entry_scope = {
@@ -350,13 +367,14 @@ india_home_rule_events.2 = { # Permission for Democratisation
 						"scripted_bar_progress(je_india_home_rule_progressbar)" >= 90
 					}
 				}
-				add = 10
+				add = 50
 			}
 		}
 		custom_tooltip = {
 			text = india_can_change_governance_principles_tt
 			c:BIC ?= {
 				set_variable = britain_granted_dop_permission
+				post_notification = overlord_government_reform_accepted
 			}
 		}
 		c:BIC ?= {
@@ -479,11 +497,11 @@ india_home_rule_events.3 = { # Jallianwala Bagh Massacre
 		}
 		if = {
 			limit = {
-				ig:ig_intelligentsia = {
+				ig:ig_intelligentsia ?= {
 					has_ideology = ideology:ideology_constitutionalist
 				}
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_intelligentsia ?= {
 				remove_ideology = ideology_constitutionalist
 				add_ideology = ideology_republican
 			}
@@ -494,7 +512,7 @@ india_home_rule_events.3 = { # Jallianwala Bagh Massacre
 			}
 			add_modifier = {
 				name = modifier_india_massacred_protesters
-				days = long_modifier_time
+				days = very_long_modifier_time
 				is_decaying = yes
 			}
 		}
@@ -591,7 +609,7 @@ india_home_rule_events.5 = { # Hunter Commission
 	# Triggered by event
 	
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_armed_forces ?= {
 			save_scope_as = army_ig
 		}
 	}
@@ -748,10 +766,10 @@ india_home_rule_events.7 = { # Indian Home Rule movement
 	# Triggered by event
 	
 	immediate = {
-		ig:ig_intelligentsia = {
+		ig:ig_intelligentsia ?= {
 			save_scope_as = intelligentsia_ig
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_petty_bourgeoisie ?= {
 			save_scope_as = petty_bourgeoisie_ig
 		}
 		if = {
@@ -890,10 +908,10 @@ india_home_rule_events.8 = { # Indian Home Rule movement for Britain
 	
 	immediate = {
 		c:BIC ?= {
-			ig:ig_intelligentsia = {
+			ig:ig_intelligentsia ?= {
 				save_scope_as = intelligentsia_ig
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_petty_bourgeoisie ?= {
 				save_scope_as = petty_bourgeoisie_ig
 			}
 		}
@@ -999,7 +1017,7 @@ india_home_rule_events.9 = { # Montagu-Chelmsford Reforms
 		trigger = {
 			any_political_movement = { 
 				is_political_movement_type = movement_india_pan_national
-				political_movement_radicalism >= 0.5
+				political_movement_radicalism > 0.5
 			}
 		}
 		activate_law = law_type:law_wealth_voting

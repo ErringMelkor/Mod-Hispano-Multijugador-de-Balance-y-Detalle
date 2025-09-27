@@ -126,37 +126,19 @@ POPS = {
 		}
 	}
 	s:STATE_ASSAM = {
-		region_state:ASM = {
-			create_pop = {
-				culture = assamese
-				size = 341202
-			}
-			create_pop = {
-				culture = manipuri
-				size = 10002
-			}
-			create_pop = {
-				culture = assamese
-				pop_type = slaves
-				size = 51020
-			}
-			create_pop = {
-				culture = bengali
-				size = 80102
-			}
-			create_pop = {
-				culture = bengali
-				religion = hindu
-				size = 70120
-			}
+		region_state:KKI = {
 			create_pop = {
 				culture = lushai
 				size = 24591
 			}
+		}
+		region_state:NGA = {
 			create_pop = {
 				culture = naga
 				size = 123919
 			}
+		}
+		region_state:MNP = {
 			create_pop = {
 				culture = manipuri
 				size = 258104
@@ -174,14 +156,20 @@ POPS = {
 				culture = naga
 				size = 39192
 			}
+		}
+		region_state:MGH = {
 			create_pop = {
 				culture = naga # Khasi
 				size = 62201
 			}
+		}
+		region_state:TIP = {
 			create_pop = {
 				culture = lushai # Tipperah
 				size = 45102
 			}
+		}
+		region_state:ASM = {
 			create_pop = {
 				culture = assamese
 				size = 705200

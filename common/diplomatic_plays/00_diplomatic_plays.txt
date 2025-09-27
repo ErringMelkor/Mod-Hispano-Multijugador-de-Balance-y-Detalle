@@ -436,8 +436,8 @@ dp_annex_subject = {
 		trigger_if = {
 			limit = {
 				OR = {
-					c:EIC ?= this
-					c:BHT ?= this
+					c:DLH ?= this
+					c:MRT ?= this
 				}
 				is_at_war = no
 				NOT = { has_variable = doctrine_of_lapse_cooldown }
@@ -1289,6 +1289,55 @@ dp_sepoy_mutiny = {
 
 	on_weekly_pulse = {}
 
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_unify_yuan = {
+	war_goal = unification
+	
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+	add_infamy_for_starting_initiator_wargoals = no
+	
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
+	
+	selectable_in_lens = {
+		always = no
+	}
+	
+	possible = {
+		NOT = { exists = c:YUA }
+		NOT = { is_country_type = decentralized }
+		has_technology_researched = pan-nationalism
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_yuan = {
+	war_goal = unification_leadership
+	
+	requires_interest_marker = no
+	mirror_war_goal = yes
+	
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
+	
+	selectable_in_lens = {
+		always = no
+	}	
+	
+	possible = {
+		has_technology_researched = nationalism
+	}
+	
+	on_weekly_pulse = {}
+	
 	on_war_begins = {}
 
 	on_war_end = {}

@@ -1,7 +1,9 @@
 ﻿greek={
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = orthodox
-	traits = { otomanosphere greek_culture european_heritage }
+	heritage = heritage_greek
+	language = language_greek
+	traditions = { }
 	
 	obsessions = {
 		wine
@@ -116,7 +118,9 @@
 georgian={
 	color= hsv{ 0.33 0.26 0.43 }
 	religion = orthodox
-	traits = { caucasus_group european_heritage }
+	heritage = heritage_georgian
+	language = language_georgian
+	traditions = { tradition_caucasian }
 	male_common_first_names={
 		Akaki
 		Alexander
@@ -258,7 +262,9 @@ georgian={
 armenian={
 	color= hsv{ 0.15 0.55 0.52 }
 	religion = oriental_orthodox
-	traits = { caucasus_group european_heritage }
+	heritage = heritage_armenian
+	language = language_armenian
+	traditions = { tradition_caucasian }
 	male_common_first_names={
 		Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour Atom Andranik Avetis
 		Barsegh Benyamin Boghos
@@ -318,95 +324,12 @@ armenian={
 	graphics = european
 }
 
-
-bulgarian={
-	color= hsv{ 0.40 0.26 0.58 }
-	religion = orthodox
-	traits = { otomanosphere jugoslav european_heritage }
-	male_common_first_names={
-		Asen Atanas Angel Aleksandar Anton
-		Bencho Boris Bogdan
-		Dechko Dimitar Dzhendo Dragan Dobri Damyan Danail Dragomir
-		Evlogi Emanuil Evtimiy
-		Ferdinand
-		Gero Georgi Gavril Grigor
-		Hristo
-		Ivan Isaija Ilarion Iosif Iliya
-		Kimon Konstantin Kosta Kiril Karlo Kuzman
-		Lyubomir Lazar Lyuben
-		Marko Metody Mihail Matey Milyo Maxim Marin
-		Neofit Nikola Nayden
-		Petar Panayot Petko Parteniy Panko Pavel Panteley Pravoslav
-		Radko Roman
-		Spiridon Stanislav Stefan Stoyan Sabi Stiliyan Stanko Stanimir Simeon
-		Toncho Tiho Todor Tsanko Teodosi Teohar Trifon Tsvetko
-		Vasil Vladimir Venelin
-		Xenophont
-		Yoakim
-		Zahari
-	}
-	female_common_first_names = {
-		Anna Adriana Anastasia
-		Dunava Dimitrana
-		Ekaterina Eugenia
-		Hadji
-		Minka Maria
-		Nedelya
-		Penka
-		Sirma
-		Teodora Todorka Tonka
-		Violeta
-		Zaharina
-	}
-	male_regal_first_names = {
-		Aleksandar Asen
-		Boris
-		Ferdinand
-		Ivan
-		Kiril Konstantin
-		Rostislav
-		Simeon
-	}
-	female_regal_first_names = {
-		Anastasia Anna
-		Evdokia
-		Maria
-		Nadezhda
-		Tsvetana
-	}
-	common_last_names={
-		Agura Abadzhiev Atanasov Angelov Andonov Atsev Alaykov Aslanov
-		Boyadzhiev Bogdanov Balmez Batandzhiev Bonev Belokapov Burmov Bukoreshtliev Boykikev Bogoridi Benin Belkovski Bliznakov Beron
-		Chalakov Chomakov Chaulev Chernopeev Chorbadjisky
-		Dimitrov Dzhedev Dimitriev Delov Dimchev Darvingov Debelyanov Dobrev Drangov Damyanov Dyulgerov Dobrovich Danev Drumev
-		Furnadzhiev Fichev Fingov Filaretov
-		Georgiev Gruychin Genev Grozdanov Gabrovski Gerdzhikov Grigorov Gavrilov Ganushev Gorbanov Ganev Genadiev Gruev Grekov
-		Hristov Hadzhidobrevich Hadzhidimov Hadzhinikolov
-		Ivanov Iliev
-		Karaminkov Kunchev Karaabov Karagiosov Kalpazanov Karavelov Kolev Kovachev Kutinchev Karastoyanov Klaynerov Kalkandzhiev Kiselov Koychev Krastevich Ketskarov
-		Lekarski Lukov Lukanov Lazarov Lyapchev
-		Mihaylov Miladinov Mutkurov Marinov Matov Mateev Mazinkov Manov Maznikov Mandzhukov Mihov Milanov Mitov Momchilov
-		Nikolaev Nerezov Novakov Nikolov Nedev Nenov
-		Obretenov
-		Preobrazhenski Papazov Popov Penchov Pelov Pulevski Petrov Protogerov Putnik Petrunov Poppetrov Poptomov Petkov Perkov Parlichev
-		Rizov Radoev
-		Shivachev Shokov Sandzhak Savov Slaveykov Stoyanov Stanchev Shampov Sirakov Shishmanov Serafimov Stoilov Sokolsky Shapkarev
-		Todorov Topalov Tishkov Tanasov Tatarchev Tsvetanov Tsiklev Traykov Torbov Tsolov Tsankov
-		Uzunov
-		Vazov Valkov Venkov Vasilyov
-		Yovchev Yovkov Yordanov Yanchulev
-		Zhivkov Zhostov Zlatev Zaimov Zhekov Zografov
-	}
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
-
 albanian={
 	color= hsv{ 0.10 0.60 0.44 }
 	religion = sunni
-	traits = { otomanosphere albanian_language european_heritage }
+	heritage = heritage_albanian
+	language = language_albanian
+	traditions = { tradition_rumelian }
 	male_common_first_names={
 		Ahmet
 		Ali
@@ -547,172 +470,12 @@ albanian={
 	graphics = european
 }
 
-
-serb={
-	color= hsv{ 0.97 0.26 0.58 }
-	religion = orthodox
-	traits = { otomanosphere jugoslav european_heritage }
-	male_common_first_names={
-		Alaksandar
-		Arsenije
-		Blagoje
-		Bozidar
-		Branko
-		Danilo
-		Dejan
-		Djordje
-		Dragan
-		Dragisa
-		Dragoljub
-		Dragutin
-		Draza
-		Dusan
-		Gavrilo
-		Goran
-		Janko
-		Jovan
-		Koca
-		Kosta
-		Krsto
-		Ljubisa
-		Mihailo
-		Milan
-		Miliutin
-		Milivoje
-		Milojko
-		Milos
-		Miodrag
-		Mirko
-		Miroslav
-		Momcilo
-		Nebojsa
-		Nikola
-		Pavle
-		Peko
-		Petar
-		Radomir
-		Ratko
-		Sava
-		Slobodan
-		Stepa
-		Stojan
-		Vaselien
-		Veljko
-		Vladimir
-		Vojislav
-		Zivojin
-		Zivota
-		Zoran
-		Zvezdan
-	}
-	female_common_first_names = {
-		Alexandra
-		Anka
-		Darinka
-		Draga
-		Jekaterina
-		Jelena
-		Katarina
-		Maria
-		Milena
-		Natalia
-		Ruza
-		Simeona
-		Stamena
-		Stojna
-		Tomanija
-		Milica
-	}	
-	noble_last_names = {
-		Anastasijevic
-		Avakumovic
-		Bogicevic
-		Garasanin
-		Konstantinovic
-		Nenadovic
-		Obrenovic
-	}
-	common_last_names={
-		Adzic
-		Arandelovic
-		Belimarkovic
-		Blaznacac
-		Bojovic
-		Bozanovic
-		Bozinovic
-		Brankovic
-		Damjanic
-		Dapcevic
-		Dragutinovic
-		Grujic
-		Hadzilic
-		Horvatovic
-		Isakovic
-		Jankovic
-		Jokic
-		Jovanovic
-		Kadijevic
-		Karadordevic
-		Kundak
-		Lesjanin
-		Ljubicic
-		Maric
-		Maricic
-		Mihailovic
-		Miliutinovic
-		Miloradovic
-		Misic
-		Nad
-		Nedic
-		Novak
-		Ojdanic
-		Panic
-		Paskas
-		Pavkovic
-		Pesic
-		Petrovic
-		Popovic
-		Putnik
-		Radulovic
-		Rasic
-		Sijan
-		Simovic
-		Sokolovic
-		Stepanovic
-		Vasiljevic
-		Veric
-		Vojvodic
-		Vukotic
-		Zivkovic
-	}
-	male_regal_first_names = {
-		Alaksandar
-		Danilo
-		Mihailo Milan Milos
-		Nikola
-		Pavle Petar
-	}
-	female_regal_first_names = {
-		Alexandra
-		Darinka Draga
-		Maria Milena
-		Natalia
-	}
-	regal_last_names = {
-		Karadordevic
-		Obrenovic
-		Petrovic_Njegos
-	}	
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
-
 turkish={
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = sunni
-	traits = { otomanosphere turkic middle_eastern_heritage }
+	heritage = heritage_anatolian
+	language = language_oghuz
+	traditions = { tradition_rumelian }
 	obsessions = {
 		coffee
 	}
@@ -865,140 +628,12 @@ turkish={
 	graphics = arabic
 }
 
-bosniak={
-	color= hsv{ 0.50 0.55 0.58 }
-	religion = sunni
-	traits = { otomanosphere jugoslav european_heritage }
-	male_common_first_names={
-		Abdulvehhab
-		Adnan
-		Ahmed
-		Ali
-		Alija
-		Asim
-		Atif
-		Beriz
-		Dzemal
-		Dzemaludin
-		Elvir
-		Enver
-		Fikret
-		Fuad
-		Gazi
-		Hakija
-		Hamdija
-		Hamid
-		Haris
-		Hasan
-		Husein
-		Irfan
-		Isa
-		Ivan
-		Izet
-		Jusuf
-		Mehmed
-		Meho
-		Mirsad
-		Muhamed
-		Musa
-		Mustafa
-		Naser
-		Osman
-		Raif
-		Rasim
-		Refik
-		Safet
-		Safvet
-		Sefer
-		Sejad
-		Seknab
-		Semezdin
-		Semir
-		Skender_2
-		Sokollu
-		Sulejman
-		Vedad
-		Zija
-		Zlatko
-		Zuko
-	}
-	female_common_first_names = {
-		Aleksandra
-		Bisera
-		Edina
-		Nasiha
-		Nura
-		Ognjenka
-		Sabina
-		Samra
-	}	
-	noble_last_names = {
-		Izetbegovic
-		Kurtcehajic
-		Mehmedinovic
-		Muradbegovic
-		Osmanagic
-		Pozderac
-		Sijercic
-	}
-	common_last_names={
-		Abdic
-		Arapovic
-		Basgic
-		Belkic
-		Bijedic
-		Catic
-		Causevic
-		Ceric
-		Colakovic
-		Dizdar
-		Dizdarevic
-		Dzikic
-		Dzumhur
-		Ekrem
-		Gradascevic
-		Halilovic
-		Husrev
-		Ibisevic
-		Ilhamija
-		Imamovic
-		Isakovic
-		Kodro
-		Konjic
-		Kulenovic
-		Lagumdzija
-		Ljajic
-		Ljubicic
-		Ljubijankic
-		Muzurovic
-		Peco
-		Plakalo
-		Prazina
-		Rizvanbegovic
-		Sabanadzovic
-		Salihovic
-		Sarajlic
-		Selimovic
-		Selmanagic
-		Silajdzic
-		Sokolovic
-		Spaho
-		Terzic
-		Tihic
-		Turaljic
-		Tukcan
-		Ugljanin
-	}
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
-
 romanian={
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = orthodox
-	traits = { otomanosphere romanian_culture_group european_heritage }
+	heritage = heritage_romanian
+	language = language_eastern_romance
+	traditions = { otomanosphere }
 	male_common_first_names={
 		Adrian Alexandru Andrei Anton Artur Atanasie
 		Bogdan

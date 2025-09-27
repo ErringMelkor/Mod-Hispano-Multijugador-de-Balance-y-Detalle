@@ -312,31 +312,6 @@
 			}
 		}
 	}
-	c:PTA ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_punjab
-			name = PatialaArmy
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_PUNJAB_HILLS
-				count = 3
-			}
-		}
-	}
 	c:MYS ?= {
 		create_military_formation = {
 			type = army
@@ -944,19 +919,6 @@
 			}
 		}
 	}
-	c:BIH ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_bengal
-			name = BiharArmy
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:BIHAR
-				count = 15
-			}
-		}
-	}
 	c:BGL ?= {
 		create_military_formation = {
 			type = army
@@ -1335,7 +1297,7 @@
 			culture = cu:hindustani
 			interest_group = ig_armed_forces
 			historical = yes
-			hq = region_delhi
+			hq_region = sr:region_delhi
 			commander_rank = commander_rank_5
 			age = 56
 			traits = {
@@ -1358,7 +1320,7 @@
 			culture = cu:hindustani
 			interest_group = ig_landowners
 			historical = yes
-			hq = region_delhi
+			hq_region = sr:region_delhi
 			commander_rank = commander_rank_3
 			age = 44
 			traits = {
@@ -1486,7 +1448,7 @@
 			traits = {
 				basic_cavalry_commander
 				tactful
-				woodland_combat_expert
+				forest_commander
 			}
 			save_scope_as = maratha_gen2
 		}

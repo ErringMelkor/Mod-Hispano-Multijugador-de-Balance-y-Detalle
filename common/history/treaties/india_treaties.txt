@@ -1,4 +1,4 @@
-TREATIES = {
+﻿TREATIES = {
 
 	#Renovación de Goa
 	create_treaty = {
@@ -73,12 +73,12 @@ TREATIES = {
 			}
 			{ # Intereses económicos neerlandeses en la EIC
 					article = foreign_investment_rights
-					source_country = c:MRT
+					source_country = c:ORI
 					target_country = c:NET
 			}
 			{ # Intereses comerciales neerlandeses
 					article = trade_privilege
-					source_country = c:MRT
+					source_country = c:ORI
 					target_country = c:NET
 			}
 		}

@@ -23,6 +23,10 @@
  rotating_turrets_desc: "Buques equipados con torretas giratorias, lo que permite mayor flexibilidad en el apuntado y los ángulos de disparo en comparación con las armas fijas."
  siege_artillery_desc: "Piezas de artillería de gran calibre diseñadas para asediar fortificaciones, capaces de disparar proyectiles pesados a largas distancias para romper muros y defensas."
  spearhead_tactics_desc: "Táctica militar que consiste en usar una fuerza concentrada para romper las líneas enemigas, creando una brecha que las fuerzas de apoyo pueden explotar y rodear al enemigo."
+ rebeldes: "rebeldes"
+ meiji.69: "rebeldes"
+ meiji.69.a: "rebeldes"
+ meiji.69.b: "rebeldes"
  hand_grenades_desc: "Pequeños dispositivos explosivos que pueden lanzarse a mano, útiles para despejar  trincheras y posiciones fortificadas."
 
  basic_cavalry_commander: "Comandante de caballeria básico"
