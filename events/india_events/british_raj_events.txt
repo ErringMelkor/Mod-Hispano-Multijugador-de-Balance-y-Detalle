@@ -43,13 +43,10 @@ raj.2 = {
 
 	immediate = {
 		OR = {
-			c:MRT ?= {
-				save_scope_as = overlord_scope
-			}
-			c:DLH ?= {
-				save_scope_as = overlord_scope
-			}
+			c:MRT ?= this
+			c:DLH ?= this
 		}
+		save_scope_as = overlord_scope
 	}
 
 	option = {
