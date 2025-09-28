@@ -42,12 +42,21 @@ raj.2 = {
 	minor_left_icon = c:DLH
 
 	immediate = {
-		OR = {
-			c:MRT ?= this
-			c:DLH ?= this
+		if = {
+			limit = { 
+				OR = {
+					root.overlord ?= c:DLH
+					root.overlord ?= c:MRT
+				}
+			}	
+			root.overlord = {
+				save_scope_as = overlord_scope
+			}
 		}
-		save_scope_as = overlord_scope
+
 	}
+
+	
 
 	option = {
 		name = raj.2.a

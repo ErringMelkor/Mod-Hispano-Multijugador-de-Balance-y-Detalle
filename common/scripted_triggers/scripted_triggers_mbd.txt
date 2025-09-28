@@ -48,3 +48,13 @@ is_russo-turkish_west_region = {
 		}
 	}
 }
+
+# Princely States
+is_princely_state = {
+	country_is_in_india = yes
+	OR = {
+		AND = { exists = c:GBR is_subject_of = c:GBR }
+		AND = { exists = c:DLH is_subject_of = c:DLH }
+		AND = { exists = c:MRT is_subject_of = c:MRT }
+	}	
+}

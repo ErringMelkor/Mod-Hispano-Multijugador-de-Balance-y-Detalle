@@ -15,6 +15,7 @@
 		OR = {
 			c:DLH ?= this
 			c:MRT ?= this
+			c:PEC ?= this
 		}
 	}
 
