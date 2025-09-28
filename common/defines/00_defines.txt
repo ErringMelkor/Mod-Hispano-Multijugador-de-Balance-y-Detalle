@@ -599,7 +599,7 @@ NEconomy = {
 	REINVESTMENT_BASE_EFFICIENCY_THRESHOLD = 25000000	# Below this amount of GDP, increase reinvestment multiplier on a linear scale up to REINVESTMENT_EFFICIENCY_MAX at 0
 	REINVESTMENT_SUBSISTENCE_FRACTION_REDUCTION = 0.5	# Reinvestment from pops in ownership buildings is multiplied by ( 1 - this * the share of levels owned that are subsistence buildings )
 
-	COMPANY_OVER_LIMIT_BONUS_PENALTY_MIN = 0.33			# If the number of companies in the country exceeds the limit, all company bonuses get penalty. The penalty is scaled proportionally to the limit (exceeding the limit by 100% reduces bonuses by 100%) and the minimum value is this
+	COMPANY_OVER_LIMIT_BONUS_PENALTY_MIN = 0.35			# If the number of companies in the country exceeds the limit, all company bonuses get penalty. The penalty is scaled proportionally to the limit (exceeding the limit by 100% reduces bonuses by 100%) and the minimum value is this
 	COMPANY_PRODUCTIVITY_RATIO_HIGH_THRESHOLD = 1.15	# Companies whose productivity exceeds this factor of the global average will be considered high-productivity companies
 	COMPANY_PRODUCTIVITY_RATIO_LOW_THRESHOLD = 0.65		# Companies whose productivity is below this factor of the global average will be considered low-productivity companies
 	COMPANY_PRODUCTIVITY_ABSOLUTE_HIGH_THRESHOLD = 25	# Companies whose productivity exceeds this amount will ALWAYS be considered high-productivity companies
@@ -644,7 +644,7 @@ NEconomy = {
 	HARVEST_CONDITION_MAX_INTENSITY = 9.0					# Highest intensity value a harvest condition can roll (min < this)
 
 	COMPANY_MONOPOLY_COOLDOWN_MONTHS = 60				# Cooldown in months after establishing a companies monopoly before you can revoke its monopoly
-	COUNTRY_MONOPOLY_MAX_COUNT = 5						# Maximum number of country monopolies a country can have
+	COUNTRY_MONOPOLY_MAX_COUNT = 8						# Maximum number of country monopolies a country can have
 	COUNTRY_MONOPOLY_AUTHORITY_COST = 100				# Cost of establishing a country monopoly
 
 	WORLD_MARKET_MONOPOLY_MIN_SHARE	= 0.1				# For a market to be considered to have a world market monopoly, it has to control a greater share of exports than this

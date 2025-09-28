@@ -12,7 +12,7 @@
  ideology_ottomanism_desc: "This leader believes on renovating the Ottoman Empire following the model of the Western world."
  
  ideology_state_ottomanism: "State Ottomanism"
-  ideology_state_ottomanism_desc: "Ideological wave set to reform the Ottoman Empire along a Western model. However, beware: the spectre of nationalism looms near, and can taint even the purest movement."
+ ideology_state_ottomanism_desc: "Ideological wave set to reform the Ottoman Empire along a Western model. However, beware: the spectre of nationalism looms near, and can taint even the purest movement."
   
  ideology_ottoman_turkism: "Ottoman Turkism"
  ideology_ottoman_turkism_desc: "This group believes on an Ottoman state united around the turkic ethnicity and an endorsment of any heterogeneous voice." 
@@ -65,7 +65,7 @@
 
  mendizabal.1.t: "First Disentailment"
  mendizabal.1.d: "All monastic propersties with less than twelve members are fruitless, inert and expensive, and so will be put in the hands of the State."
- mendizabal.1.f: ""There was, so, Mendizabal for quite the while, and the reforms that the great man had promised in his famous exhibition to the Queen would be... " - Episodios Nacionales, nº21; Benito Perez Galdós."
+ mendizabal.1.f: "There was, so, Mendizabal for quite the while, and the reforms that the great man had promised in his famous exhibition to the Queen would be... - Episodios Nacionales, nº21; Benito Perez Galdós."
 
  mendizabal.1.a: "... to the benefit of the State."
  mendizabal.1.b: "... to the benefit of the People."
@@ -76,7 +76,7 @@
 
  madoz.1.t: "Second Disentailment"
  madoz.1.d: "The posibilities for the Disentailment are wide, but will greatly depend on our laws and intentions."
- madoz.1.f: ""Article 1. All rural and urban properties, censuses and forums belonging to: the State are declared in a state of sale, in accordance with the provisions of this law, and without prejudice to the charges and easements to which they are legitimately subject; to the clergy; to the military orders of Santiago, Alcántara, Calatrava, Montesa and San Juan de Jerusalem; to the brotherhoods, pious works and sanctuaries; to the kidnapping of the former Infante D. Carlos; charity; to public instruction. And any others belonging to dead hands, whether or not they are ordered to be sold by previous laws... ""
+ madoz.1.f: "Article 1. All rural and urban properties, censuses and forums belonging to: the State are declared in a state of sale, in accordance with the provisions of this law, and without prejudice to the charges and easements to which they are legitimately subject; to the clergy; to the military orders of Santiago, Alcántara, Calatrava, Montesa and San Juan de Jerusalem; to the brotherhoods, pious works and sanctuaries; to the kidnapping of the former Infante D. Carlos; charity; to public instruction. And any others belonging to dead hands, whether or not they are ordered to be sold by previous laws... "
 
  madoz.1.a: "... to the benefit of the State."
  madoz.1.b: "... to the benefit of the People."

@@ -57,6 +57,7 @@
 						}
 					}
 				}
+						remove_ig_trait = ig_trait:ig_trait_xenophobia
 						set_ig_trait = ig_trait:ig_trait_vuelva_usted_manana
 						set_ig_trait = ig_trait:ig_trait_middle_managers
 						set_ig_trait = ig_trait:ig_trait_treasury_bonds
@@ -161,7 +162,7 @@
 				}
 			}
 			# Kleinbürger
-			if = {
+			else_if = {
 				limit = {
 					has_dlc_feature = ip3_content
 					owner = {
