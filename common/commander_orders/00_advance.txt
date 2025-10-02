@@ -244,7 +244,7 @@ advance_cavalry_assualt = {
                 }
                 commander_military_formation ?= {
                     formation_army_unit_type_fraction = {
-                        target = unit_type:combat_unit_type_carabineers
+                        target = unit_type:combat_unit_type_carabineer
                         value >= 0.3
                     }
                 }
