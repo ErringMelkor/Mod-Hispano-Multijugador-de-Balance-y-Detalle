@@ -1,17 +1,10 @@
 Improvements​
 
-    [GDFIX] Made colonization ignore population of source state when determining speed penalty (thank you Alxe for the suggestion)
-    [GDFIX] Added option when releasing a nation to keep states considered homelands for your primary cultures (thank you Deutsches Kaiserreich for the suggestion)
-    [GDFIX] Military wages now also affect the prestige gain from Navy power projection (thanks Tony for the suggestion)
-    [GDFIX] When enforced as part of a peace agreement or capitulation during war, the Independence war goal now also automatically also nationalizes overlord-held building levels (thank you BamBam for the suggestion)
-    [GDFIX] The 'September Convention' treaty name template now names the treaty dynamically after the month it was signed in instead of it always being September (thank you Martin Anward aka Wiz, for suggesting your own fix I suppose…)
     It is now possible for companies to 'privatize' buildings under Command Economy
     The Defend against Invasion button now works even if the invasion hasn't started yet. If the front for the invasion hasn't spawned, it will station the formation in the target HQ for the invasion, if the invasion has started and the front exists, it will deploy the formation directly to the front
     Generals will now also join defensive invasion battles and not simply send their troops if stationed as a garrison in an HQ
     Partial Shopkeeper/Academic-owned companies now pay 25% of their dividends to the workforce in their owned buildings
     Partial Bureaucrat-owned companies now pay 25% of their dividends to the government
-    Reworked how Ideological Incoherence is calculated. You should now generally have an easier time forming single-party governments and governments which disagree on minor issues, and a harder time forming massive governments with strong and conflicting opinions
-    Reworked the logic for cultural and religious secessions - states with low percentages of the relevant pops will be much less inclined to secede, unless their Obstinance or Turmoil is particularly high
     The South American National Identity Journal Entries now trigger a National Awakening for their respective cultures
     Adjusted demographics for the Baltic States, Lithuania, and Poland to reflect the historical makeup of their aristocracies
     Increased the Activism of the Polish National Movement in Russia whilst the Organic Statute of 1832 is active
@@ -23,7 +16,6 @@ Balance​
     [GDFIX] Made colonization speed account for paused colonies (thank you Alxe for the suggestion)
     [GDFIX] Added a lot of Obsessions to various cultures (thanks Tony for the suggestion)
     [GDFIX] Political Movement support from Wealth now scales against the political strength from wealth levels, meaning that the support of a single wealthy individual is much more significant than support from a large number of poor individuals (thank you rskhm | BPM for the suggestion))
-    [GDFIX] The 'Force Nationalization' wargoal now requires you to control all your own states instead of requiring you to occupy the enemy capital (thank you to BamBam for the suggestion)
     [GDFIX] GDP owned by your country in other countries now counts towards the reinvestment multiplier, so that a country with a massive investment pool from foreign holdings will not have it artificially boosted further (thank you to Blackpoolgo4it2 for the suggestion)
     [GDFIX] Machinists and Engineers now contribute to the Investment Pool under economic setups where they receive dividends (thank you to CaelReader for the suggestion)
     [GDFIX] Added Grocery taboo to Jewish religion to reflect their dietary restrictions (thanks nullpotato for the suggestion)

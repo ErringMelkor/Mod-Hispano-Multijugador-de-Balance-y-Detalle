@@ -448,6 +448,7 @@ principle_aggressive_coordination_2 = {
 		
 		# Reduces war exhaustion from casualties, propaganda!
 		country_war_exhaustion_casualties_mult = -0.15
+		country_military_tech_research_speed_mult = 0.05
 	}
 	
 	ai_weight = {
@@ -468,7 +469,7 @@ principle_aggressive_coordination_3 = {
 		# Modifiers from previous level(s)
 		country_initiator_war_goal_maneuver_cost_mult = -0.25
 		country_war_exhaustion_casualties_mult = -0.25
-		country_military_tech_spread_mult = 0.15
+		country_military_tech_research_speed_mult = 0.15
 		unit_offense_mult = 0.05
 	
 		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
@@ -2007,7 +2008,7 @@ principle_defensive_cooperation_focus_2 = {
 		unit_defense_mult = 0.05
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.75
-		country_military_tech_spread_mult = 0.05
+		country_military_tech_research_speed_mult = 0.05
 	}
 	
 	leader_modifier = {
@@ -2029,13 +2030,13 @@ principle_defensive_cooperation_focus_3 = {
 		country_join_power_bloc_member_in_defensive_plays_bool = yes
 		state_conscription_rate_add = 0.02
 		unit_defense_mult = 0.05
-		country_military_tech_spread_mult = 0.1
 	}
 
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
 		power_bloc_target_sway_cost_mult = -0.75
+		country_military_tech_research_speed_mult = 0.15
 	}
 	
 	leader_modifier = {

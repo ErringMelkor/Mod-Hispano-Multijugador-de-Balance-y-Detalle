@@ -4,6 +4,11 @@
 	heritage = heritage_baltic
 	language = language_baltic
 	traditions = { }
+
+	obsessions = {
+		liquor
+	}
+
 	male_common_first_names = {
 		Aaron
 		Abrams
@@ -205,6 +210,11 @@ FinnoUgric = {
 	heritage = heritage_nordic
 	language = language_finnic
 	traditions = { }
+
+	obsessions = {
+		coffee
+	}
+
 	male_common_first_names = {
 		Aleksandr
 		Dmitri
@@ -250,6 +260,11 @@ South_Slavic ={
 	heritage = heritage_south_slavic
 	language = language_south_slavic
 	traditions = { otomanosphere }
+
+	obsessions = {
+		tobacco meat
+	}
+
 	male_common_first_names={
 		Alaksandar
 		Arsenije
