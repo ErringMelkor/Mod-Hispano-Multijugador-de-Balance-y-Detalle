@@ -6,24 +6,10 @@ Improvements​
     Partial Shopkeeper/Academic-owned companies now pay 25% of their dividends to the workforce in their owned buildings
     Partial Bureaucrat-owned companies now pay 25% of their dividends to the government
     The South American National Identity Journal Entries now trigger a National Awakening for their respective cultures
-    Adjusted demographics for the Baltic States, Lithuania, and Poland to reflect the historical makeup of their aristocracies
-    Increased the Activism of the Polish National Movement in Russia whilst the Organic Statute of 1832 is active
-    Adjusted demographics for Ireland to reflect the historical demography of its Aristocrats, Soldiers and Officers pops
+
 
 
 Balance​
-
-    [GDFIX] Made colonization speed account for paused colonies (thank you Alxe for the suggestion)
-    [GDFIX] Added a lot of Obsessions to various cultures (thanks Tony for the suggestion)
-    [GDFIX] Political Movement support from Wealth now scales against the political strength from wealth levels, meaning that the support of a single wealthy individual is much more significant than support from a large number of poor individuals (thank you rskhm | BPM for the suggestion))
-    [GDFIX] GDP owned by your country in other countries now counts towards the reinvestment multiplier, so that a country with a massive investment pool from foreign holdings will not have it artificially boosted further (thank you to Blackpoolgo4it2 for the suggestion)
-    [GDFIX] Machinists and Engineers now contribute to the Investment Pool under economic setups where they receive dividends (thank you to CaelReader for the suggestion)
-    [GDFIX] Added Grocery taboo to Jewish religion to reflect their dietary restrictions (thanks nullpotato for the suggestion)
-    [GDFIX] Added Rye throughput bonus to the Ursus Company (thanks germaniec7 for the suggestion)
-    [GDFIX] The Launch Military Incursions decision in the Conquest of the Desert now requires Logistics instead of Civilizing Mission, and adds some infamy when taken (thank you Heinrich IV for the suggestion)
-    [GDFIX] Haiti starts with Homesteading now (thank you immeska for the suggestion)
-    [GDFIX] Changed the trigger of the United Fruit Company to allow foreign investment to fulfill forming conditions.
-
 
 
     Austria is no longer able to revoke the Hungarian Twelve Points without pushback by using the Regime Change power bloc interaction
