@@ -73,7 +73,6 @@ law_secret_police = {
 	}
 
 	modifier = {
-		country_institution_home_affairs_max_investment_add = 2
 		country_officers_pol_str_mult = 0.25
 	}
 	
@@ -85,6 +84,7 @@ law_secret_police = {
 		country_support_separatism_resistance_mult = 0.05
 		country_support_separatism_strength_mult = 0.05
 	}
+
 	on_enact = {
 		custom_tooltip = unlock_arrange_accident_tt
 	}
@@ -108,10 +108,6 @@ law_guaranteed_liberties = {
 	unlocking_laws = {
 		law_right_of_assembly
 		law_protected_speech
-	}
-	
-	modifier = {
-		country_institution_home_affairs_max_investment_add = 2
 	}
 	
 	institution = institution_home_affairs
