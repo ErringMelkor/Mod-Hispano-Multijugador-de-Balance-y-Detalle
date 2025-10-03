@@ -138,6 +138,17 @@ pm_apple_orchards = {
 	}
 }
 
+pm_sugar_beets = {
+	texture = "gfx/interface/icons/production_method_icons/sugar_beets.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -10
+			goods_output_sugar_add = 10
+		}
+	}
+}
+
 pm_tools_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_tool_use.dds"
 }
