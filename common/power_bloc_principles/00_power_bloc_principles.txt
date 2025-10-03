@@ -2000,15 +2000,15 @@ principle_defensive_cooperation_focus_2 = {
 	member_modifier = {
 		# Countries forced to join defensive plays against members
 		state_conscription_rate_add = 0.01
+		unit_defense_mult = 0.05
 	}
 
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
-		unit_defense_mult = 0.05
 		# Swaying members to join your side costs 50% less maneuvers if the inviting country is on the target's side
 		power_bloc_target_sway_cost_mult = -0.75
-		country_military_tech_research_speed_mult = 0.05
+		
 	}
 	
 	leader_modifier = {
@@ -2028,6 +2028,7 @@ principle_defensive_cooperation_focus_3 = {
 	member_modifier = {
 		# Countries forced to join defensive plays against members
 		country_join_power_bloc_member_in_defensive_plays_bool = yes
+		country_military_tech_research_speed_mult = 0.05
 		state_conscription_rate_add = 0.02
 		unit_defense_mult = 0.05
 	}
@@ -2036,7 +2037,6 @@ principle_defensive_cooperation_focus_3 = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
 		power_bloc_target_sway_cost_mult = -0.75
-		country_military_tech_research_speed_mult = 0.15
 	}
 	
 	leader_modifier = {
