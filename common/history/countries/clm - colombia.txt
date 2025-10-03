@@ -17,7 +17,6 @@
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_police
 				
-		add_journal_entry = { type = je_investigacion_peruana }
 		
 		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes

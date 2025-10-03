@@ -43,9 +43,5 @@
 			name = outmoded_bureaucracy
 			months = -1
 		}
-		add_modifier = {
-			name = cizye_tax
-			months = -1
-		}
 	}
 }

@@ -362,21 +362,8 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PASHTUNISTAN
+				state_region = s:STATE_CENTRAL_HIGHLANDS
 				count = 4
-			}
-		}
-	}
-
-	c:KAF = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_persia
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KABUL
-				count = 3
 			}
 		}
 	}
@@ -464,7 +451,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PASHTUNISTAN
+				state_region = s:STATE_KABUL
 				count = 4
 			}
 		}

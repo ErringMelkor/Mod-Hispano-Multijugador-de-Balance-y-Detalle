@@ -998,8 +998,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:WLT={
-		}
 		region_state:SDM={
 			create_building={
 				building="building_millet_farm"
@@ -1079,8 +1077,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:QWR={
 		}
 		region_state:AWS={
 			create_building={
@@ -1635,8 +1631,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:TGI={
 		}
 		region_state:MRV={
 		}
