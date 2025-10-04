@@ -104,7 +104,7 @@ state_trait_seine_river = {
 	}
 }
 
-state_trait_bremerhaven = {
+state_trait_hamburger_hafen = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 
 	modifier = {
@@ -172,6 +172,7 @@ state_trait_guadalquivir = {
 		state_infrastructure_add = 10
 	}
 }
+
 state_trait_venetian_lagoon = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 

@@ -262,7 +262,7 @@ STATE_HOME_COUNTIES = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 40
-        bg_logging = 4
+        bg_logging = 2
         bg_fishing = 10
         bg_monuments = 1
     }
@@ -457,7 +457,7 @@ STATE_ULSTER = {
     arable_land = 110
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 2
         bg_fishing = 11
     }
     naval_exit_id = 3030
@@ -497,7 +497,7 @@ STATE_LEINSTER = {
     capped_resources = {
         bg_iron_mining = 33
         bg_lead_mining = 27
-        bg_logging = 4
+        bg_logging = 2
         bg_fishing = 6
     }
     naval_exit_id = 3030
@@ -516,7 +516,7 @@ STATE_CONNAUGHT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_sulfur_mining = 16
-        bg_logging = 4
+        bg_logging = 2
         bg_fishing = 4
     }
     naval_exit_id = 3030
@@ -947,7 +947,7 @@ STATE_AUSTRIA = {
     id = 51
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0CBB8F" "x1180A0" "x20CF50" "x316141" "x62F70E" "x7F2E4E" "x84C7C3" "x9001A0" "xA40093" "xA9793B" "xFDA6CB" }
-    traits = { "state_trait_danube_river" }
+    traits = { "state_trait_danube_river" "state_trait_great_terroir" }
     city = "x316141"
     farm = "x9001A0"
     mine = "x9001A0"
