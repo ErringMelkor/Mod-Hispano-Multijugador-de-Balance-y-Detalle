@@ -18,7 +18,6 @@
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_national_guard # Mazorcas
-		add_journal_entry = { type = je_investigacion_peruana }
 		add_taxed_goods = g:tobacco
 		
 		set_tax_level = high
