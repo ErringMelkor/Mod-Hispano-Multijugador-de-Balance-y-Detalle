@@ -1,7 +1,6 @@
 ﻿### ERA 1
 
 Swedish_efficiency = {
-	# Unlocks Mulberry Groves PM on Rice Farms
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/stormtroopers.dds"
 	category = society
@@ -26,7 +25,6 @@ urbanization = {
 		state_infrastructure_from_population_max_add = 40	
 		state_building_construction_sector_max_level_add = 10
 		country_max_weekly_construction_progress_add = 10
-		
 	}
 	
 	ai_weight = {
@@ -44,7 +42,6 @@ urban_planning = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		
 	}
 	
 	unlocking_technologies = {
@@ -319,7 +316,6 @@ stock_exchange = {
 	category = society	
 	
 	modifier = {
-		
 		state_market_access_price_impact = 0.1
 	}
 	
@@ -358,6 +354,7 @@ mass_communication = {
 	
 	modifier = {
 		country_authority_mult = 0.1
+		country_voting_power_mult = 0.1
 	}
 	
 	unlocking_technologies = {
@@ -376,7 +373,7 @@ empiricism = {
 	category = society
 	
 	modifier = {
-		country_influence_mult = 0.1
+		country_influence_mult = 0.25
 		country_diplomatic_play_maneuvers_add = 10
 		country_institution_schools_max_investment_add = 1
 		state_education_access_wealth_add = 0.005
@@ -456,7 +453,6 @@ pharmaceuticals = {
 }
 
 modern_sewerage = {
-	# Unlocks Maintained Sewers PM in Urban Centers
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
 	category = society
@@ -466,10 +462,8 @@ modern_sewerage = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		
 		state_pollution_reduction_health_mult = -0.1
 		state_harvest_condition_flood_impact_mult = -0.1
-
 	}
 	
 	unlocking_technologies = {
@@ -572,14 +566,14 @@ central_archives = {
 					is_country_type = colonial
 					is_country_type = unrecognized
 				}
-				AND = {
-					has_law = law_type:law_protectionism
+				NAND = {
+					has_law_or_variant = law_type:law_protectionism
 					OR = {
-						has_law = law_type:law_interventionism
-						has_law = law_type:law_command_economy
-						has_law = law_type:law_laissez_faire
+						has_law_or_variant = law_type:law_interventionism
+						has_law_or_variant = law_type:law_command_economy
+						has_law_or_variant = law_type:law_laissez_faire
 					}
-					has_law = law_type:law_compulsory_primary_school
+					has_law_or_variant = law_type:law_compulsory_primary_school
 				}
 			}
 			create_political_movement = { type = movement_modernizer }
@@ -657,7 +651,7 @@ psychiatry = {
 	category = society
 	
 	modifier = {
-		country_influence_mult = 0.1
+		country_influence_mult = 0.25
 		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
@@ -699,6 +693,7 @@ nationalism = {
 	
 	modifier = {
 		country_authority_mult = 0.1
+		country_voting_power_mult = 0.1
 		country_diplomatic_play_maneuvers_add = 5
 	}
 	
@@ -707,17 +702,6 @@ nationalism = {
 		international_relations
 	}
 
-	on_researched = {
-		if = {
-			limit = {
-				NOT = { has_variable = nationalism_researched }
-			}
-			custom_tooltip = {
-				text = unlock_national_agitation_tt
-				set_variable = nationalism_researched
-			}
-		}
-	}
 	ai_weight = {
 		value = 2 # Important in general
 		
@@ -727,11 +711,9 @@ nationalism = {
 				OR = {
 					country_has_primary_culture = cu:north_german
 					country_has_primary_culture = cu:south_german
-					country_has_primary_culture = cu:north_italian
-					country_has_primary_culture = cu:south_italian
 				}				
 			}
-			add = 2
+			add = 4
 		}	
 		
 		if = {
@@ -744,7 +726,20 @@ nationalism = {
 					has_journal_entry = je_risorgimento
 				}
 			}
-			multiply = 2
+			multiply = 4
+		}
+
+		if = { # Important for Hungary and the Balkan states
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:croat
+					country_has_primary_culture = cu:serb
+					country_has_primary_culture = cu:slovene
+					country_has_primary_culture = cu:bosniak
+					country_has_primary_culture = cu:hungarian
+				}
+			}
+			multiply = 4
 		}
 	}
 }
@@ -803,6 +798,9 @@ postal_savings = {
 	modifier = {
 		state_farmers_investment_pool_efficiency_mult = 0.15
 		state_shopkeepers_investment_pool_efficiency_mult = 0.15
+		state_bureaucrats_investment_pool_efficiency_mult = 0.15
+		state_engineers_investment_pool_efficiency_mult = 0.15
+		state_machinists_investment_pool_efficiency_mult = 0.15
 		building_cash_reserves_mult = 0.2
 	}
 	
@@ -931,7 +929,6 @@ steel_frame_buildings = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		
 		state_harvest_condition_flood_impact_mult = -0.05
 	}
 	
@@ -1036,7 +1033,7 @@ socialism = {
 				NOT = { has_variable = socialism_researched }
 			}
 			set_variable = socialism_researched
-			ig:ig_trade_unions = {
+			ig:ig_trade_unions ?= {
 				add_ideology = ideology_socialist
 			}
 		}
@@ -1079,7 +1076,7 @@ corporatism = {
 				NOT = { has_variable = corporatism_researched }
 			}
 			set_variable = corporatism_researched
-			ig:ig_devout = {
+			ig:ig_devout ?= {
 				remove_ideology = ideology_pious
 				add_ideology = ideology_corporatist
 			}
@@ -1087,7 +1084,7 @@ corporatism = {
 	}
 	
 	modifier = {
-		state_radicals_from_political_movements_mult = -0.10
+		state_radicals_from_political_movements_mult = -0.1
 	}
 	
 	unlocking_technologies = {
@@ -1125,6 +1122,8 @@ pan-nationalism = {
 	
 	modifier = {
 		country_authority_mult = 0.1
+		country_support_separatism_strength_mult = 0.25
+		country_voting_power_mult = 0.1
 		country_diplomatic_play_maneuvers_add = 5
 		country_infamy_generation_mult = -0.1
 	}
@@ -1144,9 +1143,13 @@ pan-nationalism = {
 					country_has_primary_culture = cu:south_german
 					country_has_primary_culture = cu:north_italian
 					country_has_primary_culture = cu:south_italian
+					country_has_primary_culture = cu:croat
+					country_has_primary_culture = cu:serb
+					country_has_primary_culture = cu:slovene
+					country_has_primary_culture = cu:bosniak
 				}				
 			}
-			add = 2
+			add = 5
 		}	
 	}
 }
@@ -1179,8 +1182,8 @@ investment_banks = {
 	
 	modifier = {
 		country_max_companies_add = 1
-		state_urbanization_per_level_mult = -0.15
 		country_free_charters_add = 1
+		state_urbanization_per_level_mult = -0.15
 	}	
 	
 	unlocking_technologies = {
@@ -1220,7 +1223,7 @@ philosophical_pragmatism = {
 	
 	modifier = {
 		country_influence_mult = 0.25
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
@@ -1267,7 +1270,6 @@ elevator = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		
 	}	
 	
 	unlocking_technologies = {
@@ -1367,6 +1369,7 @@ political_agitation = {
 	modifier = {
 		state_expected_sol_from_literacy = 1
 		country_authority_mult = 0.1
+		country_voting_power_mult = 0.1
 		country_agitator_slots_add = 1
 		country_diplomatic_play_maneuvers_add = 10
 	}
@@ -1551,6 +1554,7 @@ mass_surveillance = {
 	modifier = {
 		state_tax_capacity_add = 25
 		state_tax_capacity_mult = 0.1
+		country_support_separatism_resistance_mult = 0.25
 	}
 	
 	unlocking_technologies = {
@@ -1571,8 +1575,10 @@ mass_propaganda = {
 	
 	modifier = {
 		country_authority_mult = 0.1
+		country_voting_power_mult = 0.1
 		state_expected_sol_from_literacy = 1
 		country_agitator_slots_add = 1
+		country_support_separatism_strength_mult = 0.25
 		country_diplomatic_play_maneuvers_add = 10
 	}
 	
@@ -1629,10 +1635,10 @@ paved_roads = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
 	category = society
+	should_update_map = yes # This technology adds paved roads to the map
 	
 	modifier = {
 		state_infrastructure_from_automobiles_consumption_add = 0.25
-		
 	}
 	
 	unlocking_technologies = {	

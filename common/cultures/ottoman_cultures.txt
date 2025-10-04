@@ -121,6 +121,11 @@ georgian={
 	heritage = heritage_georgian
 	language = language_georgian
 	traditions = { tradition_caucasian }
+
+	obsessions = {
+		wine
+	}
+	
 	male_common_first_names={
 		Akaki
 		Alexander
@@ -265,6 +270,11 @@ armenian={
 	heritage = heritage_armenian
 	language = language_armenian
 	traditions = { tradition_caucasian }
+
+	obsessions = {
+		tobacco
+	}
+
 	male_common_first_names={
 		Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour Atom Andranik Avetis
 		Barsegh Benyamin Boghos
@@ -330,6 +340,11 @@ albanian={
 	heritage = heritage_albanian
 	language = language_albanian
 	traditions = { tradition_rumelian }
+
+	obsessions = {
+		tobacco
+	}
+
 	male_common_first_names={
 		Ahmet
 		Ali
@@ -634,6 +649,11 @@ romanian={
 	heritage = heritage_romanian
 	language = language_eastern_romance
 	traditions = { otomanosphere }
+
+	obsessions = {
+		wine
+	}
+
 	male_common_first_names={
 		Adrian Alexandru Andrei Anton Artur Atanasie
 		Bogdan

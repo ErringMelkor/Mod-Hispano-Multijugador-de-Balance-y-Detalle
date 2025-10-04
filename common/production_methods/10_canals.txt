@@ -4,7 +4,11 @@
 	country_modifiers = {
 		workforce_scaled = {
 			country_prestige_add = 100
-		}
+			state_trade_advantage_mult = 0.25
+			country_minting_add = 50000
+			country_max_companies_add = 1.25
+			country_free_charters_add = 1.25
+		}	
 	}
 
 	state_modifiers = {
@@ -31,3 +35,6 @@
 		}
 	}
 }
+
+
+		

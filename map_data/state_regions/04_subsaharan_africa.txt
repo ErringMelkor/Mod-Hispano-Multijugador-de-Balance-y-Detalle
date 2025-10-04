@@ -524,7 +524,7 @@ STATE_KENYA = {
     farm = "x6B52F1"
     mine = "x89BA83"
     wood = "xF59538"
-    prime_land = { x35554F x941594 x22D39E x5C1ADA x6CCF4B x6B52F1 xA02190 x21A090 x9E9F57 xC53497 xC52E48 xE23000 } # coast
+    prime_land = { x35554F x941594 x22D39E x5C1ADA x6CCF4B x6B52F1 xA02190 x21A090 xC53497 xC52E48 xE23000 } # coast
 
 
 

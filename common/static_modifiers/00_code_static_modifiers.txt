@@ -33,20 +33,20 @@ base_values = {
 	state_upper_strata_expected_sol_add = 15
 	state_expected_sol_from_literacy = 5
 	
+	state_machinists_investment_pool_contribution_add = 0.10
 	state_farmers_investment_pool_contribution_add = 0.10
-	state_shopkeepers_investment_pool_contribution_add = 0.15
+	state_engineers_investment_pool_contribution_add = 0.15
 	state_bureaucrats_investment_pool_contribution_add = 0.05
+	state_shopkeepers_investment_pool_contribution_add = 0.15
 	state_clergymen_investment_pool_contribution_add = 0.15
 	state_aristocrats_investment_pool_contribution_add = 0.15
-	state_capitalists_investment_pool_contribution_add = 0.175
+	state_capitalists_investment_pool_contribution_add = 0.2
 	
 	# To balance for unincorporated states not paying taxes
 	state_unincorporated_starting_wages_mult = -0.20
 	building_unincorporated_subsistence_output_mult = -0.20
 		
 	country_construction_add = 15
-	
-	building_mobilization_cost_mult = 0.6
 	
 	building_economy_of_scale_level_cap_add = 20
 	
@@ -72,6 +72,8 @@ base_values = {
 	
 	state_trade_advantage_from_capacity_add = 0.0005
 	state_max_trade_advantage_from_capacity_add = 0.2
+	
+	country_party_whip_impact_add = 0.5
 }
 
 # Scales with a country's global prestige rank, so at 20/100 this is multiplied by 0.8x, 50/100 by 0.5x, etc
@@ -94,7 +96,8 @@ character_base_values = {
 
 coastal_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_infrastructure_add = 2
+	state_infrastructure_from_population_max_add = 10
+	state_infrastructure_from_population_mult = 0.05
 }
 
 working_conditions = {
@@ -468,7 +471,7 @@ insufficient_convoys = {
 efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_construction_mult = 0.10
-	country_institution_size_change_speed_mult = 0.35
+	country_institution_size_change_speed_mult = 0.5
 }
 
 # Insufficient BUR reduces tax & government dividends collected by 100% at 2x usage to production
@@ -877,6 +880,7 @@ retired_commander_interest_group_impact = {
 forced_regime_change = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	interest_group_in_government_approval_add = 5
+	interest_group_in_opposition_approval_add = -10
 	country_prestige_mult = -0.5
 	country_influence_mult = -0.5
 	country_legitimacy_base_add = -50
@@ -930,6 +934,6 @@ successfully_met_foreign_imposition_legitimacy = {
 }
 
 movement_suppressed_after_civil_war = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds"
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds"
 	political_movement_radicalism_add = -1
 }
