@@ -64,7 +64,7 @@ Balance General:
 	* Agregar la remolacha azucarera vanilla como Método de Producción secundario; ajustar el método de producción de la fruta en las granjas de grano.
 		La intención es que se "pierda" algo de valor si quieres producir eso en casa, para que las plantaciones de fruta y azúcar merezcan bien la pena.
 		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla).
-	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado.
+	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado. # Check
 	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
 
 ✓
