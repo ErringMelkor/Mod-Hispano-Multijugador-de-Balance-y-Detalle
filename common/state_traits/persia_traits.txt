@@ -41,3 +41,19 @@ state_trait_amu_daria_delta = {
 		state_infrastructure_mult = -0.1
 	}
 }
+
+state_trait_turqoise_deposits = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+
+	modifier = {
+		building_dye_plantation_throughput_add = 0.5
+	}
+}
+
+state_trait_bam_narmashir = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+
+	modifier = {
+		building_dye_plantation_throughput_add = 0.5
+	}
+}
