@@ -5,9 +5,9 @@
 		workforce_scaled = {
 			country_prestige_add = 100
 			state_trade_advantage_mult = 0.25
-			country_minting_add = 50000
 			country_max_companies_add = 1.25
 			country_free_charters_add = 1.25
+			country_minting_add = 50000
 		}	
 	}
 
@@ -24,8 +24,7 @@
 			goods_input_tools_add = 10
 			goods_input_coal_add = 15
 			# output goods
-			goods_output_gold_add = 10
-			country_minting_add = 5000
+			goods_output_gold_add = 500
 		}
 
 		level_scaled = {
