@@ -18,7 +18,7 @@
 }
 
 building_hardwood_camp = {
-	building_group = bg_logging
+	building_group = bg_hardwood_logging
 	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low

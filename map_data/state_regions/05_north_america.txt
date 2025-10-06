@@ -643,6 +643,7 @@ STATE_PENNSYLVANIA = {
         bg_coal_mining = 120
         bg_iron_mining = 57
         bg_logging = 23
+        bg_hardwood_logging = 10
     }
     resource = {
         type = "bg_oil_extraction"
