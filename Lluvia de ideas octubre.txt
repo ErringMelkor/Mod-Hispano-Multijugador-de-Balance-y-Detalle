@@ -61,9 +61,9 @@ Balance General:
 		IRL las fuentes más interesantes eran en la costa oeste americana (usa + columbia británica; Amazonas; Congo; Indonesia e Indochina).
 	* Rebalanceo de las compañías; limitar las más fuertes a culturas o tags para que no ocurran casos como GBR pidiendo Santiago de Chile para tener una compañía que golpea por encima de su propio peso.
 	* El Método de Producción de los Canales podría mejorar con Techs de sociedad. Propuesto por Gato; yo lo veo interesante.
-	* Agregar la remolacha azucarera vanilla como Método de Producción secundario; ajustar el método de producción de la fruta en las granjas de grano.
-		La intención es que se "pierda" algo de valor si quieres producir eso en casa, para que las plantaciones de fruta y azúcar merezcan bien la pena.
-		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla).
+	* Agregar la remolacha azucarera vanilla como Método de Producción secundario; ajustar el método de producción de la fruta en las granjas de grano. #Check
+		La intención es que se "pierda" algo de valor si quieres producir eso en casa, para que las plantaciones de fruta y azúcar merezcan bien la pena. #Check
+		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla). #check
 	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado. # Check
 	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
 
