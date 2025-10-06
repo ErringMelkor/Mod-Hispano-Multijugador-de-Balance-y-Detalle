@@ -53,8 +53,8 @@ Balance General:
 		# Tintes, check.
 		# Algodón, check.
 		# Queda el té.
-	* Nerfear las plantaciones de tintes.
-	* Dar algo más de vidilla a las groceries y el pescado, a brocha gruesa.
+	* Nerfear las plantaciones de tintes. #Check.
+	* Dar algo más de vidilla a las groceries y el pescado, a brocha gruesa. #Check.
 	* Introducir pesca de agua dulce: rios importantes y regiones de lagos.
 	* 4to tier de pesca o edificio de pesca de alta mar en lategame.
 	* Separar la madera dura de la madera blanda (?); la madera dura pasa a ser un bien limitado y estratégico. 
