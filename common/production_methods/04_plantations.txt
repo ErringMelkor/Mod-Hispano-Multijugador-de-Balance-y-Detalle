@@ -121,7 +121,7 @@ default_building_dye_plantation = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
-			goods_output_dye_add = 10
+			goods_output_dye_add = 15
 		}
 
 		level_scaled = {
