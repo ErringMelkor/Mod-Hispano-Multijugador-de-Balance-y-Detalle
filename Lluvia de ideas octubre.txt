@@ -80,3 +80,16 @@ Normas:
 	* Prohibido dar construcción a más de 5 IAs. Soft limit, en caso de no encontremos manera de ajustarlo con mecánicas del mod propiamente dichas. ✓
 	* Partes de India/China incorporables por los europeos? Lo comentó gato y yo lo forwardeo. X
 	
+
+------------------------
+
+Madera Dura:
+	Ratio 1/30 en Siberia (state_region 14).
+	Ratio 1/20
+	Ratio 1/15 en provincias con bono general a la madera.
+	Ratio 1/10 en provincias con modificador de madera dura.
+	Ratio 1/5 en el Amazonas y Congo.
+	Excepción a UK; numero limitado garantizado.
+	Excepción a Líbano.
+	Excepción a Mazandarán / Bosques hircanianos (ratio 1/5).
+	Se redondea hacia abajo (ex: si hay 16 de madera en un sitio sin bono, hay 0 de madera dura).

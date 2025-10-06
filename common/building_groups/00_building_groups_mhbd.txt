@@ -5,7 +5,7 @@ bg_hardwood_logging = {
 
 	can_use_slaves = yes
 
-	default_building = bg_hardwood_logging
+	default_building = building_hardwood_logging
 
 	lens = forestry
 

@@ -80,6 +80,7 @@ STATE_TOBOLSK = {
         bg_coal_mining = 44
         bg_iron_mining = 10
         bg_logging = 30
+        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -104,6 +105,7 @@ STATE_UPPER_YENISEYSK = {
         bg_coal_mining = 15
         bg_iron_mining = 10
         bg_logging = 48
+        bg_hardwood_logging = 1
     }
 }
 
@@ -283,6 +285,7 @@ STATE_IRKUTSK = {
         bg_coal_mining = 50
         bg_iron_mining = 36
         bg_logging = 30
+        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"

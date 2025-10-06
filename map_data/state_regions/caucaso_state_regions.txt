@@ -37,6 +37,7 @@ STATE_KUBAN = {
         bg_lead_mining = 27
         bg_iron_mining = 10
         bg_logging = 35
+        bg_hardwood_logging = 1
         bg_fishing = 7
     }
     resource = {

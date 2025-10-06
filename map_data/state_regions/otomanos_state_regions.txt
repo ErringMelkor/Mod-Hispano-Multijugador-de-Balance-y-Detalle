@@ -143,6 +143,7 @@ STATE_KASTAMONU = {
         bg_coal_mining = 72
         bg_iron_mining = 12
         bg_logging = 22
+        bg_hardwood_logging = 1
         bg_fishing = 10
     }
     naval_exit_id = 3036

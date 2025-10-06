@@ -50,6 +50,7 @@ STATE_LEBANON = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 4
+        bg_hardwood_logging = 3 #Excepción histórica.
         bg_fishing = 5
     }
     naval_exit_id = 3034

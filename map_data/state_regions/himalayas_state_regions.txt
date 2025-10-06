@@ -13,6 +13,7 @@ STATE_LHASA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 20
+         bg_hardwood_logging = 1
         bg_iron_mining = 24
         bg_gold_mining = 2
     }

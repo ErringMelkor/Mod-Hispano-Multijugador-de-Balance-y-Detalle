@@ -40,6 +40,7 @@ STATE_NORTH_BORNEO = {
         bg_iron_mining = 24
         bg_sulfur_mining = 36
         bg_logging = 20
+        bg_hardwood_logging = 2
         bg_fishing = 8
     }
     resource = {
@@ -75,6 +76,7 @@ STATE_WEST_BORNEO = {
     capped_resources = {
         bg_lead_mining = 30
         bg_logging = 17
+        bg_hardwood_logging = 1
         bg_fishing = 7
     }
     resource = {
@@ -106,6 +108,7 @@ STATE_EAST_BORNEO = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 20
+        bg_hardwood_logging = 2
         bg_fishing = 9
     }
     resource = {
@@ -217,6 +220,7 @@ STATE_NORTH_SUMATRA = {
         bg_coal_mining = 40
         bg_sulfur_mining = 48
         bg_logging = 29
+        bg_hardwood_logging = 1
         bg_fishing = 13
     }
     resource = {
@@ -241,6 +245,7 @@ STATE_SOUTH_SUMATRA = {
         bg_coal_mining = 40
         bg_sulfur_mining = 48
         bg_logging = 29
+        bg_hardwood_logging = 1
         bg_fishing = 13
     }
     resource = {
@@ -298,6 +303,7 @@ STATE_WESTERN_NEW_GUINEA = {
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 20
+        bg_hardwood_logging = 1
         bg_fishing = 9
         bg_whaling = 2
     }
@@ -452,6 +458,7 @@ STATE_LUZON = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 20
+        bg_hardwood_logging = 1
         bg_fishing = 12
     }
     resource = {
