@@ -1,8 +1,65 @@
-Gran Bretaña empieza con el pago de las reparaciones por liberar los esclavos.
-Francia tiene malus al workforce ratio.
-Buff a prusia? Buff a austria?
-Buff a japón?
+Ideas para Francia:
+	* Workforce ratio inicial por las guerras napoleónicas.
+	* Los Landowners apoyan mujeres propietarias (?).
+	* Ley propia de Tenancy / Homesteading, o modificador provincial (como existe en la India) para reflejar la partición de tierras.
+		Idea para ley agraria de Francia: ofrece más Ratio de Subsistencia (4.5 o 5 frente a 4), pero tiene menos trabajos. 
+		IRL en la zona del Langue d'Oil tenía mucho peso el minifundio, + tradición de compilación napoléonica; aunque no tiene tanto peso hoy.
+		Genuinamente parece que uno de los motivos de la curva demográfica francesa es puramente cultural: rehusaban tener más hijos.
+	* No me gustaría rebajarle la tierra arable; recomiendo descartar esa idea ya de antemano.
+	* Incorporar el Departamento Central como monumento a París.
+	* Decisión para renovar París (como ocurriría con Napoleón III).
 
-Reajustar la remolacha azucarera.
+Ideas para Gran Bretaña:
+	* Liberar Irlanda como posible resolución a la crisis de la aceptación/soberanía inglesa. Quedaría liberada como un vasallo especial, leal pero no anexable sin paso extra o trabajo adicional.
+	* Introducir Fervor Nacional a Irlanda -> Escocia -> Gales, en ese orden de mayor a menor.
+	* Agregar la deuda por liberar los esclavos; tomar de referente la JE ya existente de Haiti, puede dar mucho juego.
 
-Condensar los Principios.
+Ideas para Rusia:
+	Expandir la Entrada de Diario del Gran Reformador.
+		* Eventos para la aparición de ministros históricos que fomentaron las reformas rusas de la época.
+		* Mejorar a Alejandro II cuando la completa.
+		* Evento relacionado con la emancipacion de los siervos (?)
+		* Tomar de base los modificadores y entrada inicial de Austria para retrasar la reforma rápida de Rusia.
+		* Equivalente de Neo-absolutismo para Rusia.
+	Mejorar bastante al Príncipe Nicolas para incentivar que sobreviva (tienes que desbloquear "Modern Nursing" a tiempo, un interés raro para el ruso.
+
+Ideas para Japón:
+	* Mejorar ligeramente las compañías una vez completas la Restauración Komei/Meiji con éxito.
+	* Algo de spread o bono a la investigación tras completar el Terakoya.
+
+Ideas para Asia:
+	* Ofrecer embajada da 0.5 puntos en vez de 1 punto.
+	* Necesitas 200 puntos para reconocerte en vez de 150.
+
+Grupos de Interés:
+	* Ajuste de rasgos ya existentes para la Iglesia Protestante.
+	* Ajuste de rasgos ya existentes para Austria, Rusia y Prusia.
+	* Reincorporar los rasgos de India y China.
+	* Mejorar los rasgos de los Devotos y Landowners.
+
+Balance General:
+	* Reintroducir una JE genérica para los países minoritarios e insignificantes.
+	* Reducir las plantaciones, particularmente tratando que haya una concentración regional.
+	* Nerfear las plantaciones de tintes.
+	* Dar algo más de vidilla a las groceries y el pescado, a brocha gruesa.
+	* Introducir pesca de agua dulce: rios importantes y regiones de lagos.
+	* 4to tier de pesca o edificio de pesca de alta mar en lategame.
+	* Separar la madera dura de la madera blanda (?); la madera dura pasa a ser un bien limitado y estratégico. 
+		IRL las fuentes más interesantes eran en la costa oeste americana (usa + columbia británica; Amazonas; Congo; Indonesia e Indochina).
+	* Rebalanceo de las compañías; limitar las más fuertes a culturas o tags para que no ocurran casos como GBR pidiendo Santiago de Chile para tener una compañía que golpea por encima de su propio peso.
+	* El Método de Producción de los Canales podría mejorar con Techs de sociedad. Propuesto por Gato; yo lo veo interesante.
+	* Agregar la remolacha azucarera vanilla como Método de Producción secundario; ajustar el método de producción de la fruta en las granjas de grano.
+		La intención es que se "pierda" algo de valor si quieres producir eso en casa, para que las plantaciones de fruta y azúcar merezcan bien la pena.
+		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla).
+	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado.
+	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
+
+Principios:
+	* Pedir lluvia de ideas para la gente.
+	* Revisar los guardados para ver que han ido usando estas dos MPs simultáneas.
+	* Ordenar bajo dos categorías: impacto y popularidad. Balancear de acorde a ambos factores.
+
+Normas:
+	* Prohibido dar construcción a más de 5 IAs. Soft limit, en caso de no encontremos manera de ajustarlo con mecánicas del mod propiamente dichas.
+	* Partes de India/China incorporables por los europeos? Lo comentó gato y yo lo forwardeo.
+	
