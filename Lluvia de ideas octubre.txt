@@ -50,6 +50,9 @@ Grupos de Interés:
 Balance General:
 	* Reintroducir una JE genérica para los países minoritarios e insignificantes.
 	* Reducir las plantaciones, particularmente tratando que haya una concentración regional.
+		# Tintes, check.
+		# Algodón, check.
+		# Queda el té.
 	* Nerfear las plantaciones de tintes.
 	* Dar algo más de vidilla a las groceries y el pescado, a brocha gruesa.
 	* Introducir pesca de agua dulce: rios importantes y regiones de lagos.
