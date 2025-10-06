@@ -76,8 +76,7 @@ state_trait_pampas = {
 	
 	modifier = {
 		building_group_bg_ranching_throughput_add = 0.35
-		building_group_bg_agriculture_throughput_add = 0.20
-		building_group_bg_plantations_throughput_add = 0.10
+		building_group_bg_agriculture_throughput_add = 0.25
 	}
 }
 
