@@ -58,41 +58,6 @@ pm_synthetic_oil_production = {
 	}
 }
 
-pm_dye_production = {
-	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
-	
-	replacement_if_valid = pm_dye_production_principio_industria
-	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_sulfur_add = 20
-			goods_input_fertilizer_add = 20
-
-			# output goods
-			goods_output_dye_add = 100
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 1000
-			building_employment_machinists_add = 1500
-			building_employment_engineers_add = 2000
-		}
-	}
-}
-
-pm_no_artificial_fibers = {
-	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
-}
-
 pm_rayon = {
 	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
 
@@ -103,11 +68,11 @@ pm_rayon = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 10
+			goods_input_hardwood_add = 5 # -200
 
 			# output goods
-			goods_output_dye_add = -10
-			goods_output_silk_add = 40
+			goods_output_dye_add = -10 # -400
+			goods_output_silk_add = 40 # 1600
 		}
 
 		level_scaled = {
