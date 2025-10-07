@@ -143,7 +143,7 @@ STATE_KASTAMONU = {
         bg_coal_mining = 72
         bg_iron_mining = 12
         bg_logging = 22
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 10
     }
     naval_exit_id = 3036
@@ -201,6 +201,7 @@ STATE_TRABZON = {
     capped_resources = {
         bg_iron_mining = 21
         bg_logging = 12
+        bg_hardwood_logging = 2
         bg_fishing = 9
     }
     naval_exit_id = 3036
@@ -272,6 +273,7 @@ STATE_CYPRUS = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 3
+        bg_hardwood_logging = 1
         bg_fishing = 8
         bg_iron_mining = 12
         bg_sulfur_mining = 5

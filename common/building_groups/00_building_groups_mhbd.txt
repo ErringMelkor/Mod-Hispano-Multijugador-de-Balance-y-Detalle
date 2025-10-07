@@ -1,7 +1,7 @@
 # Logging
 
 bg_hardwood_logging = {
-	parent_group = bg_extraction
+	parent_group = bg_logging
 
 	can_use_slaves = yes
 

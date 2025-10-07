@@ -796,7 +796,7 @@ STATE_ONTARIO = {
     capped_resources = {
         bg_sulfur_mining = 58
         bg_logging = 60
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 5
         bg_fishing = 10
     }
     resource = {
@@ -843,7 +843,7 @@ STATE_QUEBEC = {
     capped_resources = {
         bg_iron_mining = 60
         bg_logging = 100
-        bg_hardwood_logging = 6
+        bg_hardwood_logging = 9
         bg_whaling = 4
         bg_fishing = 8
     }
@@ -867,6 +867,7 @@ STATE_NEWFOUNDLAND = {
         bg_iron_mining = 24
         bg_lead_mining = 24
         bg_logging = 24
+        bg_hardwood_logging = 1
         bg_whaling = 12
         bg_fishing = 18
     }
@@ -911,8 +912,8 @@ STATE_BRITISH_COLUMBIA = {
     capped_resources = {
         bg_coal_mining = 28
         bg_sulfur_mining = 36
-        bg_logging = 80
-        bg_hardwood_logging = 8
+        bg_logging = 60
+        bg_hardwood_logging = 12
         bg_whaling = 6
         bg_fishing = 9
     }
@@ -1145,7 +1146,7 @@ STATE_CALIFORNIA = {
         bg_iron_mining = 33
         bg_sulfur_mining = 40
         bg_logging = 45
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 4
         bg_fishing = 14
         bg_whaling = 6
     }

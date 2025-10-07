@@ -225,7 +225,7 @@ STATE_KASHMIR = {
         bg_iron_mining = 18
         bg_sulfur_mining = 12
         bg_logging = 24
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 
@@ -286,7 +286,7 @@ STATE_CENTRAL_PROVINCES = {
         bg_coal_mining = 32
         bg_lead_mining = 12
         bg_logging = 24
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 
@@ -485,7 +485,7 @@ STATE_MADRAS = {
     capped_resources = {
         bg_iron_mining = 36
         bg_logging = 24
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 18
     }
     resource = {
@@ -525,6 +525,7 @@ STATE_HYDERABAD = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_logging = 16
+        bg_hardwood_logging = 1
         bg_coal_mining = 6
         bg_iron_mining = 4
     }
@@ -567,6 +568,7 @@ STATE_TENASSERIM = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 17
+        bg_hardwood_logging = 1
         bg_fishing = 12
         bg_iron_mining = 5
     }
@@ -590,7 +592,7 @@ STATE_KACHIN = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 24
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 3
         bg_iron_mining = 7
         bg_gold_mining = 3
     }
