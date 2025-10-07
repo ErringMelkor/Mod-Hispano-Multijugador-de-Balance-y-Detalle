@@ -5,10 +5,10 @@ pm_hardwood = {
 		workforce_scaled = {
 
 			#input goods
-			goods_input_tools_add = 5 # 200
+			goods_input_tools_add = 2.5 # 100
 
 			#output goods
-			goods_output_hardwood_add = 30 # 1200
+			goods_output_hardwood_add = 25 # 1000
 		}
 
 		level_scaled = {
@@ -31,7 +31,7 @@ pm_hardwood_sawmills = {
 			goods_input_tools_add = 10 # 400
 			
 			# output goods
-			goods_output_hardwood_add = 40 # 1600
+			goods_output_hardwood_add = 35 # 1400
 		}
 
 		level_scaled = {
@@ -56,7 +56,7 @@ pm_electric_hardwood_sawmills = {
 			goods_input_electricity_add = 5 # 150
 			
 			# output goods
-			goods_output_hardwood_add = 65 # 2600 
+			goods_output_hardwood_add = 55 # 2200 
 		}
 
 		level_scaled = {
