@@ -356,6 +356,7 @@ STATE_KIEV = {
         bg_coal_mining = 36
         bg_iron_mining = 14
         bg_logging = 32
+        bg_fishing = 2
     }
 }
 
@@ -615,6 +616,7 @@ STATE_ROSTOV = {
     capped_resources = {
         bg_coal_mining = 108
         bg_logging = 7
+        bg_fishing = 4
     }
     naval_exit_id = 3036
 }
@@ -1280,6 +1282,7 @@ STATE_SAMARA = {
         bg_coal_mining = 30
         bg_logging = 9
         bg_iron_mining = 5
+        bg_fishing = 2
     }
     resource = {
         type = "bg_oil_extraction"
