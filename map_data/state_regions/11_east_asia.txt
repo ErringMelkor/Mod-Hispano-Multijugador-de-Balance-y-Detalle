@@ -884,7 +884,7 @@ STATE_TONKIN = {
     capped_resources = {
         bg_coal_mining = 36
         bg_logging = 36
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
         bg_fishing = 16
     }
     resource = {

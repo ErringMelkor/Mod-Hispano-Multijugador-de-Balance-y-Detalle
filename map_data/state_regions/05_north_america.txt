@@ -1146,7 +1146,7 @@ STATE_CALIFORNIA = {
         bg_iron_mining = 33
         bg_sulfur_mining = 40
         bg_logging = 45
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
         bg_fishing = 14
         bg_whaling = 6
     }

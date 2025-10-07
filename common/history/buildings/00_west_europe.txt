@@ -126,7 +126,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_secondary_production" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -3649,7 +3649,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=1
+						levels=2
 						region="STATE_ALSACE_LORRAINE"
 					}
 				}
@@ -3717,7 +3717,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=5
+						levels=8
 						region="STATE_ALSACE_LORRAINE"
 					}
 				}
@@ -3907,6 +3907,19 @@
 				reserves=1
 				activate_production_methods={ "pm_slaughterhouses" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
+			create_building={
+				building="building_hardwood_logging"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_GUYENNE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+			}
 		}
 	}
 	s:STATE_AUVERGNE_LIMOUSIN={
@@ -3957,6 +3970,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_hardwood_logging"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=1
+						region="STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_logging_camp"

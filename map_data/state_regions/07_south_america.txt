@@ -188,7 +188,7 @@ STATE_GUAVIARE = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 35
-        bg_hardwood_logging = 11
+        bg_hardwood_logging = 7
     }
     resource = {
         type = "bg_rubber"
@@ -258,7 +258,7 @@ STATE_PASTAZA = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 35
-        bg_hardwood_logging = 11
+        bg_hardwood_logging = 7
     }
     resource = {
         type = "bg_rubber"

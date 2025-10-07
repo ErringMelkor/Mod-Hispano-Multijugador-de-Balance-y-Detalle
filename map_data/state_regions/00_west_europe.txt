@@ -14,7 +14,7 @@
         bg_iron_mining = 72
         bg_lead_mining = 18
         bg_logging = 45
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 1
         bg_fishing = 18
     }
     naval_exit_id = 3000
@@ -35,7 +35,7 @@ STATE_GOTALAND = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 25
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
         bg_fishing = 24
     }
     naval_exit_id = 3019
@@ -76,7 +76,7 @@ STATE_NORRLAND = {
     capped_resources = {
         bg_iron_mining = 80
         bg_logging = 40
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 1
         bg_fishing = 14
     }
     naval_exit_id = 3000
@@ -182,7 +182,6 @@ STATE_NORTHERN_NORWAY = {
         bg_iron_mining = 22
         bg_sulfur_mining = 20
         bg_logging = 24
-        bg_hardwood_logging = 2
         bg_whaling = 20
         bg_fishing = 10
     }

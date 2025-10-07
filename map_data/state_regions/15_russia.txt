@@ -283,7 +283,6 @@ STATE_INGRIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 25
-        bg_hardwood_logging = 1
         bg_fishing = 10
     }
     naval_exit_id = 3000
@@ -304,7 +303,7 @@ STATE_MOSCOW = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_logging = 34
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
         bg_monuments = 1
     }
 }
@@ -372,7 +371,7 @@ STATE_ORYOL = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 72
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
         bg_coal_mining = 58
         bg_iron_mining = 16
     }
@@ -409,7 +408,6 @@ STATE_MOGILEV = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 21
-        bg_hardwood_logging = 1
     }
 }
 
@@ -452,7 +450,7 @@ STATE_NOVGOROD = {
     capped_resources = {
         bg_coal_mining = 24
         bg_logging = 40
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -491,7 +489,6 @@ STATE_KHARKOV = {
         bg_coal_mining = 60
         bg_iron_mining = 28
         bg_logging = 20
-        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -512,7 +509,6 @@ STATE_KURSK = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 31
-        bg_hardwood_logging = 1
         bg_iron_mining = 93
     }
     resource = {
@@ -638,7 +634,7 @@ STATE_PERM = {
         bg_coal_mining = 80
         bg_iron_mining = 75
         bg_logging = 35
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -895,7 +891,6 @@ STATE_TAMBOV = {
     capped_resources = {
         bg_iron_mining = 10
         bg_logging = 35
-        bg_hardwood_logging = 1
     }
 }
 
@@ -912,7 +907,6 @@ STATE_RYAZAN = {
     capped_resources = {
         bg_coal_mining = 21
         bg_logging = 28
-        bg_hardwood_logging = 1
     }
 }
 
@@ -1022,7 +1016,6 @@ STATE_UFA = {
         bg_iron_mining = 25
         bg_coal_mining = 10
         bg_logging = 25
-        bg_hardwood_logging = 1
         bg_lead_mining = 16
     }
     resource = {
@@ -1044,7 +1037,6 @@ STATE_SURGUT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 32
-        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1067,7 +1059,6 @@ STATE_KRASNOYARSK = {
         bg_iron_mining = 15
         bg_coal_mining = 40
         bg_logging = 60
-        bg_hardwood_logging = 2
     }
     resource = {
         type = "bg_gold_fields"
@@ -1219,7 +1210,6 @@ STATE_CHUVASHIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 25
-        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1240,7 +1230,6 @@ STATE_CHERNIHIV = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 16
-        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
