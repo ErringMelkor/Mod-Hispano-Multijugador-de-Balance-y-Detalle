@@ -1301,7 +1301,7 @@ NPops = {
 	ACCEPTANCE_FROM_HOMELAND_COMMUNITY = 0										# The amount of acceptance a pop gets from living in their homeland, applied statically on their Cultural Community
 	ACCEPTANCE_FROM_NOT_HOMELAND_COMMUNITY = 0									# The amount of acceptance a pop gets from not living in their homeland, applied statically on their Cultural Community
 	MIN_REQUIRED_ACCEPTANCE_FOR_MIGRATION = 30		 							# If a pop would have less than this much acceptance in a target state, they won't mass migrate there
-	EXPECTED_ACCEPTANCE_INCREASE_TO_MIGRATE = 10                                # A pop will look to increase their acceptance by this much when mass migrating, but might accept less if mass migration attraction difference is high enough
+	EXPECTED_ACCEPTANCE_INCREASE_TO_MIGRATE = 0                                # A pop will look to increase their acceptance by this much when mass migrating, but might accept less if mass migration attraction difference is high enough
 	MAX_ACCEPTANCE_RATIO_MULT_MIGRATION = 5										# A difference in acceptance between source and target in mass migrations will result in at most this much increased migration
 
 	BUCKET_MIGRATION_EXPIRATION_YEARS = 5									    # How long a migration bucket will be kept before it is removed
@@ -1354,7 +1354,7 @@ NPops = {
 	MIGRATION_PULL_LOW_THRESHOLD = 0.75											# State must have a migration pull of less or equal than market average * this to get full amount of emigration
 
 	# Treaty Ports #
-	TREATY_PORT_INITIAL_MIGRATION = 1000										# This is the amount of people of the taker country's first primary culture to migrate to a treaty port upon establishment
+	TREATY_PORT_INITIAL_MIGRATION = 2000										# This is the amount of people of the taker country's first primary culture to migrate to a treaty port upon establishment
 
 ## Migration Attraction ##
 	MIGRATION_PULL_EMPTY_STATE = 100											# If a state has no pops at all, give it a huge migration pull
