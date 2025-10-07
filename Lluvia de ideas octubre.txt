@@ -90,6 +90,11 @@ Normas:
 	* Partes de India/China incorporables por los europeos? Lo comentó gato y yo lo forwardeo. X
 	
 
+Arreglos:
+	Misión de Austria.
+	Agregar más buro inicial.
+	Doble rasgo negativo de la PB española.
+
 ------------------------
 
 #Version 1.
@@ -139,6 +144,9 @@ Madera Dura:
 			Artillery Foundries
 			Métodos militares (trabajos de campo ?)
 			
+Enlace al cálculo de la madera dura: https://docs.google.com/spreadsheets/d/1_uxmDEJJhDLwbP4Zul3gVyLW_PHmZQv9r3mM9Kl-vXg/edit?usp=sharing
+
+
 
 
 
