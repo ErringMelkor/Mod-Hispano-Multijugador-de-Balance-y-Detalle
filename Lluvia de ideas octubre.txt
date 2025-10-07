@@ -37,8 +37,12 @@ Ideas para Rusia:
 Ideas para Japón:
 	* Mejorar ligeramente las compañías una vez completas la Restauración Komei/Meiji con éxito.
 	* Algo de spread o bono a la investigación tras completar el Terakoya.
-
 ✓
+
+Ideas para Otomanos:
+	* Revertir ideologías para corregir incongruencias.
+	* Reajustar sus leyes iniciales.
+	
 
 Ideas para Asia:
 	* Ofrecer embajada da 0.5 puntos en vez de 1 punto. X Que sea cantidad plana, no tick
@@ -54,16 +58,16 @@ Grupos de Interés:
 
 Balance General:
 	* Reintroducir una JE genérica para los países minoritarios e insignificantes.
-	* Reducir las plantaciones, particularmente tratando que haya una concentración regional.
+	* Reducir las plantaciones, particularmente tratando que haya una concentración regional. #Check
 		# Tintes, check.
 		# Algodón, check.
 		# Queda el té.
 	* Nerfear las plantaciones de tintes. #Check.
 	* Dar algo más de vidilla a las groceries y el pescado, a brocha gruesa. #Check.
-	* Introducir pesca de agua dulce: rios importantes y regiones de lagos.
+	* Introducir pesca de agua dulce: rios importantes y regiones de lagos. #Check
 	* 4to tier de pesca o edificio de pesca de alta mar en lategame.
-	* Separar la madera dura de la madera blanda (?); la madera dura pasa a ser un bien limitado y estratégico. 
-		IRL las fuentes más interesantes eran en la costa oeste americana (usa + columbia británica; Amazonas; Congo; Indonesia e Indochina).
+	* Separar la madera dura de la madera blanda (?); la madera dura pasa a ser un bien limitado y estratégico. # Check.
+		IRL las fuentes más interesantes eran en la costa oeste americana (usa + columbia británica; Amazonas; Congo; Indonesia e Indochina). # Check.
 	* Rebalanceo de las compañías; limitar las más fuertes a culturas o tags para que no ocurran casos como GBR pidiendo Santiago de Chile para tener una compañía que golpea por encima de su propio peso.
 	* El Método de Producción de los Canales podría mejorar con Techs de sociedad. Propuesto por Gato; yo lo veo interesante.
 	* Agregar la remolacha azucarera vanilla como Método de Producción secundario; ajustar el método de producción de la fruta en las granjas de grano. #Check
@@ -71,12 +75,15 @@ Balance General:
 		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla). #check
 	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado. # Check
 	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
+	* Mejorar Perú-Bolivia; que no se lo coma Brasil todo el rato.
+	* Nerf a "Subjecthood" (?)
+	
 	
 ✓
 
 Migraciones:
-	Aumentada la facilidad y frecuencia de migraciones.
-	* Revisar migraciones, hacer que pasen mas frecuentemente. % de que ocurran; meses de cooldown; umbral de radicales; umbral de aceptación.
+	Aumentada la facilidad y frecuencia de migraciones. # Check
+	* Revisar migraciones, hacer que pasen mas frecuentemente. % de que ocurran; meses de cooldown; umbral de radicales; umbral de aceptación. #Beck
 
 Principios:
 	* Pedir lluvia de ideas para la gente.
@@ -151,3 +158,4 @@ Enlace al cálculo de la madera dura: https://docs.google.com/spreadsheets/d/1_u
 
 
 
+Notas predormicion: mirar el crecimiento de la población (alemania, usa, rusia).

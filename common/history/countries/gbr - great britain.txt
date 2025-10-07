@@ -2,11 +2,11 @@
 	c:GBR ?= {
 		set_next_election_date = 1836.2.1
 		
-		ig:ig_intelligentsia = {
+		ig:ig_intelligentsia ?= {
 			add_ruling_interest_group = yes
 		}
 
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_petty_bourgeoisie ?= {
 			add_ruling_interest_group = yes
 		}
 		
@@ -84,6 +84,11 @@
 			name = brazilian_slave_trade_modifier
 			months = 600 # 50 Years
 		}
+
+		
+
+
+
 
 		# Was historically around, but we've scrapped it so we can have the slots free for the big boys
 		# add_company = company_type:company_gwr

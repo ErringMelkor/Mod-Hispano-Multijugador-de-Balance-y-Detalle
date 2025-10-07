@@ -1166,6 +1166,73 @@ pm_default_building_sar_i_sang= {
 	}
 }
 
+pm_default_building_modern_sar_i_sang= {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_technologies = {
+		watertube_boiler
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 15000
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_dye_add = 100
+			goods_output_gold_add = 150
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 2000
+		}
+	}
+}
+
+pm_default_building_full_mine_sar_i_sang= {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 25000
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_dye_add = 250
+			goods_output_gold_add = 250
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
 
 pm_default_building_victoria_terminus = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"

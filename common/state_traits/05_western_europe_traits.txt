@@ -192,3 +192,11 @@ state_trait_great_terroir = {
 		goods_output_wine_mult = 0.1
 	}
 }
+
+state_trait_the_golden_vale = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_ranching_throughput_add = 0.15
+	}
+}

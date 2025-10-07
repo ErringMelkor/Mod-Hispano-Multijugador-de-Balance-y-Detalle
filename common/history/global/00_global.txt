@@ -63,6 +63,73 @@ GLOBAL = {
 		}
 	}
 
+	c:BEL ?= { # Historically 9.5:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -2.85
+		}
+	}
+
+	c:NET ?= { # Historically 3.2:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.96
+		}
+	}
+
+	c:AUS ?= { # Historically 5.33:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.59
+		}
+	}
+
+	c:GBR ?= { # Deuda de las Guerras Napoleónicas + Liberación de esclavos.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.75
+		}
+	}
+
+	c:PRU ?= { # Historically 3.8:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.14
+		}
+	}
+
+	c:TUR ?= { # Historically had no foreign debt prior to 1854
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.4
+		}
+	}
+
+	c:MON ?= { # Were not wealthy, their gold_reserves limit is inflated, but we give the player a little time to figure themselves out.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.40
+		}
+	}
+
+	every_country = { # Other Balkan countries - none should be too "rich"
+		limit = {
+			OR = {
+				c:SER ?= this
+				c:WAL ?= this
+				c:MOL ?= this
+				c:GRE ?= this
+				c:HUN ?= this
+				c:CRO ?= this
+				c:TRS ?= this
+			}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.5
+		}
+	}
+
 	every_country = {
 		limit = {
 			OR = {

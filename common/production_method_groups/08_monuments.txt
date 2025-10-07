@@ -416,6 +416,8 @@ pmg_base_building_sar_i_sang = {
 
 	production_methods = {
 		pm_default_building_sar_i_sang
+		pm_default_building_modern_sar_i_sang
+		pm_default_building_full_mine_sar_i_sang
 		pm_monument_prestige_only
 		pm_monument_no_effects
 	}

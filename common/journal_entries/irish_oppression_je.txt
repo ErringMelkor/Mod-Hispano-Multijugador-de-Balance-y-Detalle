@@ -27,7 +27,7 @@
 		cu:irish = {
 			culture_secession_progress = {
 				target = ROOT
-				value > 0.5
+				value > 0.75
 			}
 		}
 	}

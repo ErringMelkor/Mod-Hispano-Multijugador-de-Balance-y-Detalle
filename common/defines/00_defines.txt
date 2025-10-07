@@ -1239,7 +1239,7 @@ NPops = {
 
 	ASSIMILATION_RATE = 0.005					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
 	MIN_ASSIMILATION = 1						# If there is any assmiliation at least this many people will assimilate
-	ASSIMILATION_IN_HOMELAND_MULT = 0.5		# Assimilation rate is multiplied by this in homelands
+	ASSIMILATION_IN_HOMELAND_MULT = 0.75		# Assimilation rate is multiplied by this in homelands
 
 	CONVERSION_RATE = 0.0025				# Percentage of pops who will Convert into a different Religion each month, if eligible
 	CONVERSION_UNINCORPORATED_MULT = 0.15 		# CONVERSION_RATE is multiplied by this in unincorporated states
@@ -1255,7 +1255,7 @@ NPops = {
 	OBSESSION_SPAWN_CHANCE_MAX_SUPPLY_MULT = 3.0		# Supply relative to demand above this isn't factored into spawn chance
 	OBSESSION_SPAWN_CHANCE_PRESTIGE_GOODS_MULT = 4.0	# Chance for a new obsession to spawn is multiplied by 1 + this, scaled by fraction of the goods supply that is prestige goods
 	TABOO_DEMAND_MULT = 0.5						# Demand of a taboo is multiplied by this
-	DEFAULT_PRESTIGE_GOODS_DEMAND_INCREASE = 0.15	# Demand for goods is multiplied by ( 1 + this ), scaled by how much of the local supply is prestige goods, can be overriden in pop need
+	DEFAULT_PRESTIGE_GOODS_DEMAND_INCREASE = 0.2	# Demand for goods is multiplied by ( 1 + this ), scaled by how much of the local supply is prestige goods, can be overriden in pop need
 	MAX_DEMAND_ADJUSTMENT_BASE_AMOUNT = 0.01	# Controls how much a pop can change demand of a substituable goods in a single update (base)
 	MAX_DEMAND_ADJUSTMENT_SCALED_AMOUNT = 0.09	# Controls how much a pop can change demand of a substituable goods in a single update (scaled)
 	MAX_DEMAND_ADJUSTMENT_SCALE = 1.0			# At this delta between target and current demand, apply max demand adjustment scale
@@ -1273,12 +1273,15 @@ NPops = {
 
 	LITERACY_DIEOFF_BIAS = 0.7					# Percentage of literate pops who die of old age compared to the current literacy rate, the higher this value the faster the population becomes illiterate when literacy suffers
 
-	SOL_CHANGE_POP_IMPACT_FACTOR = 0.05			# How large part of a pop become more loyalist or radical as a result of a change in standard of living
+	DEFAULT_SOL_CHANGE_IMPACT_FACTOR = 0.03		# How large part of a pop become more loyalist or radical as a result of a change in standard of living, can be overriden on specific pop types
+	SOL_CHANGE_IMPACT_FACTOR_REDUCTION_START = 15	# Above amount of SoL, we start scaling down loyalists/radicals from SoL changes
+	SOL_CHANGE_IMPACT_FACTOR_REDUCTION_END = 30 	# At this amount of SoL, we apply maximum scaling down of loyalists/radicals from SoL changes
+	SOL_CHANGE_IMPACT_FACTOR_REDUCTION_SCALE = 9 	# Loyalists/radicals from SoL changes is divided by ( 1 + this ) at maximum scaling
 
 	SOL_STARVING_THRESHOLD = 5
 	SOL_STRUGGLING_THRESHOLD = 10
 
-	LOW_POP_THRESHOLD = 5000					# If a state has less than this amount of pops per arable land, apply the low pop modifier
+	LOW_POP_THRESHOLD = 7500					# If a state has less than this amount of pops per arable land, apply the low pop modifier
 	HIGH_POP_THRESHOLD = 90000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
 
 ##### MIGRATION #####
@@ -1491,7 +1494,7 @@ NPops = {
 ## SoL Thresholds
 @pop_growth_equilibrium_sol = 5		# Equilibrium is pops stop starving and where growth first becomes positive
 @pop_growth_transition_sol = 10     # Transition determines how long birthrate "lags" behind mortality before starting to drop. Setting to same as equilibrium leads to no "lag" (only matters for birthrate)
-@pop_growth_max_sol = 15			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
+@pop_growth_max_sol = 16			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
 @pop_growth_stable_sol = 25 		# Stable is where birthrate and mortality stop changing and hit their minimum values
 
 ## Others
@@ -1740,13 +1743,13 @@ NWar = {
 	NAVAL_INVASION_MAX_LAND_BATTLE_DEFEATS_AT_ZERO_OCCUPATION = 3 		# At this number of land defeats with zero occupation you fail the naval invasion
 	NAVAL_INVASION_MIN_POWER_PROJECTION_RATIO_TO_BLOCK_LANDING = 0.25 	# How powerful a fleet must be to be considered as "blocking" a naval invading fleet
 
-	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.01
+	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.05
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_DEMILITARIZATION = 0.25
-	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.05
+	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.1
 	STATE_CONQUEST_HOMELAND_OR_CLAIM_DEMILITARIZATION = 0.5
-	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.1
+	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.15
 	STATE_CONQUEST_DEFAULT_DEMILITARIZATION = 0.75
-	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.1	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
+	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.15	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
 	STATE_CONQUEST_KEEP_ALL = 0.0
 
 	NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5		# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces. This is done to prevent randomly selecting an element that had a low weight.
