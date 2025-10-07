@@ -183,7 +183,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 			create_building = {
 				building = "building_opium_plantation"
@@ -419,7 +419,20 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
+			}
+			create_building={
+				building="building_hardwood_logging"
+				add_ownership={
+					building={
+						type="building_hardwood_logging"
+						country="c:BGL"
+						levels=1
+						region="STATE_EAST_BENGAL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building = {
 				building = "building_dye_plantation"
@@ -509,7 +522,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -546,7 +559,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 	}
@@ -828,7 +841,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 			create_building = {
 				building = "building_iron_mine"
@@ -1180,7 +1193,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -1244,6 +1257,19 @@
 	}
 	s:STATE_HILL_PUNJAB= {
 		region_state:PAN= {
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_logging_camp"
+						country = "c:PAN"
+						levels = 8
+						region = "STATE_HILL_PUNJAB"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
+			}
 		}
 		region_state:PTA= {
 			create_building = {
@@ -1313,7 +1339,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 		region_state:BAS= {
@@ -1766,7 +1792,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 	}
@@ -1783,7 +1809,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 		region_state:HYD = {
@@ -1902,7 +1928,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods = { "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 	}
@@ -2309,7 +2335,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
 			}
 		}
 	}

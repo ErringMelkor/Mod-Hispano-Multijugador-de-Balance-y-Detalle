@@ -257,7 +257,7 @@
 		
 		create_diplomatic_pact = {
 			country = c:PAN
-			type = tributary
+			type = vassal
 		}
 
 		create_diplomatic_pact = {
