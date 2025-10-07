@@ -24,7 +24,7 @@
 						region="STATE_MAZOVIA"
 					}
 				}
-				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -1139,7 +1139,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_secondary_production" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -1267,7 +1267,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_secondary_production" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_hardwood_logging"

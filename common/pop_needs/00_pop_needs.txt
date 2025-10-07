@@ -298,14 +298,14 @@ popneed_communication = {
 		goods = transportation
 
 		weight = 1
-		max_supply_share = 0.75
+		max_supply_share = 1
 		min_supply_share = 0.0
 	}
 
 	entry = {
 		goods = telephones
 
-		weight = 2
+		weight = 4
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
@@ -373,9 +373,9 @@ popneed_luxury_items = {
 	entry = {
 		goods = luxury_furniture
 
-		weight = 1.05
-		max_supply_share = 0.55
-		min_supply_share = 0.1
+		weight = 1
+		max_supply_share = 0.65
+		min_supply_share = 0.15
 	}
 
 	entry = {
