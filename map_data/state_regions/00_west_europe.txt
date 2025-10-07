@@ -942,7 +942,7 @@ STATE_WALLONIA = {
         bg_lead_mining = 30
         bg_sulfur_mining = 30
         bg_logging = 18
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 3
     }
 }
 
@@ -1035,7 +1035,7 @@ STATE_STYRIA = {
         bg_iron_mining = 24
         bg_lead_mining = 24
         bg_logging = 8
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -1054,7 +1054,7 @@ STATE_TYROL = {
         bg_gold_mining = 2
         bg_iron_mining = 36
         bg_logging = 9
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -1174,7 +1174,7 @@ STATE_WESTPHALIA = {
         bg_iron_mining = 42
         bg_sulfur_mining = 32
         bg_logging = 24
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -1283,7 +1283,7 @@ STATE_WURTTEMBERG = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 24
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 2
     }
 }
 
@@ -1302,7 +1302,7 @@ STATE_BADEN = {
         bg_coal_mining = 20
         bg_iron_mining = 15
         bg_logging = 24
-        bg_hardwood_logging = 5
+        bg_hardwood_logging = 3
     }
 }
 
@@ -1381,7 +1381,6 @@ STATE_FRANCONIA = {
     capped_resources = {
         bg_iron_mining = 15
         bg_logging = 17
-        bg_hardwood_logging = 1
     }
 }
 

@@ -124,7 +124,6 @@ STATE_EAST_PRUSSIA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 17
-        bg_hardwood_logging = 1
         bg_fishing = 10
     }
     naval_exit_id = 3000
@@ -167,7 +166,6 @@ STATE_WEST_GALICIA = {
         bg_iron_mining = 33
         bg_sulfur_mining = 12
         bg_logging = 17
-        bg_hardwood_logging = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -314,7 +312,6 @@ STATE_RUTHENIA = {
         bg_coal_mining = 92
         bg_lead_mining = 33
         bg_logging = 15
-        bg_hardwood_logging = 1
     }
 }
 
@@ -332,7 +329,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
         bg_iron_mining = 45
         bg_lead_mining = 45
         bg_logging = 17
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
