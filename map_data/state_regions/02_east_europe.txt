@@ -86,7 +86,7 @@ STATE_LESSER_POLAND = {
     capped_resources = {
         bg_coal_mining = 108
         bg_iron_mining = 32
-        bg_sulfur_mining = 32
+        bg_sulfur_mining = 12
         bg_logging = 13
     }
 }

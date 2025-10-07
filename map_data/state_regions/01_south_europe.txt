@@ -61,7 +61,7 @@ STATE_SARDINIA = {
         bg_lead_mining = 21
         bg_sulfur_mining = 20
         bg_logging = 11
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
         bg_fishing = 10
     }
     naval_exit_id = 3032
@@ -370,7 +370,7 @@ STATE_GALICIA = {
     capped_resources = {
         bg_iron_mining = 14
         bg_logging = 9
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
         bg_fishing = 9
     }
     naval_exit_id = 3029
@@ -509,7 +509,7 @@ STATE_ANDALUSIA = {
     mine = "xD06000"
     wood = "x801020"
     arable_land = 46
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" "bg_banana_plantations"  }
     capped_resources = {
         bg_iron_mining = 30
         bg_sulfur_mining = 60
