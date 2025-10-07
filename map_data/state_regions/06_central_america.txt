@@ -36,7 +36,7 @@ STATE_GUATEMALA = {
     capped_resources = {
         bg_iron_mining = 34
         bg_logging = 24
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 5
     }
     resource = {

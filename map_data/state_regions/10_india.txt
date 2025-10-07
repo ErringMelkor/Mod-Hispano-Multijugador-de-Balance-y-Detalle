@@ -77,7 +77,7 @@ STATE_ASSAM = {
     capped_resources = {
         bg_coal_mining = 32
         bg_logging = 52
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 3
     }
     resource = {
         type = "bg_oil_extraction"

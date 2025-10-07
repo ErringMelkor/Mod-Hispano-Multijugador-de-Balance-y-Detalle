@@ -35,7 +35,7 @@ STATE_GOTALAND = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 25
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 24
     }
     naval_exit_id = 3019
@@ -76,7 +76,7 @@ STATE_NORRLAND = {
     capped_resources = {
         bg_iron_mining = 80
         bg_logging = 40
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 3
         bg_fishing = 14
     }
     naval_exit_id = 3000
@@ -182,7 +182,7 @@ STATE_NORTHERN_NORWAY = {
         bg_iron_mining = 22
         bg_sulfur_mining = 20
         bg_logging = 24
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_whaling = 20
         bg_fishing = 10
     }
@@ -293,7 +293,7 @@ STATE_LANCASHIRE = {
         bg_iron_mining = 60
         bg_lead_mining = 45
         bg_logging = 9
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 11
     }
     resource = {
@@ -340,6 +340,7 @@ STATE_YORKSHIRE = {
         bg_iron_mining = 75
         bg_lead_mining = 27
         bg_logging = 6
+        bg_hardwood_logging = 1
         bg_fishing = 5
     }
     naval_exit_id = 3027
@@ -838,6 +839,7 @@ STATE_AQUITAINE = {
     capped_resources = {
         bg_coal_mining = 70
         bg_logging = 14
+        bg_hardwood_logging = 2
         bg_fishing = 11
     }
     naval_exit_id = 3029
@@ -935,7 +937,7 @@ STATE_WALLONIA = {
         bg_lead_mining = 30
         bg_sulfur_mining = 30
         bg_logging = 26
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 4
     }
 }
 
@@ -952,6 +954,7 @@ STATE_FLANDERS = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 17
+        bg_hardwood_logging = 1
         bg_fishing = 5
     }
     naval_exit_id = 3028
@@ -989,6 +992,7 @@ STATE_BOHEMIA = {
         bg_coal_mining = 48
         bg_iron_mining = 45
         bg_logging = 17
+        bg_hardwood_logging = 1
         bg_lead_mining = 8
         bg_gold_mining = 5
     }
@@ -1122,6 +1126,7 @@ STATE_EAST_SWITZERLAND = {
         bg_iron_mining = 30
         bg_lead_mining = 30
         bg_logging = 17
+        bg_hardwood_logging = 1
     }
 }
 
@@ -1269,8 +1274,8 @@ STATE_WURTTEMBERG = {
     arable_land = 70
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_logging = 10
-        bg_hardwood_logging = 1
+        bg_logging = 24
+        bg_hardwood_logging = 4
     }
 }
 
@@ -1288,8 +1293,8 @@ STATE_BADEN = {
     capped_resources = {
         bg_coal_mining = 20
         bg_iron_mining = 15
-        bg_logging = 11
-        bg_hardwood_logging = 1
+        bg_logging = 24
+        bg_hardwood_logging = 4
     }
 }
 
@@ -1368,6 +1373,7 @@ STATE_FRANCONIA = {
     capped_resources = {
         bg_iron_mining = 15
         bg_logging = 17
+        bg_hardwood_logging = 1
     }
 }
 

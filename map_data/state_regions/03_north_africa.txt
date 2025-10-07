@@ -218,6 +218,7 @@ STATE_BLUE_NILE = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 14
+        bg_hardwood_logging = 1
         bg_coal_mining = 4
     }
 }
@@ -318,6 +319,7 @@ STATE_ALGIERS = {
         bg_iron_mining = 10
         bg_lead_mining = 7
         bg_logging = 6
+        bg_hardwood_logging = 1
         bg_fishing = 8
     }
     naval_exit_id = 3032
@@ -341,6 +343,7 @@ STATE_CONSTANTINE = {
         bg_lead_mining = 19
         bg_sulfur_mining = 18
         bg_logging = 6
+        bg_hardwood_logging = 1
         bg_fishing = 4
     }
     resource = {
@@ -367,6 +370,8 @@ STATE_ORAN = {
         bg_iron_mining = 12
         bg_fishing = 5
         bg_logging = 3
+        bg_hardwood_logging = 1
+
     }
     naval_exit_id = 3032
 }
