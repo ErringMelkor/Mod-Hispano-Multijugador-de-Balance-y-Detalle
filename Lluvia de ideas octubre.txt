@@ -18,6 +18,11 @@ Ideas para Gran Bretaña:
 
 ✓
 
+Ideas para Gran Bretaña Nicol:
+	Incentivar que UK mantenga sus colonias unificadas pero independientes.
+		* Bonus a las colonias a la pais de compañia.
+		* Debufo si te las comes, quizá -5& de buro y radicales.
+
 Ideas para Rusia:
 	Expandir la Entrada de Diario del Gran Reformador.
 		* Eventos para la aparición de ministros históricos que fomentaron las reformas rusas de la época.
@@ -66,6 +71,7 @@ Balance General:
 		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla). #check
 	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado. # Check
 	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
+	* Revisar migraciones, hacer que pasen mas frecuentemente.
 
 ✓
 
