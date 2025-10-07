@@ -76,7 +76,7 @@ STATE_NORRLAND = {
     capped_resources = {
         bg_iron_mining = 80
         bg_logging = 40
-        bg_hardwood_logging = 5
+        bg_hardwood_logging = 3
         bg_fishing = 14
     }
     naval_exit_id = 3000
@@ -684,7 +684,7 @@ STATE_ALSACE_LORRAINE = {
         bg_iron_mining = 80
         bg_lead_mining = 20
         bg_logging = 17
-        bg_hardwood_logging = 5
+        bg_hardwood_logging = 3
     }
 }
 
@@ -736,7 +736,7 @@ STATE_AUVERGNE_LIMOUSIN = {
         bg_coal_mining = 56
         bg_iron_mining = 15
         bg_logging = 8
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 

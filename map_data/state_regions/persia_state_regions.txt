@@ -168,7 +168,7 @@ STATE_MAZANDARAN = {
         bg_coal_mining = 22
         bg_iron_mining = 11
         bg_logging = 26
-        bg_hardwood_logging = 5
+        bg_hardwood_logging = 4
     }
     resource = {
         type = "bg_oil_extraction"

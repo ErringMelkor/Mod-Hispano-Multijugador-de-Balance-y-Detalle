@@ -77,7 +77,7 @@ STATE_ASSAM = {
     capped_resources = {
         bg_coal_mining = 32
         bg_logging = 52
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
     }
     resource = {
         type = "bg_oil_extraction"
@@ -225,7 +225,7 @@ STATE_KASHMIR = {
         bg_iron_mining = 18
         bg_sulfur_mining = 12
         bg_logging = 24
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -286,7 +286,7 @@ STATE_CENTRAL_PROVINCES = {
         bg_coal_mining = 32
         bg_lead_mining = 12
         bg_logging = 24
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 1
     }
 }
 
@@ -525,7 +525,6 @@ STATE_HYDERABAD = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_logging = 16
-        bg_hardwood_logging = 1
         bg_coal_mining = 6
         bg_iron_mining = 4
     }
