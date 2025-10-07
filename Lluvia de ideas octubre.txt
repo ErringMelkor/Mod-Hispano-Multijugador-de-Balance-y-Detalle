@@ -71,9 +71,12 @@ Balance General:
 		Es una adaptación menor del método ya existente en el mod (que se overlapea un poco con el nuevo del vanilla). #check
 	* Ligero nerf a la producción de grano de las granjas. Pienso que está algo sobreafinado. # Check
 	* Introducir la acuicultura para las granjas de arroz (?). Puede ser interesante, y ya se practicaba en la época.
-	* Revisar migraciones, hacer que pasen mas frecuentemente.
-
+	
 ✓
+
+Migraciones:
+	Aumentada la facilidad y frecuencia de migraciones.
+	* Revisar migraciones, hacer que pasen mas frecuentemente. % de que ocurran; meses de cooldown; umbral de radicales; umbral de aceptación.
 
 Principios:
 	* Pedir lluvia de ideas para la gente.
@@ -113,3 +116,24 @@ Madera Dura:
 	Excepción a Líbano.
 	Excepción a Mazandarán / Bosques hircanianos (ratio 1/4).
 	Se redondea hacia abajo (ex: si hay 16 de madera en un sitio sin bono, hay 0 de madera dura).
+
+	Nota de Erring: Las excepciones son una mezcla de motivos prácticos y relevancia regional/histórica, esas cosas que hacen a Eipic feliz.
+	
+	Posibles cambios para favorecer a la madera dura:
+		Arte?
+		Sectores de construcción?
+		Sectores urbanos?
+		PM de los barcos.
+
+		Mejorar en las pop needs los muebles de lujo.
+
+		Wiki:
+			Furniture Manufactories
+			(Military) Shipyards
+			Automotive Industries
+			Arms Industries
+			Artillery Foundries
+			Métodos militares (trabajos de campo ?)
+
+
+
