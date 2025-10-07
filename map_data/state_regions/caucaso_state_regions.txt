@@ -11,6 +11,7 @@ STATE_DAGESTAN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 10
+        bg_fishing = 4
     }
     traits = { "state_trait_caucasus_mountains" }
     resource = {
@@ -80,6 +81,7 @@ STATE_AZERBAIJAN = {
     capped_resources = {
         bg_lead_mining = 18
         bg_logging = 4
+        bg_fishing = 4
     }
     resource = {
         type = "bg_oil_extraction"

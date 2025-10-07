@@ -128,6 +128,7 @@ STATE_OB = {
     capped_resources = {
         bg_coal_mining = 20
         bg_logging = 22
+        bg_fishing = 4
         bg_hardwood_logging = 1
     }
     resource = {
@@ -294,6 +295,7 @@ STATE_IRKUTSK = {
         bg_coal_mining = 50
         bg_iron_mining = 36
         bg_logging = 30
+        bg_fishing = 4
         bg_hardwood_logging = 1
     }
     resource = {

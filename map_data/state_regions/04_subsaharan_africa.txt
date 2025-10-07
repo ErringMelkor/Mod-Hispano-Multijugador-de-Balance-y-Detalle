@@ -455,6 +455,7 @@ STATE_LINDI = {
         bg_coal_mining = 44
         bg_iron_mining = 33
         bg_logging = 5
+        bg_fishing = 4
     }
     resource = {
         type = "bg_rubber"
@@ -502,6 +503,7 @@ STATE_TANGANYIKA = {
         bg_coal_mining = 72
         bg_iron_mining = 48
         bg_logging = 23
+        bg_fishing = 8
         bg_hardwood_logging = 1
     }
     resource = {
@@ -558,6 +560,7 @@ STATE_RIFT_VALLEY = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_fishing = 8
         bg_logging = 7
     }
     resource = {
@@ -643,6 +646,7 @@ STATE_GONDER = {
         bg_hardwood_logging = 1
         bg_coal_mining = 18
         bg_gold_mining = 4
+        bg_fishing = 1
     }
     resource = {
         type = "bg_rubber"
@@ -668,6 +672,7 @@ STATE_KAZEMBE = {
     capped_resources = {
         bg_coal_mining = 48
         bg_logging = 14
+        bg_fishing = 4
         bg_hardwood_logging = 1
     }
     resource = {
@@ -762,6 +767,7 @@ STATE_UGANDA = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_fishing = 6
         bg_hardwood_logging = 1
     }
     resource = {
@@ -940,6 +946,7 @@ STATE_CONGO_ORIENTALE = {
         bg_coal_mining = 46
         bg_logging = 28
         bg_hardwood_logging = 5
+        bg_fishing = 2
     }
     resource = {
         type = "bg_rubber"
@@ -1108,6 +1115,7 @@ STATE_KATANGA = {
     capped_resources = {
         bg_iron_mining = 27
         bg_logging = 18
+        bg_fishing = 2
     }
     resource = {
         type = "bg_rubber"

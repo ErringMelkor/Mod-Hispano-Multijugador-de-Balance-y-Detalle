@@ -898,6 +898,7 @@ STATE_AMAZONAS = {
     capped_resources = {
         bg_logging = 50
         bg_hardwood_logging = 12
+        bg_fishing = 4
     }
     resource = {
         type = "bg_rubber"

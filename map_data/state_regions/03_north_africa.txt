@@ -220,6 +220,7 @@ STATE_BLUE_NILE = {
         bg_logging = 14
         bg_hardwood_logging = 2
         bg_coal_mining = 4
+        bg_fishing = 2
     }
 }
 

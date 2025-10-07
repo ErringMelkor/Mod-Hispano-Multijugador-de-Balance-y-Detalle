@@ -676,6 +676,7 @@ STATE_URALSK = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 7
+        bg_fishing = 2
     }
     resource = {
         type = "bg_oil_extraction"
@@ -784,6 +785,7 @@ STATE_SYRDARYA = {
         bg_iron_mining = 15
         bg_lead_mining = 60
         bg_logging = 6
+        bg_fishing = 2
     }
 }
 
@@ -1322,6 +1324,7 @@ STATE_ASTRAKHAN = {
         bg_logging = 6
         bg_sulfur_mining = 12
         bg_iron_mining = 30
+        bg_fishing = 6
     }
     resource = {
         type = "bg_oil_extraction"

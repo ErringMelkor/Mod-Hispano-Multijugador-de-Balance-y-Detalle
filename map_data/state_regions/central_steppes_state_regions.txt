@@ -81,5 +81,6 @@ STATE_KHIVA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_opium_plantations" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 4
+        bg_fishing = 4
     }
 }
