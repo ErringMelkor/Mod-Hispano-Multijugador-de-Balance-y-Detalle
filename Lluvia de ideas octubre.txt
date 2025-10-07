@@ -118,6 +118,10 @@ Madera Dura:
 	Se redondea hacia abajo (ex: si hay 16 de madera en un sitio sin bono, hay 0 de madera dura).
 
 	Nota de Erring: Las excepciones son una mezcla de motivos prácticos y relevancia regional/histórica, esas cosas que hacen a Eipic feliz.
+
+	Deberes nicol:
+		* Revisar el mapa de hardwood; contrastar con el guardado que deje mañana para ver donde / como balancear.
+		* Valen 400 porque por slot generan más valor que un aserradero normal, y son más especializados. Quizá estaría bien un enfoque más de maquinistas e ingenieros ("agrónomos" / "forestales"). Favorece a los trabajos de clase media / PB. 
 	
 	Posibles cambios para favorecer a la madera dura:
 		Arte?
@@ -125,7 +129,7 @@ Madera Dura:
 		Sectores urbanos?
 		PM de los barcos.
 
-		Mejorar en las pop needs los muebles de lujo.
+		Mejorar en las pop needs los muebles de lujo. # Versión preliminar implementada.
 
 		Wiki:
 			Furniture Manufactories
