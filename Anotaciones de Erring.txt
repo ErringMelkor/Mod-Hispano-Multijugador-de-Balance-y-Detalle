@@ -28,6 +28,7 @@ Personajes:
 		* Nicolás I: Claro ejemplo de Subjecthood como concepto de identidad nacional.
 		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
 		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
+		E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
 
 Términos:
 	Rusia:
@@ -41,6 +42,7 @@ Términos:
 		"raznochintsy" -> lit. "gente de diversos rangos y/u orígenes". Muy maleable, una pseudo-clase, un hiperónimo. Comprendido por sirvientes civiles de bajo rango, soldados, hijos de nobles que no han heredado el estatus nobiliario y profesiones liberales.
 		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
 		"stanitsa" -> Villa autónoma cosaca.
+		"posessionnye" -> Labor de corvea en fábricas.
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -87,6 +89,18 @@ Comentarios generales:
 	La nueva combinación de zemstvo provincial con duma municipal establece el precedente democrático-electivo dentro de la Rusia gubernamental de 1855 en adelante.
 	"Literacy rates for Russia’s population remained very low: in 1834, only 1 of 208 Russians could read and write; in 1856, 1 of 143"
 
+	En 1839 seguían con deuda de las Guerras Napoleónicas.
+	Lenta reforma fiscal de 1839 hasta 1848, introduciendo un nuevo sistema de papel dinero y 
+
 	#Leer p. 344, capitulo de "Reforma"; régimen constitucional de Alejandro II.
 
 	#Continuar mañana capítulo 18.
+
+	Campesinado:
+		El campesinado "compraba la tierra" como compromiso para abolir la servidumbre.
+		Reformas militares de 1874; conscripción extendida.
+		Representativos electos en las zemstva; "elected bureaucrats" (?).
+		"The total population of the expanding empire, 80–90 per cent of whom were peasants, increased from around 11 million in 1678 to almost 172 million in 1917"
+		"Between 1857 and 1917, the number of peasants inside the mid-seventeenth-century borders of Russia increased three times."
+		
+

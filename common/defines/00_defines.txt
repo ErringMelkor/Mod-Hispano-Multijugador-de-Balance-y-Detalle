@@ -1365,7 +1365,7 @@ NPops = {
 	MIGRATION_PULL_FROM_AVAILABLE_EMPLOYMENT = 30								# Migration pull is increased by the % of available non subsistence jobs compared to employed non subsistence pops, multiplied by this
 	MIGRATION_PULL_FROM_AVAILABLE_EMPLOYMENT_MAX = 30							# Migration pull from available non subsistence jobs cannot exceed this
 	MIGRATION_PULL_FROM_AVAILABLE_SUBSISTENCE_EMPLOYMENT = 2					# Migration pull is increased by the % of available subsistence jobs compared to employed non subsistence pops, multiplied by this
-	MIGRATION_PULL_FROM_AVAILABLE_SUBSISTENCE_EMPLOYMENT_MAX = 10				# Migration pull from available subsistence jobs cannot exceed this
+	MIGRATION_PULL_FROM_AVAILABLE_SUBSISTENCE_EMPLOYMENT_MAX = 15				# Migration pull from available subsistence jobs cannot exceed this
 	MIGRATION_PULL_REDUCTION_FROM_UNEMPLOYMENT = 50								# Migration pull is reduced by the % of unemployed pops compared to employed pops, multiplied by this
 	MIGRATION_PULL_REDUCTION_FROM_UNEMPLOYMENT_MAX = 50							# Migration pull reduction from unemployment cannot exceed this
 
@@ -1374,7 +1374,7 @@ NPops = {
 	MARKET_MIGRATION_STATE_ATTRACTION_FRACTION = 0.75							# States with at least this fraction of the most attractive state's migration attraction will receive migration
 	MARKET_MIGRATION_PER_WEEK_FACTOR = 5										# This number of individuals will migrate for each point of difference in migration pull
 	MARKET_MIGRATION_PER_WEEK_PER_TOTAL_POPULATION = 100000						# Additionally, one more individual will migrate per this number of population for each point of difference in migration pull
-	MARKET_MIGRATION_MIN_DIFFERENCE_IN_MIGRATION_ATTRACTION_TO_MOVE = 5			# Pops will not migrate if their best option is to a state with a lower delta in migration pull than this number
+	MARKET_MIGRATION_MIN_DIFFERENCE_IN_MIGRATION_ATTRACTION_TO_MOVE = 3			# Pops will not migrate if their best option is to a state with a lower delta in migration pull than this number
 	MARKET_MIGRATION_MIN_POP_FRACTION_TO_MOVE = 0.05							# If the people wanting to migrate constitues less than this fraction of a pop, no new pop will be created and they won't migrate.
 	MIGRATION_PULL_MULT_FROM_NO_DISCRIMINATION = 0.5							# Migration pull multiplier increased by this if pop is moving from discrimination to no discrimination (not applied to mass migration targets)
 	MIGRATION_PULL_MULT_FROM_HOMELANDS = 0.2									# Migration pull multiplier increased by this if pop is moving to cultural homelands (not applied to mass migration targets)
