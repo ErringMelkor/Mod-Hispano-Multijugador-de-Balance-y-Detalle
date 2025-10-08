@@ -12,15 +12,81 @@ Rasgos de Grupo de Interés:
 	Japón:
 		* Mobilización Espiritual:
 
+	Techs:
+		Agricultura tier 2 para Bálticos y Austria.
+
 Personajes:
 	Rusia:
 		* Piotr Chaadáyev (1794-1851) - Las Cartas Filosóficas.
 		* Pushkin (1799-1837) - Primer gran autor literario ruso. Evento de duelo.
 		* Mikhail Lermontov (1814-1841) - Oficial y poeta; {reformista de los militares?}. Muere en un duelo al igual que Pushkin.
-		* Vissarion Grigoryevich Belinsky (1811-1846) - 
+		* Vissarion Grigoryevich Belinsky (1811-1846) - Literario; entre radical, modernizador y utilitario.
+		* Sergei Uvarov (1786-1855) - Ministro de educación bajo Nicolás I. Acuña la frase "Ortodoxia, Autocracia, Nacionalidad".
+			El orden de la frase denota la importancia.
+			Nacionalidad -> "Narodnost"
+			Sustitución del Francés por el Ruso en la burocracia (malus temporal por el reajuste linguistico?)
+		* Nicolás I: Claro ejemplo de Subjecthood como concepto de identidad nacional.
+		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
+		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
 
 Términos:
 	Rusia:
 		"raznodichnets"
+		"Narodnost" -> "nacionalidad", en un sentido vago y nebuloso.
+		"inorodtsy" -> "foráneos"; súbditos asiáticos del Imperio. Definido por primera vez en 1822 (Reformas Siberianas de Mikhail Speranskii) para finales de siglo denota a los no-rusos y no-ortodoxos.
+		"soslovie" -> grupo aristocrático hereditario vagamente definido por sus privilegios e instituciones.
+		"zemstva / zemstvo" -> asambleas locales de la pequeña nobleza.
+		"chiny" -> rango codificado con privilegios, derechos y obligaciones.
+		"sosloviia / sostoianiia" -> categorias sociales aglomeradas (?). Comparable a los "Estamentos" del Ancien Regime.
+		"raznochintsy" -> lit. "gente de diversos rangos y/u orígenes". Muy maleable, una pseudo-clase, un hiperónimo. Comprendido por sirvientes civiles de bajo rango, soldados, hijos de nobles que no han heredado el estatus nobiliario y profesiones liberales.
+		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
+		"stanitsa" -> Villa autónoma cosaca.
 
+Reworks:
+	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
+	 Enfatizar en "history/pops" la nobleza no rusa de la periferia imperial (el báltico, polonia, finlandia, etc.)
 
+Comentarios generales:
+	1863 como inicio de identidad rusia moderna (?). Respuesta a la revuelta polaca de 1863.
+	Aumentar la resistencia polaca; resistencia a incorporarse como estado.
+	Cambio drástico de Subjecthood hacia National Supremacy; excepción más importante los bálticos germanos, élite bien integrada en la sociedad rusa.
+	Papel muy importante de la Iglesia Ortodoxa en el gobierno y administración.
+	Tabla de Rangos de 1722; muy parecida a la nobleza de toga francesa: el estatus de noble se adquiría por llegar a determinados rangos dentro del aparato estatal.
+	Tan solo 15000 "aristócratas" en torno al 1700; para 1897, en torno a 1 millón.
+	Los alemanes tienen un papel destacado en el servicio militar.
+	Top 1% de los dueños de siervos poseían el 35% de los siervos.
+	Hierro de los Urales: Rusia es el mayor productor de hierro mundial desde 1775 aprox. Todo esto está en manos de familias aristocráticas, de inclinación industrial.
+	La alta aristocracia tiene una esfera cultural cosmopolita y francófila.
+	Importancia de la élite cosaca en la frontera estepario de Ucrania y Kazajistán.
+	Agricultura próspera en el Protectorado Báltico.
+	Bajo Nicolás I (r. 1825-1855) la administración provincial estaba en manos de oficiales de carrera militar.
+	Las Fuerzas Policiales están entrelazadas entre el servicio militar, el mantenimiento del orden y como policía política / secreta.
+	Nicolás II, populista que idealizaba un campesinado sumiso (?). Altamente impopular con, esencialmente, todo el mundo.
+	Cuatro instituciones de élite a nivel europeo: "Alexander Lycée; School of Law; Universidades de San Petersburgo y Moscú."
+	Movimiento constitucionalista por parte de la Intelligentsia? Duma conservadora; voto por propiedades.
+	Entre 1860 y 1900 aristocracia transiciona de vivir de las rentas de sus propiedades, de las que venden en torno al 40%, hacia vivir de acciones y bonos.
+	En general, la élite aristocrática transiciona muy bien para la media europea hacia un modelo capitalista.
+	El radicalismo entre la "Rural Folk" es un punto clave, al menos a partir de 1870-ish.
+	Modelo social muy rígido para la libertad de empresa. Desde luego parece razonable una versión aún más conservadora de la ley de gremios. 
+	Quizá incorporar el "raznochintsy" como variante, entendido como una cuasi-casta de gente que debe operar en la alegalidad de sus profesiones, sean artesanales, comerciantes o de "profesiones liberales".
+	Los soldados tenían salarios promedio altos y numerosos beneficios como pensiones, y el servicio militar era un camino hacia la educación y el permiso para dedicarse a labores artesanales.
+	Si juntamos esta pseudoclase con la codificación social y la Tabla de Rangos, tenemos muchos elementos que impiden una movilidad social ágil; en mecánicas, esto anularía cualificaciones.
+	Para finales del siglo XIX, los "raznochintsy" como identidad social transicionan a una "nueva generación", una Intelligentsia o PB más liberal.
+	Introducir eventos de los Narodnik sería MUY interesante.
+	Ideologias únicas rusas que cambien según desbloqueas techs? Como pasa de Pío -> Corporativista.
+	Los zemstvo pueden ser modificadores provinciales en las provincias de mayoría cultural rusa, que tengas que revocar como parte de la Gran Reforma o mediante decisión, o tolerar su existencia. Mayor poder a la aristocracia.
+	El zemstvo también actua como modelo asambleario local hasta las reformas de 1906.
+	
+	Los zemstvo son un gobierno local *paralelo* al gobierno. 
+	Con las reformas de Alejandro II se junta con el modelo social de los "raznochintsy" como importante motor de mobilidad social.
+	Esto es un vector para la PB e Intelligentsia.
+
+	Las Reformas de Alejandro II sustituyen este sistema local (hereditary -> appointed); quizá gremios -> alegalidad. Jurisdicciones vagas y, en general, un modelo ineficiente.
+	Duma como Ley de voto particular a rusia?
+	Si lo entiendo bien, la monarquía rusa pasa a adoptar el concepto del Zemstvo, las asambleas nobiliarias locales, pero transformándolas bajo este aparato de nobleza de toga.
+	La nueva combinación de zemstvo provincial con duma municipal establece el precedente democrático-electivo dentro de la Rusia gubernamental de 1855 en adelante.
+	"Literacy rates for Russia’s population remained very low: in 1834, only 1 of 208 Russians could read and write; in 1856, 1 of 143"
+
+	#Leer p. 344, capitulo de "Reforma"; régimen constitucional de Alejandro II.
+
+	#Continuar mañana capítulo 18.
