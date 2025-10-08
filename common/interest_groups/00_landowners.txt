@@ -128,7 +128,7 @@
 					owner = { c:FRA ?= this}
 				}
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
-				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_lingua_franca
 				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 
 				remove_ideology = ideology_patriarchal
