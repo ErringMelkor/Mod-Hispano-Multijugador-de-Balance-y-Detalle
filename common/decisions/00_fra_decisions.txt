@@ -1,0 +1,35 @@
+#Plan Haussmann.
+institute_plan_haussmann = {
+	is_shown = {
+		any_scope_state = {
+			state_region = s:STATE_ILE_DE_FRANCE
+			is_incorporated = yes
+			has_modifier = old_paris
+		}
+	}
+
+	possible = {
+		bureaucracy >= 1500
+
+		has_technology_researched = steel_frame_buildings
+	}
+
+	when_taken = {
+
+		s:STATE_ILE_DE_FRANCE = {
+			add_modifier = old_paris
+		}
+		s:STATE_ILE_DE_FRANCE = {
+			add_modifier = new_paris
+		}
+
+		add_modifier = {
+			name = rebuilding_paris
+			years = 5
+		}
+	}
+
+	ai_chance = {
+		base = 4
+	}
+}

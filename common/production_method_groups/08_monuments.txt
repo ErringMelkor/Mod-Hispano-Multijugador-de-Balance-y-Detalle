@@ -412,7 +412,7 @@ pmg_base_building_palais_royal_de_bruxelles = {
 pmg_base_building_sar_i_sang = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-	is_hidden_when_unavailable = yes
+	is_hidden_when_unavailable = no
 
 	production_methods = {
 		pm_default_building_sar_i_sang
@@ -430,6 +430,19 @@ pmg_base_building_victoria_terminus = {
 
 	production_methods = {
 		pm_default_building_victoria_terminus
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
+
+pmg_base_building_département_métropolitain = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = no
+
+	production_methods = {
+		pm_default_building_département_métropolitain
+		pm_default_building_expanded_département_métropolitain
 		pm_monument_prestige_only
 		pm_monument_no_effects
 	}
