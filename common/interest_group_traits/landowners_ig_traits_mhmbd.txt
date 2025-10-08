@@ -1,0 +1,17 @@
+ig_trait_the_velvet_book = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy
+
+	modifier = {
+		state_tax_capacity_mult = 0.1
+	}
+}
+
+ig_trait_lingua_franca = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy
+
+	modifier = {
+		country_influence_mult = 0.25
+	}
+}

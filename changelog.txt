@@ -1,0 +1,13 @@
+Versión 1.10.3/2 del Mod # Deberíamos establecer una nomenclatura (ex: seguir el patrón del parche de PDX y luego decir cual es la nuestra).
+
+Ideologías:
+	Francia:
+		* Ideología de paternalismo francés: prefieren mujeres propietarias.
+
+Rasgos de Grupo de Interés:
+	Francia:
+		* Lingua Franca.
+	Rusia:
+		* "The Velvet Book": Sustituido el bono por un +10%/+20% a la capacidad fiscal.
+	Japón:
+		* Mobilización Espiritual:

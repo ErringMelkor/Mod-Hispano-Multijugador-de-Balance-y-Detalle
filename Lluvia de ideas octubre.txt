@@ -4,10 +4,12 @@ Ideas para Francia:
 	* Ley propia de Tenancy / Homesteading, o modificador provincial (como existe en la India) para reflejar la partición de tierras.
 		Idea para ley agraria de Francia: ofrece más Ratio de Subsistencia (4.5 o 5 frente a 4), pero tiene menos trabajos. 
 		IRL en la zona del Langue d'Oil tenía mucho peso el minifundio, + tradición de compilación napoléonica; aunque no tiene tanto peso hoy.
-		Genuinamente parece que uno de los motivos de la curva demográfica francesa es puramente cultural: rehusaban tener más hijos.
-	* No me gustaría rebajarle la tierra arable; recomiendo descartar esa idea ya de antemano.
+		Genuinamente parece que uno de los motivos de la curva demográfica francesa es puramente cultural: rehusaban tener más hijos. # Check.
+	* No me gustaría rebajarle la tierra arable; recomiendo descartar esa idea ya de antemano. 
 	* Incorporar el Departamento Central como monumento a París.
 	* Decisión para renovar París (como ocurriría con Napoleón III).
+	Rasgos nuevos:
+		Landowners: Lingua Franca (+5).
 
 ✓
 
