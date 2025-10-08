@@ -29,6 +29,7 @@ Personajes:
 		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
 		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
 		E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
+		Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Alemán del Báltico. PB o Intelligentsia.
 
 Términos:
 	Rusia:
@@ -43,6 +44,8 @@ Términos:
 		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
 		"stanitsa" -> Villa autónoma cosaca.
 		"posessionnye" -> Labor de corvea en fábricas.
+		"neravnomernost" -> Desigualdad (fiscal).
+		"krugovaia poruka or krugovoe ruchatel’stvo" -> Responsabilidad Colectiva (fiscal). Los propios campesinos, en comunas, estaban encargados / se esperaba de ellos que presentaran los impuestos debidos al Estado.
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -90,7 +93,13 @@ Comentarios generales:
 	"Literacy rates for Russia’s population remained very low: in 1834, only 1 of 208 Russians could read and write; in 1856, 1 of 143"
 
 	En 1839 seguían con deuda de las Guerras Napoleónicas.
-	Lenta reforma fiscal de 1839 hasta 1848, introduciendo un nuevo sistema de papel dinero y 
+	Lenta reforma fiscal de 1839 hasta 1848, introduciendo un nuevo sistema de papel dinero y reformando el fisco y toma de deuda.
+	Sergei Witte, 1898: "The French state budget is 1,260 million rubles for a population of 38 million;
+						the Austrian budget is 1,100 million rubles for a population of 43 million. If our
+						taxpayers were as prosperous as the French, our budget would be 4,200 million
+						rubles instead of its current 1,400 million, and if we matched the Austrians,
+						our budget would be 3,300 million rubles. Why can we not achieve this? The
+						main reason is the poor condition of our peasantry."
 
 	#Leer p. 344, capitulo de "Reforma"; régimen constitucional de Alejandro II.
 
@@ -103,4 +112,37 @@ Comentarios generales:
 		"The total population of the expanding empire, 80–90 per cent of whom were peasants, increased from around 11 million in 1678 to almost 172 million in 1917"
 		"Between 1857 and 1917, the number of peasants inside the mid-seventeenth-century borders of Russia increased three times."
 		
+	Impuestos generales a las comunidades campesinas, más que una oficina de recolección central.
+	La reforma del fisco hacia un "per-cápita" es un proceso largo que lleva desde 1860 a 1890.
+	Capacidad de obtener impuestos muy limitada en Siberia (?). Facilitaría la migración por el nivel de vida como subproducto.
+
+
+	Trigger de que hagan cambio de régimen a república durante el reinado de Nicolás I.
+	Reducir el activismo político con Nicolás I para evitar el cheeseo de abdicar.
+
+	Zemstvos: instituciones de gobierno local, 1864.
+		Peso del voto según la riqueza o estatus.
+	Reforma militar: 1874; conscripción en masa.
+	"Autocracia Racional" -> régimen zarista centralizado vs la autoridad de la nobleza poseedora de siervos / regiones autónomas / gentes autónomas.
+	El proceso de "land redeeming" / compra de las tierras en la emancipación de los siervos comienza de manera efectiva tan pronto como 1886. 
+		El pago es, funcionalmente, permanente. Como punto óptimo 1950, bien fuera del marco temporal del juego.
+	La tierra campesina (id est subsistencia) era propiedad comunal ["States of Obligation" no me da contexto si es durante o tras la servidumbre, o durante todo el plazo cronológico del Zarato].
+	Hasta la década de 1880, solo los campesinos eran elegibles para el "poll tax".
+		Aristocracia, Clero, cosacos y minorías culturales o religiosas estaban exentas.
+	Sistema fiscal separado para el urbano y el rural (?).
+	Relativa libertad de prensa bajo Alejandro II.
+	Decisión de integrar a los bálticos en la rama financiera del gobierno (?). Nuevo IG trait para la PB?
+	Este cuerpo reformador es más bien "Enlightened Bureaucrats" que "liberales".
+	En 1855 todavía estaban usando "Land Taxation" en términos del juego. Ojalá tener una condición de que no se puede tasar profesiones.
+
+	En 1859 un censo fiscal (no demográfico) identifica unas 53-54m de personas tasables. Para 1859 la aristocracia todavía se opone a ser tasada.
+		325k varones nobles hereditarios (no necesariamente poseedores de tierra) estaban exentos de cualquier impuesto.
+		3m de varones en total estaban exentos. Destacan: exiliados en siberia; soldados retirados; marineros; Bashkires; Tátaros; 
+		Los "Meshcheriaki" [tátaros de Mishar según entiendo]; 250k mercaderes; 500k musulmanes y judíos; 300k miembors del clero; 500k cosacos; universitarios.
+		En total, en torno al 10% de la población rusa (varones + familias) no era tasable con "poll tax"; si pagaban impuestos lo hacían de manera indirecta e informal.
+		La elaboración de este censo fiscal se enfrentó a una altísima resistencia campesina; dependía de muchas suposiciones; carecía de herramientas para medir el cadastro de manera regularizada.
+		La Comisión Fiscal de la "Gran Reforma" nunca consigue averiguar los problemas fiscales a los que se enfrentan.
+
+	Para 1860-70, la reforma fiscal asume que es imposible tasar verazmente el rural y la periferia imperial. La reforma fiscal, pues, se centra en las áreas urbanas del Imperio.
+		Circunnavegan el blindaje fiscal de la nobleza pasando a tasar las propiedades en vez de la persona en sí misma.
 
