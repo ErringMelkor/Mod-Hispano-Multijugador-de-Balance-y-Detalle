@@ -6,7 +6,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25
+				years = 35
 				is_decaying = yes
 			}
 		}
@@ -15,7 +15,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -24,7 +24,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -33,7 +33,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -42,7 +42,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -51,7 +51,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -60,7 +60,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -69,7 +69,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -78,7 +78,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -87,7 +87,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -96,7 +96,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -105,7 +105,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -114,7 +114,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -123,7 +123,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -132,7 +132,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -141,7 +141,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25 
+				years = 35 
 				is_decaying = yes
 			}
 		}
@@ -150,7 +150,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25
+				years = 35
 				is_decaying = yes
 			}
 		}
@@ -159,7 +159,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25
+				years = 35
 				is_decaying = yes
 			}
 		}
@@ -168,7 +168,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25
+				years = 35
 				is_decaying = yes
 			}
 		}
@@ -177,7 +177,7 @@
 		region_state:FRA = {
 			add_modifier = {
 				name = fra_napoleonic_wars_legacy
-				years = 25
+				years = 35
 				is_decaying = yes
 			}
 		}

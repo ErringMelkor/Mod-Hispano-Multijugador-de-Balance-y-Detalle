@@ -62,7 +62,7 @@
 
 		add_modifier = {
 			name = fra_napoleonic_wars_legacy_workforce
-			years = 25
+			years = 15
 			is_decaying = yes
 		}
 
