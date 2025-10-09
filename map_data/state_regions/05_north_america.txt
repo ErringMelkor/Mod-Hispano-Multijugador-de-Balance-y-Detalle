@@ -848,7 +848,7 @@ STATE_QUEBEC = {
     capped_resources = {
         bg_iron_mining = 60
         bg_logging = 80
-        bg_hardwood_logging = 8
+        bg_hardwood_logging = 6
         bg_whaling = 4
         bg_fishing = 14
     }
@@ -918,7 +918,7 @@ STATE_BRITISH_COLUMBIA = {
         bg_coal_mining = 28
         bg_sulfur_mining = 36
         bg_logging = 60
-        bg_hardwood_logging = 10
+        bg_hardwood_logging = 8
         bg_whaling = 6
         bg_fishing = 9
     }

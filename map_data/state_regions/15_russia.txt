@@ -219,7 +219,7 @@ STATE_OULU = {
     capped_resources = {
         bg_iron_mining = 45
         bg_logging = 56
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 2
         bg_fishing = 10
     }
     naval_exit_id = 3000
