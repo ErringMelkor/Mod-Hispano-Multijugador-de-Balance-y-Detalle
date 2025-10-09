@@ -60,6 +60,22 @@ pm_serfdom_no = {
 	}
 }
 
+pm_french_tenancy = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	unlocking_laws = {
+		law_french_tenancy
+	}
+	
+	building_modifiers = {					
+		unscaled = {
+			building_subsistence_output_add = 4.5
+		}
+		level_scaled = {
+			building_employment_peasants_add = -1000
+		}
+	}
+}
+
 pm_corvee_labor = {
 	texture = "gfx/interface/icons/production_method_icons/corvee_labor.dds"
 	unlocking_laws = {
@@ -71,7 +87,7 @@ pm_corvee_labor = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}
 	}
 
@@ -115,7 +131,7 @@ pm_serfdom = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}		
 	}
 }		
@@ -179,7 +195,7 @@ pm_serfdom_building_subsistence_orchards = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}			
 	}
 }		
@@ -242,7 +258,7 @@ pm_serfdom_building_subsistence_pastures = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}			
 	}
 }
@@ -306,7 +322,7 @@ pm_serfdom_building_subsistence_fishing_villages = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}			
 	}
 }		
@@ -369,7 +385,7 @@ pm_serfdom_building_subsistence_rice_paddies = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3.5
+			building_subsistence_output_add = 3
 		}			
 	}
 }
