@@ -1,7 +1,10 @@
-### ----- Changelog v1.10.B --------- ### 
+### ----- Changelog v1 (09-10-25) --------- ### 
 
-#Nota: como no sé como acompañar la versión del juego a la del mod, voy a introducir una denominación alfanumérica por ahora. A = primera versión para este parche, etc.
+#Nota: como no sé como acompañar la versión del juego a la del mod, por ahora voy a introducir una denominación alfanumérica. A = primera versión para este parche, etc.
 #No tomaría en cuenta los hotfixes para ambos por redundancia.
+
+Rusia:
+	* Reajuste al Rasgo de sus Landowners.
 
 Francia:
 	* Nueva ley de Arrendatarios

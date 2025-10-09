@@ -330,8 +330,7 @@ pm_wooden_passenger_carriages = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wood_add = 6 # 120
-			goods_input_hardwood_add = 1 # 40
+			goods_input_wood_add = 8 # 160
 			goods_output_transportation_add = 10 # 300
 		}
 		level_scaled = {
