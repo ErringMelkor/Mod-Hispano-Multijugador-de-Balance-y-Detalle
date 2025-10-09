@@ -1,10 +1,13 @@
-# 9-10-25 Erring
-
+### ----- Changelog v1.10
 Francia:
 	* Nueva ley de Arrendatarios
 	* Aumentada la penalización de las Guerras Napoleónicas.
 	* Decisión para reconstruir París con el Plan Haussmann.
 	* Nuevo monumento: el Departamento Metropolitano.
+	* Nuevo Rasgo e Ideología para sus Landowners.
+
+Gran Bretaña:
+	* La Entrada de Diario irlandesa es menos dura ahora que están las hambrunas de los 40.
 
 España:
 	* Modificador provincial para el minifundismo gallego.
@@ -12,3 +15,18 @@ España:
 Marathas:
 	* Agregados personajes con ideologías selectas para reformarse.
 	* Agregada una nueva tecnología militar.
+
+
+Japón:
+	* Aumentado ligeramente el bonificador por completar el Terakoya.
+
+Economía:
+	* Separada la madera dura y agregada como recurso estratégico.
+	* Agregada la madera dura como requisitos para PM de lujo; las pops tienen opción a consumirla en su necesidad de "elementos crudos" (es decir, para la construcción y mantenimiento de sus casas.)
+	* Nerf a los tintes y a su abundancia como recurso.
+	* Revertido el buff al método de los tintes artificiales.
+	* Reajuste al consumo de alimentos procesados y pescado.
+	* Agregados depósitos de pesca en zonas con cuerpos de agua interiores prominentes.
+	* Ligero nerf a las granjas; siguen siendo mejores que en vanilla.
+	* Rework a las migraciones: duran menos pero son mucho más comunes (12 meses / 4 años cooldown -> 6 meses / 1 año cooldown). Tened cuidado con los radicales!
+	* Agregados nuevos métodos al monumento de Sar-i-Sang en Afghanistán.

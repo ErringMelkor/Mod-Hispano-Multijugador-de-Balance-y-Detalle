@@ -140,7 +140,6 @@ Madera Dura:
 
 	Deberes nicol:
 		* Revisar el mapa de hardwood; contrastar con el guardado que deje mañana para ver donde / como balancear.
-		* Valen 400 porque por slot generan más valor que un aserradero normal, y son más especializados. Quizá estaría bien un enfoque más de maquinistas e ingenieros ("agrónomos" / "forestales"). Favorece a los trabajos de clase media / PB. 
 	
 	Posibles cambios para favorecer a la madera dura:
 		Arte?
