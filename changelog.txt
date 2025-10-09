@@ -7,7 +7,7 @@ Rusia:
 	* Reajuste al Rasgo de sus Landowners.
 
 Francia:
-	* Nueva ley de Arrendatarios
+	* Nueva ley de Arrendatarios.
 	* Aumentada la penalización de las Guerras Napoleónicas.
 	* Decisión para reconstruir París con el Plan Haussmann.
 	* Nuevo monumento: el Departamento Metropolitano.
