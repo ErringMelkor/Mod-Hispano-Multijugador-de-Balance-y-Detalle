@@ -16,11 +16,14 @@ institute_plan_haussmann = {
 
 	when_taken = {
 
-		s:STATE_ILE_DE_FRANCE = {
-			add_modifier = old_paris
-		}
-		s:STATE_ILE_DE_FRANCE = {
-			add_modifier = new_paris
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+			remove_modifier = old_paris
+			add_modifier = {
+				name = new_paris
+			}	
 		}
 
 		add_modifier = {
