@@ -1,0 +1,14 @@
+# 9-10-25 Erring
+
+Francia:
+	* Nueva ley de Arrendatarios
+	* Aumentada la penalización de las Guerras Napoleónicas.
+	* Decisión para reconstruir París con el Plan Haussmann.
+	* Nuevo monumento: el Departamento Metropolitano.
+
+España:
+	* Modificador provincial para el minifundismo gallego.
+
+Marathas:
+	* Agregados personajes con ideologías selectas para reformarse.
+	* Agregada una nueva tecnología militar.
