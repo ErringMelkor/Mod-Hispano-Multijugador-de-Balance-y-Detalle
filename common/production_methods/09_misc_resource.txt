@@ -3,7 +3,7 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_wood_add = 30
+			goods_output_wood_add = 30 # 600
 		}
 
 		level_scaled = {

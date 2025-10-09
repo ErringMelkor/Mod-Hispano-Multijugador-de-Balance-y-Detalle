@@ -115,7 +115,7 @@ STATE_KUOPIO = {
     traits = { "state_trait_scandinavian_forests" }
     capped_resources = {
         bg_logging = 42
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
         bg_iron_mining = 11
     }
     naval_exit_id = 3000
@@ -137,7 +137,7 @@ STATE_UUSIMAA = {
         bg_iron_mining = 5
         bg_lead_mining = 5
         bg_logging = 36
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 2
         bg_fishing = 8
     }
     naval_exit_id = 3000

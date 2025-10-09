@@ -40,7 +40,7 @@ STATE_NORTH_BORNEO = {
         bg_iron_mining = 24
         bg_sulfur_mining = 36
         bg_logging = 20
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 3
         bg_fishing = 8
     }
     resource = {
@@ -108,7 +108,7 @@ STATE_EAST_BORNEO = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 20
-        bg_hardwood_logging = 4
+        bg_hardwood_logging = 3
         bg_fishing = 9
     }
     resource = {

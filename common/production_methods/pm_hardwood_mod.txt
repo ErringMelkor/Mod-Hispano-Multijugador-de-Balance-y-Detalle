@@ -5,10 +5,10 @@ pm_hardwood = {
 		workforce_scaled = {
 
 			#input goods
-			goods_input_tools_add = 2.5 # 100
+			goods_input_tools_add = 5 # 200
 
 			#output goods
-			goods_output_hardwood_add = 25 # 1000
+			goods_output_hardwood_add = 20 # 800
 		}
 
 		level_scaled = {
