@@ -1,4 +1,8 @@
-### ----- Changelog v1.10
+### ----- Changelog v1.10.B --------- ### 
+
+#Nota: como no sé como acompañar la versión del juego a la del mod, voy a introducir una denominación alfanumérica por ahora. A = primera versión para este parche, etc.
+#No tomaría en cuenta los hotfixes para ambos por redundancia.
+
 Francia:
 	* Nueva ley de Arrendatarios
 	* Aumentada la penalización de las Guerras Napoleónicas.
@@ -20,13 +24,20 @@ Marathas:
 Japón:
 	* Aumentado ligeramente el bonificador por completar el Terakoya.
 
+Leyes:
+	* Nerf a la ley de ciudadanía "Subjecthood": -25% asimilación -> -50%; 100 aceptación a tu cultura primaria -> 80.
+
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
 	* Agregada la madera dura como requisitos para PM de lujo; las pops tienen opción a consumirla en su necesidad de "elementos crudos" (es decir, para la construcción y mantenimiento de sus casas.)
 	* Nerf a los tintes y a su abundancia como recurso.
 	* Revertido el buff al método de los tintes artificiales.
+
 	* Reajuste al consumo de alimentos procesados y pescado.
 	* Agregados depósitos de pesca en zonas con cuerpos de agua interiores prominentes.
+	* Agregado un cuarto método de producción al pescado.
+	* Consumo marginal de pescado como alimento de lujo.
 	* Ligero nerf a las granjas; siguen siendo mejores que en vanilla.
+
 	* Rework a las migraciones: duran menos pero son mucho más comunes (12 meses / 4 años cooldown -> 6 meses / 1 año cooldown). Tened cuidado con los radicales!
 	* Agregados nuevos métodos al monumento de Sar-i-Sang en Afghanistán.

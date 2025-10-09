@@ -65,6 +65,7 @@ pmg_base_building_fishing_wharf = {
 		pm_simple_fishing
 		pm_fishing_trawlers
 		pm_steam_trawlers
+		pm_oil_trawlers
 	}
 }
 

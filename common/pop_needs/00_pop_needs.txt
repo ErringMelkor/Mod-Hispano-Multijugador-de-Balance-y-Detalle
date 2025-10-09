@@ -331,13 +331,21 @@ popneed_luxury_food = {
 	}
 
 	entry = {
+		goods = fish
+
+		weight = 0.25
+		max_supply_share = 0.25
+		min_supply_share = 0.0
+	}
+
+	entry = {
 		goods = groceries
 
 		weight = 1.75
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
-
+	
 	entry = {
 		goods = sugar
 

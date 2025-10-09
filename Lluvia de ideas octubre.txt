@@ -83,6 +83,7 @@ Balance General:
 	* Mejorar Perú-Bolivia; que no se lo coma Brasil todo el rato.
 	* Nerf a "Subjecthood" (?)
 	* Quitar el evento de que el heredero se te vuelva un "Enlightened Royalist"; la opción, o que, como mucho, te de reformista.
+	* Equilibrar el mínimo de potestad de 200 a 50 en todas las opciones para entrar al bloque (por tratado, petición al líder).
 	
 	
 ✓

@@ -76,6 +76,44 @@ pm_steam_trawlers = {
 	}
 }
 
+pm_oil_trawlers = {
+	texture = "gfx/interface/icons/production_method_icons/steam_trawlers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		gantry_cranes
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input
+			goods_input_steamers_add = 10 
+			# 700
+			goods_input_oil_add = 10 
+			# 400
+			
+			# output
+			goods_output_fish_add = 130
+			# 2500
+			# ABSOLUTO 1400 / RELATIVO 300
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+
+
 pm_refrigerated_rail_cars_building_fishing_wharf = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_rail_cars.dds"
 
