@@ -71,7 +71,7 @@ pm_corvee_labor = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}
 	}
 
@@ -115,7 +115,7 @@ pm_serfdom = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}		
 	}
 }		
@@ -179,7 +179,7 @@ pm_serfdom_building_subsistence_orchards = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}			
 	}
 }		
@@ -242,7 +242,7 @@ pm_serfdom_building_subsistence_pastures = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}			
 	}
 }
@@ -306,7 +306,7 @@ pm_serfdom_building_subsistence_fishing_villages = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}			
 	}
 }		
@@ -369,7 +369,7 @@ pm_serfdom_building_subsistence_rice_paddies = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 3.5
 		}			
 	}
 }
