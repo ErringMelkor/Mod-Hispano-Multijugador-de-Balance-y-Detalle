@@ -4,7 +4,7 @@
 	start_quality_of_life = 7
 	wage_weight = 1.5
 	paid_private_wage = yes
-	literacy_target = 0.10
+	literacy_target = 0.25
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 
@@ -63,13 +63,12 @@
 
 	qualifications_growth_desc = "MACHINISTS_QUALIFICATIONS_DESC"
 	qualifications = {
-		# baseline: ( literacy - 0.1 ) * 20, norm 8 for Laborers with Literacy 30%
-		# ( 40% - 0.1 ) = 
+		# baseline: ( literacy - 0.1 ) * 20, norm 8 for Laborers with Literacy 30% 
 		add = {
 			value = literacy_rate
 			subtract = 0.1
 			min = 0
-			multiply = 20
+			multiply = 10
 			desc = "QUALIFICATIONS_LITERACY_FACTOR"
 		}
 		if = {
@@ -77,8 +76,16 @@
 				is_pop_type = laborers
 			}
 			multiply = {
-				value = 1.25
+				value = 1.5
 				desc = "QUALIFICATIONS_FAVORED_TYPE"
+			}
+		}
+		if = {
+			limit = {
+				is_pop_type = peasants
+			}
+			multiply = {
+				value = 0.15
 			}
 		}
 		if = {

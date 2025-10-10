@@ -35,11 +35,10 @@
 
 	qualifications_growth_desc = "SHOPKEEPERS_QUALIFICATIONS_DESC"
 	qualifications = {
-		# baseline: ( wealth - 5 ) / 2, norm 10 for Clerks with Wealth 15
+		# baseline: ( wealth - 8 ) , norm 10 for Clerks with Wealth 15
 		add = {
 			value = wealth
-			subtract = 5
-			divide = 2
+			subtract = 8
 			min = 0
 			desc = "QUALIFICATIONS_WEALTH_FACTOR"
 		}

@@ -5542,7 +5542,7 @@
 				add_ownership={
 					country={
 						country="c:AUS"
-						levels=10
+						levels=15
 					}
 				}
 				reserves=1

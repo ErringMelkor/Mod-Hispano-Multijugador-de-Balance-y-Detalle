@@ -27,6 +27,9 @@ Marathas:
 Japón:
 	* Aumentado ligeramente el bonificador por completar el Terakoya.
 
+Otomanos:
+	* Nerf al Rasgo de las Fuerzas Armadas (sorry not sorry).
+
 Leyes:
 	* Nerf a la ley de ciudadanía "Subjecthood": -25% asimilación -> -50%; 100 aceptación a tu cultura primaria -> 80.
 
@@ -47,9 +50,6 @@ Economía:
 
 
 Profesiones:
-	Rework a las Cualificaciones, para volver algo más punitivo el cambio hacia la industrialización.
-	Clases Bajas:
-		* Maquinistas: bono x2 para obreros -> 1.25
-		* "Clerks": 
-	Clases Medias:
-		* Granjeros: 
+	Rework a las Cualificaciones; es más punitivo que pops sin alfabetización ni riqueza accedan a trabajos más tecnificados.
+	Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
+	

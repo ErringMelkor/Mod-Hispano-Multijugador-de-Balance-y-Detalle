@@ -797,7 +797,7 @@
 					building={
 						type="building_textile_mills"
 						country="c:BOL"
-						levels=1
+						levels=2
 						region="STATE_LA_PAZ"
 					}
 				}
@@ -809,11 +809,11 @@
 				add_ownership={
 					country={
 						country="c:BOL"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -1633,7 +1633,7 @@
 				add_ownership={
 					country={
 						country="c:ARG"
-						levels=3
+						levels=6
 					}
 				}
 				reserves=1

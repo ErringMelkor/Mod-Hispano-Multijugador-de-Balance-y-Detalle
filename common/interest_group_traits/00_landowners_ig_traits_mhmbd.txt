@@ -4,6 +4,7 @@ ig_trait_the_velvet_book = { #Rusia Happy
 
 	modifier = {
 		state_tax_capacity_mult = 0.1
+		state_pop_qualifications_mult = -0.1
 	}
 }
 

@@ -46,7 +46,7 @@
 			# baseline: ( literacy - 0.2 ) * 10 + ( wealth / 10 ), norm 5
 			add = {
 				value = literacy_rate
-				subtract = 0.2
+				subtract = 0.4
 				multiply = 20
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
@@ -60,7 +60,7 @@
 					is_pop_type = clerks
 				}
 				multiply = {
-					value = 3
+					value = 2.5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
