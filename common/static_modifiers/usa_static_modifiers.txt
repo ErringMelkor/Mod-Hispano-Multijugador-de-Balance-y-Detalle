@@ -3,17 +3,18 @@
 	interest_group_ig_landowners_pol_str_mult = 0.35
 	country_aristocrats_voting_power_add = 100
 	country_farmers_voting_power_add = 30
+	country_law_enactment_time_mult = 0.25
 }
 
 csa_static_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_training_rate_mult = 5
 	state_conscription_rate_add = 0.05
-	country_military_goods_cost_mult = -0.35
-	unit_supply_consumption_mult = -0.35
-	unit_defense_mult = 0.75
+	country_military_goods_cost_mult = -0.55
+	unit_supply_consumption_mult = -0.55
+	unit_defense_mult = 0.45
 	unit_offense_mult = 0.35
-	unit_morale_loss_mult = -0.25
+	unit_morale_loss_mult = -0.15
 }
 
 modifier_csa_hiring_bonus = {
@@ -51,7 +52,7 @@ paramilitaries_suppressed = {
 integration_efforts = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_turmoil_effects_mult = 0.25
-	state_tax_waste_add = 0.25
+	state_tax_waste_add = 0.45
 	building_group_bg_plantations_throughput_add = -0.25
 	building_group_bg_plantations_mortality_mult = -0.1
 }
@@ -64,6 +65,6 @@ slavery_de_facto = {
 
 unreconstructed_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	state_radicals_from_political_movements_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.35
 	state_tax_waste_add = 0.5
 }

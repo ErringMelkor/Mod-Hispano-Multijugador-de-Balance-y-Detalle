@@ -29,10 +29,19 @@ Japón:
 
 Otomanos:
 	* Nerf al Rasgo de las Fuerzas Armadas (sorry not sorry).
+	* Agregada su nueva ley religiosa.
+	* Retiradas Escuelas Privadas y Arrendatarios Agrícolas.
+
+Estados Unidos:
+	* 25% al tiempo de pasar leyes por el Compromiso de Missouri.
+	* Reducido el bono a los Confederados.
+	* Aumentado el penalizador por favorecer a la cultura afroamericana en la Reconstrucción.
 
 Leyes:
 	* Nerf a la ley de ciudadanía "Subjecthood": -25% asimilación -> -50%; 100 aceptación a tu cultura primaria -> 80.
 	* Retirada la compañía y monopolio de Tecnocracia; compensado con más poder de los académicos.
+	* +1 Charter a LF (total de 3); -1 charter a Command Economy (total de 0).
+	* Bono de Reinversión de Cooperativas: 100% -> 35%.
 
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
@@ -53,6 +62,9 @@ Economía:
 	* Agregado el hueco de la compañía y monopolio al final de la rama.
 	* Agregado un -1% al interés a Banca Central e Intercambio Internacional.
 	* Reducido el % de inversión de los maquinistas a 5%.
+
+Culturas:
+	* Aumentado el fervor inicial de la mayoría de culturas "minoritarias": Irlandeses; Galeses; Polacos... etc.
 
 
 Profesiones:

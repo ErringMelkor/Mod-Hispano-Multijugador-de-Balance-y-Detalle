@@ -37,7 +37,7 @@ Ideas para Rusia:
 ✓
 
 Ideas para España:
-	Minifundismo y tierra arable reducida para Galicia.
+	Minifundismo y tierra arable reducida para Galicia. #Check
 
 Ideas para Japón:
 	* Mejorar ligeramente las compañías una vez completas la Restauración Komei/Meiji con éxito.
@@ -106,8 +106,8 @@ Normas:
 
 Arreglos:
 	Misión de Austria.
-	Agregar más buro inicial.
-	Doble rasgo negativo de la PB española.
+	Agregar más buro inicial. #Check.
+	Doble rasgo negativo de la PB española. #check.
 	Revisar las dos Tanzimat económicas.
 
 ------------------------
@@ -143,10 +143,10 @@ Madera Dura:
 		* Revisar el mapa de hardwood; contrastar con el guardado que deje mañana para ver donde / como balancear.
 	
 	Posibles cambios para favorecer a la madera dura:
-		Arte?
-		Sectores de construcción?
-		Sectores urbanos?
-		PM de los barcos.
+		Arte? #Check.
+		Sectores de construcción? X (en verdad esto tendria pechá de sentido pero es bastante disruptivo)
+		Sectores urbanos? X
+		PM de los barcos. X
 
 		Mejorar en las pop needs los muebles de lujo. # Versión preliminar implementada.
 
