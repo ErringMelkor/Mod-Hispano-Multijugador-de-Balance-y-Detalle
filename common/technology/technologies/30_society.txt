@@ -613,6 +613,8 @@ joint_stock_companies = {
 	modifier = {
 		country_max_companies_add = 1
 		state_urbanization_per_level_mult = -0.1
+		state_capitalists_investment_pool_efficiency_mult = 0.05
+		state_shopkeepers_investment_pool_efficiency_mult = 0.05
 	}	
 	
 	unlocking_technologies = {
@@ -1161,8 +1163,14 @@ mutual_funds = {
 	
 	modifier = {
 		country_minting_mult = 0.1
-		country_loan_interest_rate_add = -0.02
+		country_loan_interest_rate_add = -0.03
 		state_max_trade_advantage_from_capacity_add = 0.05
+		state_capitalists_investment_pool_efficiency_mult = 0.05
+		state_farmers_investment_pool_efficiency_mult = 0.05
+		state_shopkeepers_investment_pool_efficiency_mult = 0.05
+		state_bureaucrats_investment_pool_efficiency_mult = 0.05
+		state_engineers_investment_pool_efficiency_mult = 0.05
+		state_machinists_investment_pool_efficiency_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -1409,8 +1417,9 @@ international_exchange_standards = {
 	
 	modifier = {
 		country_minting_mult = 0.1
-		country_loan_interest_rate_add = -0.02
+		country_loan_interest_rate_add = -0.03
 		state_max_trade_advantage_from_capacity_add = 0.05
+		state_capitalists_investment_pool_contribution_add = 0.025
 	}
 	
 	unlocking_technologies = {
@@ -1598,9 +1607,10 @@ modern_financial_instruments = {
 	category = society
 	modifier = {
 		country_minting_mult = 0.1
-		country_loan_interest_rate_add = -0.02	
+		country_loan_interest_rate_add = -0.05	
 		country_government_dividends_efficiency_add = 0.05
 		state_max_trade_advantage_from_capacity_add = 0.05
+		state_capitalists_investment_pool_contribution_add = 0.075
 	}
 	unlocking_technologies = {
 		international_exchange_standards
@@ -1617,7 +1627,8 @@ macroeconomics = {
 	category = society
 	
 	modifier = {
-		country_max_companies_add = 1
+		country_max_companies_add = 2
+		country_free_charters_add = 2
 		state_market_access_price_impact = 0.05
 	}
 	

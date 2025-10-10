@@ -32,6 +32,7 @@ Otomanos:
 
 Leyes:
 	* Nerf a la ley de ciudadanía "Subjecthood": -25% asimilación -> -50%; 100 aceptación a tu cultura primaria -> 80.
+	* Retirada la compañía y monopolio de Tecnocracia; compensado con más poder de los académicos.
 
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
@@ -47,6 +48,11 @@ Economía:
 
 	* Rework a las migraciones: duran menos pero son mucho más comunes (12 meses / 4 años cooldown -> 6 meses / 1 año cooldown). Tened cuidado con los radicales!
 	* Agregados nuevos métodos al monumento de Sar-i-Sang en Afghanistán.
+
+	* Agregada eficiencia y cantidad de inversión en la rama de sociedad a las pops capaces de invertir.
+	* Agregado el hueco de la compañía y monopolio al final de la rama.
+	* Agregado un -1% al interés a Banca Central e Intercambio Internacional.
+	* Reducido el % de inversión de los maquinistas a 5%.
 
 
 Profesiones:

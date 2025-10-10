@@ -53,7 +53,7 @@
 		if = {
 			limit = {
 				is_peasant_under_serfdom = no
-				literacy_rate > 0.4
+				literacy_rate > 0.35
 			}
 			# baseline: ( literacy - 0.2 ) * 5 + ( wealth / 20 ), norm 2.5 for Wealth 20 and Literacy 50%
 			add = {
