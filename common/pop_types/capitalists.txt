@@ -32,7 +32,7 @@
 		if = {
 			limit = {
 				is_peasant_under_serfdom = no
-				wealth > 25
+				wealth > 21
 			}
 			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
@@ -60,7 +60,7 @@
 					is_pop_type = engineers
 				}
 				multiply = {
-					value = 3
+					value = 3.5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
