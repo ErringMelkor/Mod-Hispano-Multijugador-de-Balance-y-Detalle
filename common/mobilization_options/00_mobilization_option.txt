@@ -161,6 +161,7 @@ mobilization_option_chocolate = {
 	}
 	unit_modifier = {
 		unit_morale_recovery_mult = 0.1
+		military_formation_attrition_risk_mult = -0.01
 	}
 	ai_weight = {
 		value = 1
@@ -197,6 +198,7 @@ mobilization_option_tobacco = {
 	}
 	unit_modifier = {
 		unit_morale_recovery_mult = 0.1
+		military_formation_attrition_risk_mult = -0.01
 	}
 	ai_weight = {
 		value = 1
@@ -233,6 +235,7 @@ mobilization_option_liquor = {
 	}
 	unit_modifier = {
 		unit_morale_recovery_mult = 0.1
+		military_formation_attrition_risk_mult = -0.01
 	}
 	ai_weight = {
 		value = 1
@@ -269,6 +272,7 @@ mobilization_option_opium = {
 	}
 	unit_modifier = {
 		unit_morale_recovery_mult = 0.15
+		military_formation_attrition_risk_mult = -0.01
 	}
 	ai_weight = {
 		value = 1
@@ -985,7 +989,7 @@ mobilization_option_field_hospitals = {
 	}
 	unit_modifier = {
 		unit_recovery_rate_add = 0.35
-		military_formation_attrition_risk_mult = -0.15
+		military_formation_attrition_risk_mult = -0.25
 	}
 	ai_weight = {
 		value = 1
@@ -1051,7 +1055,7 @@ mobilization_option_ambulances = {
 	}
 	unit_modifier = {
 		unit_recovery_rate_add = 0.5
-		military_formation_attrition_risk_mult = -0.25
+		military_formation_attrition_risk_mult = -0.3
 	}
 	ai_weight = {
 		value = 1
@@ -1133,7 +1137,7 @@ mobilization_option_modern_uniforms = {
 		goods_input_clothes_add = 2
 	}
 	unit_modifier = {
-		military_formation_attrition_risk_mult = -0.1
+		military_formation_attrition_risk_mult = -0.15
 	}
 
 	unlocking_technologies = {
