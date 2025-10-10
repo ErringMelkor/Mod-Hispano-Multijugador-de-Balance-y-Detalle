@@ -44,3 +44,12 @@ Economía:
 
 	* Rework a las migraciones: duran menos pero son mucho más comunes (12 meses / 4 años cooldown -> 6 meses / 1 año cooldown). Tened cuidado con los radicales!
 	* Agregados nuevos métodos al monumento de Sar-i-Sang en Afghanistán.
+
+
+Profesiones:
+	Rework a las Cualificaciones, para volver algo más punitivo el cambio hacia la industrialización.
+	Clases Bajas:
+		* Maquinistas: bono x2 para obreros -> 1.25
+		* "Clerks": 
+	Clases Medias:
+		* Granjeros: 

@@ -51,7 +51,7 @@
 					is_pop_type = shopkeepers
 				}
 				multiply = {
-					value = 5
+					value = 2
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
@@ -60,7 +60,16 @@
 					is_pop_type = engineers
 				}
 				multiply = {
-					value = 5
+					value = 3
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+				}
+				multiply = {
+					value = 1.25
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}

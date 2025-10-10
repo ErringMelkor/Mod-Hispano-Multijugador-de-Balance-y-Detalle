@@ -77,7 +77,7 @@
 				is_pop_type = laborers
 			}
 			multiply = {
-				value = 2
+				value = 1.25
 				desc = "QUALIFICATIONS_FAVORED_TYPE"
 			}
 		}

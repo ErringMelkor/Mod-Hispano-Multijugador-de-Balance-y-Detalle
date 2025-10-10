@@ -63,11 +63,11 @@
 
 	qualifications_growth_desc = "FARMERS_QUALIFICATIONS_DESC"
 	qualifications = {
-		# baseline: wealth (max 30) / 2, norm 10 for Peasants with Wealth 10
+		# baseline: wealth (max 30) / 2, norm 10 for Peasants with Wealth 15
 		add = {
 			value = wealth
-			max = 30
-			divide = 2
+			max = 45
+			divide = 3
 			desc = "QUALIFICATIONS_WEALTH_FACTOR"
 		}
 		if = {
@@ -78,7 +78,7 @@
 				}
 			}
 			multiply = {
-				value = 2
+				value = 1.75
 				desc = "QUALIFICATIONS_FAVORED_TYPE"
 			}
 		}
