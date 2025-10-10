@@ -197,6 +197,15 @@
 				add_ideology = ideology_russian_patriarch
 			}
 		}
+		# France
+		else_if = {
+			limit = {
+				country_has_state_religion = rel:catholic
+				has_law_or_variant = law_type:law_monarchy
+			}
+			ig:ig_devout ?= {
+			}
+		}
 		# Church of Denmark
 		else_if = {
 			limit = {

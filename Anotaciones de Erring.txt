@@ -41,11 +41,13 @@ Términos:
 		"chiny" -> rango codificado con privilegios, derechos y obligaciones.
 		"sosloviia / sostoianiia" -> categorias sociales aglomeradas (?). Comparable a los "Estamentos" del Ancien Regime.
 		"raznochintsy" -> lit. "gente de diversos rangos y/u orígenes". Muy maleable, una pseudo-clase, un hiperónimo. Comprendido por sirvientes civiles de bajo rango, soldados, hijos de nobles que no han heredado el estatus nobiliario y profesiones liberales.
-		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
+		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico en Rusia. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
 		"stanitsa" -> Villa autónoma cosaca.
 		"posessionnye" -> Labor de corvea en fábricas.
 		"neravnomernost" -> Desigualdad (fiscal).
 		"krugovaia poruka or krugovoe ruchatel’stvo" -> Responsabilidad Colectiva (fiscal). Los propios campesinos, en comunas, estaban encargados / se esperaba de ellos que presentaran los impuestos debidos al Estado.
+		"opolchenie" -> milicias territoriales (1874-1917 aprox). National Guard especial para rusia?
+
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -146,3 +148,8 @@ Comentarios generales:
 	Para 1860-70, la reforma fiscal asume que es imposible tasar verazmente el rural y la periferia imperial. La reforma fiscal, pues, se centra en las áreas urbanas del Imperio.
 		Circunnavegan el blindaje fiscal de la nobleza pasando a tasar las propiedades en vez de la persona en sí misma.
 
+
+-----
+
+instituir la ley falloux para francia; mete escuelas religiosas y da nuevo rasgo a la iglesia.
+derogar la ley falloux; condiciones: ser república, la iglesia no está en el gobierno; no es poderosa. No tener religión de estado. Retira la iglesia y le mete -% al poder porcentual durante 10 años.

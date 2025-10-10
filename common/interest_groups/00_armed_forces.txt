@@ -66,6 +66,16 @@
 			else_if = {
 				limit = {
 					owner = {
+						c:RUS ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_a_school_for_the_nation
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
+			else_if = {
+				limit = {
+					owner = {
 						c:MEX ?= this
 					}
 				}

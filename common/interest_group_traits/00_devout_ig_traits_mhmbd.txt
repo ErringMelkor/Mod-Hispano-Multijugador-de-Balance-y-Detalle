@@ -1,0 +1,11 @@
+#Francia - Legitimidad?
+ig_trait_derecho_divino_frances= {
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_legitimacy_headofstate_add = 10
+	}
+}
+
+### Japón - Mobilización Espiritual
