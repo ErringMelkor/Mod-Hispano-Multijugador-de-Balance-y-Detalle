@@ -13,8 +13,8 @@ ig_trait_turban_rebellion = {
 	max_approval = unhappy
 
 	modifier = {
-		state_radicals_from_political_movements_mult = 0.3
-		state_farmers_investment_pool_efficiency_mult = -0.1
+		state_radicals_from_political_movements_mult = 0.25
+		state_farmers_investment_pool_efficiency_mult = -0.25
 	}
 }
 
@@ -23,9 +23,7 @@ ig_trait_manchu_quarreling = {
 	max_approval = unhappy
 	
 	modifier = {
-		country_authority_mult = -0.15
-	
-		
+		country_authority_mult = -0.15	
 	}
 }
 
@@ -36,7 +34,6 @@ ig_trait_lack_of_leadership = {
 	modifier = {
 	unit_morale_recovery_mult = -0.1
 	unit_morale_loss_mult = 0.1
-	unit_supply_consumption_mult = 0.25
 	}
 }
 
@@ -55,7 +52,7 @@ ig_trait_fierce_quotaism = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_education_access_add = -0.1
+		state_pop_qualifications_mult = -0.1
 		state_radicals_from_political_movements_mult = 0.1
 	}
 }
@@ -66,7 +63,5 @@ ig_trait_autonomous_breakdown = {
 	
 	modifier = {
 		country_loan_interest_rate_add = 0.1
-		state_tax_capacity_mult = -0.1
-		state_construction_mult = -0.05
 	}
 }

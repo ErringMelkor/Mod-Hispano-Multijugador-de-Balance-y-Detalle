@@ -1,6 +1,6 @@
 ### Otomanos
 
-ig_trait_the_unshackled_empire = {
+ig_trait_the_unshackled_empire = { # Loyal
 	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
 	min_approval = loyal
 	
@@ -11,7 +11,7 @@ ig_trait_the_unshackled_empire = {
 	}	
 }
 
-ig_trait_unwavering_loyalty = {
+ig_trait_unwavering_loyalty = { # Happy
 	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
 	min_approval = happy
 
@@ -32,8 +32,7 @@ ig_trait_a_school_for_the_nation = {
 	min_approval = happy
 
 	modifier = {
-		state_pop_qualifications_mult = 0.15
+		state_pop_qualifications_mult = 0.1
+		state_assimilation_mult = 0.25
 	}
-	
-
 }

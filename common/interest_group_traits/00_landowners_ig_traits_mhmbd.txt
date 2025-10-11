@@ -1,6 +1,8 @@
-ig_trait_the_velvet_book = { #Rusia Happy
+ ### Rusia 
+
+ig_trait_the_velvet_book = { 
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
-	min_approval = happy
+	min_approval = happy #Happy
 
 	modifier = {
 		state_tax_capacity_mult = 0.1
@@ -8,18 +10,23 @@ ig_trait_the_velvet_book = { #Rusia Happy
 	}
 }
 
-ig_trait_lingua_franca = { #Francia Happy
+### Francia
+
+ig_trait_lingua_franca = { 
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
-	min_approval = happy
+	min_approval = happy # Happy
 
 	modifier = {
 		country_influence_mult = 0.25
 	}
 }
 
-ig_trait_noblesse_oblige = { #Genérico Loyal
+
+### Genérico
+
+ig_trait_noblesse_oblige = {
 	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
-	min_approval = loyal
+	min_approval = loyal #Loyal
 
 	modifier = {
 		state_aristocrats_investment_pool_efficiency_mult = 0.15

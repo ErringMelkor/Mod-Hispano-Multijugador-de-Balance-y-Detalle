@@ -15,3 +15,10 @@ irish_oppression_lessened = {
 	building_livestock_ranch_throughput_add = 0.05
 	state_food_security_add = -0.05
 }
+
+british_commonwealth = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_per_subject_add = -10
+	country_influence_mult = 0.05
+	state_trade_capacity_mult = 0.05
+}
