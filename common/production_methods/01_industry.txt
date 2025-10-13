@@ -1566,11 +1566,11 @@ pm_open_hearth_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 90
-			goods_input_coal_add = 30
+			goods_input_iron_add = 90 # 3600
+			goods_input_coal_add = 30 # 900
 			
 			# output goods
-			goods_output_steel_add = 120
+			goods_output_steel_add = 120 # 6000
 		}
 
 		level_scaled = {
@@ -1599,12 +1599,12 @@ pm_electric_arc_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 100
-			goods_input_coal_add = 30 
-			goods_input_electricity_add = 30
+			goods_input_iron_add = 100 # 4000
+			goods_input_coal_add = 30 # 900
+			goods_input_electricity_add = 30 # 900
 			
 			# output goods
-			goods_output_steel_add = 150
+			goods_output_steel_add = 150 # 7500
 		}
 
 		level_scaled = {
@@ -2119,12 +2119,12 @@ pm_automobile_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 10
-			goods_input_rubber_add = 5
-			goods_input_oil_add = 5
+			goods_input_engines_add = 10 # 600
+			goods_input_rubber_add = 5 # 200
+			goods_input_oil_add = 5 # 200
 
 			# output goods
-			goods_output_automobiles_add = 30
+			goods_output_automobiles_add = 25 # 2500
 		}
 
 		level_scaled = {
@@ -2151,12 +2151,12 @@ pm_mass_automobile_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 10
-			goods_input_rubber_add = 10
-			goods_input_oil_add = 10
+			goods_input_engines_add = 15 # 900
+			goods_input_rubber_add = 10 # 400
+			goods_input_oil_add = 15 # 600
 
 			# output goods
-			goods_output_automobiles_add = 60
+			goods_output_automobiles_add = 45 # 4500
 		}
 
 		level_scaled = {
@@ -2186,7 +2186,7 @@ pm_aeroplane_production = {
 			goods_input_fabric_add = 4
 
 			# output goods
-			goods_output_automobiles_add = -10
+			goods_output_automobiles_add = -5
 			goods_output_aeroplanes_add = 10
 		}
 
@@ -2210,10 +2210,10 @@ pm_tank_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 5
+			goods_input_steel_add = 15
 
 			# output goods
-			goods_output_automobiles_add = -20
+			goods_output_automobiles_add = -15
 			goods_output_tanks_add = 20
 		}
 		

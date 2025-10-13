@@ -43,6 +43,7 @@ Leyes:
 	* +1 Charter a LF (total de 3); -1 charter a Command Economy (total de 0).
 	* Bono de Reinversión de Cooperativas: 100% -> 35%.
 	* Aumentada la mortalidad de las profesiones manuales en trabajos peligrosos para fomentar el uso de las leyes de seguridad laboral.
+	* Rebalanceo completo de las leyes/instituciones de Salud.
 
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
@@ -55,6 +56,8 @@ Economía:
 	* Agregado un cuarto método de producción al pescado.
 	* Consumo marginal de pescado como alimento de lujo.
 	* Ligero nerf a las granjas; siguen siendo mejores que en vanilla.
+
+	* Nerf y rebalance a la producción de automóbiles; sigue estando muy por encima de la media, pero no es *tan* ridicidulo como antes.
 
 	* Rework a las migraciones: duran menos pero son mucho más comunes (12 meses / 4 años cooldown -> 6 meses / 1 año cooldown). Tened cuidado con los radicales!
 	* Agregados nuevos métodos al monumento de Sar-i-Sang en Afghanistán.
@@ -75,9 +78,9 @@ Culturas:
 
 
 Profesiones:
-	Rework a las Cualificaciones; es más punitivo que pops sin alfabetización ni riqueza accedan a trabajos más tecnificados.
-	Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
+	* Rework a las Cualificaciones; es más punitivo que pops sin alfabetización ni riqueza accedan a trabajos más tecnificados.
+	* Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
 	
 Principios:
-	Retirados los focos de Agricultura, Minería y Manufactoría por ahora.
-	Retirado el bono por escala del Principio Colonial; sustituido por uno menor, pero plano; aumentada la velocidad de subida de la institucion y reducido el coste de esta.
+	* Retirados los focos de Agricultura, Minería y Manufactoría por ahora.
+	* Retirado el bono por escala del Principio Colonial; sustituido por uno menor, pero plano; aumentada la velocidad de subida de la institucion y reducido el coste de esta.

@@ -135,6 +135,7 @@ principle_internal_trade_3 = {
 		state_infrastructure_mult = 0.1
 		country_convoy_contribution_to_market_owner_add = 0.4
 		country_company_throughput_bonus_add = 0.05
+		building_economy_of_scale_level_cap_add = 5
 
 		# Cheaper port connections
 		country_port_connection_cost_mult = -0.25
@@ -1396,7 +1397,7 @@ principle_companies_2 = {
 		country_company_throughput_bonus_add = 0.05
 
 		# Adds one free company charter
-		country_free_charters_add = 1
+		country_free_charters_add = 2
 	}
 
 	ai_weight = {
@@ -1410,11 +1411,9 @@ principle_companies_3 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_company_throughput_bonus_add = 0.05
-		country_free_charters_add = 1
-
-		# Adds one company slot
-		country_max_companies_add = 1
+		country_company_throughput_bonus_add = 0.1
+		country_company_construction_efficiency_bonus_add = 0.05
+		country_free_charters_add = 3
 	}
 
 	ai_weight = {
@@ -1435,8 +1434,8 @@ principle_healthcare_focus_1 = {
 	}
 
 	member_modifier = {
-	country_institution_cost_institution_health_system_mult = -0.1
-	country_institution_size_change_speed_institution_health_system_mult = 0.25
+		country_institution_cost_institution_health_system_mult = -0.25
+		country_institution_size_change_speed_institution_health_system_mult = 0.25
 	}
 	
 	ai_weight = {
@@ -1459,7 +1458,7 @@ principle_healthcare_focus_2 = {
 
 	member_modifier = {
 		state_mortality_mult = -0.05
-		country_institution_cost_institution_health_system_mult = -0.2
+		country_institution_cost_institution_health_system_mult = -0.35
 		country_institution_size_change_speed_institution_health_system_mult = 0.35
 	}
 	
@@ -1475,7 +1474,7 @@ principle_healthcare_focus_3 = {
 	member_modifier = {
 		state_mortality_mult = -0.05
 		state_pollution_reduction_health_mult = -0.1
-		country_institution_cost_institution_health_system_mult = -0.25
+		country_institution_cost_institution_health_system_mult = -0.5
 		country_institution_size_change_speed_institution_health_system_mult = 0.5
 	}
 	
@@ -1709,8 +1708,8 @@ principle_foreign_investment_focus_3 = {
 
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
-		state_capitalists_investment_pool_efficiency_mult = 0.1
-		country_company_construction_efficiency_bonus_add = 0.1
+		state_capitalists_investment_pool_efficiency_mult = 0.15
+		country_company_construction_efficiency_bonus_add = 0.05
 		country_capitalists_pol_str_mult = 0.15
 	}
 	
