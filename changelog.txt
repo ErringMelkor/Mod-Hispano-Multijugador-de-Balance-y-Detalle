@@ -42,6 +42,7 @@ Leyes:
 	* Retirada la compañía y monopolio de Tecnocracia; compensado con más poder de los académicos.
 	* +1 Charter a LF (total de 3); -1 charter a Command Economy (total de 0).
 	* Bono de Reinversión de Cooperativas: 100% -> 35%.
+	* Aumentada la mortalidad de las profesiones manuales en trabajos peligrosos para fomentar el uso de las leyes de seguridad laboral.
 
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
@@ -63,6 +64,12 @@ Economía:
 	* Agregado un -1% al interés a Banca Central e Intercambio Internacional.
 	* Reducido el % de inversión de los maquinistas a 5%.
 
+Militar:
+	* Rebalanceada la escalada de experiencia para las unidades militares.
+	* Aumentada la penalización por desembarco: 25% -> 35%.
+	* Aumentado el bono por bienes de prestigio militares, ya que en el mod son solo una fracción del consumo militar: ataque/defensa 15% -> 25%; rec. moral 25% -> 50.
+	* Aumentado el bono por bienes de prestigio navales, para incentivar su uso: 10% -> 15%.
+
 Culturas:
 	* Aumentado el fervor inicial de la mayoría de culturas "minoritarias": Irlandeses; Galeses; Polacos... etc.
 
@@ -71,3 +78,6 @@ Profesiones:
 	Rework a las Cualificaciones; es más punitivo que pops sin alfabetización ni riqueza accedan a trabajos más tecnificados.
 	Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
 	
+Principios:
+	Retirados los focos de Agricultura, Minería y Manufactoría por ahora.
+	Retirado el bono por escala del Principio Colonial; sustituido por uno menor, pero plano; aumentada la velocidad de subida de la institucion y reducido el coste de esta.

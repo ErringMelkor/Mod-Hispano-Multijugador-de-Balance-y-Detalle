@@ -121,7 +121,7 @@ democracy = {
 	category = society
 	
 	modifier = {
-		country_institution_social_security_max_investment_add = 1	
+		country_institution_social_security_max_investment_add = 2
 	}
 	
 	unlocking_technologies = {
@@ -179,6 +179,7 @@ centralization = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 50
 		country_institution_home_affairs_max_investment_add = 1
+		state_incorporation_speed_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -483,6 +484,7 @@ quinine = {
 
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
+		country_institution_health_system_max_investment_add = 1
 	}
 	
 	unlocking_technologies = {
@@ -506,6 +508,15 @@ quinine = {
 				has_strategy = ai_strategy_colonial_expansion
 			}
 			add = 1
+
+			if = {
+				limit = {
+					any_scope_state = {
+						state_is_in_africa = yes
+					}
+				}
+				add = 3
+			}
 		}
 	}
 }
@@ -541,6 +552,7 @@ central_archives = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 100
 		country_institution_home_affairs_max_investment_add = 1
+		state_incorporation_speed_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -893,6 +905,10 @@ feminism = {
 				}
 			}
 		}
+	}
+	
+	modifier = {
+		country_institution_social_security_max_investment_add = 1
 	}
 
 	unlocking_technologies = {
@@ -1255,6 +1271,7 @@ identification_documents = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 150
 		country_institution_home_affairs_max_investment_add = 1
+		state_incorporation_speed_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -1355,6 +1372,8 @@ central_planning = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 250
 		country_government_dividends_efficiency_add = 0.05
+		country_institution_home_affairs_max_investment_add = 1
+		state_incorporation_speed_mult = 0.05
 	}
 	
 	unlocking_technologies = {

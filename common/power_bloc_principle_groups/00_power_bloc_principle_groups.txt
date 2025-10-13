@@ -209,29 +209,30 @@ principle_group_bureaucracy_focus = {
 	}
 }
 
-principle_group_mining_focus = {
+#principle_group_mining_focus = {
+#
+#	levels = {
+#		principle_mining_focus_1
+#		principle_mining_focus_2
+#		principle_mining_focus_2
+#		principle_mining_focus_3
+#	}
+#}
 
-	levels = {
-		principle_mining_focus_1
-		principle_mining_focus_2
-		principle_mining_focus_3
-	}
-}
+#principle_group_agricultural_focus = {
+#
+#	levels = {
+#		principle_agricultural_focus_1
+#		principle_agricultural_focus_2
+#		principle_agricultural_focus_3
+#	}
+#}
 
-principle_group_agricultural_focus = {
-
-	levels = {
-		principle_agricultural_focus_1
-		principle_agricultural_focus_2
-		principle_agricultural_focus_3
-	}
-}
-
-principle_group_manufacturing_focus = {
-
-	levels = {
-		principle_manufacturing_focus_1
-		principle_manufacturing_focus_2
-		principle_manufacturing_focus_3
-	}
-}
+#principle_group_manufacturing_focus = {
+#
+#	levels = {
+#		principle_manufacturing_focus_1
+#		principle_manufacturing_focus_2
+#		principle_manufacturing_focus_3
+#	}
+#}
