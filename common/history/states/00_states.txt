@@ -6243,8 +6243,7 @@ STATES = {
 			owned_provinces = { "x1D7342" "x25CC83" "x5C8F48" "x6040E0" "x7AAA5C" "x80A021" "x9884F2" "xA69127" "xD29762" "xD737E2" "xE87B15" "xFCA6F4" }
 			state_type = incorporated
 		}
-		
-		add_homeland = cu:estonian
+		add_homeland = cu:east_german
 		add_homeland = cu:Baltic
 	}
 	s:STATE_TARTU = {
@@ -6254,7 +6253,7 @@ STATES = {
 			state_type = incorporated
 		}
 		
-		add_homeland = cu:estonian
+		add_homeland = cu:east_german
 		add_homeland = cu:Baltic
 	}
 	s:STATE_RIGA = {
@@ -6366,6 +6365,7 @@ STATES = {
 			state_type = unincorporated
 		}
 		
+		add_homeland = cu:east_german
 		add_homeland = cu:russian
 		add_homeland = cu:tatar
 	}

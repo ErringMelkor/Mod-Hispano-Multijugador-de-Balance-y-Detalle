@@ -25,7 +25,7 @@ Personajes:
 			El orden de la frase denota la importancia.
 			Nacionalidad -> "Narodnost"
 			Sustitución del Francés por el Ruso en la burocracia (malus temporal por el reajuste linguistico?)
-		* Nicolás I: Claro ejemplo de Subjecthood como concepto de identidad nacional.
+		* Nicolás I: Claro ejemplo de Subjecthood como concepto opuesto al de identidad nacional.
 		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
 		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
 		E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
@@ -117,6 +117,8 @@ Comentarios generales:
 	Impuestos generales a las comunidades campesinas, más que una oficina de recolección central.
 	La reforma del fisco hacia un "per-cápita" es un proceso largo que lleva desde 1860 a 1890.
 	Capacidad de obtener impuestos muy limitada en Siberia (?). Facilitaría la migración por el nivel de vida como subproducto.
+	Enfoque en la "excise taxation"; impuestos sobre consumos específicos y monopolizados por el estado (id est, vodka, pero también tabaco, azúcar y sal).
+	En 1859, el "tax farming" estaba dominado por 149 familias; a través de las cuales pasaban la mitad de los ingresos del Estado ruso.
 
 
 	Trigger de que hagan cambio de régimen a república durante el reinado de Nicolás I.
@@ -159,3 +161,4 @@ derogar la ley falloux; condiciones: ser república, la iglesia no está en el g
 españa con colonización? más por balanceo.
 nerf compañías gbr?
 Reajuste de nivel de experiencia.
+"résèrve légale": Ley de tierras francesa.
