@@ -58,10 +58,13 @@ Términos:
 			Sosloviia de profesión o etnicidad: soldados; cosacos; judíos; musulmanes.
 		"raznochintsy" -> como gente "fuera" de los sosloviia.
 		"Meshchantsvo" -> "residente urbano", entendido como de baja categoría; ni artesano ni mercader.
+		"meshchane" -> ídem.
 		"obshchestvo" -> estructuras corporativas sociales de nobles y residentes de ciudadades. ¿Pseudo-gremios?
 		"Tabla de Rangos" -> usado de manera efectiva como un motor de mobilidad social.
 		"vsesoslovnyi" -> "all-state", en el sentido de que abarca todos los estamentos; absolutismo ruso. Modismo para las Grandes Reformas.
 		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
+		"muzhik" -> Campesino, rural.
+
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -103,6 +106,15 @@ Comentarios generales:
 
 	Reformas: autogobierno local (zemstvo); administración urbana; tasación; conscripción universal. Objetivo de *reforzar* y no *abolir* el régimen.
 		Contrarreforma en 1890 para asegurarlo bajo la "gentry" nobiliaria.
+
+	Oposición hacia la Sosloviia a partir de la revolución de 1905.
+	Witte, partidario de profunda reforma de la Sosloviia. 
+	Stolypin, continua su reforma, circunnavegando la Sosloviia en favor de una reforma agraria hacia una agricultura privada y comercializada.
+	1906, reforma de la ciudadanía rusa hacia un modelo universal.
+	1906, motto conservador: "Ortodoxia, Autocracia, Nacionalidad, Soslovnost".
+
+	Mercaderes demoteando a "townsperson" si caen en la pobreza.
+
 	
 	
 
