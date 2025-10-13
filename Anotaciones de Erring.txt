@@ -64,6 +64,7 @@ Términos:
 		"vsesoslovnyi" -> "all-state", en el sentido de que abarca todos los estamentos; absolutismo ruso. Modismo para las Grandes Reformas.
 		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
 		"muzhik" -> Campesino, rural.
+		"volost'" -> aldea.
 
 
 Reworks:
@@ -206,6 +207,8 @@ españa con colonización? más por balanceo.
 nerf compañías gbr?
 Reajuste de nivel de experiencia.
 "résèrve légale": Ley de tierras francesa.
+
+
 
 
 

@@ -10,6 +10,8 @@ ig_trait_the_velvet_book = {
 	}
 }
 
+#The Table of Ranks
+
 ### Francia
 
 ig_trait_lingua_franca = { 

@@ -1,0 +1,17 @@
+### Mod
+
+pm_french_tenancy = { 
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	unlocking_laws = {
+		law_french_tenancy
+	}
+	
+	building_modifiers = {					
+		unscaled = {
+			building_subsistence_output_add = 4.5
+		}
+		level_scaled = {
+			building_employment_peasants_add = -500
+		}
+	}
+}
