@@ -247,6 +247,7 @@ pm_default_building_taj_mahal = {
 		workforce_scaled = {
 			country_prestige_add = 15
 			country_authority_add = 50
+			country_authority_per_subject_add = 5
 			state_bureaucracy_population_base_cost_factor_mult = -0.05
 		}
 	}
