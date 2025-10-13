@@ -47,6 +47,21 @@
 						set_ig_trait = ig_trait:ig_trait_effendi
 						set_ig_trait = ig_trait:ig_trait_reorganization
 			}
+			# Austria
+			else_if = {
+				limit = {
+					owner = {
+						OR = {
+							c:AUS ?= this
+							c:SGF ?= this
+						}
+					}
+				}
+				set_interest_group_name = ig_kleinburger
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_coffee_talks
+				set_ig_trait = ig_trait:ig_trait_biedermanner
+			}
 			else_if = {
 				limit = {
 					OR = {
@@ -62,6 +77,7 @@
 						set_ig_trait = ig_trait:ig_trait_middle_managers
 						set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
+			#China
 			else_if = {
 				limit = {
 					owner = {
@@ -75,6 +91,7 @@
 						set_ig_trait = ig_trait:ig_trait_middle_managers
 						set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
+			#Dai Nam
 			else_if = {
                 limit = {
                     owner = { c:DAI ?= this }

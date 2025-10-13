@@ -153,3 +153,7 @@ Comentarios generales:
 
 instituir la ley falloux para francia; mete escuelas religiosas y da nuevo rasgo a la iglesia.
 derogar la ley falloux; condiciones: ser república, la iglesia no está en el gobierno; no es poderosa. No tener religión de estado. Retira la iglesia y le mete -% al poder porcentual durante 10 años.
+
+
+-35% a desembarco.
+
