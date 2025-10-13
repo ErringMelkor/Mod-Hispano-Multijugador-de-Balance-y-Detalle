@@ -20,6 +20,13 @@ company_sao_paulo_railway = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -53,7 +60,7 @@ company_sao_paulo_railway = {
 	}
 
 	prosperity_modifier = {
-		
+		state_trade_advantage_mult = 0.1
 		state_trade_capacity_mult = 0.25
 	}
 
@@ -107,6 +114,13 @@ company_estaleiro_maua = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -196,6 +210,13 @@ company_pernambuco_textiles = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -275,6 +296,13 @@ company_fundicao_ipanema = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -365,6 +393,13 @@ company_rossi = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -434,6 +469,13 @@ company_estanifera_llallagua = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_andes
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -458,8 +500,8 @@ company_estanifera_llallagua = {
 	prosperity_modifier = {
 		building_lead_mine_throughput_add = 0.15
 		building_gold_mine_throughput_add = 0.05
-		interest_group_ig_industrialists_pol_str_mult = 0.1
-		interest_group_ig_industrialists_approval_add = 3
+		interest_group_ig_industrialists_pol_str_mult = 0.25
+		interest_group_ig_industrialists_approval_add = 5
 	}
 
 	ai_will_do = {
@@ -569,6 +611,13 @@ company_sudamericana_de_vapores = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_la_plata
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -639,6 +688,13 @@ company_electricidad_de_caracas = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_gran_colombia
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -709,6 +765,13 @@ company_cordoba_railway = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_la_plata
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -785,6 +848,13 @@ company_eea = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = region_andes
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {

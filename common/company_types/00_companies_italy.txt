@@ -40,7 +40,7 @@ company_ilva = {
 	}
 
 	possible = {
-		has_technology_researched = arc_welding
+		has_technology_researched = open_hearth_process
 		any_scope_state = {
 			state_region = s:STATE_PIEDMONT
 			is_incorporated = yes
@@ -52,8 +52,8 @@ company_ilva = {
 	}
 
 	prosperity_modifier = {
-		building_railway_throughput_add = 0.15
-		building_artillery_foundries_throughput_add = 0.15
+		building_railway_throughput_add = 0.25
+		building_artillery_foundries_throughput_add = 0.25
 	}
 
 	ai_will_do = {
@@ -215,6 +215,7 @@ company_ricordi = {
 
 	prosperity_modifier = {
 		country_prestige_mult = 0.25
+		country_influence_mult = 0.15
 		state_loyalists_from_political_movements_mult = 0.25
 	}
 

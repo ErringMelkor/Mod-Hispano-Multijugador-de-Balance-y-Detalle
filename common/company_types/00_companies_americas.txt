@@ -22,6 +22,13 @@ company_fundidora_monterrey = {
 
 	potential = {
 		has_interest_marker_in_region = region_mexico
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}		
 	}
 
 	attainable = {
@@ -87,6 +94,13 @@ company_el_aguila = {
 
 	potential = {
 		has_interest_marker_in_region = region_mexico
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -163,6 +177,13 @@ company_csfa = {
 	}
 	potential = {
 		has_interest_marker_in_region = region_andes
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -232,6 +253,13 @@ company_caribbean_petroleum = {
 
 	potential = {
 		has_interest_marker_in_region = region_gran_colombia
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -316,6 +344,13 @@ company_bunge_born = {
 
 	potential = {
 		has_interest_marker_in_region = region_la_plata
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -401,6 +436,13 @@ company_la_rosada = {
 
 	potential = {
 		has_interest_marker_in_region = region_la_plata
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -471,6 +513,13 @@ company_famae = {
 
 	potential = {
 		has_interest_marker_in_region = region_la_plata
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -543,6 +592,13 @@ company_peruvian_amazon = {
 
 	potential = {
 		has_interest_marker_in_region = region_andes
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -614,6 +670,13 @@ company_kablin = {
 
 	potential = {
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:spanish
+		}	
 	}
 
 	attainable = {
@@ -637,7 +700,8 @@ company_kablin = {
 	}
 
 	prosperity_modifier = {
-		building_tooling_workshops_throughput_add = 0.1
+		building_tooling_workshops_throughput_add = 0.15
+		building_furniture_manufacturies_throughput_add = 0.15
 		state_infrastructure_from_population_max_add = 15
 	}
 

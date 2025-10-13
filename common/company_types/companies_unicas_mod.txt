@@ -21,6 +21,9 @@ company_CAFD = {
 	
 	potential = {
 		has_interest_marker_in_region = region_brazil
+		OR = {
+			country_has_primary_culture = cu:brazilian
+		}	
 	}
 	
 	attainable = {
@@ -45,7 +48,7 @@ company_CAFD = {
 	prosperity_modifier = {
 		interest_group_ig_landowners_approval_add = 3
 		interest_group_ig_landowners_pop_attraction_mult =  0.15
-		state_slave_import_mult = 0.15
+		state_slave_import_mult = 0.50
 	}
 	
 
@@ -208,7 +211,7 @@ La_plata_agro_complex = {
 		building_wheat_farm_throughput_add = 0.25
 		building_maize_farm_throughput_add = 0.25
 		building_group_bg_plantations_throughput_add = 0.1
-		state_birth_rate_mult = 0.05
+		state_birth_rate_mult = 0.1
 	}	
 
 	prestige_goods_trigger = {
@@ -334,7 +337,7 @@ company_la_cruz_azul = {
 	prosperity_modifier = {
 
 		building_tooling_workshops_throughput_add = 0.1
-		building_construction_sector_throughput_add = 0.15
+		building_construction_sector_throughput_add = 0.25
 		country_max_weekly_construction_progress_add = 15
 	}	
 	
