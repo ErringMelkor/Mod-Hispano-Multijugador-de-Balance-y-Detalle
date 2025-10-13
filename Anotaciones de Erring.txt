@@ -28,15 +28,19 @@ Personajes:
 		* Nicolás I: Claro ejemplo de Subjecthood como concepto opuesto al de identidad nacional.
 		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
 		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
-		E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
-		Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Alemán del Báltico. PB o Intelligentsia.
+		* E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
+		* Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Alemán del Báltico. PB o Intelligentsia.
+		* Nikolai Pirogov -> Doctor reputado, anti-servidumbre. Intelligentsia.
+		* Aleksei D. Pazukhin -> aristócratra reaccionario.
 
+
+		
 Términos:
 	Rusia:
 		"raznodichnets"
 		"Narodnost" -> "nacionalidad", en un sentido vago y nebuloso.
 		"inorodtsy" -> "foráneos"; súbditos asiáticos del Imperio. Definido por primera vez en 1822 (Reformas Siberianas de Mikhail Speranskii) para finales de siglo denota a los no-rusos y no-ortodoxos.
-		"soslovie" -> grupo aristocrático hereditario vagamente definido por sus privilegios e instituciones.
+		"soslovie" -> grupo aristocrático hereditario vagamente definido por sus privilegios e instituciones (?).
 		"zemstva / zemstvo" -> asambleas locales de la pequeña nobleza.
 		"chiny" -> rango codificado con privilegios, derechos y obligaciones.
 		"sosloviia / sostoianiia" -> categorias sociales aglomeradas (?). Comparable a los "Estamentos" del Ancien Regime.
@@ -47,7 +51,17 @@ Términos:
 		"neravnomernost" -> Desigualdad (fiscal).
 		"krugovaia poruka or krugovoe ruchatel’stvo" -> Responsabilidad Colectiva (fiscal). Los propios campesinos, en comunas, estaban encargados / se esperaba de ellos que presentaran los impuestos debidos al Estado.
 		"opolchenie" -> milicias territoriales (1874-1917 aprox). National Guard especial para rusia?
-
+		"Sosloviia, pl.; soslovie sing." -> Estamentos rusos. Es el tejido sociocultural; muy difícil de atar a una sola ley del vicky. 
+			Las Grandes reformas al "Ancièn Regime" ruso no buscaban deshacerse de él, sino dejar paso a un Estado absoluto y burocratizado que reforzara la perpetuidad del sistema.
+			Sosloviia hereditarios: campesinos estatales; campesinos de la corona; siervos; campesinos bajo el Colegio Económico; pequeños granjeros propietarios; campesinos estatales asignados a labor en las fábricas; siervos posesionarios; campesinos tributarios (iasachnye).
+			Sosloviia no hereditarios, como artesanos gremiales, que podían perder su soslovie si caían en la pobreza.
+			Sosloviia de profesión o etnicidad: soldados; cosacos; judíos; musulmanes.
+		"raznochintsy" -> como gente "fuera" de los sosloviia.
+		"Meshchantsvo" -> "residente urbano", entendido como de baja categoría; ni artesano ni mercader.
+		"obshchestvo" -> estructuras corporativas sociales de nobles y residentes de ciudadades. ¿Pseudo-gremios?
+		"Tabla de Rangos" -> usado de manera efectiva como un motor de mobilidad social.
+		"vsesoslovnyi" -> "all-state", en el sentido de que abarca todos los estamentos; absolutismo ruso. Modismo para las Grandes Reformas.
+		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -83,6 +97,15 @@ Comentarios generales:
 	Ideologias únicas rusas que cambien según desbloqueas techs? Como pasa de Pío -> Corporativista.
 	Los zemstvo pueden ser modificadores provinciales en las provincias de mayoría cultural rusa, que tengas que revocar como parte de la Gran Reforma o mediante decisión, o tolerar su existencia. Mayor poder a la aristocracia.
 	El zemstvo también actua como modelo asambleario local hasta las reformas de 1906.
+	"Digest of Laws" de 1832; primer nuevo código legal. Categoriza a las gentes en dos grupos: aquellos que pagan un impuesto de "poll tax", o "per cápita".
+		Esta categoría de "pagador de impuestos" era menospreciada socialmente hasta las reformas de 1874-1887.
+	
+
+	Reformas: autogobierno local (zemstvo); administración urbana; tasación; conscripción universal. Objetivo de *reforzar* y no *abolir* el régimen.
+		Contrarreforma en 1890 para asegurarlo bajo la "gentry" nobiliaria.
+	
+	
+
 	
 	Los zemstvo son un gobierno local *paralelo* al gobierno. 
 	Con las reformas de Alejandro II se junta con el modelo social de los "raznochintsy" como importante motor de mobilidad social.
@@ -113,6 +136,15 @@ Comentarios generales:
 		Representativos electos en las zemstva; "elected bureaucrats" (?).
 		"The total population of the expanding empire, 80–90 per cent of whom were peasants, increased from around 11 million in 1678 to almost 172 million in 1917"
 		"Between 1857 and 1917, the number of peasants inside the mid-seventeenth-century borders of Russia increased three times."
+		Ley agricultural de 1803 que permite la liberación de aldeas de la servidumbre bajo la categoría de "agricultores libres".
+		Emancipación de los siervos en el protectorado báltico ya desde 1810s.
+		Los campesinos rusos en condición de siervos gozaban de blindaje legal, más teórico que práctico, que les otorgaba un sustento en la red socioeconómica de su ambiente.
+		Por ejemplo, estaba prohibido manumitir a siervos para no pagar impuestos por ellos, o si tenían enfermedad o avanzada edad y no podían trabajar.
+		Así mismo, debían cuidar de ellos. Carácter claramente paternalista.
+		Libertad de la servidumbre con la Emancipación de los Siervos no significaba libertad individual, si no una inscripción en los Estamentos de la sociedad rusa.
+
+
+	
 		
 	Impuestos generales a las comunidades campesinas, más que una oficina de recolección central.
 	La reforma del fisco hacia un "per-cápita" es un proceso largo que lleva desde 1860 a 1890.
@@ -162,3 +194,16 @@ españa con colonización? más por balanceo.
 nerf compañías gbr?
 Reajuste de nivel de experiencia.
 "résèrve légale": Ley de tierras francesa.
+
+
+
+
+
+
+
+Obras Consultadas:
+
+"Freed Serfs without Free People: Manumision in Imperial Russia" - Allison K. Smith
+
+
+
