@@ -485,11 +485,11 @@ GLOBAL = {
         }
         create_bidirectional_truce = {
 			country = c:CIR
-			months = 120
+			months = 60
 		}
 		create_bidirectional_truce = {
 			country = c:CHC
-			months = 120
+			months = 60
 		}
 		if = {
 			limit = {

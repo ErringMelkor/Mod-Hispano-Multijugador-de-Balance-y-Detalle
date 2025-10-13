@@ -209,6 +209,13 @@ Reajuste de nivel de experiencia.
 "résèrve légale": Ley de tierras francesa.
 
 
+Sistemas:
+	Ciudadanía
+	Votos (Duma)
+	Gobierno Local
+	Guardia Nacional
+	Servidumbre
+
 
 
 

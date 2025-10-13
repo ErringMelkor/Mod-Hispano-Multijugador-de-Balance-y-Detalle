@@ -1,4 +1,6 @@
-### Mod
+### ---- Exclusivas del Mod ---- ###
+
+### Francia
 
 pm_french_tenancy = { 
 	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
@@ -12,6 +14,32 @@ pm_french_tenancy = {
 		}
 		level_scaled = {
 			building_employment_peasants_add = -500
+		}
+	}
+}
+
+### Rusia
+
+pm_bondage_system = {
+	texture = "gfx/interface/icons/production_method_icons/corvee_labor.dds"
+	unlocking_laws = {
+		#russianlawvariant
+	}
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		unscaled = {
+			building_subsistence_output_add = 3
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 1500
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
 		}
 	}
 }
