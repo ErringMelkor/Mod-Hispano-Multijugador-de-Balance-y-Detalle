@@ -29,7 +29,8 @@ Personajes:
 		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
 		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
 		* E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
-		* Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Alemán del Báltico. PB o Intelligentsia.
+		* Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Limitó el trabajo infantil. Alemán del Báltico. PB o Intelligentsia.
+			Los trabajadores deberían recibir una parte de los dividendos de la empresa. # curioso
 		* Nikolai Pirogov -> Doctor reputado, anti-servidumbre. Intelligentsia.
 		* Aleksei D. Pazukhin -> aristócratra reaccionario.
 
@@ -194,6 +195,8 @@ Comentarios generales:
 
 	Para 1860-70, la reforma fiscal asume que es imposible tasar verazmente el rural y la periferia imperial. La reforma fiscal, pues, se centra en las áreas urbanas del Imperio.
 		Circunnavegan el blindaje fiscal de la nobleza pasando a tasar las propiedades en vez de la persona en sí misma.
+
+	1880s: politica proteccionista de la economía y el fisco, monopolios estatales.
 
 
 -----
