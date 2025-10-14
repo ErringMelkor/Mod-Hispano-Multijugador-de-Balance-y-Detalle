@@ -31,8 +31,10 @@ Personajes:
 		* E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
 		* Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Limitó el trabajo infantil. Alemán del Báltico. PB o Intelligentsia.
 			Los trabajadores deberían recibir una parte de los dividendos de la empresa. # curioso
-		* Nikolai Pirogov -> Doctor reputado, anti-servidumbre. Intelligentsia.
+		* Nikolai Pirogov -> Doctor reputado, anti-servidumbre, reformista de la educación. Intelligentsia.
 		* Aleksei D. Pazukhin -> aristócratra reaccionario.
+		* Konstantin Ushinskii -> participa en la reforma educativa del ejército en los 60s.
+		* Maria Vasilievna Trubnikova; Nadezhda Vasilievna Stasova; Anna Filosofova. Activistas y reformistas feministas de la época de Alejandro II.
 
 
 		
@@ -66,7 +68,9 @@ Términos:
 		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
 		"muzhik" -> Campesino, rural.
 		"volost'" -> aldea.
-		"glasnost" -> "discurso interno"; entendido como "autocrítica", o periodo donde se permite discutir cambios dentro del régimen, delimitado por el monarca. [Ley de libertadad de prensa para Rusia?]
+		"glasnost" -> "discurso interno"; entendido como "autocrítica", o periodo donde se permite discutir cambios dentro del régimen, delimitado por el monarca. [Ley de libertadad de prensa para Rusia? +1/2 hueco(s) de agitador]
+		"Gymnazii" -> escuelas preparatorias que ofrecen educación civil básica. [Muy correlacionado, aunque no sé si estrictamente vinculado, con la educación militar profesional]
+		"Voennye uchilischna" -> Academias militares, 4 años de estudio y entrenamiento.
 
 
 Reworks:
@@ -280,11 +284,14 @@ Konstantin Romanov: caida en desgracia con la rebelión en Polonia en 1861.
 
 Shuvalov: aristócrata conservador;  [útil como agitador].
 
+Facción Shuvalov: Reaccionaria, dirigida por el aristócrata Shuvalov. Poderosa entre 1866-1874.
+
+Nikolai: Levas Campesinas -> Ejército Profesional; Alejandro II: Ejército Profesional -> Conscripción en Masa.
 
 
-
-
-
+["Legado de las Guerras Napoleónicas" - Bono temporal al ejército? ]
+[Severo atraso en tecnología militar naval]
+[Carencia de screw frigates y equivalente hasta mediados y finales de 1850]
 
 Obras Consultadas:
 
