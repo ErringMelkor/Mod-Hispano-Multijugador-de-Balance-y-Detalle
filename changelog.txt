@@ -5,6 +5,9 @@
 
 Rusia:
 	* Reajuste al Rasgo de sus Landowners.
+	* Reducido el tiempo de la tregua con Circasia y el Imanato a 5 años, para que la Guerra Ruso-Turca tenga lugar entre la 1ra y 2da sesión.
+	* Eliminado el requisito de que el grupo con el líder adecuado sea Poderoso (20% clout) para triggerear la Guerra Ruso-Turca. 
+	* Reducido el tiempo de la Entrada de Diario "Ortodoxia, Autocracia, Nacionalidad" de 30 a 10 años, para que corresponda mejor con el reinado de Nicolás I.
 
 Francia:
 	* Nueva ley de Arrendatarios.
@@ -66,6 +69,8 @@ Economía:
 	* Agregado el hueco de la compañía y monopolio al final de la rama.
 	* Agregado un -1% al interés a Banca Central e Intercambio Internacional.
 	* Reducido el % de inversión de los maquinistas a 5%.
+
+	* Incremento de radicales por expropiar: 300% -> 500%.
 
 Militar:
 	* Rebalanceada la escalada de experiencia para las unidades militares.

@@ -66,6 +66,7 @@ Términos:
 		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
 		"muzhik" -> Campesino, rural.
 		"volost'" -> aldea.
+		"glasnost" -> "discurso interno"; entendido como "autocrítica", o periodo donde se permite discutir cambios dentro del régimen, delimitado por el monarca. [Ley de libertadad de prensa para Rusia?]
 
 
 Reworks:
@@ -219,6 +220,65 @@ Sistemas:
 	Guardia Nacional
 	Servidumbre
 
+
+
+	
+----
+
+Emancipación de 1861.
+Establecimiento del zemstvo en 1864.
+Reforma de las cortes judiciales en 1864.
+Reforma del gobierno urbano en 1870.
+Alejandro II, sobre la emancipación: "It is much better that this comes from above than from below."
+"Petrashevsky Circle"
+
+En 1856, Miliutin propone en un memorando la emancipación de los siervos en Karlovka, en Poltava; [siervos de la corona?] Pertenecían a la Gran Duquesa Elena Pavlovna. 
+	Rechazado por Alejandro II. Primer experimento o antesala a la reforma por parte  de Miliutin.
+
+Prorreformistas: Alexander Koshelev(eslavófilo); Yuri Fyodorovich Samarin (eslavófilo / "etnonacionalista"); Yakov Rostovtsev (militar pro-emancipación); Alexei Strolman (ingeniero de minería; industrialistas).
+Alejandro II se posiciona frente al Comité de la Emancipación e impone por decreto.
+La Comisión Editorial de 1859-1860, clave en las reformas, con Rostovtsev presidiéndola como requisito de Alejandro II. 
+	Formada por una mayoría liberal, frente a la conservadora del anterior Comité de la Emancipación.
+	Integrada por Yuri Samarin; Piotr Petróvich Semiónov-Tian-Shanski; Nikolai Khristianovich Bunge; Prince Cherkasskii; Nikolay Alexeyevich Milyutin.
+	Irregular  y sin precedente. Disuelta por esto mismo en octubre de 1860.
+	Base para los Estatutos de 1861.
+	El objetivo de la comisión era la eliminación de los siervos y su conversión en pequeños propietarios agricultores.
+	Las pertenencias y agricultura señorial seguían formando parte del sistema, no así sus derechos teóricos sobre el campesinado.
+	Ejemplos de Francia y Prusia en sus procesos transformativos históricos con la servidumbre.
+	A largo plazo, buscaba evitar [el caos social, no tengo manera exacta de describirlo; evitar la inestabilidad, ejemplificada en los pensadores utópicos europeos de la época].
+
+[Leer sobre Pavel Kisleyov. Importante reformista y precursor, ministro de Nicolás I]
+	
+La oposición a propuesta de la Comisión no consiguió cancelar la Emancipación; Dolgorukov, uno de los principales opositores, se había rendido para 1860.
+	Sin embargo, lograron introducir significativo coste para el campesino en la redención.
+	La alteración de los derechos manoriales da paso a una reforma del sistema administrativo y judicial a nivel local, el Zemstvo.
+
+Los Códigos Judiciales de 1864 (el Zemstvo) son la más radical de las propuestas que lograron pasarse.
+	Autogobierno, jueces electos y con tenencia. Jurado de los Soslovie; de facto mayoría campesina.
+	Dan pie a una autorregulación burguesa que hace frente a los peores excesos de la nobleza y la autocracia.
+
+Otras reformas [no tema focal de la monografía]: censura, ejército, finanzas, educación.
+
+El Comité Secreto se transforma en el Comité Principal, "abierto".
+Alejandro II crea el "Comité de Ministros", nombrados a dedo y reunidos solo cuando él lo requiere.
+	Este comité se reúne en total privacidad y supervisa que el plan de la Comisión Editorial se lleve a cabo de manera superficial.
+	Autodisolución en 1881, tras enterrar la "Constitución" de Loris-Melikov.
+Autócrata indoblegable hasta marzo de 1881, cuando acepta una reunión para el borrador del Proyecto de Constitución de Boris-Melikov.
+Su asesinato el mismo día de la reunión pone el fin a esta época de reformas.
+
+A su muerte, manifiesto de la "irremplazabilidad de la autocracia", seguido del "Estatuto por la Seguridad y Tranquilidad" del 14 de agosto de 1881.
+	Prohibía la disidencia de manera estricta, y se mantendría vigente hasta la Revolución de Febrero. De manera efectiva la primera "constitución" rusa.
+
+Fatiga desde la monarquía hacia el Glasnost y la reforma, incluso desde el propio Alejandro II.
+
+La reforma campesina de 1861, la "Empancipación de los Siervos" no resolvería la cuestión de la tierra.
+
+El estado es el gran ganador de la reforma agraria, capaz de incrementar su control económico y social por la reforma. 
+	Ex: al forzar la emancipación, los campesinos pasan a participar forzosamente dentro de la economía monetaria.
+
+Konstantin Romanov: caida en desgracia con la rebelión en Polonia en 1861.
+
+Shuvalov: aristócrata conservador;  [útil como agitador].
 
 
 

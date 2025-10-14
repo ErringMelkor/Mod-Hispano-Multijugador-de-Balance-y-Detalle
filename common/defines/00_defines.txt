@@ -357,7 +357,7 @@ NEconomy = {
 	NATIONALIZE_BUILDING_PRIVATELY_OWNED_RADICALIZATION_SCORE_DIVISOR = 1 # Number of radicalized ownership-type pops is multiplied by their building's investment, then divided by this
 	NATIONALIZE_BUILDING_OTHER_COUNTRY_OWNED_RELATIONS_IMPACT = -2 		# Nationalizing a building that is owned by the government of another country results in this relations impact per building level nationalized
 	NATIONALIZE_BUILDING_OTHER_COUNTRY_POP_OWNED_RELATIONS_IMPACT = -1	# Nationalizing a building that is owned by the pops of another country results in this relations impact per building level nationalized		
-	NATIONALIZE_BUILDING_NO_COMPENSATION_IMPACT_MULT = 3.0				# Multiplier to number of radicals & relations hits from nationalization if done without monetary compensation
+	NATIONALIZE_BUILDING_NO_COMPENSATION_IMPACT_MULT = 5.0				# Multiplier to number of radicals & relations hits from nationalization if done without monetary compensation
 
 	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_PRIVATE_LEVELS = 1.0							# A (non Trade Center) building must be missing at least this many privately held levels of employment to start considering auto-downsizing (both this and the below requirement are applied)
 	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_FRACTION = 0.1						# A (non Trade Center) building must be missing at least this many levels of employment (in relative numbers) to start considering auto-downsizing (both this and the above requirement are applied)
