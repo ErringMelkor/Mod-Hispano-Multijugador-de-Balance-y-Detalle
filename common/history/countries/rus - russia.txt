@@ -19,7 +19,7 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_women_own_property
-		activate_law = law_type:law_closed_borders # solo unos cientos de personas salen del país en la primera mitad del juego.
+		activate_law = law_type:law_closed_borders
 		
 		add_taxed_goods = g:liquor
 
