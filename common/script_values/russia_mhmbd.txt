@@ -1,0 +1,94 @@
+nicholas_i_agenda_value = {
+	value = 0
+	if = {
+		limit = {
+			leading_producer_of = g:liquor
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:grain
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
+				country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
+				country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_KARS
+				country_or_subject_owns_entire_state_region = STATE_TRABZON
+				country_or_subject_owns_entire_state_region = STATE_ERZURUM
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_SOUTHERN_MANCHURIA
+				country_or_subject_owns_entire_state_region = STATE_NORTHERN_MANCHURIA
+				country_or_subject_owns_entire_state_region = STATE_AMUR
+				country_or_subject_owns_entire_state_region = STATE_OUTER_MANCHURIA
+			}
+		}
+		add = 1
+	}
+	
+	if = {
+		limit = {
+			techs_researched >= 58
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			NOT = {
+				any_political_movement = {
+					OR = {
+						movement_is_liberal = yes
+						movement_is_socialist = yes
+					}
+					political_movement_support >= 0.05
+				}
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			AND = {
+				has_law_or_variant = law_type:law_autocracy
+				has_law_or_variant = law_type:law_secret_police
+				has_law_or_variant = law_type:law_censorship
+			}	
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			institution:institution_police.investment >= 2
+			institution:institution_home_affairs.investment >= 3
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			any_country = {
+				army_power_projection > root.army_power_projection
+				count > 10
+			}
+		}
+		
+		add = 1
+	}
+}

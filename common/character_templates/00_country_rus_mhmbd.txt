@@ -33,6 +33,4 @@ RUS_Pavel_Kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de N
 		meticulous
 		persistent
 	}
-
-
 }

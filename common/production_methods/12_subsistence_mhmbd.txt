@@ -7,6 +7,8 @@ pm_french_tenancy = {
 	unlocking_laws = {
 		law_french_tenancy
 	}
+
+	is_hidden_when_unavailable = yes
 	
 	building_modifiers = {					
 		unscaled = {
@@ -25,8 +27,12 @@ pm_unchecked_bondage = {
 	unlocking_laws = {
 		law_ispravniks
 	}
+
+	is_hidden_when_unavailable = yes
+
 	building_modifiers = {
 		workforce_scaled = {
+			goods_output_services_add = 0.25 # 15
 		}
 
 		unscaled = {

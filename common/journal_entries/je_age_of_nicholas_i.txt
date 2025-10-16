@@ -20,6 +20,13 @@ je_age_of_nicholas_i = {
 		set_variable = { name = boyars_out_var value = 0 }
 	}
 
+	 scope:je_age_of_nicholas_i = {
+        add_modifier = {
+            name = modifier_nicholas_i_rule
+            multiplier = scope:journal_entry.var:nicholas_i_agenda_value
+        }
+    }
+
 	complete = {
 		trigger_if = {
 			limit = {
@@ -31,42 +38,52 @@ je_age_of_nicholas_i = {
 		}
 	}
 
+	on_complete = {
+	}
 
+	on_monthly_pulse = {
+		random_events = {
+		}
+		effect = {
+			if = {
+				limit = {
+					ig:ig_landowners ?= {
+						is_in_government = no
+					}
+				}
+				change_variable = { name = boyars_out_var add = 1 }
+			}
+			else = {
+				set_variable = { name = boyars_out_var value = 0 }
+			}
+		}
+	}
 
-
-
-
-
-
-
-
-
-
+	fail = {
+		OR = {
+			any_civil_war = {
+				is_civil_war_type = revolution
+				civil_war_progress >= 0.75
+			}
+			custom_tooltip = {
+				text = landowners_out_of_government_for_six_months_or_more_tt
+				exists = var:boyars_out_var
+				var:boyars_out_var > 6
+				ig:ig_landowners ?= {
+					is_in_government = no
+				}
+			}
+		}
+	}
 
 	invalid = {
 		NOT = {
 			has_law_or_variant = law_type:law_monarchy
 		}
 	}
+
+	weight = 200
+	should_be_pinned_by_default = yes
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}

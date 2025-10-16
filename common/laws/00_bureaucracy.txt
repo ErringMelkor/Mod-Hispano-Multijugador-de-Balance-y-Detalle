@@ -221,6 +221,7 @@ law_ispravniks = {
 
 	modifier = {
 		state_tax_waste_add = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		country_aristocrats_pol_str_mult = 0.75
 	}
 

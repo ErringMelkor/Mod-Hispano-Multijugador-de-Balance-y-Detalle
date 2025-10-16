@@ -225,11 +225,12 @@ Reajuste de nivel de experiencia.
 
 
 Sistemas:
-	Ciudadanía
+	Ciudadanía (Sosloviia)
 	Votos (Duma)
-	Gobierno Local
-	Guardia Nacional
-	Servidumbre
+	Gobierno Local (Zemstvo)
+	Guardia Nacional 
+	Servidumbre 
+	Escuelas militares (gimnasios)
 
 
 

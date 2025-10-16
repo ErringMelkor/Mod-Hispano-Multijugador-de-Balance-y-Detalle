@@ -52,6 +52,7 @@ pmg_ownership_building_manor_house = {
 
 	production_methods = {
 		pm_manor_house_privately_owned
+		pm_manor_house_extensive_networks 
 		pm_manor_house_principle_divine_economics_2
 	}
 }

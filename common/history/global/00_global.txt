@@ -483,6 +483,19 @@ GLOBAL = {
                 value = 0.20
             }
         }
+		add_radicals = {
+			value = 0.05
+			culture = cu:russian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:ukrainian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:byelorussian
+		}
+
         create_bidirectional_truce = {
 			country = c:CIR
 			months = 120
