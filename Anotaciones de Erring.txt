@@ -35,6 +35,8 @@ Personajes:
 		* Aleksei D. Pazukhin -> aristócratra reaccionario.
 		* Konstantin Ushinskii -> participa en la reforma educativa del ejército en los 60s.
 		* Maria Vasilievna Trubnikova; Nadezhda Vasilievna Stasova; Anna Filosofova. Activistas y reformistas feministas de la época de Alejandro II.
+		* Gogol.
+		* Nikolay Gavrilovich Chernyshevsky; Alexander Mikhailov. Revolucionarios de Narodnaya Volya. 
 
 
 		
@@ -62,7 +64,8 @@ Términos:
 		"raznochintsy" -> como gente "fuera" de los sosloviia.
 		"Meshchantsvo" -> "residente urbano", entendido como de baja categoría; ni artesano ni mercader.
 		"meshchane" -> ídem.
-		"obshchestvo" -> estructuras corporativas sociales de nobles y residentes de ciudadades. ¿Pseudo-gremios?
+		"obshchestvo" -> estructuras corporativas sociales de nobles y residentes de ciudadades (?). ¿Pseudo-gremios?
+			"ciudadanos" (?)
 		"Tabla de Rangos" -> usado de manera efectiva como un motor de mobilidad social.
 		"vsesoslovnyi" -> "all-state", en el sentido de que abarca todos los estamentos; absolutismo ruso. Modismo para las Grandes Reformas.
 		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
@@ -71,7 +74,11 @@ Términos:
 		"glasnost" -> "discurso interno"; entendido como "autocrítica", o periodo donde se permite discutir cambios dentro del régimen, delimitado por el monarca. [Ley de libertadad de prensa para Rusia? +1/2 hueco(s) de agitador]
 		"Gymnazii" -> escuelas preparatorias que ofrecen educación civil básica. [Muy correlacionado, aunque no sé si estrictamente vinculado, con la educación militar profesional]
 		"Voennye uchilischna" -> Academias militares, 4 años de estudio y entrenamiento.
-
+		"narod" -> "el pueblo"; la masa popular.
+		"Narodnik / Narodniki " -> "populista"; movimiento heterogéneo de socialistas utópicos / agrarios pre-marxistas.
+		"Narodnaya Volya" -> "La voluntad del Pueblo / la Gente " organización política secreta de ideologia narodnaya / agraria socialista. Más famoso acto es el asesinato de Alejandro II.
+		"Zemal i Volya" -> "Tierra y Libertad"; precursora de Narodnaya Volya.
+		"obshchina" -> "comunidad campesina" (?)
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -270,6 +277,8 @@ Alejandro II crea el "Comité de Ministros", nombrados a dedo y reunidos solo cu
 Autócrata indoblegable hasta marzo de 1881, cuando acepta una reunión para el borrador del Proyecto de Constitución de Boris-Melikov.
 Su asesinato el mismo día de la reunión pone el fin a esta época de reformas.
 
+Duma: Landed / Wealth Voting (de manera efectiva).
+
 A su muerte, manifiesto de la "irremplazabilidad de la autocracia", seguido del "Estatuto por la Seguridad y Tranquilidad" del 14 de agosto de 1881.
 	Prohibía la disidencia de manera estricta, y se mantendría vigente hasta la Revolución de Febrero. De manera efectiva la primera "constitución" rusa.
 
@@ -292,6 +301,8 @@ Nikolai: Levas Campesinas -> Ejército Profesional; Alejandro II: Ejército Prof
 ["Legado de las Guerras Napoleónicas" - Bono temporal al ejército? ]
 [Severo atraso en tecnología militar naval]
 [Carencia de screw frigates y equivalente hasta mediados y finales de 1850]
+[Rebelión en polonia debería desacreditar a Konstantin]
+
 
 Obras Consultadas:
 

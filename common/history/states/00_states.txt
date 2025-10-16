@@ -5757,7 +5757,6 @@ STATES = {
 		add_homeland = cu:siberian
 		add_homeland = cu:ainu
 
-		add_claim = c:JAP
 		add_claim = c:RUS
 	}	
 	s:STATE_HOKKAIDO = {

@@ -84,6 +84,15 @@
 		}
 		if = {
 			limit = {
+				is_pop_type = soldiers
+			}
+			multiply = {
+				value = 1.25
+				desc = "QUALIFICATIONS_FAVORED_TYPE"
+			}
+		}
+		if = {
+			limit = {
 				is_peasant_under_serfdom = yes
 			}
 			multiply = {

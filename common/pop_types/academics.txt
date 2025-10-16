@@ -60,7 +60,16 @@
 					is_pop_type = clerks
 				}
 				multiply = {
-					value = 2.5
+					value = 1.5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+				}
+				multiply = {
+					value = 2
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}

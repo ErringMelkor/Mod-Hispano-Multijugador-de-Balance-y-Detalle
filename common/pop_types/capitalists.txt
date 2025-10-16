@@ -51,7 +51,7 @@
 					is_pop_type = shopkeepers
 				}
 				multiply = {
-					value = 3.5
+					value = 2.5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
@@ -60,7 +60,7 @@
 					is_pop_type = engineers
 				}
 				multiply = {
-					value = 5
+					value = 3.5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
