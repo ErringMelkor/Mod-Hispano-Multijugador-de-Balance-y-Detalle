@@ -18,6 +18,7 @@ pmg_serfdom_building_subsistence_farms = {
 	production_methods = {
 		pm_serfdom_no
 		pm_french_tenancy
+		pm_unchecked_bondage
 		pm_serfdom
 		pm_corvee_labor
 		pm_homesteading_building_subsistence

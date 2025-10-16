@@ -1,0 +1,72 @@
+je_age_of_nicholas_i = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+	is_shown_in_lobby = {
+		c:RUS ?= this
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_template = RUS_nicholas_i
+			}
+			save_scope_as = nicholas_i_scope
+		}
+		heir ?= {
+			save_scope_as = alexander_ii_heir_scope
+		}
+		set_variable = { name = boyars_out_var value = 0 }
+	}
+
+	complete = {
+		trigger_if = {
+			limit = {
+				exists = scope:nicholas_i_scope
+			}
+			scope:nicholas_i_scope ?= {
+				is_ruler = no
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	invalid = {
+		NOT = {
+			has_law_or_variant = law_type:law_monarchy
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

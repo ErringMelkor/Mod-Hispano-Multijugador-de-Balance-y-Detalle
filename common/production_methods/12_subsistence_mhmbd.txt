@@ -20,26 +20,28 @@ pm_french_tenancy = {
 
 ### Rusia
 
-pm_bondage_system = {
+pm_unchecked_bondage = {
 	texture = "gfx/interface/icons/production_method_icons/corvee_labor.dds"
 	unlocking_laws = {
-		#russianlawvariant
+		law_ispravniks
 	}
 	building_modifiers = {
 		workforce_scaled = {
 		}
 
 		unscaled = {
-			building_subsistence_output_add = 3
+			building_subsistence_output_add = 2.5
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 1500
+			building_employment_peasants_add = 1000
 		}
 	}
 
 	state_modifiers = {
 		workforce_scaled = {
+		}
+		unscaled = {
 		}
 	}
 }

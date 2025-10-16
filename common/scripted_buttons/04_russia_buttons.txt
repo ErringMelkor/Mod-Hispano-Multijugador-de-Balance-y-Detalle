@@ -575,8 +575,10 @@ russia_escalate_caucasian_war = {
 				}
 			}
 		}
-		has_technology_researched = rifling
-		has_technology_researched = logistics
+		OR = {
+			has_technology_researched = rifling
+			has_technology_researched = logistics
+		}
 	}
 
 	effect = {

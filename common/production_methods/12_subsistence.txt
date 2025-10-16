@@ -109,6 +109,9 @@ pm_serfdom = {
 	unlocking_laws = {
 		law_serfdom
 	}
+	disallowing_laws = {
+		law_ispravniks
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_grain_add = 0.35 # 10

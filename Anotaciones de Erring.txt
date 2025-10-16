@@ -258,7 +258,7 @@ La Comisión Editorial de 1859-1860, clave en las reformas, con Rostovtsev presi
 	Ejemplos de Francia y Prusia en sus procesos transformativos históricos con la servidumbre.
 	A largo plazo, buscaba evitar [el caos social, no tengo manera exacta de describirlo; evitar la inestabilidad, ejemplificada en los pensadores utópicos europeos de la época].
 
-[Leer sobre Pavel Kisleyov. Importante reformista y precursor, ministro de Nicolás I]
+[Leer sobre Pavel Kiselyov. Importante reformista y precursor, ministro de Nicolás I]
 	
 La oposición a propuesta de la Comisión no consiguió cancelar la Emancipación; Dolgorukov, uno de los principales opositores, se había rendido para 1860.
 	Sin embargo, lograron introducir significativo coste para el campesino en la redención.
@@ -297,12 +297,45 @@ Facción Shuvalov: Reaccionaria, dirigida por el aristócrata Shuvalov. Poderosa
 
 Nikolai: Levas Campesinas -> Ejército Profesional; Alejandro II: Ejército Profesional -> Conscripción en Masa.
 
+Cossack Stanitsa: Privilegio autónomo cosaco; owned farmland, no taxation, conscription, training rate; migration attraction.
+	Regiones: Don; Bug; Kuban; Terek; Astrakhan / Lower Volga; Ural (river) / Yaik; Orenburg; Semireche; Baikal; Amur; Ussuri (Primorye).
+
+Pomorye
+
+Yasak: Tartars; Chuvash; Komis; Mordvians.
+
+Regiones de "siervos" estatales: urales y ucrania; yasak del Medio Volga y los Urales.
+	Los siervos estatales gozan de mayor libertad y protecciones; esencialmente campesinos libres bajo otro nombre.
+
+Decisión: Revocar la soslovie.
 
 ["Legado de las Guerras Napoleónicas" - Bono temporal al ejército? ]
 [Severo atraso en tecnología militar naval]
 [Carencia de screw frigates y equivalente hasta mediados y finales de 1850]
 [Rebelión en polonia debería desacreditar a Konstantin]
 
+
+Los zemstvos de Alejandro II no podían publicar sus documentos; la colaboración para el desarrollo interprovincial estaba prohibida.
+
+Bad boyars: evasion fiscal.
+
+40% poblacion rural, siervos privados; 40% poblacion rural, siervos estatales. [y el otro 20%?]
+
+
+Rebeliones campesinas frecuentes: 400 entre 1830-1849; 137 en 1849-55.
+	Reformas de Kiselyov. Abolición parcial de la servidumbre (1845-1846). 
+	Para Kiselyov un cambio administrativo tendría que ocurrir primero antes que uno sobre el control económico.
+	Centrado en mejorar la condición de los campesinos y no en mejorar las finanzas del estado (la comisión de Kiselyov estaba divorciada del ministerio de finanzas).
+	Éxito en materia práctica, si bien no en el papel, para garantizar los derechos ya existentes de los campesinos arrendatarios del estado.
+	Extorsiones de los "ispravniks", que funneleaban dinero de los campesinos para ellos.
+	Cancelación de impuestos comunales del campesinado, sustituido por otros impuestos y labores (como escuelas y reserva agraria para crisis).
+	Aunque el fisco era secundario, acabó aumentando.
+	Tras la reforma, un siervo privado pagaba 4 veces más que un campesino arrendatario.
+
+[Ispravniks] Hereditary bureaucrats.
+[Zemstvos] Elected bureaucrats.
+
+"Kiselyov Schools" [probablemente mejor representadas como un modificador a través de un scripted button].
 
 Obras Consultadas:
 
