@@ -10,6 +10,11 @@ Rusia:
 	* Reducido el tiempo de la Entrada de Diario "Ortodoxia, Autocracia, Nacionalidad" de 30 a 10 años, para que corresponda mejor con el reinado de Nicolás I.
 	* Numerosas leyes nuevas iniciales y posibles.
 	* Mejorada la compañía de Vodka.
+	
+	* Agregados modificadores provinciales de "Yasak" y "Stanitsa Cosaco". Por ahora son permanentes; se planea hacer que sean retirables o modificables con una decisión.
+	* Agregada entrada de diario para el monarca Nicolás I.
+	* Agregados los siguientes personajes, accesibles mediante evento, entradas de diario o posibilidad aleatoria:
+		Entrada de Diario: Pavel Kiselyov;
 
 
 Francia:
