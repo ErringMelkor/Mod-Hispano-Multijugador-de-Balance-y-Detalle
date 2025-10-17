@@ -86,7 +86,7 @@ pm_oil_trawlers = {
 	}
 	
 	unlocking_technologies = {
-		gantry_cranes
+		concrete_dockyards
 	}
 	building_modifiers = {
 		workforce_scaled = {

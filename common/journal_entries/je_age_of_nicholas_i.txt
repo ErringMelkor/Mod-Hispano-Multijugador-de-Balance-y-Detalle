@@ -18,6 +18,7 @@ je_age_of_nicholas_i = {
 			save_scope_as = alexander_ii_heir_scope
 		}
 		set_variable = { name = boyars_out_var value = 0 }
+
 	}
 
 	complete = {

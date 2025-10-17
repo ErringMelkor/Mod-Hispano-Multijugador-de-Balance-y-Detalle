@@ -954,7 +954,7 @@ TRS = {
 
 	tier = principality 
 	
-	cultures = { szekely hungarian romanian south_german }
+	cultures = { szekely hungarian romanian }
 	capital = STATE_SOUTHERN_TRANSYLVANIA
 }
 

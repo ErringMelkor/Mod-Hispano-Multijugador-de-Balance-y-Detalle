@@ -18,6 +18,7 @@ Francia:
 
 Gran Bretaña:
 	* La Entrada de Diario irlandesa es menos dura ahora que están las hambrunas de los 40.
+	* Agregado modificador "La Mancomunidad Británica"; menos autoridad por súbdito.
 
 España:
 	* Modificador provincial para el minifundismo gallego.

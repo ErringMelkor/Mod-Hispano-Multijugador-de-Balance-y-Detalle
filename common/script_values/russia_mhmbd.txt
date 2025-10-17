@@ -1,9 +1,8 @@
 nicholas_i_agenda_value = {
 	if = {
 		limit = {
-			
+			c:RUS ?= this
 		}
-		
 	}
 	value = 0
 	if = {

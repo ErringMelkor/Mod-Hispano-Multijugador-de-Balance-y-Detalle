@@ -687,21 +687,17 @@ law_sosloviia = {
 		}
 	}
 
-	unlocking_laws = {
-		law_monarchy
-		law_theocracy
-		law_chiefdom
-	}
-
 	modifier = {
 		country_authority_add = 100
 		state_assimilation_mult = -0.75
 		state_pop_qualifications_mult = -0.1
 		country_support_separatism_resistance_mult = -0.5
 		country_support_separatism_strength_mult = -0.5
+		country_ashkenazi_cultural_acceptance_add = 60
+		country_east_german_cultural_acceptance_add = 40
 
 		#If primary culture, only apply this value
-		country_acceptance_primary_culture_add = 80
+		country_acceptance_primary_culture_add = 40
 		country_acceptance_homeland_add = 40
 		country_acceptance_not_homeland_add = 0
 

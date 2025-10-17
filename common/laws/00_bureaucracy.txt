@@ -121,6 +121,7 @@ law_appointed_bureaucrats = {
 
 	modifier = {
 		country_bureaucrats_pol_str_mult = 0.25
+		state_bureaucracy_population_base_cost_factor_mult = 0.25
 		state_tax_capacity_mult = 0.25
 	}
 
