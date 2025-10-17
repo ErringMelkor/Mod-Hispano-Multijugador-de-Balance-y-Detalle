@@ -1,5 +1,4 @@
 modifier_nicholas_i_rule = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_legitimacy_headofstate_add = 2
-	country_law_enactment_success_add = 0.02
 }

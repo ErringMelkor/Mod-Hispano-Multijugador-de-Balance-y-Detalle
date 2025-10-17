@@ -1,4 +1,10 @@
 nicholas_i_agenda_value = {
+	if = {
+		limit = {
+			
+		}
+		
+	}
 	value = 0
 	if = {
 		limit = {

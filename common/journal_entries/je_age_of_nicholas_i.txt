@@ -20,13 +20,6 @@ je_age_of_nicholas_i = {
 		set_variable = { name = boyars_out_var value = 0 }
 	}
 
-	 scope:je_age_of_nicholas_i = {
-        add_modifier = {
-            name = modifier_nicholas_i_rule
-            multiplier = scope:journal_entry.var:nicholas_i_agenda_value
-        }
-    }
-
 	complete = {
 		trigger_if = {
 			limit = {
@@ -35,6 +28,7 @@ je_age_of_nicholas_i = {
 			scope:nicholas_i_scope ?= {
 				is_ruler = no
 			}
+			# se muere de manera natural.
 		}
 	}
 
@@ -56,6 +50,12 @@ je_age_of_nicholas_i = {
 			else = {
 				set_variable = { name = boyars_out_var value = 0 }
 			}
+
+			remove_modifier = modifier_nicholas_i_rule
+			add_modifier = {
+				name = modifier_nicholas_i_rule
+				multiplier = nicholas_i_agenda_value
+			}
 		}
 	}
 
@@ -73,6 +73,7 @@ je_age_of_nicholas_i = {
 					is_in_government = no
 				}
 			}
+			
 		}
 	}
 
