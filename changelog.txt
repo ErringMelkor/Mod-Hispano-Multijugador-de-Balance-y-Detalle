@@ -55,7 +55,7 @@ Leyes:
 	* +1 Charter a LF (total de 3); -1 charter a Command Economy (total de 0).
 	* Bono de Reinversión de Cooperativas: 100% -> 35%.
 	* Aumentada la mortalidad de las profesiones manuales en trabajos peligrosos para fomentar el uso de las leyes de seguridad laboral.
-	* Rebalanceo completo de las leyes/instituciones de Salud.
+	* Reajuste de las instituciones interna, laborales y de salud de acorde al nuevo escalado por tecnologías del vanilla.
 
 Economía:
 	* Separada la madera dura y agregada como recurso estratégico.
@@ -84,7 +84,7 @@ Economía:
 	* Reajustadas compañías de Rusia y Sudamérica.
 
 Militar:
-	* Rebalanceada la escalada de experiencia para las unidades militares.
+	* Rebalanceada la escalada del bono por veteranía para las unidades militares.
 	* Aumentada la penalización por desembarco: 25% -> 35%.
 	* Aumentado el bono por bienes de prestigio militares, ya que en el mod son solo una fracción del consumo militar: ataque/defensa 15% -> 25%; rec. moral 25% -> 50.
 	* Aumentado el bono por bienes de prestigio navales, para incentivar su uso: 10% -> 15%.
@@ -95,7 +95,7 @@ Culturas:
 
 Profesiones:
 	* Rework a las Cualificaciones; es más punitivo que pops sin alfabetización ni riqueza accedan a trabajos más tecnificados.
-	* Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
+	 	Esto debería favorecer emplear a pops pobres e iletradas en trabajos rurales y manuales, frente a urbanos y mentales.
 	
 Principios:
 	* Retirados los focos de Agricultura, Minería y Manufactoría por ahora.
