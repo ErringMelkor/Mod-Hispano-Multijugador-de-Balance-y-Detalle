@@ -35,7 +35,11 @@
 
 	possible = {
 		NOT = {
-			is_subject_of = scope:other_country
+			OR = {
+				is_player = yes
+				is_subject_of = scope:other_country
+			}
+			
 		}
 		trigger_if = {
 			limit = {
