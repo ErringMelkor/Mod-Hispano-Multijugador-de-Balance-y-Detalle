@@ -311,11 +311,8 @@ law_commercialized_agriculture = {
 	progressiveness = 0
 
 	disallowing_laws = {
-		law_ispravniks
-	}
-
-	disallowing_laws = {
 		law_traditionalism
+		law_ispravniks
 	}
 
 	unlocking_technologies = {
@@ -578,8 +575,8 @@ law_obshchina = {
 		state_pop_qualifications_mult = -0.05
 		state_peasants_mass_migration_disallowed_bool = yes
 
-		building_group_bg_agriculture_allowed_collectivization_add = 0.25
-		building_group_bg_ranching_allowed_collectivization_add = 0.1
+		building_group_bg_subsistence_agriculture_allowed_collectivization_add = 0.25
+		building_group_bg_subsistence_ranching_allowed_collectivization_add = 0.1
 	}
 
 	# AI should never try to bring back serfdom

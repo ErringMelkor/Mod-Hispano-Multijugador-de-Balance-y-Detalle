@@ -390,7 +390,8 @@ company_russian_american_company = {
 
 	prosperity_modifier = {
 		building_furniture_manufacturies_throughput_add = 0.1
-		state_trade_advantage_mult = 0.1
+		state_trade_advantage_mult = 0.15
+		state_trade_capacity_mult = 0.15
 		goods_output_hardwood_mult = 0.1
 	}
 
