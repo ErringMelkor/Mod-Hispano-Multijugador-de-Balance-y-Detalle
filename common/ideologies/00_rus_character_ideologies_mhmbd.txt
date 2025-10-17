@@ -1,0 +1,40 @@
+ideology_nicholean_reformer_leader = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_paternalistic.dds"
+
+	character_ideology = yes
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = approve
+		law_appointed_bureaucrats = neutral
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_taxation = {
+		law_proportional_taxation = approve
+		law_per_capita_based_taxation = approve
+		law_graduated_taxation = neutral
+		law_land_based_taxation = neutral
+		law_consumption_based_taxation = disapprove
+	}
+
+	lawgroup_education_system = {
+		law_public_schools = approve
+		law_private_schools = neutral
+		law_religious_schools = neutral
+		law_no_schools = disapprove
+	}
+
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = disapprove
+		law_restricted_child_labor = neutral
+		law_compulsory_primary_school = approve
+	}
+
+	interest_group_leader_weight = {
+		value = 0
+	}
+
+	non_interest_group_leader_weight = {
+		value = 0
+	}
+}

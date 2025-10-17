@@ -1284,7 +1284,7 @@ STATE_SAMARA = {
         bg_coal_mining = 30
         bg_logging = 9
         bg_iron_mining = 5
-        bg_fishing = 2
+        bg_fishing = 1
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1307,6 +1307,7 @@ STATE_TARTARIA = {
     capped_resources = {
         bg_logging = 16
         bg_iron_mining = 15
+        bg_fishing = 1
     }
     resource = {
         type = "bg_oil_extraction"

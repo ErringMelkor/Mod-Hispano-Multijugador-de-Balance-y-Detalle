@@ -7683,6 +7683,7 @@ STATES = {
 	    }
 	    add_homeland = cu:bashkir
 	    add_homeland = cu:russian
+		add_homeland = cu:FinnoUgric
 	}
 
 	s:STATE_SURGUT = {

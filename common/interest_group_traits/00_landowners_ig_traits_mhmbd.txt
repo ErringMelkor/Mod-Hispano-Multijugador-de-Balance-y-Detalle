@@ -1,5 +1,26 @@
  ### Rusia 
 
+ig_trait_bad_boyars = {
+	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
+	max_approval = unhappy
+
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.2
+		building_group_bg_agriculture_standard_of_living_add = -0.5
+	}
+}
+
+ig_trait_terrible_boyars = {
+	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
+	max_approval = unhappy
+
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.2
+		building_group_bg_agriculture_standard_of_living_add = -1
+		country_authority_mult = -0.1
+	}
+}
+ 
 ig_trait_the_velvet_book = { 
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
 	min_approval = happy #Happy

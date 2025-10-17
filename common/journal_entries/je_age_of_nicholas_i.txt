@@ -14,11 +14,13 @@ je_age_of_nicholas_i = {
 			}
 			save_scope_as = nicholas_i_scope
 		}
+		ig:ig_landowners ?= {
+			save_scope_as = boyars_scope
+		}
 		heir ?= {
 			save_scope_as = alexander_ii_heir_scope
 		}
 		set_variable = { name = boyars_out_var value = 0 }
-
 	}
 
 	complete = {
@@ -34,6 +36,11 @@ je_age_of_nicholas_i = {
 	}
 
 	on_complete = {
+		add_modifier = {
+			name = modifier_nicholas_i_legacy
+			years = 10
+			multiplier = nicholas_i_agenda_value
+		}
 	}
 
 	on_monthly_pulse = {
@@ -74,7 +81,16 @@ je_age_of_nicholas_i = {
 					is_in_government = no
 				}
 			}
-			
+		}
+	}
+
+	on_fail = {
+		add_modifier = {
+			name = modifier_nicholas_i_disaster
+			years = 10
+		}
+		ig:ig_landowners ?= {
+			set_ig_trait = ig_trait:ig_trait_terrible_boyars
 		}
 	}
 
@@ -84,8 +100,6 @@ je_age_of_nicholas_i = {
 		}
 	}
 
-	weight = 200
+	weight = 1000
 	should_be_pinned_by_default = yes
 }
-
-

@@ -384,7 +384,7 @@ law_gymnazii = {
 	
 	institution = institution_schools
 	institution_modifier = {
-		state_education_access_wealth_add = 0.002
+		state_education_access_wealth_add = 0.0025
 		country_qualification_growth_second_rate_citizen_mult = 0.05
 		country_qualification_growth_open_prejudice_mult = 0.05
 		building_training_rate_mult = 0.05

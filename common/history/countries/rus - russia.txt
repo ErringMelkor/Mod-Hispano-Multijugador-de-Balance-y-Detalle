@@ -22,7 +22,7 @@
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-
+		
 		if = {
 			limit = {
 				has_dlc_feature = ep1_content
@@ -34,6 +34,10 @@
 			name = modifier_polish_organic_statute
 			days = stupidly_long_modifier_time
 			is_decaying = yes
+		}
+
+		add_modifier = {
+			name = modifier_nicholas_i_rule
 		}
 
 		add_company = company_type:company_russian_american_company

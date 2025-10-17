@@ -194,6 +194,9 @@
 				set_interest_group_name = ig_orthodox_church
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_russian_patriarch
+
+				remove_ig_trait = ig_trait:ig_trait_divine_right
+				set_ig_trait = ig_trait:ig_trait_divine_autocracy
 			}
 		}
 		# France

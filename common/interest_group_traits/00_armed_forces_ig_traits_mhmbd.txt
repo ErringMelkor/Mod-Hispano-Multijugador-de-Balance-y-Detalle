@@ -32,7 +32,7 @@ ig_trait_a_school_for_the_nation = {
 	min_approval = happy
 
 	modifier = {
-		state_pop_qualifications_mult = 0.1
+		state_pop_qualifications_mult = 0.15
 		state_assimilation_mult = 0.25
 	}
 }

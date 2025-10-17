@@ -9,7 +9,6 @@ RUS_nicholas_i = { #Nicholas I
 	birth_date = 1796.7.6
 	dna = dna_tsar_nicolas_01
 	traits = {
-		romantic
 		pious
 		imposing
 	}
@@ -27,7 +26,7 @@ RUS_Pavel_Kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de N
 	historical = yes
 	culture = primary_culture
 	interest_group = ig_armed_forces
-	ideology = ideology_moderate
+	ideology = ideology_nicholean_reformer_leader
 	birth_date = 1788.11.14
 	traits = {
 		meticulous

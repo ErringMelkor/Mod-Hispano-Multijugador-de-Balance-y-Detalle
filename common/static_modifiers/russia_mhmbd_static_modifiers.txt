@@ -1,6 +1,51 @@
 modifier_nicholas_i_rule = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_legitimacy_headofstate_add = 2
+	interest_group_ig_armed_forces_pol_str_mult = 0.02
 	political_movement_radicalism_add = -0.02
 	country_authority_add = 50
 }
+
+modifier_nicholas_i_legacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_legitimacy_headofstate_add = 1
+	interest_group_ig_armed_forces_pol_str_mult = 0.01
+	country_authority_add = 20
+}
+
+modifier_nicholas_i_disaster = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_legitimacy_base_add = -10
+	political_movement_radicalism_add = 0.35
+	country_authority_mult = -0.25
+}
+
+modifier_yasak = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	tax_land_add = 0.05
+	building_group_bg_subsistence_agriculture_allowed_collectivization_add = 0.75
+	state_construction_mult = 0.025
+	state_tax_capacity_mult = -0.25
+	state_assimilation_mult = -0.75
+	state_conversion_mult = -0.25
+}
+
+modifier_yasak_hidden = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_minting_add = 250
+}
+
+
+modifier_cossack_stanitsa = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	building_group_bg_subsistence_agriculture_allowed_collectivization_add = 0.75
+	building_group_bg_ranching_allowed_collectivization_add = 0.25
+	state_turmoil_effects_mult = -0.1
+	state_mortality_turmoil_mult = 0.05
+	state_migration_pull_mult = 0.15
+	state_tax_capacity_mult = -0.5
+	building_training_rate_mult = 0.25
+	state_conscription_rate_add = 0.01
+}
+
+

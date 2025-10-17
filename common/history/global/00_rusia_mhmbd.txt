@@ -1,0 +1,261 @@
+GLOBAL = {
+
+	### Yasak / Tributo nativo
+	
+	s:STATE_CHUVASHIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_KAZAN = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_UFA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_CHUVASHIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_GALICH = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_NENETSIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_SURGUT = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_CHUVASHIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_OB = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_UPPER_YENISEYSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_YAKUTSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_IRKUTSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_OKHOTSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_KOLYMA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_KAMCHATKA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_CHUKOTKA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_BURYATIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_TRANS_BAIKAL = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_KOLA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_EAST_KARELIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+	s:STATE_TAMBOV = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_yasak
+			}
+		}
+	}
+
+	# Cossack Stanitsa
+
+	s:STATE_ROSTOV = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_CHERSON = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_KUBAN = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_NORTH_CAUCASUS = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_DAGESTAN = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_ASTRAKHAN = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_TARTARIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_URALSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_CHELYABINSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_SAMARA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_TAURIDA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_BURYATIA = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_TRANS_BAIKAL = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_YAKUTSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+	s:STATE_OKHOTSK = {
+		region_state:RUS = {
+			add_modifier = {
+				name = modifier_cossack_stanitsa
+			}
+		}
+	}
+
+}

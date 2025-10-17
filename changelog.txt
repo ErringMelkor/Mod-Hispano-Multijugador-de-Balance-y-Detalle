@@ -4,17 +4,20 @@
 #No tomaría en cuenta los hotfixes para ambos por redundancia.
 
 Rusia:
-	* Reajuste al Rasgo de sus Landowners.
+	* Reajuste al Rasgo de sus Landowners y Devotos.
 	* Reducido el tiempo de la tregua con Circasia y el Imanato a 5 años, para que la Guerra Ruso-Turca tenga lugar entre la 1ra y 2da sesión.
 	* Eliminado el requisito de que el grupo con el líder adecuado sea Poderoso (20% clout) para triggerear la Guerra Ruso-Turca. 
 	* Reducido el tiempo de la Entrada de Diario "Ortodoxia, Autocracia, Nacionalidad" de 30 a 10 años, para que corresponda mejor con el reinado de Nicolás I.
+	* Numerosas leyes nuevas iniciales y posibles.
+	* Mejorada la compañía de Vodka.
+
 
 Francia:
 	* Nueva ley de Arrendatarios.
 	* Aumentada la penalización de las Guerras Napoleónicas.
 	* Decisión para reconstruir París con el Plan Haussmann.
 	* Nuevo monumento: el Departamento Metropolitano.
-	* Nuevo Rasgo e Ideología para sus Landowners.
+	* Nuevo Rasgo e Ideología para sus Landowners; nuevo rasgo para sus Devotos.
 
 Gran Bretaña:
 	* La Entrada de Diario irlandesa es menos dura ahora que están las hambrunas de los 40.
@@ -72,6 +75,8 @@ Economía:
 	* Reducido el % de inversión de los maquinistas a 5%.
 
 	* Incremento de radicales por expropiar: 300% -> 500%.
+
+	* Reajustadas compañías de Rusia y Sudamérica.
 
 Militar:
 	* Rebalanceada la escalada de experiencia para las unidades militares.
