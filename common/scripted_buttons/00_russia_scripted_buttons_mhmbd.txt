@@ -1,0 +1,33 @@
+#nicholean reformer
+je_age_of_nicholas_i_summon_kiselyov ={
+	name = ""
+	desc = ""
+
+	visible = {
+		c:RUS = ROOT
+	}
+
+	possible = {
+		NOT = {
+			has_variable = summon_kiselyov_var
+		}
+	}
+
+	effect = {
+
+		trigger_event = { id = age_of_nicholas_i.2 popup = yes }
+
+		set_variable = summon_kiselyov_var
+	}
+} 
+
+ #nicholean art: Pushkin; Gogol; Turgenev.
+je_age_of_nicholas_i_promote_russian_works
+
+#temporary school buff
+je_age_of_nicholas_i_kiselyov_schools 
+
+#curtail the aristocracy
+je_age_of_nicholas_i_restrict_ranks 
+
+

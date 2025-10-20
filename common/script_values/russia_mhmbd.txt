@@ -81,8 +81,13 @@ nicholas_i_agenda_value = {
 	}
 	if = {
 		limit = {
-			institution:institution_police.investment >= 2
 			institution:institution_home_affairs.investment >= 3
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			institution:institution_police.investment >= 2
 		}
 		add = 1
 	}

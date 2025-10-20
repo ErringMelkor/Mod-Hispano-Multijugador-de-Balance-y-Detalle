@@ -46,6 +46,7 @@ pm_unchecked_bondage = {
 
 	state_modifiers = {
 		workforce_scaled = {
+			state_construction_mult = 0.001
 		}
 		unscaled = {
 		}

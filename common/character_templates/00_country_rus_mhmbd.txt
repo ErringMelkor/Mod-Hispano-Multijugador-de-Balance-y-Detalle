@@ -24,10 +24,12 @@ RUS_Pavel_Kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de N
 	first_name = Pavel
 	last_name = Kiselyov
 	historical = yes
-	culture = primary_culture
+	culture = cu:russian
 	interest_group = ig_armed_forces
 	ideology = ideology_nicholean_reformer_leader
+	ig_leader = yes
 	birth_date = 1788.11.14
+	
 	traits = {
 		meticulous
 		persistent
