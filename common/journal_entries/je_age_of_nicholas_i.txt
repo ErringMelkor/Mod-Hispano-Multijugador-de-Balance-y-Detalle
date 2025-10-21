@@ -6,7 +6,8 @@ je_age_of_nicholas_i = {
 	scripted_button = je_age_of_nicholas_i_summon_kiselyov
 	scripted_button = je_age_of_nicholas_i_promote_russian_works
 	scripted_button = je_age_of_nicholas_i_kiselyov_schools
-	scripted_button = je_age_of_nicholas_i_restrict_ranks
+	scripted_button = je_age_of_nicholas_i_curtail_aristocracy
+	scripted_button = je_age_of_nicholas_i_appease_peasantry
 
 
 	is_shown_in_lobby = {

@@ -50,4 +50,66 @@ modifier_cossack_stanitsa = {
 	state_conscription_rate_add = 0.01
 }
 
+modifier_russian_academics_abroad = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_society_tech_spread_mult = 0.25
+	country_qualification_growth_full_acceptance_mult = 0.05
+}
 
+modifier_russian_academic_expenses = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 2500
+}
+
+modifier_russian_academic_expenses_big = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 7500
+}
+
+modifier_kiselyov_schools = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+
+	state_bureaucracy_population_base_cost_factor_mult = 0.05
+	state_peasants_education_access_add = 0.05
+	state_pop_qualifications_mult = 0.05
+	country_expenses_add = 7500
+	interest_group_ig_devout_approval_add = -3
+
+}
+
+modifier_kiselyov_schools_expanded = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+
+	state_bureaucracy_population_base_cost_factor_mult = 0.1
+	state_peasants_education_access_add = 0.075
+	state_pop_qualifications_mult = 0.01
+	country_expenses_add = 10000
+	interest_group_ig_devout_approval_add = -5
+	interest_group_ig_landowners_approval_add = -2
+}
+
+modifier_kiselyov_schools_radical = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+
+	state_bureaucracy_population_base_cost_factor_mult = 0.1
+	state_peasants_education_access_add = 0.075
+	state_pop_qualifications_mult = 0.075
+	country_expenses_add = 15000
+	interest_group_ig_devout_approval_add = -10
+	interest_group_ig_landowners_approval_add = -5
+}
+
+modifier_curtailed_landowners = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+
+	country_authority_add = -200
+	interest_group_ig_landowners_approval_add = -2
+	interest_group_ig_landowners_pol_str_mult = -0.25
+}
+
+modifier_appeased_peasantry = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+
+	political_movement_radicalism_add = -0.1
+	tax_land_add = -0.15
+}
