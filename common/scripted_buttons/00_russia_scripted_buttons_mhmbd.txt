@@ -63,6 +63,7 @@ je_age_of_nicholas_i_kiselyov_schools = {
 			value >= 2
 		}
 		bureaucracy >= 500
+		
 	}
 
 	effect = {

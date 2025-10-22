@@ -148,21 +148,21 @@ age_of_nicholas_i.1 = {
 
 		if = {
  			limit = {
- 				can_research = realism
- 			}
- 			add_technology_progress = { progress = 5500 technology = realism }
- 		}
-		else_if = {
- 			limit = {
  				can_research = rationalism
  			}
  			add_technology_progress = { progress = 3500 technology = rationalism }
  		}
 		else_if = {
+ 			limit = {
+ 				can_research = realism
+ 			}
+ 			add_technology_progress = { progress = 5500 technology = realism }
+ 		}
+		else_if = {
 			limit = {
 				can_research = nationalism
 			}
-			add_technology_progress = { progress = 2500 technology = nationalism }
+			add_technology_progress = { progress = 5500 technology = nationalism }
 		}
 		add_modifier = {
 			name = modifier_russian_academics_abroad

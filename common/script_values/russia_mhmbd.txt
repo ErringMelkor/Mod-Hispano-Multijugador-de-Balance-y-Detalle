@@ -81,24 +81,26 @@ nicholas_i_agenda_value = {
 	}
 	if = {
 		limit = {
-			institution:institution_home_affairs.investment >= 3
-		}
-		add = 1
-	}
-	if = {
-		limit = {
-			institution:institution_police.investment >= 2
-		}
-		add = 1
-	}
-	if = {
-		limit = {
-			any_country = {
-				army_power_projection > root.army_power_projection
-				count > 10
+			institution_investment_level = {
+			institution = institution_home_affairs
+			value >= 2
 			}
 		}
-		
+		add = 1
+	}
+	if = {
+		limit = {
+			institution_investment_level = {
+			institution = institution_police
+			value >= 3
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			army_power_projection >= 8000
+		}
 		add = 1
 	}
 }
