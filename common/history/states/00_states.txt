@@ -1105,6 +1105,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:spanish
+		add_homeland = cu:galician
 	}
 	s:STATE_ASTURIAS = {
 		create_state = {
@@ -1631,7 +1632,6 @@ STATES = {
 		
 		add_homeland = cu:north_italian
 		add_homeland = cu:french
-		add_homeland = cu:francoprovencal
 	}
 	s:STATE_LIBERIA = {
 		create_state = {
@@ -3072,10 +3072,7 @@ STATES = {
 			country = c:FRA
 			owned_provinces = { "x1B4B66" "x30C060" "x3369C6" "x704060" "x71A804" "x73F176" "x7516B6" "x8E88DA" "xB04060" "xB8E48D" "xEF4060" }
 		}
-		
 		add_homeland = cu:french
-		
-		add_homeland = cu:francoprovencal
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
 		create_state = {
@@ -3418,7 +3415,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:alemannic
-		add_homeland = cu:francoprovencal
 	}
 	s:STATE_PUERTO_RICO = {
 		create_state = {
@@ -6322,7 +6318,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:ugrian
 		add_homeland = cu:FinnoUgric
 	}
 	s:STATE_EAST_KARELIA = {
@@ -6333,7 +6328,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:karelian
 		add_homeland = cu:FinnoUgric		
 	}
 	s:STATE_KOLA = {
@@ -6344,7 +6338,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:russian
-		add_homeland = cu:sami
 		add_homeland = cu:FinnoUgric	
 	}
 	s:STATE_ARKHANGELSK = {
@@ -6353,9 +6346,7 @@ STATES = {
 			owned_provinces = { "x009EB7" "x03B78B" "x0662C5" "x09201E" "x0D7374" "x0F63E6" "x116B4E" "x125781" "x1405E0" "x14D961" "x17C3A9" "x19C43D" "x1B18AC" "x24B773" "x28E71E" "x35C277" "x360D95" "x37D5D3" "x39C3D7" "x40D3DA" "x417983" "x45C3AD" "x461ABA" "x475460" "x48BC6F" "x49C142" "x4A5404" "x4E1756" "x51A54B" "x58F495" "x5943FE" "x5D0C97" "x6145FA" "x67A6D0" "x68FEEE" "x6B4598" "x6DBE60" "x6F6902" "x73AE5B" "x73F31C" "x78A0D5" "x7A00E6" "x7BFAD9" "x7D80D6" "x848EFC" "x85CE81" "x8CA5D6" "x8DA9F9" "x8ED444" "x956021" "x99B3A6" "x9A6F0B" "x9AAAF0" "xA08000" "xA10EA2" "xA3F91A" "xA4D7E2" "xA51FC9" "xA57615" "xAC4E81" "xB272FC" "xB3E4A8" "xB663D9" "xBCC48C" "xBF07AC" "xC280EF" "xC35BA4" "xC699CC" "xC86EE7" "xCF8844" "xD0FC2C" "xD8621E" "xE587B2" "xE72A8A" "xEDE24C" "xEDEE19" "xEF2B17" "xF29885" "xF3672D" "xFD14D2" "xFE65B5" }
 		}
 		
-		add_homeland = cu:russian
-		add_homeland = cu:ugrian
-		add_homeland = cu:FinnoUgric		
+		add_homeland = cu:russian		
 	}
 	s:STATE_TARTARIA = {
 		create_state = {

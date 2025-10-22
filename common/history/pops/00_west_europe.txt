@@ -163,7 +163,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2657596
+				size = 2257596
 			}
 			create_pop = {
 				culture = british
@@ -274,7 +274,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1969600
+				size = 1569600
 			}
 			create_pop = {
 				culture = british
@@ -306,13 +306,62 @@
 	}
 	s:STATE_ULSTER = {
 		region_state:GBR = {
+			### Aristocrats
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				pop_type = aristocrats
+				size = 15000
+			}
+			create_pop = {
+				culture = irish  # Catholics
+				pop_type = aristocrats
+				size = 10000
+			}
+
+			### Farmers
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				pop_type = farmers
+				size = 15000
+			}
+
+			### Officers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = officers
+				size = 2000
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				pop_type = officers
+				size = 2500
+			}
+
+			### Soldiers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = soldiers
+				size = 20000
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				pop_type = soldiers
+				size = 20000
+			}
+			create_pop = {
+				culture = irish  # Catholics
+				pop_type = soldiers
+				size = 25000
+			}
+
+			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1183122
+				size = 1173122
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 407111
+				size = 385111
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -321,7 +370,7 @@
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
-				size = 575084
+				size = 510084
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
@@ -332,13 +381,32 @@
 	}
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
+			### Officers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = officers
+				size = 1400
+			}
+
+			### Soldiers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = soldiers
+				size = 8000
+			}
+			create_pop = {
+				culture = irish  # Catholics
+				pop_type = soldiers
+				size = 8000
+			}
+
 			create_pop = {
 				culture = irish # Catholics
-				size = 2214388
+				size = 2206388
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 71856
+				size = 62456
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -358,13 +426,33 @@
 	}
 	s:STATE_LEINSTER = {
 		region_state:GBR = {
+			### Officers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = officers
+				size = 4500
+			}
+
+			### Soldiers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = soldiers
+				size = 26000
+			}
+			create_pop = {
+				culture = irish  # Catholics
+				pop_type = soldiers
+				size = 30000
+			}
+
+			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1677581
+				size = 1647581
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 160989
+				size = 130489
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -393,13 +481,34 @@
 	}
 	s:STATE_CONNAUGHT = {
 		region_state:GBR = {
+
+			### Officers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = officers
+				size = 700
+			}
+
+			### Soldiers
+			create_pop = {
+				culture = british # Anglicans
+				pop_type = soldiers
+				size = 6000
+			}
+			create_pop = {
+				culture = irish  # Catholics
+				pop_type = soldiers
+				size = 7000
+			}
+
+			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1319428
+				size = 1312428
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 28463
+				size = 21763
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -426,6 +535,10 @@
 				culture = french
 				religion = protestant
 				size = 20393
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 9220
 			}
 		}
 	}
@@ -454,6 +567,10 @@
 				culture = french
 				size = 37612
 			}
+			create_pop = {
+				culture = sephardic # Avignonese Jews, closer to Sephardi than Ashkenazi
+				size = 2440
+			}
 		}
 	}
 	s:STATE_NORMANDY = {
@@ -466,6 +583,10 @@
 				culture = french
 				religion = protestant
 				size = 14169
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 469
 			}
 		}
 	}
@@ -596,6 +717,10 @@
 				culture = french
 				size = 3001
 			}
+			create_pop = {
+				culture = ashkenazi
+				size = 44
+			}
 		}
 	}
 	s:STATE_GUYENNE = {
@@ -630,6 +755,10 @@
 				religion = protestant
 				size = 9298
 			}
+			create_pop = {
+				culture = ashkenazi
+				size = 263
+			}
 		}
 	}
 	s:STATE_BRITTANY = {
@@ -647,7 +776,10 @@
 				religion = protestant
 				size = 3030
 			}
-			
+			create_pop = {
+				culture = ashkenazi
+				size = 148
+			}
 		}
 	}
 	s:STATE_BURGUNDY = {
@@ -682,58 +814,6 @@
 				culture = ashkenazi
 				size = 60
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 91
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 595
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 148
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 868
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 263
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1550
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 7240
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 469
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 9220
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 44
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 146
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 645
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 889
-			}
 		}
 	}
 	s:STATE_CHAMPAGNE = {
@@ -750,6 +830,10 @@
 			create_pop = { # Givet area Walloon
 				culture = wallonian
 				size = 4167
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 868
 			}
 		}
 	}
@@ -768,7 +852,10 @@
 				culture = french
 				size = 121924
 			}
-
+			create_pop = {
+				culture = ashkenazi
+				size = 1550
+			}
 		}
 	}
 	s:STATE_LORRAINE = {
@@ -807,14 +894,6 @@
 				culture = sephardic
 				size = 3203
 			}
-			create_pop = {
-				culture = sephardic
-				size = 895
-			}
-			create_pop = {
-				culture = sephardic # Avignonese Jews, closer to Sephardi than Ashkenazi
-				size = 2440
-			}
 		}
 	}
 	s:STATE_ORLEANS = {
@@ -827,6 +906,10 @@
 				culture = french
 				religion = protestant
 				size = 4355
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 91
 			}
 		}
 	}
@@ -1052,11 +1135,44 @@
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 2574808
+				pop_type = shopkeepers
+				size = 20000
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 75996
+				pop_type = shopkeepers
+				size = 5000
+			}
+			create_pop = {
+				culture = ashkenazi
+				pop_type = clerks
+				size = 15000
+			}
+			create_pop = {
+				culture = ashkenazi
+				pop_type = laborers
+				size = 30000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				pop_type = soldiers
+				size = 30000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				pop_type = clerks
+				size = 20000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 2504808
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 25996
 			}
 		}
 	}
@@ -1064,16 +1180,59 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 480408
+				size = 10000
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = czech
+				size = 3500
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = ashkenazi
+				pop_type = shopkeepers
+				size = 1000
+			}
+			create_pop = {
+				culture = ashkenazi
+				pop_type = clerks
+				size = 2000
+			}
+			create_pop = {
+				culture = ashkenazi
+				pop_type = laborers
+				size = 10000
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 1131996
+				pop_type = shopkeepers
+				size = 10000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				pop_type = soldiers
+				size = 30000
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				pop_type = clerks
+				size = 5000
+			}
+			create_pop = {
+				culture = south_german
+				size = 470408
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 1083496
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 28000
+				size = 15000
 			}
 			create_pop = {
 				culture = polish

@@ -215,7 +215,7 @@
 		# 840792
 		region_state:SPA = {
 			create_pop = {
-				culture = spanish
+				culture = galician
 				size = 928528
 			}
 			create_pop = {
