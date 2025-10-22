@@ -1247,7 +1247,7 @@
 				size = 664796
 			}
 			create_pop = {
-				culture = slovene
+				culture = South_Slavic
 				size = 72000
 			}
 		}
