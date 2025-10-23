@@ -1,9 +1,9 @@
 ﻿missouri_compromise = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	interest_group_ig_landowners_pol_str_mult = 0.35
-	country_aristocrats_voting_power_add = 100
-	country_farmers_voting_power_add = 30
-	country_law_enactment_time_mult = 0.25
+	country_aristocrats_voting_power_add = 125
+	country_farmers_voting_power_add = 50
+	country_legitimacy_ideological_incoherence_mult = 0.05
 }
 
 csa_static_modifier = {
