@@ -113,12 +113,6 @@ age_of_nicholas_i.1 = {
 		default_option = yes
 		if = {
  			limit = {
- 				can_research = realism
- 			}
- 			add_technology_progress = { progress = 5500 technology = realism }
- 		}
-		else_if = {
- 			limit = {
  				can_research = rationalism
  			}
  			add_technology_progress = { progress = 3500 technology = rationalism }
@@ -127,8 +121,20 @@ age_of_nicholas_i.1 = {
 			limit = {
 				can_research = nationalism
 			}
-			add_technology_progress = { progress = 2500 technology = nationalism }
+			add_technology_progress = { progress = 5500 technology = nationalism }
 		}
+		else_if = {
+ 			limit = {
+ 				can_research = pharmaceuticals
+ 			}
+ 			add_technology_progress = { progress = 5500 technology = pharmaceuticals }
+ 		}
+		else_if = {
+ 			limit = {
+ 				can_research = modern_nursing
+ 			}
+ 			add_technology_progress = { progress = 5500 technology = modern_nursing }
+ 		}
 		add_modifier = {
 			name = modifier_russian_academic_expenses
 			years = 5
