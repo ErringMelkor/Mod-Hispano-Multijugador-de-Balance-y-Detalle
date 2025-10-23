@@ -7,9 +7,10 @@ CHARACTERS = {
 		age = 46 #
 		ruler = yes
 		interest_group = ig_landowners
-		ideology = ideology_modernizer_leader
+		ideology = ideology_market_liberal
 		traits = {
 				cautious
+				engineer
 			}
 		}
 
@@ -20,9 +21,9 @@ CHARACTERS = {
 		age = 4 #
 		heir = yes
 		interest_group = ig_industrialists
-		ideology = ideology_market_liberal
+		ideology = ideology_modernizer_leader
 		traits = {
-				engineer
+				innovative
 			}
 		}
 

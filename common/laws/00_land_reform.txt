@@ -152,6 +152,7 @@ law_tenant_farmers = {
 				exists = c:RUS
 				is_subject_of = c:RUS
 			}
+			c:FRA ?= this
 		}
 	}
 

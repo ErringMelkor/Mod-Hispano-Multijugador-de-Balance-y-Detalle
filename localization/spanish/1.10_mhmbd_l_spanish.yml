@@ -106,4 +106,13 @@ modifier_kiselyov_schools: "Escuelas infantiles Kisleyov"
 modifier_kiselyov_schools_expanded: "Escuelas infantiles Kisleyov expandidas"
 modifier_kiselyov_schools_radical: "Escuelas infantiles Kisleyov radicales"
 
+law_french_tenancy: "Arrendatarios coparcenarios"
+law_french_tenancy_desc: "Modelo agrario donde la tierra se divide de igual manera entre todos los hijos."
+
+pm_french_tenancy: "Arrendatarios coparcenarios"
+
+institute_plan_haussmann: "Instituir el Plan Haussmann"
+institute_plan_haussmann_desc: "París es cuerpo hinchado, incapaz de sostenerse a sí mismo. Si queremos que París siga siendo una metrópolis europea, la ciudad necesita reformas profundas y modernas en su planta urbana."
+new_paris: "Nueva París"
+rebuilding_paris: "Reconstruyendo París"
 
