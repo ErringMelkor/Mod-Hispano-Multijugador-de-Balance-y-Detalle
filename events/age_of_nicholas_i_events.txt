@@ -15,6 +15,10 @@ age_of_nicholas_i.1 = {
 
 	left_icon = scope:tsar_scope
 
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/law_icons/monarchy.dds"
@@ -85,6 +89,10 @@ age_of_nicholas_i.1 = {
 
 	left_icon = scope:tsar_scope
 
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/law_icons/monarchy.dds"
@@ -153,17 +161,23 @@ age_of_nicholas_i.1 = {
  			add_technology_progress = { progress = 3500 technology = rationalism }
  		}
 		else_if = {
- 			limit = {
- 				can_research = realism
- 			}
- 			add_technology_progress = { progress = 5500 technology = realism }
- 		}
-		else_if = {
 			limit = {
 				can_research = nationalism
 			}
 			add_technology_progress = { progress = 5500 technology = nationalism }
 		}
+		else_if = {
+ 			limit = {
+ 				can_research = pharmaceuticals
+ 			}
+ 			add_technology_progress = { progress = 5500 technology = pharmaceuticals }
+ 		}
+		else_if = {
+ 			limit = {
+ 				can_research = modern_nursing
+ 			}
+ 			add_technology_progress = { progress = 5500 technology = modern_nursing }
+ 		}
 		add_modifier = {
 			name = modifier_russian_academics_abroad
 			years = 5
@@ -176,7 +190,7 @@ age_of_nicholas_i.1 = {
 	}
 
 	option = {
-		name = age_of_nicholas_i.3.d
+		name = age_of_nicholas_i.3.e
 	}
 }
 
@@ -189,6 +203,10 @@ age_of_nicholas_i.1 = {
 	flavor = age_of_nicholas_i.4.f
 
 	left_icon = scope:tsar_scope
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 

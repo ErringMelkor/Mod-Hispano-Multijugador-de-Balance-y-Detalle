@@ -1642,6 +1642,18 @@
 				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
+				building="building_hardwood_logging"
+				add_ownership={
+					company={
+						type = company_russian_american_company
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_equipment" "pm_road_carts" "pm_hardwood_sawmills" }
+			}
+			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={

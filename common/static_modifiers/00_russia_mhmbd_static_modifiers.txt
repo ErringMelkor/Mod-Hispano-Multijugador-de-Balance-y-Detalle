@@ -56,6 +56,7 @@ modifier_russian_academics_abroad = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_society_tech_spread_mult = 0.25
 	country_qualification_growth_full_acceptance_mult = 0.05
+	interest_group_ig_intelligentsia_pol_str_mult = 0.25
 }
 
 modifier_russian_academic_expenses = {
@@ -84,7 +85,7 @@ modifier_kiselyov_schools_expanded = {
 
 	state_bureaucracy_population_base_cost_factor_mult = 0.1
 	state_peasants_education_access_add = 0.075
-	state_pop_qualifications_mult = 0.01
+	state_pop_qualifications_mult = 0.1
 	country_expenses_add = 10000
 	interest_group_ig_devout_approval_add = -5
 	interest_group_ig_landowners_approval_add = -2

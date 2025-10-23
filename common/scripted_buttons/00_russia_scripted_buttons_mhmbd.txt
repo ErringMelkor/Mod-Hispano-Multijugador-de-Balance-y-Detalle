@@ -1,6 +1,6 @@
 #nicholean reformer
 je_age_of_nicholas_i_summon_kiselyov = {
-	name = ""
+	name = "je_age_of_nicholas_i_summon_kiselyov"
 	desc = ""
 
 	visible = {
@@ -23,7 +23,7 @@ je_age_of_nicholas_i_summon_kiselyov = {
 
  #nicholean art: Pushkin; Gogol; Turgenev.
 je_age_of_nicholas_i_promote_russian_works = {
-	name = ""
+	name = "je_age_of_nicholas_i_promote_russian_works"
 	desc = ""
 
 	visible = {
@@ -34,6 +34,7 @@ je_age_of_nicholas_i_promote_russian_works = {
 		NOT = {
 			has_variable = promote_russian_works_var
 		}
+		has_technology_researched = realism
 	}
 
 	effect = {
@@ -46,7 +47,7 @@ je_age_of_nicholas_i_promote_russian_works = {
 
 #temporary school buff
 je_age_of_nicholas_i_kiselyov_schools = {
-	name = ""
+	name = "je_age_of_nicholas_i_kiselyov_schools"
 	desc = ""
 
 	visible = {
@@ -76,7 +77,7 @@ je_age_of_nicholas_i_kiselyov_schools = {
 
 #curtail the aristocracy
 je_age_of_nicholas_i_curtail_aristocracy = {
-	name = ""
+	name = "je_age_of_nicholas_i_curtail_aristocracy"
 	desc = ""
 
 	visible = {
@@ -104,7 +105,7 @@ je_age_of_nicholas_i_curtail_aristocracy = {
 
 #appease the peasantry
 je_age_of_nicholas_i_appease_peasantry = {
-	name = ""
+	name = "je_age_of_nicholas_i_appease_peasantry"
 	desc = ""
 
 	visible = {
@@ -116,6 +117,7 @@ je_age_of_nicholas_i_appease_peasantry = {
 			country_turmoil >= 0.25
 			radical_fraction = {
 			value = 0.15
+			pop_type = peasants
 			}
 		}
 	}
