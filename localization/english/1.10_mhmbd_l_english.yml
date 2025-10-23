@@ -3,10 +3,139 @@
 state_trait_red_cedar: "Old Red Cedar Woods"
 
 
+state_trait_red_cedar: "Gran Cedro Rojo"
+
 nicholas_unticked: "@simple_box!"
 nicholas_ticked: "@green_checkmark_box!"
 
+je_age_of_nicholas_i: "La Era de Nicolás I"
+je_age_of_nicholas_i_reason: "Las Guerras Napoleónicas han alzado a [ROOT.GetCountry.GetName] como una potencia de primer orden en el panorama europeo. El Zar, [SCOPE.sCharacter('nicholas_i_scope').GetFullName], accedió al trono en 1825, tras la muerte de su muerte de su hermano Alejandro I. Sin abandonar la política conservadora de su antecesor, [SCOPE.sCharacter('nicholas_i_scope').GetFullName] sus puntos centrales son la estabilidad interna, la supremacía militar y la expansión territorial. \n\n#b La agenda de Nicolás I:#!\n El cumplimiento de sus objetivos mejorará tanto el efecto actual del Zar como de su Legado una vez este pase la antorcha del gobierno ruso. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_art_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene la principal producción de [GetGoods('fine_art').GetName|l].\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_tech_checkbox')] [ROOT.GetCountry.GetNameNoFlag] ha investigado [GetPlayer.MakeScope.ScriptValue('nicholas_i_tech_target')|v0] [Concept('concept_technology', '$concept_technologies$')|l] (actualmente [GetPlayer.MakeScope.ScriptValue('techs_researched_script')|v0]).\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_movement_checkbox')] Todos los [Concept('concept_political_movement','$concept_political_movements$')|l] de tipo #tooltippable;tooltip:[GetPlayer.GetTooltipTag],liberal_movements_list_tt liberal#! o #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_movements_list_tt socialista#! tienen un apoyo #b marginal#!.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_balkans_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_MOLDAVIA').GetName], [GetStateRegion('STATE_WALLACHIA').GetName] y [GetStateRegion('STATE_DOBRUDJA').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_eastern_anatolia_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_KARS').GetName], [GetStateRegion('STATE_ERZURUM').GetName] y [GetStateRegion('STATE_TRABZON').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_manchuria_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_AMUR').GetName], [GetStateRegion('STATE_OUTER_MANCHURIA').GetName], [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName] y [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName].\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_institutions_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene la institución de Policía y Asuntos internos a nivel 3 y 2 respectivamente. \n•[SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_military_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene una proyección de poder terrestre superior a [GetPlayer.MakeScope.ScriptValue('nicholas_i_military_target')|v0]."
 
+modifier_nicholas_i_rule: "El Reinado de Nicolás I"
+modifier_nicholas_i_legacy: "El Legado de Nicolás I"
+modifier_nicholas_i_disaster: "El Desastre de Nicolás I"
 
-je_age_of_nicholas_i_reason: "Las Guerras Napoleónicas han alzado a [ROOT.GetCountry.GetName] como una potencia de primer orden en el panorama europeo. El Zar, [SCOPE.sCharacter('nicholas_i_scope').GetFullName], accedió al trono en 1825, tras la muerte de su muerte de su hermano Alejandro I. Sin abandonar la política conservadora de su antecesor, [SCOPE.sCharacter('nicholas_i_scope').GetFullName] sus puntos centrales son la estabilidad interna, la supremacía militar y la expansión territorial. \n\n#b La agenda de Nicolás I:#!\n El cumplimiento de sus objetivos mejorará tanto el efecto actual del Tzar como de su Legado una vez este pase la antorcha del gobierno ruso. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_art_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene la principal producción de [GetGoods('fine_art').GetName|l].\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_tech_checkbox')] [ROOT.GetCountry.GetNameNoFlag] ha investigado [GetPlayer.MakeScope.ScriptValue('nicholas_i_tech_target')|v0] [Concept('concept_technology', '$concept_technologies$')|l] (actualmente [GetPlayer.MakeScope.ScriptValue('techs_researched_script')|v0]).\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_movement_checkbox')] Todos los [Concept('concept_political_movement','$concept_political_movements$')|l] de tipo #tooltippable;tooltip:[GetPlayer.GetTooltipTag],liberal_movements_list_tt liberal#! o #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_movements_list_tt socialista#! tienen un apoyo #b marginal#!.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_balkans_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_MOLDAVIA').GetName], [GetStateRegion('STATE_WALLACHIA').GetName] y [GetStateRegion('STATE_DOBRUDJA').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_eastern_anatolia_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_KARS').GetName], [GetStateRegion('STATE_ERZURUM').GetName] y [GetStateRegion('STATE_TRABZON').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_manchuria_checkbox')] [ROOT.GetCountry.GetNameNoFlag] posee todas las [concept_state_region|l] de [GetStateRegion('STATE_AMUR').GetName], [GetStateRegion('STATE_OUTER_MANCHURIA').GetName], [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName] y [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName].\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_institutions_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene la institución de Policía y Asuntos internos a nivel 3 y 2 respectivamente. \n•[SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_military_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene una proyección de poder terrestre superior a [GetPlayer.MakeScope.ScriptValue('nicholas_i_military_target')|v0]. "
+ig_trait_terrible_boyars: "Terribles boyardos"
+ig_trait_terrible_boyars_desc: "¿Pensábais que eso era ser malo? Iván IV temblaría ante nuestra presencia."
+ig_trait_farm_and_family: "Granja y Familia"
+ig_trait_farm_and_family_desc: "La felicidad del siervo reside en trabajar nuestra granja y aumentar nuestra familia."
+ig_trait_a_school_for_the_nation: "Una Escuela para la Nación"
+ig_trait_a_school_for_the_nation_desc: "¡Ven y únete al ejército, no importa de dónde vengas!"
+ig_trait_divine_autocracy: "Autocracia Divina"
+ig_trait_divine_autocracy_desc: "Es el placer de la Iglesia Ortodoxa promover la verdad sobre la monarquía."
 
+law_sosloviia: "Sosloviia"
+law_sosloviia_desc: "Un sistema neoestamental que entremezcla un modelo rígido a la vez que indefinido con privilegios a grupos específicos."
+
+law_ispravniks: "Ispravniks"
+law_ispravniks_desc: "Aunque en teoría dos ramas independientes, los nobles locales controlan de hecho el proceso administrativo del gobierno, y el abuso de este hacia su beneficio es algo que se debe dar por hecho."
+
+law_zemstvos: "Zemstvos"
+law_zemstvos_desc: "Modelo híbrido de gobernancia local donde los aristócratas siguen teniendo peso a través de una asamblea local, pero los derechos del campesinado y de la clase urbana están atrincherados para evitar los peores abusos."
+
+law_gymnazii: "Gymnazii"
+law_gymnazii_desc: "Sistema de escuelas militares abierto a todo el mundo, diseñado para obtener los soldados y oficiales necesarios para la supremacía rusa, a la vez que se impide la educación a los grupos marginales y empobrecidos de la sociedad."
+
+law_multipolar_serfdom: "Servidumbre multipolar"
+law_multipolar_serfdom_desc: "Sistema de servidumbre dual, donde una mitad de los siervos pertenecen al Estado y la otra a la aristocracia. Aunque los siervos del estado son funcionalmente arrendatarios libres, este derecho se ve pisado por la aristocracia local. "
+
+law_obshchina: "Obshchina"
+law_obshchina_desc: "Sistema de tierras donde la servidumbre privada todavía se perpetúa, pero los siervos estatales pueden funcionar de manera efectiva como arrendatarios agrícolas."
+
+modifier_yasak: "Sistema tributario Yasak"
+modifier_cossack_stanitsa: "Stanitsa cosaca"
+
+pm_unchecked_bondage: "Servidumbre sin restricciones"
+pm_manor_house_extensive_networks: "Raíces aristocráticas profundas"
+
+building_hardwood_logging: "Campamentos de madera dura"
+building_département_métropolitain: "Departamento Metropolitano"
+pmg_base_building_département_métropolitain: "Departamento Metropolitano"
+pm_default_building_département_métropolitain: "Producción Base"
+pm_default_building_expanded_département_métropolitain: "Producción Extendida"
+old_paris: "Vieja París"
+fra_napoleonic_wars_legacy_workforce: "Legado de las Guerras Napoleónicas"
+british_commonwealth: "Mancomunidad británica"
+pmg_secondary_logging_camp: "Producción Secundaria"
+pm_no_secondary_production: "Sin producción secundaria"
+pm_focused_hardwood_production: "Enfoque en Madera Dura"
+pm_hardwood_sawmills: "Aserraderos"
+pm_electric_hardwood_sawmills: "Aserraderos eléctricos"
+
+veterancy5: "Élite"
+
+Kiselyov: "Kiselyov"
+ideology_nicholean_reformer_leader: "Reformador Nicolaico"
+ideology_nicholean_reformer_leader_desc: "Este personaje cree en un modelo de reforma popular, sin desviarse de los principios absolutistas del régimen."
+
+je_age_of_nicholas_i_summon_kiselyov: "Convocar a Kiselyov"
+je_age_of_nicholas_i_kiselyov_schools: "Financiar las Escuelas Kisleyov"
+je_age_of_nicholas_i_promote_russian_works: "Promover el Arte y la Ciencia rusa"
+je_age_of_nicholas_i_curtail_aristocracy: "Cercenar a la Aristocracia"
+je_age_of_nicholas_i_appease_peasantry: "Aplacar al campesinado"
+
+country_turmoil: "Agitación Nacional igual o superior al 25%"
+
+age_of_nicholas_i.2.t: "Kiselyov responde ante la corte imperial."
+age_of_nicholas_i.2.d: "El Zar Nicolás I ha llamado al experimentado Pavel Kiselyov para que dirija el Ministerio de Propiedad Estatal bajo el Consejo Imperial. De afinidad reformista, Kiselyov desea transformar el Estado hacia una burocracia moderna, así como reconfigurar la tenencia de la tierra, y es firme defensor de las condiciones de vida de los campesinos."
+age_of_nicholas_i.2.f: ""
+age_of_nicholas_i.2.a: "Concederle solo el cargo ministerial; no podemos arriesgarnos a alienar a la aristocracia."
+age_of_nicholas_i.2.b: "Darle rienda suelta a sus deseos reformistas."
+
+modifier_curtailed_landowners: "Aristocracia cercenada"
+modifier_appeased_peasantry: "Campesinazgo aplacado"
+
+age_of_nicholas_i.3.t: "Un dilema artístico"
+age_of_nicholas_i.3.d: "Nicolás I es un gran promotor de las artes y ciencias rusas: bajo su estela han florecido figuras como los escritores Alexander Pushkin, Nikolai Gogol o Iván Turgenev; han tomado fuerza artes como el ballet o la música clásica; o nacen corrientes de pensamiento, como la Eslavofilia. \n  Ahora, tenemos la oportunidad de financiar una segunda generación de pensadores rusos para que traigan nuevas ideas de Europa o den pie a otras."
+age_of_nicholas_i.3.f: ""
+age_of_nicholas_i.3.a: "Financiemos nuevas investigaciones."
+age_of_nicholas_i.3.b: "Financiemos el pensamiento europeo."
+age_of_nicholas_i.3.c: "Financiemos ambas posibilidades."
+age_of_nicholas_i.3.e: "La espada siempre fue mejor que el libro."
+
+modifier_russian_academics_abroad: "Académicos rusos, ideas europeas"
+modifier_russian_academic_expenses: "Gastos académicos extraordinarios"
+modifier_russian_academic_expenses_big: "Grandes gastos académicos extraordinarios"
+
+age_of_nicholas_i.4.t: "Financiar las Escuelas Kisleyov"
+age_of_nicholas_i.4.d: "Aunque el Zar Nicolás I preferiría abolir la servidumbre, es consciente de que, frente a las fuerzas aristocráticas, no es una realidad factible. Kisleyov, por otro lado, es un hombre de pensamientos peculiares: si no podemos liberar a esta cohorte, al menos démosle alas a sus niños para que puedan liberarse a sí mismos en un futuro. \n  Tales ideas son controversiales, particularmente frente a la Iglesia, que cree firmemente que el campesinado no debe ser instruído, pero también por parte de los aristócratas, que ven en la movilidad social un motor para la abolición de la servidumbre. \n Desde la administración imperial es posible financiar un proyecto que sirva como base para una futura educación del campesinado: unas escuelas primarias para los campesinos. Unas escuelas limitadas no agitarán el avispero reaccionario, pero tampoco tendrán el mejor efecto. \n  Si esperamos a la oportunidad adecuada (Movimiento Obrero), podremos introducir legislación clave a la vez que creamos las escuelas."
+age_of_nicholas_i.4.f: ""
+age_of_nicholas_i.4.a: "Instituir escuelas infantiles"
+age_of_nicholas_i.4.b: "Instituir escuelas infantiles extendidas"
+age_of_nicholas_i.4.c: "Instituir escuelas infantiles radicales"
+
+modifier_kiselyov_schools: "Escuelas infantiles Kisleyov"
+modifier_kiselyov_schools_expanded: "Escuelas infantiles Kisleyov expandidas"
+modifier_kiselyov_schools_radical: "Escuelas infantiles Kisleyov radicales"
+
+law_french_tenancy: "Arrendatarios coparcenarios"
+law_french_tenancy_desc: "Modelo agrario donde la tierra se divide de igual manera entre todos los hijos."
+
+pm_french_tenancy: "Arrendatarios coparcenarios"
+
+institute_plan_haussmann: "Instituir el Plan Haussmann"
+institute_plan_haussmann_desc: "París es cuerpo hinchado, incapaz de sostenerse a sí mismo. Si queremos que París siga siendo una metrópolis europea, la ciudad necesita reformas profundas y modernas en su planta urbana."
+new_paris: "Nueva París"
+rebuilding_paris: "Reconstruyendo París"
+
+bg_company_headquarter: "Sede de Empresa"
+bg_company_regional_headquarter: "Sede Regional de Empresa"
+company_east_indies_trading_company: "Compañía Comercial de las Indias Orientales"
+Etiope: "Etíope"
+dp_unify_iberia: "Unificar Iberia"
+dp_leadership_Iberia: "Jugada de Liderazgo por Iberia"
+dp_unify_platinean: "Unificar La Plata"
+dp_leadership_platinean: "Jugada de Liderazgo por La Plata"
+dp_unify_yuan: "Unificar Yuan"
+dp_leadership_yuan: "Jugada de Liderazgo por Yuan"
+Native_Mesoamerican: "Nativo Mesoamericano"
+Baltic: "Báltico"
+FinnoUgric: "Fino-Úgrico"
+ideology_french_patriarchal: "Patriarcal-Egalitario"
+ideology_liberalismo_gaditano_parte_2: "Liberalismo Gaditano"
+mobilization_option_early_rail_transport: "Transporte por ferrocarril temprano"
+pm_default_building_modern_sar_i_sang: "Mina moderna"
+pm_default_building_full_mine_sar_i_sang: "Mina expandida"
+state_trait_ardennes_forest: "Bosque de las Ardenas"
+state_trait_Altai_Mountains: "Montañas Altai"
+state_trait_amu_daria_delta: "Delta del Amu Daria"
