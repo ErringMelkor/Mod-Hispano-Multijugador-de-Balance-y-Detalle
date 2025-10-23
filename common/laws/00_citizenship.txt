@@ -695,7 +695,7 @@ law_sosloviia = {
 		country_support_separatism_strength_mult = -0.5
 		country_ashkenazi_cultural_acceptance_add = 60
 		country_east_german_cultural_acceptance_add = 40
-		country_acceptance_no_shared_religious_trait_add = 25
+		country_acceptance_no_shared_religious_trait_add = 5
 
 		#If primary culture, only apply this value
 		country_acceptance_primary_culture_add = 40
