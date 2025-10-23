@@ -10,14 +10,14 @@
 	complete = {
 		institution_investment_level = {
 			institution = institution_schools
-			value >= 1
+			value >= 3
 		}
 	}
 
 	on_complete = {
 		add_modifier = {
 			name = modifier_legacy_imperial_examinations
-			months = 120
+			months = 180
 			is_decaying = yes
 		}
 	}

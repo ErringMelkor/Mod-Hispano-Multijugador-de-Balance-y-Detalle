@@ -691,7 +691,7 @@
 				size = 9388
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = South_Slavic
 				size = 2816
 			}
 			create_pop = {
@@ -811,7 +811,7 @@
 				size = 20170
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = South_Slavic
 				size = 19032
 			}
 		}
@@ -835,7 +835,7 @@
 				size = 54400
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = South_Slavic
 				size = 28832
 			}
 			create_pop = {

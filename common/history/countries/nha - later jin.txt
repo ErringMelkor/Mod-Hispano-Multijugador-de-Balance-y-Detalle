@@ -21,5 +21,10 @@
 		activate_law = law_type:law_eight_banner_army
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_isolationism
+
+		add_journal_entry = {
+			type = je_imperial_examination_system
+		}
+
 	}
 }
