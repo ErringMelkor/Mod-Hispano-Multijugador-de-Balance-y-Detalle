@@ -1,0 +1,185 @@
+﻿nicholas_i_art_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				leading_producer_of = g:fine_art
+			}
+		}
+		localization_key = nicholas_unticked
+	}
+	text = {
+		trigger = {
+			leading_producer_of = g:fine_art
+		}
+		localization_key = nicholas_ticked
+	}
+}
+
+nicholas_i_tech_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			techs_researched < 58
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			techs_researched >= 58
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_movement_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			any_political_movement = {
+				OR = {
+					movement_is_liberal = yes
+					movement_is_socialist = yes
+				}
+				political_movement_support >= 0.05
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			NOT = {
+				any_political_movement = {
+					OR = {
+						movement_is_liberal = yes
+						movement_is_socialist = yes
+					}
+					political_movement_support >= 0.05
+				}
+			}
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_balkans_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
+				country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
+				country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
+			country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
+			country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_eastern_anatolia_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				country_or_subject_owns_entire_state_region = STATE_KARS
+				country_or_subject_owns_entire_state_region = STATE_TRABZON
+				country_or_subject_owns_entire_state_region = STATE_ERZURUM
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			country_or_subject_owns_entire_state_region = STATE_KARS
+			country_or_subject_owns_entire_state_region = STATE_TRABZON
+			country_or_subject_owns_entire_state_region = STATE_ERZURUM
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_manchuria_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				country_or_subject_owns_entire_state_region = STATE_SOUTHERN_MANCHURIA
+				country_or_subject_owns_entire_state_region = STATE_NORTHERN_MANCHURIA
+				country_or_subject_owns_entire_state_region = STATE_AMUR
+				country_or_subject_owns_entire_state_region = STATE_OUTER_MANCHURIA
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			country_or_subject_owns_entire_state_region = STATE_SOUTHERN_MANCHURIA
+			country_or_subject_owns_entire_state_region = STATE_NORTHERN_MANCHURIA
+			country_or_subject_owns_entire_state_region = STATE_AMUR
+			country_or_subject_owns_entire_state_region = STATE_OUTER_MANCHURIA
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_military_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				army_power_projection >= 8000
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			army_power_projection >= 8000
+		}
+		localization_key = metternich_ticked
+	}
+}
+
+nicholas_i_institutions_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				AND = {
+				institution_investment_level = {
+					institution = institution_home_affairs
+					value >= 2
+				}
+				institution_investment_level = {
+					institution = institution_police
+					value >= 3
+				}
+				}
+			}
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			AND = {
+				institution_investment_level = {
+					institution = institution_home_affairs
+					value >= 2
+				}
+				institution_investment_level = {
+					institution = institution_police
+					value >= 3
+				}
+			}
+		}
+		localization_key = metternich_ticked
+	}
+}

@@ -7,13 +7,7 @@ nicholas_i_agenda_value = {
 	value = 0
 	if = {
 		limit = {
-			leading_producer_of = g:liquor
-		}
-		add = 1
-	}
-	if = {
-		limit = {
-			leading_producer_of = g:grain
+			leading_producer_of = g:fine_art
 		}
 		add = 1
 	}
@@ -72,28 +66,16 @@ nicholas_i_agenda_value = {
 	if = {
 		limit = {
 			AND = {
-				has_law_or_variant = law_type:law_autocracy
-				has_law_or_variant = law_type:law_secret_police
-				has_law_or_variant = law_type:law_censorship
-			}	
-		}
-		add = 1
-	}
-	if = {
-		limit = {
-			institution_investment_level = {
-			institution = institution_home_affairs
-			value >= 2
+				institution_investment_level = {
+					institution = institution_home_affairs
+					value >= 2
+				}
+				institution_investment_level = {
+					institution = institution_police
+					value >= 3
+				}
 			}
-		}
-		add = 1
-	}
-	if = {
-		limit = {
-			institution_investment_level = {
-			institution = institution_police
-			value >= 3
-			}
+			
 		}
 		add = 1
 	}
@@ -104,3 +86,7 @@ nicholas_i_agenda_value = {
 		add = 1
 	}
 }
+
+nicholas_i_tech_target = 58
+
+nicholas_i_military_target = 8000

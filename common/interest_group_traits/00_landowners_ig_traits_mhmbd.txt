@@ -16,7 +16,7 @@ ig_trait_terrible_boyars = {
 
 	modifier = {
 		building_group_bg_agriculture_tax_mult = -0.2
-		building_group_bg_agriculture_standard_of_living_add = -1
+		building_group_bg_agriculture_standard_of_living_add = -0.5
 		country_authority_mult = -0.1
 	}
 }

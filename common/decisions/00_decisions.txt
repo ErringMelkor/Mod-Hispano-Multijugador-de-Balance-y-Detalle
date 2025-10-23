@@ -106,10 +106,13 @@ rebeldes = {
 	is_shown = {
 		hidden_trigger = {
 			OR = {
-				C:SOK ?= this
+				C:BGI ?= this
 				c:HAW ?= this
 				c:DEN ?= this
 				c:BTN ?= this
+				c:MAL ?= this
+				c:ION ?= this
+				c:SIL ?= this
 			}
 			
 		}
@@ -119,8 +122,9 @@ rebeldes = {
 		OR = {
 			has_technology_researched = nitroglycerin
 			has_technology_researched = revolver
-			has_technology_researched = intensive_agriculture
+			has_technology_researched = rubber_mastication
 			has_technology_researched = labor_movement
+			has_technology_researched = dialectics
 		}
 		is_player = no
 	}

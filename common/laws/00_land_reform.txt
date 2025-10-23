@@ -643,8 +643,6 @@ law_multipolar_serfdom = {
 		interest_group_ig_landowners_pol_str_mult = 0.50
 		state_pop_qualifications_mult = -0.1
 		state_peasants_mass_migration_disallowed_bool = yes
-		state_peasants_internal_migration_disallowed_bool = yes
-
 	}
 
 	# AI should never try to bring back serfdom
