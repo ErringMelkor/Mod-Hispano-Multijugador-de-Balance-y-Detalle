@@ -363,8 +363,51 @@ formation.69 = {
 		ai_chance = {
 			factor = 1
 		}
-		
-		
+	}
+}
+
+#Chinese Empire
+formation.70 = {
+	type = country_event
+	placement = ROOT
+
+	title = formation.70.t
+	desc = formation.70.d
+	
+
+	event_image = {
+		video = "unspecific_signed_contract"
 	}
 
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		c:GJN ?= THIS
+		c:GSN ?= THIS
+		c:GDN ?= THIS
+	}
+
+
+	option = {
+		name = formation.13.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			days = long_modifier_time
+		}
+		add_modifier = {
+			name = chinese_unification_static_modifier
+			months = 360
+			is_decaying = yes
+		}
+		unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
 }
+

@@ -16,6 +16,14 @@ ideology_nicholean_reformer_leader = {
 		law_no_schools = disapprove
 	}
 
+	lawgroup_land_reform = {
+		law_serfdom = disapprove
+		law_tenant_farmers = approve
+		law_collectivized_agriculture = strongly_disapprove
+		law_commercialized_agriculture = disapprove
+		law_homesteading = strongly_disapprove
+	}
+
 	lawgroup_childrens_rights = {
 		law_child_labor_allowed = disapprove
 		law_restricted_child_labor = neutral

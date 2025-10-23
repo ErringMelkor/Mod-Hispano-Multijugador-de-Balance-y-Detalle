@@ -197,7 +197,7 @@ PLT = {
 	}
 }	
 
-YUA = {
+GSN = {
 	use_culture_states = yes
 	
 	is_major_formation = yes
@@ -205,9 +205,43 @@ YUA = {
 	unification_play = dp_unify_yuan
 	leadership_play = dp_leadership_yuan
 
-	required_states_fraction = 0.75
+	required_states_fraction = 0.65
 	
-	ai_will_do = { has_technology_researched = nationalism }
+	ai_will_do = { has_technology_researched = pan-nationalism }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+GJN = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_yuan
+	leadership_play = dp_leadership_yuan
+
+	required_states_fraction = 0.65
+	
+	ai_will_do = { has_technology_researched = pan-nationalism }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+GDN = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_yuan
+	leadership_play = dp_leadership_yuan
+
+	required_states_fraction = 0.65
+	
+	ai_will_do = { has_technology_researched = pan-nationalism }
 
 	possible = {
 		has_technology_researched = pan-nationalism

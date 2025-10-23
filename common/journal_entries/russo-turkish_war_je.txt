@@ -152,10 +152,7 @@ je_great_russo_turkish_war = {
 			any_scope_state = {
 				state_region = s:STATE_MOLDAVIA
 				is_incorporated = yes
-				OR = {
-					is_split_state = yes
-					is_split_state = no
-				}
+				is_split_state = no
 			}
 			any_scope_state = {
 				state_region = s:STATE_DOBRUDJA

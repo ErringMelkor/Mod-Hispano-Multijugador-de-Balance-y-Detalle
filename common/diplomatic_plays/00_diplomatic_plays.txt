@@ -1308,7 +1308,11 @@ dp_unify_yuan = {
 	}
 	
 	possible = {
-		NOT = { exists = c:YUA }
+		NOR = { 
+			exists = c:GDN
+			exists = c:GJN
+			exists = c:GSN 
+		}
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = pan-nationalism
 	}
