@@ -42,6 +42,52 @@
 	}
 }
 
+
+
+rebeldes = {
+	is_shown = {
+		hidden_trigger = {
+			OR = {
+				C:BGI ?= this
+				c:HAW ?= this
+				c:DEN ?= this
+				c:BTN ?= this
+				c:MAL ?= this
+				c:ION ?= this
+				c:SIL ?= this
+			}
+			
+		}
+		NOT = {
+			has_global_variable = conlosterrorihta
+		}
+		OR = {
+			has_technology_researched = nitroglycerin
+			has_technology_researched = revolver
+			has_technology_researched = rubber_mastication
+			has_technology_researched = labor_movement
+			has_technology_researched = psychiatry
+		}
+		is_player = no
+	}
+
+	possible = {
+		
+	}
+
+	when_taken = {
+
+		trigger_event = { id = meiji.69 } 
+	
+	}
+
+	ai_chance = {
+		add = 100
+	}
+
+}
+
+
 lowlands_land_reclamation = {
 	is_shown = {
 		owns_entire_state_region = STATE_FRIESLAND
@@ -99,50 +145,6 @@ lowlands_land_reclamation = {
 			add = -1000
 		}		
 	}
-}
-
-
-rebeldes = {
-	is_shown = {
-		hidden_trigger = {
-			OR = {
-				C:BGI ?= this
-				c:HAW ?= this
-				c:DEN ?= this
-				c:BTN ?= this
-				c:MAL ?= this
-				c:ION ?= this
-				c:SIL ?= this
-			}
-			
-		}
-		NOT = {
-			has_global_variable = conlosterrorihta
-		}
-		OR = {
-			has_technology_researched = dynamite
-			has_technology_researched = breech_loading_artillery
-			has_technology_researched = vulcanization
-			has_technology_researched = socialism
-			has_technology_researched = psychiatry
-		}
-		is_player = no
-	}
-
-	possible = {
-		
-	}
-
-	when_taken = {
-
-		trigger_event = { id = meiji.69 } 
-	
-	}
-
-	ai_chance = {
-		add = 100
-	}
-
 }
 
 abolish_tangena_ordeal = {
