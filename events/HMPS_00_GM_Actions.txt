@@ -136,6 +136,14 @@ gm_actions.1 = {
 		}
 		remove_global_variable = GM_taking_action
 	}
+
+	option = {
+		name = gm_actions.1.v
+		every_country = {
+		}
+
+		set_global_variable = HMPS_alpha_button
+	}
 	
 	
 	#Modifiers

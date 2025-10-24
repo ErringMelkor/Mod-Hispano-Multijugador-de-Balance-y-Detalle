@@ -54,6 +54,49 @@
 	}
 }
 
+marvados = {
+	is_shown = {
+		hidden_trigger = {
+			OR = {
+				C:SER ?= this
+				c:LUX ?= this
+				c:CUB ?= this
+				c:HAI ?= this
+				c:PRG ?= this
+				c:ORA ?= this
+				c:ASM ?= this
+			}
+			
+		}
+		NOT = {
+			has_global_variable = HMPS_alpha_button
+		}
+		OR = {
+			has_technology_researched = dynamite
+			has_technology_researched = breech_loading_artillery
+			has_technology_researched = vulcanization
+			has_technology_researched = dialectics
+			has_technology_researched = organized_sports
+		}
+		is_player = no
+	}
+
+	possible = {
+		
+	}
+
+	when_taken = {
+
+		trigger_event = { id = red_scare.57 } 
+	
+	}
+
+	ai_chance = {
+		add = 20
+	}
+
+}
+
 integrar_ejercito = {
 	is_shown = {
 		C:TUR ?= this
