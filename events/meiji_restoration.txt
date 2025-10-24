@@ -723,7 +723,7 @@ meiji.69 = {
 						}
 					}
 				}
-			add_treasury = -2859
+			add_treasury = -12859
 			}
 		}
 		else_if = {
@@ -747,7 +747,7 @@ meiji.69 = {
 						}
 					}
 				}
-			add_treasury = -26357
+			add_treasury = -36357
 			}
 		}
 		else_if = {
@@ -771,7 +771,7 @@ meiji.69 = {
 						}
 					}
 				}
-			add_treasury = -82357
+			add_treasury = -112357
 			}
 		}
 		else_if = {
@@ -795,7 +795,7 @@ meiji.69 = {
 						}
 					}
 				}
-			add_treasury = -149311
+			add_treasury = -189311
 			}
 		}
 		else_if = {
@@ -818,7 +818,7 @@ meiji.69 = {
 						}
 					}
 				}
-			add_treasury = -333572
+			add_treasury = -433572
 			}
 		}
 	}
