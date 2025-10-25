@@ -581,20 +581,30 @@ je_sick_man_bread_basket = {
 			AND = {
 				country_has_building_group_levels = {
 					type = bg_wheat_farms
+					value  >= 150
+				}
+				country_has_building_group_levels = {
+					type = bg_rice_farms
+					value  >= 50
+				}
+			}
+			AND = {
+				country_has_building_group_levels = {
+					type = bg_wheat_farms
 					value  >= 100
 				}
 				country_has_building_group_levels = {
+					type = bg_rice_farms
+					value  >= 25
+				}
+				country_has_building_group_levels = {
 					type = bg_millet_farms
-					value  >= 100
+					value  >= 25
 				}
 			}
 			country_has_building_group_levels = {
 				type = bg_wheat_farms
-				value  >= 200
-			}
-			country_has_building_group_levels = {
-				type = bg_rice_farms
-				value  >= 100
+				value  >= 250
 			}
 		}
 		
