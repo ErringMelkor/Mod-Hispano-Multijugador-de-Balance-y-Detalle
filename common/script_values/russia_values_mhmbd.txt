@@ -17,6 +17,7 @@ nicholas_i_agenda_value = {
 				country_or_subject_owns_entire_state_region = STATE_DOBRUDJA
 				country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
 				country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+				country_or_subject_owns_entire_state_region = STATE_BESSARABIA
 			}
 		}
 		add = 1
@@ -27,6 +28,7 @@ nicholas_i_agenda_value = {
 				country_or_subject_owns_entire_state_region = STATE_KARS
 				country_or_subject_owns_entire_state_region = STATE_TRABZON
 				country_or_subject_owns_entire_state_region = STATE_ERZURUM
+				country_or_subject_owns_entire_state_region = STATE_GREATER_CAUCASUS
 			}
 		}
 		add = 1

@@ -577,10 +577,27 @@ je_sick_man_bread_basket = {
 				}
 			}	
 		}
-		country_has_building_group_levels = {
-			type = bg_wheat_farms
-			value  >= 200
+		OR = {
+			AND = {
+				country_has_building_group_levels = {
+					type = bg_wheat_farms
+					value  >= 100
+				}
+				country_has_building_group_levels = {
+					type = bg_millet_farms
+					value  >= 100
+				}
+			}
+			country_has_building_group_levels = {
+				type = bg_wheat_farms
+				value  >= 200
+			}
+			country_has_building_group_levels = {
+				type = bg_rice_farms
+				value  >= 100
+			}
 		}
+		
 		market_capital.market = {
 			mg:grain = { 
 				market_goods_pricier < -0.25 

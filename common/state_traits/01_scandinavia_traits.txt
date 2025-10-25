@@ -3,6 +3,7 @@
 	
 	modifier = {
 		building_group_bg_logging_throughput_add = 0.25
+		goods_output_coal_mult = 0.25
 	}
 }
 
