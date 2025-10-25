@@ -43,6 +43,7 @@ je_age_of_nicholas_i = {
 	}
 
 	on_complete = {
+		remove_modifier = modifier_nicholas_i_rule
 		add_modifier = {
 			name = modifier_nicholas_i_legacy
 			years = 10
@@ -91,6 +92,7 @@ je_age_of_nicholas_i = {
 	}
 
 	on_fail = {
+		remove_modifier = modifier_nicholas_i_rule
 		add_modifier = {
 			name = modifier_nicholas_i_disaster
 			years = 10
