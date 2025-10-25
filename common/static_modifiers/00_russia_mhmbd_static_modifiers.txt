@@ -5,6 +5,7 @@ modifier_nicholas_i_rule = {
 	unit_morale_damage_mult = 0.03
 	country_military_tech_research_speed_mult = 0.03
 	political_movement_radicalism_add = -0.03
+	country_law_enactment_success_add = -0.03
 	country_authority_add = 30
 }
 

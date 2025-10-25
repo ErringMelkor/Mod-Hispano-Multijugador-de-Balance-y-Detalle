@@ -67,6 +67,12 @@ nicholas_i_agenda_value = {
 	}
 	if = {
 		limit = {
+			government_legitimacy >= 90
+		}
+		add = 1
+	}
+	if = {
+		limit = {
 			AND = {
 				institution_investment_level = {
 					institution = institution_home_affairs

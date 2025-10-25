@@ -32,6 +32,22 @@ nicholas_i_tech_checkbox = {
 	}
 }
 
+nicholas_i_legitimacy_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			government_legitimacy < 90
+		}
+		localization_key = metternich_unticked
+	}
+	text = {
+		trigger = {
+			government_legitimacy >= 90
+		}
+		localization_key = metternich_ticked
+	}
+}
+
 nicholas_i_movement_checkbox = {
 	type = country
 	text = {
