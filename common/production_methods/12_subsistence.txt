@@ -52,6 +52,9 @@ pm_serfdom_no = {
 		law_commercialized_agriculture
 		law_collectivized_agriculture
 	}
+	disallowing_laws = {
+		law_obshchina
+	}
 	
 	building_modifiers = {					
 		unscaled = {
@@ -108,6 +111,8 @@ pm_serfdom = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 	unlocking_laws = {
 		law_serfdom
+		law_multipolar_serfdom
+		law_obshchina
 	}
 	disallowing_laws = {
 		law_ispravniks
@@ -175,6 +180,11 @@ pm_serfdom_building_subsistence_orchards = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 	unlocking_laws = {
 		law_serfdom
+		law_multipolar_serfdom
+		law_obshchina
+	}
+	disallowing_laws = {
+		law_ispravniks
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -238,6 +248,11 @@ pm_serfdom_building_subsistence_pastures = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 	unlocking_laws = {
 		law_serfdom
+		law_multipolar_serfdom
+		law_obshchina
+	}
+	disallowing_laws = {
+		law_ispravniks
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -302,7 +317,12 @@ pm_serfdom_building_subsistence_fishing_villages = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 	unlocking_laws = {
 		law_serfdom
-	}		
+		law_multipolar_serfdom
+		law_obshchina
+	}
+	disallowing_laws = {
+		law_ispravniks
+	}	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_fish_add = 0.35 # 10
@@ -365,6 +385,11 @@ pm_serfdom_building_subsistence_rice_paddies = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 	unlocking_laws = {
 		law_serfdom
+		law_multipolar_serfdom
+		law_obshchina
+	}
+	disallowing_laws = {
+		law_ispravniks
 	}	
 	building_modifiers = {
 		workforce_scaled = {
