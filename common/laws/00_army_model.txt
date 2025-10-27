@@ -245,6 +245,7 @@ law_national_militia = {
 		state_conscription_rate_add = 0.006
 		unit_morale_loss_mult = -0.04
 		unit_defense_mult = 0.02
+		battle_defense_owned_province_mult = 0.02
 	}
 
 	

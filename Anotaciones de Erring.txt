@@ -37,7 +37,8 @@ Personajes:
 		* Maria Vasilievna Trubnikova; Nadezhda Vasilievna Stasova; Anna Filosofova. Activistas y reformistas feministas de la época de Alejandro II.
 		* Gogol.
 		* Nikolay Gavrilovich Chernyshevsky; Alexander Mikhailov. Revolucionarios de Narodnaya Volya. 
-		* Alexander Ivanovich Herzen. Populista agrario de la intelligentsia.
+		* Alexander Ivanovich Herzen. Populista agrario de la intelligentsia. / De la mano con Konstantin Kavelin y Timofey Granovsky.
+		
 
 
 		
@@ -80,6 +81,8 @@ Términos:
 		"Narodnaya Volya" -> "La voluntad del Pueblo / la Gente " organización política secreta de ideologia narodnaya / agraria socialista. Más famoso acto es el asesinato de Alejandro II.
 		"Zemal i Volya" -> "Tierra y Libertad"; precursora de Narodnaya Volya.
 		"obshchina" -> "comunidad campesina" (?)
+		"západnichestvo" -> "Occidentalismo".
+		"západniki" -> "occidentalistas". 
 
 Reworks:
 	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
@@ -345,3 +348,19 @@ Obras Consultadas:
 
 
 
+-----------------------------------------------
+
+Nuevas Ideas:
+
+Evento de Alejandro II: en 1837, todavía como gran duque, emprende por orden de su padre un tour de siete meses por el imperio. Es el primer Romanov en pisar Siberia.
+	Con todo, fue un recorrido apresurado y en cierta parte enmascarado de la miseria del campesinado.
+	2do viaje poco después, esta vez a Europa. En parte para darle experiencias, en parte como iniciación diplomática.
+	Entre los dos viajes consigue aumentar los horizontes de su perspectiva sobre su futuro cargo, y le inculca ideas más profundas frente a la superficialidad con la que se había tomado su educación hasta entonces.
+	
+Nicolás I le encarga muchas tareas de 1839 en adelante, con cada vez mayor responsabilidad, para que entienda y comprenda las instituciones del Imperio.
+Entre 1846-1848, es parte de los comités secretos que discutían el estado de la servidumbre.
+Con la guerra de crimea, Nicolás le encomienda tareas militares.
+
+Alejandro II es el primer Romanov que recibe instrucciones de su padre y tiene responsabilidades gubernamentales (aunque sean nominales) desde la adultez.
+
+Transición al trono muy suave por haber estado 15 años ocupando cargos gubernamentales.

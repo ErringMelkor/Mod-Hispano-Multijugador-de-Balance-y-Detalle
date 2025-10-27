@@ -49,6 +49,9 @@ je_age_of_nicholas_i = {
 			years = 10
 			multiplier = nicholas_i_agenda_value
 		}
+		add_journal_entry = {
+			type = je_age_of_alexander_ii
+		}
 	}
 
 	on_monthly_pulse = {
@@ -99,6 +102,10 @@ je_age_of_nicholas_i = {
 		}
 		ig:ig_landowners ?= {
 			set_ig_trait = ig_trait:ig_trait_terrible_boyars
+		}
+
+		add_journal_entry = {
+			type = je_age_of_alexander_ii
 		}
 	}
 

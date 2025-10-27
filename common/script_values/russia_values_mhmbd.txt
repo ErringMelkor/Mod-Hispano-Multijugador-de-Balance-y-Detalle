@@ -44,6 +44,18 @@ nicholas_i_agenda_value = {
 		}
 		add = 1
 	}
+
+	if = {
+		limit = {
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_TABRIZ
+				country_or_subject_owns_entire_state_region = STATE_URMIA
+				country_or_subject_owns_entire_state_region = STATE_MAZANDARAN
+				country_or_subject_owns_entire_state_region = STATE_AZERBAIJAN
+			}
+		}
+		add = 1
+	}
 	
 	if = {
 		limit = {
@@ -89,7 +101,7 @@ nicholas_i_agenda_value = {
 	}
 	if = {
 		limit = {
-			army_power_projection >= 8000
+			army_power_projection >= 10000
 		}
 		add = 1
 	}
@@ -97,4 +109,51 @@ nicholas_i_agenda_value = {
 
 nicholas_i_tech_target = 58
 
-nicholas_i_military_target = 8000
+nicholas_i_military_target = 10000
+
+
+alexander_ii_agenda_value = {
+	if = {
+		limit = {
+			c:RUS ?= this
+		}
+	}
+	value = 0
+	if = {
+		limit = {
+			leading_producer_of = g:wood
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:hardwood
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:iron
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:coal
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			scaled_debt < 0.5
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_commercialized_agriculture
+		}
+		add = 1
+	}
+
+}

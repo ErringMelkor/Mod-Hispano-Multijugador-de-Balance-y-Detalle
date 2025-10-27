@@ -117,3 +117,26 @@ modifier_appeased_peasantry = {
 	political_movement_radicalism_add = -0.1
 	tax_land_add = -0.15
 }
+
+modifier_alexander_ii_rule = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	state_capitalists_investment_pool_efficiency_mult = 0.05
+	country_loan_interest_rate_mult = -0.02
+	building_group_bg_extraction_construction_efficiency_add = 0.02
+	country_law_enactment_success_add = 0.02
+	
+
+}
+
+modifier_alexander_ii_legacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	
+}
+
+modifier_alexander_ii_disaster = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	
+}
