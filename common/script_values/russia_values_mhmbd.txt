@@ -151,9 +151,25 @@ alexander_ii_agenda_value = {
 	}
 	if = {
 		limit = {
+			ig:ig_industrialists ?= {
+				is_powerful = yes
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
 			has_law_or_variant = law_type:law_commercialized_agriculture
 		}
 		add = 1
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_law_or_variant = law_type:law_autocracy
+			}
+		}
+		add = -1
 	}
 
 }
