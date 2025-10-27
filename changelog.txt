@@ -12,9 +12,10 @@ Rusia:
 	* Mejorada la compañía de Vodka.
 	
 	* Agregados modificadores provinciales de "Yasak" y "Stanitsa Cosaco". Por ahora son permanentes; se planea hacer que sean retirables o modificables con una decisión.
-	* Agregada entrada de diario para el monarca Nicolás I.
+	* Agregada entrada de diario para el monarca Nicolás I: "La Era de Nicolás I", a semejanza de la de Metternich.
 	* Agregados los siguientes personajes, accesibles mediante evento, entradas de diario o posibilidad aleatoria:
 		Entrada de Diario: Pavel Kiselyov;
+	* Agregadas variantes de ley exclusivas a Rusia en las categorías de: ciudadanía; burócratas; escuelas; reforma agraria.
 
 
 Francia:
