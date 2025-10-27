@@ -504,6 +504,8 @@ diplomatic_mitigation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_leverage_generation_mult = 0.35
 	country_infamy_decay_mult = 0.35
+	country_improve_relations_speed_mult = 1.5
+	country_damage_relations_speed_mult = 1.75
 }
 
 # Scales with country population / COUNTRY_POPULATION_LEVERAGE_RESISTANCE_MODIFIER_DIVISOR
