@@ -66,6 +66,18 @@ on_monthly_pulse = {
 			}
 			kill_character = yes
 		}
+		if = {
+			limit = {
+				is_building_type = building_tooling_workshops
+				occupancy > 0.75
+				cash_reserves_ratio > 0.25
+				level >= 50
+			}
+			take_on_scaled_debt = {
+				who = c:TUR
+				value = 0.1
+			}
+		}
 
 		every_character_in_jail = { # Music too loud? Right to jail. Right away. Driving too fast? Jail. Slow? Jail. You undercook fish? Believe it or not, jail.
 			save_scope_as = prisoner_scope
@@ -2397,6 +2409,15 @@ on_character_death = {
 			  			}
 	  				}
   				}
+			}
+
+			if = {
+				limit = {
+					game_date >= 1859.12.12
+				}
+				every_country = {
+					activate_law = law_type:law_womens_suffrage
+				}
 			}
 
 			# If the country and the IG support women's rights, do combinations of woman and/or minority culture for character generation
