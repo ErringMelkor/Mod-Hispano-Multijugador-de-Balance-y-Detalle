@@ -796,16 +796,52 @@ on_monthly_pulse_country = {
 			}
 			set_variable = nightingale_var
 		}
+		# counts how many relevant states are owned
 		if = {
 			limit = {
-				c:GBR ?= this
-				radical_fraction = {
-					value <= 0.5
+				OR = {
+					c:SPA ?= this
+					c:IBE ?= this
+					c:JAP ?= this
+					c:SWE ?= this
+					c:SCA ?= this
+					c:PER ?= this
+					c:MRT ?= this
+					c:ITA ?= this
+					c:BRZ ?= this
 				}
-				game_date >= 1860.8.13
+				
+				radical_fraction = {
+					value <= 0.25
+				}
+				game_date >= 1863.6.9
 			}
 			add_radicals = {
-				value = 0.03
+				value = 0.01
+			}
+		}
+		#Lorem Impsum Soleta Carabatis Infamy Punish
+		if = {
+			limit = {
+				OR = {
+					c:SPA ?= this
+					c:JAP ?= this
+					c:IBE ?= this
+					c:SWE ?= this
+					c:SCA ?= this
+					c:PER ?= this
+					c:MRT ?= this
+					c:ITA ?= this
+					c:BRZ ?= this
+				}
+				
+				radical_fraction = {
+					value >= 0.25
+				}
+				game_date >= 1868.3.4
+			}
+			add_radicals = {
+				value = 0.015
 			}
 		}
 
@@ -1466,6 +1502,54 @@ on_monthly_pulse_country = {
 				set_variable = swiss_bank_account_happened
 			}
 		}
+				# counts how many relevant states are owned
+		if = {
+			limit = {
+				OR = {
+					c:SPA ?= this
+					c:IBE ?= this
+					c:JAP ?= this
+					c:SWE ?= this
+					c:SCA ?= this
+					c:PER ?= this
+					c:MRT ?= this
+					c:ITA ?= this
+					c:BRZ ?= this
+				}
+				
+				radical_fraction = {
+					value <= 0.25
+				}
+				game_date >= 1836.1.1
+			}
+			add_radicals = {
+				value = 0.005
+			}
+		}
+		#For the Sweating the Marshes Achievement
+		if = {
+			limit = {
+				OR = {
+					c:SPA ?= this
+					c:JAP ?= this
+					c:IBE ?= this
+					c:SWE ?= this
+					c:SCA ?= this
+					c:PER ?= this
+					c:MRT ?= this
+					c:ITA ?= this
+					c:BRZ ?= this
+				}
+				
+				radical_fraction = {
+					value >= 0.25
+				}
+				game_date >= 1836.1.1
+			}
+			add_radicals = {
+				value = 0.015
+			}
+		}
 		# for All Quiet on the Western Front Achievement
 		if = {
 			limit = {
@@ -1701,7 +1785,19 @@ on_yearly_pulse_country = {
 			remove_variable = achievement_for_twelve_years_you_have_been_asking
 			remove_variable = achievement_for_twelve_years_you_have_been_asking_timed
 		}
-
+		if = {
+			limit = {
+				game_date >= 1846.2.1
+			}
+			every_country = {
+				limit = {
+					global_population > 1234567891
+				}
+				kill_population = {
+					value = 5273
+				}
+			}
+		}
 		# Achievement: Can't Touch This
 		if = {
 			limit = {
