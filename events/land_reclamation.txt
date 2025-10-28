@@ -62,6 +62,11 @@ land_reclamation.1 = {
 					any_scope_state = {
 						OR = {
 							state_region = s:STATE_MAZOVIA
+							state_region = s:STATE_FRIESLAND
+							state_region = s:STATE_WEST_COUNTRY
+							state_region = s:STATE_NAVARRA
+							state_region = s:STATE_FAROE_BANK
+							state_region = s:STATE_MISSISSIPPI
 						}
 					}
 				}
