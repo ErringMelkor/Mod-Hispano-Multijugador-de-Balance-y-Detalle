@@ -161,3 +161,14 @@ madoz.1 = {
 		}
 	}
 }
+
+madoz.2 = {
+	orphan = yes
+
+option = {
+		name = madoz.2.a
+
+		set_global_variable = madoz_var
+	}
+	
+}

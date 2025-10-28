@@ -1067,7 +1067,7 @@ red_scare.57 = {
 						}
 					}
 				}
-			add_treasury = -18859
+			add_treasury = -18859000
 			}
 		}
 		else_if = {
@@ -1172,7 +1172,7 @@ red_scare.57 = {
 
 		trigger = { is_player = yes }
 
-		set_global_variable = conlosterrorihta
+		set_global_variable = HMPS_alpha_button
 
 		ai_chance = {
 			base = 0

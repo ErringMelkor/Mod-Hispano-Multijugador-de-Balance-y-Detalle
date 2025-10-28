@@ -24,7 +24,6 @@ military_tech_events.401 = {
 		any_scope_building = {
             is_building_type = building_arms_industry
             OR = {
-                has_active_production_method = pm_rifles
                 has_active_production_method = pm_repeaters
                 has_active_production_method = pm_bolt_action_rifles
             }
@@ -41,7 +40,6 @@ military_tech_events.401 = {
             		level >= 3
             		occupancy >= 0.75
            		    OR = {
-              			has_active_production_method = pm_rifles
                 		has_active_production_method = pm_repeaters
                 		has_active_production_method = pm_bolt_action_rifles
             		}
@@ -54,7 +52,6 @@ military_tech_events.401 = {
 					level >= 3
 					occupancy >= 0.75
 		            OR = {
-              			has_active_production_method = pm_rifles
                 		has_active_production_method = pm_repeaters
                 		has_active_production_method = pm_bolt_action_rifles
             		}
@@ -67,8 +64,65 @@ military_tech_events.401 = {
 		}
 	}
 
-	option = { #
+		option = { #
 		name = military_tech_events.401.a
+		default_option = yes
+		scope:rifle_state = {
+			add_modifier = {
+				name = modern_rifle_arsenal
+				days = long_modifier_time
+			}
+		}
+
+		trigger = {
+			NOT = {
+				has_global_variable = military_tech_events_var
+			}
+		}
+
+		hidden_effect = {
+			every_country = {
+				limit = {
+					c:FRA ?= this
+					c:GER ?= this
+				}
+			}
+			activate_law = law_type:law_consumption_based_taxation
+		}
+		
+	}
+	option = { #
+		name = military_tech_events.401.b
+		add_technology_progress = {
+			progress = 4150 technology = repeaters
+		}
+		scope:rifle_state = {
+			add_modifier = {
+				name = arsenal_proving_ground
+				days = long_modifier_time
+			}
+		}
+
+		trigger = {
+			NOT = {
+				has_global_variable = military_tech_events_var
+			}
+		}
+
+		hidden_effect = {
+			every_country = {
+				limit = {
+					c:MRT ?= this
+					c:BRA ?= this
+					c:USA ?= this
+				}
+			}
+			activate_law = law_type:law_traditionalism
+		}
+	}
+
+	option = { #
+		name = military_tech_events.401.c
 		default_option = yes
 		scope:rifle_state = {
 			add_modifier = {
@@ -78,7 +132,7 @@ military_tech_events.401 = {
 		}
 	}
 	option = { #
-		name = military_tech_events.401.b
+		name = military_tech_events.401.d
 		add_technology_progress = {
 			progress = 4150 technology = repeaters
 		}

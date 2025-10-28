@@ -486,3 +486,36 @@ resignation.3 = {
 		}
 	}
 }
+
+# Resignation in the face of revolution
+
+resignation.4 = {
+	orphan = yes
+
+	title = resignation.3.t
+	desc = resignation.3.d
+	flavor = resignation.3.f
+
+	gui_window = event_window_1char_tabloid
+	
+	left_icon = scope:abdicating_monarch
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	duration = 3
+
+	dlc = dlc004
+
+
+	option = {
+		name = resignation.4.a
+		default_option = yes
+
+		annex = c:FRA
+
+		
+	}
+
+}

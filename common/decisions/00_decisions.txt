@@ -62,7 +62,7 @@ rebeldes = {
 			has_global_variable = conlosterrorihta
 		}
 		OR = {
-			has_technology_researched = nitroglycerin
+			has_technology_researched = dynamite
 			has_technology_researched = revolver
 			has_technology_researched = rubber_mastication
 			has_technology_researched = labor_movement

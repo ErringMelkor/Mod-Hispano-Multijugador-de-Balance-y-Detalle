@@ -1,15 +1,6 @@
 ﻿l_spanish:
   
  state_trait_Bohai_Sea: "Mar de Bohai" 
- je_investigacion_peruana: "Reformar Examen Imperial"
- je_investigacion_peruana_reason: "Durante generaciones, hijos de agricultores, artesanos y comerciantes se estrellaron contra el muro de los clásicos, solo para ser considerados indignos. Para estar a la altura de la educación occidental, debemos matar a la bestia de ocho patas y finalmente abrir las puertas del conocimiento a todos los que poseen talento. Una nación de millones debe atraer las mentes de millones."
- modifier_legado_peruano: "Sistema de examen imperial abolido"
- je_five_year_plan_1: "Planes Quinquenales: Industria Minera del Río Amarillo"
- je_five_year_plan_2: "Planes Quinquenales: Complejo Industrial del Río Azul"
- yellow_river_boom_demografico: "¡Plan quinquenal cumplido!"
- blue_river_boom_demografico: "¡Plan quinquenal cumplido!"
- five_year_plan.1.t: "Plan Quinquenal: Auge Minero del Río Amarillo"
- modifier_peruano: "Examen Imperial"
  je_eic_india: "El Nacimiento de Bharat"
  unification_candidate: "Candidato a la Unificación"
  je_eic_india_reason: "Largo tiempo dividido por príncipes y imperios, el subcontinente ahora se mueve como uno solo. Ha llegado el momento de unir a nuestro pueblo bajo una sola bandera — no como fragmentos del pasado, sino como una India soberana renacida."
@@ -32,8 +23,6 @@
  East_Afro: "Africano Oriental"
  South_Afro: "Africano Meridional"
  unt_explosion_demografica: "Explosión Demográfica Neerlandesa"
- five_year_plan.1.d: "La cuenca del río Amarillo, antes conocida por inundaciones y hambrunas, ahora zumba con el poder de hornos y taladros. El Plan Quinquenal establecido por el Emperador ha llegado a su fin — y con ello, se ha forjado una nueva base de acero y carbón. Lo que comenzó como una visión ha tomado forma física: minas que se extienden por millas, ferrocarriles que conectan el interior, y miles trabajan ahora en talleres que rugen como dragones. El Imperio ha domado el río — no con presas, sino con industria. Esto ya no es un sueño. Esto es el futuro."
- five_year_plan.1.a: "Comenzamos a fo
 
 
  

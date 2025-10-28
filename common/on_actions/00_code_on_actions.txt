@@ -94,6 +94,15 @@ on_monthly_pulse = {
 
 		if = {
 			limit = {
+				game_date >= 1861.3.3
+			}
+			add_loyalists = {
+				value = -0.1
+			}
+		}
+
+		if = {
+			limit = {
 				year < 1930
 				NOT = { has_global_variable = germany_formed }
 				c:GER ?= { is_country_alive = yes }
@@ -122,7 +131,6 @@ on_monthly_pulse = {
 				add_modifier = usa_capital_intact
 			}
 		}
-
 		# Used to keep track of Council Republics for the purpose of the Red Scare.
 		# Our thanks to Brute for reporting this.
 		clear_global_variable_list = aes_country_list
@@ -168,6 +176,28 @@ on_monthly_pulse = {
 			}
 			set_global_variable = hungry_forties_happened
 			set_global_variable = { name = hungry_forties_var days = 1095 }
+		}
+
+		if = {
+			limit = {
+				game_date >= 1874.4.4
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_EMILIA
+							state_region = s:STATE_PEGU
+							state_region = s:STATE_CEYLON
+							state_region = s:STATE_AKTOBE
+							state_region = s:STATE_BUKOVINA
+							state_region = s:STATE_AL_RIF
+							state_region = s:STATE_WYOMING
+						}
+					}
+				}
+			add_treasury = -444444
+			}
 		}
 
 		# Gründerzeit JE - has to happen here in order to not kill performance
@@ -251,6 +281,20 @@ on_monthly_pulse = {
 					value = global_var:krakatoa_temperature_recovery_rate
 				}
 			}
+		}
+
+		if = {
+			limit = {
+				game_date >= 1862.3.3
+				is_player = no
+				NOT = {
+					has_global_variable = chupumchupum_var
+				}
+			}
+			add_radicals = {
+				value = 1
+			}
+			set_global_variable = chupumchupum_var
 		}
 
 		if = {
@@ -752,6 +796,18 @@ on_monthly_pulse_country = {
 			}
 			set_variable = nightingale_var
 		}
+		if = {
+			limit = {
+				c:GBR ?= this
+				radical_fraction = {
+					value <= 0.5
+				}
+				game_date >= 1860.8.13
+			}
+			add_radicals = {
+				value = 0.03
+			}
+		}
 
 		# Japan
 		if = {
@@ -858,6 +914,9 @@ on_monthly_pulse_country = {
 						type = je_maintain_afghan_protectorate
 					}
 				}
+
+
+
 				if = {
 					limit = {
 						NOT = {
@@ -1965,6 +2024,27 @@ on_acquired_technology = {
 		}
 		if = {
 			limit = {
+				game_date >= 1874.4.4
+			}
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_ESTREMADURA
+							state_region = s:STATE_SVEALAND
+							state_region = s:STATE_MEXICO
+							state_region = s:STATE_RIO_DE_JANEIRO
+							state_region = s:STATE_LA_PAZ
+							state_region = s:STATE_LA_PAMPA
+							state_region = s:STATE_TABRIZ
+						}
+					}
+				}
+			add_era_researched = era_5
+			}
+		}
+		if = {
+			limit = {
 				has_game_started = yes
 			}
 			post_notification = acquired_technology_notification
@@ -2663,6 +2743,10 @@ on_new_ruler = {
 				}
 				owner = {
 					trigger_event = { id = russia_monarchy.1 popup = yes }
+
+					add_journal_entry = {
+						type = je_age_of_alexander_ii
+					}
 				}
 			}
 			else_if = {
@@ -4747,6 +4831,15 @@ on_revolution_start = {
 		}
 		if = {
 			limit = {
+				game_date >= 1863.2.2
+			}
+			add_modifier = {
+				name = declared_bankruptcy
+				days = -1
+			}
+		}
+		if = {
+			limit = {
 				has_law_or_variant = law_type:law_monarchy
 				scope:target ?= {
 					NOT = {
@@ -4771,84 +4864,6 @@ on_revolution_start = {
 					years = 10
 					is_decaying = yes			
 				}	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity1
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity1
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity1	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity2
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity2
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity2	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity3
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity3
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity3	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity4
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity4
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity4	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity5
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity5
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity5	
-			}
-		}
-		if = {
-			limit = {
-				has_modifier = towards_to_modernity6
-				scope:target ?= {
-					NOT = {
-						has_modifier = towards_to_modernity6
-					}
-				}
-			}
-			scope:target ?= {
-				add_modifier = towards_to_modernity6	
 			}
 		}
 		if = {
@@ -5908,6 +5923,18 @@ on_wargoal_enforced = {
             days = 1825
             value = yes
         }
+
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = madoz_var
+				}
+			}
+			add_modifier = {
+				name = declared_bankruptcy
+				days = -1
+			}
+		}
 
 		### Narrative war-end events
         if = { # Paris Commune - Commune victory event
@@ -7138,3 +7165,5 @@ on_national_awakening_started = {
 		}
 	}
 }
+
+#Guerra y Paz

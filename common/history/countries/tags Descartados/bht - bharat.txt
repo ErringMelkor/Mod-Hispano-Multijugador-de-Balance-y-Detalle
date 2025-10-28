@@ -26,15 +26,5 @@
 
 		effect_starting_politics_traditional = yes
 		
-		
-		
-		
-		add_journal_entry = { type = towards_to_modernity }
-		add_journal_entry = { type = towards_to_modernity_1 }
-		add_journal_entry = { type = towards_to_modernity_2 }
-		add_journal_entry = { type = towards_to_modernity_3 }
-		add_journal_entry = { type = towards_to_modernity_4 }
-		add_journal_entry = { type = towards_to_modernity_5 }
-		add_journal_entry = { type = towards_to_modernity_6 }
 	}
 }

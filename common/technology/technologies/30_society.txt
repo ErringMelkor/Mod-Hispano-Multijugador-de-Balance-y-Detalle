@@ -528,7 +528,7 @@ organized_sports = {
 	
 	modifier = {
 		country_prestige_mult = 0.1
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 		state_radicals_from_political_movements_mult = -0.05
 	}
 	
@@ -708,7 +708,7 @@ nationalism = {
 	modifier = {
 		country_authority_mult = 0.1
 		country_voting_power_mult = 0.1
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 	}
 	
 	unlocking_technologies = {
@@ -971,7 +971,7 @@ civilizing_mission = {
 		country_institution_colonial_affairs_max_investment_add = 1
 		country_max_declared_interests_add = 1
 		country_infamy_generation_against_unrecognized_mult = -0.25
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 	}
 	
 	unlocking_technologies = {
@@ -1142,7 +1142,7 @@ pan-nationalism = {
 		country_authority_mult = 0.1
 		country_support_separatism_strength_mult = 0.25
 		country_voting_power_mult = 0.1
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 		country_infamy_generation_mult = -0.1
 	}
 	
@@ -1228,7 +1228,7 @@ camera = {
 	
 	modifier = {
 		country_prestige_mult = 0.05
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 	}
 	
 	unlocking_technologies = {
@@ -1533,7 +1533,7 @@ film = {
 	
 	modifier = {
 		country_prestige_mult = 0.05
-		country_diplomatic_play_maneuvers_add = 5
+		country_diplomatic_play_maneuvers_add = 10
 	}
 	
 	unlocking_technologies = {

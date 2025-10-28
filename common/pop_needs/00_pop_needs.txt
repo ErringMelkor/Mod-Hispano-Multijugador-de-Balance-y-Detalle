@@ -286,7 +286,7 @@ popneed_free_movement = {
 		goods = automobiles
 
 		weight = 1.25
-		max_supply_share = 1.0
+		max_supply_share = 0.01
 		min_supply_share = 0.0
 	}
 }
@@ -306,7 +306,7 @@ popneed_communication = {
 		goods = telephones
 
 		weight = 4
-		max_supply_share = 1.0
+		max_supply_share = 0.01
 		min_supply_share = 0.0
 	}
 }
@@ -398,7 +398,7 @@ popneed_luxury_items = {
 		goods = radios
 
 		weight = 1.15
-		max_supply_share = 0.5
+		max_supply_share = 0.01
 		min_supply_share = 0.0
 	}
 }
@@ -446,7 +446,7 @@ popneed_leisure = {
 		goods = automobiles
 
 		weight = 1
-		max_supply_share = 0.25
+		max_supply_share = 0.01
 		min_supply_share = 0.0
 	}
 
@@ -454,7 +454,7 @@ popneed_leisure = {
 		goods = radios
 
 		weight = 1
-		max_supply_share = 0.2
+		max_supply_share = 0.01
 		min_supply_share = 0.0
 	}
 

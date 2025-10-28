@@ -621,3 +621,5 @@ kamehameha_coin_toss = {
 		}
 	}
 }
+
+#Guerra y Paz
