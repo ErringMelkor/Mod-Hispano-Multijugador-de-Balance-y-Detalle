@@ -119,27 +119,308 @@ alexander_ii_agenda_value = {
 		}
 	}
 	value = 0
+	#1pto por cada producto; 2-3-4 por cada entrada normal. Ser líder en bienes te cuenta como "mini-punto".
+	# Military
 	if = {
 		limit = {
-			leading_producer_of = g:wood
+			leading_producer_of = g:ammunition
 		}
 		add = 1
 	}
 	if = {
 		limit = {
-			leading_producer_of = g:hardwood
+			leading_producer_of = g:small_arms
 		}
 		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:artillery
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:tanks
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:aeroplanes
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:manowars
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:ironclads
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:ammunition
+		}
+		add = 1
+	}
+	#Staple
+	if = {
+		limit = {
+			leading_producer_of = g:grain
+		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:fish
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:fabric
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:wood
+		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:groceries
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:clothes
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:furniture
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:paper
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:merchant_marine
+		}
+		add = 1
+	}
+	# Industrial
+	if = {
+		limit = {
+			leading_producer_of = g:clippers
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:steamers
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:silk
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:dye
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:sulfur
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:coal
+		}
+		add = 5
 	}
 	if = {
 		limit = {
 			leading_producer_of = g:iron
 		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:lead
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:hardwood
+		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:rubber
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:oil
+		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:engines
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:steel
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:glass
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:fertilizer
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:tools
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:explosives
+		}
+		add = 2
+	}
+	#Luxury
+	if = {
+		limit = {
+			leading_producer_of = g:porcelain
+		}
 		add = 1
 	}
 	if = {
 		limit = {
-			leading_producer_of = g:coal
+			leading_producer_of = g:meat
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:fruit
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:liquor
+		}
+		add = 5
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:wine
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:tea
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:coffee
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:sugar
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:tobacco
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:opium
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:automobiles
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:telephones
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:radios
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:luxury_clothes
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:luxury_furniture
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			leading_producer_of = g:fine_art
 		}
 		add = 1
 	}
@@ -147,7 +428,7 @@ alexander_ii_agenda_value = {
 		limit = {
 			scaled_debt < 0.5
 		}
-		add = 1
+		add = 10
 	}
 	if = {
 		limit = {
@@ -155,21 +436,18 @@ alexander_ii_agenda_value = {
 				is_powerful = yes
 			}
 		}
-		add = 1
+		add = 10
 	}
 	if = {
 		limit = {
 			has_law_or_variant = law_type:law_commercialized_agriculture
 		}
-		add = 1
+		add = 10
 	}
 	if = {
 		limit = {
-			NOT = {
-				has_law_or_variant = law_type:law_autocracy
-			}
+			has_law_or_variant = law_type:law_mass_conscription
 		}
-		add = -1
+		add = 10
 	}
-
 }

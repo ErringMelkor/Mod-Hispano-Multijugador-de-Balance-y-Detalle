@@ -121,23 +121,30 @@ modifier_appeased_peasantry = {
 modifier_alexander_ii_rule = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 
-	state_capitalists_investment_pool_efficiency_mult = 0.02
-	country_loan_interest_rate_mult = -0.02
-	building_group_bg_extraction_construction_efficiency_add = 0.02
-	country_law_enactment_success_add = 0.02
-	country_bureaucracy_mult = 0.02
-	
+	state_capitalists_investment_pool_efficiency_mult = 0.002
+	country_loan_interest_rate_mult = -0.002
+	building_group_bg_extraction_construction_efficiency_add = 0.002
+	building_group_bg_agriculture_construction_efficiency_add = 0.002
+	country_bureaucracy_mult = 0.002
+	state_pop_qualifications_mult = 0.002
 
 }
 
 modifier_alexander_ii_legacy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-
 	
+	state_capitalists_investment_pool_efficiency_mult = 0.002
+	country_loan_interest_rate_mult = -0.002
+	building_group_bg_extraction_throughput_add = 0.002
+	building_group_bg_agriculture_throughput_add = 0.002
+	country_bureaucracy_mult = 0.002
+	state_pop_qualifications_mult = 0.002
 }
 
 modifier_alexander_ii_disaster = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 
-	
+	country_law_enactment_success_add = -0.15
+	political_movement_radicalism_add = 0.5
+	country_bureaucracy_mult = -0.1
 }

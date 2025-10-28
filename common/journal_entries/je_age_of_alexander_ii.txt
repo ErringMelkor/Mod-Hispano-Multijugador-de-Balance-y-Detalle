@@ -58,9 +58,6 @@ je_age_of_alexander_ii = {
 	}
 
 	fail = {
-		any_civil_war = {
-			is_civil_war_type = revolution
-		}
 	}
 
 	on_fail = {

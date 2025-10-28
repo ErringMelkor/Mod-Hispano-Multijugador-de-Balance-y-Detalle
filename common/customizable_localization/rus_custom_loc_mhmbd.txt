@@ -199,3 +199,81 @@ nicholas_i_institutions_checkbox = {
 		localization_key = metternich_ticked
 	}
 }
+
+alexander_ii_debt_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				scaled_debt < 0.5
+			}
+		}
+		localization_key = alexander_ticked
+	}
+	text = {
+		trigger = {
+			NOT = {
+				scaled_debt > 0.5
+			}
+		}
+		localization_key = alexander_unticked
+	}
+}
+
+alexander_ii_industralists_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				ig:ig_industrialists ?= {
+					is_powerful = yes
+				}
+			}
+		}
+		localization_key = alexander_unticked
+	}
+	text = {
+		trigger = {
+			ig:ig_industrialists ?= {
+				is_powerful = yes
+			}
+		}
+		localization_key = alexander_ticked
+	}
+}
+
+alexander_ii_commercialized_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				has_law = law_type:law_commercialized_agriculture
+			}
+		}
+		localization_key = alexander_unticked
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_commercialized_agriculture
+		}
+		localization_key = alexander_ticked
+	}
+}
+
+alexander_ii_conscription_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				has_law = law_type:law_mass_conscription
+			}
+		}
+		localization_key = alexander_unticked
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_mass_conscription
+		}
+		localization_key = alexander_ticked
+	}
+}
