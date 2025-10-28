@@ -1,0 +1,336 @@
+﻿je_conquista_americas_main = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	visible = {
+		has_law = law_type:law_monarchy
+		has_variable = guerra_carlista_complete
+	}
+
+	immediate = {
+		set_variable = {
+			name = conquista_americas_var
+			value = 0
+		}
+	}
+
+	current_value = {
+		value = var:conquista_americas_var
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		set_variable = conquista_americas_completada
+
+		add_loyalists = {
+			value = 0.05
+			culture = cu:spanish
+		}
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+		}
+
+		ig:ig_landowners = {
+			set_ig_trait = ig_trait:ig_trait_tierra_dorada
+		}
+	}
+
+	progressbar = yes
+
+	scripted_button = reclamar_centroamerica_scripted_button
+	scripted_button = reclamar_nueva_granada_scripted_button
+	scripted_button = reclamar_el_peru_scripted_button
+
+	invalid = {
+		has_variable = conquista_americas_completada
+	}
+
+	weight = 10000
+
+	should_be_pinned_by_default = yes
+}
+
+
+je_reconquista_centroamerica = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_COSTA_RICA
+		has_state_in_state_region = STATE_NICARAGUA
+		has_state_in_state_region = STATE_HONDURAS
+		has_state_in_state_region = STATE_SAN_SALVADOR
+		has_state_in_state_region = STATE_GUATEMALA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = conquista_americas_var
+			add = 1
+		}
+
+		add_modifier = {
+			name = fervor_nacional
+			months = 12
+		}
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_reconquista_nueva_granada = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_ZULIA
+		has_state_in_state_region = STATE_MIRANDA
+		has_state_in_state_region = STATE_ANTIOQUIA
+		has_state_in_state_region = STATE_CUNDINAMARCA
+		has_state_in_state_region = STATE_CAUCA
+		has_state_in_state_region = STATE_ECUADOR
+	}
+
+	on_complete = {
+		change_variable = {
+			name = conquista_americas_var
+			add = 1
+		}
+		
+		add_modifier = {
+			name = fervor_nacional
+			months = 12
+		}
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_reconquista_el_peru = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_CAJAMARCA
+		has_state_in_state_region = STATE_LIMA
+		has_state_in_state_region = STATE_ICA
+		has_state_in_state_region = STATE_AREQUIPA
+		has_state_in_state_region = STATE_LA_PAZ
+		has_state_in_state_region = STATE_POTOSI
+		has_state_in_state_region = STATE_SANTA_CRUZ
+		has_state_in_state_region = STATE_TARAPACA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = conquista_americas_var
+			add = 1
+		}
+		
+		add_modifier = {
+			name = fervor_nacional
+			months = 12
+		}
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+
+je_destino_imperial_main = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	visible = {
+		has_law = law_type:law_monarchy
+		has_variable = conquista_americas_completada
+	}
+
+	immediate = {
+		set_variable = {
+			name = destino_imperial_var
+			value = 0
+		}
+	}
+
+	current_value = {
+		value = var:destino_imperial_var
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		set_variable = conquista_americas_completada
+
+		add_loyalists = {
+			value = 0.05
+			culture = cu:spanish
+		}
+
+		add_loyalists = {
+			value = 0.05
+			culture = cu:portuguese
+		}
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+		}
+	}
+
+	progressbar = yes
+
+	scripted_button = reclamar_mexico_scripted_button
+	scripted_button = reclamar_la_plata_scripted_button
+	scripted_button = reclamar_brasil_scripted_button
+
+	invalid = {
+		has_variable = conquista_americas_completada
+	}
+
+	weight = 10000
+
+	should_be_pinned_by_default = yes
+
+}
+
+je_reconquista_mexico = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_CHIAPAS
+		has_state_in_state_region = STATE_YUCATAN
+		has_state_in_state_region = STATE_VERACRUZ
+		has_state_in_state_region = STATE_MEXICO
+		has_state_in_state_region = STATE_OAXACA
+		has_state_in_state_region = STATE_GUERRERO
+		has_state_in_state_region = STATE_JALISCO
+		has_state_in_state_region = STATE_BAJIO
+		has_state_in_state_region = STATE_ZACATECAS
+	}
+
+	on_complete = {
+		change_variable = {
+			name = destino_imperial_var
+			add = 1
+		}
+
+		add_modifier = {
+			name = fervor_nacional
+			months = 12
+		}
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_reconquista_la_plata = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_BUENOS_AIRES
+		has_state_in_state_region = STATE_SANTA_FE
+		has_state_in_state_region = STATE_RIO_NEGRO
+		has_state_in_state_region = STATE_URUGUAY
+		has_state_in_state_region = STATE_TUCUMAN
+		has_state_in_state_region = STATE_CORRIENTES
+		has_state_in_state_region = STATE_LA_PAMPA
+		has_state_in_state_region = STATE_JUJUY
+	}
+
+	on_complete = {
+		change_variable = {
+			name = destino_imperial_var
+			add = 1
+		}
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+}
+
+je_reconquista_brasil = {
+	icon = "gfx/interface/icons/event_icons/morrion.dds"
+
+	group = je_group_internal_affairs
+
+	complete = {
+		has_state_in_state_region = STATE_SANTA_CATARINA
+		has_state_in_state_region = STATE_RIO_GRANDE_DO_SUL
+		has_state_in_state_region = STATE_SAO_PAULO
+		has_state_in_state_region = STATE_RIO_DE_JANEIRO
+		has_state_in_state_region = STATE_MINAS_GERAIS
+		has_state_in_state_region = STATE_BAHIA
+		has_state_in_state_region = STATE_PERNAMBUCO
+		has_state_in_state_region = STATE_PARAIBA
+		has_state_in_state_region = STATE_RIO_GRANDE_DO_NORTE
+		has_state_in_state_region = STATE_CEARA
+		has_state_in_state_region = STATE_PARANA
+	}
+
+	on_complete = {
+		change_variable = {
+			name = destino_imperial_var
+			add = 1
+		}
+
+		set_variable = recapturado_brasil
+	}
+
+	weight = 5000
+
+	transferable = no
+	should_be_pinned_by_default = yes
+} 
