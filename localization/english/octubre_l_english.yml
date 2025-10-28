@@ -87,8 +87,8 @@
  upset_intelligentsia: "Liberal agitation"
  planear_gran_campana: "Planning a Great Campaign"
  
- military_tech_events.401.c:0 "The [SCOPE.sState('rifle_state').GetCityHubName] Arsenal shall be famed throughout the world."
- military_tech_events.401.d:0 "[ROOT.GetCountry.GetNameNoFormatting] shall be at the forefront of military innovation."
+ military_tech_events.401.c: "The [SCOPE.sState('rifle_state').GetCityHubName] Arsenal shall be famed throughout the world."
+ military_tech_events.401.d: "[ROOT.GetCountry.GetNameNoFormatting] shall be at the forefront of military innovation."
  
  ig_trait_orden_natural: "The Natural Order"
  ig_trait_orden_natural_desc: "My father was the owner of these lands; now the state is, but I continue to receive the same income. My father was called lord; I was called cacique. Fortunately, no matter how much progress the liberals want, the natural order of the lands things will remain the same, and the peasants understand it."
