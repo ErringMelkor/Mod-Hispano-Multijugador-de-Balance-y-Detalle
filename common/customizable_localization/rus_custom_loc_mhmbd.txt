@@ -204,17 +204,13 @@ alexander_ii_debt_checkbox = {
 	type = country
 	text = {
 		trigger = {
-			NOT = {
-				scaled_debt < 0.5
-			}
+			scaled_debt < 0.5
 		}
 		localization_key = alexander_ticked
 	}
 	text = {
 		trigger = {
-			NOT = {
-				scaled_debt > 0.5
-			}
+			scaled_debt > 0.5
 		}
 		localization_key = alexander_unticked
 	}
@@ -273,6 +269,24 @@ alexander_ii_conscription_checkbox = {
 	text = {
 		trigger = {
 			has_law = law_type:law_mass_conscription
+		}
+		localization_key = alexander_ticked
+	}
+}
+
+alexander_ii_autocracy_checkbox = {
+	type = country
+	text = {
+		trigger = {
+			NOT = {
+				has_law = law_type:law_autocracy
+			}
+		}
+		localization_key = alexander_unticked
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_autocracy
 		}
 		localization_key = alexander_ticked
 	}

@@ -450,4 +450,12 @@ alexander_ii_agenda_value = {
 		}
 		add = 10
 	}
+	if = {
+		limit = {
+			NOT = {
+				has_law_or_variant = law_type:law_autocracy
+			}
+		}
+		add = -20
+	}
 }

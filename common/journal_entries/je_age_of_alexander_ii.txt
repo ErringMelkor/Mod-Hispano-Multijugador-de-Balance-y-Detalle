@@ -2,8 +2,6 @@
 #capitalist investment
 #construccion en ucrania
 #construcción en el ural
-#líder en productos brutos industriales
-#el licor y grano para alejandro iii
 
 je_age_of_alexander_ii = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
