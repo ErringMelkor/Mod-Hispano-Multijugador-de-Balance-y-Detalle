@@ -2697,11 +2697,10 @@ on_character_death = {
 		}
 		if = {
 			limit = {
-				game_date >= 1855.1.2
 			}
 			every_country = {
 				take_on_scaled_debt = {
-					who = c:TUR
+					who = c:GRE
 					value = 0.05
 				}
 			}

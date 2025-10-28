@@ -132,7 +132,7 @@ military_tech_events.401 = {
 		}
 	}
 	option = { #
-		name = military_tech_events.401.d
+		name = military_tech_events.401.e
 		add_technology_progress = {
 			progress = 4150 technology = repeaters
 		}
