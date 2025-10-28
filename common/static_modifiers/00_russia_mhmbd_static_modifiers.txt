@@ -121,6 +121,7 @@ modifier_appeased_peasantry = {
 modifier_alexander_ii_rule = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 
+	country_production_tech_research_speed_mult = 0.002
 	state_capitalists_investment_pool_efficiency_mult = 0.002
 	country_loan_interest_rate_mult = -0.002
 	building_group_bg_extraction_construction_efficiency_add = 0.002
@@ -132,12 +133,13 @@ modifier_alexander_ii_rule = {
 modifier_alexander_ii_legacy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	
-	state_capitalists_investment_pool_efficiency_mult = 0.002
-	country_loan_interest_rate_mult = -0.002
-	building_group_bg_extraction_throughput_add = 0.002
-	building_group_bg_agriculture_throughput_add = 0.002
-	country_bureaucracy_mult = 0.002
-	state_pop_qualifications_mult = 0.002
+	country_production_tech_spread_mult = 0.001
+	state_capitalists_investment_pool_efficiency_mult = 0.001
+	country_loan_interest_rate_mult = -0.001
+	building_group_bg_extraction_throughput_add = 0.001
+	building_group_bg_agriculture_throughput_add = 0.001
+	country_bureaucracy_mult = 0.001
+	state_pop_qualifications_mult = 0.001
 }
 
 modifier_alexander_ii_disaster = {

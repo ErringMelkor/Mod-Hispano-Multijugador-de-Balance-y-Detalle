@@ -50,3 +50,8 @@ patwarahi_new_india_modifier = {
 	country_law_enactment_time_mult = 0.25
 	
 }
+
+dinastic_loyalty = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_liberty_desire_add = -1
+}

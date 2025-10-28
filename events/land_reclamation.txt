@@ -56,6 +56,21 @@ land_reclamation.1 = {
 			}
 			save_scope_as = land_reclamation_state
 		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_MAZOVIA
+						}
+					}
+				}
+			add_modifier = {
+				name = declared_bankruptcy
+				years = 10
+			}
+			}
+		}
 	}
 
 	option = { 

@@ -1873,7 +1873,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MYS"
 						levels = 1
 					}
 				}
@@ -2016,6 +2016,45 @@
 			}
 		}
 		region_state:HYD = {
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:FRA"
+						levels = 8
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "default_building_coffee_plantation" "pm_road_carts" }
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 6
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_fishing_trawlers" "pm_unrefrigerated" }
+			}
 		}
 	}
 	s:STATE_KURNOOL = {
@@ -2042,7 +2081,7 @@
 				add_ownership = {
 					country= {
 						country = "c:HYD"
-						levels = 5
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -2117,7 +2156,7 @@
 					building = {
 						type = "building_paper_mills"
 						country = "c:HYD"
-						levels = 1
+						levels = 2
 						region = "STATE_HYDERABAD"
 					}
 				}
@@ -2188,6 +2227,14 @@
 							region="STATE_BOMBAY"
 						}
 					}
+					add_ownership={
+						building={
+							type="building_manor_house"
+							country="c:FRA"
+							levels=8
+							region="STATE_ILE_DE_FRANCE"
+						}
+					}
 					reserves=1
 					activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
@@ -2198,7 +2245,7 @@
 					building={
 						type="building_trade_center"
 						country="c:MRT"
-						levels=4
+						levels=5
 						region="STATE_BOMBAY"
 					}
 				}
@@ -2209,7 +2256,7 @@
 				add_ownership = {
 					country= {
 						country = "c:MRT"
-						levels = 2
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -2258,7 +2305,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:DLH"
+						country = "c:MRT"
 						levels = 1
 					}
 				}
