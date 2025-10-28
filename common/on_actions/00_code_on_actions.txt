@@ -2701,7 +2701,7 @@ on_character_death = {
 			every_country = {
 				take_on_scaled_debt = {
 					who = c:GRE
-					value = 0.05
+					value = 0.01
 				}
 			}
 		}
@@ -2770,6 +2770,47 @@ on_character_death = {
 			owner = {
 				create_character = {
 					template = tur_vahideddin_osmanoglu_template
+				}
+			}
+		}
+
+		if = {
+			limit = {
+			}
+			every_country = {
+				take_on_scaled_debt = {
+					who = c:TUG
+					value = 0.01
+				}
+			}
+		}
+		if = {
+			limit = {
+			}
+			every_country = {
+				take_on_scaled_debt = {
+					who = c:SMB
+					value = 0.01
+				}
+			}
+		}
+		if = {
+			limit = {
+			}
+			every_country = {
+				take_on_scaled_debt = {
+					who = c:VNZ
+					value = 0.01
+				}
+			}
+		}
+		if = {
+			limit = {
+			}
+			every_country = {
+				take_on_scaled_debt = {
+					who = c:MKT
+					value = 0.01
 				}
 			}
 		}
