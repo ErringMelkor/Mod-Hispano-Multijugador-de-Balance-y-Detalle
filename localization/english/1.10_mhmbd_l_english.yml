@@ -148,6 +148,8 @@ pm_oil_trawlers: "Oil Trawlers"
 goods_output_coal_mult: "$coal$ Output Multiplier"
 goods_output_coal_mult_desc: "A bonus or penalty for the production of $Coal$."
 
+law_glasnost: "Glasnost"
+
 je_age_of_alexander_ii: "La Era de Alejandro II"
 je_age_of_alexander_ii_reason: " Alejado de las políticas militaristas y opresivas de su padre, Alejandro II desea industrializar y modernizar su país sin renunciar al concepto de la monarquia guiada por la mano divina. \n\n#b La agenda de Alejandro II:#!\n El cumplimiento de sus objetivos mejorará tanto el efecto actual del Zar como de su Legado una vez este pase la antorcha del gobierno ruso.\n• [ROOT.GetCountry.GetNameNoFlag] aumentará su bono por ser líder de producción en bienes Industriales, Grano y Licor; y en menor medida con el resto de bienes.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_debt_checkbox')] La deuda de [ROOT.GetCountry.GetNameNoFlag] no supera la mitad de su crédito.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_industralists_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene Industralistas poderosos. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_commercialized_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene Agricultura Comercializada. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_conscription_checkbox')] [ROOT.GetCountry.GetNameNoFlag] tiene Conscripción en Masa. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_autocracy_checkbox')] [ROOT.GetCountry.GetNameNoFlag] mantiene su Autocracia."
 
