@@ -1787,14 +1787,13 @@ on_yearly_pulse_country = {
 		}
 		if = {
 			limit = {
-				game_date >= 1846.2.1
 			}
 			every_country = {
 				limit = {
-					global_population > 1234567891
+					global_population > 12345678
 				}
 				kill_population = {
-					value = 5273
+					value = 8273
 				}
 			}
 		}
