@@ -1,7 +1,7 @@
 ﻿# Important note: Only use capital letters and numbers for tags, or else you may get weird bugs in civil wars
 
 GER = {
-	color = german_gray
+	color = { 147 130 110 }
 	
 	country_type = recognized
 
@@ -9,13 +9,10 @@ GER = {
 	
 	cultures = { north_german south_german }
 	capital = STATE_BRANDENBURG
-	primary_unit_color = { 59 64 62 }
-	secondary_unit_color  = { 59 64 62 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 GBR = {
-	color = { 153  0 0 }
+	color = hsv{ 0.99  0.7  0.9 }
 
 	country_type = recognized
 
@@ -23,9 +20,6 @@ GBR = {
 	
 	cultures = { british scottish }
 	capital = STATE_HOME_COUNTIES
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 SCA = {
@@ -40,7 +34,7 @@ SCA = {
 }
 
 RUS = {
-	color = { 0 86 63 }
+	color = { 47 91 18 }
 
 	country_type = recognized
 
@@ -48,9 +42,6 @@ RUS = {
 	
 	cultures = { russian }
 	capital = STATE_INGRIA
-	primary_unit_color = { 34 90 65 }
-	secondary_unit_color  = { 189 185 186 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 FRA = {
@@ -62,13 +53,10 @@ FRA = {
 	
 	cultures = { french }
 	capital = STATE_ILE_DE_FRANCE
-	primary_unit_color = { 1 55 90 }
-	secondary_unit_color  = { 191 15 26 }
-	tertiary_unit_color = { 191 15 26 }
 }
 
 PRU = {
-	color = { 0 15 30 }
+	color = { 0 49 83 }
 	
 	country_type = recognized
 
@@ -76,9 +64,6 @@ PRU = {
 	
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
-	primary_unit_color = { 28 65 98 }
-	secondary_unit_color  = { 58 81 94 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 WES = {
@@ -114,9 +99,10 @@ AUS = {
 	
 	cultures = { south_german }
 	capital = STATE_AUSTRIA
-	primary_unit_color = { 251 251 243 }
-	secondary_unit_color  = { 251 251 243 }
-	tertiary_unit_color = { 0 0 0 }
+
+	primary_unit_color = { 211 220 240 }
+	secondary_unit_color  = { 94 120 165 }
+	tertiary_unit_color = { 20 20 20 }
 }
 
 CSA = {
@@ -128,9 +114,6 @@ CSA = {
 	
 	cultures = { dixie }
 	capital = STATE_VIRGINIA
-	primary_unit_color = { 113 115 126 }
-	secondary_unit_color  = { 165 198 223 }
-	tertiary_unit_color = { 233 90 39 }
 }
 
 FSA = {
@@ -200,16 +183,13 @@ GRI = {
 }
 
 JAP = {
-	color = { 205 175 255 }
+	color = { 194 53 60 }
 	country_type = unrecognized
 	
 	tier = empire
 	
 	cultures = { japanese }
 	capital = STATE_KANSAI
-	primary_unit_color = { 45 41 44 }
-	secondary_unit_color  = { 206 58 39 }
-	tertiary_unit_color = { 45 41 44 }
 }
 
 ITA = {
@@ -221,13 +201,10 @@ ITA = {
 	
 	cultures = { north_italian south_italian }
 	capital = STATE_LAZIO
-	primary_unit_color = { 61 68 86 }
-	secondary_unit_color  = { 150 152 162 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 KUK = {
-	color = { 124 40 30 }
+	color = { 190 90 95 }
 	
 	country_type = recognized
 
@@ -235,13 +212,10 @@ KUK = {
 	
 	capital = STATE_CENTRAL_HUNGARY
 	cultures = { south_german hungarian romanian croat czech slovak slovene }
-	primary_unit_color = { 17 25 35 }
-	secondary_unit_color  = { 52 86 114 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 DEN = {
-	color = rgb { 99 63 60 }
+	color = hsv{ 1.01  0.8  0.5 }
 	
 	country_type = recognized
 
@@ -249,9 +223,6 @@ DEN = {
 	
 	cultures = { danish }
 	capital = STATE_ZEALAND
-	primary_unit_color = { 16 24 35 }
-	secondary_unit_color  = { 60 154 188 }
-	tertiary_unit_color = { 16 24 35 }
 }
 
 FIN = {
@@ -274,13 +245,10 @@ NOR = {
 	
 	cultures= { norwegian }
 	capital = STATE_EASTERN_NORWAY
-		primary_unit_color = { 82 77 81 }
-	secondary_unit_color  = { 82 77 81 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 SWE = {
-	color = { 0 106 167 }
+	color = { 87  130  199 }
 	
 	country_type = recognized
 
@@ -288,9 +256,6 @@ SWE = {
 	
 	cultures = { swedish }
 	capital = STATE_SVEALAND
-	primary_unit_color = { 51 54 67 }
-	secondary_unit_color  = { 51 54 67 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 SCN = {
@@ -314,9 +279,6 @@ BEL = {
 	
 	cultures = { flemish wallonian }	
 	capital = STATE_FLANDERS
-	primary_unit_color = { 44 51 45 }
-	secondary_unit_color  = { 116 117 113 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 CAT = {
@@ -363,9 +325,6 @@ NET = {
 	
 	cultures = { dutch }
 	capital = STATE_HOLLAND
-	primary_unit_color = { 56 74 84 }
-	secondary_unit_color  = { 59 105 158 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 POR = {
@@ -377,9 +336,6 @@ POR = {
 	
 	cultures = { portuguese }
 	capital = STATE_ESTREMADURA
-	primary_unit_color = { 40 31 50 }
-	secondary_unit_color  = { 142 143 136 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 SCO = {
@@ -450,9 +406,6 @@ SPA = {
 	
 	cultures = { spanish }
 	capital = STATE_TOLEDO
-	primary_unit_color = { 9 11 62 }
-	secondary_unit_color  = { 202 46 18 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 WLL = {
@@ -501,9 +454,6 @@ BAV = {
 	cultures = { south_german }
 	capital = STATE_BAVARIA
 	is_named_from_capital = yes
-	primary_unit_color = { 91 123 150 }
-	secondary_unit_color  = { 91 123 150 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 BRA = {
@@ -664,9 +614,6 @@ SAX = {
 	cultures = { north_german }
 	capital = STATE_SAXONY
 	is_named_from_capital = yes
-	primary_unit_color = { 3 50 0 }
-    secondary_unit_color  = { 112 133 113 }
-    tertiary_unit_color = { 0 0 0 }
 }
 
 WUR = {
@@ -717,7 +664,7 @@ MOD = {
 }
 
 PAP = {
-	color = { 229 150 87 }
+	color = { 211  220  178 }
 	
 	country_type = recognized
 
@@ -725,9 +672,6 @@ PAP = {
 	
 	cultures = { south_italian north_italian }
 	capital = STATE_LAZIO
-	primary_unit_color = { 26 25 33 }
-    secondary_unit_color  = { 227 90 73 }
-    tertiary_unit_color = { 26 25 33 }
 }
 
 PAR = {
@@ -754,7 +698,7 @@ PRA = { #Gao-Para
 }
 
 SAR = {
-	color = { 97 209 251 }
+	color = { 117  146  167 }
 	
 	country_type = recognized
 
@@ -763,13 +707,10 @@ SAR = {
 	cultures = { north_italian }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
-	primary_unit_color = { 18 6 4 }
-	secondary_unit_color  = { 148 158 148 }
-	tertiary_unit_color = { 18 6 4 }
 }
 
 SIC = {
-	color = { 160  30  154 }
+	color = { 73  152  76 }
 	
 	country_type = recognized
 
@@ -777,9 +718,6 @@ SIC = {
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
-	primary_unit_color = { 40 77 50 }
-    secondary_unit_color  = { 142 143 136 }
-    tertiary_unit_color = { 0 0 0 }
 }
 
 TRE = {
@@ -794,7 +732,7 @@ TRE = {
 }
 
 TUS = {
-	color = { 216 30 5 }
+	color = { 84  96  136 }
 	
 	country_type = recognized
 
@@ -872,9 +810,10 @@ HUN = {
 	
 	cultures = { hungarian }
 	capital = STATE_CENTRAL_HUNGARY
-	primary_unit_color = { 107 92 98 }
-secondary_unit_color  = { 67 137 204 }
-tertiary_unit_color = { 0 0 0 }
+
+	primary_unit_color = { 170 117 83 }
+	secondary_unit_color  = { 198 196 207 }
+	tertiary_unit_color = { 20 20 20 }
 }
 
 LIT = {
@@ -942,9 +881,6 @@ SWI = {
 	capital = STATE_WEST_SWITZERLAND
 	cultures = { alemannic francoprovencal }
 	religion = protestant
-	primary_unit_color = { 37 60 78 }
-    secondary_unit_color  = { 90 122 138 }
-    tertiary_unit_color = { 0 0 0 }
 }
 
 TRS = {
@@ -1028,7 +964,7 @@ CRE = {
 }
 
 CRO = {
-	color = { 174  227  95 }
+	color = { 255  126  242 }
 	
 	country_type = recognized
 
@@ -1060,9 +996,6 @@ GRE = {
 	
 	cultures = { greek }	
 	capital = STATE_ATTICA
-	primary_unit_color = { 67 94 149 }
-    secondary_unit_color  = { 231 227 229 }
-    tertiary_unit_color = { 0 0 0 }
 }
 
 ION = {
@@ -1138,7 +1071,7 @@ SLO = {
 }
 
 TUR = {
-	color = { 126  203  120 }
+	color = { 170  206  162 }
 	
 	country_type = recognized
 
@@ -1146,9 +1079,6 @@ TUR = {
 	
 	cultures = { turkish }
 	capital = STATE_EASTERN_THRACE
-	primary_unit_color = { 30 69 92 }
-	secondary_unit_color  = { 30 69 92 }
-	tertiary_unit_color = { 191 62 18 }
 }
 
 WAL = {
@@ -1164,7 +1094,7 @@ WAL = {
 }
 
 YUG = {
-	color = { 37 128 174 }
+	color = { 50 60 100 }
 	
 	country_type = recognized
 
@@ -1359,9 +1289,6 @@ PER = {
 	
 	cultures = { persian }
 	capital = STATE_IRAKAJEMI
-	primary_unit_color = { 94 166 206 }
-	secondary_unit_color  = { 204 179 155 }
-	tertiary_unit_color = { 44 18 21 }
 }
 
 JAB = {
@@ -1864,9 +1791,6 @@ CHI = {
 	
 	cultures = { manchu han } 
 	capital = STATE_BEIJING
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
 }
 
 DAI = {
@@ -2007,7 +1931,7 @@ MGL = {
 }
 
 XIN = {
-	color = { 50 237 214 }
+	color = { 255  234  174 }
 	
 	country_type = unrecognized
 	
@@ -2026,9 +1950,6 @@ PHI = {
 	
 	cultures = { filipino spanish }
 	capital = STATE_LUZON
-	primary_unit_color = { 191 198 238 }
-	secondary_unit_color  = { 191 198 238 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 MCH = {
@@ -2055,7 +1976,7 @@ CAL = {
 }
 
 CAN = {
-	color = { 94  117  55 }
+	color = { 113 53 63 }
 	
 	country_type = colonial
 	
@@ -2097,9 +2018,6 @@ COS = {
 	cultures = { central_american }
 	capital = STATE_COSTA_RICA
 	is_named_from_capital = yes
-	primary_unit_color = { 9 11 62 }
-	secondary_unit_color  = { 202 46 18 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 CUB = {
@@ -2112,9 +2030,6 @@ CUB = {
 	cultures = { caribeno }
 	capital = STATE_CUBA
 	is_named_from_capital = yes
-	primary_unit_color = { 191 198 238 }
-	secondary_unit_color  = { 191 198 238 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 DES = {
@@ -2138,9 +2053,6 @@ DOM = {
 	cultures = { caribeno afro_caribeno }
 	capital = STATE_SANTO_DOMINGO
 	is_named_from_capital = yes
-	primary_unit_color = { 191 198 238 }
-	secondary_unit_color  = { 191 198 238 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 ELS = {
@@ -2179,7 +2091,7 @@ ALT = {
 }
 
 HAI = {
-	color = { 135  206  250 }
+	color = { 139  179  207 }
 	
 	country_type = recognized
 	
@@ -2201,9 +2113,6 @@ MEX = {
 	cultures = { mexican }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
-	primary_unit_color = { 58 73 77 }
-	secondary_unit_color  = { 220 219 201 }
-	tertiary_unit_color = { 124 115 88 }
 }
 
 MTC = {
@@ -2250,9 +2159,6 @@ NEW = {
 	cultures = { anglo_canadian }
 	capital = STATE_NEWFOUNDLAND
 	is_named_from_capital = yes
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 NIC = {
@@ -2290,9 +2196,6 @@ QUE = {
 	capital = STATE_QUEBEC
 	
 	is_named_from_capital = yes
-    primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 HBC = {
@@ -2304,9 +2207,6 @@ HBC = {
 	
 	cultures = { anglo_canadian }
 	capital = STATE_MANITOBA
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 ONT = {
@@ -2319,9 +2219,6 @@ ONT = {
 	cultures = { anglo_canadian }
 	capital = STATE_ONTARIO
 	is_named_from_capital = yes
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 NBS = {
@@ -2333,9 +2230,6 @@ NBS = {
 	
 	cultures = { anglo_canadian franco_canadian }
 	capital = STATE_NEW_BRUNSWICK
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 NVS = {
@@ -2347,9 +2241,6 @@ NVS = {
 	
 	cultures = { anglo_canadian }
 	capital = STATE_NEW_BRUNSWICK
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 TEX = {
@@ -2384,9 +2275,6 @@ ARG = {
 	
 	cultures = { platinean }
 	capital = STATE_BUENOS_AIRES
-	primary_unit_color = { 235 190 135 }
-	secondary_unit_color  = { 235 190 135 }
-	tertiary_unit_color = { 63 64 58 }
 }
 
 BOL = {
@@ -2398,9 +2286,6 @@ BOL = {
 	
 	cultures = { south_andean }
 	capital = STATE_LA_PAZ
-	primary_unit_color = { 21 37 59 }
-	secondary_unit_color  = { 21 37 59 }
-	tertiary_unit_color = { 151 29 16 }
 }
 
 BRZ = {
@@ -2412,9 +2297,6 @@ BRZ = {
 	
 	cultures = { brazilian }
 	capital = STATE_RIO_DE_JANEIRO
-	primary_unit_color = { 64 110 133 }
-	secondary_unit_color  = { 252 237 198 }
-	tertiary_unit_color = { 250 248 235 }
 }
 
 CHL = {
@@ -2460,9 +2342,6 @@ PEU = {
 	
 	cultures = { south_andean }
 	capital = STATE_LIMA
-	primary_unit_color = { 198 195 179 }
-	secondary_unit_color  = { 198 195 179 }
-	tertiary_unit_color = { 42 66 77 }
 }
 
 PRG = {
@@ -2474,9 +2353,6 @@ PRG = {
 	
 	cultures = { platinean guarani }
 	capital = STATE_BAJO_PARAGUAY
-	primary_unit_color = { 202 73 31 }
-	secondary_unit_color  = { 244 233 211 }
-	tertiary_unit_color = { 54 69 110 }
 }
 
 URU = {
@@ -2489,9 +2365,6 @@ URU = {
 	cultures = { platinean }
 	capital = STATE_URUGUAY
 	is_named_from_capital = yes
-	primary_unit_color = { 47 84 111 }
-	secondary_unit_color  = { 93 20 29 }
-	tertiary_unit_color = { 93 20 29 }
 }
 
 VNZ = {
@@ -2503,9 +2376,6 @@ VNZ = {
 	
 	cultures = { north_andean }
 	capital = STATE_MIRANDA
-	primary_unit_color = { 66 67 100 }
-	secondary_unit_color  = { 66 67 100 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 ISR = {
@@ -2598,9 +2468,6 @@ GCO = {
 	
 	cultures = { north_andean }
 	capital = STATE_CUNDINAMARCA
-	primary_unit_color = { 248 238 229 }
-	secondary_unit_color  = { 248 238 229 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 JAN = {
@@ -2624,9 +2491,6 @@ BIC = {
 	
 	cultures = { british }
 	capital = STATE_WEST_BENGAL
-	primary_unit_color = { 197 58 17 }
-	secondary_unit_color  = { 36 54 67 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 BRI = {
@@ -2708,7 +2572,7 @@ MAY = {
 }
 
 IBE = {
-	color = hsv360{ 38  97  83 }
+	color = { 250  181  0 }
 	
 	country_type = recognized
 
@@ -2716,9 +2580,6 @@ IBE = {
 	
 	cultures = { spanish catalan portuguese basque galician }
 	capital = STATE_TOLEDO
-	primary_unit_color = { 9 11 62 }
-	secondary_unit_color  = { 202 46 18 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 ORG = {
@@ -2864,9 +2725,6 @@ PCO = {
 	cultures = { caribeno }
 	capital = STATE_PUERTO_RICO
 	is_named_from_capital = yes
-	primary_unit_color = { 191 198 238 }
-	secondary_unit_color  = { 191 198 238 }
-	tertiary_unit_color = { 255 252 255 }
 }
 
 MKT = {
@@ -3134,7 +2992,7 @@ EZO = { # Ezo
 }
 
 QIA = { # Qian
-	color = { 186 77 174 }
+	color = { 0 103 165 }
 	
 	country_type = unrecognized
 	
@@ -3146,7 +3004,7 @@ QIA = { # Qian
 }
 
 FRS = { # Formosa
-	color = { 2 67 255  }
+	color = { 218 234 15 }
 	
 	country_type = unrecognized
 	
@@ -3536,7 +3394,7 @@ BLH = {
 }
 
 NGF = {
-	color = northgermanfederation
+	color = {41 37 37}
 	
 	country_type = recognized
 
@@ -3547,7 +3405,7 @@ NGF = {
 }
 
 SGF = {
-	color = southgermanfederation
+	color = { 176 18 7}
 	
 	country_type = recognized
 
@@ -3555,9 +3413,6 @@ SGF = {
 
 	cultures = { south_german}
 	capital = STATE_BAVARIA
-	primary_unit_color = { 251 251 243 }
-	secondary_unit_color  = { 54 102 174 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 OCC = {
@@ -4222,7 +4077,7 @@ TJI = {
 	
 	country_type = recognized
 
-	tier = principality
+	tier = grand_principality
 	
 	cultures = { tajik }
 	capital = STATE_TAJIKISTAN
@@ -4327,9 +4182,6 @@ PBC = {
     tier = empire
     cultures = { south_andean }
     capital = STATE_LA_PAZ
-	primary_unit_color = { 21 37 59 }
-	secondary_unit_color  = { 21 37 59 }
-	tertiary_unit_color = { 151 29 16 }
 }
 
 IQU = {
@@ -4387,9 +4239,6 @@ UNL = {
 	
 	cultures = { dutch flemish wallonian }
 	capital = STATE_HOLLAND
-	primary_unit_color = { 56 74 84 }
-	secondary_unit_color  = { 59 105 158 }
-	tertiary_unit_color = { 0 0 0 }
 }
 
 RHN = {
@@ -4412,9 +4261,6 @@ PLT = {
 	
 	cultures = { platinean }
 	capital = STATE_BUENOS_AIRES
-	primary_unit_color = { 235 190 135 }
-	secondary_unit_color  = { 235 190 135 }
-	tertiary_unit_color = { 63 64 58 }
 }
 
 NCR = {
@@ -5214,4 +5060,18 @@ BNT = {
 
 	cultures = { south_german serb }
 	capital = STATE_DELVIDEK
+}
+
+# Eden
+EDE = {
+	color = { 226 194 106 }
+
+	country_type = unrecognized
+
+	religion = atheist
+
+	tier = principality
+
+	cultures = { promethean }
+	capital = STATE_BAVARIA
 }

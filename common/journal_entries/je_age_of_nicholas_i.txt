@@ -22,7 +22,7 @@ je_age_of_nicholas_i = {
 			save_scope_as = nicholas_i_scope
 		}
 		ig:ig_landowners ?= {
-			save_scope_as = boyars_scope
+			save_scope_as = aristocracy_scope
 		}
 		heir ?= {
 			save_scope_as = alexander_ii_heir_scope
