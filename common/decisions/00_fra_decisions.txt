@@ -36,3 +36,28 @@ institute_plan_haussmann = {
 		base = 4
 	}
 }
+
+institute_plan_borrman = {
+	is_shown = {
+		NOT = {
+			has_global_variable = borrman_var
+		}
+		is_player = no
+
+		c:GZA ?= this
+	}
+
+	possible = {
+		
+	}
+
+	when_taken = {
+
+		trigger_event = { id = age_of_nicholas_i.5 } 
+	
+	}
+
+	ai_chance = {
+		add = 20
+	}
+}

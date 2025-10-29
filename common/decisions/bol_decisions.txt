@@ -47,3 +47,44 @@
 		base = 4
 	}
 }
+
+eliminar_nativos_decision = {
+		is_shown = {
+		hidden_trigger = {
+			OR = {
+				C:WAL ?= this
+				c:MOL ?= this
+				c:POR ?= this
+				c:FIN ?= this
+				c:NOR ?= this
+			}
+			
+		}
+		NOT = {
+			has_global_variable = formation_global_variable
+		}
+		OR = {
+			has_technology_researched = intensive_agriculture
+			has_technology_researched = repeaters
+			has_technology_researched = chemical_bleaching
+			has_technology_researched = dialectics
+			has_technology_researched = organized_sports
+		}
+		is_player = no
+	}
+
+	possible = {
+		
+	}
+
+	when_taken = {
+
+		trigger_event = { id = formation.196 } 
+	
+	}
+
+	ai_chance = {
+		add = 20
+	}
+
+}

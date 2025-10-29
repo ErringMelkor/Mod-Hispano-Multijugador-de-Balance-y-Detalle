@@ -207,6 +207,143 @@ formation.19 = {
 	}
 }
 
+formation.196 = {
+type = country_event
+	placement = root
+	
+	title = lake_fucine.1.t
+	desc = lake_fucine.1.d
+	flavor = lake_fucine.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+
+	option = {
+		name = formation.196.a
+		default_option = yes
+
+		ai_chance = {
+			add = 100
+		}
+
+		if = {
+			limit = {
+				game_date >= 1840.1.2
+				game_date <= 1851.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_ULSTER
+							state_region = s:STATE_FRENCH_LOW_COUNTRIES
+							state_region = s:STATE_LOWER_SILESIA
+							state_region = s:STATE_NEW_JERSEY
+							state_region = s:STATE_NORRLAND
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_CAMPANIA
+							state_region = s:STATE_ADANA
+						}
+					}
+				}
+			add_treasury = -33333
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1851.1.2
+				game_date <=1861.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_ULSTER
+							state_region = s:STATE_FRENCH_LOW_COUNTRIES
+							state_region = s:STATE_LOWER_SILESIA
+							state_region = s:STATE_NEW_JERSEY
+							state_region = s:STATE_NORRLAND
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_CAMPANIA
+							state_region = s:STATE_ADANA
+						}
+					}
+				}
+			add_treasury = -99999
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1861.1.2
+				game_date <=1871.1.1
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_ULSTER
+							state_region = s:STATE_FRENCH_LOW_COUNTRIES
+							state_region = s:STATE_LOWER_SILESIA
+							state_region = s:STATE_NEW_JERSEY
+							state_region = s:STATE_NORRLAND
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_CAMPANIA
+							state_region = s:STATE_ADANA
+						}
+					}
+				}
+			add_treasury = -333333
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1871.1.2
+			}
+			
+			every_country = {
+				limit = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_ULSTER
+							state_region = s:STATE_FRENCH_LOW_COUNTRIES
+							state_region = s:STATE_LOWER_SILESIA
+							state_region = s:STATE_NEW_JERSEY
+							state_region = s:STATE_NORRLAND
+							state_region = s:STATE_BOHEMIA
+							state_region = s:STATE_CAMPANIA
+							state_region = s:STATE_ADANA
+						}
+					}
+				}
+			add_treasury = -444444
+			}
+		}
+	}
+
+	option = {
+		name = formation.196.b
+
+		trigger = { is_player = yes }
+
+		set_global_variable = formation_global_variable
+
+		ai_chance = {
+			base = 0
+		}
+
+	}
+}
+
 #Ethiopia
 formation.4 = {
 	type = country_event

@@ -200,6 +200,92 @@ age_of_nicholas_i.1 = {
 	}
 }
 
+age_of_nicholas_i.5 = { #Kiselyov does it once again.
+
+option = {
+	name = age_of_nicholas_i.5.a
+		default_option = yes
+
+		ai_chance = {
+			add = 100
+		}
+
+		if = {
+			limit = {
+				game_date >= 1836.1.1
+			}
+			every_country = {
+				limit = {
+				}
+				take_on_scaled_debt = {
+					who = c:GZA
+					value = 0.05
+				}
+			}
+
+		}
+		else_if = {
+			limit = {
+				game_date >= 1840.1.2
+				game_date <= 1851.1.1
+			}
+			
+			every_country = {
+				limit = {
+				}
+				take_on_scaled_debt = {
+					who = c:GZA
+					value = 0.5
+				}
+			
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >= 1851.1.2
+				game_date <= 1861.1.1
+			}
+			
+			every_country = {
+				limit = {
+				}
+				take_on_scaled_debt = {
+					who = c:GZA
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				game_date >=1861.1.2
+			}
+			
+			every_country = {
+				limit = {
+				}
+				take_on_scaled_debt = {
+					who = c:GZA
+					value = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = age_of_nicholas_i.5.b
+
+		trigger = { is_player = yes }
+
+		set_global_variable = borrman_var
+
+		ai_chance = {
+			base = 0
+		}
+
+	}
+}
+
+
  age_of_nicholas_i.4 = { #Kiselyov builds country schools for children.
 	type = country_event
 	placement = root
