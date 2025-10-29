@@ -66,18 +66,6 @@ on_monthly_pulse = {
 			}
 			kill_character = yes
 		}
-		if = {
-			limit = {
-				is_building_type = building_tooling_workshops
-				occupancy > 0.75
-				cash_reserves_ratio > 0.25
-				level >= 50
-			}
-			take_on_scaled_debt = {
-				who = c:TUR
-				value = 0.1
-			}
-		}
 
 		every_character_in_jail = { # Music too loud? Right to jail. Right away. Driving too fast? Jail. Slow? Jail. You undercook fish? Believe it or not, jail.
 			save_scope_as = prisoner_scope

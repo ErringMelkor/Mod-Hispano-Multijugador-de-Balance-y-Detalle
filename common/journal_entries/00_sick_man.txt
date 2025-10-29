@@ -1,5 +1,5 @@
 ﻿je_sick_man_main = {
-	icon = "gfx/interface/icons/event_icons/ottoman_fed.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	group = je_group_tanzimat
 
@@ -95,7 +95,7 @@
 }
 
 je_sick_man_syria = {
-	icon = "gfx/interface/icons/event_icons/turwar.png"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_tanzimat
 
@@ -207,7 +207,7 @@ je_sick_man_syria = {
 }
 
 je_sick_man_egypt = {
-	icon = "gfx/interface/icons/event_icons/turwar.png"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_tanzimat
 
@@ -251,7 +251,7 @@ je_sick_man_egypt = {
 }
 
 je_sick_man_economy = {
-	icon = "gfx/interface/icons/event_icons/tureco.png"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	group = je_group_tanzimat
 
@@ -288,7 +288,7 @@ je_sick_man_economy = {
 
 # Literacy and Universities
 je_sick_man_education = {
-	icon = "gfx/interface/icons/event_icons/turinn.png"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	group = je_group_tanzimat
 
@@ -338,7 +338,7 @@ je_sick_man_education = {
 
 # Nationalism
 je_sick_man_separatism = {
-	icon = "gfx/interface/icons/event_icons/turrad.png"
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
 
 	group = je_group_tanzimat
 
@@ -422,7 +422,7 @@ je_sick_man_separatism = {
 
 # Army Reform
 je_sick_man_army = {
-	icon = "gfx/interface/icons/event_icons/turmil.png"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_tanzimat
 
@@ -484,7 +484,7 @@ je_sick_man_army = {
 
 # Bureaucractic Reform
 je_sick_man_bureaucracy = {
-	icon = "gfx/interface/icons/event_icons/turburo.png"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	group = je_group_tanzimat
 
@@ -531,7 +531,7 @@ je_sick_man_bureaucracy = {
 
 # Bread Basket
 je_sick_man_bread_basket = {
-	icon = "gfx/interface/icons/event_icons/turfood.png"
+	icon = "gfx/interface/icons/event_icons/event_scales.png"
 
 	group = je_group_historical_content
 
