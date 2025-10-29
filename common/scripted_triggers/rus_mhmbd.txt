@@ -1,0 +1,6 @@
+ideology_nicholean_reformer_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_intelligentsia
+	}
+}

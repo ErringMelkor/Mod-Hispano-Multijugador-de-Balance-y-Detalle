@@ -49,6 +49,8 @@ je_age_of_nicholas_i = {
 			years = 10
 			multiplier = nicholas_i_agenda_value
 		}
+
+		set_variable = nicholas_completed_var
 	}
 
 	on_monthly_pulse = {
