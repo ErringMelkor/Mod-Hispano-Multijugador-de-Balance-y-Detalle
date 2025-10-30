@@ -459,3 +459,235 @@ alexander_ii_agenda_value = {
 		add = -20
 	}
 }
+
+
+
+ideology_slavophile_favoured_laws = {
+	# Laws that ideology_slavophile likes the most.
+	# Maximum value = 6
+	value = 0
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_state_religion
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_national_supremacy
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_elected_bureaucrats
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_right_of_assembly
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_commercialized_agriculture
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_autocracy
+		}
+		add = 1
+	}
+}
+
+ideology_slavophile_disfavoured_laws = {
+	# Laws that ideology_slavophile likes the most.
+	# Maximum value = 6
+	value = 0
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_total_separation
+				has_law_or_variant = law_type:law_state_atheism
+				has_law_or_variant = law_type:law_freedom_of_conscience
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_census_voting
+				has_law_or_variant = law_type:law_universal_suffrage
+				has_law_or_variant = law_type:law_wealth_voting
+				has_law_or_variant = law_type:law_landed_voting
+				has_law_or_variant = law_type:law_technocracy
+				has_law_or_variant = law_type:law_anarchy
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_multicultural
+				has_law_or_variant = law_type:law_racial_segregation
+				has_law_or_variant = law_type:law_cultural_exclusion
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_council_republic
+				has_law_or_variant = law_type:law_presidential_republic
+				has_law_or_variant = law_type:law_parliamentary_republic
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_protected_speech
+				has_law_or_variant = law_type:law_outlawed_dissent
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_serfdom
+				has_law_or_variant = law_type:law_homesteading
+				has_law_or_variant = law_type:law_collectivized_agriculture
+			}
+		}
+		add = 1
+	}
+}
+
+
+ideology_zapadniki_favoured_laws = {
+	# Laws that ideology_slavophile likes the most.
+	# Maximum value = 6
+	value = 0
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_freedom_of_conscience
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_cultural_exclusion
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_elected_bureaucrats
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_right_of_assembly
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_commercialized_agriculture
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_autocracy
+		}
+		add = 1
+	}
+}
+
+
+ideology_zapadniki_disfavoured_laws = {
+	# Laws that ideology_slavophile likes the most.
+	# Maximum value = 6
+	value = 0
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_total_separation
+				has_law_or_variant = law_type:law_state_atheism
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_autocracy
+				has_law_or_variant = law_type:law_single_party_state
+				has_law_or_variant = law_type:law_oligarchy
+				has_law_or_variant = law_type:law_universal_suffrage
+				has_law_or_variant = law_type:law_census_voting
+				has_law_or_variant = law_type:law_anarchy
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_subjecthood
+				has_law_or_variant = law_type:law_national_supremacy
+				has_law_or_variant = law_type:law_multicultural
+				has_law_or_variant = law_type:law_ethnostate
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_council_republic
+				has_law_or_variant = law_type:law_presidential_republic
+				has_law_or_variant = law_type:law_parliamentary_republic
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_protected_speech
+				has_law_or_variant = law_type:law_outlawed_dissent
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_homesteading
+				has_law_or_variant = law_type:law_tenant_farmers
+				has_law_or_variant = law_type:law_serfdom
+			}
+		}
+		add = 1
+	}
+}
+
+
+
+
+
+
+
+

@@ -156,3 +156,10 @@ je_age_of_alexander_ii_reason: " Alejado de las políticas militaristas y opresi
 modifier_alexander_ii_rule: "El Reinado de Alejandro II"
 modifier_alexander_ii_legacy: "El Legado de Alejandro II"
 modifier_alexander_ii_disaster: "El Desastre de Alejandro II"
+
+
+ideology_zapadniki: "Zapadniki"
+ideology_zapadniki_desc: "Este personaje cree que Occidente es un espejo que refleja el camino ideal de Rusia."
+
+ideology_slavianofily: "Slavianofily"
+ideology_slavianofily_desc: "Este personaje cree en el carácter único y atemporal de Rusia, y es partidario de reformas que fortalezcan este carácter."

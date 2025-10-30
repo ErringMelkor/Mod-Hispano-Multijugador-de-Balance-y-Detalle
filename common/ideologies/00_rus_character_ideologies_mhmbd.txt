@@ -37,7 +37,7 @@ ideology_nicholean_reformer_leader = {
 	country_trigger = {
 		c:RUS ?= this
 
-		game_date <= 1860.1.1
+		game_date < 1860.1.1
 	}
 
 	non_interest_group_leader_trigger = {
@@ -73,18 +73,29 @@ ideology_nicholean_reformer_leader = {
 			}
 		}
 
-		# más probable si se ha completado la entrada con éxito
+		# más probable temporalmente si se ha completado la entrada con éxito
 		if = {
 			limit = {
 				has_variable = nicholas_completed_var
 			}
-			add = 100
+			add = 150
 		}
 
 		#más probable si tienes burócratas a dedo
 		if = {
 			limit = {
 				has_law = law_type:law_appointed_bureaucrats
+			}
+			add = 50
+		}
+
+		#más probable si tienes escuelas públicas o gimnasios.
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_gymnazii
+					has_law = law_type:law_public_schools
+				}
 			}
 			add = 50
 		}
@@ -102,6 +113,285 @@ ideology_nicholean_reformer_leader = {
 				}
 			}
 			multiply = 0.1
+		}
+	}
+}
+
+ideology_zapadniki = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/idealogy_leader_modernizer.dds"
+
+	character_ideology = yes
+
+	country_trigger = {
+		has_technology_researched = realism
+		NOT = {
+			has_technology_researched = socialism
+		}
+	}
+
+	lawgroup_distribution_of_power = {
+		law_wealth_voting = strongly_approve
+		law_landed_voting = approve
+		law_census_voting = neutral
+		law_autocracy = neutral
+		law_single_party_state = disapprove
+		law_oligarchy = disapprove
+		law_universal_suffrage = disapprove
+		law_technocracy = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_freedom_of_conscience = strongly_approve
+		law_state_religion = approve
+		law_total_separation = disapprove
+		law_state_atheism = disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_cultural_exclusion = strongly_approve
+		law_racial_segregation = approve
+		law_national_supremacy = neutral
+		law_subjecthood = neutral
+		law_ethnostate = disapprove
+		law_multicultural = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = strongly_approve
+		law_appointed_bureaucrats = approve
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_free_speech = {
+		law_right_of_assembly = approve
+		law_censorship = neutral
+		law_protected_speech = disapprove
+		law_outlawed_dissent = disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_commercialized_agriculture = strongly_approve
+		law_tenant_farmers = approve
+		law_homesteading = neutral
+		law_serfdom = disapprove
+		law_collectivized_agriculture = disapprove
+	}
+
+	interest_group_leader_trigger = {
+		ideology_westernizer_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law_or_variant = law_type:law_monarchy
+				has_law_or_variant = law_type:law_national_supremacy
+				has_law_or_variant = law_type:law_right_of_assembly
+				has_law_or_variant = law_type:law_elected_bureaucrats
+				has_law_or_variant = law_type:law_commercialized_agriculture
+			}
+		}
+		interest_group = {
+			ideology_zapadniki_valid_trigger = yes
+		}
+	}
+
+	interest_group_leader_trigger = {
+		ideology_zapadniki_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law_or_variant = law_type:law_monarchy
+				has_law_or_variant = law_type:law_national_supremacy
+				has_law_or_variant = law_type:law_right_of_assembly
+				has_law_or_variant = law_type:law_elected_bureaucrats
+				has_law_or_variant = law_type:law_commercialized_agriculture
+			}
+		}
+		interest_group = {
+			ideology_slavophile_valid_trigger = yes
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 50 #uncommon
+
+		# none in republics
+		if = {
+			limit = {
+				owner = {
+					has_law_or_variant = law_type:law_monarchy
+				}
+			}
+			add = 0
+		}
+		else = {
+			subtract = 500
+		}
+
+		# imrpobable, pero posible, en landowners.
+		if = {
+			limit = {
+				is_interest_group_type = ig:ig_landowners
+			}
+			add = -50
+		}
+
+		# More likely if issues are relevant - greater bonus to this than usual
+		if = {
+			limit = {
+				owner.ideology_zapadniki_disfavoured_laws > 0
+			}
+			add = {
+				value = owner.ideology_zapadniki_disfavoured_laws
+				multiply = 16
+			}
+		}
+
+		# Less likely if issues are not relevant
+		if = {
+			limit = {
+				owner.ideology_zapadnikifavoured_laws > 0
+			}
+			subtract = {
+				value = owner.ideology_zapadniki_favoured_laws
+				multiply = 4
+			}
+		}
+	}
+}
+
+ideology_slavianofily = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_nationalism.dds"
+
+	character_ideology = yes
+
+	lawgroup_distribution_of_power = {
+		law_anarchy = strongly_disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_census_voting = strongly_disapprove
+		law_technocracy = strongly_disapprove
+		law_wealth_voting = disapprove
+		law_landed_voting = strongly_approve
+		law_oligarchy = approve
+		law_autocracy = approve
+		law_single_party_state = neutral
+	}
+
+	lawgroup_church_and_state = {
+		law_state_religion = strongly_approve
+		law_freedom_of_conscience = neutral
+		law_total_separation = disapprove
+		law_state_atheism = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_national_supremacy = strongly_approve
+		law_ethnostate = approve
+		law_subjecthood = neutral
+		law_racial_segregation = disapprove
+		law_cultural_exclusion = disapprove
+		law_multicultural = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = strongly_approve
+		law_appointed_bureaucrats = approve
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_free_speech = {
+		law_right_of_assembly = approve
+		law_censorship = neutral
+		law_protected_speech = disapprove
+		law_outlawed_dissent = disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_commercialized_agriculture = strongly_approve
+		law_tenant_farmers = strongly_approve
+		law_serfdom = approve
+		law_homesteading = neutral
+		law_collectivized_agriculture = disapprove
+	}
+
+	country_trigger = {
+		has_technology_researched = nationalism
+		NOT = {
+			has_technology_researched = pan-nationalism
+		}
+	}
+
+	interest_group_leader_trigger = {
+		ideology_slavophile_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law_or_variant = law_type:law_monarchy
+				has_law_or_variant = law_type:law_national_supremacy
+				has_law_or_variant = law_type:law_right_of_assembly
+				has_law_or_variant = law_type:law_elected_bureaucrats
+				has_law_or_variant = law_type:law_commercialized_agriculture
+			}
+		}
+		interest_group = {
+			ideology_slavophile_valid_trigger = yes
+		}
+	}
+
+	
+	interest_group_leader_weight = {
+		value = 150 #somewhat common
+
+		# more likely for intelligentsia
+		if = {
+			limit = {
+				is_interest_group_type = ig_intelligentsia
+			}
+			add = 50
+		}
+
+		# none in republics
+		if = {
+			limit = {
+				owner = {
+					has_law_or_variant = law_type:law_monarchy
+				}
+			}
+			add = 0
+		}
+		else = {
+			subtract = 500
+		}
+
+		# More likely if issues are relevant - greater bonus to this than usual
+		if = {
+			limit = {
+				owner.ideology_slavophile_disfavoured_laws > 0
+			}
+			add = {
+				value = owner.ideology_slavophile_disfavoured_laws
+				multiply = 16
+			}
+		}
+
+		# Less likely if issues are not relevant
+		if = {
+			limit = {
+				owner.ideology_slavophile_favoured_laws > 0
+			}
+			subtract = {
+				value = owner.ideology_slavophile_favoured_laws
+				multiply = 4
+			}
 		}
 	}
 }

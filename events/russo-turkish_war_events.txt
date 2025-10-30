@@ -1138,10 +1138,6 @@ russo-turkish_war.9 = { #russian advance halted
 		}
 		add_radicals = {
 			value = 0.05
-			culture = cu:russian
-		}
-		add_radicals = {
-			value = 0.05
 			culture = cu:ukrainian
 		}
 		add_radicals = {
@@ -1203,11 +1199,11 @@ russo-turkish_war.10 = { #russia loses the western/eastern russo turkish war
 			pop_type = officers
 		}
 		add_radicals = {
-			value = 0.1
+			value = 0.25
 			pop_type = soldiers
 		}
 		add_radicals = {
-			value = 0.1
+			value = 0.05
 			culture = cu:russian
 		}
 		add_radicals = {
@@ -1274,19 +1270,19 @@ russo-turkish_war.11 = { #russia loses the great russo turkish war
 		name = russo-turkish_war.11.a
 
 		add_radicals = {
-			value = 0.5
+			value = 0.75
 			pop_type = officers
 		}
 		add_radicals = {
-			value = 0.25
+			value = 0.5
 			pop_type = soldiers
 		}
 		add_radicals = {
-			value = 0.1
+			value = 0.05
 			culture = cu:russian
 		}
 		add_radicals = {
-			value = 0.15
+			value = 0.1
 			culture = cu:ukrainian
 		}
 		add_radicals = {
