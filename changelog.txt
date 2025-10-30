@@ -17,6 +17,8 @@ Rusia:
 		Entrada de Diario: Pavel Kiselyov; 
 	* Agregadas variantes de ley exclusivas a Rusia en las categorías de: ciudadanía; burócratas; escuelas; reforma agraria.
 
+	*Tres nuevas ideologías: Reformistas nicolaicos; Eslavófilos; Occidentalistas.
+
 
 Francia:
 	* Nueva ley de Arrendatarios.
