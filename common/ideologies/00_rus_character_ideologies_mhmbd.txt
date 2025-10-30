@@ -179,7 +179,7 @@ ideology_zapadniki = {
 	}
 
 	interest_group_leader_trigger = {
-		ideology_westernizer_valid_trigger = yes
+		ideology_zapadniki_valid_trigger = yes
 	}
 
 	non_interest_group_leader_trigger = {
@@ -214,7 +214,7 @@ ideology_zapadniki = {
 			}
 		}
 		interest_group = {
-			ideology_slavophile_valid_trigger = yes
+			ideology_zapadniki_valid_trigger = yes
 		}
 	}
 	
@@ -328,7 +328,7 @@ ideology_slavianofily = {
 	}
 
 	interest_group_leader_trigger = {
-		ideology_slavophile_valid_trigger = yes
+		ideology_slavianofily_valid_trigger = yes
 	}
 
 	non_interest_group_leader_trigger = {
@@ -343,7 +343,7 @@ ideology_slavianofily = {
 			}
 		}
 		interest_group = {
-			ideology_slavophile_valid_trigger = yes
+			ideology_slavianofily_valid_trigger = yes
 		}
 	}
 
@@ -375,10 +375,10 @@ ideology_slavianofily = {
 		# More likely if issues are relevant - greater bonus to this than usual
 		if = {
 			limit = {
-				owner.ideology_slavophile_disfavoured_laws > 0
+				owner.ideology_slavianofily_disfavoured_laws > 0
 			}
 			add = {
-				value = owner.ideology_slavophile_disfavoured_laws
+				value = owner.ideology_slavianofily_disfavoured_laws
 				multiply = 16
 			}
 		}
@@ -386,10 +386,10 @@ ideology_slavianofily = {
 		# Less likely if issues are not relevant
 		if = {
 			limit = {
-				owner.ideology_slavophile_favoured_laws > 0
+				owner.ideology_slavianofily_favoured_laws > 0
 			}
 			subtract = {
-				value = owner.ideology_slavophile_favoured_laws
+				value = owner.ideology_slavianofily_favoured_laws
 				multiply = 4
 			}
 		}
