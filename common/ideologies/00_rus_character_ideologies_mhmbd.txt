@@ -118,7 +118,7 @@ ideology_nicholean_reformer_leader = {
 }
 
 ideology_zapadniki = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/idealogy_leader_modernizer.dds"
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/idealogy_leader_modernizer.dds"
 
 	character_ideology = yes
 
@@ -197,29 +197,9 @@ ideology_zapadniki = {
 			ideology_zapadniki_valid_trigger = yes
 		}
 	}
-
-	interest_group_leader_trigger = {
-		ideology_zapadniki_valid_trigger = yes
-	}
-
-	non_interest_group_leader_trigger = {
-		NAND = {
-			has_role = agitator
-			owner = {
-				has_law_or_variant = law_type:law_monarchy
-				has_law_or_variant = law_type:law_national_supremacy
-				has_law_or_variant = law_type:law_right_of_assembly
-				has_law_or_variant = law_type:law_elected_bureaucrats
-				has_law_or_variant = law_type:law_commercialized_agriculture
-			}
-		}
-		interest_group = {
-			ideology_zapadniki_valid_trigger = yes
-		}
-	}
 	
 	interest_group_leader_weight = {
-		value = 50 #uncommon
+		value = 100 #uncommon
 
 		# none in republics
 		if = {
@@ -234,10 +214,10 @@ ideology_zapadniki = {
 			subtract = 500
 		}
 
-		# imrpobable, pero posible, en landowners.
+		# improbable, pero posible, en landowners.
 		if = {
 			limit = {
-				is_interest_group_type = ig:ig_landowners
+				is_interest_group_type = ig_landowners
 			}
 			add = -50
 		}
@@ -249,18 +229,18 @@ ideology_zapadniki = {
 			}
 			add = {
 				value = owner.ideology_zapadniki_disfavoured_laws
-				multiply = 16
+				multiply = 32
 			}
 		}
 
 		# Less likely if issues are not relevant
 		if = {
 			limit = {
-				owner.ideology_zapadnikifavoured_laws > 0
+				owner.ideology_zapadniki_favoured_laws > 0
 			}
 			subtract = {
 				value = owner.ideology_zapadniki_favoured_laws
-				multiply = 4
+				multiply = 8
 			}
 		}
 	}
@@ -351,7 +331,15 @@ ideology_slavianofily = {
 	interest_group_leader_weight = {
 		value = 150 #somewhat common
 
-		# more likely for intelligentsia
+		# more likely for landowners
+		if = {
+			limit = {
+				is_interest_group_type = ig_landowners
+			}
+			add = 150
+		}
+
+		# not so likely for intelligentsia
 		if = {
 			limit = {
 				is_interest_group_type = ig_intelligentsia
@@ -379,9 +367,10 @@ ideology_slavianofily = {
 			}
 			add = {
 				value = owner.ideology_slavianofily_disfavoured_laws
-				multiply = 16
+				multiply = 32
 			}
 		}
+		
 
 		# Less likely if issues are not relevant
 		if = {
@@ -390,7 +379,7 @@ ideology_slavianofily = {
 			}
 			subtract = {
 				value = owner.ideology_slavianofily_favoured_laws
-				multiply = 4
+				multiply = 8
 			}
 		}
 	}

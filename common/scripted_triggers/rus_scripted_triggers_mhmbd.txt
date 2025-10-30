@@ -12,7 +12,7 @@ ideology_zapadniki_valid_trigger = {
 	}
 }
 
-ideology_slavophile_valid_trigger = {
+ideology_slavianofily_valid_trigger = {
 	OR = {
 		is_interest_group_type = ig_intelligentsia
 		is_interest_group_type = ig_landowners
