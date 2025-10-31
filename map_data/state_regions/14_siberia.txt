@@ -17,7 +17,7 @@
         bg_lead_mining = 81
         bg_gold_mining = 2
         bg_logging = 27
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
     resource = {
         type = "bg_gold_fields"
@@ -43,7 +43,7 @@ STATE_TOMSK = {
         bg_coal_mining = 85
         bg_iron_mining = 27
         bg_logging = 26
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 

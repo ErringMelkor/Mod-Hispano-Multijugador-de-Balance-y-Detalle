@@ -77,7 +77,7 @@ pm_focused_hardwood_production = {
 	workforce_scaled = {
 			# output goods										
 			goods_output_wood_add = -10 # 200
-			goods_output_hardwood_add = 1 # 40
+			goods_output_hardwood_add = 2 # 80
 		}
 	}
 }

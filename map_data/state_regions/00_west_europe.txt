@@ -14,7 +14,7 @@
         bg_iron_mining = 72
         bg_lead_mining = 18
         bg_logging = 45
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 3
         bg_fishing = 18
     }
     naval_exit_id = 3000
@@ -35,7 +35,7 @@ STATE_GOTALAND = {
     capped_resources = {
         bg_iron_mining = 22
         bg_logging = 25
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 24
     }
     naval_exit_id = 3019
@@ -76,7 +76,7 @@ STATE_NORRLAND = {
     capped_resources = {
         bg_iron_mining = 80
         bg_logging = 40
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 14
     }
     naval_exit_id = 3000
@@ -734,7 +734,7 @@ STATE_AUVERGNE_LIMOUSIN = {
         bg_coal_mining = 56
         bg_iron_mining = 15
         bg_logging = 8
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 
@@ -824,7 +824,7 @@ STATE_LORRAINE = {
         bg_sulfur_mining = 40
         bg_iron_mining = 60
         bg_logging = 17
-        bg_hardwood_logging = 2
+        bg_hardwood_logging = 3
     }
 }
 
@@ -940,7 +940,7 @@ STATE_WALLONIA = {
         bg_lead_mining = 30
         bg_sulfur_mining = 30
         bg_logging = 18
-        bg_hardwood_logging = 3
+        bg_hardwood_logging = 4
     }
 }
 
@@ -1051,7 +1051,7 @@ STATE_TYROL = {
         bg_gold_mining = 2
         bg_iron_mining = 36
         bg_logging = 9
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 
@@ -1069,7 +1069,7 @@ STATE_SOUTH_TYROL = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 6
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
     }
 }
 

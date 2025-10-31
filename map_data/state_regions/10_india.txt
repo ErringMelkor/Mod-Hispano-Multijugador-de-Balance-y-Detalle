@@ -34,7 +34,7 @@ STATE_WEST_BENGAL = {
         bg_coal_mining = 100
         bg_iron_mining = 29
         bg_logging = 29
-        bg_hardwood_logging = 1
+        bg_hardwood_logging = 2
         bg_fishing = 9
     }
 
