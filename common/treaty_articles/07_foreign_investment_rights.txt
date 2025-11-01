@@ -36,7 +36,6 @@
 	possible = {
 		NOT = {
 			OR = {
-				is_player = yes
 				is_subject_of = scope:other_country
 			}
 			
