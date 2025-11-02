@@ -66,28 +66,6 @@ law_closed_borders = {
 	progressiveness = -50
 
 	on_enact = {
-		if = {
-			limit = {
-				c:CHI ?= this
-				has_journal_entry = je_chinese_missions
-			}
-			every_scope_state = {
-				limit = {
-					NOT = {
-						any_neighbouring_state = {
-							is_treaty_port = yes
-							owner = {
-								religion = {
-									has_discrimination_trait = heritage_christian
-								}
-							}
-						}
-					}
-					has_variable = open_to_missionaries_state
-				}
-				remove_variable = open_to_missionaries_state
-			}
-		}
 	}
 
 	ai_enact_weight_modifier = { #Petitions

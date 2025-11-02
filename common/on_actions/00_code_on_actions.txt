@@ -4735,20 +4735,6 @@ on_law_enactment_pass = {
 	effect = {
 		if = {
 			limit = {
-				THIS ?= c:MON
-				OR = {
-					ROOT.currently_enacting_law.type ?= law_type:law_religious_schools
-					ROOT.currently_enacting_law.type ?= law_type:law_public_schools
-					ROOT.currently_enacting_law.type ?= law_type:law_private_schools
-				}
-			}
-			trigger_event = {
-				id = mon_state_formation.11
-				days = 1
-			}
-		}
-		if = {
-			limit = {
 				is_player = yes
 				NOT = { has_variable = achievement_vox_populi_var }
 				any_political_movement = {

@@ -220,23 +220,6 @@ amazon.2 = {
 				save_scope_as = rubber_laborers
 			}
 		}
-		hidden_effect = {
-			every_country = {
-				limit = {
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_ALSACE_LORRAINE
-							state_region = s:STATE_VALENCIA
-							state_region = s:STATE_KANTO
-						}
-					}
-				}
-			add_modifier = {
-				name = declared_bankruptcy
-				years = 10
-			}
-			}
-		}
 	}
 
 	option = {

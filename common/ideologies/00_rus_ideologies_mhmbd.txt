@@ -1,4 +1,4 @@
-ideology_russian_patriarch = {
+﻿ideology_russian_patriarch = {
 	icon = "gfx/interface/icons/ideology_icons/russian_patriarch.dds"
 
 	lawgroup_distribution_of_power = {

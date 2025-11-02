@@ -1,4 +1,4 @@
-building_hardwood_logging = {
+﻿building_hardwood_logging = {
 	building_group = bg_hardwood_logging
 	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood

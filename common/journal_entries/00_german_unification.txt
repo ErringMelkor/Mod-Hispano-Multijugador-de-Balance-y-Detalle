@@ -266,10 +266,10 @@ je_north_german_unification = {
 				country_has_primary_culture = cu:north_german
 				NOT = {
 					OR = {
-						this = c:LUX
-						this = c:UBD
-						this = c:PRU
-						this = c:NGF
+						this ?= c:LUX
+						this ?= c:UBD
+						this ?= c:PRU
+						this ?= c:NGF
 					}
 				}
 			}

@@ -1,4 +1,4 @@
-RUS_nicholas_i = { #Nicholas I
+﻿RUS_nicholas_i = { #Nicholas I
 	first_name = Nikolai
 	last_name = Romanov
 	historical = yes

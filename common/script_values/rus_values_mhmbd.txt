@@ -1,4 +1,4 @@
-nicholas_i_agenda_value = {
+﻿nicholas_i_agenda_value = {
 	if = {
 		limit = {
 			c:RUS ?= this

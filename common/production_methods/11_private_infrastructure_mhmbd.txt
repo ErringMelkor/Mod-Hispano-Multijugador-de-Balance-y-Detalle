@@ -1,4 +1,4 @@
-pm_manor_house_extensive_networks = {
+﻿pm_manor_house_extensive_networks = {
 	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
 
 	unlocking_laws = {
