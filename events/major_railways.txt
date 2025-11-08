@@ -190,15 +190,6 @@ major_railways.2 = {
 	}
 }
 
-major_railways.9 = {
-	orphan = yes
-
-	option = {
-		name = major_railways.9.a
-		set_global_variable = major_major_railways_var
-	}
-}
-
 # Canada Pacific
 major_railways.3 = {
 	type = country_event

@@ -94,15 +94,6 @@ on_monthly_pulse = {
 
 		if = {
 			limit = {
-				game_date >= 1857.3.3
-			}
-			add_loyalists = {
-				value = -0.1
-			}
-		}
-
-		if = {
-			limit = {
 				year < 1930
 				NOT = { has_global_variable = germany_formed }
 				c:GER ?= { is_country_alive = yes }
@@ -178,27 +169,6 @@ on_monthly_pulse = {
 			set_global_variable = { name = hungry_forties_var days = 1095 }
 		}
 
-		if = {
-			limit = {
-				game_date >= 1874.4.4
-			}
-			every_country = {
-				limit = {
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_EMILIA
-							state_region = s:STATE_PEGU
-							state_region = s:STATE_CEYLON
-							state_region = s:STATE_AKTOBE
-							state_region = s:STATE_BUKOVINA
-							state_region = s:STATE_AL_RIF
-							state_region = s:STATE_WYOMING
-						}
-					}
-				}
-			add_treasury = -444444
-			}
-		}
 
 		# Gründerzeit JE - has to happen here in order to not kill performance
 		if = {
@@ -282,21 +252,6 @@ on_monthly_pulse = {
 				}
 			}
 		}
-
-		if = {
-			limit = {
-				game_date >= 1862.3.3
-				is_player = no
-				NOT = {
-					has_global_variable = chupumchupum_var
-				}
-			}
-			add_radicals = {
-				value = 1
-			}
-			set_global_variable = chupumchupum_var
-		}
-
 		if = {
 			limit = {
 				NAND = {
@@ -796,55 +751,6 @@ on_monthly_pulse_country = {
 			}
 			set_variable = nightingale_var
 		}
-		# counts how many relevant states are owned
-		if = {
-			limit = {
-				OR = {
-					c:SPA ?= this
-					c:IBE ?= this
-					c:JAP ?= this
-					c:SWE ?= this
-					c:SCA ?= this
-					c:PER ?= this
-					c:MRT ?= this
-					c:ITA ?= this
-					c:BRZ ?= this
-				}
-				
-				radical_fraction = {
-					value <= 0.25
-				}
-				game_date >= 1863.6.9
-			}
-			add_radicals = {
-				value = 0.01
-			}
-		}
-		#Lorem Impsum Soleta Carabatis Infamy Punish
-		if = {
-			limit = {
-				OR = {
-					c:SPA ?= this
-					c:JAP ?= this
-					c:IBE ?= this
-					c:SWE ?= this
-					c:SCA ?= this
-					c:PER ?= this
-					c:MRT ?= this
-					c:ITA ?= this
-					c:BRZ ?= this
-				}
-				
-				radical_fraction = {
-					value >= 0.25
-				}
-				game_date >= 1868.3.4
-			}
-			add_radicals = {
-				value = 0.015
-			}
-		}
-
 		# Japan
 		if = {
 			limit = {
@@ -1502,54 +1408,6 @@ on_monthly_pulse_country = {
 				set_variable = swiss_bank_account_happened
 			}
 		}
-				# counts how many relevant states are owned
-		if = {
-			limit = {
-				OR = {
-					c:SPA ?= this
-					c:IBE ?= this
-					c:JAP ?= this
-					c:SWE ?= this
-					c:SCA ?= this
-					c:PER ?= this
-					c:MRT ?= this
-					c:ITA ?= this
-					c:BRZ ?= this
-				}
-				
-				radical_fraction = {
-					value <= 0.5
-				}
-				game_date >= 1862.4.2
-			}
-			add_radicals = {
-				value = 0.02
-			}
-		}
-		#For the Sweating the Marshes Achievement
-		if = {
-			limit = {
-				OR = {
-					c:SPA ?= this
-					c:JAP ?= this
-					c:IBE ?= this
-					c:SWE ?= this
-					c:SCA ?= this
-					c:PER ?= this
-					c:MRT ?= this
-					c:ITA ?= this
-					c:BRZ ?= this
-				}
-				
-				radical_fraction = {
-					value >= 0.25
-				}
-				game_date >= 1858.2.4
-			}
-			add_radicals = {
-				value = 0.05
-			}
-		}
 		# for All Quiet on the Western Front Achievement
 		if = {
 			limit = {
@@ -1784,18 +1642,6 @@ on_yearly_pulse_country = {
 
 			remove_variable = achievement_for_twelve_years_you_have_been_asking
 			remove_variable = achievement_for_twelve_years_you_have_been_asking_timed
-		}
-		if = {
-			limit = {
-			}
-			every_country = {
-				limit = {
-					global_population > 1234567891
-				}
-				kill_population = {
-					value = 14273
-				}
-			}
 		}
 		# Achievement: Can't Touch This
 		if = {
@@ -2119,27 +1965,6 @@ on_acquired_technology = {
 		}
 		if = {
 			limit = {
-				game_date >= 1874.4.4
-			}
-			every_country = {
-				limit = {
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_ESTREMADURA
-							state_region = s:STATE_SVEALAND
-							state_region = s:STATE_MEXICO
-							state_region = s:STATE_RIO_DE_JANEIRO
-							state_region = s:STATE_LA_PAZ
-							state_region = s:STATE_LA_PAMPA
-							state_region = s:STATE_TABRIZ
-						}
-					}
-				}
-			add_era_researched = era_5
-			}
-		}
-		if = {
-			limit = {
 				has_game_started = yes
 			}
 			post_notification = acquired_technology_notification
@@ -2398,19 +2223,6 @@ on_character_death = {
 	  				}
   				}
 			}
-
-			if = {
-				limit = {
-					NOT = {
-						has_global_variable = major_major_railways_var
-					}
-					game_date >= 1859.12.12
-				}
-				every_country = {
-					activate_law = law_type:law_womens_suffrage
-				}
-			}
-
 			# If the country and the IG support women's rights, do combinations of woman and/or minority culture for character generation
 			if = {
 				limit = {
@@ -2707,18 +2519,6 @@ on_character_death = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				game_date >=1856.1.1
-			}
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:GRE
-					value = 0.01
-				}
-			}
-		}
-
 		if = { # if Abdulaziz dies, make Murad the ruler
 			limit = {
 				owner = {
@@ -4980,15 +4780,6 @@ on_revolution_start = {
 		}
 		if = {
 			limit = {
-				game_date >= 1863.2.2
-			}
-			add_modifier = {
-				name = declared_bankruptcy
-				days = -1
-			}
-		}
-		if = {
-			limit = {
 				has_law_or_variant = law_type:law_monarchy
 				scope:target ?= {
 					NOT = {
@@ -6072,19 +5863,6 @@ on_wargoal_enforced = {
             days = 1825
             value = yes
         }
-
-		if = {
-			limit = {
-				NOT = {
-					has_global_variable = madoz_var
-				}
-				game_date >= 1856.1.1
-			}
-			add_modifier = {
-				name = declared_bankruptcy
-				days = -1
-			}
-		}
 
 		### Narrative war-end events
         if = { # Paris Commune - Commune victory event

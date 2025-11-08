@@ -618,10 +618,6 @@ production_tech_events.401 = {
 		name = production_tech_events.401.a
 		default_option = yes
 
-		trigger = {
-			has_global_variable = vroom_vroom_var
-		}
-
 		scope:oil_rig_state = {
 			add_modifier = {
 				name = oil_production_modifier
@@ -635,70 +631,8 @@ production_tech_events.401 = {
 		trigger = {
 			NOT = { has_technology_researched = combustion_engine }
 			has_technology_researched = rotary_valve_engine
-			has_global_variable = vroom_vroom_var
 		}
 		add_technology_progress = { progress = 5850 technology = combustion_engine }
-	}
-
-	option = {
-		name = production_tech_events.401.e
-		trigger = {
-			NOT = { has_technology_researched = combustion_engine has_global_variable = vroom_vroom_var  }
-			has_technology_researched = rotary_valve_engine
-		}
-		hidden_effect = {
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:MLT
-					value = 15
-				}
-				take_on_scaled_debt = {
-					who = c:BOR
-					value = 5
-				}
-				take_on_scaled_debt = {
-					who = c:ABU
-					value = 5
-				}
-			}
-		}
-		add_technology_progress = { progress = 5850 technology = combustion_engine }
-	}
-
-	option = {
-		name = production_tech_events.401.c
-		trigger = {
-			NOT = { has_global_variable = vroom_vroom_var }
-		}
-		scope:oil_rig_state = {
-			add_modifier = {
-				name = oil_production_modifier
-				days = normal_modifier_time
-			}
-		}
-		hidden_effect = {
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:GRE
-					value = 0.25
-				}
-				take_on_scaled_debt = {
-					who = c:HAI
-					value = 0.1
-				}
-				take_on_scaled_debt = {
-					who = c:ZUL
-					value = 0.1
-				}
-			}
-		}
-	}
-	option = {
-		name = production_tech_events.401.h
-		trigger = {
-			c:CHT ?= this
-		}
-		set_global_variable = vroom_vroom_var
 	}
 }
 

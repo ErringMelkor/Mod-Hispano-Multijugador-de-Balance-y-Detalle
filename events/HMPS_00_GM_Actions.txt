@@ -344,7 +344,6 @@ gm_actions.16 = {
 			remove_variable = actionee
 		}
 		remove_global_variable = GM_taking_action
-		set_global_variable = HMPS_alpha_button
 	}
 	
 	option = {
