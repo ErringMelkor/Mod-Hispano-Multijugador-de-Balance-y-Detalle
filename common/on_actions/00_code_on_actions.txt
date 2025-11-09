@@ -2589,51 +2589,6 @@ on_character_death = {
 
 		if = {
 			limit = {
-				game_date >=1856.1.1
-			}
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:TUG
-					value = 0.01
-				}
-			}
-		}
-		if = {
-			limit = {
-				game_date >=1856.1.1
-			}
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:SMB
-					value = 0.01
-				}
-			}
-		}
-		if = {
-			limit = {
-				game_date >=1856.1.1
-			}
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:VNZ
-					value = 0.01
-				}
-			}
-		}
-		if = {
-			limit = {
-				game_date >=1856.1.1
-			}
-			every_country = {
-				take_on_scaled_debt = {
-					who = c:MKT
-					value = 0.01
-				}
-			}
-		}
-
-		if = {
-			limit = {
 				owner = {
 					c:MON ?= this
 					heir = {
