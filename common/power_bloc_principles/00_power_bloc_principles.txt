@@ -1426,7 +1426,7 @@ principle_companies_3 = {
 ### HEALTHCARE FOCUS - MOD
 
 principle_healthcare_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1453,7 +1453,7 @@ principle_healthcare_focus_1 = {
 }
 
 principle_healthcare_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -1468,7 +1468,7 @@ principle_healthcare_focus_2 = {
 }
 
 principle_healthcare_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
@@ -1487,7 +1487,7 @@ principle_healthcare_focus_3 = {
 ### BUREAUCRACY FOCUS - MOD
 
 principle_bureaucracy_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1513,7 +1513,7 @@ principle_bureaucracy_focus_1 = {
 }
 
 principle_bureaucracy_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -1528,7 +1528,7 @@ principle_bureaucracy_focus_2 = {
 }
 
 principle_bureaucracy_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {

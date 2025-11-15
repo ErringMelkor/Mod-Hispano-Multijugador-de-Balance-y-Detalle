@@ -1,5 +1,5 @@
 ﻿institution_military = {
-	icon = "gfx/interface/icons/institution_icons/military_institution.dds"
+	icon = "gfx/interface/icons/institution_icons/unused/conscription.dds"
 	background_texture = "gfx/interface/illustrations/institutions/colonization.dds"
 }
 

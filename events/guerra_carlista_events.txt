@@ -1,4 +1,4 @@
-﻿namespace = guerra_carlista_breath
+namespace = guerra_carlista_breath
 
 guerra_carlista_breath.1 = {
 	type = country_event
@@ -36,4 +36,5 @@ guerra_carlista_breath.1 = {
 			years = 10
 		}
 	}
+	
 }
