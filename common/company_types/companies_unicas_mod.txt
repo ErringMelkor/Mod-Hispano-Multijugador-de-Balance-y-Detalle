@@ -1,7 +1,7 @@
 ﻿### ---------- SOUTH AMERICA ---------- ### 
 # Companhia Agrícola Fazenda Dumont
 company_CAFD = {
-	icon = "gfx/interface/icons/company_icons/fazenda.dds"
+	icon = "gfx/interface/icons/company_icons/basic_agriculture_2.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	
 	flavored_company = yes
@@ -74,7 +74,7 @@ company_CAFD = {
 
 # Fábrica Brasileira de Alpargatas e Calçados / Alpargatas S.A.
 company_Alpargatas = {
-	icon = "gfx/interface/icons/company_icons/alpargatas.dds"
+	icon = "gfx/interface/icons/company_icons/basic_forestry.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	
 	flavored_company = yes
@@ -165,7 +165,7 @@ company_Alpargatas = {
 
 #Fusiles Mondragón
 company_mondragon = {
-	icon = "gfx/interface/icons/company_icons/mondragon.dds"
+	icon = "gfx/interface/icons/company_icons/basic_weapons.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	
 	flavored_company = yes
@@ -228,7 +228,7 @@ company_mondragon = {
 
 #Cooperativa La Cruz Azul
 company_la_cruz_azul = {
-	icon = "gfx/interface/icons/company_icons/cruzazul.dds"
+	icon = "gfx/interface/icons/company_icons/basic_construction.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_heavy.dds"
 	
 	flavored_company = yes
@@ -284,7 +284,7 @@ company_la_cruz_azul = {
 
 # Groupe Managem
 company_managem  = {
-	icon = "gfx/interface/icons/company_icons/groupmanagem.dds"
+	icon = "gfx/interface/icons/company_icons/basic_metal_mining.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 
 	flavored_company = yes
@@ -349,7 +349,7 @@ company_managem  = {
 
 #LENA
 company_lena_gold_mining_partnertship  = {
-	icon = "gfx/interface/icons/company_icons/lena.dds"
+	icon = "gfx/interface/icons/company_icons/basic_gold_mining.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 
 	flavored_company = yes
@@ -410,7 +410,7 @@ company_lena_gold_mining_partnertship  = {
 ### -------------- EUROPE ------------- ###
 
 company_alhstrom = {
-	icon = "gfx/interface/icons/company_icons/ahlstrom.dds"
+	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 
 	flavored_company = yes
