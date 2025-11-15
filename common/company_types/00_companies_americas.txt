@@ -517,6 +517,7 @@ company_famae = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+            country_has_primary_culture = cu:platinean
 		}	
 	}
 
