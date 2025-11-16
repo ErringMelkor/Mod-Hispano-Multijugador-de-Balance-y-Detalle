@@ -52,7 +52,7 @@
 	}
 
 	interest_group_leader_weight = {
-		value = 25 #poco probable
+		value = 75 #poco probable
 
 
 		# less likely among more progressive IG's if they're angry and socialism is researched
@@ -199,7 +199,7 @@ ideology_zapadniki = {
 	}
 	
 	interest_group_leader_weight = {
-		value = 100 #uncommon
+		value = 150 #uncommon
 
 		# none in republics
 		if = {

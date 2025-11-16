@@ -24,6 +24,10 @@ company_sao_paulo_railway = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+            country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -118,6 +122,10 @@ company_estaleiro_maua = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -214,6 +222,10 @@ company_pernambuco_textiles = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -300,6 +312,10 @@ company_fundicao_ipanema = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -397,6 +413,10 @@ company_rossi = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -473,6 +493,10 @@ company_estanifera_llallagua = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -615,6 +639,10 @@ company_sudamericana_de_vapores = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -692,6 +720,10 @@ company_electricidad_de_caracas = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -769,6 +801,10 @@ company_cordoba_railway = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -852,6 +888,10 @@ company_eea = {
 			country_has_primary_culture = cu:south_andean
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:spanish
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
