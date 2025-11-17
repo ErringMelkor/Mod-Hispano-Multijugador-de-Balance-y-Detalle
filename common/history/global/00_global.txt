@@ -87,7 +87,7 @@ GLOBAL = {
 	c:GBR ?= { # Deuda de las Guerras Napoleónicas + Liberación de esclavos.
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -3.5
+			multiply = -2.5
 		}
 	}
 
