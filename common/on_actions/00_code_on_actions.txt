@@ -4583,15 +4583,6 @@ on_law_enactment_pass = {
 				remove_variable = var_slave_trade_suppression_var
 			}
 		}
-		if = {
-			limit = {
-				c:CHI ?= {
-					has_modifier = opium_ban_authority
-					is_enacting_law = law_type:law_free_trade
-				}
-			}
-			remove_modifier = opium_ban_authority
-		}
 	}
 }
 
@@ -5854,18 +5845,6 @@ on_wargoal_enforced = {
 					}
 				}
 				set_immune_to_revolutions = no
-			}
-		}
-		if = { # Paris Commune - France victory event
-			limit = {
-				NOT = {
-					has_global_variable = major_major_railways_var
-				}
-				game_date >= 1872.2.2
-			}
-			add_modifier = {
-				name = opium_wars_lost
-				days = -1
 			}
 		}
         if = { # Ragamuffin War - Piratini victory event
