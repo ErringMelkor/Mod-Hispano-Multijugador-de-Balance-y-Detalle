@@ -85,7 +85,7 @@
 				is_pop_type = peasants
 			}
 			multiply = {
-				value = 0.15
+				value = 0.35
 			}
 		}
 		if = {
