@@ -27,12 +27,12 @@ law_usa_consumption = {
 
 	tax_modifier_very_low = {
 		tax_consumption_add = 0.15
-		state_capitalists_investment_pool_efficiency_mult = 0.25
+		state_capitalists_investment_pool_efficiency_mult = 0.35
 	}
 
 	tax_modifier_low = {
 		tax_consumption_add = 0.20
-		state_capitalists_investment_pool_efficiency_mult = 0.15
+		state_capitalists_investment_pool_efficiency_mult = 0.25
 	}
 
 	tax_modifier_medium = {
@@ -124,32 +124,32 @@ law_land_based_taxation = {
 
 	tax_modifier_very_low = {
 		tax_consumption_add = 0.15
-		tax_land_add = 0.35
+		tax_land_add = 0.375
 	}
 
 	tax_modifier_low = {
 		tax_consumption_add = 0.20
-		tax_land_add = 0.5
+		tax_land_add = 0.525
 	}
 
 	tax_modifier_medium = {
 		tax_consumption_add = 0.25
-		tax_land_add = 0.65
+		tax_land_add = 0.675
 	}
 
 	tax_modifier_high = {
 		tax_consumption_add = 0.30
-		tax_land_add = 0.75
+		tax_land_add = 0.8
 	}
 
 	tax_modifier_very_high = {
 		tax_consumption_add = 0.35
-		tax_land_add = 0.85
+		tax_land_add = 0.9
 	}
 
 	# AI shouldn't change to land based taxation from more advanced taxation forms
 	ai_will_do = {
-		has_law = law_type:law_consumption_based_taxation
+		has_law_or_variant = law_type:law_consumption_based_taxation
 	}
 
 	ai_enact_weight_modifier = { #Petitions
@@ -180,35 +180,35 @@ law_per_capita_based_taxation = {
 	tax_modifier_very_low = {
 		tax_consumption_add = 0.15
 		tax_per_capita_add = 0.40
-		tax_land_add = 0.15
+		tax_land_add = 0.175
 		tax_income_add = 0.05
 	}
 
 	tax_modifier_low = {
 		tax_consumption_add = 0.20
 		tax_per_capita_add = 0.55
-		tax_land_add = 0.2
+		tax_land_add = 0.25
 		tax_income_add = 0.075
 	}
 
 	tax_modifier_medium = {
 		tax_consumption_add = 0.25
 		tax_per_capita_add = 0.70
-		tax_land_add = 0.25
+		tax_land_add = 0.325
 		tax_income_add = 0.10
 	}
 
 	tax_modifier_high = {
 		tax_consumption_add = 0.30
 		tax_per_capita_add = 0.85
-		tax_land_add = 0.275
+		tax_land_add = 0.375
 		tax_income_add = 0.125
 	}
 
 	tax_modifier_very_high = {
 		tax_consumption_add = 0.35
 		tax_per_capita_add = 1.0
-		tax_land_add = 0.3
+		tax_land_add = 0.425
 		tax_income_add = 0.15
 	}
 
@@ -271,13 +271,13 @@ law_proportional_taxation = {
 	tax_modifier_high = {
 		tax_consumption_add = 0.30
 		tax_income_add = 0.25
-		tax_dividends_add = 0.085
+		tax_dividends_add = 0.1
 	}
 
 	tax_modifier_very_high = {
 		tax_consumption_add = 0.35
 		tax_income_add = 0.30
-		tax_dividends_add = 0.095
+		tax_dividends_add = 0.125
 	}
 
 	ai_enact_weight_modifier = { #Petitions
@@ -295,8 +295,9 @@ law_proportional_taxation = {
 					has_modifier = shogun_ig_forced_to_open_market
 					has_journal_entry = je_meiji_main
 					has_journal_entry = je_great_reforms_bureaucratic
+					has_journal_entry = je_portugal_regeneration
 				}
-				has_law = law_type:law_land_based_taxation
+				has_law_or_variant = law_type:law_land_based_taxation
 			}
 			add = 5000
 		}
@@ -321,7 +322,7 @@ law_graduated_taxation = {
 	tax_modifier_very_low = {
 		tax_consumption_add = 0.15
 		tax_income_add = 0.05
-		tax_dividends_add = 0.1
+		tax_dividends_add = 0.125
 	}
 
 	tax_modifier_low = {
@@ -339,13 +340,13 @@ law_graduated_taxation = {
 	tax_modifier_high = {
 		tax_consumption_add = 0.30
 		tax_income_add = 0.1125
-		tax_dividends_add = 0.225
+		tax_dividends_add = 0.25
 	}
 
 	tax_modifier_very_high = {
 		tax_consumption_add = 0.35
 		tax_income_add = 0.125
-		tax_dividends_add = 0.25
+		tax_dividends_add = 0.275
 	}
 
 	ai_enact_weight_modifier = { #Petitions
