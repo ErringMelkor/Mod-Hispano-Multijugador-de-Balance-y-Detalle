@@ -76,6 +76,7 @@ building_whaling_station = {
 	}
 
 	potential = {
+		is_sea_adjacent = yes
 	}
 	ownership_type = self
 

@@ -14,7 +14,7 @@
 			}
 		}
 		NOR = {
-			c:RUS ?= this # For the Austrian Empire and its subjects
+			c:RUS ?= this # For the Russian Empire and its subjects
 			AND = {
 				exists = c:RUS
 				is_subject_of = c:RUS
@@ -169,7 +169,7 @@ law_elected_bureaucrats = {
 
 	is_visible = {
 		NOR = {
-			c:RUS ?= this # For the Austrian Empire and its subjects
+			c:RUS ?= this # For the Russian Empire and its subjects
 			AND = {
 				exists = c:RUS
 				is_subject_of = c:RUS

@@ -6,13 +6,12 @@
 	
 	modifier = {
 		country_can_only_conscript_peasants_bool = yes
-		unit_morale_loss_mult = 0.15
+		unit_morale_loss_mult = 0.1
 		unit_experience_gain_mult = -0.25
 		state_conscription_rate_add = 0.04
 		country_aristocrats_pol_str_mult = 0.25
-		country_officers_pol_str_mult = 1
-		country_military_goods_cost_mult = -0.25
-		state_building_barracks_max_level_add = 25
+		country_military_goods_cost_mult = -0.1
+		state_building_barrack_max_level_add = 25
 		state_building_conscription_center_max_level_add = 25
 	}
 	
@@ -76,7 +75,7 @@ law_eight_banner_army = {
 		state_conscription_rate_add = 0.05
 		country_aristocrats_pol_str_mult = 0.25
 		country_officers_pol_str_mult = 0.75
-		state_building_barracks_max_level_add = 50
+		state_building_barrack_max_level_add = 50
 		state_building_conscription_center_max_level_add = 50
 	}
 	
@@ -132,8 +131,8 @@ law_professional_army = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.01
-		country_officers_pol_str_mult = 0.5
-		state_building_barracks_max_level_add = 150
+		country_officers_pol_str_mult = 0.75
+		state_building_barrack_max_level_add = 100
 		state_building_conscription_center_max_level_add = 50
 		country_institution_military_max_investment_add = 1
 	}
@@ -199,23 +198,16 @@ law_professional_army = {
 			add = 1000
 		}			
 		
-		# AI should really try to get out of Peasant Levies under the right circumstances
+		# Once the AI gets to a certain army tech level they should try to ditch Peasant Levies
 		if = {
 			limit = {
-				has_law = law_type:law_peasant_levies
-				NOT = { has_strategy = ai_strategy_reactionary_agenda }
 				OR = {
-					NOT = { has_strategy = ai_strategy_conservative_agenda }
-					any_political_movement = {
-						law_stance = {
-							law = law_type:law_professional_army 
-							value > neutral
-						}	
-						political_movement_support >= 0.10
-					}
-					has_technology_researched = napoleonic_warfare
-				}	
+					has_technology_researched = logistics
+					has_technology_researched = general_staff
+				}
+				has_law_or_variant = law_type:law_peasant_levies
 			}
+
 			add = 1000
 		}		
 	}
@@ -233,7 +225,7 @@ law_national_militia = {
 		state_conscription_rate_add = 0.025
 		country_officers_pol_str_mult = -0.25
 		country_leverage_resistance_mult = 0.5
-		state_building_barracks_max_level_add = 5
+		state_building_barrack_max_level_add = 5
 		state_building_conscription_center_max_level_add = 150
 		country_military_goods_cost_mult = -0.1
 		country_institution_cost_institution_military_mult = -0.65
@@ -244,7 +236,7 @@ law_national_militia = {
 	institution_modifier = {
 		state_conscription_rate_add = 0.006
 		unit_morale_loss_mult = -0.04
-		unit_defense_mult = 0.02
+		unit_defense_mult = 0.025
 		battle_defense_owned_province_mult = 0.02
 	}
 
@@ -301,10 +293,10 @@ law_mass_conscription = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.025
-		state_building_barracks_max_level_add = 150
+		state_building_barrack_max_level_add = 150
 		state_building_conscription_center_max_level_add = 150
 		country_officers_pol_str_mult = 0.25
-		country_institution_cost_institution_military_mult = 0.35
+		country_institution_cost_institution_military_mult = 0.5
 		country_institution_military_max_investment_add = 1
 	}
 
@@ -312,7 +304,7 @@ law_mass_conscription = {
 	institution_modifier = {
 		state_conscription_rate_add = 0.01
 		building_training_rate_mult = 0.3
-		unit_morale_loss_mult = 0.02
+		unit_morale_loss_mult = 0.035
 	}
 
 	
@@ -364,23 +356,16 @@ law_mass_conscription = {
 			add = 1000
 		}			
 		
-		# AI should really try to get out of Peasant Levies under the right circumstances
+		# Once the AI gets to a certain army tech level they should try to ditch Peasant Levies
 		if = {
 			limit = {
-				has_law_or_variant = law_type:law_peasant_levies
-				NOT = { has_strategy = ai_strategy_reactionary_agenda }
 				OR = {
-					NOT = { has_strategy = ai_strategy_conservative_agenda }
-					any_political_movement = {
-						law_stance = {
-							law = law_type:law_mass_conscription
-							value > neutral
-						}	
-						political_movement_support >= 0.10
-					}
-					has_technology_researched = napoleonic_warfare
-				}	
+					has_technology_researched = logistics
+					has_technology_researched = general_staff
+				}
+				has_law_or_variant = law_type:law_peasant_levies
 			}
+
 			add = 1000
 		}		
 	}
