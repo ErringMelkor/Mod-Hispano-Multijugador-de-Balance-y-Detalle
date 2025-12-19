@@ -103,7 +103,7 @@ state_trait_western_ghats  = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	
 	modifier = {
-		building_group_bg_coffee_plantations_throughput_add = 0.1
+		building_group_building_coffee_plantation_throughput_add = 0.1
 	}
 }
 
@@ -111,7 +111,7 @@ state_trait_yenangyaung  = {
 	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
 	
 	modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.1
+		building_group_building_oil_rig_throughput_add = 0.1
 	}
 }
 
@@ -119,6 +119,6 @@ state_trait_digboi  = {
 	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
 	
 	modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.1
+		building_group_building_oil_rig_throughput_add = 0.1
 	}
 }

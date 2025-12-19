@@ -105,14 +105,14 @@ working_conditions = {
 	building_group_bg_mining_engineers_mortality_mult = 0.03
 	building_group_bg_mining_slaves_mortality_mult = 0.35
 	
-	building_group_bg_logging_laborers_mortality_mult = 0.1
-	building_group_bg_logging_machinists_mortality_mult = 0.05
-	building_group_bg_logging_engineers_mortality_mult = 0.02
-	building_group_bg_logging_slaves_mortality_mult = 0.2
+	building_group_building_logging_camp_laborers_mortality_mult = 0.1
+	building_group_building_logging_camp_machinists_mortality_mult = 0.05
+	building_group_building_logging_camp_engineers_mortality_mult = 0.02
+	building_group_building_logging_camp_slaves_mortality_mult = 0.2
 	
-	building_group_bg_oil_extraction_laborers_mortality_mult = 0.15
-	building_group_bg_oil_extraction_machinists_mortality_mult = 0.05
-	building_group_bg_oil_extraction_engineers_mortality_mult = 0.02
+	building_group_building_oil_rig_laborers_mortality_mult = 0.15
+	building_group_building_oil_rig_machinists_mortality_mult = 0.05
+	building_group_building_oil_rig_engineers_mortality_mult = 0.02
 	
 	building_group_bg_light_industry_laborers_mortality_mult = 0.05
 	building_group_bg_light_industry_machinists_mortality_mult = 0.05
@@ -125,12 +125,12 @@ working_conditions = {
 	building_group_bg_infrastructure_machinists_mortality_mult = 0.1
 	building_group_bg_infrastructure_engineers_mortality_mult = 0.02
 
-	building_group_bg_whaling_laborers_mortality_mult = 0.15
-	building_group_bg_whaling_machinists_mortality_mult = 0.05
+	building_group_building_whaling_station_laborers_mortality_mult = 0.15
+	building_group_building_whaling_station_machinists_mortality_mult = 0.05
 
-	building_group_bg_fishing_laborers_mortality_mult = 0.1
-	building_group_bg_fishing_machinists_mortality_mult = 0.05
-	building_group_bg_fishing_engineers_mortality_mult = 0.02
+	building_group_building_fishing_wharf_laborers_mortality_mult = 0.1
+	building_group_building_fishing_wharf_machinists_mortality_mult = 0.05
+	building_group_building_fishing_wharf_engineers_mortality_mult = 0.02
 }
 
 literacy_penalty = {

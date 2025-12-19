@@ -10,12 +10,12 @@
     mine = "x0F7462"
     wood = "x04600E"
     arable_land = 10
-    arable_resources = { "bg_livestock_ranches" }
+    arable_resources = { "building_livestock_ranch" }
     capped_resources = {
-        bg_fishing = 4
+        building_fishing_wharf = 4
     }
     resource = {
-        type = "bg_oil_extraction"
+        type = "building_oil_rig"
         undiscovered_amount = 60
     }
     naval_exit_id = 3046
@@ -31,12 +31,12 @@ STATE_OMAN = {
     mine = "xB6755D"
     wood = "x395325"
     arable_land = 10
-    arable_resources = { "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" }
+    arable_resources = { "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        bg_fishing = 10
+        building_fishing_wharf = 10
     }
     resource = {
-        type = "bg_oil_extraction"
+        type = "building_oil_rig"
         undiscovered_amount = 30
     }
     naval_exit_id = 3048
@@ -54,12 +54,12 @@ STATE_ABU_DHABI = {
     mine = "x2768F8"
     wood = "x0DC972"
     arable_land = 5
-    arable_resources = { "bg_livestock_ranches" "bg_tobacco_plantations" }
+    arable_resources = { "building_livestock_ranch" "building_tobacco_plantation" }
     capped_resources = {
-        bg_fishing = 4
+        building_fishing_wharf = 4
     }
     resource = {
-        type = "bg_oil_extraction"
+        type = "building_oil_rig"
         undiscovered_amount = 80
     }
     naval_exit_id = 3046
@@ -77,13 +77,13 @@ STATE_YEMEN = {
     mine = "x49FCAB"
     wood = "x034B03"
     arable_land = 70
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" }
+    arable_resources = { "bg_wheat_farms" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" }
     capped_resources = {
         bg_lead_mining = 12
-        bg_fishing = 9
+        building_fishing_wharf = 9
     }
     resource = {
-        type = "bg_oil_extraction"
+        type = "building_oil_rig"
         undiscovered_amount = 30
     }
     naval_exit_id = 3047
@@ -100,10 +100,10 @@ STATE_HEDJAZ = {
     mine = "x314E1E"
     wood = "x2999ED"
     arable_land = 26
-    arable_resources = { "bg_livestock_ranches" }
+    arable_resources = { "building_livestock_ranch" }
     capped_resources = {
         bg_sulfur_mining = 28
-        bg_fishing = 5
+        building_fishing_wharf = 5
     }
     naval_exit_id = 3047
 }
@@ -120,9 +120,9 @@ STATE_HAIL = {
     mine = "x53215C"
     wood = "x920B4A"
     arable_land = 5
-    arable_resources = { "bg_livestock_ranches" }
+    arable_resources = { "building_livestock_ranch" }
     capped_resources = {
-        bg_fishing = 2
+        building_fishing_wharf = 2
     }
     naval_exit_id = 3046
 }

@@ -144,7 +144,7 @@ company_el_aguila = {
 			region = sr:region_mexico
 			is_incorporated = yes
 			is_coastal = yes
-			has_potential_resource = bg_oil_extraction
+			has_potential_resource = building_oil_rig
 		}
 	}
 
@@ -653,7 +653,7 @@ company_peruvian_amazon = {
 
 	prosperity_modifier = {
 		state_loyalists_from_political_movements_mult = 0.1
-		building_group_bg_rubber_mortality_mult = 0.1
+		building_group_building_rubber_plantation_mortality_mult = 0.1
 		building_rubber_plantation_throughput_add = 0.15
 	}
 

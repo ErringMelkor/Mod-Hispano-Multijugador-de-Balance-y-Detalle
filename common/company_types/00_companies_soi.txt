@@ -1311,7 +1311,7 @@ company_anglo_persian_oil = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.3
+		building_group_building_oil_rig_throughput_add = 0.3
 	}
 	
 	ai_will_do = {

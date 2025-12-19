@@ -18,7 +18,7 @@ state_trait_lake_maracaibo = {
     icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 	
 	modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.25
+		building_group_building_oil_rig_throughput_add = 0.25
 		state_infrastructure_add = 15
 	}
 }
@@ -193,7 +193,7 @@ state_trait_reconcavo = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	
 	modifier = {
-		building_group_bg_tobacco_plantations_throughput_add = 0.20
+		building_group_building_tobacco_plantation_throughput_add = 0.20
 	}
 }
 
@@ -210,7 +210,7 @@ state_trait_mata_atlantica = {
 	icon = "gfx/interface/icons/state_trait_icons/tropical_climate.dds"
 	
 	modifier = {
-		building_group_bg_sugar_plantations_throughput_add = 0.2
+		building_group_building_sugar_plantation_throughput_add = 0.2
 	}
 }
 
@@ -218,7 +218,7 @@ state_trait_gran_chaco = {
 	icon = "gfx/interface/icons/state_trait_icons/poor_soils.dds"
 	
 	modifier = {
-		building_group_bg_logging_throughput_add = -0.1
+		building_group_building_logging_camp_throughput_add = -0.1
 		building_group_bg_agriculture_throughput_add = -0.2
 		building_group_bg_ranching_throughput_add = 0.4	
 	}
@@ -228,7 +228,7 @@ state_trait_terra_roxa = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 	modifier = {
-		building_group_bg_coffee_plantations_throughput_add = 0.15
+		building_group_building_coffee_plantation_throughput_add = 0.15
 	}
 }
 

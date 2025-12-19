@@ -235,7 +235,7 @@ company_ottoman_tobacco_regie = {
 		}
 		any_scope_state = {
 			is_incorporated = yes
-			has_potential_resource = bg_tobacco_plantations
+			has_potential_resource = building_tobacco_plantation
 			count >= 4
 		}
 	}
@@ -244,7 +244,7 @@ company_ottoman_tobacco_regie = {
 		building_tobacco_plantation = {
 			level = 5
 			state_trigger = {
-				has_potential_resource = bg_tobacco_plantations
+				has_potential_resource = building_tobacco_plantation
 			}
 		}
 	}
@@ -818,7 +818,7 @@ company_imperial_tobacco = {
 		any_scope_state = {
 			region = sr:region_persia
 			is_incorporated = yes
-			has_potential_resource = bg_tobacco_plantations
+			has_potential_resource = building_tobacco_plantation
 			count >= 4
 		}
 	}

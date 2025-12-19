@@ -584,7 +584,7 @@ je_sick_man_bread_basket = {
 					value  >= 150
 				}
 				country_has_building_group_levels = {
-					type = bg_rice_farms
+					type = building_rice_farm
 					value  >= 50
 				}
 			}
@@ -594,7 +594,7 @@ je_sick_man_bread_basket = {
 					value  >= 100
 				}
 				country_has_building_group_levels = {
-					type = bg_rice_farms
+					type = building_rice_farm
 					value  >= 25
 				}
 				country_has_building_group_levels = {
@@ -651,7 +651,7 @@ je_sick_man_industrial_heartland = {
 
 	complete = {
 		country_has_building_group_levels = {
-			type = bg_logging
+			type = building_logging_camp
 			value  >= 100
 		}
 		country_has_building_group_levels = {

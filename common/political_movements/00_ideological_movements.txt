@@ -2464,9 +2464,9 @@ movement_anarchist = {
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
-						pop_employment_building_group = bg_logging
-						pop_employment_building_group = bg_fishing
-						pop_employment_building_group = bg_whaling
+						pop_employment_building_group = building_logging_camp
+						pop_employment_building_group = building_fishing_wharf
+						pop_employment_building_group = building_whaling_station
 						pop_employment_building_group = bg_manor_houses
 					}
 				}
@@ -5005,9 +5005,9 @@ movement_land_reform = {
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
-						pop_employment_building_group = bg_logging
-						pop_employment_building_group = bg_fishing
-						pop_employment_building_group = bg_whaling
+						pop_employment_building_group = building_logging_camp
+						pop_employment_building_group = building_fishing_wharf
+						pop_employment_building_group = building_whaling_station
 						pop_employment_building_group = bg_manor_houses
 					}
 				}

@@ -2,7 +2,7 @@
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 	
 	modifier = {
-		building_group_bg_logging_throughput_add = 0.25
+		building_group_building_logging_camp_throughput_add = 0.25
 		goods_output_coal_mult = 0.25
 	}
 }

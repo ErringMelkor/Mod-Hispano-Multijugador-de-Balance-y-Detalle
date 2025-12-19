@@ -1,5 +1,5 @@
 ﻿building_logging_camp = {
-	building_group = bg_logging
+	building_group = building_logging_camp
 	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low
@@ -18,7 +18,7 @@
 }
 
 building_rubber_plantation = {
-	building_group = bg_rubber
+	building_group = building_rubber_plantation
 	icon = "gfx/interface/icons/building_icons/rubber_lodge.dds"
 	required_construction = construction_cost_low
 
@@ -41,7 +41,7 @@ building_rubber_plantation = {
 }
 
 building_fishing_wharf = {
-	building_group = bg_fishing
+	building_group = building_fishing_wharf
 	icon = "gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
 	levels_per_mesh = 1
@@ -56,11 +56,11 @@ building_fishing_wharf = {
 	}
 	ownership_type = self
 
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_building_fishing_wharf.dds"
 }
 
 building_whaling_station = {
-	building_group = bg_whaling
+	building_group = building_whaling_station
 	icon = "gfx/interface/icons/building_icons/whaling_station.dds"
 	city_type = port
 	levels_per_mesh = 1
@@ -80,12 +80,12 @@ building_whaling_station = {
 	}
 	ownership_type = self
 
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_building_fishing_wharf.dds"
 }
 
 
 building_oil_rig = {
-	building_group = bg_oil_extraction
+	building_group = building_oil_rig
 	icon = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 50

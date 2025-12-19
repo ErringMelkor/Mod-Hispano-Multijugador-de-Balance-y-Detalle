@@ -126,7 +126,7 @@ company_Alpargatas = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_coffee_plantations_throughput_add = 0.15 #16
+		building_group_building_coffee_plantation_throughput_add = 0.15 #16
 
 	}
 	
@@ -326,7 +326,7 @@ company_managem  = {
 
 	ai_will_do = {
 		any_scope_state = {
-			has_potential_resource = bg_iron_mining
+			has_potential_resource = building_iron_mine
 		}
 	}
 
@@ -388,7 +388,7 @@ company_lena_gold_mining_partnertship  = {
 
 	ai_will_do = {
 		any_scope_state = {
-			has_potential_resource = bg_gold_mining
+			has_potential_resource = building_gold_mine
 		}
 	}
 
@@ -445,7 +445,7 @@ company_alhstrom = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_logging_throughput_add = 0.1
+		building_group_building_logging_camp_throughput_add = 0.1
 		building_paper_mills_throughput_add = 0.1
 		building_construction_sector_throughput_add = 0.05
 	}

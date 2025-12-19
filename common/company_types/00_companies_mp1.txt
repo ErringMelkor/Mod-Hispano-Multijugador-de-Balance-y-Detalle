@@ -1268,7 +1268,7 @@ company_de_beers = {
 	ai_will_do = {
 		any_scope_state = {
 			region = sr:region_southern_africa
-			has_potential_resource = bg_gold_mining
+			has_potential_resource = building_gold_mine
 		}
 	}
 
@@ -1390,7 +1390,7 @@ company_imperial_ethiopian_railways = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_coffee_plantations_throughput_add = 0.1
+		building_group_building_coffee_plantation_throughput_add = 0.1
 		building_livestock_ranch_throughput_add = 0.05
 	}
 

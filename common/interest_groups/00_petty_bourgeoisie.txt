@@ -285,11 +285,11 @@
 			pop_employment_building_group = bg_private_infrastructure
 			pop_employment_building_group = bg_financial_districts
 			pop_employment_building_group = bg_government
-			pop_employment_building_group = bg_logging
+			pop_employment_building_group = building_logging_camp
 			pop_employment_building_group = bg_mining
-			pop_employment_building_group = bg_fishing
-			pop_employment_building_group = bg_whaling
-			pop_employment_building_group = bg_oil_extraction
+			pop_employment_building_group = building_fishing_wharf
+			pop_employment_building_group = building_whaling_station
+			pop_employment_building_group = building_oil_rig
 			AND = {
 				custom_tooltip = {
 					text = owner_has_homesteading_tt

@@ -1593,7 +1593,7 @@ principle_colonial_focus_2 = {
 		country_institution_cost_institution_colonial_affairs_mult = -0.5
 		country_disallow_law_no_colonial_affairs_bool = yes
 		building_group_bg_plantations_unincorporated_throughput_add = 0.05
-		building_group_bg_rubber_unincorporated_throughput_add = 0.05
+		building_group_building_rubber_plantation_unincorporated_throughput_add = 0.05
 	}
 
 	leader_modifier = {
@@ -1622,7 +1622,7 @@ principle_colonial_focus_3 = {
 		country_institution_cost_institution_colonial_affairs_mult = -0.75
 		country_disallow_law_no_colonial_affairs_bool = yes
 		building_group_bg_plantations_unincorporated_throughput_add = 0.1
-		building_group_bg_rubber_unincorporated_throughput_add = 0.1
+		building_group_building_rubber_plantation_unincorporated_throughput_add = 0.1
 	}
 
 	leader_modifier = {

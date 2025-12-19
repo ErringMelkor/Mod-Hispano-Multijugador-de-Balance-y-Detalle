@@ -47,7 +47,7 @@ state_trait_north_sea_fishing = {
     icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 
 	modifier = {
-		building_group_bg_fishing_throughput_add = 0.2
+		building_group_building_fishing_wharf_throughput_add = 0.2
 	}
 }
 
@@ -55,7 +55,7 @@ state_trait_arctic_whaling = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
 
 	modifier = {
-		building_group_bg_whaling_throughput_add = 0.2
+		building_group_building_whaling_station_throughput_add = 0.2
 	}
 }
 
@@ -63,7 +63,7 @@ state_trait_antarctic_whaling = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
 
 	modifier = {
-		building_group_bg_whaling_throughput_add = 0.2
+		building_group_building_whaling_station_throughput_add = 0.2
 	}
 }
 

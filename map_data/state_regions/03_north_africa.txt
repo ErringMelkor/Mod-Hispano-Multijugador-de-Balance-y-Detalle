@@ -131,7 +131,7 @@ STATE_ERITREA = {
         undiscovered_amount = 8
     }
     resource = {
-        type = "bg_gold_fields"
+        type = "building_gold_field"
         depleted_type = "building_gold_mine"
         undiscovered_amount = 6
     }

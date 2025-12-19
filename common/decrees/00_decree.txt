@@ -650,11 +650,11 @@ decree_encourage_resource_industry = {
 	}		
 	modifier = {
 		building_group_bg_mining_throughput_add = 0.2
-		building_group_bg_logging_throughput_add = 0.2
-		building_group_bg_fishing_throughput_add = 0.2
-		building_group_bg_whaling_throughput_add = 0.2
-		building_group_bg_oil_extraction_throughput_add = 0.2
-		building_group_bg_rubber_throughput_add = 0.2
+		building_group_building_logging_camp_throughput_add = 0.2
+		building_group_building_fishing_wharf_throughput_add = 0.2
+		building_group_building_whaling_station_throughput_add = 0.2
+		building_group_building_oil_rig_throughput_add = 0.2
+		building_group_building_rubber_plantation_throughput_add = 0.2
 	}
 	cost = 100
 	
@@ -665,10 +665,10 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = bg_logging
-						is_building_group = bg_fishing
-						is_building_group = bg_whaling
-						is_building_group = bg_oil_extraction
+						is_building_group = building_logging_camp
+						is_building_group = building_fishing_wharf
+						is_building_group = building_whaling_station
+						is_building_group = building_oil_rig
 					}				
 				}
 			}
@@ -679,10 +679,10 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = bg_logging
-						is_building_group = bg_fishing
-						is_building_group = bg_whaling
-						is_building_group = bg_oil_extraction
+						is_building_group = building_logging_camp
+						is_building_group = building_fishing_wharf
+						is_building_group = building_whaling_station
+						is_building_group = building_oil_rig
 					}	
 					count >= 3
 				}			
@@ -694,10 +694,10 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = bg_logging
-						is_building_group = bg_fishing
-						is_building_group = bg_whaling
-						is_building_group = bg_oil_extraction
+						is_building_group = building_logging_camp
+						is_building_group = building_fishing_wharf
+						is_building_group = building_whaling_station
+						is_building_group = building_oil_rig
 					}	
 					count >= 5
 				}			
