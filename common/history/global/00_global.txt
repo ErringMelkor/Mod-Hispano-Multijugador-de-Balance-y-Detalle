@@ -66,28 +66,28 @@ GLOBAL = {
 	c:BEL ?= { # Historically 9.5:1 ratio of debt to yearly revenue
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -2.85
+			multiply = -0.85
 		}
 	}
 
 	c:NET ?= { # Historically 3.2:1 ratio of debt to yearly revenue
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -0.96
+			multiply = -0.66
 		}
 	}
 
 	c:AUS ?= { # Historically 5.33:1 ratio of debt to yearly revenue
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -1.59
+			multiply = -1.29
 		}
 	}
 
 	c:GBR ?= { # Deuda de las Guerras Napoleónicas + Liberación de esclavos.
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -2.5
+			multiply = -1.9
 		}
 	}
 
@@ -107,14 +107,7 @@ GLOBAL = {
 	c:PRU ?= { # Historically 3.8:1 ratio of debt to yearly revenue
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -1.14
-		}
-	}
-
-	c:TUR ?= { # Historically had no foreign debt prior to 1854
-		add_treasury = {
-			value = gold_reserves_limit
-			multiply = -0.4
+			multiply = -0.84
 		}
 	}
 
