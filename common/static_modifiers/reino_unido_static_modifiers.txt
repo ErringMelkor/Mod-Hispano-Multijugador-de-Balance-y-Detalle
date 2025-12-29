@@ -1,3 +1,0 @@
-﻿rejected_opium_wars = {
-	country_legitimacy_base_add = -15
-}

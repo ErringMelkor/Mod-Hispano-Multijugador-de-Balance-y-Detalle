@@ -1,9 +1,0 @@
-﻿ig_trait_gentle_empire = {
-	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
-	min_approval = happy
-
-	modifier = {
-		country_authority_per_subject_add = 25
-		
-	}
-}

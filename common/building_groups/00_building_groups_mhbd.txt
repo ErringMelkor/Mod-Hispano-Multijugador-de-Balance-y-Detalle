@@ -1,5 +1,0 @@
-﻿# Logging
-
-bg_hardwood_logging = {
-	parent_group = building_logging_camp
-}

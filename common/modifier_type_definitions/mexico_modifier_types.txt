@@ -1,5 +1,0 @@
-﻿unit_combat_unit_type_irregular_infantry_defense_mult = {
-
-	percent = yes
-
-}

@@ -1,4 +1,0 @@
-﻿galicia_minifundismo = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_bg_subsistence_agriculture_allowed_collectivization_add = 0.75
-}
