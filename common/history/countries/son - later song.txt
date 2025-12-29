@@ -1,0 +1,30 @@
+﻿COUNTRIES = {
+	c:SON ?= {
+		effect_starting_technology_tier_4_tech = yes
+		add_technology_researched = urban_planning
+		add_technology_researched = sericulture
+		add_technology_researched = academia
+		add_technology_researched = law_enforcement
+		add_technology_researched = mass_communication
+		add_technology_researched = stock_exchange
+		
+		set_market_capital = STATE_GUANGDONG	
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_canton_system
+		
+		add_journal_entry = {
+			type = je_imperial_examination_system
+		}
+
+	}
+}
