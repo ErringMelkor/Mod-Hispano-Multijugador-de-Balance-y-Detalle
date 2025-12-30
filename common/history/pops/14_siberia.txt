@@ -39,7 +39,7 @@
 				size = 17424
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 1257
 			}
 			create_pop = {
@@ -139,7 +139,7 @@
 	s:STATE_OB = { #DONE
 		region_state:RUS = {
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 4980
 			}
 			create_pop = {
@@ -156,7 +156,7 @@
 	s:STATE_SURGUT = { #DONE
 		region_state:RUS = {
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 8604
 			}
 			create_pop = {

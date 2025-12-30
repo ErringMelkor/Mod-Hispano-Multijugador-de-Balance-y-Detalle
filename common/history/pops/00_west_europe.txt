@@ -54,8 +54,7 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = FinnoUgric
-				religion = protestant
+				culture = sami
 				size = 18000
 			}
 		}
@@ -107,8 +106,7 @@
 				size = 384860
 			}
 			create_pop = {
-				culture = FinnoUgric
-				religion = protestant
+				culture = sami
 				size = 40000
 			}
 			create_pop = {
@@ -231,12 +229,17 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 672396
+				size = 434886
+			}
+			# est. 316680 Scottish Gaels
+			create_pop = {
+				culture = scottish_gaelic
+				size = 237510
 			}
 			create_pop = {
-				culture = scottish
+				culture = scottish_gaelic
 				religion = catholic
-				size = 8000
+				size = 79170
 			}
 		}
 	}
@@ -291,12 +294,16 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1397200
+				size = 1348072
 			}
 			create_pop = {
 				culture = scottish
 				religion = catholic
 				size = 188000
+			}
+			create_pop = {
+				culture = scottish_gaelic
+				size = 49128
 			}
 			create_pop = {
 				culture = irish
@@ -549,17 +556,17 @@
 				size = 131100
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 41100
 			}
 		}
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 1038678
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 12115
 			}
@@ -593,11 +600,11 @@
 	s:STATE_LANGUEDOC = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 1994848
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 167963
 			}
@@ -609,31 +616,39 @@
 				culture = french
 				size = 64216
 			}
+			create_pop = {
+				culture = sephardic
+				size = 895
+			}
 		}
 	}
 	s:STATE_RHONE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				size = 1709209
 			}
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				religion = protestant
 				size = 7736
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 711985
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 78428
 			}
 			create_pop = {
 				culture = french
 				size = 96520
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 889
 			}
 		}
 	}
@@ -657,6 +672,10 @@
 				religion = protestant
 				size = 2021
 			}
+			create_pop = {
+				culture = ashkenazi
+				size = 645
+			}
 		}
 	}
 	s:STATE_PICARDY = {
@@ -669,6 +688,10 @@
 				culture = french
 				religion = protestant
 				size = 7307
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 146
 			}
 		}
 	}
@@ -714,7 +737,7 @@
 				size = 65087
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 3001
 			}
 			create_pop = {
@@ -726,7 +749,7 @@
 	s:STATE_GUYENNE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 1693584
 			}
 			create_pop = {
@@ -734,7 +757,7 @@
 				size = 10362
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 30094
 			}
@@ -743,7 +766,7 @@
 	s:STATE_AUVERGNE_LIMOUSIN = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 1949056
 			}
 			create_pop = {
@@ -751,7 +774,7 @@
 				size = 369270
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 9298
 			}
@@ -764,7 +787,7 @@
 	s:STATE_BRITTANY = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = breton
 				size = 1599083
 			}
 			create_pop = {
@@ -772,7 +795,7 @@
 				size = 1018017
 			}
 			create_pop = {
-				culture = french
+				culture = breton
 				religion = protestant
 				size = 3030
 			}
@@ -794,8 +817,12 @@
 				size = 2607
 			}
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				size = 12350
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 595
 			}
 		}
 	}
@@ -849,7 +876,7 @@
 				size = 40722
 			}
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				size = 121924
 			}
 			create_pop = {
@@ -869,16 +896,20 @@
 				religion = protestant
 				size = 12130
 			}
+			create_pop = {
+				culture = ashkenazi
+				size = 7240
+			}
 		}
 	}
 	s:STATE_AQUITAINE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = occitan
 				size = 1703916
 			}
 			create_pop = {
-				culture = french
+				culture = occitan
 				religion = protestant
 				size = 18784
 			}
@@ -1247,7 +1278,7 @@
 				size = 664796
 			}
 			create_pop = {
-				culture = South_Slavic
+				culture = slovene
 				size = 72000
 			}
 		}
@@ -1270,11 +1301,11 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 174100
+				size = 183000
 			}
 			create_pop = {
 				culture = north_italian
-				size = 5900
+				size = 308000
 			}
 		}
 	}
@@ -1361,12 +1392,12 @@
 
 			# 412894 Franco-Provencal total, by guessing a total Romand population of Switzerland of 21%, derived by pulling a number out of thin air
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				# catholic
 				size = 129756
 			}
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				religion = protestant
 				size = 283138
 			}
