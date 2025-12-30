@@ -324,7 +324,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
         building_iron_mine = 45
         building_lead_mine = 45
         building_logging_camp = 17
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
     }
 }
 
@@ -342,7 +342,7 @@ STATE_NORTHERN_TRANSYLVANIA = {
         building_coal_mine = 48
         building_iron_mine = 63
         building_logging_camp = 13
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
     }
 }
 

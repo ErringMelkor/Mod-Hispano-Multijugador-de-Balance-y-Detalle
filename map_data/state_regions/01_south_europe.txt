@@ -37,7 +37,7 @@ STATE_PIEDMONT = {
         building_iron_mine = 45
         building_lead_mine = 45
         building_logging_camp = 8
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 6
     }
     naval_exit_id = 3032
@@ -61,7 +61,7 @@ STATE_SARDINIA = {
         building_lead_mine = 21
         building_sulfur_mine = 20
         building_logging_camp = 11
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 10
     }
     naval_exit_id = 3032
@@ -214,7 +214,7 @@ STATE_SAVOY = {
         building_iron_mine = 24
         building_lead_mine = 24
         building_logging_camp = 11
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
     }
 }
 
@@ -374,7 +374,7 @@ STATE_GALICIA = {
         building_gold_mine = 2
         building_iron_mine = 4
         building_logging_camp = 5
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 4
         building_whaling_station = 1
     }
@@ -813,7 +813,7 @@ STATE_BOSNIA = {
         building_coal_mine = 8
         building_lead_mine = 39
         building_logging_camp = 14
-        bg_hardwood_logging = 2
+        building_hardwood_logging = 2
     }
 }
 
@@ -831,7 +831,7 @@ STATE_NORTHERN_THRACE = {
     capped_resources = {
         building_iron_mine = 35
         building_logging_camp = 17
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 6
     }
     naval_exit_id = 3036
@@ -985,7 +985,7 @@ STATE_WESTERN_SERBIA = {
         building_iron_mine = 38
         building_coal_mine = 16
         building_logging_camp = 13
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
     }
 }
 
@@ -1021,7 +1021,7 @@ STATE_KOSOVO = {
         building_coal_mine = 10
         building_lead_mine = 24
         building_logging_camp = 4
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
     }
 }
 
@@ -1038,7 +1038,7 @@ STATE_CRETE = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 2
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 5
     }
     naval_exit_id = 3034

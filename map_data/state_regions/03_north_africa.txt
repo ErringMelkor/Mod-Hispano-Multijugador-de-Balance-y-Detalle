@@ -218,7 +218,7 @@ STATE_BLUE_NILE = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
     capped_resources = {
         building_logging_camp = 14
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_coal_mine = 4
         building_fishing_wharf = 2
     }
@@ -322,7 +322,7 @@ STATE_ALGIERS = {
         building_iron_mine = 10
         building_lead_mine = 7
         building_logging_camp = 6
-        bg_hardwood_logging = 1
+        building_hardwood_logging = 1
         building_fishing_wharf = 8
     }
     naval_exit_id = 3032
