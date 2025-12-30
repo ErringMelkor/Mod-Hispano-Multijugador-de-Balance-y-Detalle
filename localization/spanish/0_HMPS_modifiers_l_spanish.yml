@@ -1,0 +1,24 @@
+﻿l_english:
+ 
+ 
+ #Grants
+ sending_grant_250:0 "Granting £250,000"
+ receiving_grant_250:0 "Receiving £250,000"
+ sending_grant_500:0 "Granting £500,000"
+ receiving_grant_500:0 "Receiving £500,000"
+ sending_grant_1000:0 "Granting £1,000,000"
+ receiving_grant_1000:0 "Receiving £1,000,000"
+ sending_grant_2000:0 "Granting £2,000,000"
+ receiving_grant_2000:0 "Receiving £2,000,000
+ sending_grant_4000:0 "Granting £4,000,000"
+ receiving_grant_4000:0 "Receiving £4,000,000
+ sending_grant_8000:0 "Granting £8,000,000"
+ receiving_grant_8000:0 "Receiving £8,000,000"
+ received_grant:0 "Received Grant"
+ gave_grant:0 "Gave Grant"
+ 
+ #GM Actions
+ modifier_GM_tax_waste:0 "GM Tax Waste Malus"
+ 
+
+ 

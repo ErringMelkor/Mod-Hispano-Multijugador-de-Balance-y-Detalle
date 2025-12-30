@@ -1,0 +1,7 @@
+﻿l_english:
+  
+ 
+ #Decrees
+ decree_host_scope:0 "GM Scope"
+ decree_host_scope_desc:0 "This decree signals to the GM decision where to make an effect (such as where to build a university)."
+ 

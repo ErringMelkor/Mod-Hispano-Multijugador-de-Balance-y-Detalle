@@ -1,0 +1,137 @@
+﻿l_english:
+
+ brz_brasil_brasileiro1: "Brasil Brasileiro"
+ fervor_nacional: "National Enthusiasm"
+ reconquista_andina: "Andine Reconquest"
+ federacion_de_hierro: "Iron Federation"
+ bra_explosion_demografica: "Brazilian Demographic Explosion"
+ 
+ je_german_unification_desc: "#g You will annex all south german minors"
+ je_north_german_minors_annexation: "#g You will annex all north german minors"
+
+ send_money: "Send Money"
+ send_money_desc: "Transfers #g 100.000#!@money!"
+ send_money_big: "Send More Money"
+ send_money_big_desc: "Transfers #g 1.000.000#!@money!"
+ 
+ otomanosphere:0 "Otomanosphere"
+ ideology_fiscal_conservative: "Fiscal conservatism"
+ ideology_fiscal_conservative_desc: "Economical theory under which the peasantry is the fiscal heart of the state."
+ ideology_manchu_supremacy: "Manchu Supremacism"
+ ideology_manchu_supremacy_desc: "This group believes manchu noblemen should lead the military forces of the country."
+
+ 
+ STATE_GREATER_MARYLAND: "Greater Maryland"
+ STATE_NEW_ENGLAND: "New England"
+ STATE_GREATER_MASSACHUSETTS: "Greater Massachusetts"
+ HUB_NAME_STATE_GREATER_MARYLAND_city: "Washingtong"
+ HUB_NAME_STATE_GREATER_MARYLAND_port: "Prince Frederick"
+ HUB_NAME_STATE_GREATER_MARYLAND_farm: "Leonardtown"
+ HUB_NAME_STATE_NEW_ENGLAND_city: "Kingston"
+ HUB_NAME_STATE_NEW_ENGLAND_farm: "Salem"
+ HUB_NAME_STATE_NEW_ENGLAND_wood: "Lawrence"
+ HUB_NAME_STATE_NEW_ENGLAND_port: "Newburyport"
+ HUB_NAME_STATE_GREATER_MASSACHUSETTS_city: "Providence"
+ HUB_NAME_STATE_GREATER_MASSACHUSETTS_port: "Fall River"
+ HUB_NAME_STATE_GREATER_MASSACHUSETTS_farm: "Warwick"
+ HUB_NAME_STATE_GREATER_MASSACHUSETTS_wood: "Newport"
+    
+  #Murcia
+ STATE_MURCIA: "Murcia"
+ #Ruhr Boom
+ ruhr_boom_demografico: "Demographic Boom of the Ruhr Valley"
+ ruhr_boom.1.t: "Demographic Boom"
+ ruhr_boom.1.d: "The fruits of industrial expansion won't be in vain."
+ ruhr_boom.1.f: "The region of the Ruhr was an agrarion region until 1850. The never ending demand of coal should bring new workers into the region, making it one of the most industrialized regions of the world."
+ je_ruhr_boom_main: "Boom of the Ruhr Valley"
+ je_ruhr_boom_main_reason: "Expand the production of coal will ensure the creation of uncountable new jobs"
+ je_ruhr_boom_main_status: "The fast industrialization of the 19th century brings a larger demand of workforce"
+ #AC current
+ pm_ac_current_disabled: "Direct Current Only"
+ pm_ac_current: "Alternating Current"
+ pmg_alternate_building_power_plant: "Current"
+ ac_power: "Alternating Current"
+ ac_power_desc: "Electrical current in which the magnitude and direction varies ciclically."
+ 
+  #Italy journal entries
+ je_lake_fucine_reason: "The draining will produce one of the most fertile lands in the Italic Peninsula."
+ lake_fucine.1.t: "Draining completed."
+ lake_fucine.1.d: "After four long years, the basin shall be home to the best crops in the Adriatic coast."
+ lake_fucine.1.f: "Lake Fucine was located inbetween the Sirente and Velino mountain chans on the northeast, the Salviano mons on the west, Vallelonga at the south and Giovenco Valley at the east."
+ lake_fucine.1.a: "A bountiful harvest awaits us."
+ #Italy Decisions
+ drain_lake_fucine_decision: "Drain Lake Fucine"
+ drain_lake_fucine_decision_desc: "Draining the Lake Fucine will create a fertile land for us to cultivate."
+ je_lake_fucine: "Drain the Lake Fucine"
+ lake_fucine_draining_modifier: "Draining Lake Fucine"
+ #Italy State Traits
+ state_trait_lake_fucine: "Lake Fucine"
+ state_trait_fucine_basin: "Fucine Basin"
+ #Mexico IGs
+ ig_trait_aguila_del_norte: "Eagle of the North"
+ ig_trait_aguila_del_norte_desc: "As the Colossus of the South does, we must be like an eagle, and trample and devour the snakes that surround us."
+  ig_trait_pies_descalzos: "Pies Descalzos"
+  ig_trait_pies_descalzos_desc: "Aunque no tengamos nada, el pueblo mexicano siempre se alzará para defender su justa patria."
+  
+
+
+  rejected_opium_wars: "Rejected Opium Wars"
+  
+  state_trait_tiranny_of_distance: "The Tiranny of Distance"
+  state_trait_gulf_of_paria: "Golfo de Paria"
+  
+  state_trait_bay_of_candelaria: "Bahía de la Candelaria"
+  
+  state_trait_rio_de_janeiro_harbor: "Puerto de Río de Janeiro"
+  
+  state_trait_savage_river: "Savage River"
+  
+  major_explosion_demografica: "Demographic Boom"
+  
+  state_trait_sierra_madre_watershed: "Sierra Madre Watershed"
+  
+  state_trait_sierra_madre: "Sierra Madre"
+  
+  state_trait_pinsk_marshlands: "Pinsk Marshlands"
+  state_trait_cuenca_guadalquivir: "Guadalquivir Basin"
+  state_trait_bahia_de_cadiz: "Cadiz Bay"
+  state_trait_iberian_pyrite_belt: "Iberian Pyrite Belt"
+  state_trait_tagus_river: "Tagus River"
+  state_trait_ebro_river: "Ebro River"
+  state_trait_rias_gallegas: "Galician Estuaries"
+  
+  state_trait_golfo_di_napoli: "Gulf of Naples"
+  state_trait_golfo_di_cagliari: "Gulf of Cagliari"
+  state_trait_golfo_di_genoa: "Gulf of Genoa"
+  state_trait_golfo_di_tarento: "Gulf of Tarento"
+  state_trait_laguna_veneta: "Laguna Veneta"
+  
+  state_trait_cold_water_ports: "Cold Water Ports"
+  
+  state_trait_bosphorus_strait: "Bosphorus Strait"
+  state_trait_anatolian_plateau: "Anatolian Plateau"
+  state_trait_yemeni_highlands: "Yemeni Highlands"
+  state_trait_cedar_woods: "Lebanon Cedar"
+  state_trait_ethiopian_highlands: "Ethiopian Highlands"
+  
+  state_trait_jingdezhen_lead_deposits: "Jingdezhen Lead Deposits"
+  state_trait_daye_iron_mine: "Daye Iron Deposits"
+  state_trait_Khingan_Mountains: "Khingan Mountains
+  state_trait_tian_shan_mountain: "Tian Shan Mountain"
+  state_trait_tian_shan_foothills: "Tian Shan Foothills"
+  state_trait_cochinilla_canaria: "Cochinilla Canaria"
+  
+ ig_trait_neoconfucian_retreat: "Neoconfucian Retreat"
+ ig_trait_secret_societies: "Secret Societies"
+ ig_trait_manchu_quarreling: "Manchu Quarreling"
+ ig_trait_lack_of_leadership: "Lack of Leadership"
+ ig_trait_stunted_innovation: "Stunted Innovation"
+ ig_trait_fierce_quotaism: "Fierce Quotaism"
+ ig_trait_autonomous_breakdown: "Autonomous Breakdown"
+ 
+  STATE_HAINAN: "Hainan"
+  
+ je_eic_ideology: "Ideological Reform"
+ ideology_indian_princes_2: "New Indian Princes"
+ ideology_british_entrepeneurs_2: "New British Entrepeneurs"
+
