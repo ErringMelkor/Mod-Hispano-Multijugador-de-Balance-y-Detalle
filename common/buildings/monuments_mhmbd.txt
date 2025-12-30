@@ -1,0 +1,485 @@
+﻿#####################################################################################################
+########################################## GUERRA Y PAZ #############################################
+#####################################################################################################
+
+
+building_catedral_de_santiago = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/catedral_de_santiago.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_catedral_de_santiago
+	}
+	
+	potential = {
+		state_region = s:STATE_GALICIA
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_municipio_de_estocolmo = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/municipio_de_estocolmo.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_municipio_de_estocolmo
+	}
+	
+	unlocking_technologies = { 
+		corporatism 
+	}
+
+	potential = {
+		state_region = s:STATE_SVEALAND
+	}
+	
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_ciudad_imperial_de_kyoto = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/ciudad_imperial_de_kyoto.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_ciudad_imperial_de_kyoto
+		pmg_base_building_fushimi_inari-taisha
+	}
+
+	potential = {
+		state_region = s:STATE_KANSAI
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_galeria_de_napoles = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/galeria_de_napoles.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_galeria_de_napoles
+	}
+	
+	unlocking_technologies = { 
+		steel_frame_buildings
+	}
+
+	potential = {
+		state_region = s:STATE_CAMPANIA
+	}
+	
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+
+}
+
+building_el_escorial = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/el_escorial.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_el_escorial
+	}
+	
+	potential = {
+		state_region = s:STATE_TOLEDO
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_dutch_polders = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/the_polders.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_dutch_polders
+	}
+	
+	potential = {
+		state_region = s:STATE_HOLLAND
+		state_region = s:STATE_FRIESLAND
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_khaju_bridge1 = {
+	icon = "gfx/interface/icons/building_icons/khaju_bridge.dds"
+	building_group = bg_monuments
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+
+	potential = {
+		state_region = s:STATE_IRAKAJEMI
+	}
+
+	production_method_groups = {
+		pmg_base_building_khaju_bridge
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_palacio_imperial_de_tokyo = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/ciudad_imperial_de_kyoto.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+
+
+	production_method_groups = {
+		pmg_base_building_palacio_imperial_de_tokyo
+	}
+
+	potential = {
+		state_region = s:STATE_KANTO
+	}
+	
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_grand_bazaar = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/grand_bazaar.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_grand_bazaar
+	}
+
+	potential = {
+		state_region = s:STATE_ISFAHAN
+		state_region = s:STATE_SYRIA
+		state_region = s:STATE_BAGHDAD
+		state_region = s:STATE_LOWER_EGYPT
+		state_region = s:STATE_EASTERN_THRACE
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_misiones_jesuitas = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/misiones_jesuitas.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_misiones_jesuitas
+	}
+
+	potential = {
+		state_region = s:STATE_SANTA_CRUZ
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_teatro_colon = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/teatro_colon.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_teatro_colon
+	}
+
+	unlocking_technologies = { 
+		realism 
+	}
+
+	potential = {
+		state_region = s:STATE_BUENOS_AIRES
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_iglesia-convento_san_francisco = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/iglesia-convento_san_francisco.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_iglesia-convento_san_francisco
+	}
+
+	potential = {
+		state_region = s:STATE_ECUADOR
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_penal_de_ushuaia = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/penal_ushuaia.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_penal_de_ushuaia
+	}
+
+	unlocking_technologies = { 
+		steel_frame_buildings 
+	}
+
+	potential = {
+		state_region = s:STATE_ARAUCANIA
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_universidad_imperial = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/imperial_university.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_universidad_imperial
+	}
+
+	unlocking_technologies = { 
+		steel_frame_buildings
+	}
+
+	potential = {
+		state_region = s:STATE_EASTERN_THRACE
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_qalawun_complex = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/qalawun_complex.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_qalawun_complex
+	}
+
+	potential = {
+		state_region = s:STATE_LOWER_EGYPT
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_golestan_palace = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/golestan_palace.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_golestan_palace
+	}
+
+	potential = {
+		state_region = s:STATE_IRAKAJEMI
+
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_palazzo_reale_di_torino = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/palazzo_di_torino.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_palazzo_reale_di_torino
+	}
+
+	potential = {
+		state_region = s:STATE_PIEDMONT
+
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_palais_royal_de_bruxelles = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/roix_bruxelles.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_palais_royal_de_bruxelles
+	}
+
+	potential = {
+		state_region = s:STATE_FLANDERS
+
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_sar_i_sang = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/lapislazuli.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_sar_i_sang
+	}
+
+	potential = {
+		state_region = s:STATE_FLANDERS
+
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+
+building_département_métropolitain = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/departamento_central.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+
+	production_method_groups = {
+		pmg_base_building_département_métropolitain
+	}
+
+	potential = {
+		state_region = s:STATE_ILE_DE_FRANCE
+	}
+
+	required_construction = construction_cost_monument
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
