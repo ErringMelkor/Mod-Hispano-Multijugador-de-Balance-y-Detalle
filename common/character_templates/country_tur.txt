@@ -1,0 +1,275 @@
+﻿### Turkey/Ottoman Empire character template file ###
+
+# Ottoman Empire - TUR
+# Turkey & the Ottoman Empire - TUR
+tur_koca_mustafa_reshid_pasha = { # Damad (or Damat) Mehmed Asi Pasha, grand vizier in 1852-1853
+    first_name = Damad_Mehmed
+    last_name = Ali
+    historical = yes
+    culture = cu:turkish
+    female = no
+    dna = dna_damat_mehmed_ali_pasha
+    religion = rel:sunni
+    ideology = ideology_ottomanism
+    interest_group = ig_intelligentsia
+    birth_date = 1813.1.1
+    traits = {
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:TUR
+            this = c:TUR
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+            NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+        }   
+        earliest_usage_date = 1845.1.1
+        latest_usage_date = 1860.1.1
+        chance = 100
+    }   
+}
+tur_mahmut_osmanoglu_template = {
+    # Mahmud II of the Ottoman Empire
+    first_name = Mahmut
+    last_name = Osmanoglu
+    historical = yes
+    culture = primary_culture
+    ruler = yes
+    birth_date = 1785.7.20
+    dna = dna_mahmud_02
+    interest_group = ig_intelligentsia
+    ideology = ideology_ottomanism
+    traits = {
+        ambitious
+		direct
+		tuberculosis
+        meticulous
+    }
+}
+tur_abdulmecid_osmanoglu_template = {
+    first_name = Abdulmecid
+    last_name = Osmanoglu
+    historical = yes
+    culture = primary_culture
+    heir = yes
+    birth_date = 1823.4.25
+    interest_group = ig_intelligentsia
+    ideology = ideology_ottomanism
+    traits = {
+        trait_child
+        meticulous
+    }
+}
+tur_abdulhamid_ii_template = {
+    first_name = Abdul_Hamid
+    last_name = Osmanoglu
+    historical = yes
+    culture = cu:turkish
+    female = no
+    dna = dna_abdul_hamid_ii
+    ideology = ideology_authoritarian
+    interest_group = ig_landowners
+    birth_date = 1842.9.21
+	ruler = yes
+    traits = {
+        pious
+        persistent
+        basic_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:TUR
+            this = c:TUR
+            c:TUR = { has_law = law_type:law_monarchy }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1900.1.1
+        chance = 50
+    }   
+}
+
+# Generated agitators
+
+# Butrus al-Bustani, Lebanese intellectual of the Nahda
+tur_butrus_al_bustani = {
+	first_name = "Butrus"
+	last_name = "al-Bustani"
+	historical = yes
+	birth_date = 1819.1.11 # Born on an unknown day in January of 1819
+	culture = cu:mashriqi
+	religion = rel:protestant # Born into a Maronite family, but converted to Protestantism around 1840. Mix of Congregationalist and Presbyterian, look up the National Evangelical Church of Beirut for more on the theology if you're interested.
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	traits = {
+		romantic
+		innovative
+		aesthete
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_LEBANON
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1861.1.1 # His most major contributions to the Nahda began after the Lebanese civil war of 1860/61.
+		latest_usage_date = 1883.5.1 # died May 1st, 1883
+		chance = 50
+	}
+}
+
+# Warda al-Yaziji, Lebanese feminist and poet
+tur_warda_al-yaziji = {
+	first_name = "Warda"
+	last_name = "al-Yaziji"
+	historical = yes
+	female = yes
+	birth_date = 1838.6.7 # Born in 1838, exact date unknown. Died 1924, exact date unknown.
+	culture = cu:mashriqi
+	religion = rel:catholic # Melkite Greek Catholic
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	traits = {
+		persistent
+		aesthete
+		erudite
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_LEBANON
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_petty_bourgeoisie
+			}
+		}
+		earliest_usage_date = 1867.1.1 # Al-Yaziji's first collection of poems was published in 1867
+		latest_usage_date = 1899.1.1 # still active in the early 20th century, but it's best if she's spawned before she's deep into her 60s
+		chance = 50
+	}
+}
+
+### commanders
+tur_general_pasha = {
+	first_name = Mehmed_Naik
+	last_name = "Pasha"
+	historical = yes
+	culture = cu:turkish
+	female = no
+	religion = rel:sunni
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1804.2.4 # Only birth year certain
+	traits = {
+		persistent
+		basic_diplomat
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 75
+	}
+}
+tur_admiral_hobart = { # Augustus Charles Hobart-Hampden
+	first_name = Hobart
+	last_name = Pasha
+	historical = yes
+	culture = cu:british
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1822.4.1
+	traits = {
+		experienced_convoy_raider
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		role = admiral
+		earliest_usage_date = 1862.2.5
+		latest_usage_date = 1880.1.1	
+		chance = 50
+	}
+}
+tur_general_mehmed_ali = { # Ludwig Karl Friedrich Detroit
+	first_name = Mehmed_Ali
+	last_name = Pasha
+	historical = yes
+	culture = cu:north_german
+	female = no
+	religion = rel:sunni
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1827.11.18
+	traits = {
+		defense_in_depth_specialist
+		pillager
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		role = general
+		earliest_usage_date = 1865.1.1
+		latest_usage_date = 1888.1.1	
+		chance = 50
+	}
+}
+tur_general_osman_nuri = {
+	first_name = Osman_Nuri
+	last_name = Pasha
+	historical = yes
+	culture = cu:turkish
+	female = no
+	religion = rel:sunni
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1832.2.18
+	traits = {
+		stalwart_defender
+		experienced_defensive_strategist
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:TUR
+			this = c:TUR
+		}
+		role = general
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1900.1.1	
+		chance = 50
+	}
+}
