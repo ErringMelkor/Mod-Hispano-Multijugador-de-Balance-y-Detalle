@@ -1,0 +1,63 @@
+#Plan Haussmann.
+institute_plan_haussmann = {
+	is_shown = {
+		any_scope_state = {
+			state_region = s:STATE_ILE_DE_FRANCE
+			is_incorporated = yes
+			has_modifier = old_paris
+		}
+	}
+
+	possible = {
+		bureaucracy >= 1500
+
+		has_technology_researched = steel_frame_buildings
+	}
+
+	when_taken = {
+
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+			remove_modifier = old_paris
+			add_modifier = {
+				name = new_paris
+			}	
+		}
+
+		add_modifier = {
+			name = rebuilding_paris
+			years = 5
+		}
+	}
+
+	ai_chance = {
+		base = 4
+	}
+}
+
+institute_plan_borrman = {
+	is_shown = {
+		NOT = {
+			has_global_variable = borrman_var
+		}
+		is_player = no
+
+		c:GZA ?= this
+	}
+
+	possible = {
+		
+	}
+
+	when_taken = {
+
+		trigger_event = { id = age_of_nicholas_i.5 } 
+	
+	}
+
+	ai_chance = {
+		add = 20
+	}
+}

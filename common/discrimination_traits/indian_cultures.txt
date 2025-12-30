@@ -1,0 +1,12 @@
+﻿charter_english = {
+	type = tradition
+}
+charter_portuguese = {
+	type = tradition
+}
+charter_french = {
+	type = tradition
+}
+charter_dutch = {
+	type = tradition
+}

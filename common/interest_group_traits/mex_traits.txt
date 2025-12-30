@@ -1,0 +1,20 @@
+﻿ig_trait_aguila_del_norte = {
+	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
+	min_approval = loyal
+	
+	modifier = {
+		unit_defense_mult = 0.15
+		unit_morale_recovery_mult = 0.15
+	}
+}
+
+ig_trait_pies_descalzos = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+
+	modifier = {
+		building_training_rate_mult = 0.1
+		state_conscription_rate_add = 0.02
+		unit_combat_unit_type_irregular_infantry_defense_mult = 0.75
+	}
+}

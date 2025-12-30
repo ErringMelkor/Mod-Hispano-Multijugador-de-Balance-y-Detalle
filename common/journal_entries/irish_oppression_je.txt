@@ -1,0 +1,51 @@
+﻿je_irish_discrimination = {
+	icon = "gfx/interface/icons/event_icons/ireland.dds"
+
+	group = je_group_historical_content
+
+	complete = {
+		country_average_cultural_acceptance = {
+			target = cu:irish
+			value = acceptance_status_4
+		}
+	}
+
+	on_complete = {
+		ig:ig_landowners = {
+			remove_ideology = ideology_british_hegemony
+		}
+
+		every_scope_state = {
+			limit = {
+				has_modifier = irish_oppression
+			}
+			remove_modifier = irish_oppression
+		}
+	}
+
+	fail = {
+		cu:irish = {
+			culture_secession_progress = {
+				target = ROOT
+				value > 0.75
+			}
+		}
+	}
+
+	on_fail = {
+		every_scope_state = {
+			limit = {
+				has_modifier = irish_oppression
+			}
+			remove_modifier = irish_oppression
+			add_modifier = {
+				name = irish_oppression_lessened
+			}
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+#Guerra y Paz

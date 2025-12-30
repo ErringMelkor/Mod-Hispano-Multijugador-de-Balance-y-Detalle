@@ -1,0 +1,72 @@
+﻿namespace = ruhr_boom
+
+#JE iniciation event
+
+
+#JE completion event
+
+ruhr_boom.1 = {
+	type = country_event
+		placement = root
+
+		duration = 3
+
+		title = ruhr_boom.1.t
+		desc = ruhr_boom.1.d 
+		flavor = ruhr_boom.1.f
+
+		event_image = {
+			video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
+		}
+
+		icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+		cooldown = { days = normal_modifier_time }
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				has_state_trait =  state_trait_ruhr_coalfield
+			}
+		}
+	}
+
+	option = {
+		name = ruhr_boom.1.a
+		default_option = yes
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTPHALIA
+			}
+			add_modifier = {
+				name = ruhr_boom_demografico
+				months = 240
+				is_decaying = yes
+			}
+		} 
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_RUHR
+			}
+			add_modifier = {
+				name = ruhr_boom_demografico
+				months = 240
+				is_decaying = yes
+			}
+		}
+		
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_RHINE
+			}
+			add_modifier = {
+				name = ruhr_boom_demografico
+				months = 240
+				is_decaying = yes
+			}
+		}
+				
+	}
+	
+}

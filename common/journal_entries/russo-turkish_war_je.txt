@@ -1,0 +1,714 @@
+﻿je_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
+
+	group = je_group_russia_expansion
+
+	is_shown_when_inactive = {
+		exists = c:RUS
+        THIS = c:RUS
+        is_subject = no
+	}
+	possible = {
+		has_technology_researched = nationalism
+		any_interest_group = {
+			is_in_government = yes
+			leader = {
+				OR = {
+					has_ideology = ideology:ideology_jingoist_leader
+					has_ideology = ideology:ideology_ethno_nationalist
+					has_ideology = ideology:ideology_traditionalist
+					has_ideology = ideology:ideology_fascist
+					has_ideology = ideology:ideology_authoritarian
+				}
+			}
+		}
+		custom_tooltip = {
+			text = caucasus_secured_tt
+			has_global_variable = caucasus_consolidated_var
+		}
+		any_scope_state = {
+			state_region = s:STATE_KARS
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_GREATER_CAUCASUS
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_DOBRUDJA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_BESSARABIA
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = russo-turkish_war_initialization
+			}
+		}
+	}
+
+	immediate = {
+		trigger_event = { id = russo-turkish_war.1  popup = yes }
+
+		set_variable = russo-turkish_war_initialization
+	}
+
+	complete = {
+		has_variable = russo-turkish_war_initialization
+	}
+
+	on_complete = {
+		
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
+
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_great_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
+
+	group = je_group_russia_expansion
+
+	possible = {
+	}
+
+	immediate = {
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				add_claim = ROOT
+			}
+		}
+	}
+
+	complete = {
+
+		custom_tooltip = {
+			text = great_russo_turkish_war_goal_tt
+
+			any_scope_state = {
+				state_region = s:STATE_MOLDAVIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_DOBRUDJA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_BULGARIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_WALLACHIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_KARS
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_TRABZON
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_ERZURUM
+				is_incorporated = yes
+				is_split_state = no
+			}
+		}
+	}
+
+	on_complete = {
+
+		trigger_event = { id = russo-turkish_war.2  popup = yes } #russia wins the great russo turkish war.
+
+		c:TUR = {
+			set_variable = russian_victory
+		}
+	}
+
+	fail = {
+
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
+	}
+
+	on_fail = {
+
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
+
+		trigger_event = { id = russo-turkish_war.11  popup = yes } #russia losses the great russo turkish war.
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
+
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_western_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
+
+	group = je_group_russia_expansion
+
+	possible = {
+	}
+
+	immediate = {
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				add_claim = ROOT
+			}
+		}
+	}
+
+	complete = {
+
+		custom_tooltip = {
+			text = western_russo_turkish_war_goal_tt
+
+			any_scope_state = {
+				state_region = s:STATE_MOLDAVIA
+				is_incorporated = yes
+				OR = {
+					is_split_state = yes
+					is_split_state = no
+				}
+			}
+			any_scope_state = {
+				state_region = s:STATE_DOBRUDJA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_BULGARIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_WALLACHIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = russo-turkish_war.3  popup = yes } #russia wins the western russo turkish war.
+		c:TUR ={
+			set_variable = russian_victory
+		}
+	}
+
+	fail = {
+
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
+
+	}
+
+	on_fail = {
+
+		trigger_event = { id = russo-turkish_war.10  popup = yes } #russia losses the eastern/western russo turkish war.
+
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_eastern_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
+
+	group = je_group_russia_expansion
+
+	possible = {
+	}
+
+	immediate = {
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				add_claim = ROOT
+			}
+		}
+
+	}
+
+	complete = {
+
+		custom_tooltip = {
+			text = eastern_russo_turkish_war_goal_tt
+			any_scope_state = {
+				state_region = s:STATE_KARS
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_TRABZON
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_ERZURUM
+				is_incorporated = yes
+				is_split_state = no
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = russo-turkish_war.4  popup = yes } #russia wins the eastern russo turkish war.
+
+		c:TUR = {
+			set_variable = russian_victory
+		}
+	}
+
+	fail = {
+
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
+
+	}
+
+	on_fail = {
+
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
+
+		trigger_event = { id = russo-turkish_war.10  popup = yes } #russia losses the eastern/western russo turkish war.
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
+
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_turkish_pov_war = { #ottoman perspective
+	icon = "gfx/interface/icons/event_icons/turwar.dds"
+
+	group = je_group_russia_expansion
+
+	possible = {
+
+	}
+
+	immediate = {
+
+	}
+
+	complete = {
+		
+		OR = {
+			custom_tooltip = {
+				text = turkish_victory_tt
+				has_variable = failed_russian_campaign
+			}
+			AND = {
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+					is_split_state = no
+				}
+				any_scope_state = {
+					state_region = s:STATE_KARS
+					is_split_state = no
+				}
+			}
+			AND = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+					is_split_state = no
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+					is_split_state = no
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = russo-turkish_war.6  popup = yes } #ottomans win the war.
+	}
+
+	fail = {
+		has_variable = russian_victory
+	}
+
+	on_fail = {
+		trigger_event = { id = russo-turkish_war.8  popup = yes } #ottomans loses the war.
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+		trigger_event = { id = russo-turkish_war.7  popup = yes } #ottomans halt the russians
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}

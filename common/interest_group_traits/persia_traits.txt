@@ -1,0 +1,8 @@
+﻿ig_trait_famine_reserves_per = {
+	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
+	min_approval = happy
+	
+	modifier = {
+		building_group_bg_subsistence_agriculture_mortality_mult = -0.075
+	}
+}

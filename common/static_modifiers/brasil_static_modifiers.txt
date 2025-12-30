@@ -1,0 +1,18 @@
+﻿brz_brasil_brasileiro1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_mult = 0.05
+	state_assimilation_mult = 0.25
+	state_migration_pull_mult = 0.25
+}
+
+modifier_agricultural_development_trade = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_trade_advantage_mult = 0.35
+	building_group_bg_plantations_throughput_add = 0.1
+}
+
+modifier_agricultural_development_landowners = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	interest_group_ig_landowners_approval_add = 5
+	building_group_bg_plantations_throughput_add = 0.20
+}

@@ -1,0 +1,74 @@
+﻿namespace = patwarahi
+
+# start event
+patwarahi.1 = {
+	type = country_event
+	placement = root
+	title = patwarahi.1.t
+	desc = patwarahi.1.d
+	flavor = patwarahi.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		ig:ig_petty_bourgeoisie = {
+			save_scope_as = physiocrats_scope
+		}
+		ig:ig_industrialists = {
+			save_scope_as = entrepeneurs_scope
+		}
+		ig:ig_landowners = {
+			save_scope_as = landowners_scope
+		}
+		ig:ig_armed_forces = {
+			save_scope_as = presidential_armies_scope
+		}		
+	}
+
+	option = {
+		name = patwarahi.1.a
+
+		trigger_event = {
+			id = patwarahi.2
+		}
+
+	}
+}
+
+patwarahi.2 = {
+	type = country_event
+	placement = root
+	title = patwarahi.2.t
+	desc = patwarahi.2.d
+	flavor = patwarahi.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+	}
+
+	option = {
+		name = patwarahi.2.a
+	}
+}
+
+#After all, Its Just Good Business (La compañía prevalece)

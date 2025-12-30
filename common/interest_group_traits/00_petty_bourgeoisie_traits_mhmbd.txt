@@ -1,0 +1,29 @@
+# SWE 
+ig_trait_cooperative_agencies = { 
+	icon = "gfx/interface/icons/ig_trait_icons/job_creators.dds"
+	min_approval = loyal #Loyal
+
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+	}
+}
+
+# Gran Bretaña
+ig_trait_old_lady_of_threadneedle_street = {
+	icon = "gfx/interface/icons/ig_trait_icons/treasury_bonds.dds"
+	min_approval = loyal #loyal
+
+	modifier = {
+		country_loan_interest_rate_mult = -0.075
+	}
+}
+
+# Austria
+ig_trait_coffee_talks = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy # Happy
+
+	modifier = {
+		country_society_tech_research_speed_mult = 0.1
+	}
+}

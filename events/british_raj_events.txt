@@ -1,0 +1,134 @@
+﻿namespace = raj
+
+# The Doctrine of Lapse
+raj.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = raj.2.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = raj.2.d1
+				trigger = {
+					ruler = {
+						age > 60
+					}
+					NOT = {
+						exists = heir
+					}
+				}
+			}
+			triggered_desc = {
+				desc = raj.2.d2
+				trigger = {
+					exists = heir
+				}
+			}
+		}
+	}
+	flavor = raj.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "ep1_redcoats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	minor_left_icon = c:DLH
+
+	immediate = {
+		if = {
+			limit = { 
+				OR = {
+					root.overlord ?= c:DLH
+					root.overlord ?= c:MRT
+				}
+			}	
+			root.overlord = {
+				save_scope_as = overlord_scope
+			}
+		}
+
+	}
+
+	
+
+	option = {
+		name = raj.2.a
+		default_option = yes
+		ai_chance = {
+			base = 90
+		}
+		if = {
+			limit = { # Should never happen, but just to be sure.
+				is_player = yes
+			}
+			play_as = scope:overlord_scope
+		}
+		if = {
+			limit = {
+				gold_reserves > 0
+			}
+			custom_tooltip = {
+				text = transfers_treasury_to_eic_tt
+				scope:overlord_scope ?= {
+					add_treasury = {
+						value = prev.gold_reserves
+					}
+				}
+			}
+		}
+		scope:overlord_scope ?= {
+			annex = ROOT
+		}
+	}
+
+	option = {
+		name = raj.2.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				trigger = {
+					liberty_desire > 25
+				}
+				add = 10
+			}
+			modifier = {
+				trigger = {
+					liberty_desire > 50
+				}
+				add = 25
+			}
+			modifier = {
+				trigger = {
+					liberty_desire > 75
+				}
+				add = 25
+			}
+			modifier = {
+				trigger = {
+					any_country = {
+						any_scope_treaty = {
+							binds = ROOT
+							any_scope_article = {
+								has_type = guarantee_independence
+							}
+						}
+					}
+				}
+				add = 100
+			}
+		}
+		create_diplomatic_play = {
+			target_country = scope:overlord_scope
+			type = dp_independence
+			add_war_goal = { holder = scope:overlord_scope target_country = ROOT type = annex_country }
+		}
+	}
+}
+

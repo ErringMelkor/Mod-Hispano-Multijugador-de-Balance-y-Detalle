@@ -1,0 +1,3 @@
+﻿otomanosphere = {
+    type = tradition
+}

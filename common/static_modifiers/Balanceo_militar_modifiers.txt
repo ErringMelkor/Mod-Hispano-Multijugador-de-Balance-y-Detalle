@@ -1,0 +1,25 @@
+﻿military_balance_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.30
+}
+military_balance_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.25
+}
+military_balance_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.8
+}
+military_balance_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.5
+}
+military_balance_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.4
+}
+military_balance_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_negative.dds
+	country_military_tech_research_speed_mult = -0.7
+}
+	

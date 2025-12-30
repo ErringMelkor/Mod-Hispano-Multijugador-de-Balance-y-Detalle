@@ -1,9 +1,0 @@
-GLOBAL = {
-	s:STATE_ILE_DE_FRANCE = {
-		region_state:FRA = {
-			add_modifier = {
-				name = old_paris
-			}
-		}
-	}
-}

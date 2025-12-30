@@ -1,0 +1,17 @@
+﻿ideology_jingoist = {
+	icon = "gfx/interface/icons/ideology_icons/jingoist.dds"
+	
+	lawgroup_army_model = {
+		law_mass_conscription = strongly_approve
+		law_professional_army = approve
+		law_national_militia = disapprove
+		law_peasant_levies = disapprove
+	}
+	
+	lawgroup_colonization = {
+		law_colonial_resettlement = strongly_approve
+		law_colonial_exploitation = strongly_approve
+		law_frontier_colonization = approve
+		law_no_colonial_affairs = neutral
+	}
+}

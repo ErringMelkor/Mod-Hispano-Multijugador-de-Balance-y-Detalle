@@ -1,0 +1,18 @@
+﻿je_lake_fucine = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	group = je_group_technology
+
+	complete = {
+		NOT = { has_modifier = lake_fucine_draining_modifier }
+	}
+
+	on_complete = {
+		remove_modifier = lake_fucine_draining_modifier
+		trigger_event = { id = lake_fucine.1 }
+	}
+
+	weight = 10
+
+	should_be_pinned_by_default = yes
+}

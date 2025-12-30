@@ -1,0 +1,27 @@
+﻿ig_trait_heavenly_sovereign = {
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_authority_mult = 0.2
+	}
+}
+
+ig_trait_secular_shrine_theory = {
+	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_radicals_from_political_movements_mult = -0.2
+		state_expected_sol_mult = -0.1
+	}
+}
+
+ig_trait_haibutsu_kishaku = {
+	icon = "gfx/interface/icons/ig_trait_icons/pious_fiction.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		state_radicals_from_political_movements_mult = 0.1
+	}
+}

@@ -1,0 +1,34 @@
+### Francia
+ig_trait_la_loi_royale= { # Loyal
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_legitimacy_headofstate_add = 10
+	}
+}
+
+### Japón - Mobilización Espiritual
+
+#Loyal
+ig_trait_spiritual_mobilization = {
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+	min_approval = loyal
+	
+	modifier = {
+		state_radicalism_increases_full_acceptance_mult = -0.25
+		state_working_adult_ratio_add = 0.25
+	}
+}
+
+### Rusia
+
+#Happy
+ig_trait_divine_autocracy = {
+	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_legitimacy_headofstate_add = 15
+	}
+}
