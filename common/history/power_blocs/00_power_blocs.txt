@@ -166,26 +166,4 @@
 			}
 		}
 	}
-
-	# Maratha Confederacy
-	c:MRT = {
-		create_power_bloc = {
-			name = maratha_confederacy
-
-			map_color = { 252 166 8 }
-
-			founding_date = 1756.11.5
-			identity = identity_military_treaty_organization
-			principle = principle_aggressive_coordination_3
-
-		}
-		if = {
-			limit = {
-				has_dlc_feature = power_bloc_features
-			}
-			power_bloc = {
-				add_principle = principle_external_trade_2
-			}
-		}
-	}
 }

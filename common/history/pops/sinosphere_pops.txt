@@ -461,6 +461,13 @@
 				size = 320100
 			}
 		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 29000
+			}
+		}
 	}
 	s:STATE_ANNAM = {
 		region_state:DAI = {
@@ -578,6 +585,13 @@
 				size = 4000
 			}
 		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 11000
+			}
+		}		
 		region_state:SIA = {
 			create_pop = {
 				culture = lao

@@ -57,7 +57,7 @@
 		}
 	}
 	s:STATE_TUVA={
-		region_state:MGL={
+		region_state:CHI={
 		}
 	}
 	s:STATE_TOBOLSK={

@@ -369,7 +369,7 @@
 		}
 	}
 	s:STATE_TRANSJORDAN = {
-		region_state:SYR = {
+		region_state:EGY = {
 			#+20k beduin; +10k esclavos; +100k bedouin
 			create_pop = {
 				culture = bedouin
@@ -409,7 +409,7 @@
 		}
 	}
 	s:STATE_PALESTINE = {
-		region_state:SYR = {
+		region_state:EGY = {
 			# +20k slaves; +10k armenian; +50k jewish; +60k mashriqi
 			create_pop = {
 				culture = mashriqi
@@ -458,7 +458,7 @@
 		}
 	}
 	s:STATE_LEBANON = {
-		region_state:SYR = {
+		region_state:EGY = {
 			# +20k sephardic; + 100k mashriqi
 			create_pop = {
 				culture = mashriqi
@@ -516,7 +516,7 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:SYR = {
+		region_state:EGY = {
 			#+50k mashriqi; +10k slaves
 			create_pop = {
 				culture = mashriqi
@@ -560,7 +560,7 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:SYR = {
+		region_state:EGY = {
 			#+100k mashiqi sunni; +50k kurdish; +50k armenian; +100k mashriqi
 			create_pop = {
 				culture = mashriqi
@@ -1551,7 +1551,7 @@
 		}
 	}
 	s:STATE_ADANA = {
-		region_state:SYR = {
+		region_state:EGY = {
 			#+20k greek; 20k esclavos
 			create_pop = {
 				culture = turkish

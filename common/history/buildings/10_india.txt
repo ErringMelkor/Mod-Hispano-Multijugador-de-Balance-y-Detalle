@@ -1370,13 +1370,13 @@
 				activate_production_methods = { "default_building_dye_plantation" "pm_road_carts" }
 			}
 		}
-		region_state:MRT = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -1389,7 +1389,7 @@
 				add_ownership = {
 					building = {
 						type = "building_iron_mine"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -1402,7 +1402,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_CENTRAL_PROVINCES"
 					}
@@ -1892,13 +1892,13 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 		}
-		region_state:MRT = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_coffee_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 4
 						region = "STATE_MYSORE"
 					}
@@ -1910,7 +1910,7 @@
 				building = "building_gold_mine"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -2092,7 +2092,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 5
 						region = "STATE_BOMBAY"
 					}
@@ -2116,7 +2116,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 2
 						region = "STATE_BOMBAY"
 					}
@@ -2129,7 +2129,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2142,7 +2142,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2205,12 +2205,12 @@
 				activate_production_methods = { "pm_anchorage" }
 			}
 		}
-		region_state:MRT = {
+		region_state:DLH = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 10
 					}
 				}
@@ -2222,7 +2222,7 @@
 					add_ownership={
 						building={
 							type="building_manor_house"
-							country="c:MRT"
+							country="c:DLH"
 							levels=6
 							region="STATE_BOMBAY"
 						}
@@ -2244,7 +2244,7 @@
 				add_ownership={
 					building={
 						type="building_trade_center"
-						country="c:MRT"
+						country="c:DLH"
 						levels=5
 						region="STATE_BOMBAY"
 					}
@@ -2255,7 +2255,7 @@
 				building = "building_gold_mine"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2267,7 +2267,7 @@
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2280,7 +2280,7 @@
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 1
 						region = "STATE_BOMBAY"
 					}
@@ -2305,7 +2305,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2329,7 +2329,7 @@
 				building = "building_arms_industry"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 3
 					}
 				}
@@ -2340,7 +2340,7 @@
 				building = "building_artillery_foundry"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 1
 					}
 				}
@@ -2352,7 +2352,7 @@
 				add_ownership = {
 					building = {
 						type = "building_fishing_wharf"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 3
 						region = "STATE_BOMBAY"
 					}
@@ -2364,7 +2364,7 @@
 				building = "building_port"
 				add_ownership = {
 					country= {
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 2
 					}
 				}
@@ -2376,7 +2376,7 @@
 				add_ownership = {
 					building = {
 						type = "building_logging_camp"
-						country = "c:MRT"
+						country = "c:DLH"
 						levels = 6
 						region = "STATE_BOMBAY"
 					}
