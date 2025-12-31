@@ -244,7 +244,7 @@ serf_mistreaters_demonized_enactment = {
 
 anti_serfdom_debate = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_success_add = 0.1	
+	country_law_enactment_success_add = 0.1
 }
 
 anti_serfdom_popularity = {
@@ -505,7 +505,7 @@ promised_to_lower_taxes_poll_tax = {
 
 taxation_is_theft = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_law_enactment_success_add = -0.1
+	country_law_enactment_success_add = -0.05
 }
 
 patriotic_taxation = {
@@ -599,11 +599,13 @@ realpolitik = {
 schleswig_holstein_question_solver = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_prestige_mult = 0.25
+	country_authority_mult = 0.15
 }
 
 germany_aggressive_expansion = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	country_damage_relations_speed_mult = 0.5
+	country_improve_relations_speed_mult = 0.5
+	country_influence_mult = 0.25
 }
 
 partial_german_unification_influence_prestige = {
@@ -619,12 +621,14 @@ german_unification_popularity = {
 
 german_unifier_ruler = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	character_popularity_add = 50
-	country_authority_mult = 0.15
+	character_popularity_add = 100
+	country_authority_mult = 0.25
 }
 
 tewodros_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 10
+	unit_defense_add = 5
 	character_popularity_add = 60
 }
 
@@ -688,9 +692,14 @@ monarchist_nostalgia = {
 
 modifier_springtime_of_the_peoples = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	political_movement_radicalism_add = 0.25
+	political_movement_radicalism_add = 0.35
 	state_pop_support_movement_radical_mult = 0.25
+	state_pop_support_movement_german_national_mult = 0.25
+	state_pop_support_movement_italian_national_mult = 0.25
+	state_pop_support_movement_yugoslav_national_mult = 0.25
+	state_pop_support_movement_liberal_mult = 0.25
 	state_pop_support_movement_cultural_minority_mult = 0.25
+	country_law_enactment_time_mult = -0.40
 }
 
 radical_constitution = {
@@ -706,7 +715,7 @@ no_new_constitution = {
 
 suppressing_radicals = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	country_suppression_attraction_factor = -0.25
+	country_suppression_attraction_factor = 0.25
 }
 
 1848_popular_radical = {
@@ -821,7 +830,7 @@ ending_isolation = {
 
 unequal_treaties_isolation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_law_enactment_success_add = -0.1	
+	country_law_enactment_success_add = -0.1
 }
 
 legal_scapegoat = {
@@ -841,9 +850,8 @@ battleship_hoax = {
 }
 
 dual_monarchy_compromise = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_tech_spread_mult = 0.15
-	
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_prestige_add = -100
 }
 
 dual_monarchy_compromise_rejected = {
@@ -1098,11 +1106,6 @@ panama_sale = {
 	country_tax_income_add = 30000
 }
 
-greek_nationalism = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_prestige_add = 100
-}
-
 land_reclamation_complete = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_add = 50
@@ -1265,7 +1268,7 @@ laws_against_war_crimes = {
 
 munitions_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	building_munition_plants_throughput_add = 0.15
+	building_munition_plant_throughput_add = 0.15
 }
 
 tunguska_research = {
@@ -1451,7 +1454,7 @@ age_of_caudillos_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	interest_group_ig_armed_forces_pop_attraction_mult = 0.1
 	interest_group_ig_armed_forces_pol_str_mult = 0.5
-	country_officers_pol_str_mult = 2
+	country_officers_pol_str_mult = 2.5
 }
 
 missouri_compromise = {
@@ -1468,6 +1471,7 @@ shogun_ig_forced_to_open_market = {
 	interest_group_ig_industrialists_pol_str_mult = 0.5
 	country_legitimacy_headofstate_add = -50
 	country_legitimacy_base_add = 30 # Allows formation of alternative governments
+	state_pop_support_movement_modernizer_mult = 1
 }
 
 honorable_restoration_failed = {
