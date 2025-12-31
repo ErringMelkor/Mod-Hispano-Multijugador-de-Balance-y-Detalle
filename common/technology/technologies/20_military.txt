@@ -5,7 +5,7 @@ standing_army = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
-
+	
 	ai_weight = {
 		value = 3 # Very important tech in general
 	}
@@ -17,8 +17,8 @@ navigation = {
 	# Increases Port max level by 2
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/navigation.dds"
-	category = military
-
+	category = military    
+	
 	ai_weight = {
 		value = 2 # Important tech in general
 	}
@@ -29,19 +29,19 @@ drydocks = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/drydock.dds"
 	category = military
-
-	unlocking_technologies = {
+	
+	unlocking_technologies = {	
 		navigation
 	}
-
+	
 	ai_weight = {
 		value = 1
-
+		
 		# Important for anyone with a navy
 		if = {
 			limit = { navy_size >= 5 }
 			add = 0.5
-		}
+		}		
 	}
 }
 
@@ -50,15 +50,15 @@ mandatory_service = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/mandatory_service.dds"
 	category = military
-
+	
 	modifier = {
 		state_conscription_rate_mult = 0.2
 	}
-
+	
 	unlocking_technologies = {
 		standing_army
 	}
-
+	
 	ai_weight = {
 		value = 2 # Important tech in general
 	}

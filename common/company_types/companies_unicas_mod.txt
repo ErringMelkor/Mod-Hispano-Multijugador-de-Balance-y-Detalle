@@ -119,7 +119,7 @@ company_Alpargatas = {
 			}
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_textile_mills
+				is_building_type = building_textile_mill
 				level >= 3
 			}
 		}
@@ -143,7 +143,7 @@ company_Alpargatas = {
 	}
 
 	ai_construction_targets = {
-		building_textile_mills = {
+		building_textile_mill = {
 			level = 5
 			state_trigger = {
 				OR = {
@@ -234,7 +234,7 @@ company_la_cruz_azul = {
 	flavored_company = yes
 	
 	building_types = {  
-		building_tooling_workshops
+		building_tooling_workshop
 	}
 
 	extension_building_types = {
@@ -261,7 +261,7 @@ company_la_cruz_azul = {
 			state_region = s:STATE_MEXICO
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_tooling_workshops
+				is_building_type = building_tooling_workshop
 				level >= 5
 			}
 		}
@@ -269,7 +269,7 @@ company_la_cruz_azul = {
 	
 	prosperity_modifier = {
 
-		building_tooling_workshops_throughput_add = 0.1
+		building_tooling_workshop_throughput_add = 0.1
 		building_construction_sector_throughput_add = 0.25
 		country_max_weekly_construction_progress_add = 15
 	}	
@@ -418,7 +418,7 @@ company_alhstrom = {
 	preferred_headquarters = { STATE_KUOPIO }
 
 	building_types = {
-		building_paper_mills
+		building_paper_mill
 		building_logging_camp
 	}
 
@@ -446,7 +446,7 @@ company_alhstrom = {
 
 	prosperity_modifier = {
 		building_group_building_logging_camp_throughput_add = 0.1
-		building_paper_mills_throughput_add = 0.1
+		building_paper_mill_throughput_add = 0.1
 		building_construction_sector_throughput_add = 0.05
 	}
 
@@ -454,7 +454,7 @@ company_alhstrom = {
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_paper_mills
+				is_building_type = building_paper_mill
 				level >= 3
 			}
 		}

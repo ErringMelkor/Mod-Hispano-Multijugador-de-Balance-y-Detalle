@@ -214,7 +214,7 @@
 		}
 	}
 	s:STATE_ALXA={
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
@@ -232,7 +232,7 @@
 	}
 	s:STATE_HINGGAN={
 		# Inner Mongolia
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
@@ -555,7 +555,7 @@
 	s:STATE_SHANXI={
 		region_state:CHI={
 			create_building={
-				building="building_vineyard_plantation"
+				building="building_vineyard"
 				add_ownership={
 					building={
 						type="building_manor_house"
@@ -565,7 +565,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -704,7 +704,7 @@
 	s:STATE_XIAN={
 		region_state:CHI={
 			create_building={
-				building="building_vineyard_plantation"
+				building="building_vineyard"
 				add_ownership={
 					building={
 						type="building_manor_house"
@@ -714,7 +714,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -1026,12 +1026,12 @@
 		}
 	}
 	s:STATE_HAINAN={
-		region_state:QIA={
+		region_state:CHI={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:QIA"
+						country="c:CHI"
 						levels=1
 					}
 				}

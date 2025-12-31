@@ -238,7 +238,7 @@ company_jiangnan_weaving_bureaus= {
 
 	building_types = {
 		building_silk_plantation
-		building_textile_mills
+		building_textile_mill
 	}
 
 	extension_building_types = {
@@ -268,7 +268,7 @@ company_jiangnan_weaving_bureaus= {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_silk_plantation
-					is_building_type = building_textile_mills
+					is_building_type = building_textile_mill
 				}
 				level >= 5
 			}
@@ -305,7 +305,7 @@ company_jiangnan_weaving_bureaus= {
 				is_incorporated = yes
 			}
 		}
-		building_textile_mills = {
+		building_textile_mill = {
 			level = 5
 			state_trigger = {
 				OR = {
@@ -452,7 +452,7 @@ company_maison_worth = {
 	preferred_headquarters = { STATE_ILE_DE_FRANCE }
 
 	building_types = {
-		building_textile_mills
+		building_textile_mill
 	}
 
 	extension_building_types = {
@@ -477,7 +477,7 @@ company_maison_worth = {
 			state_region = s:STATE_ILE_DE_FRANCE
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_textile_mills
+				is_building_type = building_textile_mill
 				level >= 5
 			}
 		}
@@ -497,7 +497,7 @@ company_maison_worth = {
 	}
 
 	ai_construction_targets = {
-		building_textile_mills = {
+		building_textile_mill = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ILE_DE_FRANCE
@@ -558,7 +558,7 @@ company_lee_wilson = {
 
 	prosperity_modifier = {
 		building_power_plant_throughput_add = 0.05
-		building_textile_mills_throughput_add = 0.1
+		building_textile_mill_throughput_add = 0.1
 	}
 
 	ai_will_do = {
@@ -1012,7 +1012,7 @@ company_mantero_seta = {
 
 	building_types = {
 		building_silk_plantation
-		building_textile_mills
+		building_textile_mill
 	}
 
 	extension_building_types = {
@@ -1038,7 +1038,7 @@ company_mantero_seta = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_silk_plantation
-					is_building_type = building_textile_mills
+					is_building_type = building_textile_mill
 				}
 				level >= 5
 			}
@@ -1058,7 +1058,7 @@ company_mantero_seta = {
 	}
 
 	ai_construction_targets = {
-		building_textile_mills = {
+		building_textile_mill = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_LOMBARDY
@@ -1161,7 +1161,7 @@ company_massey_harris = {
 
 	building_types = {
 		building_motor_industry
-		building_tooling_workshops
+		building_tooling_workshop
 	}
 
 	extension_building_types = {
@@ -1300,7 +1300,7 @@ company_john_holt = {
 	}
 
 	extension_building_types = {
-		building_shipyards
+		building_shipyard
 	}
 
 	potential = {
@@ -1520,7 +1520,7 @@ company_paradox = {
 
 	extension_building_types = {
 		building_coal_mine
-		building_paper_mills
+		building_paper_mill
 	}
 
 	potential = {

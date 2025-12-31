@@ -469,13 +469,13 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -486,13 +486,13 @@
 		}
 	}
 	s:STATE_JETISY={
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
@@ -505,7 +505,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
