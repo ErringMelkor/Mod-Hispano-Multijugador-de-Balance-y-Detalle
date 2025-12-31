@@ -4852,17 +4852,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:NET"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 	}
 	s:STATE_FRIESLAND={
@@ -4950,17 +4939,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:NET"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"
@@ -5058,17 +5036,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:NET"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -5279,17 +5246,6 @@
 				reserves=1
 				activate_production_methods={ "pm_early_trains"  "pm_wooden_passenger_carriages" }
 			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:BEL"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
 		}
 	}
 	s:STATE_FLANDERS={
@@ -5495,17 +5451,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages"  }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:BEL"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"

@@ -118,6 +118,12 @@ GLOBAL = {
 		}
 	}
 
+	c:TUR ?= {
+		add_treasury = {
+			value = 1800000
+		}
+	}
+
 	every_country = { # Other Balkan countries - none should be too "rich"
 		limit = {
 			OR = {
