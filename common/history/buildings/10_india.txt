@@ -322,7 +322,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+				activate_production_methods = { "pm_dye_workshop" "pm_craftsman_sewing" "pm_traditional_looms" }
 			}
 			create_building = {
 				building = "building_textile_mill"
@@ -393,7 +393,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+				activate_production_methods = { "pm_dye_workshop" "pm_craftsman_sewing" "pm_traditional_looms" }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -650,7 +650,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_dye_workshops" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods = { "pm_dye_workshop" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 		}
 	}
@@ -780,7 +780,7 @@
 				activate_production_methods = { "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_tooling_workshops"
+				building="building_tooling_workshop"
 				add_ownership={
 					building={
 						type="building_financial_district"
@@ -1172,7 +1172,7 @@
 				activate_production_methods = { "pm_muskets" "pm_automation_disabled" }
 			}
 			create_building = {
-				building = "building_artillery_foundry	"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country= {
 						country = "c:KAS"
@@ -2323,7 +2323,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+				activate_production_methods = { "pm_dye_workshop" "pm_craftsman_sewing" "pm_traditional_looms" }
 			}
 			create_building = {
 				building = "building_arms_industry"

@@ -431,7 +431,7 @@ je_sick_man_army = {
 		has_technology_researched = napoleonic_warfare
 			any_scope_building = {
 			filter = {
-				is_building_type = building_barracks				
+				is_building_type = building_barrack				
 			}
 			NOR = {
 					building_has_goods_shortage = yes
@@ -580,31 +580,31 @@ je_sick_man_bread_basket = {
 		OR = {
 			AND = {
 				country_has_building_group_levels = {
-					type = bg_wheat_farms
-					value  >= 150
+					type = bg_wheat_farm
+					value  >= 125
 				}
 				country_has_building_group_levels = {
 					type = building_rice_farm
-					value  >= 50
+					value  >= 25
 				}
 			}
 			AND = {
 				country_has_building_group_levels = {
-					type = bg_wheat_farms
-					value  >= 100
+					type = bg_wheat_farm
+					value  >= 75
 				}
 				country_has_building_group_levels = {
 					type = building_rice_farm
 					value  >= 25
 				}
 				country_has_building_group_levels = {
-					type = bg_millet_farms
+					type = bg_millet_farm
 					value  >= 25
 				}
 			}
 			country_has_building_group_levels = {
-				type = bg_wheat_farms
-				value  >= 250
+				type = bg_wheat_farm
+				value  >= 150
 			}
 		}
 		
@@ -662,7 +662,7 @@ je_sick_man_industrial_heartland = {
 					any_scope_state = {
 					state_region = s:STATE_EASTERN_THRACE
 					any_scope_building = {
-					is_building_type = building_tooling_workshops
+					is_building_type = building_tooling_workshop
 					level >= 5
 					}
 				}
