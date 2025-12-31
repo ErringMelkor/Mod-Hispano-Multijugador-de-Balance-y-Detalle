@@ -17,7 +17,7 @@ ig_trait_spiritual_mobilization = {
 	
 	modifier = {
 		state_radicalism_increases_full_acceptance_mult = -0.25
-		state_working_adult_ratio_add = 0.25
+		state_working_adult_ratio_add = 0.05
 	}
 }
 

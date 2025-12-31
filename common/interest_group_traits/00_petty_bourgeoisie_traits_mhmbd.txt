@@ -1,5 +1,5 @@
 # SWE 
-ig_trait_cooperative_agencies = { 
+REPLACE_OR_CREATE:ig_trait_cooperative_agencies = { 
 	icon = "gfx/interface/icons/ig_trait_icons/job_creators.dds"
 	min_approval = loyal #Loyal
 
@@ -9,7 +9,7 @@ ig_trait_cooperative_agencies = {
 }
 
 # Gran Bretaña
-ig_trait_old_lady_of_threadneedle_street = {
+REPLACE_OR_CREATE:ig_trait_old_lady_of_threadneedle_street = {
 	icon = "gfx/interface/icons/ig_trait_icons/treasury_bonds.dds"
 	min_approval = loyal #loyal
 

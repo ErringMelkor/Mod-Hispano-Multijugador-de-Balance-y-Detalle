@@ -1,4 +1,4 @@
-﻿ig_trait_heavenly_sovereign = {
+﻿REPLACE_OR_CREATE:ig_trait_heavenly_sovereign = {
 	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
 	min_approval = loyal
 	
@@ -7,7 +7,7 @@
 	}
 }
 
-ig_trait_secular_shrine_theory = {
+REPLACE_OR_CREATE:ig_trait_secular_shrine_theory = {
 	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
 	min_approval = happy
 	
@@ -17,7 +17,7 @@ ig_trait_secular_shrine_theory = {
 	}
 }
 
-ig_trait_haibutsu_kishaku = {
+REPLACE_OR_CREATE:ig_trait_haibutsu_kishaku = {
 	icon = "gfx/interface/icons/ig_trait_icons/pious_fiction.dds"
 	max_approval = unhappy
 	

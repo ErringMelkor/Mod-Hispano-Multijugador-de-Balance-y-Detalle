@@ -1,4 +1,4 @@
-﻿ig_trait_fazenda_ibicaba = {
+﻿REPLACE_OR_CREATE:ig_trait_fazenda_ibicaba = {
 	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
 	min_approval = happy
 	
@@ -9,7 +9,7 @@
 	}
 }
 
-ig_trait_brasilidade = {
+REPLACE_OR_CREATE:ig_trait_brasilidade = {
 	icon = "gfx/interface/icons/ig_trait_icons/propagandists.dds"
 	min_approval = loyal
 	
@@ -20,7 +20,7 @@ ig_trait_brasilidade = {
 	}
 }
 
-ig_trait_clube_militar = {
+REPLACE_OR_CREATE:ig_trait_clube_militar = {
 	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
 	min_approval = happy
 	
@@ -30,7 +30,7 @@ ig_trait_clube_militar = {
 	}
 }
 
-ig_trait_bachareis = {
+REPLACE_OR_CREATE:ig_trait_bachareis = {
 	icon = "gfx/interface/icons/ig_trait_icons/avant_garde.dds"
 	min_approval = happy
 

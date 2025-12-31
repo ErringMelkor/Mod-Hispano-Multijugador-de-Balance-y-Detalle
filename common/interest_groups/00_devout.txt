@@ -93,7 +93,7 @@
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_haibutsu_kishaku
-				set_ig_trait = ig_trait:ig_trait_secular_shrine_theory
+				set_ig_trait = ig_trait:ig_trait_spiritual_mobilization
 				set_ig_trait = ig_trait:ig_trait_heavenly_sovereign
 			}
 			else_if = {

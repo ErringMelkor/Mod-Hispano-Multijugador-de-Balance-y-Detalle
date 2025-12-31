@@ -76,7 +76,18 @@ decree_road_maintenance = {
 			
 			}
 			multiply = 0
-		}			
+		}
+
+		# Place instances where content should ignore weights here
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_lands_of_anarchy
+				}
+				is_capital = yes
+			}
+			add = 1000
+		}
 	}
 }
 
@@ -145,19 +156,19 @@ decree_emergency_relief = {
 	}
 
 	state_trigger = {
-			OR = {
-				has_famine = yes
-				devastation > 0.2
-				ROOT.state_region = {
-					OR = {
-						has_harvest_condition = flood
-						has_harvest_condition = wildfire
-						has_harvest_condition = drought
-						has_harvest_condition = disease_outbreak
-						has_harvest_condition = extreme_winds	
+		OR = {
+			has_famine = yes
+			devastation > 0.2
+			ROOT.state_region = {
+				OR = {
+					has_harvest_condition = flood
+					has_harvest_condition = wildfire
+					has_harvest_condition = drought
+					has_harvest_condition = disease_outbreak
+					has_harvest_condition = extreme_winds
 					has_harvest_condition = tsunami
-					}
-				}	
+				}
+			}
 			any_scope_pop = {
 				percent >= 0.2
 				is_in_starvation = yes
@@ -237,12 +248,6 @@ decree_promote_social_mobility = {
 				literacy_rate < 0.75
 			}
 			add = 50
-		}		
-		if = {
-			limit = {
-				scope:country = { has_journal_entry = je_hawaii }
-			}
-			add = 1000
 		}
 		if = {
 			limit = {
@@ -266,7 +271,31 @@ decree_promote_social_mobility = {
 				}
 			}
 			multiply = 1.5
-		}			
+		}
+
+		# Content overrides
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_lands_of_anarchy
+				}
+				is_capital = yes
+			}
+			add = 1000
+		}
+		if = {
+			limit = {
+				scope:country = { has_journal_entry = je_hawaii }
+			}
+			add = 1000
+		}
+		if = {
+			limit = {
+				scope:country = { has_journal_entry = je_portugal_regeneration_institutions }
+				literacy_rate < 0.5
+			}
+			add = 500
+		}
 	}
 }
 
@@ -307,7 +336,7 @@ decree_promote_national_values = {
 			if = { # Colonies
 				limit = {
 					scope:country = {
-						country_is_in_europe = no
+						is_not_in_geographic_region = geographic_region_europe
 						any_primary_culture = {
 							has_discrimination_trait_group = heritage_group_european
 						}
@@ -321,25 +350,25 @@ decree_promote_national_values = {
 				add = 300
 			}
 			else_if = {
-			limit = {
-				scope:country = {
-					OR = {
-						has_strategy = ai_strategy_reactionary_agenda
+				limit = {
+					scope:country = {
+						OR = {
+							has_strategy = ai_strategy_reactionary_agenda
 							has_strategy = ai_strategy_conservative_agenda
-						has_strategy = ai_strategy_maintain_mandate_of_heaven
+							has_strategy = ai_strategy_maintain_mandate_of_heaven
+						}
 					}
 				}
+				add = 100
 			}
-			add = 100
-		}
 			else_if = {
-			limit = {
-				scope:country = {
-					has_strategy = ai_strategy_nationalist_agenda
+				limit = {
+					scope:country = {
+						has_strategy = ai_strategy_nationalist_agenda
+					}
 				}
+				add = 200
 			}
-			add = 200
-		}		
 
 
 			if = {
@@ -450,10 +479,10 @@ decree_promote_national_values = {
 		}
 		else_if = {
 			limit = {
-				state_population < 300000
+				state_population > 300000
 			}
 			multiply = 2.0
-		}	
+		}
 		else_if = {
 			limit = {
 				scope:country = {
@@ -485,6 +514,16 @@ decree_promote_national_values = {
 			}
 			add = 500
 		}
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_vernacular_policy
+					has_variable = chose_assimilation_var
+				}
+				is_homeland_of_country_cultures = scope:country
+			}
+			add = 1000
+		}
 
 		if = {
 			limit = {
@@ -505,7 +544,7 @@ decree_promote_national_values = {
 				}
 			}
 			multiply = 0.5
-		}		
+		}
 	}
 }
 
@@ -513,19 +552,19 @@ decree_encourage_manufacturing_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_manufacturing_industry.dds"
 	unlocking_technologies = {
 		manufacturies
-	}	
+	}
 	state_trigger = {
-		NOR = { 
+		NOR = {
 			has_decree = decree_encourage_agricultural_industry
 			has_decree = decree_encourage_resource_industry
 		}
-	}	
+	}
 	modifier = {
 		building_group_bg_manufacturing_throughput_add = 0.2
 		building_group_bg_service_throughput_add = 0.2
 	}
 	cost = 100
-	
+
 	ai_weight = {
 		value = 0
 		if = {
@@ -541,7 +580,7 @@ decree_encourage_manufacturing_industry = {
 				any_scope_building = {
 					is_building_group = bg_manufacturing
 					count >= 3
-				}				
+				}
 			}
 			add = 50
 		}
@@ -550,7 +589,7 @@ decree_encourage_manufacturing_industry = {
 				any_scope_building = {
 					is_building_group = bg_manufacturing
 					count >= 5
-				}			
+				}
 			}
 			add = 50
 		}
@@ -561,7 +600,7 @@ decree_encourage_manufacturing_industry = {
 				}
 			}
 			multiply = 1.5
-		}		
+		}
 	}
 }
 
@@ -569,20 +608,20 @@ decree_encourage_agricultural_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
 	unlocking_technologies = {
 		enclosure
-	}	
+	}
 	state_trigger = {
-		NOR = { 
-			has_decree = decree_encourage_manufacturing_industry 
+		NOR = {
+			has_decree = decree_encourage_manufacturing_industry
 			has_decree = decree_encourage_resource_industry
 		}
-	}		
+	}
 	modifier = {
 		building_group_bg_agriculture_throughput_add = 0.3
 		building_group_bg_plantations_throughput_add = 0.3
 		building_group_bg_ranching_throughput_add = 0.3
 	}
 	cost = 100
-	
+
 	ai_weight = {
 		value = 0
 		if = {
@@ -592,7 +631,7 @@ decree_encourage_agricultural_industry = {
 						is_building_group = bg_agriculture
 						is_building_group = bg_ranching
 						is_building_group = bg_plantations
-					}				
+					}
 				}
 			}
 			add = 50
@@ -641,20 +680,20 @@ decree_encourage_resource_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_resource_industry.dds"
 	unlocking_technologies = {
 		shaft_mining
-	}	
+	}
 	state_trigger = {
-		NOR = { 
-			has_decree = decree_encourage_manufacturing_industry 
+		NOR = {
+			has_decree = decree_encourage_manufacturing_industry
 			has_decree = decree_encourage_agricultural_industry
 		}
 	}		
 	modifier = {
-		building_group_bg_mining_throughput_add = 0.2
-		building_group_building_logging_camp_throughput_add = 0.2
-		building_group_building_fishing_wharf_throughput_add = 0.2
-		building_group_building_whaling_station_throughput_add = 0.2
-		building_group_building_oil_rig_throughput_add = 0.2
-		building_group_building_rubber_plantation_throughput_add = 0.2
+		building_group_bg_mining_throughput_add = 0.3
+		building_group_bg_logging_throughput_add = 0.3
+		building_group_bg_fishing_throughput_add = 0.3
+		building_group_bg_whaling_throughput_add = 0.3
+		building_group_bg_oil_extraction_throughput_add = 0.3
+		building_group_bg_rubber_throughput_add = 0.3
 	}
 	cost = 100
 	
@@ -665,11 +704,11 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = building_logging_camp
-						is_building_group = building_fishing_wharf
-						is_building_group = building_whaling_station
-						is_building_group = building_oil_rig
-					}				
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
 				}
 			}
 			add = 50
@@ -679,13 +718,13 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = building_logging_camp
-						is_building_group = building_fishing_wharf
-						is_building_group = building_whaling_station
-						is_building_group = building_oil_rig
-					}	
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
 					count >= 3
-				}			
+				}
 			}
 			add = 50
 		}
@@ -694,24 +733,24 @@ decree_encourage_resource_industry = {
 				any_scope_building = {
 					OR = {
 						is_building_group = bg_mining
-						is_building_group = building_logging_camp
-						is_building_group = building_fishing_wharf
-						is_building_group = building_whaling_station
-						is_building_group = building_oil_rig
-					}	
+						is_building_group = bg_logging
+						is_building_group = bg_fishing
+						is_building_group = bg_whaling
+						is_building_group = bg_oil_extraction
+					}
 					count >= 5
-				}			
+				}
 			}
 			add = 50
 		}
 		if = {
 			limit = {
 				scope:country = {
-					has_strategy = ai_strategy_resource_expansion				
+					has_strategy = ai_strategy_resource_expansion
 				}
 			}
 			multiply = 1.5
-		}		
+		}
 	}
 }
 
@@ -724,7 +763,7 @@ decree_greener_grass_campaign = {
 		state_migration_pull_add = 20
 		state_migration_pull_mult = 0.25
 	}
-	unlocking_technologies = { 
+	unlocking_technologies = {
 		romanticism
 	}
 	cost = 100

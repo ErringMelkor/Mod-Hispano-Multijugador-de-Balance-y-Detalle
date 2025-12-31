@@ -1,6 +1,6 @@
  ### Rusia 
 
-ig_trait_bad_boyars = {
+REPLACE_OR_CREATE:ig_trait_bad_boyars = {
 	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
 	max_approval = unhappy
 
@@ -21,7 +21,7 @@ ig_trait_terrible_boyars = {
 	}
 }
  
-ig_trait_the_velvet_book = { 
+REPLACE_OR_CREATE:ig_trait_the_velvet_book = { 
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
 	min_approval = happy #Happy
 
@@ -58,7 +58,7 @@ ig_trait_lingua_franca = {
 
 ### Genérico
 
-ig_trait_noblesse_oblige = {
+REPLACE_OR_CREATE:ig_trait_noblesse_oblige = {
 	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
 	min_approval = loyal #Loyal
 
