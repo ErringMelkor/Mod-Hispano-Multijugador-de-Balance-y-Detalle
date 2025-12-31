@@ -16,7 +16,7 @@ can_form_power_bloc = {
 
 # Root = Country
 can_lead_power_bloc = {
-	country_rank >= rank_value:minor_power
+	country_rank >= rank_value:great_power
 }
 
 # Root = Power Bloc
@@ -28,12 +28,13 @@ is_weak_power_bloc = {
 # Root = Country
 # scope:target_country = target of a diplomatic play
 can_start_diplomatic_plays_against = {
-	# Might be disallowed by power bloc
+	# Not allowed to attack subjects of play participants
 	NOT = {
 		scope:target_country.top_overlord ?= {
-			is_diplomatic_play_involved_with = root
+			is_diplomatic_play_participant_with = root
 		}
 	}
+	# Might be disallowed by power bloc
 	NOT = {
 		custom_tooltip = {
 			text = "power_bloc_disallow_war_bool"
@@ -54,6 +55,11 @@ can_start_diplomatic_plays_against = {
 		# Disallow plays targeting your indirect subjects
 		scope:target_country = {
 			is_indirect_subject_of = root
+		}
+	}
+	NOT = {
+		scope:target_country = {
+			has_journal_entry = je_the_first_carlist_war
 		}
 	}
 }
@@ -110,15 +116,15 @@ unlock_power_bloc_principle_slot_3 = {
 	hidden_trigger = {
 		has_dlc_feature = power_bloc_features
 	}
-	#OR = {
-	#	hidden_trigger = {
-	#		used_principle_slots >= 3
-	#	}
-	#	AND = {
-	#		power_bloc_rank <= 5
-	#		num_power_bloc_members >= 5
-	#	}
-	#}
+	OR = {
+		hidden_trigger = {
+			used_principle_slots >= 3
+		}
+		AND = {
+			power_bloc_rank <= 5
+			num_power_bloc_members >= 5
+		}
+	}
 }
 
 # If you ever change these conditions, remember to update the loc-key: TOOLTIP_LOCKED_PRINCIPLE_SLOT_4_DURING_FORMATION
@@ -152,6 +158,7 @@ unlock_power_bloc_formation_principle_slot_3 = {
 unlock_power_bloc_formation_principle_slot_4 = {
 	always = no
 }
+
 
 # Evaluated when checking if a country can sign a treaty with another. Either through the player doing it in the UI or the AI looking for treaties to propose
 # root = initiating country
