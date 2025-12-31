@@ -404,11 +404,11 @@ company_basileiades = {
 
 	building_types = {
 		building_motor_industry
-		building_shipyards
+		building_shipyard
 	}
 
 	extension_building_types = {
-		building_military_shipyards
+		building_military_shipyard
 	}
 
 	potential = {
@@ -431,7 +431,7 @@ company_basileiades = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_motor_industry
-					is_building_type = building_shipyards
+					is_building_type = building_shipyard
 				}
 				level >= 5
 			}
@@ -458,7 +458,7 @@ company_basileiades = {
 				state_region = s:STATE_ATTICA
 			}
 		}
-		building_shipyards = {
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ATTICA
@@ -721,8 +721,8 @@ company_gotaverken = {
 	preferred_headquarters = { STATE_GOTALAND }
 
 	building_types = {
-		building_shipyards
-		building_military_shipyards
+		building_shipyard
+		building_military_shipyard
 		building_motor_industry
 	}
 
@@ -749,8 +749,8 @@ company_gotaverken = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_shipyards
-					is_building_type = building_military_shipyards
+					is_building_type = building_shipyard
+					is_building_type = building_military_shipyard
 				}
 				level >= 5
 			}
@@ -771,13 +771,13 @@ company_gotaverken = {
 	}
 
 	ai_construction_targets = {
-		building_shipyards = {
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_GOTALAND
 			}
 		}
-		building_military_shipyards = {
+		building_military_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_GOTALAND
@@ -800,12 +800,12 @@ company_aker_mek = {
 	preferred_headquarters = { STATE_EASTERN_NORWAY }
 
 	building_types = {
-		building_shipyards
+		building_shipyard
 		building_motor_industry
 	}
 
 	extension_building_types = {
-		building_military_shipyards
+		building_military_shipyard
 	}
 
 	potential = {
@@ -826,7 +826,7 @@ company_aker_mek = {
 			state_region = s:STATE_EASTERN_NORWAY
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_shipyards
+				is_building_type = building_shipyard
 				level >= 5
 			}
 		}
@@ -847,7 +847,7 @@ company_aker_mek = {
 	}
 
 	ai_construction_targets = {
-		building_shipyards = {
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_EASTERN_NORWAY
@@ -916,7 +916,7 @@ company_nokia = {
 
 	prosperity_modifier = {
 		building_electrics_industry_throughput_add = 0.15
-		building_synthetics_plants_throughput_add = 0.15
+		building_synthetics_plant_throughput_add = 0.15
 	}
 
 	ai_will_do = {
@@ -1338,7 +1338,7 @@ company_duro_y_compania = {
 
 	prosperity_modifier = {
 		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
+		building_artillery_foundry_throughput_add = 0.1
 		unit_army_defense_mult = 0.05
 	}
 
@@ -1455,11 +1455,11 @@ company_trubia = {
 
 	building_types = {
 		building_arms_industry
-		building_artillery_foundries
+		building_artillery_foundry
 	}
 
 	extension_building_types = {
-		building_munition_plants
+		building_munition_plant
 		building_explosives_factory
 	}
 
@@ -1536,11 +1536,11 @@ company_zastava = {
 
 	building_types = {
 		building_arms_industry
-		building_munition_plants
+		building_munition_plant
 	}
 
 	extension_building_types = {
-		building_artillery_foundries
+		building_artillery_foundry
 	}
 
 	possible_prestige_goods = {
@@ -1616,11 +1616,11 @@ company_chr_hansens = {
 
 	building_types = {
 		building_food_industry
-		building_chemical_plants
+		building_chemical_plant
 	}
 
 	extension_building_types = {
-		building_synthetics_plants
+		building_synthetics_plant
 	}
 
 	possible_prestige_goods = {
@@ -1653,7 +1653,7 @@ company_chr_hansens = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_food_industry
-					is_building_type = building_chemical_plants
+					is_building_type = building_chemical_plant
 				}
 				level >= 5
 			}
@@ -1679,7 +1679,7 @@ company_chr_hansens = {
 				state_region = s:STATE_ZEALAND
 			}
 		}
-		building_chemical_plants = {
+		building_chemical_plant = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ZEALAND
@@ -1706,7 +1706,7 @@ company_ap_moller = {
 	}
 
 	extension_building_types = {
-		building_shipyards
+		building_shipyard
 		building_hardwood_logging
 	}
 
@@ -1738,7 +1738,7 @@ company_ap_moller = {
 			state_region = s:STATE_ZEALAND
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_shipyards
+				is_building_type = building_shipyard
 				level >= 5
 			}
 		}
@@ -1758,7 +1758,7 @@ company_ap_moller = {
 	}
 
 	ai_construction_targets = {
-		building_shipyards = {
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ZEALAND

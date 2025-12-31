@@ -602,7 +602,7 @@ company_hanseong_jeongi_hoesa = {
 	}
 
 	prosperity_modifier = {
-		building_arts_academy_throughput_add = 0.05
+		building_art_academy_throughput_add = 0.05
 		building_railway_throughput_add = 0.05
 	}
 	

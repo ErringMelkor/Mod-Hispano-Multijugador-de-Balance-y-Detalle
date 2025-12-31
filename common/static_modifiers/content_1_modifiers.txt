@@ -925,7 +925,7 @@ rubber_protections = {
 
 amazon_theatre = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	building_arts_academy_throughput_add = 0.2
+	building_art_academy_throughput_add = 0.2
 }
 
 amazon_migration = {

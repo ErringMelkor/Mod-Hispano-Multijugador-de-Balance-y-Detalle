@@ -350,7 +350,7 @@ company_bunge_born = {
 	}
 
 	extension_building_types = {
-		building_chemical_plants
+		building_chemical_plant
 	}
 
 	possible_prestige_goods = {
@@ -398,7 +398,7 @@ company_bunge_born = {
 	prosperity_modifier = {
 		interest_group_ig_rural_folk_pop_attraction_mult = 0.2
 		interest_group_ig_rural_folk_approval_add = 3
-		building_tooling_workshops_throughput_add = 0.15
+		building_tooling_workshop_throughput_add = 0.15
 	}
 
 	ai_will_do = {
@@ -736,8 +736,8 @@ company_kablin = {
 	}
 
 	prosperity_modifier = {
-		building_tooling_workshops_throughput_add = 0.15
-		building_furniture_manufacturies_throughput_add = 0.25
+		building_tooling_workshop_throughput_add = 0.15
+		building_furniture_manufactory_throughput_add = 0.25
 		state_infrastructure_from_population_max_add = 15
 		country_max_weekly_construction_progress_add = 5
 	}

@@ -157,8 +157,8 @@ state_trait_cordillera_de_la_costa = { # Santiago, Tarapaca, and Los Rios
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.15
-		building_military_shipyards_throughput_add = 0.15
+		building_shipyard_throughput_add = 0.15
+		building_military_shipyard_throughput_add = 0.15
 		building_port_throughput_add = 0.15
 		state_trade_capacity_mult = 0.25
 		state_building_naval_base_max_level_add = 15
@@ -180,8 +180,8 @@ state_trait_canales_patagonicos = { # araucania
 	
 	modifier = {
 		goods_output_hardwood_mult = 0.15
-		building_shipyards_throughput_add = 0.15
-		building_military_shipyards_throughput_add = 0.15
+		building_shipyard_throughput_add = 0.15
+		building_military_shipyard_throughput_add = 0.15
 		building_port_throughput_add = 0.15
 		state_trade_capacity_mult = 0.25
 		state_building_naval_base_max_level_add = 15
@@ -236,8 +236,8 @@ state_trait_gulf_of_paria = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.15
-		building_military_shipyards_throughput_add = 0.15
+		building_shipyard_throughput_add = 0.15
+		building_military_shipyard_throughput_add = 0.15
 		building_port_throughput_add = 0.15
 		state_trade_capacity_mult = 0.25
 		state_building_naval_base_max_level_add = 15
@@ -249,8 +249,8 @@ state_trait_bay_of_candelaria = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.15
-		building_military_shipyards_throughput_add = 0.15
+		building_shipyard_throughput_add = 0.15
+		building_military_shipyard_throughput_add = 0.15
 		building_port_throughput_add = 0.15
 		state_trade_capacity_mult = 0.25
 		state_building_naval_base_max_level_add = 15
@@ -262,8 +262,8 @@ state_trait_rio_de_janeiro_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.15
-		building_military_shipyards_throughput_add = 0.15
+		building_shipyard_throughput_add = 0.15
+		building_military_shipyard_throughput_add = 0.15
 		building_port_throughput_add = 0.15
 		state_trade_capacity_mult = 0.25
 		state_building_naval_base_max_level_add = 15

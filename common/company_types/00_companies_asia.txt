@@ -620,7 +620,7 @@ company_sunhwaguk = {
 
 	extension_building_types = {
 		building_food_industry
-		building_chemical_plants
+		building_chemical_plant
 	}
 
 	possible_prestige_goods = {
@@ -1008,7 +1008,7 @@ company_b_grimm = {
 	}
 
 	extension_building_types = {
-		building_chemical_plants
+		building_chemical_plant
 	}
 
 	possible_prestige_goods = {

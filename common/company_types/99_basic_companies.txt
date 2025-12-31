@@ -477,7 +477,7 @@ company_basic_fishing = {
 	}
 
 	extension_building_types = {
-		building_shipyards
+		building_shipyard
 	}
 
 	possible_prestige_goods = {
@@ -505,7 +505,7 @@ company_basic_fishing = {
 
 	prosperity_modifier = {
 		country_convoys_capacity_mult = 0.1
-		building_shipyards_throughput_add = 0.05
+		building_shipyard_throughput_add = 0.05
 	}
 
 	ai_will_do = {
@@ -547,7 +547,7 @@ company_basic_forestry = {
 	}
 
 	extension_building_types = {
-		building_tooling_workshops
+		building_tooling_workshop
 		building_hardwood_logging
 	}
 
@@ -775,7 +775,7 @@ company_basic_mineral_mining = {
 	}
 
 	prosperity_modifier = {
-		building_chemical_plants_throughput_add = 0.1
+		building_chemical_plant_throughput_add = 0.1
 	}
 
 	ai_will_do = {
@@ -935,7 +935,7 @@ company_basic_home_goods = {
 
 	building_types = {
 		building_glassworks
-		building_furniture_manufacturies
+		building_furniture_manufactory
 	}
 
 	extension_building_types = {
@@ -960,7 +960,7 @@ company_basic_home_goods = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_glassworks
-					is_building_type = building_furniture_manufacturies
+					is_building_type = building_furniture_manufactory
 				}
 				level >= 5
 			}
@@ -977,7 +977,7 @@ company_basic_home_goods = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_glassworks
-					is_building_type = building_furniture_manufacturies
+					is_building_type = building_furniture_manufactory
 				}
 				level >= 3
 			}
@@ -1127,7 +1127,7 @@ company_basic_metalworks = {
 	}
 
 	building_types = {
-		building_tooling_workshops
+		building_tooling_workshop
 	}
 
 	extension_building_types = {
@@ -1150,7 +1150,7 @@ company_basic_metalworks = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_tooling_workshops
+					is_building_type = building_tooling_workshop
 				}
 				level >= 5
 			}
@@ -1166,9 +1166,9 @@ company_basic_metalworks = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_tooling_workshops
+					is_building_type = building_tooling_workshop
 					is_building_type = building_arms_industry
-					is_building_type = building_artillery_foundries
+					is_building_type = building_artillery_foundry
 				}
 				level >= 3
 			}
@@ -1194,8 +1194,8 @@ company_basic_shipyards = {
 	}
 
 	building_types = {
-		building_shipyards
-		building_military_shipyards
+		building_shipyard
+		building_military_shipyard
 	}
 
 	extension_building_types = {
@@ -1208,8 +1208,8 @@ company_basic_shipyards = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_shipyards
-					is_building_type = building_military_shipyards
+					is_building_type = building_shipyard
+					is_building_type = building_military_shipyard
 				}
 				level >= 5
 			}
@@ -1225,8 +1225,8 @@ company_basic_shipyards = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_shipyards
-					is_building_type = building_military_shipyards
+					is_building_type = building_shipyard
+					is_building_type = building_military_shipyard
 				}
 				level >= 5
 			}
@@ -1252,8 +1252,8 @@ company_basic_chemicals = {
 	}
 
 	building_types = {
-		building_chemical_plants
-		building_synthetics_plants
+		building_chemical_plant
+		building_synthetics_plant
 	}
 
 	extension_building_types = {
@@ -1276,8 +1276,8 @@ company_basic_chemicals = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_chemical_plants
-					is_building_type = building_synthetics_plants
+					is_building_type = building_chemical_plant
+					is_building_type = building_synthetics_plant
 				}
 				level >= 5
 			}
@@ -1286,7 +1286,7 @@ company_basic_chemicals = {
 
 	prosperity_modifier = {
 		unit_supply_consumption_mult = -0.05
-		building_chemical_plants_throughput_add = 0.1
+		building_chemical_plant_throughput_add = 0.1
 	}
 
 	ai_will_do = {
@@ -1294,8 +1294,8 @@ company_basic_chemicals = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_chemical_plants
-					is_building_type = building_synthetics_plants
+					is_building_type = building_chemical_plant
+					is_building_type = building_synthetics_plant
 				}
 				level >= 5
 			}
@@ -1378,7 +1378,7 @@ company_basic_munitions = {
 	}
 
 	building_types = {
-		building_munition_plants
+		building_munition_plant
 		building_explosives_factory
 	}
 
@@ -1403,7 +1403,7 @@ company_basic_munitions = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_munition_plants
+					is_building_type = building_munition_plant
 					is_building_type = building_explosives_factory
 				}
 				level >= 5
@@ -1420,7 +1420,7 @@ company_basic_munitions = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_munition_plants
+					is_building_type = building_munition_plant
 					is_building_type = building_explosives_factory
 				}
 				level >= 5
@@ -1497,7 +1497,7 @@ company_basic_weapons = {
 
 	building_types = {
 		building_arms_industry
-		building_artillery_foundries
+		building_artillery_foundry
 	}
 
 	extension_building_types = {
@@ -1522,7 +1522,7 @@ company_basic_weapons = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_arms_industry
-					is_building_type = building_artillery_foundries
+					is_building_type = building_artillery_foundry
 				}
 				level >= 5
 			}
@@ -1540,7 +1540,7 @@ company_basic_weapons = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_arms_industry
-					is_building_type = building_artillery_foundries
+					is_building_type = building_artillery_foundry
 				}
 				level >= 5
 			}

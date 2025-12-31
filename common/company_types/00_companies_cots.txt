@@ -194,7 +194,7 @@ company_pernambuco_textiles = {
 	preferred_headquarters = { STATE_PERNAMBUCO }
 
 	building_types = {
-		building_textile_mills
+		building_textile_mill
 	}
 
 	extension_building_types = {
@@ -242,7 +242,7 @@ company_pernambuco_textiles = {
 			state_region = s:STATE_PERNAMBUCO
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_textile_mills
+				is_building_type = building_textile_mill
 				level >= 5
 			}
 		}
@@ -261,7 +261,7 @@ company_pernambuco_textiles = {
 	}
 
 	ai_construction_targets = {
-		building_textile_mills = {
+		building_textile_mill = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_PERNAMBUCO
@@ -343,7 +343,7 @@ company_fundicao_ipanema = {
 	}
 
 	prosperity_modifier = {
-		building_munition_plants_throughput_add = 0.05
+		building_munition_plant_throughput_add = 0.05
 		building_arms_industry_throughput_add = 0.1
 		unit_kill_rate_add = 0.1
 	}
@@ -386,7 +386,7 @@ company_rossi = {
 
 	building_types = {
 		building_arms_industry
-		building_munition_plants
+		building_munition_plant
 	}
 
 	extension_building_types = {
@@ -441,7 +441,7 @@ company_rossi = {
 
 	prosperity_modifier = {
 		building_livestock_ranch_throughput_add = 0.15
-		building_chemical_plants_throughput_add = 0.1
+		building_chemical_plant_throughput_add = 0.1
 	}
 
 	ai_will_do = {
