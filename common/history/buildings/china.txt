@@ -6,7 +6,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=2
 						region="STATE_DZUNGARIA"
 					}
@@ -23,7 +23,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=2
 						region="STATE_TIANSHAN"
 					}

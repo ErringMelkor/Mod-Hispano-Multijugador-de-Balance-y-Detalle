@@ -847,16 +847,6 @@
 		}
 	}
 	s:STATE_GOLD_COAST = {
-		region_state:SIL = {
-			create_pop = {
-				culture = akan
-				size = 85204
-			}
-			create_pop = {
-				culture = british
-				size = 272
-			}
-		}
 		region_state:ASH = {
 			create_pop = {
 				culture = akan
