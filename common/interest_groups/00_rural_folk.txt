@@ -57,10 +57,7 @@
 			else_if = {
 				limit = {
 					owner = {
-						OR = {
-							c:NHA ?= this
-							c:SON ?= this
-						}
+						c:CHI ?= this
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_farmers_markets
@@ -124,7 +121,7 @@
 				set_ig_trait = ig_trait:ig_trait_farmers_markets
 			}
 		}
-	
+
 		# Jeffersonian Ideology
 		if = {
 			limit = {
@@ -202,7 +199,7 @@
 		rule = {
 			trigger = {
 				c:BIC ?= this
-				any_primary_culture = { 
+				any_primary_culture = {
 					cu:british = this
 				}
 			}
@@ -252,9 +249,9 @@
 			pop_employment_building_group = bg_agriculture
 			pop_employment_building_group = bg_ranching
 			pop_employment_building_group = bg_plantations
-			pop_employment_building_group = building_logging_camp
-			pop_employment_building_group = building_fishing_wharf
-			pop_employment_building_group = building_whaling_station
+			pop_employment_building_group = bg_logging
+			pop_employment_building_group = bg_fishing
+			pop_employment_building_group = bg_whaling
 			pop_employment_building_group = bg_manor_houses
 		}
 	}
@@ -270,9 +267,9 @@
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
-						pop_employment_building_group = building_logging_camp
-						pop_employment_building_group = building_fishing_wharf
-						pop_employment_building_group = building_whaling_station
+						pop_employment_building_group = bg_logging
+						pop_employment_building_group = bg_fishing
+						pop_employment_building_group = bg_whaling
 						pop_employment_building_group = bg_manor_houses
 					}
 				}
@@ -317,7 +314,7 @@
 				value = 75
 			}
 		}
-		
+
 		if = {
 			limit = {
 				c:BIC ?= owner
@@ -330,7 +327,7 @@
 				value = 0.1
 			}
 		}
-	
+
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {
@@ -356,7 +353,7 @@
 				min = 0
 			}
 		}
-		
+
 		if = {
 			limit = {
 				scope:interest_group = {
@@ -390,7 +387,7 @@
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
-				is_marginal = yes
+				ig_counts_as_marginal = yes
 			}
 			multiply = {
 				value = 0.1
@@ -436,7 +433,7 @@
 		if = {
 			limit = {
 				owner.ig:ig_rural_folk ?= {
-					is_marginal = yes
+					ig_counts_as_marginal = yes
 				}
 			}
 			multiply = {
@@ -487,7 +484,7 @@
 
 	female_agitator_chance = {
 		value = 0.025
-		
+
 		if = {
 			limit = {
 				owner = {
@@ -498,8 +495,8 @@
 			add = {
 				value = 0.025
 			}
-		}	
-		
+		}
+
 		if = {
 			limit = {
 				owner = {
@@ -522,7 +519,7 @@
 			add = {
 				value = 0.025
 			}
-		}		
+		}
 	}
 
 	# The chance that a commander belonging to this IG takes over leadership when it changes
@@ -531,7 +528,7 @@
 		value = 0.5
 		multiply = ig_commander_leader_chance_mult
 	}
-	
+
 	# The chance that a executive belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular executive in the IG
 	executive_leader_chance = {

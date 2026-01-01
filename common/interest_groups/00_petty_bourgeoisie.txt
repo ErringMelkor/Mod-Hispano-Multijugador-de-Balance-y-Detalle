@@ -16,6 +16,7 @@
 		ideology_jingoist_leader
 		ideology_protectionist
 		ideology_sovereignist_leader
+		ideology_despotic_utopian
 	}
 
 	enable = {
@@ -28,7 +29,7 @@
 		ig_trait_middle_managers
 		ig_trait_xenophobia
 	}
-	
+
 	on_enable = {
 		ig:ig_petty_bourgeoisie ?= {
 			if = {
@@ -43,9 +44,9 @@
 				limit = {
 					owner = { c:TUR ?= this }
 				}
-						set_ig_trait = ig_trait:ig_trait_xenophobia
-						set_ig_trait = ig_trait:ig_trait_effendi
-						set_ig_trait = ig_trait:ig_trait_reorganization
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_effendi
+				set_ig_trait = ig_trait:ig_trait_reorganization
 			}
 			# Austria
 			else_if = {
@@ -143,7 +144,18 @@
 			}
 			else_if = {
 				limit = {
-					owner = { 
+					c:POR ?= owner
+				}
+				remove_ideology = ideology_meritocratic
+				add_ideology = ideology_cartist
+
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_middle_managers
+				set_ig_trait = ig_trait:ig_trait_treasury_bonds
+			}
+			else_if = {
+				limit = {
+					owner = {
 						OR = {
 							c:BIC ?= this
 							any_primary_culture = {
@@ -166,7 +178,7 @@
 					# Ideologies
 					remove_ideology = ideology_patriotic
 					add_ideology = ideology_sovereignist
-					
+
 					# Traits
 					set_ig_trait = ig_trait:ig_trait_swadesh
 					set_ig_trait = ig_trait:ig_trait_lines_of_credit
@@ -206,7 +218,7 @@
 		rule = {
 			trigger = {
 				c:BIC ?= this
-				any_primary_culture = { 
+				any_primary_culture = {
 					cu:british = this
 				}
 			}
@@ -223,6 +235,32 @@
 			}
 			cultures = {
 				swahili gujarati
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				NOT = { has_variable = je_philippines_main_reliance_happened }
+				NOT = { any_primary_culture = { cu:filipino = this } }
+				NOT = { any_primary_culture = { cu:filipino_hispanophone = this } }
+				any_primary_culture = { cu:spanish = this }
+			}
+			cultures = {
+				spanish filipino_mestizo
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				any_primary_culture = {
+					AND = {
+						cu:spanish = this
+						cu:filipino_hispanophone = this
+					}
+				}
+			}
+			cultures = {
+				spanish filipino_hispanophone
 			}
 		}
 	}
@@ -256,7 +294,7 @@
 					}
 					AND = {
 						c:ZAN ?= prev.owner
-						c:ZAN = {
+						c:ZAN ?= {
 							any_primary_culture = { cu:bedouin = this }
 						}
 						OR = {
@@ -285,11 +323,11 @@
 			pop_employment_building_group = bg_private_infrastructure
 			pop_employment_building_group = bg_financial_districts
 			pop_employment_building_group = bg_government
-			pop_employment_building_group = building_logging_camp
+			pop_employment_building_group = bg_logging
 			pop_employment_building_group = bg_mining
-			pop_employment_building_group = building_fishing_wharf
-			pop_employment_building_group = building_whaling_station
-			pop_employment_building_group = building_oil_rig
+			pop_employment_building_group = bg_fishing
+			pop_employment_building_group = bg_whaling
+			pop_employment_building_group = bg_oil_extraction
 			AND = {
 				custom_tooltip = {
 					text = owner_has_homesteading_tt
@@ -403,15 +441,15 @@
 			}
 		}
 
-			if = {
-				limit = {
+		if = {
+			limit = {
 				standard_of_living >= 10
-					NOR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
-					}
+				NOR = {
+					pop_employment_building_group = bg_agriculture
+					pop_employment_building_group = bg_ranching
+					pop_employment_building_group = bg_plantations
 				}
+			}
 			add = {
 				desc = "URBAN_POP"
 				value = standard_of_living
@@ -431,7 +469,7 @@
 				value = 0.1
 			}
 		}
-		
+
 		if = {
 			limit = {
 				c:BIC ?= owner
@@ -488,7 +526,7 @@
 				min = 0
 			}
 		}
-		
+
 		if = {
 			limit = {
 				scope:interest_group = {
@@ -522,7 +560,7 @@
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
-				is_marginal = yes
+				ig_counts_as_marginal = yes
 			}
 			multiply = {
 				value = 0.1
@@ -568,7 +606,7 @@
 		if = {
 			limit = {
 				owner.ig:ig_petty_bourgeoisie ?= {
-					is_marginal = yes
+					ig_counts_as_marginal = yes
 				}
 			}
 			multiply = {
@@ -619,7 +657,7 @@
 
 	female_agitator_chance = {
 		value = 0.025
-		
+
 		if = {
 			limit = {
 				owner = {
@@ -630,8 +668,8 @@
 			add = {
 				value = 0.025
 			}
-		}	
-		
+		}
+
 		if = {
 			limit = {
 				owner = {
@@ -654,7 +692,7 @@
 			add = {
 				value = 0.025
 			}
-		}		
+		}
 	}
 
 	# The chance that a commander belonging to this IG takes over leadership when it changes

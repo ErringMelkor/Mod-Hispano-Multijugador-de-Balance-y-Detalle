@@ -531,9 +531,9 @@ je_sick_man_bureaucracy = {
 
 # Bread Basket
 je_sick_man_bread_basket = {
-	icon = "gfx/interface/icons/event_icons/event_scales.png"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
-	group = je_group_historical_content
+	group = je_group_tanzimat
 
 	complete = {
 		OR = {
@@ -576,38 +576,7 @@ je_sick_man_bread_basket = {
 					}
 				}
 			}	
-		}
-		OR = {
-			AND = {
-				country_has_building_group_levels = {
-					type = bg_wheat_farm
-					value  >= 125
-				}
-				country_has_building_group_levels = {
-					type = building_rice_farm
-					value  >= 25
-				}
-			}
-			AND = {
-				country_has_building_group_levels = {
-					type = bg_wheat_farm
-					value  >= 75
-				}
-				country_has_building_group_levels = {
-					type = building_rice_farm
-					value  >= 25
-				}
-				country_has_building_group_levels = {
-					type = bg_millet_farm
-					value  >= 25
-				}
-			}
-			country_has_building_group_levels = {
-				type = bg_wheat_farm
-				value  >= 150
-			}
-		}
-		
+		}				
 		market_capital.market = {
 			mg:grain = { 
 				market_goods_pricier < -0.25 
@@ -615,6 +584,7 @@ je_sick_man_bread_basket = {
 		}
 		has_technology_researched = intensive_agriculture
 	}
+	
 
 	on_complete = {
 		custom_tooltip = je_sick_man_advance
@@ -645,13 +615,13 @@ je_sick_man_bread_basket = {
 
 # Manufacturas / Minas
 je_sick_man_industrial_heartland = {
-	icon = "gfx/interface/icons/event_icons/turind.png"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
-	group = je_group_historical_content
+	group = je_group_tanzimat
 
 	complete = {
 		country_has_building_group_levels = {
-			type = building_logging_camp
+			type = bg_logging
 			value  >= 100
 		}
 		country_has_building_group_levels = {
