@@ -925,7 +925,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_ALGIERS
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
@@ -998,7 +998,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_FRENCH_LOW_COUNTRIES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {

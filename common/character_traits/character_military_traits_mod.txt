@@ -693,7 +693,7 @@ expert_infantry_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {
-							target = unit_type:combat_unit_skirmish_infantry
+							target = unit_type:combat_unit_type_skirmish_infantry
 							value >= 0.20
 						}
 					}
