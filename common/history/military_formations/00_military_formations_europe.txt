@@ -840,25 +840,25 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_AUVERGNE_LIMOUSIN
-				count = 25
+				count = 30
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_LANGUEDOC
-				count = 15
+				count = 20
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GUYENNE
-				count = 15
+				count = 25
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_PROVENCE
-				count = 5
+				count = 25
 			}
 
 			save_scope_as = secondcorpfra
@@ -1128,20 +1128,8 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_WEST_COUNTRY
-				count = 2
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_LOWLANDS
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_LANCASHIRE
 				count = 2
 			}
 
@@ -1161,12 +1149,6 @@
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_MIDLANDS
 				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_MIDLANDS
-				count = 1
 			}
 
 			combat_unit = {
@@ -1225,19 +1207,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_EAST_ANGLIA
-				count = 5
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_YORKSHIRE
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_YORKSHIRE
-				count = 1
+				count = 3
 			}
 			save_scope_as = army_med_army
 		}
@@ -1259,13 +1235,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_WALES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_LANCASHIRE
-				count = 9
+				count = 6
 			}
 
 			combat_unit = {
@@ -1317,13 +1293,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_LEINSTER
-				count = 4
+				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_HIGHLANDS
-				count = 5
+				count = 1
 			}
 
 			combat_unit = {
@@ -1381,24 +1357,24 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_WEST_COUNTRY
-				count = 30
+				count = 15
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_LANCASHIRE
-				count = 40
+				count = 25
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_ULSTER
-				count = 9
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_HOME_COUNTIES
-				count = 18
+				count = 15
 			}
 		}
 
@@ -1410,13 +1386,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_EAST_ANGLIA
-				count = 19
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_YORKSHIRE
-				count = 25
+				count = 20
 			}
 		}
 
@@ -1434,7 +1410,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_MALTA
-				count = 4
+				count = 3
 			}
 
 			combat_unit = {
@@ -1446,7 +1422,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_MIDLANDS
-				count = 6
+				count = 5
 			}
 
 			combat_unit = {
@@ -1471,18 +1447,6 @@
 			type = fleet
 			hq_region = sr:region_new_england
 			name = North_America_and_West_Indies_Station
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_HOME_COUNTIES
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_BERMUDA
-				count = 2
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1520,27 +1484,9 @@
 			name = East_Indies_and_China_Station # Includes the 1 frigate of the Australia Station too
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_LOWLANDS
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_EAST_ANGLIA
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_MUNSTER
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_MUNSTER
-				count = 1
+				count = 5
 			}
 			save_scope_as = india_china_fleet
 		}
@@ -1657,7 +1603,7 @@
 			combat_unit = { # Neva and Sofiya Infantry, Narva and Kopore Jägers, Prince Wilhelm of Prussia’s and Prince Karl of Prussia’s Infantry, Old Ingermanland and New Ingermanland Infantry
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_INGRIA
-				count = 10
+				count = 25
 			}
 
 #			combat_unit = { # Reval and Estonia Jägers
@@ -2163,7 +2109,7 @@
 			combat_unit = { # Yekaterinoslav Grenadiers and Prince Paul of Mecklenburg’s Carabiniers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KHARKOV
-				count = 2
+				count = 12
 			}
 
 			combat_unit = { # Siberia and Field Marshal Graf Rumyantsov of the Transdanube’s Grenadiers
@@ -2182,7 +2128,7 @@
 			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich’s and His Majesty the King of Württemberg’s Hussar Regiments
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_MINSK
-				count = 2
+				count = 10
 			}
 			combat_unit = { # His Imperial Highness the Grand Duke Michael Pavlovich’s and Yamburg Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
