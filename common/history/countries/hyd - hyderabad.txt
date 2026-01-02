@@ -1,0 +1,15 @@
+﻿COUNTRIES = {
+	c:HYD ?= {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_princely_state = yes
+		
+		ig:ig_landowners ?= {
+			add_ruling_interest_group = yes
+		}
+
+		add_modifier = {
+			name = dinastic_loyalty
+			months = -1
+		}	
+	}
+}
