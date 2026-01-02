@@ -808,6 +808,17 @@ POPS = {
 				size = 6010
 			}
 		}
+		region_state:CHT = {
+			create_pop = {
+				culture = pashtun
+				size = 14232
+			}
+			create_pop = {
+				culture = panjabi # Kohistani
+				religion = sunni
+				size = 20001
+			}
+		}
 	}
 	s:STATE_PUNJAB = {
 		region_state:PAN = {

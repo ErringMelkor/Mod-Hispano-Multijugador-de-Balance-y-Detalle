@@ -234,6 +234,10 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
+			country = c:KAS
+			type = tributary
+		}
+		create_diplomatic_pact = {
 			country = c:BIK
 			type = vassal
 		}
