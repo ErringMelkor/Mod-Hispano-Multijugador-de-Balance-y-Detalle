@@ -51,7 +51,7 @@ state_trait_canadian_forests = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
-		building_group_building_logging_camp_throughput_add = 0.1
+		building_group_bg_logging_throughput_add = 0.1
 	}
 }
 
@@ -59,7 +59,7 @@ state_trait_red_cedar = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
-		building_group_building_logging_camp_throughput_add = 0.3
+		building_group_bg_logging_throughput_add = 0.3
 		goods_output_hardwood_mult = 0.25
 	}
 }

@@ -445,7 +445,7 @@ company_alhstrom = {
 	}
 
 	prosperity_modifier = {
-		building_group_building_logging_camp_throughput_add = 0.1
+		building_group_bg_logging_throughput_add = 0.1
 		building_paper_mill_throughput_add = 0.1
 		building_construction_sector_throughput_add = 0.05
 	}
