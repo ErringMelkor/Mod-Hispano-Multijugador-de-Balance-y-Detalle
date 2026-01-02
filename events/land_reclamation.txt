@@ -128,35 +128,3 @@ land_reclamation.1 = {
 		
 	}
 }
-
-land_reclamation.2 = {
-	type = country_event
-	placement = root
-	
-	title = lake_fucine.1.t
-	desc = lake_fucine.1.d
-	flavor = lake_fucine.1.f
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_gears_pistons.bk2"
-	}
-	
-	icon = "gfx/interface/icons/event_icons/event_default.dds"
-
-	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	
-	duration = 3
-
-	option = {
-		name = land_reclamation.2.b
-
-		trigger = { is_player = yes }
-
-		set_global_variable = conlosterrorihta
-
-		ai_chance = {
-			base = 0
-		}
-
-	}
-}

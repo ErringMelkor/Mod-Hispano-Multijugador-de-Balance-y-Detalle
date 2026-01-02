@@ -1,9 +1,5 @@
 namespace = age_of_nicholas_i
 
-age_of_nicholas_i.1 = {
-
-}
-
 
  age_of_nicholas_i.2 = { #Nicholas I brings Kiselyov as IG Leader.
 	type = country_event

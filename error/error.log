@@ -2014,3 +2014,825 @@ common/coat_of_arms/template_lists/colored_emblem_lists.txt:1345
 common/scripted_triggers/00_coa_triggers.txt:120
 common/scripted_triggers/00_coa_triggers.txt:53
 
+[15:38:48][pdx_assert.cpp:628]: Assertion failed: No cached pop expenses for popneed_crude_items in market Kashmiri Market
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:08][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:09][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:10][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:11][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[15:39:13][game_telemetry.cpp:419]: Unknown tooltip type

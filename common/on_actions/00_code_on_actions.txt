@@ -3552,7 +3552,7 @@ on_country_formed = {
 			limit = {
 				c:SCA ?= ROOT
 			}
-			trigger_event = { id = formation.16 popup = yes }
+			trigger_event = { id = formation.10 popup = yes }
 		}
 		else_if = {
 			limit = {
