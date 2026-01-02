@@ -461,7 +461,7 @@ building_sar_i_sang = {
 }
 
 
-building_département_métropolitain = {
+building_departement_metropolitain = {
 	building_group = bg_monuments
 	icon = "gfx/interface/icons/building_icons/departamento_central.dds"
 	expandable = no
@@ -470,7 +470,7 @@ building_département_métropolitain = {
 	unique = yes
 
 	production_method_groups = {
-		pmg_base_building_département_métropolitain
+		pmg_base_building_departement_metropolitain
 	}
 
 	potential = {

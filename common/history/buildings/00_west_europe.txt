@@ -2769,7 +2769,7 @@
 				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
 			}
 			create_building={
-				building="building_département_métropolitain"
+				building="building_departement_metropolitain"
 				level=1
 			}
 			create_building={

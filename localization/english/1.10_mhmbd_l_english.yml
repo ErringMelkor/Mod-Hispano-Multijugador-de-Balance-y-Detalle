@@ -3,8 +3,6 @@
 state_trait_red_cedar: "Old Red Cedar Woods"
 
 
-state_trait_red_cedar: "Gran Cedro Rojo"
-
 nicholas_unticked: "@simple_box!"
 nicholas_ticked: "@green_checkmark_box!"
 
@@ -52,9 +50,9 @@ pm_unchecked_bondage: "Servidumbre sin restricciones"
 pm_manor_house_extensive_networks: "Raíces aristocráticas profundas"
 
 building_hardwood_logging: "Campamentos de madera dura"
-building_département_métropolitain: "Departamento Metropolitano"
-pmg_base_building_département_métropolitain: "Departamento Metropolitano"
-pm_default_building_département_métropolitain: "Producción Base"
+building_departement_metropolitain: "Departamento Metropolitano"
+pmg_base_building_departement_metropolitain: "Departamento Metropolitano"
+pm_default_building_departement_metropolitain: "Producción Base"
 pm_default_building_expanded_département_métropolitain: "Producción Extendida"
 old_paris: "Vieja París"
 fra_napoleonic_wars_legacy_workforce: "Legado de las Guerras Napoleónicas"
