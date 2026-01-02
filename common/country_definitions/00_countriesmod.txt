@@ -23,9 +23,7 @@ USA = {
 	
 	cultures = { yankee dixie }
 	capital = STATE_GREATER_MARYLAND
-	primary_unit_color = { 30 45 62 }
-	secondary_unit_color  = { 150 190 210 }
-	tertiary_unit_color = { 30 45 62 }
+
 }
 
 SYR = {
@@ -95,9 +93,7 @@ NHA = {
 	cultures = { manchu } 
 	religion = confucian
 	capital = STATE_BEIJING
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
+
 }
 
 SON = {
@@ -110,9 +106,7 @@ SON = {
 	cultures = { yue } 
 	religion = mahayana
 	capital = STATE_GUANGDONG
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
+
 }
 
 GSN = {
@@ -125,9 +119,7 @@ GSN = {
 	cultures = { yue han } 
 	religion = mahayana
 	capital = STATE_GUANGDONG
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
+
 }
 
 GJN = {
@@ -140,9 +132,7 @@ GJN = {
 	cultures = { manchu han } 
 	religion = confucian
 	capital = STATE_BEIJING
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
+
 }
 
 GDN = {
@@ -157,7 +147,4 @@ GDN = {
 	cultures = { vietnamese han }
 	capital = STATE_ANNAM
 
-	primary_unit_color = { 159 196 221 }
-    secondary_unit_color  = { 252 247 149 }
-    tertiary_unit_color = { 64 64 64 }
 }
