@@ -1811,7 +1811,7 @@ romantic_building_modifier = {
 	building_art_academy_throughput_add = 0.2
 }
 
-zeppelins_military_modifier = {
+REPLACE_OR_CREATE:zeppelins_military_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	unit_army_offense_add = 5
 }

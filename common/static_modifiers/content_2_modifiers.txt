@@ -537,10 +537,10 @@ USA_removal_not_followed_through = {
 
 war_hero_cult = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	character_popularity_add = 30
+	character_popularity_add = 75
 }
 
-war_hero_fighter = {
+REPLACE_OR_CREATE:war_hero_fighter = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	unit_army_offense_add = 5
 }

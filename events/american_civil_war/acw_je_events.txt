@@ -157,12 +157,22 @@ acw_je_events.1 = {
 			c:CSA = {
 				add_modifier = {
 					name = csa_static_modifier
-					years = 2
+					months = 30
 					is_decaying = yes
 				}
 			}
 		}
 		assign_csa_states = yes
+		if = {
+			limit = { exists = c:USA }
+			c:USA = {
+				add_modifier = {
+					name = usa_acw_war_support_static_modifier
+					years = 3
+					is_decaying = yes
+				}
+			}
+		}
 	}
 	option = {
 		name = acw_je_events.1.b

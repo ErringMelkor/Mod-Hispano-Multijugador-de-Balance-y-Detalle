@@ -63,7 +63,7 @@ lesser_opium_addiction_state_mod = {
 
 ottoman_army_reform = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	country_military_tech_research_speed_mult = 0.25
+	country_military_tech_research_speed_mult = 0.35
 	battle_offense_owned_province_mult = 0.2
 	battle_defense_owned_province_mult = 0.2
 }
@@ -625,7 +625,7 @@ german_unifier_ruler = {
 	country_authority_mult = 0.25
 }
 
-tewodros_modifier = {
+REPLACE_OR_CREATE:tewodros_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	unit_army_offense_add = 10
 	unit_defense_add = 5

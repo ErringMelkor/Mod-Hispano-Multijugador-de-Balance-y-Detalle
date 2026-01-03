@@ -53,7 +53,7 @@ ig_trait_kommerskollegium = {
 	}
 }
 
-REPLACE:ig_trait_ventilate_unify_beautify = {
+ig_trait_ventilate_unify_beautify = {
 	icon = "gfx/interface/icons/ig_trait_icons/job_creators.dds"
 	min_approval = loyal
 

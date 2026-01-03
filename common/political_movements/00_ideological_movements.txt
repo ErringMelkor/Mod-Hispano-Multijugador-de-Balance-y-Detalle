@@ -712,7 +712,7 @@ movement_pro_slavery = {
 				is_pop_type = aristocrats
 			}
 			add = {
-				value = 45
+				value = 75
 				desc = "POP_ARISTOCRATS"
 			}
 		}
@@ -721,7 +721,7 @@ movement_pro_slavery = {
 				is_pop_type = farmers
 			}
 			add = {
-				value = 15
+				value = 25
 				desc = "POP_FARMERS"
 			}
 		}
@@ -750,7 +750,7 @@ movement_pro_slavery = {
 			}
 
 			multiply = {
-				value = 3.0
+				value = 3.5
 				desc = "je_acw_countdown"
 			}
 		}
@@ -942,7 +942,7 @@ movement_pro_slavery = {
 			}
 
 			add = {
-				value = 0.1
+				value = 0.35
 				desc = "RULER_IS_ANTI_SLAVERY"
 			}
 		}
@@ -1023,7 +1023,7 @@ movement_pro_slavery = {
 			}
 
 			add = {
-				value = 0.2
+				value = 0.45
 				desc = "je_acw_countdown"
 			}
 		}

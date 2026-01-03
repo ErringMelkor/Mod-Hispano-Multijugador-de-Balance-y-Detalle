@@ -1,4 +1,4 @@
-﻿missouri_compromise = {
+﻿REPLACE_OR_CREATE:missouri_compromise = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	interest_group_ig_landowners_pol_str_mult = 0.35
 	country_aristocrats_voting_power_add = 125
@@ -7,41 +7,47 @@
 }
 
 csa_static_modifier = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	building_training_rate_mult = 5
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	building_training_rate_mult = 1
 	state_conscription_rate_add = 0.05
 	country_military_goods_cost_mult = -0.55
 	unit_supply_consumption_mult = -0.55
 	unit_defense_mult = 0.45
-	unit_offense_mult = 0.35
+	unit_offense_mult = 0.15
 	unit_morale_loss_mult = -0.15
+	country_war_exhaustion_casualties_mult = -2
+}
+
+usa_acw_war_support_static_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_war_exhaustion_casualties_mult = -3
 }
 
 modifier_csa_hiring_bonus = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	building_training_rate_add = 1000
-	building_training_rate_mult = 2
+	building_training_rate_add = 25
+	building_training_rate_mult = 0.25
 }
 
-redeemer_government = {
+REPLACE_OR_CREATE:redeemer_government = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	state_pop_pol_str_mult = -0.65
 }
 
-reconstruction_government = {
+REPLACE_OR_CREATE:reconstruction_government = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_pop_pol_str_mult = 0.25
 	state_tax_waste_add = 0.25
 }
 
-paramilitary_threats = {
+REPLACE_OR_CREATE:paramilitary_threats = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	state_radicalism_increases_violent_hostility_mult = 0.15
 	state_radicalism_increases_cultural_erasure_mult = 0.15
 	state_radicalism_increases_open_prejudice_mult = 0.15
 }
 
-paramilitaries_suppressed = {
+REPLACE_OR_CREATE:paramilitaries_suppressed = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	state_radicalism_increases_violent_hostility_mult = -0.05
 	state_radicalism_increases_cultural_erasure_mult = -0.05
@@ -49,7 +55,7 @@ paramilitaries_suppressed = {
 	state_tax_waste_add = 0.25
 }
 
-integration_efforts = {
+REPLACE_OR_CREATE:integration_efforts = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_turmoil_effects_mult = 0.25
 	state_tax_waste_add = 0.45
@@ -60,10 +66,10 @@ integration_efforts = {
 slavery_de_facto = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	building_group_bg_plantations_throughput_add = 0.1
-	building_group_bg_plantations_mortality_mult = 0.1
+	building_group_bg_plantations_mortality_mult = 0.15
 }
 
-unreconstructed_state = {
+REPLACE_OR_CREATE:unreconstructed_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	state_radicals_from_political_movements_mult = 0.35
 	state_tax_waste_add = 0.5
