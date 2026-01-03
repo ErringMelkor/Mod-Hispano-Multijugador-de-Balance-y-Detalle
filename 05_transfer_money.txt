@@ -385,12 +385,38 @@
 
 			add = {
 				desc = "MANEUVERS_BASE_VALUE"
-				value = 0
+				value = 2.5
+			}
+
+			if = {
+				limit = {
+					exists = scope:quantity
+				}
+				add = {
+					desc = "MANEUVERS_QUANTITY_FACTOR"
+					value = scope:quantity
+					divide = 1000
+					min = 0
+					max = 50
+				}
 			}
 		}
 
 		infamy = {
 			value = 0
+
+			if = {
+				limit = {
+					exists = scope:quantity
+				}
+				add = {
+					desc = "INFAMY_QUANTITY_FACTOR"
+					value = scope:quantity
+					divide = 1000
+					min = 5
+					max = 50
+				}
+			}
 
 			if = {
 				limit = {
@@ -422,7 +448,7 @@
 							divide = 2000
 						}
 					}
-					max = 0
+					max = 50
 				}
 			}
 

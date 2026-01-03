@@ -1187,6 +1187,7 @@ RUS_matvey_khrapovitsky = {
 
 RUS_nikolay_muravyov_karsky = {
 	is_general = yes
+    commander_rank = commander_rank_3
 	first_name = Nikolay
 	last_name = Muravyov_Karsky
 	historical = yes
@@ -1208,7 +1209,7 @@ RUS_pavel_grabbe = {
 	culture = primary_culture
 	age = 47
 	hq = region_west_siberia
-	commander_rank = commander_rank_2
+	commander_rank = commander_rank_4
 	interest_group = ig_landowners
 	ideology = ideology_reformer
 	traits = {

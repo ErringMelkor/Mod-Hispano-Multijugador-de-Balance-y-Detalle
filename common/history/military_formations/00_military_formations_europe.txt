@@ -852,13 +852,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GUYENNE
-				count = 25
+				count = 20
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_PROVENCE
-				count = 25
+				count = 20
 			}
 
 			save_scope_as = secondcorpfra
@@ -1004,7 +1004,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_BRITTANY
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -1603,7 +1603,7 @@
 			combat_unit = { # Neva and Sofiya Infantry, Narva and Kopore Jägers, Prince Wilhelm of Prussia’s and Prince Karl of Prussia’s Infantry, Old Ingermanland and New Ingermanland Infantry
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_INGRIA
-				count = 25
+				count = 35
 			}
 
 #			combat_unit = { # Reval and Estonia Jägers
@@ -1622,7 +1622,7 @@
 			combat_unit = { # Sumy and Klyastitsy Hussar Regiments.
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_KIEV
-				count = 2
+				count = 13
 			}
 			combat_unit = { # St. Petersburg Lancer Regiment
 				type = unit_type:combat_unit_type_lancers
@@ -1632,7 +1632,7 @@
 			combat_unit = { # Courland Lancer Regiment
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_RIGA
-				count = 1
+				count = 2
 			}
 
 			# 1st Artillery Division
