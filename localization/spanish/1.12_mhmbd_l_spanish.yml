@@ -1,3 +1,7 @@
 ﻿l_spanish:
   pm_hardwood_frame_buildings: "Hardwood Frame Construction"
   usa_acw_war_support_static_modifier: "Por la Libertad!"
+  ig_trait_la_loi_royale: "La Loi Royale"
+  ig_trait_la_loi_royale_desc: "Los reyes de Francia son el epítome de la Cristiandad, y es el deber de la Iglesia asegurarse de que el populacho lo recuerde."
+  ig_trait_lingua_franca: "Lingua Franca"
+  ig_trait_lingua_franca_desc: "Desde tiempos de Carlomagno, la lengua francesa ha sido el idioma vehicular de toda Europa."
