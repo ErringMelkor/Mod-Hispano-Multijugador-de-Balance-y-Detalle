@@ -131,7 +131,7 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:BIC
+			country = c:PEC
 			type = chartered_company
 		}
 		create_diplomatic_pact = {
