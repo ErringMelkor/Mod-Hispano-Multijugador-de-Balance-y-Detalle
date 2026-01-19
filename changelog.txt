@@ -1,0 +1,35 @@
+Changelog Versión 1.12B
+
+Autoridad:
+	Reajuste de la Autoridad otorgada por las leyes de Distribución de Poder:
+		Autocracia: 200 -> 250
+		Neo-Absolutismo: 250 -> 300
+		Oligarquía: 100 -> 200
+		Tecnocracia: 100 -> 150
+		Voto por Propiedades: 100 -> 150
+		Voto por Riqueza: 100 -> 150
+		Anarquía: -50% -> -25%
+		Partido Único: 250 -> 200.
+
+Leyes:
+	Ateísmo de Estado: 15 aceptación cultural -> 10
+
+Legitimidad:
+	Anarquía: 125 según Clout -> 150.
+
+Economía:
+	Reajuste de los valores y efectos de los salarios civiles y militares.
+	Aumentado el nivel de vida esperado por impuestos para la clase alta.
+
+Militar:
+	Reducido ligeramente el coste de la infamia sobre los países pequeños e insignificantes.
+
+Otomanos:
+	La decisión de Integrar el ejército está disponible con Ateísmo de Estado, genera más lealistas.
+	La decisión de "Llamar a la Jihad" genera menos radicales (y corregido que no funcionara con su variante de ley).
+	
+
+
+
+
+

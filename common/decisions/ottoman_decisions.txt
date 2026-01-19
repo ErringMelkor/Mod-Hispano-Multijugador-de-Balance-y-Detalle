@@ -5,7 +5,7 @@
 	}
 
 	possible = {
-		has_law = law_type:law_state_religion
+		has_law_or_variant = law_type:law_state_religion
 		has_law = law_type:law_monarchy
 		is_at_war = yes
 	}
@@ -18,23 +18,23 @@
 		}
 
 		add_loyalists = {
-			value = 0.1
+			value = 0.01
 			religion = rel:shiite
 		}
 
 		add_radicals = {
-			value = 0.15
+			value = 0.05
 			religion =rel:catholic
 		}
 
 		add_radicals = {
-			value = 0.20
+			value = 0.10
 			religion =rel:orthodox
 		}
 
 		add_modifier = {
 			name = la_ultima_cruzada
-			months = 12
+			months = 18
 			is_decaying = yes
 		}
 
@@ -45,7 +45,7 @@
 
 		add_modifier = {
 			name = sponsored_state_jihad
-			months = 120
+			months = 18
 		}
 	}
 
@@ -66,29 +66,32 @@ integrar_ejercito = {
 			has_law = law_type:law_cultural_exclusion
 			has_law = law_type:law_multicultural
 		}
+		OR = {
 			has_law = law_type:law_total_separation
+			has_law = law_type:law_state_atheism
+		}
 	}
 
 	when_taken = {
 
 		add_loyalists = {
-			value = 0.05
+			value = 0.15
 			culture = cu:greek
 		}
 		add_loyalists = {
-			value = 0.05
+			value = 0.15
 			culture = cu:bulgarian
 		}
 		add_loyalists = {
-			value = 0.05
+			value = 0.1
 			culture = cu:albanian
 		}
 		add_loyalists = {
-			value = 0.05
+			value = 0.1
 			culture = cu:kurdish
 		}
 		add_loyalists = {
-			value = 0.05
+			value = 0.15
 			culture = cu:serb
 		}
 		add_loyalists = {
