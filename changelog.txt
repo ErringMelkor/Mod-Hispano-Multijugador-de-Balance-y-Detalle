@@ -23,6 +23,9 @@ Economía:
 
 Militar:
 	Reducido ligeramente el coste de la infamia sobre los países pequeños e insignificantes.
+	Reducido el número de tropas necesarias para la marina, en torno a un 75-25% según se progresa.
+		Objetivo de que la flota sea más barata, tanto en demografía como en salarios.
+		Mayor número de oficiales en proporción al ejército terrestre, para representar la tecnificación necesaria de la flota.
 
 Otomanos:
 	La decisión de Integrar el ejército está disponible con Ateísmo de Estado, genera más lealistas.

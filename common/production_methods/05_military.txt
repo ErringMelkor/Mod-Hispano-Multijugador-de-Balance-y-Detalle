@@ -273,8 +273,8 @@ pm_no_naval_theory = {
 	texture = "gfx/interface/icons/production_method_icons/no_naval_theory.dds"
 
 	profession_ratio = {
-		soldiers = 90
-		officers = 10
+		soldiers = 75
+		officers = 25
 	}
 
 	state_modifiers = {
@@ -285,11 +285,11 @@ pm_no_naval_theory = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 4
+			building_training_rate_add = 1
 		}
 
 		unscaled = {
-			building_training_rate_add = 10
+			building_training_rate_add = 2
 		}
 	}
 }
@@ -298,8 +298,8 @@ pm_power_of_the_purse = {
 	texture = "gfx/interface/icons/production_method_icons/power_of_the_purse.dds"
 
 	profession_ratio = {
-		soldiers = 875
-		officers = 125
+		soldiers = 70
+		officers = 30
 	}
 
 	unlocking_technologies = {
@@ -314,7 +314,7 @@ pm_power_of_the_purse = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 5
+			building_training_rate_add = 1.25
 		}
 
 		unscaled = {
@@ -329,8 +329,8 @@ pm_jeune_ecole = {
 	texture = "gfx/interface/icons/production_method_icons/jeune_ecole.dds"
 
 	profession_ratio = {
-		soldiers = 85
-		officers = 15
+		soldiers = 65
+		officers = 35
 	}
 
 	unlocking_technologies = {
@@ -345,7 +345,7 @@ pm_jeune_ecole = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 6
+			building_training_rate_add = 1.5
 		}
 
 		unscaled = {
@@ -360,8 +360,8 @@ pm_sea_lane_strategies = {
 	texture = "gfx/interface/icons/production_method_icons/mahanian_thought.dds"
 
 	profession_ratio = {
-		soldiers = 825
-		officers = 175
+		soldiers = 60
+		officers = 40
 	}
 
 	unlocking_technologies = {
@@ -376,7 +376,7 @@ pm_sea_lane_strategies = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 7
+			building_training_rate_add = 1.75
 		}
 
 		unscaled = {
@@ -391,8 +391,8 @@ pm_battlefleet_tactics = {
 	texture = "gfx/interface/icons/production_method_icons/battlefleet_tactics.dds"
 
 	profession_ratio = {
-		soldiers = 80
-		officers = 20
+		soldiers = 55
+		officers = 45
 	}
 
 	unlocking_technologies = {
@@ -407,7 +407,7 @@ pm_battlefleet_tactics = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 8
+			building_training_rate_add = 2.25
 		}
 
 		unscaled = {
