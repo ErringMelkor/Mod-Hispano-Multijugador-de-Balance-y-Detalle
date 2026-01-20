@@ -1,9 +1,9 @@
-﻿state_trait_grand_banks_fisheries = {
+﻿REPLACE_OR_CREATE:state_trait_grand_banks_fisheries = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 	
 	modifier = {
-		building_group_building_fishing_wharf_throughput_add = 0.35
-		building_group_building_whaling_station_throughput_add = 0.35
+		building_group_bg_fishing_throughput_add = 0.35
+		building_group_bg_whaling_throughput_add = 0.35
 	}
 }
 
@@ -12,7 +12,7 @@ state_trait_great_lakes = {
 	
 	modifier = {
 		state_infrastructure_add = 15
-		building_group_building_fishing_wharf_throughput_add = 0.1
+		building_group_bg_fishing_throughput_add =  0.1
 	}	
 }
 

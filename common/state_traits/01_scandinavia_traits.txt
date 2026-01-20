@@ -1,4 +1,4 @@
-﻿state_trait_scandinavian_forests = {
+﻿REPLACE_OR_CREATE:state_trait_scandinavian_forests = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {

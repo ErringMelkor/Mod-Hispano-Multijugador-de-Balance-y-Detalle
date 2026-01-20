@@ -1479,7 +1479,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=10
+						levels=8
 					}
 				}
 				reserves=1
@@ -1511,7 +1511,20 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_no_luxury_clothes" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:JAP"
+						levels=6
+						region="STATE_KANSAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_paper_mill"
@@ -1519,7 +1532,7 @@
 					building={
 						type="building_paper_mill"
 						country="c:JAP"
-						levels=3
+						levels=6
 						region="STATE_KANSAI"
 					}
 				}
@@ -1532,7 +1545,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:JAP"
-						levels=3
+						levels=6
 						region="STATE_KANSAI"
 					}
 				}
@@ -1545,7 +1558,7 @@
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=2
+						levels=4
 						region="STATE_KANSAI"
 					}
 				}
@@ -1558,7 +1571,7 @@
 					building={
 						type="building_rice_farm"
 						country="c:JAP"
-						levels=6
+						levels=14
 						region="STATE_KANSAI"
 					}
 				}

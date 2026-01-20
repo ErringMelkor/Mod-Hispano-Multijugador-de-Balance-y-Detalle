@@ -1,4 +1,4 @@
-Changelog Versión 1.12B
+Changelog Versión 1.12B #19-01-26
 
 Autoridad:
 	Reajuste de la Autoridad otorgada por las leyes de Distribución de Poder:
@@ -10,6 +10,8 @@ Autoridad:
 		Voto por Riqueza: 100 -> 150
 		Anarquía: -50% -> -25%
 		Partido Único: 250 -> 200.
+
+
 
 Leyes:
 	Ateísmo de Estado: 15 aceptación cultural -> 10
@@ -32,7 +34,29 @@ Otomanos:
 	La decisión de "Llamar a la Jihad" genera menos radicales (y corregido que no funcionara con su variante de ley).
 	
 
+--------------------------------------------------------------------
 
+Changelog Versión 1.12B3 #20-01-26
 
+Autoridad:
+	Agregada Autoridad a las Asociaciones Laborales:
+		Sistema de Gremios: 0 -> 100
+		Leyes de combinación: 0 -> 200
+		Leyes antihuelga: 0 -> 50
+		Sindicatos Corporativizados: 0 -> 150
 
+Leyes:		
+	Asociaciones Laborales:
+		Sistema de Gremios: -10% de coste burocrático por población.
+		Derecho de Asociación: +10% de coste burocrático por población.
+		Consejos de fábricas: +15% de coste burocrático por población.
+
+Economía:
+	Rebalanceada la línea de ropa y muebles de lujo para que los 2dos niveles sean más rentables.
+
+Japón:
+	Comienza con algunos edificios más en Kansai.
+	
+
+		
 

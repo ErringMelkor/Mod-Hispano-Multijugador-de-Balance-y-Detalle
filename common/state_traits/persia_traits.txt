@@ -42,7 +42,7 @@ state_trait_amu_daria_delta = {
 	}
 }
 
-state_trait_turqoise_deposits = {
+REPLACE_OR_CREATE:state_trait_turqoise_deposits = {
 	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
 
 	modifier = {
@@ -50,7 +50,7 @@ state_trait_turqoise_deposits = {
 	}
 }
 
-state_trait_bam_narmashir = {
+REPLACE_OR_CREATE:state_trait_bam_narmashir = {
 	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
 
 	modifier = {

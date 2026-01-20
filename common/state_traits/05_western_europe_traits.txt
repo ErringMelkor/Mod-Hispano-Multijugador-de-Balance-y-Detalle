@@ -166,14 +166,14 @@ state_trait_venetian_lagoon = {
 	}
 }
 
-state_trait_douro_valley = {
+REPLACE_OR_CREATE:state_trait_douro_valley = {
 	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
-		building_vineyard_throughput_add = 0.1
+		building_vineyard_throughput_add = 0.25
 	}
 }
 
-state_trait_douro_river = {
+REPLACE_OR_CREATE:state_trait_douro_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	modifier = {
 		state_infrastructure_add = 10
@@ -267,7 +267,7 @@ state_trait_great_terroir = {
 	}
 }
 
-state_trait_the_golden_vale = {
+REPLACE_OR_CREATE:state_trait_the_golden_vale = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 	modifier = {
@@ -275,7 +275,7 @@ state_trait_the_golden_vale = {
 	}
 }
 
-state_trait_somorrostro_valley_upgraded = {
+REPLACE_OR_CREATE:state_trait_somorrostro_valley_upgraded = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	modifier = {
 		building_iron_mine_throughput_add = 0.2
@@ -283,7 +283,7 @@ state_trait_somorrostro_valley_upgraded = {
 	}
 }
 
-state_trait_riotinto_basin_upgraded = {
+REPLACE_OR_CREATE:state_trait_riotinto_basin_upgraded = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	modifier = {
 		building_sulfur_mine_throughput_add = 0.2
@@ -291,7 +291,7 @@ state_trait_riotinto_basin_upgraded = {
 	}
 }
 
-state_trait_sierra_minera_de_cartagena_upgraded = {
+REPLACE_OR_CREATE:state_trait_sierra_minera_de_cartagena_upgraded = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	modifier = {
 		building_lead_mine_throughput_add = 0.3
@@ -299,7 +299,7 @@ state_trait_sierra_minera_de_cartagena_upgraded = {
 	}
 }
 
-state_trait_cuencas_mineras_upgraded = {
+REPLACE_OR_CREATE:state_trait_cuencas_mineras_upgraded = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	modifier = {
 		building_coal_mine_throughput_add = 0.2

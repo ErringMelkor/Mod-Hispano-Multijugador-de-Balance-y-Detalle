@@ -750,7 +750,7 @@ STATE_SHANDONG = {
         building_coal_mine = 32
         building_iron_mine = 8
         building_logging_camp = 16
-        building_fishing_wharf = 28
+        building_fishing_wharf = 22
         building_gold_mine = 6
     }
     resource = {
@@ -1127,6 +1127,7 @@ STATE_CHUBU = {
     capped_resources = {
         building_lead_mine = 33
         building_logging_camp = 16
+        building_hardwood_logging = 1
         building_fishing_wharf = 16
     }
     resource = {
@@ -1150,6 +1151,7 @@ STATE_KANSAI = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_logging_camp = 19
+        building_hardwood_logging = 1
         building_fishing_wharf = 20
     }
     naval_exit_id = 3059
