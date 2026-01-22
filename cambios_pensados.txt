@@ -52,7 +52,10 @@ Japón:
 			Contactos británicos hacia Satsuma, como contrabalance de la influencia francesa en el shogunato. Saigo Takamori y Ernest Satow.
 		Guerra Boshin, 1868-1869.
 
-	
+	Rebelión de Shinpuren.
+	Rebelión de Mito.
+	Misión Iwakura.
+
 	
 	
 	Gobierno Meiji:
@@ -87,6 +90,11 @@ Japón:
 			Dieta de poderes limitados.
 			Privy council y "genro", asamblea a dedo imperial.
 			Las elecciones podían influenciar en la formación de gobierno, pero no la determinaban.
+		"Tres grandes projectos Meiji"
+			Canal de Asaka.
+			Canal de Nasu.
+			Canal de Meiji.
+				Estos canales son una manera de dar trabajo a los antiguos samurai. "Samurai rehabilitation", o shizoku jusan.
 
 
 
@@ -119,6 +127,8 @@ Japón:
 		Kyumin: "Salvar a la gente". Manifiesto de Oshio Heihachiro.
 		Seikanron: "Propuesta para Castigar Corea". Debate propuesto en 1873 por Saigo Takamori.
 		Jiyu minken undo: "Movimiento los derechos y libertad de la gente". Asociado con un derecho al voto femenino temprano (1870s, 1880s).
+		Shishi: Samuráis radicales y politicamente activistas en los 60s. 
+		Shinsengumi: Policía secreta del shogunato formada en 1863.
 
 		
 
@@ -132,4 +142,3 @@ Pulido:
 
 Biblio:
 	The New Cambridge History of Japan, Vol. 2, I.6: "The Meiji Restoration"
-	

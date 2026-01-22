@@ -23,13 +23,6 @@
 			}
 		}
 	}
-	s:STATE_CHUVASHIA = {
-		region_state:RUS = {
-			add_modifier = {
-				name = modifier_yasak
-			}
-		}
-	}
 	s:STATE_GALICH = {
 		region_state:RUS = {
 			add_modifier = {
@@ -45,13 +38,6 @@
 		}
 	}
 	s:STATE_SURGUT = {
-		region_state:RUS = {
-			add_modifier = {
-				name = modifier_yasak
-			}
-		}
-	}
-	s:STATE_CHUVASHIA = {
 		region_state:RUS = {
 			add_modifier = {
 				name = modifier_yasak

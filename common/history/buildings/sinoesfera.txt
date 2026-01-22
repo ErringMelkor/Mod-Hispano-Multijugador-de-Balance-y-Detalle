@@ -1033,7 +1033,7 @@
 					building={
 						type="building_iron_mine"
 						country="c:JAP"
-						levels=1
+						levels=2
 						region="STATE_TOHOKU"
 					}
 				}
@@ -1046,7 +1046,7 @@
 					building={
 						type="building_tooling_workshop"
 						country="c:JAP"
-						levels=1
+						levels=2
 						region="STATE_TOHOKU"
 					}
 				}
@@ -1263,7 +1263,7 @@
 					building={
 						type="building_whaling_station"
 						country="c:JAP"
-						levels=2
+						levels=4
 						region="STATE_KANTO"
 					}
 				}
@@ -1374,7 +1374,7 @@
 					building={
 						type="building_paper_mill"
 						country="c:JAP"
-						levels=2
+						levels=3
 						region="STATE_CHUBU"
 					}
 				}
@@ -1406,6 +1406,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
+			}
+			create_building={
+				building="building_hardwood_logging"
+				add_ownership={
+					building={
+						type="building_hardwood_logging"
+						country="c:JAP"
+						levels=1
+						region="STATE_CHUBU"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1637,7 +1650,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=4
+						levels=2
 					}
 				}
 				reserves=1
@@ -1660,7 +1673,7 @@
 					building={
 						type="building_textile_mill"
 						country="c:JAP"
-						levels=2
+						levels=3
 						region="STATE_KYUSHU"
 					}
 				}
@@ -1673,7 +1686,7 @@
 					building={
 						type="building_glassworks"
 						country="c:JAP"
-						levels=1
+						levels=2
 						region="STATE_KYUSHU"
 					}
 				}
@@ -1686,7 +1699,7 @@
 					building={
 						type="building_fishing_wharf"
 						country="c:JAP"
-						levels=2
+						levels=5
 						region="STATE_KYUSHU"
 					}
 				}
@@ -1699,7 +1712,7 @@
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=2
+						levels=8
 						region="STATE_KYUSHU"
 					}
 				}
