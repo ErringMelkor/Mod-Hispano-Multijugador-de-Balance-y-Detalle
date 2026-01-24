@@ -77,7 +77,7 @@ Pulido:
 
 --------------------------------------------------------------------
 
-Changelog Versión 1.12B5 
+Changelog Versión 1.12B5 #24-01-26
 
 Alemania:
 	Restaurada la unificación alemana a los términos del vanilla.
@@ -107,3 +107,7 @@ Japón:
 	
 Asia:
 	Mejoradas dos compañías en Corea y Vietnam.
+
+--------------------------------------------------------------------
+
+
