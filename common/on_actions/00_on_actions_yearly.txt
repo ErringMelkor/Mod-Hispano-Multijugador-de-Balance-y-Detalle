@@ -373,6 +373,8 @@ historical_agitators_yearly_events = {
 		100 = sikh_empire.9
 		100 = india_nationalism_events.4
 		100 = india_nationalism_events.5
+
+		100 = japan_agitators.1
 	}
 }
 

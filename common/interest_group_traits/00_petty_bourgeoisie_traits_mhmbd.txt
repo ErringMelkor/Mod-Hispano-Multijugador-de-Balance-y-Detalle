@@ -1,4 +1,4 @@
-# SWE 
+﻿# SWE 
 REPLACE_OR_CREATE:ig_trait_cooperative_agencies = { 
 	icon = "gfx/interface/icons/ig_trait_icons/job_creators.dds"
 	min_approval = loyal #Loyal

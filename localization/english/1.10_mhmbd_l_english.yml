@@ -53,7 +53,7 @@ building_hardwood_logging: "Hardwood Logging Camps"
 building_departement_metropolitain: "Metropolitan Department"
 pmg_base_building_departement_metropolitain: "Metropolitan Department"
 pm_default_building_departement_metropolitain: "Base Production"
-pm_default_building_expanded_département_métropolitain: "Extended Production"
+pm_default_building_expanded_departement_metropolitain: "Extended Production"
 old_paris: "Old Paris"
 fra_napoleonic_wars_legacy_workforce: "Legacy of the Napoleonic Wars"
 british_commonwealth: "The British Commonwealth"
@@ -119,8 +119,7 @@ institute_plan_haussmann_desc: "Paris is a bloated corpse, unable to sustain its
 new_paris: "New Paris"
 rebuilding_paris: "Rebuilding Paris"
 
-bg_company_headquarter: "Company Headquarter"
-bg_company_regional_headquarter: "Regional Headquarter"
+
 company_east_indies_trading_company: "East Indies Trading Company"
 Etiope: "Etíope"
 dp_unify_iberia: "Unificar Iberia"

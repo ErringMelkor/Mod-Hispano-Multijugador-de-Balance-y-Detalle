@@ -1,4 +1,4 @@
-ideology_french_patriarchal = {
+﻿ideology_french_patriarchal = {
 	icon = "gfx/interface/icons/ideology_icons/patriarchal.dds"
 
 	lawgroup_rights_of_women = {

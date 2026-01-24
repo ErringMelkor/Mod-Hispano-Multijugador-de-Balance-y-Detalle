@@ -1,4 +1,4 @@
-namespace = japan_agitators
+﻿namespace = japan_agitators
 
 japan_agitators.1 = { # Saigo Takamori
 	type = country_event

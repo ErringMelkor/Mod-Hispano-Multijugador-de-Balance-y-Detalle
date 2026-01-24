@@ -1,4 +1,4 @@
-je_age_of_nicholas_i = {
+﻿je_age_of_nicholas_i = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	group = je_group_historical_content

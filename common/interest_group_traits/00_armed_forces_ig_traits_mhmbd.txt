@@ -1,4 +1,4 @@
-### Otomanos
+﻿### Otomanos
 
 ig_trait_the_unshackled_empire = { # Loyal
 	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"

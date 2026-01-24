@@ -1,4 +1,4 @@
-GLOBAL = {
+﻿GLOBAL = {
 	s:STATE_KYUSHU = {
 		region_state:JAP = {
 			add_modifier = {

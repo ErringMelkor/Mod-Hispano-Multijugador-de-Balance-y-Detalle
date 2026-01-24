@@ -1046,7 +1046,7 @@ japanese= {
 	religion = mahayana
 	heritage = heritage_japanese
 	language = language_japanese
-	traditions = { }
+	traditions = { tradition_sinosphere }
 	obsessions = {
 		tea
 	}
@@ -1119,6 +1119,14 @@ japanese= {
 		Yoshinobu
 		Yoshinori
 		Yusaku
+
+		#Mod
+
+		Iesada
+		Iemochi
+		Sanetomi
+		Kaoru
+		Saionji
 	}
 	female_common_first_names = {
 		Asako
@@ -1215,6 +1223,11 @@ japanese= {
 		Yamaya
 		Yashiro
 		Yui
+
+		#MHMBD
+
+		Sanjo
+		Kinmochi
 	}
 	ethnicities = {
 		1 = asian

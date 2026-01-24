@@ -1,4 +1,4 @@
-### Francia
+﻿### Francia
 ig_trait_la_loi_royale= { # Loyal
 	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
 	min_approval = loyal
