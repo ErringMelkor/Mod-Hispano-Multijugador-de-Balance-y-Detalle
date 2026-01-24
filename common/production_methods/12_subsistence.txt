@@ -410,7 +410,7 @@ pm_homesteading_building_subsistence_rice_farm = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 0.2
+			goods_output_grain_add = 0.1
 		}	
 	
 		unscaled = {

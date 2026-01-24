@@ -2613,7 +2613,38 @@ on_new_ruler = {
 					type = je_age_of_alexander_ii
 				}
 			}
-		}		
+		}
+		# Tokugawa Shogunate
+		if = {
+			limit = {
+				has_template = JAP_ieyoshi_tokugawa
+			}
+			owner = {
+				create_character = {
+					template = JAP_iesada_tokugawa
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_template = JAP_iesada_tokugawa
+			}
+			owner = {
+				create_character = {
+					template = JAP_iemochi_tokugawa
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_template = JAP_iemochi_tokugawa
+			}
+			owner = {
+				create_character = {
+					template = JAP_yoshinobu_tokugawa
+				}
+			}
+		}					
 		if = {
 			limit = {
 				owner = {

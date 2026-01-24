@@ -531,6 +531,7 @@ pm_manor_house_privately_owned = {
 
 	disallowing_laws = {
 		law_ispravniks
+		law_han_system
 	}
 
 	building_modifiers = {

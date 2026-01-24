@@ -55,6 +55,16 @@ Japón:
 	Rebelión de Shinpuren.
 	Rebelión de Mito.
 	Misión Iwakura.
+	Rebelión de Satsuma.
+	
+	Tempo Reforms of 1841.
+
+	Bakufu & Kuni
+
+	Shi & Sotsu samurai
+	Fudai & tozama daimyo
+
+	Sonno samurai (pro-emperor); Aizawa Seishisai; Fujita Toko; Yoshida Shoin.
 
 	
 	
@@ -98,6 +108,8 @@ Japón:
 
 
 
+
+
 	Leyes:
 		Jingikan: "Departamento de las Divinidades"; único departamento/agencia no basado en la dinastía Tang.
 			Saisei Itchi: "Unity of Rites and Rule"
@@ -133,7 +145,31 @@ Japón:
 		
 
 	Personas:
-		Eto Shinpei: Ministro de justicia, cabecilla de la rebelión de Saga (1874).
+		Tres Grandes Nobles de la Restauración:
+			Okubo Toshimichi:
+			Saigo Takamori: #Done
+			Kido Takayoshi:
+		Sonno Joi:
+			Yamagata Aritomo
+			Takasugi Shinsaku
+		Genro:
+			Yamagata Aritomo (1838-1922): Agitador, general, militarista y reaccionario.
+			Inoue Kaoru (1836-1915): Modernizador, industrialistas. #Done
+			Katsura Taro (1848-1913): Político conservador.
+			Kuroda Kiyotaka (1840-1900): Diplomático.
+			Ito Hirobumi
+			Matsukata Masayoshi (1835-1904): Industrialista de orígenes militares, proteccionista.
+			Oyama Iwao (1842-1916): General, innovador militar.
+			Saigo Judo: Almirante.
+			Saionji Kinmochi (1849-1940): Francófilo, democrático, antimilitarista.
+		Generales y Almirantes:
+			Kabayama Sukenori (1837-1922): Almirante, rash. #Done
+
+
+
+		Otros:
+			Eto Shinpei: Ministro de justicia, cabecilla de la rebelión de Saga (1874).
+			Itagaki Taisuke (1837-1919): Político democrático, intelligentsia.
 
 
 Pulido:

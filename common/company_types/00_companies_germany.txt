@@ -14,7 +14,7 @@ company_krupp = {
 	}
 
 	extension_building_types = {
-		building_iron_mine
+		building_motor_industry
 	}
 
 	possible_prestige_goods = {
@@ -51,7 +51,8 @@ company_krupp = {
 
 	prosperity_modifier = {
 		building_railway_throughput_add = 0.1
-		unit_kill_rate_add = 0.1
+		unit_kill_rate_add = 0.25
+		unit_morale_damage_mult = 0.1
 	}
 
 	ai_will_do = {

@@ -1,0 +1,99 @@
+namespace = japan_agitators
+
+japan_agitators.1 = { # Saigo Takamori
+	type = country_event
+	placement = root
+
+	gui_window = event_window_1char_tabloid
+	left_icon = scope:saigo_takamori_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	title = japan_agitators.1.t
+	desc = japan_agitators.1.d
+	flavor = japan_agitators.1.f
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:japanese
+		game_date > 1846.1.1
+		game_date < 1870.1.1
+		NOT = { has_global_variable = saigo_takamori_spawn }
+		has_technology_researched = nationalism
+	}
+
+	immediate = {
+		create_character = {
+			template = JAP_saigo_takamori
+			on_created = {
+				set_variable = saigo_takamori_var
+			}
+		}
+		random_scope_character = {
+			limit = {
+				has_variable = saigo_takamori_var
+			}
+			save_scope_as = saigo_takamori_scope
+		}
+		set_global_variable = saigo_takamori_spawn
+	}
+
+	option = {
+		name = japan_agitators.1.a
+		default_option = yes
+
+		show_as_tooltip = {
+			create_character = {
+				template = JAP_saigo_takamori
+			}
+		}
+
+		scope:saigo_takamori_scope = {
+			add_modifier = {
+				name = sonno_joi_agitator
+			}
+		}
+
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KANSAI
+			}
+			add_radicals = {
+				value = 0.15
+			}
+		}
+	}
+
+	option = {
+		name = japan_agitators.1.b
+
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KYUSHU
+			}
+			add_radicals = {
+				value = 0.15
+			}
+			add_radicals = {
+				value = 0.25
+				pop_type = officers
+			}
+			add_radicals = {
+				value = 0.25
+				pop_type = soldiers
+			}
+		}
+
+		random_scope_character = {
+			limit = {
+				has_variable = saigo_takamori_var
+			}
+			kill_character = yes
+		}
+	}
+
+}

@@ -15,3 +15,23 @@
 		}
 	}
 }
+
+pm_manor_house_daimyo_domains = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+
+	unlocking_laws = {
+		law_han_system
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 25
+			building_employment_officers_add = 25
+			building_employment_bureaucrats_add = 50
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 8
+			building_bureaucrats_shares_add = 2
+		}
+	}
+}

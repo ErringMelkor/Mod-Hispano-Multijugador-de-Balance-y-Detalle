@@ -57,6 +57,53 @@ Economía:
 Japón:
 	Comienza con algunos edificios más en Kansai.
 	
+--------------------------------------------------------------------
 
-		
+Changelog Versión 1.12B4 #22-01-26
 
+Mapa:
+	Ajuste de la madera dura.
+
+Economía:
+	Enfoque de madera dura en aserraderos normales: 2 -> 2.5
+
+Japón:
+	Comienza con algunos edificios más.
+	El monumento "Ciudad Imperial de Kyoto" otorga 25 de infraestructura en Kansai.
+
+Pulido:
+	Corregidos modificadores no funcionales (Gracias 1.12!) y localización en ambos idiomas disponibles (ing-spa).
+
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B5 
+
+Alemania:
+	Restaurada la unificación alemana a los términos del vanilla.
+	Mejorada la compañía de Krupp.
+
+Francia:
+	Ley de arrendatarios co-parcenaria:
+		Subsistencia: 4,5 -> 4,75
+		% poder landowners: 25% -> 0%
+		Producción de cereales: 0 -> 0,05 / nivel.
+		Trabajadores: -500 campesinos -> -1000 campesinos, +50 agricultores.
+		% bloqueado: 50% -> 65%
+
+Italia:
+	Mejoradas sus compañías únicas.
+
+Japón:
+	Tecnologías: Comienza con Archivos Centrales.
+	Leyes:
+		Sistema Han: Sustituto de burócratas hereditarios. Mucha menos fuerza para los terratenientes.
+	Estados: Comienzan con un modificador que aumenta el urbanismo.
+	Personajes:
+		Agregados los gobernantes históricos de la dinastía Tokugawa.
+		Agregados nuevos líderes políticos, militares y navales, siempre garantizados.
+		Agitadores por evento: Saigo Takamori.
+	Mejoradas sus compañías únicas.
+	
+Asia:
+	Mejoradas dos compañías en Corea y Vietnam.

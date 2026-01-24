@@ -15,14 +15,15 @@
 		add_technology_researched = stock_exchange
 		add_technology_researched = romanticism
 		add_technology_researched = mass_communication
+		add_technology_researched = central_archives
 		set_tax_level = medium
 		
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_hereditary_bureaucrats
-		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_han_system
+		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_no_schools

@@ -12,3 +12,43 @@ REPLACE_OR_CREATE:modifier_legacy_of_terakoya = {
 	country_tech_spread_mult = 0.05
 }
 
+japanese_urbanization_kanto = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -65
+}
+
+japanese_urbanization_kansai = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -45
+}
+
+japanese_urbanization_kyushu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -45
+}
+
+japanese_urbanization_chubu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -35
+}
+
+japanese_urbanization_chugoku = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -35
+}
+
+japanese_urbanization_shikoku = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -25
+}
+
+japanese_urbanization_tohoku = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_urbanization_per_level_add = -15
+}
+
+sonno_joi_agitator = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	character_popularity_add = 50
+	political_movement_radicalism_add = 0.1
+}

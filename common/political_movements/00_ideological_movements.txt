@@ -6972,6 +6972,7 @@ movement_modernizer = { # This movement loves you and wants you to succeed. It e
 		ideology_protectionist
 		ideology_market_liberal
 		ideology_abolitionist
+		ideology_samurai_modernizer
 	}
 
 	creation_trigger = {
@@ -7032,6 +7033,7 @@ movement_modernizer = { # This movement loves you and wants you to succeed. It e
 			has_ideology = ideology:ideology_sovereignist
 			has_ideology = ideology:ideology_utopian
 			has_ideology = ideology:ideology_modernizer_leader
+			has_ideology = ideology:ideology_samurai_modernizer
 			scope:interest_group ?= {
 				OR = {
 					has_ideology = ideology:ideology_cartist
@@ -7039,6 +7041,8 @@ movement_modernizer = { # This movement loves you and wants you to succeed. It e
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_liberal_modern
 					has_ideology = ideology:ideology_plutocratic
+					has_ideology = ideology:ideology_samurai_modernizer
+					
 				}
 			}
 		}
@@ -7054,6 +7058,8 @@ movement_modernizer = { # This movement loves you and wants you to succeed. It e
 					has_ideology = ideology:ideology_reformer
 					has_ideology = ideology:ideology_sovereignist
 					has_ideology = ideology:ideology_market_liberal
+					has_ideology = ideology:ideology_samurai_modernizer
+
 				}
 			}
 			multiply = {

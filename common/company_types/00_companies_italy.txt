@@ -54,6 +54,7 @@ company_ilva = {
 	prosperity_modifier = {
 		building_railway_throughput_add = 0.25
 		building_artillery_foundry_throughput_add = 0.25
+		building_motor_industry_throughput_add = 0.25
 	}
 
 	ai_will_do = {
@@ -88,7 +89,6 @@ company_ansaldo = {
 
 	building_types = {
 		building_artillery_foundry
-		building_steel_mill
 		building_military_shipyard
 	}
 
@@ -97,7 +97,7 @@ company_ansaldo = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_generic_steel
+		prestige_good_generic_tools
 	}
 
 	prestige_goods_trigger = {
@@ -137,6 +137,7 @@ company_ansaldo = {
 
 	prosperity_modifier = {
 		unit_navy_offense_mult = 0.05
+		unit_navy_defense_mult = 0.05
 		unit_army_offense_mult = 0.05
 	}
 
@@ -190,6 +191,9 @@ company_ricordi = {
 		building_vineyard
 	}
 
+	possible_prestige_goods = {
+	}
+
 	potential = {
 		has_interest_marker_in_region = region_italy
 	}
@@ -214,9 +218,10 @@ company_ricordi = {
 	}
 
 	prosperity_modifier = {
-		country_prestige_mult = 0.25
+		country_legitimacy_headofstate_add = 5
 		country_influence_mult = 0.15
 		state_loyalists_from_political_movements_mult = 0.25
+		country_loyalists_from_legitimacy_mult = 0.25
 	}
 
 	ai_will_do = {
@@ -371,6 +376,7 @@ company_stt = {
 
 	prosperity_modifier = {
 		unit_navy_defense_mult = 0.1
+		country_military_goods_cost_mult = -0.05
 		country_convoys_capacity_mult = 0.15
 	}
 
@@ -447,8 +453,9 @@ company_lanificio_paoletti = {
 	}
 	
 	prosperity_modifier = {
-		building_textile_mill_throughput_add = 0.15
-		interest_group_ig_trade_unions_pol_str_mult = 0.25
+		building_livestock_ranch_throughput_add = 0.25
+		building_cotton_plantation_throughput_add = 0.15
+		interest_group_ig_trade_unions_pol_str_mult = 0.35
 	}
 	
 	ai_weight = {
