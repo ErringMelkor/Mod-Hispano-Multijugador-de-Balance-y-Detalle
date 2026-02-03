@@ -36,3 +36,15 @@ ig_trait_a_school_for_the_nation = {
 		state_assimilation_mult = 0.25
 	}
 }
+
+### Japón ###
+
+ig_trait_bushido_code = {
+icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
+	min_approval = loyal
+	
+	modifier = {
+		unit_offense_mult = 0.125
+		country_authority_mult = 0.15
+	}		
+}

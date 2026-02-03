@@ -32,3 +32,14 @@ ig_trait_divine_autocracy = {
 		country_legitimacy_headofstate_add = 15
 	}
 }
+
+# España Carlista
+
+ig_trait_santiago_y_cierra = {
+	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
+	min_approval = happy
+	
+	modifier = {	
+		unit_morale_loss_mult = -0.15
+	}
+}

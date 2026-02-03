@@ -58,6 +58,24 @@
 			}
 			else_if = {
 				limit = {
+					OR = {
+						owner = { c:SPC ?= this}
+						AND = {
+							owner = { c:SPA ?= this}
+							c:SPA ?= { was_formed_from = SPC }
+						}
+						AND = {
+							owner = { c:IBE ?= this }
+							c:IBE ?= { was_formed_from = SPC }
+						}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_pious_fiction
+				set_ig_trait = ig_trait:ig_trait_santiago_y_cierra
+				set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+			}
+			else_if = {
+				limit = {
 					owner = {
 						country_has_state_religion = rel:sikh
 					}

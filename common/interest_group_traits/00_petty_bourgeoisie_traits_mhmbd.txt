@@ -27,3 +27,25 @@ ig_trait_coffee_talks = {
 		country_society_tech_research_speed_mult = 0.1
 	}
 }
+
+# España (Carlista e Isabelina)
+
+ig_trait_vuelva_usted_manana = {
+	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
+	min_approval = unhappy
+	
+	modifier = {
+		country_law_enactment_time_mult = 0.25
+		country_bureaucracy_mult = -0.05
+	}
+}
+
+ig_trait_la_buena_vida = {
+icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy # Happy
+
+	modifier = {
+		country_radicalism_increases_full_acceptance_mult = -0.25
+		country_society_tech_spread_mult = 0.05
+	}	
+}

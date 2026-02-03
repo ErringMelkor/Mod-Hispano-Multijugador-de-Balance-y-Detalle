@@ -53,6 +53,16 @@
 			else_if = {
 				limit = {
 					owner = {
+						c:JAP ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_veteran_consultation
+				set_ig_trait = ig_trait:ig_trait_bushido_code
+			}
+			else_if = {
+				limit = {
+					owner = {
 						c:TUR ?= this
 					}
 				}

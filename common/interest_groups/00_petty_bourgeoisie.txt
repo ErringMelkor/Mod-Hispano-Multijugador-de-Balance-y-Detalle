@@ -65,18 +65,15 @@
 			}
 			else_if = {
 				limit = {
-					OR = {
-						owner = { c:SPA ?= this}
-						AND = {
-							owner = { c:IBE ?= this }
-							c:IBE ?= { was_formed_from = SPA }
+					owner = {
+						OR = {
+							any_primary_culture = { cu:spanish = this }
 						}
 					}
 				}
-						remove_ig_trait = ig_trait:ig_trait_xenophobia
-						set_ig_trait = ig_trait:ig_trait_vuelva_usted_manana
-						set_ig_trait = ig_trait:ig_trait_middle_managers
-						set_ig_trait = ig_trait:ig_trait_treasury_bonds
+				set_ig_trait = ig_trait:ig_trait_vuelva_usted_manana
+				set_ig_trait = ig_trait:ig_trait_la_buena_vida
+				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 			#China
 			else_if = {

@@ -69,6 +69,17 @@
 			}
 			else_if = {
 				limit = {
+					OR = {
+						owner = { c:SAR ?= this}
+						owner = { c:ITA ?= this}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_crisis_of_identity
+				set_ig_trait = ig_trait:ig_trait_segundo_renacimiento
+				set_ig_trait = ig_trait:ig_trait_propagandists
+			}
+			else_if = {
+				limit = {
 					owner = {
 						OR = {
 							country_has_primary_culture = cu:north_andean

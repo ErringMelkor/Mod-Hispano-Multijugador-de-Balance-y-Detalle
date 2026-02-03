@@ -110,4 +110,17 @@ Asia:
 
 --------------------------------------------------------------------
 
+Changelog Versión 1.12B6 #03-02-26
+
+España:
+	Agregados dos nuevos Rasgos de Interés para la Pequeña Burguesía.
+	Agregado un nuevo Rasgo de Interés para la Iglesia de los Carlistas.
+
+Italia:
+	Agregado un nuevo Rasgo de Interés para la Intelligentsia.
+
+Japón:
+	Agregado un nuevo Rasgo de Interés a sus Fuerzas Armadas.
+	Agregado un nuevo Rasgo de Interés a sus Devotos una vez adoptan la religión sintoísta.
+	La decisión de adoptar el Sintoísmo como religión estatal otorga un 15% de lealistas para dicha religión.
 
