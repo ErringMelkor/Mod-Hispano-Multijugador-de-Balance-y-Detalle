@@ -7,7 +7,7 @@ GER = {
 
 	tier = empire
 
-	cultures = { north_german south_german }
+	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 }
 

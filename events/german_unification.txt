@@ -396,12 +396,8 @@ immediate = {
 		name = german_unification.4.b
 		give_claims_on_germany = yes
 		add_loyalists = {
-			value = 0.1
+			value = 0.15
 			culture = cu:north_german
-		}
-		add_loyalists = {
-			value = 0.1
-			culture = cu:south_german
 		}
 		add_modifier = {
 				name = ger_explosion_demografica

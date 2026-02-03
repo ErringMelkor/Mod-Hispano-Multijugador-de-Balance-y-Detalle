@@ -31,10 +31,6 @@
 				change_character_religion = rel:shinto
 			}
 		}
-		add_loyalists = {
-			value = 0.15
-			religion = rel:shinto
-		}
 		random_scope_state = {
 			limit = {
 				owner = ROOT
@@ -55,6 +51,10 @@
 				target = rel:shinto
 				value = 0.25
 			}
+		}
+		add_loyalists = {
+			value = 0.15
+			religion = rel:shinto
 		}
 	}
 
