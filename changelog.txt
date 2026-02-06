@@ -135,3 +135,6 @@ Francia:
 
 Culturas:
 	Re-agregadas las obsesiones para distintas culturas: Yankee; Dixie; Japonesa; Eslavas (licor) y Bielorrusa (té).
+
+Jugadas Diplomáticas:
+	La mayoría de jugadas diplomáticas de imperialismo económico son mucho más baratas, en torno a un 50-75%.
