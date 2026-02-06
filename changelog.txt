@@ -133,6 +133,9 @@ Alemania:
 Francia:
 	Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Alemania. #TO-DO
 
+Rusia:
+	Ajustada la compañía ruso-americana.
+
 Culturas:
 	Re-agregadas las obsesiones para distintas culturas: Yankee; Dixie; Japonesa; Eslavas (licor) y Bielorrusa (té).
 

@@ -331,14 +331,13 @@ company_russian_american_company = {
 	flavored_company = yes
 
 	building_types = {
-		building_hardwood_logging
+		building_port
 		building_fishing_wharf
 		building_whaling_station
-		building_port
 	}
 
 	extension_building_types = {
-		building_logging_camp
+		building_hardwood_logging
 	}
 
 	possible_prestige_goods = {
@@ -393,10 +392,8 @@ company_russian_american_company = {
 	}
 
 	prosperity_modifier = {
-		building_furniture_manufactory_throughput_add = 0.1
-		state_trade_advantage_mult = 0.15
-		state_trade_capacity_mult = 0.15
-		goods_output_hardwood_mult = 0.1
+		building_furniture_manufactory_throughput_add = 0.25
+		state_trade_capacity_mult = 0.35
 	}
 
 	ai_will_do = {
