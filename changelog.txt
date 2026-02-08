@@ -136,6 +136,9 @@ Francia:
 Rusia:
 	Ajustada la compañía ruso-americana.
 
+Militar:
+	Ajustadas las bajas por desgaste máximas: 22.5% -> 18.5%
+
 Culturas:
 	Re-agregadas las obsesiones para distintas culturas: Yankee; Dixie; Japonesa; Eslavas (licor) y Bielorrusa (té).
 
