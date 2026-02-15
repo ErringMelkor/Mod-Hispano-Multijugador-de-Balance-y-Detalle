@@ -79,7 +79,7 @@ combat_unit_type_monitor = {
         goods_input_artillery_add = 3
         goods_input_ammunition_add = 3
         goods_input_coal_add = 1
-        goods_input_groceries_add = 2
+        goods_input_groceries_add = 1.75
     }
 
     battle_modifier = {
@@ -426,7 +426,7 @@ combat_unit_type_carrier = {
     }
 
     battle_modifier = {
-        unit_offense_add = 140
+        unit_offense_add = 180
         unit_defense_add = 60
         unit_blockade_add = 800
         unit_morale_loss_add = 4

@@ -110,37 +110,62 @@ Asia:
 
 --------------------------------------------------------------------
 
-Changelog Versión 1.12B6 #03-02-26
+Changelog Versión 1.12B6 #03-02-26 - 15-02-26
 
-España:
-	Agregados dos nuevos Rasgos de Interés para la Pequeña Burguesía.
-	Agregado un nuevo Rasgo de Interés para la Iglesia de los Carlistas.
+Economía:
+	Granjas y Plantaciones: Costo de 100 IC -> 125 IC.
 
-Italia:
-	Agregado un nuevo Rasgo de Interés para la Intelligentsia.
-
-Japón:
-	Agregado un nuevo Rasgo de Interés a sus Fuerzas Armadas.
-	Agregado un nuevo Rasgo de Interés a sus Devotos una vez adoptan la religión sintoísta.
-	La decisión de adoptar el Sintoísmo como religión estatal otorga un 15% de lealistas para dicha religión.
-
-Alemania:
-	La unificación de alemania no otorga la cultura suralemana como primaria.
-	Ahora, para obtenerla se debe de completar la entrada de diario de "La Cuestión de Alsacia-Lorena".
-	Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Francia. #TO-DO
-
-
-Francia:
-	Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Alemania. #TO-DO
-
-Rusia:
-	Ajustada la compañía ruso-americana.
+Tecnología:
+	Coste de Eras:
+		Era 3: 12000 -> 11750
+		Era 4: 14000 -> 14250
+		Era 5: 15000 -> 15750
+	Instrumentos financieros modernos:
+		Inversión de los capitalistas: 7,5% -> 5%.
+	Mass Surveillance: -10% al radicalismo en los tiers de aceptación 4 y 5.
+	Propaganda de Masas:
+		Autoridad: 10% -> 20%
+		Huecos de Agitadores: 1 -> 2
+		Maniobras Diplomáticas: 10 -> 15
+	Conductismo:
+		Pérdida a la Moral: -10% -> -5%
+	Psicoanálisis:
+		Boino a la Educación por Nivel de Riqueza: 0,5% -> 0,65%
 
 Militar:
 	Ajustadas las bajas por desgaste máximas: 22.5% -> 18.5%
+	
+	Naval:
+		Ataque de los Portaaviones: 140 -> 180
+		Coste de los monitores reducido muy mínimamente.
 
 Culturas:
 	Re-agregadas las obsesiones para distintas culturas: Yankee; Dixie; Japonesa; Eslavas (licor) y Bielorrusa (té).
 
 Jugadas Diplomáticas:
 	La mayoría de jugadas diplomáticas de imperialismo económico son mucho más baratas, en torno a un 50-75%.
+
+Países:
+	España:
+		Agregados dos nuevos Rasgos de Interés para la Pequeña Burguesía.
+		Agregado un nuevo Rasgo de Interés para la Iglesia de los Carlistas.
+
+	Italia:
+		Agregado un nuevo Rasgo de Interés para la Intelligentsia.
+
+	Japón:
+		Agregado un nuevo Rasgo de Interés a sus Fuerzas Armadas.
+		Agregado un nuevo Rasgo de Interés a sus Devotos una vez adoptan la religión sintoísta.
+		La decisión de adoptar el Sintoísmo como religión estatal otorga un 15% de lealistas para dicha religión.
+
+	Alemania:
+		La unificación de alemania no otorga la cultura suralemana como primaria.
+		Ahora, para obtenerla se debe de completar la entrada de diario de "La Cuestión de Alsacia-Lorena".
+		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Francia. #TO-DO
+
+
+	Francia:
+		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Alemania. #TO-DO
+
+	Rusia:
+		Ajustada la compañía ruso-americana.

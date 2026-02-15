@@ -18,7 +18,7 @@ building_rye_farm = {
 		pmg_harvesting_process_building_rye_farm
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = farmland_rye
 	ownership_type = self
@@ -44,7 +44,7 @@ building_wheat_farm = {
 		pmg_harvesting_process_building_wheat_farm
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = farmland_wheat
 	ownership_type = self
@@ -70,7 +70,7 @@ building_rice_farm = {
 		pmg_harvesting_process_building_rice_farm
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = farmland_rice
 	ownership_type = self
@@ -96,7 +96,7 @@ building_maize_farm = {
 		pmg_harvesting_process_building_maize_farm
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = farmland_maize
 	ownership_type = self
@@ -122,7 +122,7 @@ building_millet_farm = {
 		pmg_harvesting_process_building_millet_farm
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = farmland_millet
 	ownership_type = self
@@ -149,7 +149,7 @@ building_livestock_ranch = {
 		pmg_refrigeration_building_livestock_ranch
 	}
 
-	required_construction = 100
+	required_construction = 125
 
 	terrain_manipulator = pasture
 	ownership_type = self
@@ -162,7 +162,7 @@ building_vineyard = {
 	aliases = { building_vineyards }
 	building_group = bg_agriculture
 	icon = "gfx/interface/icons/building_icons/vineyards.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure

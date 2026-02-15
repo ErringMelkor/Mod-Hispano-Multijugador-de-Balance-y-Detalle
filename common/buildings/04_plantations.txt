@@ -3,7 +3,7 @@
 building_coffee_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/coffee_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -26,7 +26,7 @@ building_coffee_plantation = {
 building_cotton_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/cotton_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -62,7 +62,7 @@ building_cotton_plantation = {
 building_dye_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/dye_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -98,7 +98,7 @@ building_dye_plantation = {
 building_opium_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/opium_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -140,7 +140,7 @@ building_opium_plantation = {
 building_tea_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/tea_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -176,7 +176,7 @@ building_tea_plantation = {
 building_tobacco_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -213,7 +213,7 @@ building_tobacco_plantation = {
 building_sugar_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/sugar_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -236,7 +236,7 @@ building_sugar_plantation = {
 building_banana_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/banana_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
@@ -258,7 +258,7 @@ building_banana_plantation = {
 building_silk_plantation = {
 	building_group = bg_plantations
 	icon = "gfx/interface/icons/building_icons/silk_plantation.dds"
-	required_construction = 100
+	required_construction = 125
 
 	unlocking_technologies = {
 		enclosure
