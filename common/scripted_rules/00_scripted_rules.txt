@@ -16,7 +16,7 @@ can_form_power_bloc = {
 
 # Root = Country
 can_lead_power_bloc = {
-	country_rank >= rank_value:great_power
+	country_rank >= rank_value:minor_power
 }
 
 # Root = Power Bloc

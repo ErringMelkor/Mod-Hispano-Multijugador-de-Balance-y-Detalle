@@ -33,7 +33,7 @@
 
 	mandate_progress = 20
 	
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 	
 	cohesion = {
 		add = {
@@ -200,7 +200,7 @@ identity_sovereign_empire = {
 
 	mandate_progress = 20
 	
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 	
 	cohesion = {
 		add = {
@@ -330,7 +330,7 @@ identity_ideological_union = {
 
 	mandate_progress = 20
 	
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 
 	cohesion = {
 		add = {
@@ -493,7 +493,7 @@ identity_military_treaty_organization = {
 
 	mandate_progress = 20
 	
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 	
 	cohesion = {
 		add = {
@@ -659,7 +659,7 @@ identity_religious = {
 
 	mandate_progress = 20
 	
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 	
 	cohesion = {
 		add = {
@@ -845,7 +845,7 @@ identity_cultural = {
 
 	mandate_progress = 20
 
-	on_created = { relations_hit_with_power_bloc_leaders = yes }
+	
 
 	cohesion = {
 		add = {
