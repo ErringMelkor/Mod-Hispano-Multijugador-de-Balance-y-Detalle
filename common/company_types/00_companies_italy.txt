@@ -89,6 +89,7 @@ company_ansaldo = {
 
 	building_types = {
 		building_artillery_foundry
+		building_steel_mill
 		building_military_shipyard
 	}
 
@@ -97,7 +98,7 @@ company_ansaldo = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_generic_tools
+		prestige_good_generic_steel
 	}
 
 	prestige_goods_trigger = {
