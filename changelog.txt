@@ -159,13 +159,13 @@ Países:
 		La decisión de adoptar el Sintoísmo como religión estatal otorga un 15% de lealistas para dicha religión.
 
 	Alemania:
-		La unificación de alemania no otorga la cultura suralemana como primaria.
+		La unificación de alemania no otorga la cultura suralemana como primaria. #Revertido en esta partida, esqueleto listo.
 		Ahora, para obtenerla se debe de completar la entrada de diario de "La Cuestión de Alsacia-Lorena".
 		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Francia. #TO-DO
 
-
 	Francia:
 		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Alemania. #TO-DO
+		La conquista y consolidación de Algeria otorga más bonos.
 
 	Rusia:
 		Ajustada la compañía ruso-americana.

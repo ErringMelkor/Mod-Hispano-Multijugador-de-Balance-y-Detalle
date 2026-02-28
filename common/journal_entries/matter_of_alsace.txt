@@ -1,0 +1,15 @@
+je_matter_of_alsace = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_global_international_situations
+
+	should_be_involved = {
+		OR = {
+			c:FRA ?= this
+			OR = {
+				c:NGF ?= this
+				c:GER ?= this
+			}
+		}
+	}
+}
