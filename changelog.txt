@@ -110,7 +110,7 @@ Asia:
 
 --------------------------------------------------------------------
 
-Changelog Versión 1.12B6 #03-02-26 - 15-02-26
+Changelog Versión 1.12B6 #03-02-26 - 28-02-26
 
 Economía:
 	Granjas y Plantaciones: Costo de 100 IC -> 125 IC.
@@ -169,3 +169,12 @@ Países:
 
 	Rusia:
 		Ajustada la compañía ruso-americana.
+
+Changelog Versión 1.12B7 #05-03-26
+
+	Bugs:
+		Arreglado el error visual de la compañía minera.
+		Arreglado el rasgo de Ascetismo.
+		Arregladas las condiciones de batalla de caballería (iconos y localización).
+		Arreglo menor de los rasgos de comandante de infantería / caballería.
+		

@@ -1,7 +1,7 @@
 ﻿#BATTLE CONDITIONS CABALLERÍA
 
 battle_condition_cavalry_charge = {
-	icon = "gfx/interface/icons/battle_conditions/battle_condition_cavalry_charge.dds"
+	icon = "gfx/interface/icons/battle_conditions_mod/battle_condition_cavalry_charge.dds"
 
 	modifier = {
 		unit_combat_unit_type_cuirassiers_offense_mult = 0.1
@@ -36,7 +36,7 @@ battle_condition_cavalry_charge = {
 
 
 battle_condition_decisive_cavalry_charge = {
-	icon = "gfx/interface/icons/battle_conditions/battle_condition_decisive_cavalry_charge.dds"
+	icon = "gfx/interface/icons/battle_conditions_mod/battle_condition_decisive_cavalry_charge.dds"
 
 	modifier = {
 		unit_combat_unit_type_cuirassiers_offense_mult = 0.15
@@ -76,7 +76,7 @@ battle_condition_decisive_cavalry_charge = {
 }
 
 battle_condition_death_ride = {
-	icon = "gfx/interface/icons/battle_conditions/battle_condition_death_ride.dds"
+	icon = "gfx/interface/icons/battle_conditions_mod/battle_condition_death_ride.dds"
 
 	modifier = {
 		unit_combat_unit_type_cuirassiers_offense_mult = 0.25

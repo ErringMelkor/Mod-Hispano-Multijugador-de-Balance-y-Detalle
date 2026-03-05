@@ -32,3 +32,20 @@
   japan_agitators.1.f: "Saigō Takamori (born Jan. 23, 1828, Kagoshima, Kyushu, Japan—died Sept. 24, 1877, Kagoshima) was a leader in the overthrow of the Tokugawa shogunate who later rebelled against the weaknesses he saw in the Imperial government that he had helped to restore. Although his participation in the restoration made him a legendary hero, it also, to his mortification, relegated his samurai class to impotence. - Encyclopedia Britannica. "
   japan_agitators.1.a: "Let him be, we can't risk losing the support of the Shimazu."
   japan_agitators.1.b: "This is treason! Execute him immediately."
+
+  unit_combat_unit_type_hussars_offense_mult: "Hussars Offense Multiplier"
+  unit_combat_unit_type_cuirassiers_offense_mult: "Cuirassiers Offense Multiplier"
+  unit_combat_unit_type_lancers_offense_mult: "Lancers Offense Multiplier"
+  unit_combat_unit_type_revolver_cavalry_offense_mult: "Revolver Cavalry Offense Multiplier"
+  unit_combat_unit_type_dragoons_defense_mult: "Dragoons Defense Multiplier"
+  unit_combat_unit_type_carabiners_defense_mult: "Carabiners Defense Multiplier"
+
+  battle_condition_cavalry_charge_desc: "This side is able to launch a cavalry charge against its enemy."
+
+  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry Defense Multiplier"
+  unit_combat_unit_type_skirmish_infantry_defense_mult: "Skirmish Infantry Defense Multiplier"
+  unit_combat_unit_type_trench_infantry_defense_mult: "Trench Infantry Defense Multiplier"
+  unit_combat_unit_type_squad_infantry_defense_mult: "Squad Infantry Defense Multiplier"
+  unit_combat_unit_type_mechanized_infantry_defense_mult: "Mechanized Infantry Defense Multiplier"
+
+  basic_infantry_commander_desc: "This character is competent ordering infantry."

@@ -29,9 +29,9 @@
  experienced_cavalry_commander: "Experienced Cavalry Commander"
  expert_cavalry_commander: "Expert Cavalry Commander"
 
- basic_infantry_commander: "Basic Cavalry Commander"
- experienced_infantry_commander: "Experienced Cavalry Commander"
- expert_infantry_commander: "Expert Cavalry Commander"
+ basic_infantry_commander: "Basic Infantry Commander"
+ experienced_infantry_commander: "Experienced Infantry Commander"
+ expert_infantry_commander: "Expert Infantry Commander"
 
  pm_cannery_fruit: "Canned Fruit"
  pm_electrical_workshops: "Electrical Workshops"
