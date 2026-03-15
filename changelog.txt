@@ -190,6 +190,35 @@ Demografía:
 Militar:
 	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
 
+Principios:
+	Economía Divina:
+		Eficiencia de Inversión del Clero: 0 -> 5%/15%/25%
+	Identidad Religiosa: 
+		Aceptación por Religión Estatal: 0 -> 10/15/20
+	Sanidad:
+		Reducción de Mortalidad: 5% -> 5%/7.5%/10%
+	Burocracia:
+		Factor de la Población en el Costo: -10%/-15% -> -10%/-15%/-20%
+		Factor de las Instituciones: 0% -> -5%/-10%/-15%
+		PM Burocracia Eficiente:
+			Capacidad Fiscal: 5 -> 6.5
+	Canon Compartido:
+		Dispersión de Tecnología de Sociedad: 10% -> 10%/15%/25%
+	Verdad Ideológica:
+		Legitimidad Mínima: 0/0/25 -> 0/25/25
+		Penalización a la Legitimidad por Incompatibilidad Ideológica: 0% -> -5%/-15%/-25%
+	Libertad de Movimiento:
+		Cuota de Migraciones Masivas: 10% -> 10%/10%/15%
+		Atracción de Migraciones Masivas: 10% -> 10%/15%/25%
+	Unificación de Mercados:
+		Infraestructura: 10% -> 15%
+	Mercado Interior:
+		Throughput de las Compañías: 0/10%/10% -> 5%/10%/15%
+	Construcción:
+		Consumo de Infraestructura por los Sectores de Construcción: -0/-25%/-50% -> -25%/-50%/-75%
+		Eficiencia de Construcción: 2%/4%/6% -> 2.5%/5%/7.5%
+
+
 Bugs:
 	Corregida la redacción de varios eventos (véase el evento del petróleo).
 		

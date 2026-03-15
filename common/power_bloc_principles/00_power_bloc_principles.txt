@@ -12,7 +12,10 @@ principle_construction_1 = {
 
 	member_modifier = {
 		# Members get a +10% Construction Efficiency modifier
-		state_construction_mult = 0.02
+		state_construction_mult = 0.025
+
+		building_group_bg_construction_infrastructure_usage_mult = -0.25
+
 	}
 	
 	ai_weight = {
@@ -43,10 +46,10 @@ principle_construction_2 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		
-		state_construction_mult = 0.04
+		state_construction_mult = 0.05
 		
 		# Members Construction Sectors cost less infrastructure
-		building_group_bg_construction_infrastructure_usage_mult = -0.25
+		building_group_bg_construction_infrastructure_usage_mult = -0.5
 	}
 	
 	ai_weight = {
@@ -61,8 +64,8 @@ principle_construction_3 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		
-		state_construction_mult = 0.06
-		building_group_bg_construction_infrastructure_usage_mult = -0.5
+		state_construction_mult = 0.075
+		building_group_bg_construction_infrastructure_usage_mult = -0.75
 		
 		# Members can form Construction type Companies unlock triggers in the company
 	}
@@ -84,6 +87,8 @@ principle_internal_trade_1 = {
 
 		# Members get a bonus to infrastructure
 		state_infrastructure_mult = 0.1
+
+		country_company_throughput_bonus_add = 0.05
 	}
 	
 	ai_weight = {
@@ -118,7 +123,7 @@ principle_internal_trade_2 = {
 		country_convoy_contribution_to_market_owner_add = 0.3
 
 		# Company building throughput bonus
-		country_company_throughput_bonus_add = 0.05
+		country_company_throughput_bonus_add = 0.1
 	}
 	
 	ai_weight = {
@@ -134,7 +139,7 @@ principle_internal_trade_3 = {
 		# Modifiers from previous level(s)
 		state_infrastructure_mult = 0.1
 		country_convoy_contribution_to_market_owner_add = 0.4
-		country_company_throughput_bonus_add = 0.05
+		country_company_throughput_bonus_add = 0.15
 		building_economy_of_scale_level_cap_add = 5
 
 		# Cheaper port connections
@@ -158,7 +163,7 @@ principle_market_unification_1 = {
 
 	member_modifier = {
 		# Members get a bonus to infrastructure
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 	}
 
 	power_bloc_modifier = {
@@ -185,7 +190,7 @@ principle_market_unification_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 	}
 
 	power_bloc_modifier = {
@@ -204,7 +209,7 @@ principle_market_unification_3 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 
 		# More convoy going to the market owner
 		country_convoy_contribution_to_market_owner_add = 0.2
@@ -966,7 +971,7 @@ principle_freedom_of_movement_2 = {
 		state_migration_quota_mult = 0.1
 		
 		# Increases chance to be picked for mass migrations
-		country_mass_migration_attraction_mult = 0.1
+		country_mass_migration_attraction_mult = 0.15
 	}
 	
 	ai_weight = {
@@ -980,8 +985,8 @@ principle_freedom_of_movement_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)	
-		state_migration_quota_mult = 0.1
-		country_mass_migration_attraction_mult = 0.1	
+		state_migration_quota_mult = 0.15
+		country_mass_migration_attraction_mult = 0.25
 	}
 
 	power_bloc_modifier = {
@@ -1012,6 +1017,9 @@ principle_divine_economics_1 = {
 
 		# Higher subject payments from other religions
 		country_subject_income_transfer_heathen_mult = 0.5
+
+		state_clergymen_investment_pool_efficiency_mult = 0.05
+
 	}
 	
 	ai_weight = {
@@ -1036,6 +1044,8 @@ principle_divine_economics_2 = {
 		country_subject_income_transfer_heathen_mult = 0.5
 
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
+
+		state_clergymen_investment_pool_efficiency_mult = 0.15
 	}
 	
 	ai_weight = {
@@ -1059,6 +1069,7 @@ principle_divine_economics_3 = {
 
 		# Higher wages for state religion pops
 		country_state_religion_wages_mult = 0.25
+		state_clergymen_investment_pool_efficiency_mult = 0.25
 
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}
@@ -1206,6 +1217,10 @@ principle_sacred_civics_1 = {
 		# Higher diplomatic acceptance from countries with same state religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in diplomactic_actions
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
+
+		country_acceptance_state_religion_add = 10
+
+
 	}
 	
 	ai_weight = {
@@ -1243,6 +1258,10 @@ principle_sacred_civics_2 = {
 		# Lower liberty desire for subjects with the same religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in scripted_values
 		country_reduced_liberty_desire_same_religion_bool = yes
+
+		country_acceptance_state_religion_add = 15
+
+
 	}
 	
 	ai_weight = {
@@ -1258,6 +1277,9 @@ principle_sacred_civics_3 = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
 		country_reduced_liberty_desire_same_religion_bool = yes
+
+		country_acceptance_state_religion_add = 20
+
 	}
 
 	leader_modifier = {
@@ -1286,7 +1308,10 @@ principle_ideological_truth_1 = {
 		
 		# Reduces IG bolster and suppression costs
 		country_bolster_cost_mult = -0.25
-		country_suppression_cost_mult = -0.25		
+		country_suppression_cost_mult = -0.25
+		
+		country_legitimacy_ideological_incoherence_mult = -0.05
+		
 	}
 	
 	ai_weight = {
@@ -1323,6 +1348,11 @@ principle_ideological_truth_2 = {
 
 		# Reduces ideological coherence penalty for IGs in same party
 		country_party_whip_impact_mult = 0.25
+
+		# Members Legitimacy can't fall under 25
+		country_legitimacy_min_add = 25
+		country_legitimacy_ideological_incoherence_mult = -0.15
+
 	}
 	
 	ai_weight = {
@@ -1343,6 +1373,7 @@ principle_ideological_truth_3 = {
 
 		# Members Legitimacy can't fall under 25
 		country_legitimacy_min_add = 25
+		country_legitimacy_ideological_incoherence_mult = -0.25
 	}
 
 	ai_weight = {
@@ -1417,6 +1448,66 @@ principle_companies_3 = {
 }
 
 
+### Shared Canon
+
+principle_shared_canon_1 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = ip4_content
+	}
+
+	member_modifier = {
+		country_society_tech_spread_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 100
+
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_ethnostate
+			}
+			add = 100
+		}
+	}
+}
+
+principle_shared_canon_2 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		country_society_tech_spread_mult = 0.15
+
+		# Adds assimilation bonus
+		state_assimilation_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_shared_canon_3 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		country_society_tech_spread_mult = 0.25
+		state_assimilation_mult = 0.1
+
+		# Adds full acceptance radicalism decrease
+		country_radicalism_increases_full_acceptance_mult = -0.10
+	}
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
 
 ### HEALTHCARE FOCUS - MOD
 
@@ -1452,73 +1543,11 @@ principle_healthcare_focus_2 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
-		state_mortality_mult = -0.05
+		state_mortality_mult = -0.075
 		country_institution_cost_institution_health_system_mult = -0.35
 		country_institution_size_change_speed_institution_health_system_mult = 0.35
 	}
 	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-
-### Shared Canon
-
-principle_shared_canon_1 = {
-	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-
-	visible = {
-		has_dlc_feature = ip4_content
-	}
-
-	member_modifier = {
-		country_society_tech_spread_mult = 0.1
-	}
-
-	ai_weight = {
-		value = 100
-
-		if = {
-			limit = {
-				has_law_or_variant = law_type:law_ethnostate
-			}
-			add = 100
-		}
-	}
-}
-
-principle_shared_canon_2 = {
-	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-		# Modifiers from previous level(s)
-		country_society_tech_spread_mult = 0.1
-
-		# Adds assimilation bonus
-		state_assimilation_mult = 0.1
-	}
-
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_shared_canon_3 = {
-	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-
-	member_modifier = {
-		# Modifiers from previous level(s)
-		country_society_tech_spread_mult = 0.1
-		state_assimilation_mult = 0.1
-
-		# Adds full acceptance radicalism decrease
-		country_radicalism_increases_full_acceptance_mult = -0.10
-	}
-
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}
@@ -1529,7 +1558,7 @@ principle_healthcare_focus_3 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-		state_mortality_mult = -0.05
+		state_mortality_mult = -0.01
 		state_pollution_reduction_health_mult = -0.1
 		country_institution_cost_institution_health_system_mult = -0.5
 		country_institution_size_change_speed_institution_health_system_mult = 0.5
@@ -1552,7 +1581,8 @@ principle_bureaucracy_focus_1 = {
 	}
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.10
+		country_bureaucracy_investment_cost_factor_mult = -0.05
 	}
 	
 	ai_weight = {
@@ -1574,7 +1604,8 @@ principle_bureaucracy_focus_2 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.15
+		country_bureaucracy_investment_cost_factor_mult = -0.1
 		country_bureaucrats_pol_str_mult = 0.15
 		
 	}
@@ -1589,7 +1620,8 @@ principle_bureaucracy_focus_3 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.2
+		country_bureaucracy_investment_cost_factor_mult = -0.15
 		country_bureaucrats_pol_str_mult = 0.15
 		country_government_dividends_efficiency_add = 0.05
 		# PM Burocracia Eficiente.
