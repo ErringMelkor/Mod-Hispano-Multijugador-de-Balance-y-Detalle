@@ -398,7 +398,7 @@ combat_unit_type_submarine = {
         unit_defense_add = 20
         unit_blockade_add = 10
         unit_morale_loss_add = 8
-        unit_convoy_raiding_mult = 2
+        unit_convoy_raiding_mult = 1.5
     }
 
     formation_modifier = {

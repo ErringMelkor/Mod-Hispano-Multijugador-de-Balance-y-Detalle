@@ -177,4 +177,19 @@ Changelog Versión 1.12B7 #05-03-26
 		Arreglado el rasgo de Ascetismo.
 		Arregladas las condiciones de batalla de caballería (iconos y localización).
 		Arreglo menor de los rasgos de comandante de infantería / caballería.
+
+Changelog Versión 1.12B8 #15-03-26
+
+Economía:
+	Plantaciones de Bananas: 40 producción base -> 35 producción base.
+
+Demografía:
+	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%
+	Seguridad Alimentaria necesaria para evitar Hambruna: 20% -> 25%
+
+Militar:
+	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
+
+Bugs:
+	Corregida la redacción de varios eventos (véase el evento del petróleo).
 		

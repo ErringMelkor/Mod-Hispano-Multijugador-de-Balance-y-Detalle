@@ -574,7 +574,7 @@ default_building_banana_plantation = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fruit_add = 40
+			goods_output_fruit_add = 35
 		}
 
 		level_scaled = {

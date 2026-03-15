@@ -20,12 +20,12 @@ accepted_petition = {
 
 landowners_petition_rejected_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_success_add = 0.1
+	country_law_enactment_time_mult = 0.15
 }
 
 landowners_petition_acepted_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_law_enactment_time_mult = 0.15
+	country_law_enactment_success_add = 0.1
 }
 
 tarnished_reputation_modifier = {
@@ -1047,26 +1047,26 @@ free_state_monarchy_modifier = {
 state_oil_rush = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_migration_pull_mult = 1.0
-	building_group_building_oil_rig_throughput_add = 0.2
-	building_group_building_oil_rig_employee_mult = 0.5
-	building_group_building_oil_rig_standard_of_living_add = -1
-	building_group_building_oil_rig_mortality_mult = 0.2
+	building_group_bg_oil_extraction_throughput_add = 0.2
+	building_group_bg_oil_extraction_employee_mult = 0.5
+	building_group_bg_oil_extraction_standard_of_living_add = -1
+	building_group_bg_oil_extraction_mortality_mult = 0.2
 }
 
 state_limited_oil_rush = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_migration_pull_mult = 0.5
-	building_group_building_oil_rig_throughput_add = 0.1
-	building_group_building_oil_rig_employee_mult = 0.25
+	building_group_bg_oil_extraction_throughput_add = 0.1
+	building_group_bg_oil_extraction_employee_mult = 0.25
 }
 
 state_oil_rush_forever = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	state_migration_pull_mult = -0.25
-	building_group_building_oil_rig_throughput_add = 0.2
-	building_group_building_oil_rig_employee_mult = 0.5
-	building_group_building_oil_rig_standard_of_living_add = -1
-	building_group_building_oil_rig_mortality_mult = 0.3
+	building_group_bg_oil_extraction_throughput_add = 0.2
+	building_group_bg_oil_extraction_employee_mult = 0.5
+	building_group_bg_oil_extraction_standard_of_living_add = -1
+	building_group_bg_oil_extraction_mortality_mult = 0.3
 }
 
 state_oil_manufacturing_instead = {
@@ -1076,18 +1076,18 @@ state_oil_manufacturing_instead = {
 
 state_oil_dangerous_work = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	building_group_building_oil_rig_mortality_mult = 0.2
+	building_group_bg_oil_extraction_mortality_mult = 0.2
 }
 
 state_oil_prevented_dangerous_work = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_building_oil_rig_throughput_add = -0.1
+	building_group_bg_oil_extraction_throughput_add = -0.1
 }
 
 state_oil_pipeline = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_infrastructure_add = 20
-	building_group_building_oil_rig_throughput_add = 0.2
+	building_group_bg_oil_extraction_throughput_add = 0.2
 }
 
 funding_oil_pipeline = {
@@ -1102,7 +1102,8 @@ corrupt_administration = {
 
 modifier_texas_war_of_independence = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	unit_defense_mult = 0.15
+	unit_defense_mult = 0.35
+	unit_offense_mult = 0.20
 }
 
 modifier_congo_river_expedition_complete = {
@@ -1571,7 +1572,7 @@ plastic_production_modifier = {
 
 radio_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	goods_output_radio_mult = 0.5
+	goods_output_radios_mult = 0.5
 }
 
 dynamite_production_modifier = {
@@ -1624,7 +1625,7 @@ whaling_admiral_modifier = {
 
 whaling_state_mortality_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_building_whaling_station_mortality_mult = -0.02
+	building_group_bg_whaling_mortality_mult = -0.02
 }
 
 whaling_state_modifier = {
@@ -1634,7 +1635,7 @@ whaling_state_modifier = {
 
 oil_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_building_oil_rig_throughput_add = 0.33
+	building_group_bg_oil_extraction_throughput_add = 0.33
 }
 
 electrical_power_production_modifier = {
@@ -1979,6 +1980,7 @@ modern_nursing  = {
 rebellion_conspiracy_reprisals = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	state_slaves_mortality_mult = 0.2
+	state_pop_support_movement_slave_revolt_mult = 0.2
 }
 
 attacking_hidden_communities = {
@@ -1986,11 +1988,16 @@ attacking_hidden_communities = {
 	state_radicalism_increases_violent_hostility_mult = 0.05
 	state_radicalism_increases_cultural_erasure_mult = 0.05
 	state_radicalism_increases_open_prejudice_mult = 0.05
+	state_pop_support_movement_slave_revolt_mult = 0.15
 }
 
 national_defence_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_prestige_mult = 0.1
 	state_conscription_rate_mult = 0.2
+	building_training_rate_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
 }
 
 influence_over_hawaii = {

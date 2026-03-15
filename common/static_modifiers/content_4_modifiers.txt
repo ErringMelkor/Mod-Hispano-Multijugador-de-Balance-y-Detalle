@@ -11,19 +11,19 @@ decree_minimum_wealth = {
 
 REPLACE_OR_CREATE:decree_agricultural_throughput = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_bg_agriculture_throughput_add = 0.1
-	building_group_bg_plantations_throughput_add = 0.1
-	building_group_bg_ranching_throughput_add = 0.1
+	building_group_bg_agriculture_throughput_add = 0.25
+	building_group_bg_plantations_throughput_add = 0.25
+	building_group_bg_ranching_throughput_add = 0.25
 	state_birth_rate_mult = 0.15
 }
 
 REPLACE_OR_CREATE:decree_resource_throughput = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_bg_mining_throughput_add = 0.1
-	building_group_bg_logging_throughput_add = 0.1
-	building_group_bg_fishing_throughput_add = 0.1
-	building_group_bg_whaling_throughput_add = 0.1
-	building_group_bg_oil_extraction_throughput_add = 0.1
+	building_group_bg_mining_throughput_add = 0.15
+	building_group_bg_logging_throughput_add = 0.15
+	building_group_bg_fishing_throughput_add = 0.15
+	building_group_bg_whaling_throughput_add = 0.15
+	building_group_bg_oil_extraction_throughput_add = 0.15
 }
 
 decree_manufacturing_industrialist_attraction = {

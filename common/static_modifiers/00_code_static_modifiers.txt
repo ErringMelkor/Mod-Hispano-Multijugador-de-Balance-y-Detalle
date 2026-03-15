@@ -18,16 +18,16 @@ base_values = {
 	country_influence_add = 100
 
 	country_secession_progress_add = 0.1
-	
+
 	country_law_enactment_max_setbacks_add = 3
-	
+
 	country_minting_add = 500
 	country_government_dividends_efficiency_add = 0.25
 
 	state_tax_capacity_add = 75
 	state_infrastructure_add = 3
 	state_infrastructure_from_automobiles_consumption_add = 0.25
-	
+
 	state_lower_strata_expected_sol_add = 5
 	state_middle_strata_expected_sol_add = 10
 	state_upper_strata_expected_sol_add = 15
@@ -42,23 +42,26 @@ base_values = {
 	state_aristocrats_investment_pool_contribution_add = 0.15
 	state_capitalists_investment_pool_contribution_add = 0.2
 	
-	
+
+# To balance for unincorporated states not paying taxes
+	state_unincorporated_starting_wages_mult = -0.20
+	building_unincorporated_subsistence_output_mult = -0.20
 		
 	country_construction_add = 15
 	
 	building_economy_of_scale_level_cap_add = 20
-	
+
 	state_market_access_price_impact = 0.75
 	
 	country_company_throughput_bonus_add = 0.05
 	country_company_construction_efficiency_bonus_add = 0.2
 	
 	country_max_weekly_construction_progress_add = 10
-	
+
 	military_formation_organization_gain_add = 0.5 # 200 days to get max organization
-	
+
 	state_urbanization_per_level_add = 100
-	
+
 	unit_experience_gain_add = 0.5
 
 	# To account for the power derived from bearing arms
@@ -67,11 +70,13 @@ base_values = {
 
 	country_support_separatism_strength_mult = 1.0
 	country_support_separatism_resistance_mult = 1.0
-	
+
 	state_trade_advantage_from_capacity_add = 0.0005
 	state_max_trade_advantage_from_capacity_add = 0.2
-	
+
 	country_party_whip_impact_add = 0.5
+	
+	state_blockade_resistance_add = 100
 }
 
 # Scales with a country's global prestige rank, so at 20/100 this is multiplied by 0.8x, 50/100 by 0.5x, etc
@@ -100,37 +105,47 @@ coastal_state = {
 
 working_conditions = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	building_group_bg_mining_laborers_mortality_mult = 0.25
-	building_group_bg_mining_machinists_mortality_mult = 0.15
-	building_group_bg_mining_engineers_mortality_mult = 0.03
-	building_group_bg_mining_slaves_mortality_mult = 0.35
-	
-	building_group_building_logging_camp_laborers_mortality_mult = 0.1
-	building_group_building_logging_camp_machinists_mortality_mult = 0.05
-	building_group_building_logging_camp_engineers_mortality_mult = 0.02
-	building_group_building_logging_camp_slaves_mortality_mult = 0.2
-	
-	building_group_building_oil_rig_laborers_mortality_mult = 0.15
-	building_group_building_oil_rig_machinists_mortality_mult = 0.05
-	building_group_building_oil_rig_engineers_mortality_mult = 0.02
-	
+	building_group_bg_mining_laborers_mortality_mult = 0.1
+	building_group_bg_mining_machinists_mortality_mult = 0.05
+	building_group_bg_mining_engineers_mortality_mult = 0.02
+	building_group_bg_mining_slaves_mortality_mult = 0.25
+
+	##Plantations and rubber
+	building_group_bg_plantations_laborers_mortality_mult = 0.15
+	building_group_bg_plantations_slaves_mortality_mult = 0.25
+	building_group_bg_rubber_laborers_mortality_mult = 0.05
+	building_group_bg_rubber_slaves_mortality_mult = 0.25
+
+	building_group_bg_logging_laborers_mortality_mult = 0.1
+	building_group_bg_logging_machinists_mortality_mult = 0.05
+	building_group_bg_logging_engineers_mortality_mult = 0.02
+	building_group_bg_logging_slaves_mortality_mult = 0.2
+
+	building_group_bg_oil_extraction_laborers_mortality_mult = 0.1
+	building_group_bg_oil_extraction_machinists_mortality_mult = 0.05
+	building_group_bg_oil_extraction_engineers_mortality_mult = 0.02
+
 	building_group_bg_light_industry_laborers_mortality_mult = 0.05
-	building_group_bg_light_industry_machinists_mortality_mult = 0.05
-	
-	building_group_bg_heavy_industry_laborers_mortality_mult = 0.15
-	building_group_bg_heavy_industry_machinists_mortality_mult = 0.15
+	building_group_bg_light_industry_machinists_mortality_mult = 0.02
+
+	building_group_bg_heavy_industry_laborers_mortality_mult = 0.1
+	building_group_bg_heavy_industry_machinists_mortality_mult = 0.05
 	building_group_bg_heavy_industry_engineers_mortality_mult = 0.02
-	
-	building_group_bg_infrastructure_laborers_mortality_mult = 0.15
-	building_group_bg_infrastructure_machinists_mortality_mult = 0.1
+
+	building_group_bg_military_industry_laborers_mortality_mult = 0.1
+	building_group_bg_military_industry_machinists_mortality_mult = 0.05
+	building_group_bg_military_industry_engineers_mortality_mult = 0.02
+
+	building_group_bg_infrastructure_laborers_mortality_mult = 0.1
+	building_group_bg_infrastructure_machinists_mortality_mult = 0.05
 	building_group_bg_infrastructure_engineers_mortality_mult = 0.02
 
-	building_group_building_whaling_station_laborers_mortality_mult = 0.15
-	building_group_building_whaling_station_machinists_mortality_mult = 0.05
+	building_group_bg_whaling_laborers_mortality_mult = 0.15
+	building_group_bg_whaling_machinists_mortality_mult = 0.05
 
-	building_group_building_fishing_wharf_laborers_mortality_mult = 0.1
-	building_group_building_fishing_wharf_machinists_mortality_mult = 0.05
-	building_group_building_fishing_wharf_engineers_mortality_mult = 0.02
+	building_group_bg_fishing_laborers_mortality_mult = 0.1
+	building_group_bg_fishing_machinists_mortality_mult = 0.02
+	building_group_bg_fishing_engineers_mortality_mult = 0.02
 }
 
 literacy_penalty = {
@@ -194,9 +209,6 @@ incorporated_state = {
 
 unincorporated_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	# To balance for unincorporated states not paying taxes
-	state_unincorporated_starting_wages_mult = -0.20
-	building_unincorporated_subsistence_output_mult = -0.20
 	state_infrastructure_mult = -0.25
 	state_conscription_rate_mult = -0.5
 	state_expected_sol_mult = -0.33
@@ -208,6 +220,7 @@ unincorporated_state = {
 	building_group_bg_infrastructure_construction_efficiency_add = -0.2
 	building_group_bg_extraction_construction_efficiency_add = -0.2
 	building_group_bg_heavy_industry_construction_efficiency_add = -0.5
+	building_group_bg_military_industry_construction_efficiency_add = -0.5
 	building_group_bg_light_industry_construction_efficiency_add = -0.3
 	building_group_bg_government_construction_efficiency_add = -0.3
 }
@@ -393,11 +406,17 @@ ruler_left_interest_group = {
 	interest_group_approval_add = -5
 }
 
+# Unscaled modifier applied to all insurrectionary countries
+uprising = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	building_training_rate_add = 1000
+	building_training_rate_mult = 2.0
+}
+
+# Scaled modifier for insurrectionary country conscription rate, based on CIVIL_WAR_CONSCRIPTION_RATE defines
 uprising_conscription = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	state_conscription_rate_add = 1.0
-	building_training_rate_mult = 0.20
-	building_training_rate_add = 1000
 }
 
 uprising_arms_cache_small_arms = {
@@ -629,6 +648,7 @@ infamy_reputable = {
 	
 	
 	country_influence_mult = 0.25
+	state_trade_advantage_mult = 0.15
 	
 }
 
@@ -650,9 +670,9 @@ infamy_notorious = {
 
 infamy_pariah = {
 	country_radicals_from_conquest_mult = 1
-	country_influence_mult = -0.35
+	country_influence_mult = -0.25
 	state_trade_advantage_mult = -0.5
-	country_loan_interest_rate_mult = 0.5
+	country_loan_interest_rate_mult = 0.35
 	country_society_tech_spread_mult = -0.35
 
 }
@@ -665,6 +685,7 @@ state_region_devastation = {
 	state_migration_pull_mult = -3.0
 	state_construction_mult = -0.5
 	building_throughput_add = -0.25
+	state_devastation_decay_mult = 3.0
 }
 
 # Scales with pollution impact, reduced by state_pollution_reduction_health_mult
