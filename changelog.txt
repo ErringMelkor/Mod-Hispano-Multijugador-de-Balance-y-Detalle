@@ -178,10 +178,12 @@ Changelog Versión 1.12B7 #05-03-26
 		Arregladas las condiciones de batalla de caballería (iconos y localización).
 		Arreglo menor de los rasgos de comandante de infantería / caballería.
 
-Changelog Versión 1.12B8 #15-03-26
+Changelog Versión 1.12B8 #15-03-26 - 16-03-26
 
 Economía:
 	Plantaciones de Bananas: 40 producción base -> 35 producción base.
+	Canal de Panamá: Misión Civilizadora -> Antibióticos
+	Canal de Sinaí: Colonización -> "Gantry Cranes"
 
 Demografía:
 	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%
@@ -217,7 +219,6 @@ Principios:
 	Construcción:
 		Consumo de Infraestructura por los Sectores de Construcción: -0/-25%/-50% -> -25%/-50%/-75%
 		Eficiencia de Construcción: 2%/4%/6% -> 2.5%/5%/7.5%
-
 
 Bugs:
 	Corregida la redacción de varios eventos (véase el evento del petróleo).

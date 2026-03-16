@@ -49,3 +49,6 @@
   unit_combat_unit_type_mechanized_infantry_defense_mult: "Mechanized Infantry Defense Multiplier"
 
   basic_infantry_commander_desc: "This character is competent ordering infantry."
+
+  ig_trait_segundo_renacimiento: "A Second Rennaissance"
+  ig_trait_segundo_renacimiento_desc: ""
