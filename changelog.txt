@@ -239,4 +239,8 @@ Principios:
 
 Bugs:
 	Corregida la redacción de varios eventos (véase el evento del petróleo).
+
+Localización:
+	Ajustadas unas 200 líneas de localización, mayormente en Español.
+	Porferinos notifiquen de cualquier otro error, sea de erratas, localización en idioma indebido o falta de esta.
 		

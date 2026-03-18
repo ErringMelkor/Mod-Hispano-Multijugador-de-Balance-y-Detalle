@@ -36,22 +36,22 @@
   japan_agitators.1.a: "Dejémosle estar, no podemos perder el apoyo de los Shimazu."
   japan_agitators.1.b: "¡Alta traición! Ejecutémosle ahora mismo."
 
-  unit_combat_unit_type_hussars_offense_mult: "Hussars Offense Multiplier"
-  unit_combat_unit_type_cuirassiers_offense_mult: "Cuirassiers Offense Multiplier"
-  unit_combat_unit_type_lancers_offense_mult: "Lancers Offense Multiplier"
-  unit_combat_unit_type_revolver_cavalry_offense_mult: "Revolver Cavalry Offense Multiplier"
-  unit_combat_unit_type_dragoons_defense_mult: "Dragoons Defense Multiplier"
-  unit_combat_unit_type_carabiners_defense_mult: "Carabiners Defense Multiplier"
+  unit_combat_unit_type_hussars_offense_mult: "Multiplicador al Ataque de los Húsares"
+  unit_combat_unit_type_cuirassiers_offense_mult: "Multiplicador al Ataque de los Coraceros"
+  unit_combat_unit_type_lancers_offense_mult: "Multiplicador al Ataque de los Lanceros"
+  unit_combat_unit_type_revolver_cavalry_offense_mult: "Multiplicador al Ataque de la Caballería con Revólver"
+  unit_combat_unit_type_dragoons_defense_mult: "Multiplicador al Ataque de los Dragones"
+  unit_combat_unit_type_carabiners_defense_mult: "Multiplicador a la Defensa de los Carabineros"
 
-  battle_condition_cavalry_charge_desc: "This side is able to launch a cavalry charge against its enemy."
+  battle_condition_cavalry_charge_desc: "Este bando es capaz de lanzar una carga de caballería contra el enemigo."
 
-  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry Defense Multiplier"
-  unit_combat_unit_type_skirmish_infantry_defense_mult: "Skirmish Infantry Defense Multiplier"
-  unit_combat_unit_type_trench_infantry_defense_mult: "Trench Infantry Defense Multiplier"
-  unit_combat_unit_type_squad_infantry_defense_mult: "Squad Infantry Defense Multiplier"
-  unit_combat_unit_type_mechanized_infantry_defense_mult: "Mechanized Infantry Defense Multiplier"
+  unit_combat_unit_type_line_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Línea"
+  unit_combat_unit_type_skirmish_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Escaramuza"
+  unit_combat_unit_type_trench_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Trinchera"
+  unit_combat_unit_type_squad_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería en Pelotones"
+  unit_combat_unit_type_mechanized_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería Mecanizada"
 
-  basic_infantry_commander_desc: "This character is competent ordering infantry."
+  basic_infantry_commander_desc: "Este personaje es competente en el comando de infantería."
 
   ig_trait_segundo_renacimiento: "Un Segundo Renacimiento"
   ig_trait_segundo_renacimiento_desc: ""
@@ -64,4 +64,10 @@
   Saionji: "Saionji"
   Kinmochi: "Kinmochi"
 
+  combat_unit_type_revolver_cavalry_desc: "Caballería ligera equipada con revólveres además de espadas, lo que aumenta enormemente su capacidad de fuego frente a las pistolas tradicionales."
+  combat_unit_type_carabineer_desc: "Caballería pesada equipada con rifles de carabina, más cortos y manejables, con los que hostigar desde una distancia segura a las tropas enemigas mientras se criba el terreno."
 
+  combat_unit_type_screw_frigate_desc: "Barco equipado con propulsión experimental a vapor, lo que le permite contrarrestar parcialmente los malos vientos."
+  combat_unit_type_screw_manowar_desc: "Barco equipado con propulsión experimental a vapor, lo que le permite contrarrestar parcialmente los malos vientos."
+
+  unit_combat_unit_type_mobile_artillery_offense_add: "Ataque a la Artillería Móbil"

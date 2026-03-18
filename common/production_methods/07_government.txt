@@ -67,13 +67,13 @@ pm_vertical_filing_cabinets = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_tax_capacity_add = 12
+			state_tax_capacity_add = 15
 		}		
 	}	
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 20
+			goods_input_paper_add = 10
 		}	
 	
 		level_scaled = {
