@@ -1586,7 +1586,9 @@ company_zastava = {
 	}
 
 	prosperity_modifier = {
-		unit_defense_mult = 0.1
+		unit_defense_mult = 0.5
+		unit_defense_elevated_mult = 0.1
+		unit_defense_hazardous_mult = 0.1
 		unit_morale_loss_mult = -0.05
 	}
 
@@ -1888,7 +1890,8 @@ company_romanian_star = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_oil_extraction_throughput_add = 0.2
+		building_automotive_industry_throughput_add = 0.2
+		building_synthetics_plant_throughput_add = 0.2
 	}
 
 	ai_will_do = {

@@ -170,6 +170,8 @@ Países:
 	Rusia:
 		Ajustada la compañía ruso-americana.
 
+--------------------------------------------------------------------
+
 Changelog Versión 1.12B7 #05-03-26
 
 	Bugs:
@@ -178,12 +180,26 @@ Changelog Versión 1.12B7 #05-03-26
 		Arregladas las condiciones de batalla de caballería (iconos y localización).
 		Arreglo menor de los rasgos de comandante de infantería / caballería.
 
-Changelog Versión 1.12B8 #15-03-26 - 16-03-26
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B8 #15-03-26 - 18-03-26
 
 Economía:
 	Plantaciones de Bananas: 40 producción base -> 35 producción base.
 	Canal de Panamá: Misión Civilizadora -> Antibióticos
 	Canal de Sinaí: Colonización -> "Gantry Cranes"
+	PM Canales: 50.000 minting -> 35.000 minting.
+	Edificios Gubernamentales:
+		Consumo de Papel: 0/10/15/20 -> 0/8/12/15
+
+Compañías:
+	Romanian Star: 20% al throughput del petróleo -> 20% al throughput de la industri automobilística y sintética.
+	Galician Carpathian Oil: Bien de Prestigio único, "Petróleo de Galicia".
+	Ludwig Moser and Sons: Influencia y Throughput a Academias de Arte: 5% -> 15%.
+	Zastava: Defensa de Unidades: 10% -> 5%; Defensa en Terreno Elevado y Peligroso: 0% -> 10%.
+	CAFD: Café de Prestigio Genérico -> Café Brasileño (único, no necesita de JE).
+	Klanicko Drustvo: 2.5% birthrate -> 5% birthrate.
+	Első Budapesti Gőzmalom Rt.: Requerimiento de Estados Incorporados -> Acepta también Estados No Incorporados.
 
 Demografía:
 	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%
@@ -191,11 +207,12 @@ Demografía:
 
 Militar:
 	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
+	Tasa de Reclutamiento de los PM Navales (por nivel): 1/1.25/1.5/1.75/2.25 -> 0.75/0.85/1/1.25/1.65
 
 Principios:
 	Economía Divina:
 		Eficiencia de Inversión del Clero: 0 -> 5%/15%/25%
-	Identidad Religiosa: 
+	Identidad Religiosa:
 		Aceptación por Religión Estatal: 0 -> 10/15/20
 	Sanidad:
 		Reducción de Mortalidad: 5% -> 5%/7.5%/10%

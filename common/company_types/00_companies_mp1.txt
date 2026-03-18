@@ -39,8 +39,8 @@ company_ludwig_moser_and_sons = {
 	}
 
 	prosperity_modifier = {
-		country_influence_mult = 0.05
-		building_art_academy_throughput_add = 0.05
+		country_influence_mult = 0.15
+		building_art_academy_throughput_add = 0.15
 		country_leverage_generation_mult = 0.1
 	}
 

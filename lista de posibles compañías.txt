@@ -1,0 +1,82 @@
+Europa:
+    Stelhi Silks (ropa de lujo). Estado: Zurich.
+    Charvet Place Vendôme (ropa). Estado: París.
+    "Baron" Herzog Wine Cellars (vino). Estado: Eslovaquia.
+    Loden-Frey (ropa). Estado: Baden/Wurtemberg.
+    Volga Shipping Company (?).
+    Lindt (groceries). Estado: Zurich.
+    H. Cegielski – Poznań S.A (Motor, agraria). Estado: Poznan.
+    Haberbusch i Schiele (Licor). Estado: Varsovia.
+    Ahlstrom (Papel). Estado: Kuopio. #Hecha; falta icono único.
+    Hermagoras Society (Papel). Estado: Slovenia.
+    Krasny Oktyabr (Groceries). Estado: Moscú / URSS.
+    Andritz AG (Motor). Estado: Graz.
+    Lacasa (Groceries). Estado: Zaragoza.
+    Kværner (Motor; Planta Eléctrica). Estado: Oslo.
+    Volfas Engelman (licor). Estado: Kaunas, Lituania.
+    Zastava Arms (Rifles). Estado: Serbia del Norte. #Implementada en Vanilla.
+    Zsolnay (porcelana). Estado: Pécs.
+    Hédiard (Groceries). Estado: París.    
+    Silvateam S.p.A (Fertilizantes; Groceries). Estado: Piamonte.
+    Lena Gold Mining Partnership (Oro). Estado: Buryatia. #Hecha;falta icono único.
+    Kleinwanzleben Sugar Refinery (Trigo). Estado: Sajonia.
+    Tomé Fèteira (Herramientas, madera). Estado: Estremadura.
+    Allatini (Groceries). Estado: Tesalónica.
+    Chemische Fabrik Kalk (Fertilizantes). Estado: North Rhine.
+    Obukhov State Plant (Acero; Artillería). Estado: Ingria.
+    Láng Gépgyár (Motor). Estado: Hungría
+    AB Bofors (Hierro; Artillería). Estado: Svealand.
+    Mauser (Armas). Estado: Wurtemberg.
+    Fontaneda (Groceries). Estado: Castilla.
+    Astra Arad (Motor; Coche). Estado: Bekes.
+    Eastern Counties Farmers (Agricultura). Estado: East Anglia.
+    Lapua (Armas). Estado: Ostrobothnia.
+
+África:
+    Aspen Farmacare. Estado: Eastern Cape / Zululand.
+    SABMiller (Licor). Sudáfrica.
+    Company of the Upper Ubangi Sultanates (Caucho). Estado: Ubangi-Shari.
+    Central Africa Company (Plantaciones). Estado: Kazembe.
+    Diamang (Oro). Angola.
+    Aïcha (Groceries, fruta). Marruecos.
+    Managem (Hierro; Plomo; Oro). Marruecos. #Hecha; falta icono único.
+    Sappi (Papel). Sudáfrica.
+
+América:
+    Wilson Sons (motores). Brasil.
+    Oliver Brothers Fine Art Restoration and Conservation (arte). Estados Unidos.
+    King Ranch (carne). Estado: Texas. Estados Unidos.
+    Wyeth Pharmaceuticals (Fertilizantes?). Estado: Pennsylvania.
+
+    La Cruz Azul (herramientas). Estado: Mexico. #Hecha; falta icono único.
+    Mondragón (Armas). Estado: México. #Hecha; falta icono único.
+    Casa Pellandini (Cristal; Muebles de Lujo). Estado: México.
+
+    Matarazzo (Ranchos; Agricultura). Brasil.
+
+    Tecnoquímicas (Fertilizantes). Colombia.
+
+Asia:
+    Gibb, Livingston & Co. (comercio; treaty port en china). GBR.
+    Augustine Heard & Co (comercio; treaty port en china). USA.
+    Kabushiki-gaisha IHI (navíos militares; motores). Estado: Tokyo.
+    Borneo Company Limited (Oro; petróleo). Estado: Borneo.
+
+    Okura (Herramientas). Japón.
+    Mitsui (Finanzas). Japón.
+    Sumitomo (Carbón; Hierro). Japón.
+    Mitsubishi. Japón.
+    Yasuda (Finanzas). Japón.
+    Furukawa (Hierro; Plomo). Japón.
+    Nakajima (Aviones). Japón.
+
+    Yonggeumok (Groceries). Corea.
+
+    Yerevan Ararat (Vino, Licor). Estado: Armenia.
+    Tuason y Sampedro (Madera). Filipinas / Manila.
+
+    Sampoerna (Tabaco). Indonesia.
+
+
+    
+

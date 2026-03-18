@@ -285,7 +285,7 @@ pm_no_naval_theory = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 1
+			building_training_rate_add = 0.75
 		}
 
 		unscaled = {
@@ -314,7 +314,7 @@ pm_power_of_the_purse = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 1.25
+			building_training_rate_add = 0.85
 		}
 
 		unscaled = {
@@ -345,7 +345,7 @@ pm_jeune_ecole = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 1.5
+			building_training_rate_add = 1
 		}
 
 		unscaled = {
@@ -376,7 +376,7 @@ pm_sea_lane_strategies = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 1.75
+			building_training_rate_add = 1.25
 		}
 
 		unscaled = {
@@ -407,7 +407,7 @@ pm_battlefleet_tactics = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_training_rate_add = 2.25
+			building_training_rate_add = 1.65
 		}
 
 		unscaled = {

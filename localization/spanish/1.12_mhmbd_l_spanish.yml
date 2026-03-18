@@ -6,7 +6,7 @@
   ig_trait_lingua_franca: "Lingua Franca"
   ig_trait_lingua_franca_desc: "Desde tiempos de Carlomagno, la lengua francesa ha sido el idioma vehicular de toda Europa."
   ig_trait_coffee_talks: "Café y Charlas"
-  ig_trait_coffee_talks: "Una buena taza de café y una compañía agradable siempre van de la mano."
+  ig_trait_coffee_talks_desc: "Una buena taza de café y una compañía agradable siempre van de la mano."
   STATE_GREATER_MASSACHUSETTS: "Gran Massachusetts"
   STATE_NEW_ENGLAND: "Nueva Inglaterra"
   modifier_macao: "Puerto Abierto de Macao"
@@ -56,5 +56,12 @@
   ig_trait_segundo_renacimiento: "Un Segundo Renacimiento"
   ig_trait_segundo_renacimiento_desc: ""
 
+  Iesada: "Iesada"
+  Iemochi: "Iemochi"
+  Sanetomi: "Sanetomi"
+  Sanjo: "Sanjo"
+  Kaoru: "Kaoru"
+  Saionji: "Saionji"
+  Kinmochi: "Kinmochi"
 
 

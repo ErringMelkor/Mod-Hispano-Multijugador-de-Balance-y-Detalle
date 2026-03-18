@@ -8,7 +8,7 @@ company_CAFD = {
 	preferred_headquarters = { STATE_SAO_PAULO }
 	
 	possible_prestige_goods = {
-		prestige_good_generic_coffee
+		prestige_good_brazilian_coffee
 	}
 	
 	building_types = {  #25
@@ -209,7 +209,7 @@ company_mondragon = {
 	}
 	
 	prosperity_modifier = {
-		unit__army_defense_mult = 0.05
+		unit_army_defense_mult = 0.05
 		unit_combat_unit_type_trench_infantry_defense_add = 5
 		unit_combat_unit_type_trench_infantry_offense_add = 5
 	}	
