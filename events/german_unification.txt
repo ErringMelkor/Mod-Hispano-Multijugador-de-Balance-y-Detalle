@@ -466,3 +466,46 @@ german_unification.5 = {
 		}
 	}
 }
+
+german_unification.6 = {
+	type = country_event
+	placement = ROOT
+
+	immediate = {
+		every_country = {
+			limit = {
+				country_rank < rank_value:great_power
+				country_has_primary_culture = cu:north_german
+			}
+
+			if = {
+				limit = {
+					is_ai = yes
+					is_in_customs_union_with = c:PRU
+				}
+				c:PRU = { annex_with_incorporation = prev }
+			}
+			else = {
+				trigger_event = { id = german_unification.2 days = 0 popup = yes }
+			}
+		}
+		change_tag = NGF
+	}
+
+		event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {}
+
+	option = {
+		name = german_unification.5.a
+		default_option = yes
+	}
+}
