@@ -200,6 +200,19 @@ Compañías:
 	CAFD: Café de Prestigio Genérico -> Café Brasileño (único, no necesita de JE).
 	Klanicko Drustvo: 2.5% birthrate -> 5% birthrate.
 	Első Budapesti Gőzmalom Rt.: Requerimiento de Estados Incorporados -> Acepta también Estados No Incorporados.
+	FIAT: +5% al Ataque del Ejército -> +15% al Ataque de los Tanques Ligeros.
+
+	Dollfus-Mieg et Cie:
+		Ampliaciones posibles: Algodón y Tintes -> Sintéticos y Tintes.
+		Industrias Base: Fábricas de Ropa y Carbón -> Fábricas de Ropa, Plantaciones de Algodón y Minas de Carbón.
+		Bonos: 10% a la Asimilación -> -10% a los radicales de culturas de tier 5 / Plenamente Acceptadas; +0.5 al SoL de Obreros y Maquinistas en Manufactorías.
+		
+	Societe Renault Freres:
+		Agregada nueva Compañía a Francia.
+		Industria Base: Automotiva
+		Ampliaciones Posibles: Motores y Municiones.
+		Bienes de Prestigio: Automóbiles Renault
+		Bonos: 15% al Ataque y Defensa de los Tanques Pesados.
 
 Demografía:
 	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%

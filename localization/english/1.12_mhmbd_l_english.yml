@@ -55,3 +55,11 @@
 
   prestige_good_galician_oil: "Galician Oil"
   prestige_good_brazilian_coffee: "Brazilian Coffee"
+
+  unit_combat_unit_type_light_tanks_offense_add: "Light Tank Offense"
+  unit_combat_unit_type_light_tanks_offense_mult: "Light Tank Offense Multiplier"
+  unit_combat_unit_type_heavy_tank_defense_mult: "Heavy Tank Defense Multiplier"
+
+  company_societe_renault_freres: "Societe Renault Freres"
+  prestige_good_renault_automobiles: "Renault Automobile"
+  

@@ -298,7 +298,7 @@ company_fiat = {
 
 	prosperity_modifier = {
 		military_formation_movement_speed_mult = 0.15
-		unit_army_offense_mult = 0.05
+		unit_combat_unit_type_light_tanks_offense_mult = 0.15
 	}
 
 	ai_will_do = {

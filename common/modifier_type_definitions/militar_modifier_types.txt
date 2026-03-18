@@ -524,3 +524,32 @@ unit_combat_unit_type_siege_artillery_defense_mult = {
 
 
 # --- SHIPS --- #
+
+
+# --- TANKS --- #
+
+unit_combat_unit_type_light_tanks_offense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_light_tanks_offense_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+unit_combat_unit_type_heavy_tank_defense_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
