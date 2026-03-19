@@ -488,6 +488,7 @@ german_unification.5 = {
 german_unification.6 = {
 	type = country_event
 	placement = ROOT
+	
 
 	immediate = {
 		every_country = {
