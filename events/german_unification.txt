@@ -93,6 +93,15 @@ german_unification.1 = {
 		}
 		if = {
 			limit = {
+				c:AUS ?= this
+			}
+			add_loyalists = {
+				culture = cu:south_german
+				value = 0.05
+			}
+		}
+		if = {
+			limit = {
 				country_has_primary_culture = cu:north_german
 				NOT = { exists = c:NGF }
 				OR = {
@@ -143,6 +152,15 @@ german_unification.1 = {
 		add_modifier = {
 			name = partial_german_unification_influence_prestige
 			days = normal_modifier_time
+		}
+		if = {
+			limit = {
+				c:AUS ?= this
+			}
+			add_loyalists = {
+				culture = cu:south_german
+				value = 0.05
+			}
 		}
 		if = {
 			limit = {

@@ -184,6 +184,10 @@ Changelog Versión 1.12B7 #05-03-26
 
 Changelog Versión 1.12B8 #15-03-26 - 18-03-26
 
+Países:
+	Prusia: Agregada formación de la NGF (con malus) si pierden el Liderazgo. #Parcialmente incorporado.
+	
+
 Economía:
 	Plantaciones de Bananas: 40 producción base -> 35 producción base.
 	Canal de Panamá: Misión Civilizadora -> Antibióticos
