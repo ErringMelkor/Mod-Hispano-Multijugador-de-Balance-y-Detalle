@@ -996,16 +996,16 @@ slave_exploitation_tea = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_tea_add = 25
+			goods_output_tea_add = 15
 		}
 
 		unscaled = {
 			building_slaves_standard_of_living_add = -1
-			building_laborers_job_attractiveness_mult = -0.20
+			building_laborers_job_attractiveness_mult = -0.10
 			building_minimum_wage_mult = -0.35 #tea is not deadly, but pays less
 		}
 	}
-}
+}	
 
 worker_exploitation_tea = {
 	texture = "gfx/interface/icons/production_method_icons/exploitative_practices.dds"
@@ -1026,7 +1026,7 @@ worker_exploitation_tea = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_tea_add = 15
+			goods_output_tea_add = 10
 		}
 
 		level_scaled = {

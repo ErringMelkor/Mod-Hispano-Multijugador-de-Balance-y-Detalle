@@ -210,6 +210,9 @@ Economía:
 			PMs de Explotación: 25 -> 35 ; 15 -> 10
 		Plantaciones de Tintes:
 			PMs de Explotación: 10 -> 5 ; 15 -> 10
+		Plantaciones de Té:
+			PMs de Explotación: 25 -> 15 ; 15 -> 10
+				Atractivo del trabajo: -20% -> -10%
 
 
 Compañías:
