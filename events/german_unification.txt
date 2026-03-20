@@ -526,5 +526,14 @@ german_unification.6 = {
 	option = {
 		name = german_unification.5.a
 		default_option = yes
+
+		#modificadores de revanchismo
+
+		#radicales norger
+
+		#radicales fuerzas armadas
+
+		#rasgo reaccionario a las fuerzas armadas
+
 	}
 }

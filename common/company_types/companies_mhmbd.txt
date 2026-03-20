@@ -229,7 +229,7 @@ company_mondragon = {
 #Cooperativa La Cruz Azul
 company_la_cruz_azul = {
 	icon = "gfx/interface/icons/company_icons/basic_construction.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	

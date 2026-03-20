@@ -671,7 +671,7 @@ slave_exploitation_sugar = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.25
 		}
 	}
 
@@ -683,7 +683,7 @@ slave_exploitation_sugar = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_sugar_add = 50
+			goods_output_sugar_add = 35
 		}
 
 		unscaled = {
@@ -716,7 +716,7 @@ worker_exploitation_sugar = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_sugar_add = 20
+			goods_output_sugar_add = 15
 		}
 
 		level_scaled = {
@@ -736,7 +736,7 @@ slave_exploitation_coffee = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.35
 		}
 	}
 
@@ -798,7 +798,7 @@ slave_exploitation_cotton = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.25
 		}
 	}
 
@@ -810,7 +810,7 @@ slave_exploitation_cotton = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fabric_add = 25
+			goods_output_fabric_add = 35
 		}
 
 		unscaled = {
@@ -841,7 +841,7 @@ worker_exploitation_cotton = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fabric_add = 15
+			goods_output_fabric_add = 10
 		}
 
 		level_scaled = {
@@ -860,7 +860,7 @@ slave_exploitation_dye = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.25
 		}
 	}
 
@@ -872,7 +872,7 @@ slave_exploitation_dye = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_dye_add = 15
+			goods_output_dye_add = 10
 		}
 
 		unscaled = {
@@ -903,7 +903,7 @@ worker_exploitation_dye = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_dye_add = 15
+			goods_output_dye_add = 5
 		}
 
 		level_scaled = {
@@ -922,7 +922,7 @@ slave_exploitation_banana = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.25
 		}
 	}
 
@@ -934,7 +934,7 @@ slave_exploitation_banana = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fruit_add = 25 #slaves weren't used for this often
+			goods_output_fruit_add = 15 #slaves weren't used for this often
 		}
 
 		unscaled = {
@@ -965,7 +965,7 @@ worker_exploitation_banana = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fruit_add = 20
+			goods_output_fruit_add = 5
 		}
 
 		level_scaled = {
@@ -974,8 +974,8 @@ worker_exploitation_banana = {
 		unscaled = {
 			building_laborers_mortality_mult = 0.1
 			building_slaves_standard_of_living_add = -1
-			building_laborers_job_attractiveness_mult = -0.25
-			building_minimum_wage_mult = -0.25
+			building_laborers_job_attractiveness_mult = -0.05
+			building_minimum_wage_mult = -0.15
 		}
 	}
 }
@@ -984,7 +984,7 @@ slave_exploitation_tea = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.25
 		}
 	}
 
@@ -1044,7 +1044,7 @@ slave_exploitation_rubber = {
 	texture = "gfx/interface/icons/production_method_icons/violent_treatment.dds"
 	state_modifiers = {
 		unscaled = {
-			state_slave_import_mult = 0.1
+			state_slave_import_mult = 0.35
 		}
 	}
 

@@ -189,12 +189,28 @@ Países:
 	
 
 Economía:
-	Plantaciones de Bananas: 40 producción base -> 35 producción base.
 	Canal de Panamá: Misión Civilizadora -> Antibióticos
 	Canal de Sinaí: Colonización -> "Gantry Cranes"
 	PM Canales: 50.000 minting -> 35.000 minting.
+
 	Edificios Gubernamentales:
 		Consumo de Papel: 0/10/15/20 -> 0/8/12/15
+
+	Plantaciones: #PMs de Explotación: Esclavos ; Trabajadores.
+		Importación de esclavos hacia las plantaciones: 10% -> 25%
+		Importación de esclavos en Café: 10% -> 35%
+		Importación de esclavos en Caucho: 10% -> 35%
+		Plantaciones de Bananas: 
+			Producción Base: 40 -> 35.
+			PMs de Explotación: 25 -> 15 ; 20 -> 5
+				Atractivo del trabajo para jornales con explotación: -25% -> -5%; Salario mínimo: -25% -> 15%.
+		Plantaciones de Azúcar:
+			PMs de Explotación: 50 -> 35 ; 30 -> 15 
+		Plantaciones de Algodón:
+			PMs de Explotación: 25 -> 35 ; 15 -> 10
+		Plantaciones de Tintes:
+			PMs de Explotación: 10 -> 5 ; 15 -> 10
+
 
 Compañías:
 	Romanian Star: 20% al throughput del petróleo -> 20% al throughput de la industri automobilística y sintética.
@@ -221,6 +237,15 @@ Compañías:
 Demografía:
 	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%
 	Seguridad Alimentaria necesaria para evitar Hambruna: 20% -> 25%
+	Necesidades de la Población: 
+		Alimentación Básica:
+			Fruta: Peso: 1 -> 0.925 ; Consumo máximo: 0.5 -> 0.25
+		Hogar:
+			Papel: Peso: 0.5 -> 0.45 ; Consumo máximo: 0.5 -> 0.35
+		# Peso es la prioridad o preferencia que tiene el bien al consumir dicho producto frente a otros en la misma categoría: ex. carne, grano.
+		# Consumo máximo es el porcentaje total del producto que pueden consumir para satisfacer una categoría. Ex: pueden satisfacer un 25% de su alimentación con fruta.
+
+		
 
 Militar:
 	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
