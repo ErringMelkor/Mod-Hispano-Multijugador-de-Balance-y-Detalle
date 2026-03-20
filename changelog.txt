@@ -182,7 +182,7 @@ Changelog Versión 1.12B7 #05-03-26
 
 --------------------------------------------------------------------
 
-Changelog Versión 1.12B8 #15-03-26 - 18-03-26
+Changelog Versión 1.12B8 #15-03-26 - 20-03-26
 
 Países:
 	Prusia: Agregada formación de la NGF (con malus) si pierden el Liderazgo. #Parcialmente incorporado.
@@ -242,9 +242,14 @@ Demografía:
 	Seguridad Alimentaria necesaria para evitar Hambruna: 20% -> 25%
 	Necesidades de la Población: 
 		Alimentación Básica:
-			Fruta: Peso: 1 -> 0.925 ; Consumo máximo: 0.5 -> 0.25
+			Fruta: Peso: 1 -> 0.85 ; Consumo máximo: 0.5 -> 0.3
+		Alimentación de Lujo:
+			Fruta: Peso: 0.65 -> 0.625 ; Consumo mínimo: 0.1 -> 0.075 ; Consumo máximo: 0.85 -> 0.7
+			Pescado: Peso: 0.25 -> 0.35 ; Consumo máximo: 0.25 -> 0.35
+			Azúcar: Consumo Máximo: 0.15 -> 0.175
 		Hogar:
 			Papel: Peso: 0.5 -> 0.45 ; Consumo máximo: 0.5 -> 0.35
+		Aumentado el consumo de unidades total de las bebidas de lujo para las poblaciones más pobres (en torno a un 1% de su salario como máximo).
 		# Peso es la prioridad o preferencia que tiene el bien al consumir dicho producto frente a otros en la misma categoría: ex. carne, grano.
 		# Consumo máximo es el porcentaje total del producto que pueden consumir para satisfacer una categoría. Ex: pueden satisfacer un 25% de su alimentación con fruta.
 
