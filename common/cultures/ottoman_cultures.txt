@@ -1,4 +1,4 @@
-﻿greek={
+﻿REPLACE_OR_CREATE:greek={
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = orthodox
 	heritage = heritage_greek
@@ -115,7 +115,7 @@
 }
 
 
-georgian={
+REPLACE_OR_CREATE:georgian={
 	color= hsv{ 0.33 0.26 0.43 }
 	religion = orthodox
 	heritage = heritage_georgian
@@ -264,7 +264,7 @@ georgian={
 	graphics = european
 }
 
-armenian={
+REPLACE_OR_CREATE:armenian={
 	color= hsv{ 0.15 0.55 0.52 }
 	religion = oriental_orthodox
 	heritage = heritage_armenian
@@ -334,7 +334,7 @@ armenian={
 	graphics = european
 }
 
-albanian={
+REPLACE_OR_CREATE:albanian={
 	color= hsv{ 0.10 0.60 0.44 }
 	religion = sunni
 	heritage = heritage_albanian
@@ -485,7 +485,7 @@ albanian={
 	graphics = european
 }
 
-turkish={
+REPLACE_OR_CREATE:turkish={
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = sunni
 	heritage = heritage_anatolian
@@ -643,7 +643,7 @@ turkish={
 	graphics = arabic
 }
 
-romanian={
+REPLACE_OR_CREATE:romanian={
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = orthodox
 	heritage = heritage_romanian

@@ -30,7 +30,7 @@ company_united_tobacco_factories = {
 	possible = {
 		any_scope_state = {
 			state_region = {
-				is_homeland = cu:South_Slavic
+				is_homeland = cu:greek
 			}
 			is_incorporated = yes
 			any_scope_building = {

@@ -488,7 +488,10 @@ german_unification.5 = {
 german_unification.6 = {
 	type = country_event
 	placement = ROOT
-	
+
+	title = german_unification.6.t
+	desc = german_unification.6.d
+	flavor = german_unification.6.f	
 
 	immediate = {
 		every_country = {
@@ -509,9 +512,12 @@ german_unification.6 = {
 			}
 		}
 		change_tag = NGF
+
+		trigger_event = { id = german_unification.7 days = 90 popup = yes }
+
 	}
 
-		event_image = {
+	event_image = {
 		video = "europenorthamerica_political_extremism"
 	}
 
@@ -524,16 +530,166 @@ german_unification.6 = {
 	trigger = {}
 
 	option = {
-		name = german_unification.5.a
+		name = german_unification.6.a
 		default_option = yes
 
-		#modificadores de revanchismo
+		add_radicals = {
+			value = 0.1
+			culture = cu:north_german
+		}
 
-		#radicales norger
+		add_radicals = {
+			value = 0.25
+			pop_type = officers
+		}
+	}
+}
 
-		#radicales fuerzas armadas
+german_unification.7 = {
+	type = country_event
+	placement = ROOT
 
-		#rasgo reaccionario a las fuerzas armadas
+	title = german_unification.7.t
+	desc = german_unification.7.d
+	flavor = german_unification.7.f
+	
+	immediate = {
+	}
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
 
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {}
+
+	option = {
+		name = german_unification.7.a
+		default_option = yes
+
+		trigger = {
+		}
+
+		add_modifier = {
+			name = prussian_revanchism
+			years = 15
+			is_decaying = yes
+		}
+
+		ig:ig_armed_forces ?= {
+            add_ideology = ideology_military_totalists
+        }
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_UPPER_SILESIA }
+			}
+			s:STATE_UPPER_SILESIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_LOWER_SILESIA }
+			}
+			s:STATE_LOWER_SILESIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_RHINELAND }
+			}
+			s:STATE_RHINELAND = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN }
+			}
+			s:STATE_SCHLESWIG_HOLSTEIN = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_SAXONY }
+			}
+			s:STATE_SAXONY = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_HANNOVER }
+			}
+			s:STATE_HANNOVER = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_FRANCONIA }
+			}
+			s:STATE_FRANCONIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BAVARIA }
+			}
+			s:STATE_BAVARIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WURTTEMBERG }
+			}
+			s:STATE_WURTTEMBERG = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BADEN }
+			}
+			s:STATE_BADEN = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WEST_PRUSSIA }
+			}
+			s:STATE_WEST_PRUSSIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_EAST_PRUSSIA }
+			}
+			s:STATE_EAST_PRUSSIA = {
+				add_claim = ROOT
+			}
+		}
 	}
 }

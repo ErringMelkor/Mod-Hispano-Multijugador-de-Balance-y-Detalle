@@ -63,3 +63,21 @@
   company_societe_renault_freres: "Societe Renault Freres"
   prestige_good_renault_automobiles: "Renault Automobile"
   
+  ig_trait_la_buena_vida: "The Good Life"
+  ig_trait_la_buena_vida_desc: "A full stomach, some wines and watching the toros. ¿What else can a man ask for?"
+
+  ideology_republican_paternalistic_usa_desc: ""
+
+  german_unification.6.t: "¡Derrota por el Liderazgo Alemán!"
+  german_unification.6.d: "Pese a los valientes esfuerzos de nuestras tropas, los Austríacos nos han infligido una fuerte derrota. Esto supone un duro revés para nuestras ambiciones políticas, y peor, parece que muchos de entre nuestros oficiales están comenzando a murmurar sobre traiciones en el frente doméstico... Afortunadamente, esta debacle ha permitido aunar la política interior de la Confederación Alemana en un movimiento inesperada, y sus miembros, ante la amenaza del dominio austríaco, viendo el destino de los estados sudalemanes, han preferido unirse a nosotros de libre volición."
+  german_unification.6.f: ""
+  german_unification.6.a: "Más perdimos en las Guerras Napoleónicas. Nos reconstruiremos."
+
+  german_unification.7.t: "¡Golpe de estado en las Fuerzas Armadas!"
+  german_unification.7.d: "Nuestros oficiales se han reunido ante las puertas de nuestra corte, acompañados de soldados y una muchedumbre descontenta. Afortunadamente para nosotros, no están en busca de sangre: parece que solo les interesa el <<bien de la patria>>. Con todo, tienen una serie de demandas que fortalecería su posición en el gobierno y aumentaría la cantidad de tropas disponibles que arrojar al frente, esto es, a expensas de nuestro gobierno civil."
+  german_unification.7.f: ""
+  german_unification.7.a: "Solo tenemos una opción."
+
+  prussian_revanchism: "Prussian Revanchism"
+  ideology_military_totalists: "Military Totalism"
+  ideology_military_totalists_desc: ""

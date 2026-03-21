@@ -186,6 +186,8 @@ Changelog Versión 1.12B8 #15-03-26 - 20-03-26
 
 Países:
 	Prusia: Agregada formación de la NGF (con malus) si pierden el Liderazgo. #Parcialmente incorporado.
+	Gran Bretaña:
+		Deuda inicial aumentada: 13.1m -> 16m
 	
 
 Economía:
@@ -253,8 +255,6 @@ Demografía:
 		# Peso es la prioridad o preferencia que tiene el bien al consumir dicho producto frente a otros en la misma categoría: ex. carne, grano.
 		# Consumo máximo es el porcentaje total del producto que pueden consumir para satisfacer una categoría. Ex: pueden satisfacer un 25% de su alimentación con fruta.
 
-		
-
 Militar:
 	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
 	Tasa de Reclutamiento de los PM Navales (por nivel): 1/1.25/1.5/1.75/2.25 -> 0.75/0.85/1/1.25/1.65
@@ -293,4 +293,13 @@ Bugs:
 Localización:
 	Ajustadas unas 200 líneas de localización, mayormente en Español.
 	Porferinos notifiquen de cualquier otro error, sea de erratas, localización en idioma indebido o falta de esta.
-		
+
+	
+
+
+	
+#TO-DO:
+#	Pulir el evento german_unification.6
+#	Pensar recompensas y maluses para NGF y AUS/SGF.
+#	Rasgo de revanchismo en las fuerzas armadas de las NGF.
+#	JE de reconquistar terreno?.

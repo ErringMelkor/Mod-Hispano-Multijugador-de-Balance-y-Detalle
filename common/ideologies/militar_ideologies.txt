@@ -1,4 +1,4 @@
-﻿ideology_jingoist = {
+﻿REPLACE_OR_CREATE:ideology_jingoist = {
 	icon = "gfx/interface/icons/ideology_icons/jingoist.dds"
 	
 	lawgroup_army_model = {
