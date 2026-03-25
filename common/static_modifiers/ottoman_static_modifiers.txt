@@ -36,7 +36,7 @@ la_ultima_cruzada = {
 }
 
 sponsored_state_jihad  = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_bureaucracy_add = -100
 }
 

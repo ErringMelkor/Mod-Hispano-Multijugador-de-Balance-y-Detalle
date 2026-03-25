@@ -294,10 +294,28 @@ Localización:
 	Ajustadas unas 200 líneas de localización, mayormente en Español.
 	Porferinos notifiquen de cualquier otro error, sea de erratas, localización en idioma indebido o falta de esta.
 
+
+-------
+
+Changelog Versión 1.12B8 #25-03-26
+
+Estados Unidos:
+	Ajustado el funcionamiento de la Guerra Civil Americana:
+		· Ajustados los valores de bonificaciones tnato de USA como de la CSA.
+		· Agregado un modificador al hastío bélico que hace pelear a ambas facciones hasta el último hombre.
+
+Confederación Alemana del Norte:
+	Si Prusia pierde la Guerra de los Hermanos, saltará un evento con dos posibilidades:
+		· Abrazar el militarismo, otorgando una ideología única a las Fuerzas Armadas.
+		· Abrazar la conciliación, estrechando vínculos con la Intelligentsia y los Sindicatos.
+
+Bugs:
+	Arreglada la Catedral de Santiago
+
+Localización:
 	
 
 
-	
 #TO-DO:
 #	Pulir el evento german_unification.6
 #	Pensar recompensas y maluses para NGF y AUS/SGF.
