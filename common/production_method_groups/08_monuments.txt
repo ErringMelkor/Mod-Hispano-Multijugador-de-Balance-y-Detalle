@@ -609,7 +609,7 @@ pmg_base_building_departement_metropolitain = {
 
 	production_methods = {
 		pm_default_building_departement_metropolitain
-		pm_default_building_expanded_département_métropolitain
+		pm_default_building_expanded_departement_metropolitain
 		pm_monument_prestige_only
 		pm_monument_no_effects
 	}

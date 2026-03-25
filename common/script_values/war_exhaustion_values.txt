@@ -1,4 +1,4 @@
-# root = country
+﻿# root = country
 # scope:war = the war we're evaluating war exhaustion for
 # No randomness is allowed in this script value
 

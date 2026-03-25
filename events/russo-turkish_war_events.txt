@@ -401,7 +401,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 		}
 
-		add_primary_culture = cu:South_Slavic
+		add_primary_culture = cu:bulgarian
 
 		
 		add_loyalists = {
@@ -989,7 +989,11 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 		}
 		add_loyalists = {
 			value = 0.1
-			culture = cu:South_Slavic
+			culture = cu:bulgarian
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:serb
 		}
 		add_loyalists = {
 			value = 0.25
@@ -1090,7 +1094,11 @@ russo-turkish_war.8 = { #ottomans lose the war
 		}
 		add_radicals = {
 			value = 0.1
-			culture = cu:South_Slavic
+			culture = cu:bulgarian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:serb
 		}
 		add_radicals = {
 			value = 0.1

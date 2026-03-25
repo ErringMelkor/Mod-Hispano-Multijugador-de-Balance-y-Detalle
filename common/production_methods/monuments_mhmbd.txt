@@ -1290,7 +1290,7 @@ pm_default_building_departement_metropolitain = {
 	}
 }
 
-pm_default_building_expanded_département_métropolitain = {
+pm_default_building_expanded_departement_metropolitain = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
 
 	is_hidden_when_unavailable = no
