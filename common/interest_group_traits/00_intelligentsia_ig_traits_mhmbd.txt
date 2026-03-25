@@ -1,4 +1,4 @@
-# Italia
+﻿# Italia
 
 ig_trait_segundo_renacimiento = {
 	icon = "gfx/interface/icons/ig_trait_icons/avant_garde.dds"

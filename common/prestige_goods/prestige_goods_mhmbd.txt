@@ -1,4 +1,4 @@
-prestige_good_galician_oil = {
+﻿prestige_good_galician_oil = {
 	base_good = oil
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"

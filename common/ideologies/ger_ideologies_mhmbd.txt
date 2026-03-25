@@ -1,4 +1,4 @@
-REPLACE_OR_CREATE:ideology_military_totalists = {
+﻿REPLACE_OR_CREATE:ideology_military_totalists = {
 	icon = "gfx/interface/icons/ideology_icons/unused/jingoist_leader.dds"
 
 	lawgroup_distribution_of_power = {

@@ -1,4 +1,4 @@
-je_matter_of_alsace = {
+﻿je_matter_of_alsace = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_global_international_situations

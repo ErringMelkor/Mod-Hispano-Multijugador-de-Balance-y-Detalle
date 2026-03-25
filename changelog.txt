@@ -304,15 +304,15 @@ Estados Unidos:
 		· Ajustados los valores de bonificaciones tnato de USA como de la CSA.
 		· Agregado un modificador al hastío bélico que hace pelear a ambas facciones hasta el último hombre.
 
-Confederación Alemana del Norte:
+Confederación Alemana del Norte: #Técnicamente ya agregado en el anterior parche, pero no tuve tiempo de anotarlo en el changelog hasta ahora.
 	Si Prusia pierde la Guerra de los Hermanos, saltará un evento con dos posibilidades:
 		· Abrazar el militarismo, otorgando una ideología única a las Fuerzas Armadas.
 		· Abrazar la conciliación, estrechando vínculos con la Intelligentsia y los Sindicatos.
 
 Bugs:
-	Arreglada la Catedral de Santiago
+	Arreglada la Catedral de Santiago.
 
-Localización:
+
 	
 
 

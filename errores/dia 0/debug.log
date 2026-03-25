@@ -1,7 +1,4 @@
-[17:07:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/clausewitz
-[17:07:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/jomini
-[17:07:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/platform_specific_game_data
-[17:07:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game
+
 [17:07:55][jomini_game_setup.cpp:134]: Log system initialized.
 [17:07:55][pdx_task.cpp:83]: Spawning 9 normal worker threads
 [17:07:55][pdx_task.cpp:84]: Spawning 4 below normal worker threads
@@ -15,59 +12,11 @@
 [17:07:56][defines.cpp:230]: Define 'WORLD_MARKET_MONOPOLY_MIN_SHARE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
 [17:07:56][defines.cpp:230]: Define 'HIGH_POP_THRESHOLD' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
 [17:07:56][pdxfilewatcher_windows.cpp:363]: Invalid path passed in Directories: C:/Users/ricar/Documents/Paradox Interactive/Victoria 3/tools_import
-[17:07:56][main.cpp:559]: Total startup duration: 0.5675722 seconds
-[17:07:56][pdx_account.cpp:600]: Starting up PDX SDK
-[17:07:56][gfx_dx11_master_context.cpp:149]: Adapter 0: AMD Radeon RX 6800 XT (16338.22 MB)
-[17:07:56][gfx_dx11_master_context.cpp:149]: Adapter 1: Microsoft Basic Render Driver (0.00 MB)
-[17:07:56][gfx_dx11_master_context.cpp:149]: Selected adapter: AMD Radeon RX 6800 XT (16338.22 MB)
-[17:07:56][gfx_dx11_master_context.cpp:296]: VendorId: 4098
-[17:07:56][gfx_dx11_master_context.cpp:297]: DeviceId: 29631
-[17:07:56][gfx_dx11_master_context.cpp:298]: SubSysId: 1728126638
-[17:07:56][gfx_dx11_master_context.cpp:299]: Revision: 193
-[17:07:56][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "upscale" setting in "Graphics" category.
-[17:07:56][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "upscale_quality" setting in "Graphics" category.
-[17:07:56][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "multi_sampling" setting in "Graphics" category.
-[17:07:56][pdx_audio2.cpp:540]: Legacy setting: audio_profile_headphones_path, use audio_profiles setting instead
-[17:07:56][pdx_audio2.cpp:547]: Legacy setting: audio_profile_tv_path, use audio_profiles setting instead
-[17:07:56][pdx_audio2.cpp:554]: Legacy setting: audio_profile_nightmode_path, use audio_profiles setting instead
-[17:07:56][pdx_audio2.cpp:614]: Creating FMOD sound engine
-[17:07:56][jominiapplication.cpp:698]: DLC:
-Voice of the People Preorder|dlc/dlc006_voice_of_the_people_preorder/dlc006.dlc
-Voice of the People Theme|dlc/dlc005_voice_of_the_people_theme/dlc005.dlc
-Pivot of Empire|dlc/dlc011_ip2/dlc011_ip2.dlc
-Victoria 2 Remastered Soundtrack|dlc/dlc001_preorder/dlc001.dlc
-National Awakening|dlc/dlc014_ip3/dlc014_ip3.dlc
-Songs of the Homeland|dlc/dlc015_songs_of_the_homeland/dlc015.dlc
-Region Pack 1|dlc/dlc008_rp1/dlc008_rp1.dlc
-Free Trains Pack|dlc/dlc009_trains_pack/dlc009_trains_pack.dlc
-Sphere of Influence|dlc/dlc010_ep1/dlc010_ep1.dlc
-Dawn of Wonder|dlc/dlc007_ap1/dlc007_ap1.dlc
-Voice of the People|dlc/dlc004_voice_of_the_people/dlc004.dlc
-Trade Ships Bonus Pack|dlc/dlc012_trade_ships_bonus_pack/dlc012_trade_ships_bonus_pack.dlc
-Charters of Commerce|dlc/dlc013_mp1/dlc013_mp1.dlc
-American Buildings Pack|dlc/dlc002_american_buildings/dlc002.dlc
-Melodies for the Masses|dlc/dlc003_melodies_for_the_masses/dlc003.dlc
-Iberian Twilight|dlc/dlc016_ip4/dlc016_ip4.dlc
+
 Mod:
 Mod Hispano Multijugador de Balance y Detalle|C:\Program Files (x86)\Steam\steamapps\workshop\content\529340\3575706432
 
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc005_voice_of_the_people_theme
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc006_voice_of_the_people_preorder
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc004_voice_of_the_people
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc001_preorder
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc012_trade_ships_bonus_pack
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc010_ep1
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc015_songs_of_the_homeland
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc008_rp1
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc011_ip2
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc014_ip3
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc003_melodies_for_the_masses
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc016_ip4
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc009_trains_pack
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc007_ap1
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc013_mp1
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc002_american_buildings
-[17:07:56][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/workshop/content/529340/3575706432
+
 [17:07:56][dlc.cpp:748]: Mod Mod Hispano Multijugador de Balance y Detalle () version  successfully matched game version 1.12.5.
 [17:07:56][pdx_matchmaking.cpp:70]: Matchmaking Interface: Nakama
 [17:07:56][defines.cpp:230]: Define 'name' defined in 'common/defines/00_audio_persistent_objects.txt' not specified. Maybe a define macro is missing
