@@ -15,7 +15,6 @@ pmg_canning = {
 		pm_cannery_fish
 		pm_cannery_fruit
 		pm_vacuum_canning
-		pm_vacuum_canning_principle_3
 	}
 }
 
@@ -71,7 +70,6 @@ pmg_base_building_furniture_manufactory = {
 		pm_lathe
 		pm_mechanized_workshops
 		pm_electrical_workshops
-		pm_electrical_workshops_principio_industria
 	}
 }
 
@@ -182,7 +180,6 @@ pmg_synthetic_dyes = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_dye_production
-		pm_dye_production_principio_industria
 	}
 }
 

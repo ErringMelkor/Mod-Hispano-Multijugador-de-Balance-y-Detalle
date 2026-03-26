@@ -3582,12 +3582,6 @@ on_country_formed = {
 		}
 		else_if = {
 			limit = {
-				c:HRE ?= ROOT
-			}
-			trigger_event = { id = formation.18 popup = yes }
-		}
-		else_if = {
-			limit = {
 				c:UNL ?= ROOT
 			}
 			trigger_event = { id = formation.19 popup = yes }
@@ -3597,12 +3591,6 @@ on_country_formed = {
 				c:RHN ?= ROOT
 			}
 			trigger_event = { id = formation.20 popup = yes }
-		}
-		else_if = {
-			limit = {
-				c:CLI ?= ROOT
-			}
-			trigger_event = { id = formation.21 popup = yes }
 		}
 		else_if = {
 			limit = {
@@ -3681,7 +3669,6 @@ on_country_formed = {
 			trigger_event = { id = galicia_formation.1 popup = yes }
 		}
 		else = {
-			trigger_event = { id = formation.17 popup = yes }
 		}
 	}
 }

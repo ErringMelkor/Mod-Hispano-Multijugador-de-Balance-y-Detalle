@@ -14,7 +14,6 @@ pmg_explosives_building_coal_mine = {
 		pm_no_explosives
 		pm_nitroglycerin_building_coal_mine
 		pm_dynamite_building_coal_mine
-		pm_dynamite_resource_extraction_principle_coal
 	}
 }
 
@@ -50,7 +49,6 @@ pmg_explosives_building_iron_mine = {
 		pm_no_explosives
 		pm_nitroglycerin_building_iron_mine
 		pm_dynamite_building_iron_mine
-		pm_dynamite_resource_extraction_principle_iron
 	}
 }
 
@@ -86,7 +84,6 @@ pmg_explosives_building_lead_mine = {
 		pm_no_explosives
 		pm_nitroglycerin_building_lead_mine
 		pm_dynamite_building_lead_mine
-		pm_dynamite_resource_extraction_principle_lead
 	}
 }
 
@@ -122,7 +119,6 @@ pmg_explosives_building_sulfur_mine = {
 		pm_no_explosives
 		pm_nitroglycerin_building_sulfur_mine
 		pm_dynamite_building_sulfur_mine
-		pm_dynamite_resource_extraction_principle_sulfur
 	}
 }
 
@@ -158,7 +154,6 @@ pmg_explosives_building_gold_mine = {
 		pm_no_explosives
 		pm_nitroglycerin_building_gold_mine
 		pm_dynamite_building_gold_mine
-		pm_dynamite_resource_extraction_principle_gold
 	}
 }
 

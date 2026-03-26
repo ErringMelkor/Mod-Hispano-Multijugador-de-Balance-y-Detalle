@@ -579,21 +579,6 @@ Unknown trigger type: state_is_in_south_america, near line: 163" in file: "commo
 [23:55:39][eventtargetlinks.cpp:119]: Invalid database object key 'principle_colonial_offices_3' file location: common/ai_strategies/02_diplomatic_strategies.txt:2800
 [23:55:39][eventtargetlinks.cpp:119]: Invalid database object key 'principle_foreign_investment_3' file location: common/treaty_articles/07_foreign_investment_rights.txt:68
 [23:55:39][eventtargetlinks.cpp:119]: Invalid database object key 'principle_foreign_investment_3' file location: common/treaty_articles/18_acquire_monopoly_for_company.txt:83
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: trigger_event effect [ Event not found! EventID: formation.18 ]
-  Script location: common/on_actions/00_code_on_actions.txt:3587
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: trigger_event effect [ Event not found! EventID: formation.20 ]
-  Script location: common/on_actions/00_code_on_actions.txt:3599
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: trigger_event effect [ Event not found! EventID: formation.21 ]
-  Script location: common/on_actions/00_code_on_actions.txt:3605
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: trigger_event effect [ Event not found! EventID: formation.17 ]
-  Script location: common/on_actions/00_code_on_actions.txt:3684
 
 [23:55:39][jomini_eventmanager.cpp:118]: 'raj.1' does not have a valid namespace
 [23:55:39][jomini_script_system.cpp:247]: Script system error!

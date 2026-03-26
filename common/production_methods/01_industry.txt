@@ -127,7 +127,6 @@ pm_cannery_fish = {
 
 pm_vacuum_canning = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
-	replacement_if_valid = pm_vacuum_canning_principle_3
 	
 	unlocking_technologies = {
 		vacuum_canning
