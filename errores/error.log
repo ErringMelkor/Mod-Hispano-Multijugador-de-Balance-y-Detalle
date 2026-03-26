@@ -22,8 +22,6 @@
 [23:56:17][country_law_manager.cpp:444]: Country OZH is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
 [23:56:17][country_law_manager.cpp:444]: Country OZH is not permitted to retain law Serfdom, fix this or consider Homesteading instead
 [23:56:17][country_law_manager.cpp:444]: Country OZH is not permitted to retain law Right of Assembly, fix this or consider Glasnost instead
-[23:56:17][country_law_manager.cpp:444]: Country KAF is not permitted to retain law Mercantilism, fix this or consider Isolationism instead
-[23:56:17][country_law_manager.cpp:444]: Country KAF is not permitted to retain law Outlawed Dissent, fix this or consider Right of Assembly instead
 [23:56:17][country_law_manager.cpp:444]: Country company_russian_american_company is not permitted to retain law Subjecthood, fix this or consider National Supremacy instead
 [23:56:17][country_law_manager.cpp:444]: Country company_russian_american_company is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
 [23:56:17][country_law_manager.cpp:444]: Country company_russian_american_company is not permitted to retain law Tenant Farmers, fix this or consider Homesteading instead
