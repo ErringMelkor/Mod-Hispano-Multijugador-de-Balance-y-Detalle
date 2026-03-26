@@ -625,113 +625,13 @@ Unknown trigger type: state_is_in_south_america, near line: 163" in file: "commo
   Error: trigger_event effect [ Event not found! EventID: raj.2 ]
   Script location: common/diplomatic_actions/46_doctrine_of_lapse.txt:67
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_hardwood ]
-  Script location: common/history/buildings/00_west_europe.txt:7797
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_hardwood ]
-  Script location: common/history/buildings/00_west_europe.txt:8275
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_simple_farming ]
-  Script location: common/history/buildings/02_east_europe.txt:949
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_citrus_orchards ]
-  Script location: common/history/buildings/02_east_europe.txt:949
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_tools_disabled ]
-  Script location: common/history/buildings/02_east_europe.txt:949
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: default_building_vineyard ]
-  Script location: common/history/buildings/02_east_europe.txt:974
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_road_carts ]
-  Script location: common/history/buildings/02_east_europe.txt:974
 
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_hardwood ]
-  Script location: common/history/buildings/06_central_america.txt:975
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_hardwood ]
-  Script location: common/history/buildings/06_central_america.txt:1056
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_hardwood ]
-  Script location: common/history/buildings/06_central_america.txt:1131
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_saw_millss ]
-  Script location: common/history/buildings/08_middle_east.txt:1193
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_pulp_pressing ]
-  Script location: common/history/buildings/10_india.txt:39
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:39
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_dye_workshop ]
-  Script location: common/history/buildings/10_india.txt:314
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_sulfite_pulping ]
-  Script location: common/history/buildings/10_india.txt:327
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:327
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_dye_workshop ]
-  Script location: common/history/buildings/10_india.txt:385
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_pulp_pressing ]
-  Script location: common/history/buildings/10_india.txt:592
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:592
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_dye_workshop ]
-  Script location: common/history/buildings/10_india.txt:642
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_pulp_pressing ]
-  Script location: common/history/buildings/10_india.txt:1064
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:1064
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_pulp_pressing ]
-  Script location: common/history/buildings/10_india.txt:1224
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:1224
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_pulp_pressing ]
-  Script location: common/history/buildings/10_india.txt:2140
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_automation_disabled ]
-  Script location: common/history/buildings/10_india.txt:2140
-
-[23:55:39][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid production method: pm_dye_workshop ]
-  Script location: common/history/buildings/10_india.txt:2302
 
 [23:55:39][jomini_script_system.cpp:247]: Script system error!
   Error: add_modifier effect [ name: Not found in database class NJominiModifier::CStaticModifierDatabase ]

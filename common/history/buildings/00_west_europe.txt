@@ -7805,7 +7805,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={ # Bavarian Ludwig Railway
 				building="building_railway"
@@ -8283,7 +8283,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={ # The vineyards owned by Klemens von Metternich in Nassau, which composed an enclave subject to the Emperor of Austria. Spurred a diplomatic incident in 1848 when Nassau asserted sovereignty over it.
 				building="building_vineyard"
