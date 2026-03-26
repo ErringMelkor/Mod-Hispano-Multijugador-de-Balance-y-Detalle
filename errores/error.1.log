@@ -92,16 +92,7 @@ Failed to read key reference: : , near line: 7" in file: "" near line: 7
 [23:55:34][production_method.cpp:355]: Replacement if Valid references nonexistent Production Method in same building! Method: pm_synthetic_oil_production, PM: pm_synthetic_oil_production_principio_mod
 [23:55:34][production_method.cpp:355]: Replacement if Valid references nonexistent Production Method in same building! Method: pm_dynamite_building_sulfur_mine, PM: pm_dynamite_resource_extraction_principle_sulfur
 [23:55:34][production_method.cpp:355]: Replacement if Valid references nonexistent Production Method in same building! Method: pm_dynamite_building_gold_mine, PM: pm_dynamite_resource_extraction_principle_gold
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_canning, PM: pm_vacuum_canning_principle_3
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_base_building_furniture_manufactory, PM: pm_electrical_workshops_principio_industria
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_synthetic_dyes, PM: pm_dye_production_principio_industria
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_explosives_building_coal_mine, PM: pm_dynamite_resource_extraction_principle_coal
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_explosives_building_iron_mine, PM: pm_dynamite_resource_extraction_principle_iron
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_explosives_building_lead_mine, PM: pm_dynamite_resource_extraction_principle_lead
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_explosives_building_sulfur_mine, PM: pm_dynamite_resource_extraction_principle_sulfur
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_explosives_building_gold_mine, PM: pm_dynamite_resource_extraction_principle_gold
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_synthetic_rubber, PM: pm_synthetic_rubber_production_principio_mod
-[23:55:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_synthetic_oil, PM: pm_synthetic_oil_production_principio_mod
+
 [23:55:35][jomini_mapobject_database.cpp:1051]: 
 [23:55:35][jomini_mapobject_database.cpp:1051]: 
 [23:55:35][jomini_mapobject_database.cpp:1051]: 

@@ -301,7 +301,7 @@ Changelog Versión 1.12B8 #25-03-26
 
 Estados Unidos:
 	Ajustado el funcionamiento de la Guerra Civil Americana:
-		· Ajustados los valores de bonificaciones tnato de USA como de la CSA.
+		· Ajustados los valores de bonificaciones tanto de USA como de la CSA.
 		· Agregado un modificador al hastío bélico que hace pelear a ambas facciones hasta el último hombre.
 
 Confederación Alemana del Norte: #Técnicamente ya agregado en el anterior parche, pero no tuve tiempo de anotarlo en el changelog hasta ahora.
@@ -311,9 +311,7 @@ Confederación Alemana del Norte: #Técnicamente ya agregado en el anterior parc
 
 Bugs:
 	Arreglada la Catedral de Santiago.
-
-
-	
+	Pulido de unos 100 bugs.	
 
 
 #TO-DO:
