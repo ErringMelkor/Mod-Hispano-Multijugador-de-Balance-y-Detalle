@@ -315,7 +315,7 @@ Bugs:
 	
 ------
 
-Changelog Versión 1.12B9 #08-02-26
+Changelog Versión 1.12B80 #08-02-26
 
 Bugs:
 	Pulido de bugs general.
