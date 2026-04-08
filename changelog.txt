@@ -311,8 +311,16 @@ Confederación Alemana del Norte: #Técnicamente ya agregado en el anterior parc
 
 Bugs:
 	Arreglada la Catedral de Santiago.
-	Pulido de unos 100 bugs.	
+	Pulido de unos 100 bugs.
+	
+------
 
+Changelog Versión 1.12B9 #08-02-26
+
+Bugs:
+	Pulido de bugs general.
+	Corregidos algunos errores visuales en JE/Eventos.
+	Corregidos los estados con 0 de población en Indochina.
 
 #TO-DO:
 #	Pulir el evento german_unification.6

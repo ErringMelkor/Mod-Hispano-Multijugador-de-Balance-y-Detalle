@@ -2173,7 +2173,7 @@ NEN = {
 	tier = grand_principality
 
 	cultures = { yankee }
-	capital = STATE_MASSACHUSETTS
+	capital = STATE_GREATER_MASSACHUSETTS
 }
 
 NEW = {

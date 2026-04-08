@@ -1,0 +1,8 @@
+NEN = {
+	states = {
+		STATE_GREATER_MASSACHUSETTS
+		STATE_NEW_ENGLAND
+	}
+
+	ai_will_do = { always = no }
+}

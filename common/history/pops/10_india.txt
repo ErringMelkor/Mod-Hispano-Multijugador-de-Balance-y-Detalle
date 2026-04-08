@@ -91,6 +91,28 @@ POPS = {
 				size = 9012
 			}
 		}
+		region_state:COO = {
+			create_pop = {
+				culture = bengali
+				religion = hindu
+				size = 143012
+			}
+			create_pop = {
+				culture = bengali
+				size = 79012
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				religion = hindu
+				size = 12352
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bengali
+				size = 9012
+			}
+		}
 	}
 	s:STATE_EAST_BENGAL = {
 		region_state:BGL = {

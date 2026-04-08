@@ -76,3 +76,8 @@ REPLACE_OR_CREATE:unreconstructed_state = {
 	state_radicals_from_political_movements_mult = 0.35
 	state_tax_waste_add = 0.5
 }
+
+planear_gran_campana = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_diplomatic_play_maneuvers_add = 35
+}
