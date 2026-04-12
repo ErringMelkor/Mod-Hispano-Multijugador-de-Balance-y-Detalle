@@ -10,3 +10,45 @@
 	country_society_tech_spread_mult = -0.25
 	country_bureaucracy_mult = -0.15
 }
+
+REPLACE_OR_CREATE:bismarck_popular = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 125
+}
+
+REPLACE_OR_CREATE:realpolitik = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_infamy_decay_mult = 0.35
+}
+
+REPLACE_OR_CREATE:schleswig_holstein_question_solver = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_mult = 0.25
+	country_authority_mult = 0.25
+}
+
+REPLACE_OR_CREATE:germany_aggressive_expansion = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_improve_relations_speed_mult = 0.5
+	country_influence_mult = 0.25
+}
+
+REPLACE_OR_CREATE:partial_german_unification_influence_prestige = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+	country_influence_mult = 0.25
+	country_authority_mult = 0.25
+}
+
+REPLACE_OR_CREATE:german_unification_popularity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 75
+}
+
+REPLACE_OR_CREATE:german_unifier_ruler = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 100
+	country_authority_mult = 0.25
+}
+
+

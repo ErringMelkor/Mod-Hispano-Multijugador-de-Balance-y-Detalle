@@ -1,4 +1,4 @@
-﻿state_trait_tiranny_of_distance = {
+﻿REPLACE_OR_CREATE:state_trait_tiranny_of_distance = {
     icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
 		   
 	modifier = {
@@ -7,7 +7,7 @@
     }
 }
 
-state_trait_copper_coast = {
+REPLACE_OR_CREATE:state_trait_copper_coast = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -16,7 +16,7 @@ state_trait_copper_coast = {
 	}
 }
 
-state_trait_pilbara_deposits = {
+REPLACE_OR_CREATE:state_trait_pilbara_deposits = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -24,7 +24,7 @@ state_trait_pilbara_deposits = {
 	}
 }
 
-state_trait_yilgarin_eastern_deposits = {
+REPLACE_OR_CREATE:state_trait_yilgarin_eastern_deposits = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -32,7 +32,7 @@ state_trait_yilgarin_eastern_deposits = {
 	}
 }
 
-state_trait_savage_river = {
+REPLACE_OR_CREATE:state_trait_savage_river = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -41,7 +41,7 @@ state_trait_savage_river = {
 	}
 }
 
-state_trait_great_dividing_range = {
+REPLACE_OR_CREATE:state_trait_great_dividing_range = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
@@ -50,7 +50,7 @@ state_trait_great_dividing_range = {
 	}
 }
 
-state_trait_tasmanian_rainforest = {
+REPLACE_OR_CREATE:tate_trait_tasmanian_rainforest = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
@@ -60,7 +60,7 @@ state_trait_tasmanian_rainforest = {
 	}
 }
 
-state_trait_murray_darling_basin = {
+REPLACE_OR_CREATE:state_trait_murray_darling_basin = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {

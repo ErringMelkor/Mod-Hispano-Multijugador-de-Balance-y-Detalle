@@ -1,0 +1,480 @@
+[15:50:59][pdx_localize.cpp:199]: Duplicate localization key. Key 'ADD_CONSUMPTION_TAX_ENTRY_COST' is defined in both 'localization/english/CTE_interfaces_l_english.yml' and 'localization/english/interfaces_l_english.yml'.
+[15:51:00][pdx_localize.cpp:199]: Duplicate localization key. Key 'ATTITUDE_DETAILS' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
+[15:51:00][pdx_localize.cpp:199]: Duplicate localization key. Key 'ai_attitude_human_tooltip' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
+[15:51:01][pdxassetutil.cpp:1715]: Duplicate texture 'flag_wrinkles_diffuse.dds' found (current path 'gfx/models/utility/flag_wrinkles_diffuse.dds', previous path 'gfx/models/revolution/barricades/flag_wrinkles_diffuse.dds')
+[15:51:01][pdxassetutil.cpp:1715]: Duplicate texture 'flag_wrinkles_normal.dds' found (current path 'gfx/models/utility/flag_wrinkles_normal.dds', previous path 'gfx/models/revolution/barricades/flag_wrinkles_normal.dds')
+[15:51:01][pdxassetutil.cpp:1715]: Duplicate texture 'flag_wrinkles_properties.dds' found (current path 'gfx/models/utility/flag_wrinkles_properties.dds', previous path 'gfx/models/revolution/barricades/flag_wrinkles_properties.dds')
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'GetVariableSystem.Exists('statistics_open'))': ')' 
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'GetVariableSystem.Clear('statistics_open'))': ')' 
+[15:51:03][pdx_gui_localize.cpp:182]: Unlocalized text 'gdp_tooltip' at gui/statistics.gui:675, either localize it or use the raw_text property instead of text
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1920): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1920): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1920): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\backgrounds\white.dds' differs from expected 'gfx/interface/backgrounds/white.dds', why did you format it like this?
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1930): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1930): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1930): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(1930): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('gdp_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2003): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2003): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2003): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2003): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('gdp_per_capita_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2077): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2077): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2077): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2077): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_cultures.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_cultures.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('population_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2151): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2151): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2151): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2151): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_cultures.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_cultures.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('incorporated_population_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2225): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2225): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2225): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2225): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_cultures.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_cultures.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('total_subject_population_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2299): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2299): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2299): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2299): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_cultures.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_cultures.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('state_num_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2373): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2373): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2373): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2373): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('gdp_share_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2447): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2447): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2447): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2447): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_cultures.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_cultures.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('population_share_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2521): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2521): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2521): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2521): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_diplomacy.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_diplomacy.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('literacy_rate_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2595): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2595): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2595): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2595): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_companies.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_companies.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('sol_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2669): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2669): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2669): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2669): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_lobby_pro.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_lobby_pro.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('prestige_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2743): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2743): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2743): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2743): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_lobby_pro.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_lobby_pro.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('infamy_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2817): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2817): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2817): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2817): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_army.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_army.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('army_size_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2891): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2891): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2891): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2891): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_navy.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_navy.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('navy_size_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2965): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2965): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2965): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(2965): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_army.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_army.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('army_power_projection_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3039): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3039): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3039): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3039): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_navy.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_navy.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('navy_power_projection_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3113): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3113): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3113): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3113): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3113): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\unused\top_illu_fronts.dds' differs from expected 'gfx/interface/illustrations/top_illus/unused/top_illu_fronts.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('military_expenses_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3187): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3187): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3187): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3187): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3187): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\unused\top_illu_fronts.dds' differs from expected 'gfx/interface/illustrations/top_illus/unused/top_illu_fronts.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('military_expenses_share_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3261): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3261): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3261): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3261): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_diplomacy.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_diplomacy.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('techs_researched_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3335): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3335): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3335): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3335): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_lobby_pro.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_lobby_pro.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('num_active_interests_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3409): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3409): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3409): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3409): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('expenses_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3483): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3483): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3483): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3483): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('income_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3557): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3557): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3557): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3557): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('investment_pool_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3631): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3631): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3631): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3631): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('investment_pool_income_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3705): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3705): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3705): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3705): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('gold_reserves_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3779): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3779): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3779): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3779): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('gold_reserves_limit_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3853): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3853): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3853): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3853): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('credit_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3927): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3927): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3927): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(3927): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_budget.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_budget.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('debt_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4001): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4001): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4001): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4001): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_companies.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_companies.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('building_levels_value_tt').GetValue)': ')' 
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4075): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4075): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4075): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][lexer.cpp:575]: Location: gui/statistics.gui(4075): Backslash followed by neither quote nor backslash, if you meant to write a single backslash, write two backslashes.
+
+[15:51:03][gfx_texture.cpp:38]: Texture path 'gfx\interface\illustrations\top_illus\top_illu_companies.dds' differs from expected 'gfx/interface/illustrations/top_illus/top_illu_companies.dds', why did you format it like this?
+[15:51:03][pdx_data_statementparser.cpp:230]: Unexpected characters found at end of Statement 'Country.MakeScope.Var('num_convoys_available_value_tt').GetValue)': ')' 
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:1953 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2026 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2100 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2174 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2248 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2322 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2396 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2470 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2544 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2618 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2692 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2766 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2840 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2914 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:2988 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3062 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3136 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3210 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3284 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3358 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3432 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3506 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3580 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3654 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3728 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3802 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3876 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:3950 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:4024 - 'vertical' is not a valid widget/type/property
+[15:51:04][pdx_gui_factory.cpp:611]: gui/statistics.gui:4098 - 'vertical' is not a valid widget/type/property
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_coal_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_billboard_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_billboard_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_billboard_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_coal_01_mesh] is out of sync with its meshsettings. [generic_mining_coal_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_coal_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_lead_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_billboard_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_billboard_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_billboard_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_lead_01_mesh] is out of sync with its meshsettings. [generic_mining_lead_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_lead_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_centerpiece_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:11][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_centerpiece_01_mesh] is out of sync with its meshsettings. [generic_mining_centerpiece_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_centerpiece_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_iron_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_billboard_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_billboard_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_billboard_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:12][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_iron_01_mesh] is out of sync with its meshsettings. [generic_mining_iron_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_iron_01.mesh
+[15:51:13][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/models/papermap/candle_flame_color_02.dds not found'
+[15:51:13][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/models/papermap/candle_flame_normal.dds not found'
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_sulfur_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_billboard_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_billboard_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_billboard_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_sulfur_01_mesh] is out of sync with its meshsettings. [generic_mining_sulfur_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_sulfur_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_0|LOD_0|LOD_0Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_1|LOD_1|LOD_1Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_world (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_2|LOD_2|LOD_2Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:983]: Failed to create material with shader decal_local (in gfx/FX/pdxmesh.shader) for mesh [generic_mining_gold_01|LOD_3|LOD_3|LOD_3Shape] in gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_localdecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_worlddecal_0Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_billboard_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_building_Shape0] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_localdecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_worlddecal_1Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_billboard_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_building_Shape1] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_localdecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_worlddecal_2Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_billboard_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_building_Shape2] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_localdecal_3Shape] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdxassetutil.cpp:1806]: pdxmesh [indian_mining_gold_01_mesh] is out of sync with its meshsettings. [generic_mining_gold_building_Shape3] is not in use in file: gfx/models/buildings/generic/generic_mining/generic_mining_gold_01.mesh
+[15:51:13][pdx_entity.cpp:408]: Couldn't find particle system 'papermap_candle'.
+[15:51:14][lexer.cpp:285]: File 'common/script_values/statistics_sv.txt' should be in utf8-bom encoding (will try to use it anyways)
+[15:51:14][gamedatabase.h:378]: Duplicated key is_princely_state will not be created from file: common/scripted_triggers/scripted_triggers_mbd.txt:53
+[15:51:14][lexer.cpp:285]: File 'common/scripted_effects/statistics_effects.txt' should be in utf8-bom encoding (will try to use it anyways)
+[15:51:14][lexer.cpp:285]: File 'common/scripted_guis/statistics_sgui.txt' should be in utf8-bom encoding (will try to use it anyways)

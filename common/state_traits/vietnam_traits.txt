@@ -1,4 +1,4 @@
-﻿state_trait_indochinese_forest = {
+﻿REPLACE_OR_CREATE:state_trait_indochinese_forest = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
@@ -8,7 +8,7 @@
 	}
 }
 
-state_trait_mekong_delta = {
+REPLACE_OR_CREATE:state_trait_mekong_delta = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {

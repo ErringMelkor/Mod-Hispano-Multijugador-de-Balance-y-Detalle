@@ -26,36 +26,6 @@ USA = {
 
 }
 
-SYR = {
-	color = { 241 245 240 }
-	country_type = unrecognized
-	tier = principality
-	cultures = { mashriqi }
-	religion = sunni
-	capital = STATE_SYRIA
-}
-
-ETH = {
-	color = { 56  120  191 }
-	
-	country_type = unrecognized
-	
-	tier = empire
-	
-	cultures = { amhara oromo tigray Etiope }
-	capital = STATE_GONDER
-}
-
-SHW = {
-	color = { 1 200 200 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { amhara oromo Etiope }
-	capital = STATE_OROMIA
-}
 
 DLH = {
 	color = { 33 96 48 }

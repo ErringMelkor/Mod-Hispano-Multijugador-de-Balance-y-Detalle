@@ -366,37 +366,6 @@ pm_craftsman_sewing = {
 	}
 }
 
-pm_elastics = {
-	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
-
-	unlocking_technologies = {
-		vulcanization
-	}
-
-	unlocking_production_methods = {
-		pm_sewing_machines
-		pm_electric_sewing_machines
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods	
-			goods_input_rubber_add = 10 			# x40 = -400
-			goods_input_silk_add = 25 				# x40 = -1000
-			goods_input_fabric_add = -25			# x20 = 500
-				
-			# output goods	
-			goods_output_clothes_add = -40 			# x30 = -1200
-			goods_output_luxury_clothes_add = 50	# x60 =  3000
-		}
-		
-		level_scaled = {
-			# profit = 900 (23.4)
-			building_employment_shopkeepers_add = 500
-		}						
-	}
-}
-
 pm_traditional_looms = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
@@ -1462,31 +1431,6 @@ pm_dye_production = {
 
 pm_no_artificial_fibers = {
 	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
-}
-
-pm_rayon = {
-	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-
-	unlocking_technologies = {
-		art_silk
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_wood_add = 10
-
-			# output goods
-			goods_output_dye_add = -10
-			goods_output_silk_add = 30
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-			building_employment_machinists_add = 1000
-		}
-	}
 }
 
 pm_blister_steel_process = {

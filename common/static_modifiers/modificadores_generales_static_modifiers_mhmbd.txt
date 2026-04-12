@@ -1,0 +1,32 @@
+REPLACE_OR_CREATE:war_hero_cult = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 75
+}
+
+REPLACE_OR_CREATE:war_hero_fighter = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	unit_army_offense_add = 5
+}
+
+REPLACE_OR_CREATE:decree_agricultural_throughput = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_agriculture_throughput_add = 0.25
+	building_group_bg_plantations_throughput_add = 0.25
+	building_group_bg_ranching_throughput_add = 0.25
+	state_birth_rate_mult = 0.15
+}
+
+REPLACE_OR_CREATE:decree_resource_throughput = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_mining_throughput_add = 0.15
+	building_group_bg_logging_throughput_add = 0.15
+	building_group_bg_fishing_throughput_add = 0.15
+	building_group_bg_whaling_throughput_add = 0.15
+	building_group_bg_oil_extraction_throughput_add = 0.15
+}
+
+REPLACE_OR_CREATE:modifier_against_the_confederation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_mult = 0.25
+	country_diplomatic_play_maneuvers_add = 25
+}

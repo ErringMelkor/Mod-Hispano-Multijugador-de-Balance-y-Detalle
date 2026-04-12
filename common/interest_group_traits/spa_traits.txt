@@ -35,6 +35,6 @@ ig_trait_orden_natural = {
 	min_approval = happy
 
 	modifier = {
-		state_radicals_from_sol_change_mult = -0.1
+		state_radicalism_increases_full_acceptance_mult = -0.15
 	}
 }

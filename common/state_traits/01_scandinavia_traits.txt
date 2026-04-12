@@ -7,7 +7,7 @@
 	}
 }
 
-state_trait_bergslagen = {
+REPLACE_OR_CREATE:state_trait_bergslagen = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -16,7 +16,7 @@ state_trait_bergslagen = {
 	}
 }
 
-state_trait_malmberget = {
+REPLACE_OR_CREATE:state_trait_malmberget = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {
@@ -24,7 +24,7 @@ state_trait_malmberget = {
 	}
 }
 
-state_trait_scanian_soils = {
+REPLACE_OR_CREATE:state_trait_scanian_soils = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 	modifier = {
@@ -32,7 +32,7 @@ state_trait_scanian_soils = {
 	}
 }
 
-state_trait_odensefjorden = {
+REPLACE_OR_CREATE:state_trait_odensefjorden = {
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 
 	modifier = {
@@ -44,7 +44,7 @@ state_trait_odensefjorden = {
 	}
 }
 
-state_trait_oresund = {
+REPLACE_OR_CREATE:state_trait_oresund = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
@@ -53,7 +53,7 @@ state_trait_oresund = {
 	}
 }
 
-state_trait_trondhjemsfjorden = {
+REPLACE_OR_CREATE:state_trait_trondhjemsfjorden = {
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 
 	modifier = {
@@ -66,7 +66,7 @@ state_trait_trondhjemsfjorden = {
 	}
 }
 
-state_trait_hardangerfjorden = {
+REPLACE_OR_CREATE:state_trait_hardangerfjorden = {
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 
 	modifier = {
@@ -79,7 +79,7 @@ state_trait_hardangerfjorden = {
 	}
 }
 
-state_trait_christianiafjorden = {
+REPLACE_OR_CREATE:state_trait_christianiafjorden = {
 	icon = "gfx/interface/icons/state_trait_icons/fjords.dds"
 
 	modifier = {
@@ -91,7 +91,7 @@ state_trait_christianiafjorden = {
 	}
 }
 
-state_trait_kongsberg_silver_mine = {
+REPLACE_OR_CREATE:state_trait_kongsberg_silver_mine = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 
 	modifier = {

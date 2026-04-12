@@ -151,7 +151,6 @@ pm_nitroglycerin_building_coal_mine = {
 
 pm_dynamite_building_coal_mine = {
 	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
-	replacement_if_valid = pm_dynamite_resource_extraction_principle_coal
 
 	unlocking_technologies = {
 		dynamite
@@ -365,7 +364,6 @@ pm_nitroglycerin_building_iron_mine = {
 
 pm_dynamite_building_iron_mine = {
 	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
-	replacement_if_valid = pm_dynamite_resource_extraction_principle_iron
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
@@ -590,7 +588,6 @@ pm_nitroglycerin_building_lead_mine = {
 
 pm_dynamite_building_lead_mine = {
 	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
-	replacement_if_valid = pm_dynamite_resource_extraction_principle_lead
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
@@ -762,7 +759,6 @@ pm_nitroglycerin_building_sulfur_mine = {
 
 pm_dynamite_building_sulfur_mine = {
 	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
-	replacement_if_valid = pm_dynamite_resource_extraction_principle_sulfur
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
@@ -965,7 +961,6 @@ pm_nitroglycerin_building_gold_mine = {
 
 pm_dynamite_building_gold_mine = {
 	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
-	replacement_if_valid = pm_dynamite_resource_extraction_principle_gold
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10

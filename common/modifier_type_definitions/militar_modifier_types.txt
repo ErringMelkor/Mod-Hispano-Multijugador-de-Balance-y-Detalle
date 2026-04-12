@@ -5,11 +5,6 @@ country_institution_size_change_speed_institution_military_mult = {
 
 }
 
-country_institution_cost_institution_military_mult = {
-
-	percent = yes
-}
-
 # --- CAVALRY --- #
 
 unit_combat_unit_type_revolver_cavalry_offense_add={
@@ -241,7 +236,7 @@ unit_combat_unit_type_skirmish_infantry_offense_add = {
 		ai_value=0
 	}
 }
-unit_combat_unit_type_trench_infantry_offense_add={
+REPLACE_OR_CREATE:unit_combat_unit_type_trench_infantry_offense_add={
 	decimals=0
 	color=good
 	game_data={
@@ -249,7 +244,7 @@ unit_combat_unit_type_trench_infantry_offense_add={
 	}
 }
 
-unit_combat_unit_type_squad_infantry_offense_add={
+REPLACE_OR_CREATE:unit_combat_unit_type_squad_infantry_offense_add={
 	decimals=0
 	color=good
 	game_data={
@@ -257,7 +252,7 @@ unit_combat_unit_type_squad_infantry_offense_add={
 	}
 }
 
-unit_combat_unit_type_mechanized_infantry_offense_add={
+REPLACE_OR_CREATE:unit_combat_unit_type_mechanized_infantry_offense_add={
 	decimals=0
 	color=good
 	game_data={
@@ -364,7 +359,7 @@ unit_combat_unit_type_mechanized_infantry_defense_add={
 	}
 }
 
-unit_combat_unit_type_irregular_infantry_defense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_irregular_infantry_defense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -372,7 +367,7 @@ unit_combat_unit_type_irregular_infantry_defense_mult = {
 		ai_value=0
 	}
 }
-unit_combat_unit_type_line_infantry_defense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_line_infantry_defense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -381,7 +376,7 @@ unit_combat_unit_type_line_infantry_defense_mult = {
 	}
 }
 
-unit_combat_unit_type_skirmish_infantry_defense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_skirmish_infantry_defense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -444,7 +439,7 @@ unit_combat_unit_type_siege_artillery_offense_add = {
 	}
 }
 
-unit_combat_unit_type_mobile_artillery_offense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_mobile_artillery_offense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -453,7 +448,7 @@ unit_combat_unit_type_mobile_artillery_offense_mult = {
 	}
 }
 
-unit_combat_unit_type_shrapnel_artillery_offense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_shrapnel_artillery_offense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -462,7 +457,7 @@ unit_combat_unit_type_shrapnel_artillery_offense_mult = {
 	}
 }
 
-unit_combat_unit_type_siege_artillery_offense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_siege_artillery_offense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -504,7 +499,7 @@ unit_combat_unit_type_mobile_artillery_defense_mult = {
 	}
 }
 
-unit_combat_unit_type_shrapnel_artillery_defense_mult = {
+REPLACE_OR_CREATE:unit_combat_unit_type_shrapnel_artillery_defense_mult = {
 	decimals=0
 	color=good
 	percent=yes
@@ -528,7 +523,7 @@ unit_combat_unit_type_siege_artillery_defense_mult = {
 
 # --- TANKS --- #
 
-unit_combat_unit_type_light_tanks_offense_mult={
+REPLACE_OR_CREATE:unit_combat_unit_type_light_tanks_offense_mult={
 	decimals=0
 	color=good
 	percent=yes

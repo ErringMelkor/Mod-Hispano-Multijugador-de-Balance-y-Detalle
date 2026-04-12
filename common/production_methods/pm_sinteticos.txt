@@ -1,6 +1,5 @@
 ﻿pm_synthetic_rubber_production = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
-	replacement_if_valid = pm_synthetic_rubber_production_principio_mod
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -30,7 +29,6 @@
 
 pm_synthetic_oil_production = {
 	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
-	replacement_if_valid = pm_synthetic_oil_production_principio_mod
 
 	state_modifiers = {
 		workforce_scaled = {
@@ -58,7 +56,7 @@ pm_synthetic_oil_production = {
 	}
 }
 
-pm_rayon = {
+REPLACE_OR_CREATE:pm_rayon = {
 	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
 
 	unlocking_technologies = {
@@ -84,7 +82,7 @@ pm_rayon = {
 }
 
 
-pm_elastics = {
+REPLACE_OR_CREATE:pm_elastics = {
 	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
 
 	unlocking_technologies = {

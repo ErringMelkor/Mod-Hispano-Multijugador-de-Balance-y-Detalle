@@ -1,13 +1,22 @@
-﻿opium_wars_lost1 = {
+﻿REPLACE_OR_CREATE:opium_wars_lost1 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 }
 
-opium_wars_no_response = {
+REPLACE_OR_CREATE:opium_wars_no_response = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
 }
 
-opium_wars_response = {
+REPLACE_OR_CREATE:opium_wars_response = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+}
+
+REPLACE_OR_CREATE:opium_wars_lost = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+}
+
+REPLACE_OR_CREATE:opium_wars_export_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_trade_advantage_mult = 0.25
 }
 
 modifier_imperial_examinations = {
