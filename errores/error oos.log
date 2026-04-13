@@ -5,24 +5,6 @@
 [17:58:56][pdxassetutil.cpp:1715]: Duplicate texture 'flag_wrinkles_normal.dds' found (current path 'gfx/models/utility/flag_wrinkles_normal.dds', previous path 'gfx/models/revolution/barricades/flag_wrinkles_normal.dds')
 [17:58:56][pdxassetutil.cpp:1715]: Duplicate texture 'flag_wrinkles_properties.dds' found (current path 'gfx/models/utility/flag_wrinkles_properties.dds', previous path 'gfx/models/revolution/barricades/flag_wrinkles_properties.dds')
 
-[17:59:09][pdx_entity.cpp:408]: Couldn't find particle system 'papermap_candle'.
-
-[17:59:11][gamedatabase.h:378]: Duplicated key japan_diplomatic_reward will not be created from file: common/static_modifiers/meiji_modificador.txt:1
-[17:59:11][gamedatabase.h:378]: Duplicated key japan_production_reward will not be created from file: common/static_modifiers/meiji_modificador.txt:9
-[17:59:11][gamedatabase.h:378]: Duplicated key ottoman_army_reform will not be created from file: common/static_modifiers/ottoman_static_modifiers.txt:1
-[17:59:11][gamedatabase.h:378]: Duplicated key ottoman_urbanization will not be created from file: common/static_modifiers/ottoman_static_modifiers.txt:8
-[17:59:11][gamedatabase.h:378]: Duplicated key ottoman_education will not be created from file: common/static_modifiers/ottoman_static_modifiers.txt:14
-[17:59:11][gamedatabase.h:378]: Duplicated key outmoded_bureaucracy will not be created from file: common/static_modifiers/ottoman_static_modifiers.txt:19
-[17:59:11][gamedatabase.h:378]: Duplicated key sick_man_of_europe will not be created from file: common/static_modifiers/ottoman_static_modifiers.txt:25
-[17:59:11][gamedatabase.h:378]: Duplicated key russian will not be created from file: common/cultures/00_rus_cultures.txt:2
-
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Iesada in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Iemochi in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Sanetomi in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Kaoru in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Saionji in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Sanjo in culture japanese
-[17:59:12][culture_type.cpp:178]: Missing localization key for name Kinmochi in culture japanese
 [17:59:12][building_group.cpp:91]: Building group bg_hardwood_logging has invalid parent building group building_logging_camp
 
 [17:59:13][jomini_effect.cpp:541]: Unknown effect remove_ig_trait at common/interest_groups/00_devout.txt:230
@@ -127,8 +109,6 @@ Unknown trigger type: country_is_in_north_america, near line: 40" in file: "even
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 93" in file: "common/decisions/00_decisions.txt" near line: 93
 [17:59:14][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/decisions/00_decisions.txt:94
 
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 94" in file: "common/decisions/00_decisions.txt" near line: 100
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 130" in file: "common/decisions/00_decisions.txt" near line: 130
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 36" in file: "common/decisions/00_fra_decisions.txt" near line: 36
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 47" in file: "common/decisions/bol_decisions.txt" near line: 47
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 34" in file: "common/decisions/ita_decisions.txt" near line: 34
@@ -144,32 +124,18 @@ Unknown trigger type: country_is_in_north_america, near line: 40" in file: "even
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 37" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 45
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 57" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 65
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 77" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 85
+
 [17:59:14][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:68
 [17:59:14][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:69
 [17:59:14][jomini_trigger.cpp:721]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:107
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 6" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 9
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 111" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 114
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 216" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 219
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 321" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 324
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 426" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 429
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 531" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 534
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 639" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 642
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 727" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 730
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 814" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 817
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 901" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 904
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 988" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 991
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_africa, near line: 1075" in file: "common/scripted_buttons/00_colonial_administration_buttons.txt" near line: 1078
+
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key . common/scripted_buttons/00_russia_scripted_buttons_mhmbd.txt:4
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key . common/scripted_buttons/00_russia_scripted_buttons_mhmbd.txt:27
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key . common/scripted_buttons/00_russia_scripted_buttons_mhmbd.txt:51
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key . common/scripted_buttons/00_russia_scripted_buttons_mhmbd.txt:81
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key . common/scripted_buttons/00_russia_scripted_buttons_mhmbd.txt:109
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_north_america, near line: 344" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 350
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_north_america, near line: 362" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 368
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 715" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 715
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 762" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 762
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 778" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 778
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 839" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 839
+
+
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 31" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 31
 [17:59:14][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt:32
 
@@ -188,15 +154,7 @@ Unknown trigger type: country_is_in_north_america, near line: 40" in file: "even
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 373" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 381
 [17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/risorgimento.dds not found'
 [17:59:14][gamedatabase.h:378]: Duplicated key je_brazilian_nation_building will not be created from file: common/journal_entries/04_brazilian_nation_building.txt:1
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/innovation.dds not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/ireland.dds not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/mex.dds not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/waving_flag_ger.dds not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/ruswar.png not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/ruswar.png not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/ruswar.png not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/ruswar.png not found'
-[17:59:14][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icons/turwar.dds not found'
+
 [17:59:14][gamedatabase.h:378]: Duplicated key je_terakoya will not be created from file: common/journal_entries/teriyaki_je.txt:1
 [17:59:15][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_group_building_rubber_plantation_mortality_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_group_building_rubber_plantation_mortality_mult, near line: 656" in file: "common/company_types/00_companies_americas.txt" near line: 656
 [17:59:15][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_navy_defense_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_navy_defense_mult, near line: 157" in file: "common/company_types/00_companies_cots.txt" near line: 157
