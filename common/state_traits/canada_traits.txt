@@ -1,4 +1,4 @@
-﻿state_trait_grand_banks_fisheries = {
+﻿REPLACE_OR_CREATE:state_trait_grand_banks_fisheries = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 	
 	modifier = {
@@ -7,27 +7,27 @@
 	}
 }
 
-state_trait_great_lakes = {
+REPLACE_OR_CREATE:state_trait_great_lakes = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
 		state_infrastructure_add = 15
-		building_group_bg_fishing_throughput_add = 0.1
+		building_group_bg_fishing_throughput_add =  0.1
 	}	
 }
 
-state_trait_halifax_harbor = {
+REPLACE_OR_CREATE:state_trait_halifax_harbor = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
+		building_shipyard_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
 		
 		state_building_naval_base_max_level_add = 15
 	}
 }
 
-state_trait_canadian_prairies = {
+REPLACE_OR_CREATE:state_trait_canadian_prairies = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {
@@ -36,7 +36,7 @@ state_trait_canadian_prairies = {
 	}
 }
 
-state_trait_northern_canadian_terrain = {
+REPLACE_OR_CREATE:state_trait_northern_canadian_terrain = {
 	icon = "gfx/interface/icons/state_trait_icons/cold_climate.dds"
 	
 	modifier = {
@@ -47,7 +47,7 @@ state_trait_northern_canadian_terrain = {
 	}
 }
 
-state_trait_canadian_forests = {
+REPLACE_OR_CREATE:state_trait_canadian_forests = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
@@ -55,10 +55,11 @@ state_trait_canadian_forests = {
 	}
 }
 
-state_trait_red_cedar = {
+REPLACE_OR_CREATE:state_trait_red_cedar = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {
 		building_group_bg_logging_throughput_add = 0.3
+		goods_output_hardwood_mult = 0.25
 	}
 }

@@ -73,11 +73,12 @@ JAP_showa_yamato = {
 	birth_date = 1901.1.1
 	interest_group = ig_armed_forces
 	traits = {
+		reserved
 	}
 }
 
 # Tokugawa Shogunate
-JAP_ienari_tokugawa = {
+REPLACE_OR_CREATE:JAP_ienari_tokugawa = {
     ruler = yes
     first_name = Ienari
     last_name = Tokugawa
@@ -90,6 +91,7 @@ JAP_ienari_tokugawa = {
     traits = {
         arrogant
         expensive_tastes # bit of corruption
+		tuberculosis
     }
 }
 
@@ -103,8 +105,222 @@ JAP_ieyoshi_tokugawa = {
 	interest_group = ig_landowners
 	ideology = ideology_traditionalist
 	traits = {
-		meticulous
 		pious
+		reserved
+		sickly
+	}
+}
+
+JAP_iesada_tokugawa = {
+	first_name = Iesada
+	last_name = Tokugawa
+	historical = yes
+	noble = yes
+	heir = yes
+	culture = primary_culture
+	birth_date = 1824.5.24
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	traits = {
+		sickly
+		reserved
+	}
+}
+
+JAP_iemochi_tokugawa = {
+	first_name = Iemochi
+	last_name = Tokugawa
+	historical = yes
+	noble = yes
+	heir = yes
+	culture = primary_culture
+	birth_date = 1846.7.17
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	traits = {
+		cancer
+		reserved
+	}	
+}
+
+JAP_yoshinobu_tokugawa = {
+	first_name = Yoshinobu
+	last_name = Tokugawa
+	historical = yes
+	noble = yes
+	heir = yes
+	culture = primary_culture
+	birth_date = 1837.10.28
+	interest_group = ig_landowners
+	ideology = ideology_modernizer_leader
+	traits = {
+		persistent
+		innovative
+		ambitious
+		imperious
+	}
+}
+
+### Políticos ###
+
+JAP_sanjo_sanetomi = {
+	first_name = Sanetomi
+	last_name = Sanjo
+	historical = yes
+	birth_date = 1837.3.13
+	culture = cu:japanese
+	interest_group = ig_landowners
+	ideology = ideology_modernizer_leader
+	traits = {
+		innovative
+		meticulous
+		master_bureaucrat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			c:JAP ?= THIS
+		}
+		interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+		earliest_usage_date = 1863.1.1
+		latest_usage_date = 1890.1.1
+		chance = 100
+	}	
+}
+
+JAP_inoue_kaoru = {
+	first_name = Kaoru
+	last_name = Inoue
+	historical = yes
+	birth_date = 1836.1.16
+	culture = cu:japanese
+	interest_group = ig_industrialists
+	ideology = ideology_modernizer_leader
+	traits = {
+		innovative
+		meticulous
+		master_bureaucrat
+		masterful_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			c:JAP ?= THIS
+		}
+		interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }
+		earliest_usage_date = 1856.1.1
+		latest_usage_date = 1895.1.1
+		chance = 100
+	}
+}
+
+JAP_saionji_kinmochi = {
+	first_name = Saionji
+	last_name = Kinmochi
+	historical = yes
+	birth_date = 1849.12.7
+	culture = cu:japanese
+	interest_group = ig_industrialists
+	ideology = ideology_constitutionalist
+	traits = {
+		cautious
+		persistent
+		reserved
+		masterful_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			c:JAP ?= THIS
+		}
+		interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1920.1.1
+		chance = 100
+	}
+}
+
+
+### Generales ###
+
+JAP_yamagata_aritomo = {
+	first_name = Yamagata
+	last_name = Aritomo
+	historical = yes
+	birth_date = 1838.6.14
+	culture = cu:japanese
+	interest_group = ig_armed_forces
+	ideology = ideology_ethno_nationalist
+	traits = {
+		bigoted
+		expert_offensive_planner
+		ambitious
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			c:JAP ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1858.1.1
+		latest_usage_date = 1882.1.1
+		chance = 100
+	}
+}
+
+### Almirantes ###
+
+JAP_kabayama_sukenori = {
+	first_name = Kabayama
+	last_name = Sukenori
+	historical = yes
+	birth_date = 1837.12.9
+	culture = cu:japanese
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist_leader
+	traits = {
+		expert_naval_commander
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			c:JAP ?= THIS
+		}
+		role = admiral
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1892.1.1
+		chance = 100
+	}
+}
+
+### Agitadores ###
+
+JAP_saigo_takamori = { # Generado por evento
+	first_name = Saigo
+	last_name = Takamori
+	historical = yes
+	is_agitator = yes
+	birth_date = 1828.1.23
+	culture = cu:japanese
+	interest_group = ig_armed_forces
+	ideology = ideology_samurai_modernizer
+	traits = {
+		bigoted
+		expert_offensive_planner
+		ambitious
+		direct
+		firebrand
 	}
 }
 
@@ -115,7 +331,6 @@ JAP_iwasaki_yataro = { # Iwasaki Yatarō, Mitsubishi
     last_name = Iwasaki
     historical = yes
     birth_date = 1835.1.9
-    dna = dna_iwasaki_yataro
     culture = cu:japanese
     interest_group = ig_industrialists
     ideology = ideology_modernizer_leader

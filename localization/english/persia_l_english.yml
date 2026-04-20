@@ -21,6 +21,9 @@
  golden_crescent.2.d: "Our plantations exceed expectations."
  golden_crescent.2.f: "As our plantation economy develops we require even more hands to man the fields. Until we find a way to reduce the workload, we must decide on a course of action to keep increasing our economy."
 
+ production_tech_events.401.c: "Get every drop from those wells!"
+ production_tech_events.401.e: "We'll find more things to put oil in!"
+ production_tech_events.401.h: "We'll find more things to put oil in!"
  
  golden_crescent_slavery: "Importing slaves"
  golden_crescent_workers: "Encourage workers"

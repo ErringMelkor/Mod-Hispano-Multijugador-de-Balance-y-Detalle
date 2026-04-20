@@ -1,5 +1,5 @@
 ﻿je_terakoya = {
-	icon = "gfx/interface/icons/event_icons/innovation.dds"
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	group = je_group_historical_content
 
@@ -17,7 +17,7 @@
 	on_complete = {
 		add_modifier = {
 			name = modifier_legacy_of_terakoya
-			years = 35
+			years = 50
 			is_decaying = yes
 		}
 	}

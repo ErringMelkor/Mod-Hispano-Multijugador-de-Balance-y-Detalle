@@ -1,12 +1,4 @@
-﻿ig_trait_vuelva_usted_manana = {
-	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
-	min_approval = unhappy
-	
-	modifier = {
-		country_law_enactment_time_mult = 0.25
-		country_bureaucracy_mult = -0.05
-	}
-}
+﻿
 
 ig_trait_ideal_gaditano = {
 	icon = "gfx/interface/icons/ig_trait_icons/propagandists.dds"
@@ -28,15 +20,6 @@ ig_trait_firmeza_y_mesura = {
 	}
 }
 
-ig_trait_santiago_y_cierra = {
-	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
-	min_approval = happy
-	
-	modifier = {	
-		unit_morale_loss_mult = -0.15
-	}
-}
-
 ig_trait_tierra_dorada = {
 	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
 	min_approval = loyal
@@ -52,6 +35,6 @@ ig_trait_orden_natural = {
 	min_approval = happy
 
 	modifier = {
-		state_radicals_from_sol_change_mult = -0.1
+		state_radicalism_increases_full_acceptance_mult = -0.15
 	}
 }

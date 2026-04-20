@@ -1375,9 +1375,7 @@
 		scope:frontier_gen = {
 			transfer_to_formation = scope:frontier_army
 		}
-	}
 
-	c:MRT ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_bombay

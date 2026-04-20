@@ -131,6 +131,12 @@
 				size = 19000
 			}
 		}
+		region_state:KKI = {
+			create_pop = {
+				culture = lushai
+				size = 25888
+			}
+		}
 	}
 	s:STATE_TENASSERIM = {
 		region_state:SIA = {
@@ -261,6 +267,12 @@
 				pop_type = slaves
 				culture = burmese
 				size = 50200
+			}
+		}
+		region_state:KKI = {
+			create_pop = {
+				culture = lushai
+				size = 37012
 			}
 		}
 	}
@@ -461,6 +473,13 @@
 				size = 320100
 			}
 		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 29000
+			}
+		}
 	}
 	s:STATE_ANNAM = {
 		region_state:DAI = {
@@ -578,6 +597,31 @@
 				size = 4000
 			}
 		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 11000
+			}
+		}
+		region_state:DAI = {
+			create_pop = {
+				culture = lao
+				size = 64918
+			}
+			create_pop = {
+				culture = khmu
+				size = 6900
+			}
+			create_pop = {
+				culture = thai
+				size = 18334
+			}
+			create_pop = {
+				culture = miao
+				size = 2400
+			}
+		}		
 		region_state:SIA = {
 			create_pop = {
 				culture = lao

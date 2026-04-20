@@ -1,5 +1,9 @@
 ﻿# This is executed last among all history
 GLOBAL = {
+
+	add_contextless_journal_entry = je_peru_bolivia
+	add_contextless_journal_entry = je_the_first_carlist_war
+
 	every_country = {
 		limit = { NOT = { has_law_or_variant = law_type:law_slavery_banned } }
 		if = {
@@ -7,7 +11,7 @@ GLOBAL = {
 				has_law_or_variant = law_type:law_colonial_slavery
 			}
 			ig:ig_landowners ?= { add_ideology = ideology_pro_slavery_colonial }
-	}
+		}
 		else = {
 			ig:ig_landowners ?= { add_ideology = ideology_pro_slavery }
 		}
@@ -15,51 +19,258 @@ GLOBAL = {
 
 	every_country = {
 		limit = {
-			has_law_or_variant = law_type:law_monarchy
+			has_law = law_type:law_monarchy
 			has_law_or_variant = law_type:law_autocracy
 		}
 		set_variable = king_in_parliament_possible
 	}
 
-	c:BRZ ?= {
-		set_variable = {
-			name = pedropoints
-			value = 5
+	every_country = {
+		limit = {
+			is_historical_spanish_american_colony = yes
+			NOT = {
+				any_overlord_or_above = {
+					c:SPA ?= this
+				}
+			}
+		}
+		add_treasury = { # Heavy debt from wars of independence
+			value = yearly_gross_income
+			multiply = -0.5 # 1.5
+		}
+		if = {
+			limit = {
+				has_dlc_feature = ip4_content
+			}
+			add_modifier = { # Spain does not formally recognize her former colonies in America at game-start
+				name = modifier_not_recognized_by_spain
+			}
+			add_journal_entry = {
+				type = je_spanish_american_independence
+			}
 		}
 	}
 
-	### Debt
-
-	c:HAI = {
+	c:HAI ?= {
 		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -1.0
+			multiply = -0.75
+		}
+		every_scope_state = { # Haiti and Santo Domingo
+			add_radicals_in_state = {
+				culture = cu:spanish
+				value = 0.30
+			}
+			add_radicals_in_state = {
+				culture = cu:caribeno
+				value = 0.20
+			}
+			add_radicals_in_state = {
+				culture = cu:afro_caribeno
+				value = 0.10
+			}
 		}
 	}
 
-	c:BIC ?= {
-		every_subject_or_below = {
+	c:POR ?= {
+		capital = {
+			add_radicals_in_state = {
+				value = 0.25
+			}
+		}
+		every_scope_state = {
 			limit = {
-				capital = {
+				is_capital = no
+				is_incorporated = yes
+			}
+			add_radicals_in_state = {
+				value = 0.10
+			}
+		}
+		s:STATE_ALENTEJO = { # Active insurrection at the time
+			random_scope_state = {
+				add_radicals_in_state = {
+					value = 0.10
+				}
+			}
+		}
+	}
+
+	c:SPA ?= {
+		capital = {
+			add_radicals_in_state = {
+				value = 0.15
+			}
+		}
+		every_scope_state = {
+			limit = {
+				state_region = {
 					OR = {
-						region = sr:region_madras
-						region = sr:region_bombay
-						region = sr:region_bengal
-						region = sr:region_central_india
-						region = sr:region_punjab
-						region = sr:region_himalayas
-						state_region = s:STATE_MANDALAY
-						state_region = s:STATE_KACHIN
-						state_region = s:STATE_SHAN_STATES
-						state_region = s:STATE_PEGU
+						is_homeland = cu:basque
+						is_homeland = cu:catalan
+						s:STATE_ARAGON ?= this
 					}
 				}
 			}
-			set_variable = princely_state
+			add_radicals_in_state = {
+				value = 0.25
+			}
 		}
-		add_treasury = { # EIC was slightly in debt at game start
+		every_scope_state = {
+			limit = {
+				NOR = {
+					state_region = {
+						OR = {
+							is_homeland = cu:basque
+							is_homeland = cu:catalan
+							s:STATE_ARAGON ?= this
+						}
+					}
+					is_capital = yes
+				}
+			}
+			add_radicals_in_state = {
+				value = 0.07
+			}
+		}
+		add_modifier = {
+			name = national_guard_preoccupied
+		}
+	}
+	
+	# Debt - to compensate for our relatively low credit limits, all debts are ~3x lighter than they were historically. Capped out at a -2.5x modifier.
+	c:SPA ?= { # Spain was broke, with a "B" emoji. Historically 22:1 ratio of debt to revenue.
+		add_treasury = {
+			value = yearly_gross_income
+			multiply = -1 # 2.0 - should be -7.3, but this is literally unplayable.
+		}
+	}
+
+	c:POR ?= { # Portugal defaulted over and over again on foreign loans around game start. Historically 3:1 ratio of debt to revenue.
+		add_treasury = {
+			value = yearly_gross_income
+			multiply = -1.5
+		}
+	}	
+
+	c:SPC ?= {
+		add_modifier = {
+			name = captured_royal_arsenals
+			days = normal_modifier_time
+			is_decaying = yes
+			multiplier = 15
+		}
+		add_treasury = {
 			value = gold_reserves_limit
-			multiply = -0.6
+		}
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_ARAGON
+					state_region = s:STATE_CATALONIA
+					state_region = s:STATE_BASQUE_COUNTRY
+				}
+			}
+			add_modifier = {
+				name = spc_raided_grain_storages
+				days = normal_modifier_time
+			}
+			if = {
+				limit = {
+					state_region = s:STATE_ARAGON
+				}
+				add_modifier = {
+					name = ad_hoc_manufacturing
+					days = normal_modifier_time
+					multiplier = 3
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_BASQUE_COUNTRY
+				}
+				add_modifier = {
+					name = ad_hoc_manufacturing_negative
+					days = normal_modifier_time
+					multiplier = 3
+				}
+				add_modifier = {
+					name = pyrenean_smuggling
+					days = normal_modifier_time
+				}
+			}
+		}
+	}
+
+	c:NET ?= { # Historically 3.2:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.66
+		}
+	}
+
+	c:AUS ?= { # Historically 5.33:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -1.29
+		}
+	}
+
+	c:GBR ?= { # Deuda de las Guerras Napoleónicas + Liberación de esclavos.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -3.7
+		}
+	}
+
+	c:FRA ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.8
+		}
+	}
+	c:RUS ?= {
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.27
+		}
+	}
+
+	c:PRU ?= { # Historically 3.8:1 ratio of debt to yearly revenue
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.84
+		}
+	}
+
+	c:MON ?= { # Were not wealthy, their gold_reserves limit is inflated, but we give the player a little time to figure themselves out.
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.40
+		}
+	}
+
+	c:TUR ?= {
+		add_treasury = {
+			value = 1800000
+		}
+	}
+
+	every_country = { # Other Balkan countries - none should be too "rich"
+		limit = {
+			OR = {
+				c:SER ?= this
+				c:WAL ?= this
+				c:MOL ?= this
+				c:GRE ?= this
+				c:HUN ?= this
+				c:CRO ?= this
+				c:TRS ?= this
+			}
+		}
+		add_treasury = {
+			value = gold_reserves_limit
+			multiply = -0.5
 		}
 	}
 
@@ -84,6 +295,10 @@ GLOBAL = {
 		}
 	}
 
+	set_global_variable = { name = num_coups value = 0 }
+	set_global_variable = { name = failed_coups value = 0 }
+	set_global_variable = { name = successful_coups value = 0 }
+
 ###ACHIEVEMENT VARIABLES###
 
 	#Serf's Up
@@ -96,7 +311,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:PRU
-			this = c:PRU
+			c:PRU ?= THIS
 		}
 		set_variable = the_berlin_conference_ach_possible
 	}
@@ -105,7 +320,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:EGY
-			this = c:EGY
+			c:EGY ?= THIS
 		}
 		set_variable = muhammed_alis_ambition_ach_possible
 	}
@@ -130,7 +345,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:GBR
-			this = c:GBR
+			c:GBR ?= THIS
 		}
 		set_variable = we_are_not_amused_ach_possible
 	}
@@ -139,7 +354,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:USA
-			this = c:USA
+			c:USA ?= THIS
 		}
 		set_variable = star_swarmed_banner_ach_possible
 	}
@@ -148,7 +363,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:BIC
-			this = c:BIC
+			c:BIC ?= THIS
 		}
 		set_variable = peccavi_ach_possible
 	}
@@ -157,7 +372,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:FIN
-			this = c:FIN
+			c:FIN ?= THIS
 		}
 		set_variable = perkeletankki_ach_possible
 	}
@@ -166,7 +381,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:LUX
-			this = c:LUX
+			c:LUX ?= THIS
 		}
 		set_variable = luxurious_luxembourg_ach_possible
 	}
@@ -175,7 +390,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:GBR
-			this = c:GBR
+			c:GBR ?= THIS
 		}
 		set_variable = anarchy_in_the_uk_ach_possible
 	}
@@ -184,7 +399,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:PAN
-			this = c:PAN
+			c:PAN ?= THIS
 		}
 		set_variable = an_empire_under_the_pun_ach_possible
 	}
@@ -193,7 +408,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 		}
 		set_variable = i_didnt_vote_for_pedro_ach_possible
 	}
@@ -202,7 +417,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:USA
-			this = c:USA
+			c:USA ?= THIS
 		}
 		set_variable = go_west_young_man_ach_possible
 	}
@@ -211,7 +426,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:CHI
-			this = c:CHI
+			c:CHI ?= THIS
 		}
 		set_variable = the_western_protectorate_ach_possible
 	}
@@ -220,7 +435,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:FRA
-			this = c:FRA
+			c:FRA ?= THIS
 		}
 		set_variable = the_paris_commune_ach_possible
 	}
@@ -242,7 +457,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:LAN
-			this = c:LAN
+			c:LAN ?= THIS
 		}
 		set_variable = miners_and_minors_ach_possible
 	}
@@ -251,7 +466,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:TUR
-			this = c:TUR
+			c:TUR ?= THIS
 		}
 		set_variable = healthy_man_of_europe_ach_possible
 	}
@@ -260,7 +475,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:AUS
-			this = c:AUS
+			c:AUS ?= THIS
 		}
 		set_variable = habsburg_resurgence_ach_possible
 	}
@@ -269,7 +484,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:RUS
-			this = c:RUS
+			c:RUS ?= THIS
 		}
 		set_variable = great_game_ach_possible
 	}
@@ -278,7 +493,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:SPA
-			this = c:SPA
+			c:SPA ?= THIS
 		}
 		set_variable = bourbon_for_everyone_ach_possible
 	}
@@ -287,7 +502,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:SEQ
-			this = c:SEQ
+			c:SEQ ?= THIS
 		}
 		set_variable = american_territory_ach_possible
 	}
@@ -296,7 +511,7 @@ GLOBAL = {
 	every_country = {
 		limit = {
 			exists = c:FRA
-			this = c:FRA
+			c:FRA ?= THIS
 		}
 		set_variable = belle_epoque_ach_possible
 	}
@@ -366,6 +581,14 @@ GLOBAL = {
 		set_variable = declaration_of_independence_ach_possible
 	}
 
+	# Full Circle
+	every_country = {
+		limit = {
+			c:SPA ?= this
+		}
+		set_variable = full_circle_ach_possible
+	}
+
 	#Event Variables
 
 	set_global_variable = {
@@ -416,13 +639,26 @@ GLOBAL = {
                 value = 0.20
             }
         }
+		add_radicals = {
+			value = 0.05
+			culture = cu:russian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:ukrainian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:byelorussian
+		}
+
         create_bidirectional_truce = {
 			country = c:CIR
-			months = 240
+			months = 120
 		}
 		create_bidirectional_truce = {
 			country = c:CHC
-			months = 240
+			months = 120
 		}
 		if = {
 			limit = {

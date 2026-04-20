@@ -1,4 +1,4 @@
-﻿state_trait_eastern_ports = {
+﻿REPLACE_OR_CREATE:state_trait_eastern_ports = {
 
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 
@@ -8,7 +8,7 @@
 	}
 }
 
-state_trait_the_great_plains = {
+REPLACE_OR_CREATE:state_trait_the_great_plains = {
 	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
 
 	modifier = {

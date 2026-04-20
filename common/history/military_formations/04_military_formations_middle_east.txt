@@ -36,7 +36,7 @@
 			first_name = Omer_Lutfi
 			last_name = Pasha
 			historical = yes
-			culture = cu:South_Slavic
+			culture = cu:serb
 			religion = rel:sunni
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
@@ -451,7 +451,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KABUL
+				state_region = s:STATE_PASHTUNISTAN
 				count = 4
 			}
 		}

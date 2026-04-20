@@ -1,5 +1,5 @@
 ﻿
-state_trait_jingdezhen_lead_deposits = {
+REPLACE_OR_CREATE:state_trait_jingdezhen_lead_deposits = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
@@ -7,7 +7,7 @@ state_trait_jingdezhen_lead_deposits = {
 	}
 }
 
-state_trait_daye_iron_mine = {
+REPLACE_OR_CREATE:state_trait_daye_iron_mine = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
@@ -16,7 +16,7 @@ state_trait_daye_iron_mine = {
 }
 
 # Qinghai
-state_trait_Khingan_Mountains = {
+REPLACE_OR_CREATE:state_trait_Khingan_Mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
@@ -26,7 +26,7 @@ state_trait_Khingan_Mountains = {
 }
 
 # Uliastai
-state_trait_Altai_Mountains = {
+REPLACE_OR_CREATE:state_trait_Altai_Mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
@@ -37,7 +37,7 @@ state_trait_Altai_Mountains = {
 
 # Tian Shan Mountain (Tajikistan, Kirghizia, Tianshan)
 
-state_trait_tian_shan_mountain = {
+REPLACE_OR_CREATE:state_trait_tian_shan_mountain = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
@@ -48,7 +48,7 @@ state_trait_tian_shan_mountain = {
 
 # Tian Shan Foothills (Ili, Tianshan, Dzungaria, Eastern Afghanistan, Uzbekia, Kashmir)
 
-state_trait_tian_shan_foothills = {
+REPLACE_OR_CREATE:state_trait_tian_shan_foothills = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 	
 	modifier = {
@@ -57,16 +57,15 @@ state_trait_tian_shan_foothills = {
 	}
 }
 
-state_trait_north_china_plain = {
+REPLACE_OR_CREATE:state_trait_north_china_plain = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	
 	modifier = {
-		building_rice_farm_throughput_add = 0.1
-		building_wheat_farm_throughput_add = 0.1 
+		building_group_bg_agriculture_throughput_add = 0.1
 	}
 }
 
-state_trait_southern_mountains = {
+REPLACE_OR_CREATE:state_trait_southern_mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 
 	modifier = {
@@ -74,40 +73,40 @@ state_trait_southern_mountains = {
 		state_construction_mult = -0.05
 	}
 }
-state_trait_Bohai_Sea = {
+REPLACE_OR_CREATE:state_trait_Bohai_Sea = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 	
 	modifier = {
-		building_group_bg_fishing_throughput_add = 0.1
+		building_fishing_wharf_throughput_add = 0.2
 	}
 }
 
-state_trait_pearl_river = {
+REPLACE_OR_CREATE:state_trait_pearl_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
-		state_infrastructure_add = 20
+		state_infrastructure_add = 25
 		building_group_bg_agriculture_throughput_add = 0.05
 		building_group_bg_plantations_throughput_add = 0.05
 	}
 }
 
-state_trait_yangtze_river = {
+REPLACE_OR_CREATE:state_trait_yangtze_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
-		state_infrastructure_add = 35
+		state_infrastructure_add = 45
 		state_market_access_price_impact = 0.05
 		building_group_bg_agriculture_throughput_add = 0.1
 		building_group_bg_plantations_throughput_add = 0.1
 	}
 }
 
-state_trait_yellow_river = {
+REPLACE_OR_CREATE:state_trait_yellow_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 
 	modifier = {
-		state_infrastructure_add = 25
+		state_infrastructure_add = 35
 		state_market_access_price_impact = 0.05
 		building_group_bg_agriculture_throughput_add = 0.1
 		building_group_bg_plantations_throughput_add = 0.1

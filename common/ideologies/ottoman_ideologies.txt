@@ -120,6 +120,18 @@ ideology_ottomanism = {
 		law_appointed_bureaucrats = strongly_approve
 		law_elected_bureaucrats = approve
 	}
+
+	lawgroup_economic_system = {
+		law_laissez_faire = strongly_approve
+		law_interventionism = approve
+		law_cooperative_ownership = neutral
+		law_agrarianism = neutral
+		law_traditionalism = disapprove
+		law_extraction_economy = strongly_disapprove
+		law_command_economy = strongly_disapprove
+		law_industry_banned = strongly_dissaprove
+
+	}
 }
 
 ideology_state_ottomanism = {

@@ -350,16 +350,16 @@
 					desc = "INFAMY_STATE_POPULATION_FACTOR"
 					value = scope:state.state_population
 					divide = 10000
-					max = 5
+					max = 3.5
 				}
 				add = {
 					desc = "INFAMY_STATE_GDP_FACTOR"
 					value = scope:state.gdp
 					divide = 50000
-					max = 5
+					max = 3.5
 				}
 			}
-			min = 5
+			min = 1
 		}
 	}
 }

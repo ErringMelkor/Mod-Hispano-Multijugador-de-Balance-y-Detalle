@@ -1,36 +1,44 @@
-﻿opium_wars_lost1 = {
+﻿REPLACE_OR_CREATE:opium_wars_lost1 = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
-    country_legitimacy_base_add = -65
-    state_turmoil_effects_mult = 0.35
-	state_mortality_mult = 0.08
 }
 
-opium_wars_no_response = {
+REPLACE_OR_CREATE:opium_wars_no_response = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-    country_legitimacy_base_add = -85
-    state_turmoil_effects_mult = 0.75
-    state_radicals_and_loyalists_from_sol_change_mult = -0.35
-    state_mortality_mult = 0.08
-    interest_group_approval_add = -10
 }
 
-opium_wars_response = {
+REPLACE_OR_CREATE:opium_wars_response = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-    country_legitimacy_base_add = -25
-    state_turmoil_effects_mult = 0.25
-    state_radicals_and_loyalists_from_sol_change_mult = -0.1
-    state_mortality_mult = 0.08
+}
+
+REPLACE_OR_CREATE:opium_wars_lost = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+}
+
+REPLACE_OR_CREATE:opium_wars_export_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_trade_advantage_mult = 0.25
 }
 
 modifier_imperial_examinations = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
     state_education_access_add = 0.05
-    state_pop_qualifications_mult = 0.25
+    state_education_access_wealth_add = 0.01
+    state_pop_qualifications_mult = -0.35
+    country_production_tech_spread_mult = -0.25
 }
 
 modifier_legacy_imperial_examinations = {
-    icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
     state_education_access_add = 0.1
-    country_tech_spread_mult = 0.10
+    country_tech_spread_mult = 0.15
     state_pop_qualifications_mult = 0.35
+}
+
+chinese_unification_static_modifier = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+
+    state_birth_rate_mult = 0.1
+    country_legitimacy_headofstate_add = 50
+    state_radicalism_increases_full_acceptance_mult = -0.75
+
 }

@@ -50,11 +50,30 @@ is_russo-turkish_west_region = {
 }
 
 # Princely States
-is_princely_state = {
+REPLACE_OR_CREATE:is_princely_state = {
 	country_is_in_india = yes
 	OR = {
 		AND = { exists = c:GBR is_subject_of = c:GBR }
 		AND = { exists = c:DLH is_subject_of = c:DLH }
 		AND = { exists = c:MRT is_subject_of = c:MRT }
 	}	
+}
+
+REPLACE_OR_CREATE:country_can_form_power_bloc = {
+	AND = {
+		trigger_if = {
+			limit = {
+				is_country_type = decentralized
+			}
+			NOT = { is_country_type = decentralized }
+		}
+		trigger_if = {
+			limit = {
+				is_revolutionary = yes
+			}
+			is_revolutionary = no
+		}
+		is_player = yes
+		NOT = { has_law_or_variant = law_type:law_isolationism }
+	}
 }

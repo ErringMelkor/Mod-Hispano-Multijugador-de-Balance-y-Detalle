@@ -1,0 +1,14 @@
+﻿REPLACE_OR_CREATE:krakatoa_eruption_help_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_mult = 0.1
+}
+
+REPLACE_OR_CREATE:krakatoa_eruption_no_help_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_mult = 0.2
+}
+
+REPLACE_OR_CREATE:krakatoa_cost_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 0.5
+}

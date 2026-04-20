@@ -1,5 +1,16 @@
 ﻿### See power_bloc_principles for the individual effects
 
+principle_group_shared_canon = {
+	primary_for_identity = identity_cultural
+	unlocking_identity = identity_cultural
+
+	levels = {
+		principle_shared_canon_1
+		principle_shared_canon_2
+		principle_shared_canon_3
+	}
+}
+
 principle_group_construction = {
 	levels = {
 		principle_construction_1
@@ -209,29 +220,30 @@ principle_group_bureaucracy_focus = {
 	}
 }
 
-principle_group_mining_focus = {
+#principle_group_mining_focus = {
+#
+#	levels = {
+#		principle_mining_focus_1
+#		principle_mining_focus_2
+#		principle_mining_focus_2
+#		principle_mining_focus_3
+#	}
+#}
 
-	levels = {
-		principle_mining_focus_1
-		principle_mining_focus_2
-		principle_mining_focus_3
-	}
-}
+#principle_group_agricultural_focus = {
+#
+#	levels = {
+#		principle_agricultural_focus_1
+#		principle_agricultural_focus_2
+#		principle_agricultural_focus_3
+#	}
+#}
 
-principle_group_agricultural_focus = {
-
-	levels = {
-		principle_agricultural_focus_1
-		principle_agricultural_focus_2
-		principle_agricultural_focus_3
-	}
-}
-
-principle_group_manufacturing_focus = {
-
-	levels = {
-		principle_manufacturing_focus_1
-		principle_manufacturing_focus_2
-		principle_manufacturing_focus_3
-	}
-}
+#principle_group_manufacturing_focus = {
+#
+#	levels = {
+#		principle_manufacturing_focus_1
+#		principle_manufacturing_focus_2
+#		principle_manufacturing_focus_3
+#	}
+#}

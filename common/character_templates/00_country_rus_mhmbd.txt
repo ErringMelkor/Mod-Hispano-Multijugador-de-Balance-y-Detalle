@@ -1,0 +1,37 @@
+﻿RUS_nicholas_i = { #Nicholas I
+	first_name = Nikolai
+	last_name = Romanov
+	historical = yes
+	culture = primary_culture
+	interest_group = ig_armed_forces
+	ideology = ideology_jingoist_leader
+	ruler = yes
+	birth_date = 1796.7.6
+	dna = dna_tsar_nicolas_01
+	traits = {
+		pious
+		imposing
+	}
+	on_created = {
+		set_variable = is_married
+	}
+	trait_generation = {
+
+	}
+}
+
+RUS_Pavel_Kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de Nicolás I.
+	first_name = Pavel
+	last_name = Kiselyov
+	historical = yes
+	culture = cu:russian
+	interest_group = ig_armed_forces
+	ideology = ideology_nicholean_reformer_leader
+	ig_leader = yes
+	birth_date = 1788.11.14
+	
+	traits = {
+		meticulous
+		persistent
+	}
+}

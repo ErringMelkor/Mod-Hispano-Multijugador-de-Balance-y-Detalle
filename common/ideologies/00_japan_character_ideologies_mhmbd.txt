@@ -1,0 +1,121 @@
+﻿ideology_samurai_modernizer = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/idealogy_leader_modernizer.dds"
+
+	character_ideology = yes
+
+	lawgroup_trade_policy = {
+		law_protectionism = approve
+		law_isolationism = strongly_disapprove
+		law_mercantilism = disapprove
+		law_free_trade = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_approve
+		law_national_supremacy = approve
+		law_subjecthood = neutral
+		law_racial_segregation = disapprove
+		law_cultural_exclusion = strongly_disapprove
+		law_multicultural = strongly_disapprove	
+	}
+
+	lawgroup_distribution_of_power = {
+		law_autocracy = strongly_approve
+		law_oligarchy = approve
+		law_single_party_state = approve
+		law_landed_voting = disapprove
+		law_wealth_voting = disapprove
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_appointed_bureaucrats = strongly_disapprove
+		law_hereditary_bureaucrats = neutral
+		law_elected_bureaucrats = strongly_disapprove
+	}
+
+	lawgroup_economic_system = {
+		law_extraction_economy = strongly_disapprove
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = approve
+		law_interventionism = approve
+		law_agrarianism = disapprove
+		law_traditionalism = strongly_disapprove
+		law_laissez_faire = approve
+		law_industry_banned = strongly_disapprove
+	}
+
+	lawgroup_education_system = {
+		law_public_schools = approve
+		law_private_schools = neutral
+		law_religious_schools = neutral
+		law_no_schools = disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_serfdom = disapprove
+		law_tenant_farmers = approve
+		law_homesteading = neutral
+		law_collectivized_agriculture = disapprove
+		law_commercialized_agriculture = neutral
+	}
+
+	country_trigger = {
+		has_technology_researched = nationalism
+        c:JAP = this
+		game_date < 1880.1.1
+	}
+
+	interest_group_leader_trigger = {
+		ideology_samurai_modernizer_leader_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law_or_variant = law_type:law_compulsory_primary_school
+				has_law_or_variant = law_type:law_public_schools
+				has_law_or_variant = law_type:law_interventionism
+				has_law_or_variant = law_type:law_commercialized_agriculture
+				OR = {
+					has_law_or_variant = law_type:law_proportional_taxation
+					has_law_or_variant = law_type:law_graduated_taxation
+				}
+			}
+		}
+		interest_group = {
+			ideology_samurai_modernizer_leader_valid_trigger = yes
+		}
+	}
+
+	interest_group_leader_weight = {
+		value = 75
+		# More likely if Unrecognized Country
+		if = {
+			limit = {
+				owner = {
+					is_country_type = unrecognized
+				}
+			}
+			add = 500
+		}
+	}
+
+	non_interest_group_leader_weight = {
+		value = 100
+		# More likely if Unrecognized Country
+		if = {
+			limit = {
+				owner = {
+					is_country_type = unrecognized
+				}
+			}
+			add = 500
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ﻿je_acw_countdown = {
-	icon = "gfx/interface/icons/event_icons/slavery.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	group = je_group_usa_american_civil_war
 
@@ -92,7 +92,7 @@ je_acw_war = {
 	group = je_group_usa_american_civil_war
 
 	is_shown_in_lobby = {
-		c:USA = THIS
+		c:USA ?= THIS
 	}
 
 	complete = {
@@ -129,7 +129,7 @@ je_acw_war = {
 }
 
 je_acw_reconstruction = {
-	icon = "gfx/interface/icons/event_icons/money.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	group = je_group_usa_american_civil_war
 
@@ -167,7 +167,7 @@ je_acw_reconstruction = {
 }
 
 je_acw_reincorporate = {
-	icon = "gfx/interface/icons/event_icons/buro.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	group = je_group_usa_american_civil_war
 
@@ -308,8 +308,8 @@ je_acw_equality = {
 	}
 
 	complete = {
-		country_average_cultural_acceptance = {
-			target = cu:afro_american
+		country_average_culture_pop_acceptance = {
+			culture = cu:afro_american
 			value >= 60
 		}
 	}
@@ -353,7 +353,7 @@ je_acw_equality = {
 }
 
 je_acw_wild_wild_west = {
-	icon = "gfx/interface/icons/event_icons/security.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	group = je_group_usa_american_civil_war
 

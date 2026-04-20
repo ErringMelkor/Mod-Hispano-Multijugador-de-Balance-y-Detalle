@@ -13,7 +13,7 @@ BRZ_emperor_pedro_02 = {
 	last_name = "de_Braganca"
 	historical = yes
 	culture = primary_culture
-	ruler = yes
+	heir = yes
 	birth_date = 1825.12.2
 	dna = dna_emperor_pedro_02
 	interest_group = ig_intelligentsia
@@ -27,7 +27,7 @@ BRZ_emperor_pedro_02 = {
 	}
 	on_created = {
 		set_variable = is_pedro
-		set_character_immortal = yes
+		set_variable = house_braganca
 	}
 	trait_generation = { }
 }
@@ -47,6 +47,9 @@ brz_isabel_template = {
 		reserved
 		tactful
 	}
+	on_created = {
+		set_variable = house_braganca
+	}
 	trait_generation = { }
 }
 
@@ -63,7 +66,7 @@ BRZ_diogo_antonio_feijo = {
 	culture = primary_culture
 	birth_date = 1784.8.17
 	dna = dna_diogo_antonio_feijo
-	ig_leader = yes
+	ruler = yes
 	interest_group = ig_intelligentsia
 	ideology = ideology_moderate
 	traits = {
@@ -102,6 +105,23 @@ BRZ_martim_francisco_ribeiro_de_andrada = {
 	ideology = ideology_moderate
 	traits = {
 		persistent
+		erudite
+	}
+	trait_generation = { }
+}
+
+BRZ_antonio_carlos_ribeiro_de_andrada = {
+	# Antônio Carlos Ribeiro de Andrada
+	first_name = Antonio_3
+	last_name = Ribeiro_de_Andrada
+	historical = yes
+	culture = primary_culture
+	birth_date = 1773.11.1
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_liberal_leader
+	traits = {
+		innovative
 		erudite
 	}
 	trait_generation = { }
@@ -214,11 +234,11 @@ BRZ_benjamin_constant = { #Benjamin Constant
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
 			is_interest_group_type = ig_armed_forces
         }
         earliest_usage_date = 1875.1.1
@@ -246,11 +266,11 @@ BRZ_ruy_barbosa = { #Ruy Barbosa de Oliveira
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
 			is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1881.1.1
@@ -277,11 +297,11 @@ BRZ_prudente_de_morais = { #Prudente José de Morais Barros
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
-            is_marginal = no
+            ig_counts_as_marginal = no
 			is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1873.1.1
@@ -308,7 +328,7 @@ BRZ_quintino_bocaiuva = { #Quintino Antônio Ferreira de Sousa Bocaiuva
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -338,10 +358,10 @@ BRZ_campos_sales = { #Manoel Ferraz de Campos Salles
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 			NOR = {
-				has_law_or_variant = law_type:law_monarchy
+				has_law = law_type:law_monarchy
 				has_law_or_variant = law_type:law_theocracy
 			}
         }
@@ -373,10 +393,10 @@ BRZ_euclides_da_cunha = { #Euclydes Rodrigues Pimenta da Cunha
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 			NOR = {
-				has_law_or_variant = law_type:law_monarchy
+				has_law = law_type:law_monarchy
 				has_law_or_variant = law_type:law_theocracy
 			}
         }
@@ -407,7 +427,7 @@ BRZ_francisco_escobar = { #Francisco Escobar
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -447,9 +467,9 @@ BRZ_joaquim_nabuco = { #Joaquim Aurélio Barreto Nabuco de Araújo
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
-			has_law_or_variant = law_type:law_monarchy
+			has_law = law_type:law_monarchy
         }
         interest_group_trigger = {
 			is_interest_group_type = ig_intelligentsia
@@ -479,7 +499,7 @@ BRZ_julio_de_castilhos = { #Júlio Prates de Castilhos
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 			has_variable = positivism_happened
         }
@@ -510,7 +530,7 @@ BRZ_rodriguez_alves = { #Francisco de Paula Rodrigues Alves
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -540,7 +560,7 @@ BRZ_epitacio_pessoa = { #Epitácio Lindolfo da Silva Pessoa
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -571,7 +591,7 @@ BRZ_astrojildo_pereira = { # Astrojildo Pereira Duarte Silva
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -617,7 +637,7 @@ BRZ_irineu_evangelista_de_sousa = { #Irineu Evangelista de Sousa
     interest_group_leader_usage = {
         country_trigger = {
             exists = c:BRZ
-            this = c:BRZ
+            c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
         }
         interest_group_trigger = {
@@ -896,7 +916,7 @@ BRZ_deodoro_da_fonseca = { #Deodoro da Fonseca
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = general
@@ -926,7 +946,7 @@ BRZ_floriano_peixoto = { #Floriano Vieira Peixoto
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = general
@@ -956,7 +976,7 @@ BRZ_manuel_marques_de_sousa = { #Manuel Marques de Sousa
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = general
@@ -985,8 +1005,8 @@ BRZ_joaquim_marques_lisboa = { #Joaquim Marques Lisboa
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
-			has_law_or_variant = law_type:law_monarchy
+			c:BRZ ?= THIS
+			has_law = law_type:law_monarchy
 			has_dlc_feature = rp1_content
 		}
 		role = admiral
@@ -1015,7 +1035,7 @@ BRZ_francisco_barroso_da_silva = { #Francisco Manuel Barroso da Silva
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = admiral
@@ -1044,7 +1064,7 @@ BRZ_manuel_luis_osorio = { #Manuel Luís Osório
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = general
@@ -1075,7 +1095,7 @@ BRZ_joaquim_jose_inacio = { #Joaquim José Inácio
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = admiral
@@ -1105,7 +1125,7 @@ BRZ_custodio_de_melo = { #Custodio de Melo
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = admiral
@@ -1134,7 +1154,7 @@ BRZ_hermes_da_fonseca = { #Hermes da Fonseca
 	commander_usage = {
 		country_trigger = {
 			exists = c:BRZ
-			this = c:BRZ
+			c:BRZ ?= THIS
 			has_dlc_feature = rp1_content
 		}
 		role = general

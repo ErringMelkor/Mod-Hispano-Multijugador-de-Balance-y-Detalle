@@ -1,0 +1,13 @@
+﻿# Italia
+
+ig_trait_segundo_renacimiento = {
+	icon = "gfx/interface/icons/ig_trait_icons/avant_garde.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_prestige_mult = 0.15
+		country_society_tech_research_speed_mult = 0.15
+	}
+}
+
+#ig trait lengua florentina

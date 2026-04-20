@@ -39,7 +39,7 @@
 				size = 17424
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 1257
 			}
 			create_pop = {
@@ -49,7 +49,7 @@
 		}
 	}
 	s:STATE_TUVA = { #DONE
-		region_state:MGL = {
+		region_state:CHI = {
 			create_pop = {
 				culture = tuvan
 				size = 43710
@@ -139,7 +139,7 @@
 	s:STATE_OB = { #DONE
 		region_state:RUS = {
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 4980
 			}
 			create_pop = {
@@ -156,7 +156,7 @@
 	s:STATE_SURGUT = { #DONE
 		region_state:RUS = {
 			create_pop = {
-				culture = FinnoUgric
+				culture = ugrian
 				size = 8604
 			}
 			create_pop = {
@@ -286,7 +286,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = { #DONE
-		region_state:MCH = {
+		region_state:CHI = {
 			create_pop = {
 				culture = siberian
 				size = 67800
@@ -298,7 +298,7 @@
 		}
 	}
 	s:STATE_AMUR = { #DONE
-		region_state:MCH = {
+		region_state:CHI = {
 			create_pop = {
 				culture = siberian
 				size = 81123

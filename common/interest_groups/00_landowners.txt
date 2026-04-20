@@ -32,7 +32,7 @@
 				limit = {
 					owner = { c:RUS ?= this}
 				}
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
+				set_ig_trait = ig_trait:ig_trait_farm_and_family
 				set_ig_trait = ig_trait:ig_trait_the_velvet_book
 				set_ig_trait = ig_trait:ig_trait_bad_boyars
 			}
@@ -122,6 +122,17 @@
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
 				set_ig_trait = ig_trait:ig_trait_hacienda_andina
 				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+			}
+			else_if = {
+				limit = {
+					owner = { c:FRA ?= this}
+				}
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_lingua_franca
+				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+
+				remove_ideology = ideology_patriarchal
+				add_ideology = ideology_french_patriarchal
 			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
@@ -216,19 +227,14 @@
 			limit = {
 				c:KOR ?= this
 			}
-			ig:ig_landowners ?= { 
+			ig:ig_landowners ?= {
 				set_interest_group_name = ig_yangban
 			}
 		}
 		# Scholar Officials
 		else_if = {
 			limit = {
-				owner = {
-						OR = {
-							c:NHA ?= this
-							c:SON ?= this
-						}
-					}
+				c:CHI ?= this
 			}
 			ig:ig_landowners ?= { 
 				set_interest_group_name = ig_scholar_officials
@@ -245,8 +251,27 @@
 			limit = {
 				country_has_primary_culture = cu:spanish
 			}
-			ig:ig_landowners ?= {
-				add_ideology = ideology_pious
+			if = {
+				limit = {
+					OR = {
+						c:SPC ?= this
+						has_variable = spain_carlist_victory
+					}
+				}
+				ig:ig_landowners ?= {
+					remove_ideology = ideology_paternalistic
+					add_ideology = ideology_carlist_ig
+				}
+			}
+			if = {
+				limit = {
+					c:SPA ?= this # Only liberal Spain
+					NOT = { has_variable = spain_carlist_victory }
+				}
+				ig:ig_landowners ?= {
+					remove_ideology = ideology_paternalistic
+					add_ideology = ideology_moderantist
+				}
 			}
 		}
 		# Aristocracy of Officials
@@ -300,6 +325,19 @@
 					has_discrimination_trait_group = heritage_group_european
 					NOT = { has_discrimination_trait = heritage_iberian }
 					NOT = { cu:caribeno = this }
+				}
+			}
+			ig:ig_landowners ?= {
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_republican_paternalistic
+			}
+		}
+		# Boer republicanism, but only for states that are only Boer
+		else_if = {
+			limit = {
+				country_has_primary_culture = cu:boer
+				NOT = {
+					NOT = { any_primary_culture = { cu:boer = this } }
 				}
 			}
 			ig:ig_landowners ?= {
@@ -369,12 +407,12 @@
 		}
 	}
 	on_disable = {}
-	
+
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
 				c:BIC ?= this
-				any_primary_culture = { 
+				any_primary_culture = {
 					cu:british = this
 				}
 			}
@@ -392,8 +430,34 @@
 				bedouin
 			}
 		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				NOT = { has_variable = je_philippines_main_reliance_happened }
+				NOT = { any_primary_culture = { cu:filipino = this } }
+				NOT = { any_primary_culture = { cu:filipino_hispanophone = this } }
+				any_primary_culture = { cu:spanish = this }
+			}
+			cultures = {
+				spanish filipino_mestizo
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				any_primary_culture = {
+					AND = {
+						cu:spanish = this
+						cu:filipino_hispanophone = this
+					}
+				}
+			}
+			cultures = {
+				spanish filipino_hispanophone
+			}
+		}
 	}
-	
+
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -446,7 +510,7 @@
 				}
 				value = 25
 				add = this.standard_of_living
-				
+
 				if = {
 					limit = { owner = { has_law_or_variant = law_type:law_homesteading } }
 					multiply = 1.25
@@ -463,7 +527,7 @@
 			}
 		}
 
-		
+
 		if = {
 			limit = {
 				c:BIC ?= owner
@@ -502,7 +566,7 @@
 				min = 0
 			}
 		}
-		
+
 		if = {
 			limit = {
 				scope:interest_group = {
@@ -536,7 +600,7 @@
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
-				is_marginal = yes
+				ig_counts_as_marginal = yes
 			}
 			multiply = {
 				value = 0.1
@@ -590,7 +654,7 @@
 		if = {
 			limit = {
 				owner.ig:ig_landowners ?= {
-					is_marginal = yes
+					ig_counts_as_marginal = yes
 				}
 			}
 			multiply = {
@@ -641,7 +705,7 @@
 
 	female_agitator_chance = {
 		value = 0.01
-		
+
 		if = {
 			limit = {
 				owner = {
@@ -652,8 +716,8 @@
 			add = {
 				value = 0.01
 			}
-		}	
-		
+		}
+
 		if = {
 			limit = {
 				owner = {
@@ -676,7 +740,7 @@
 			add = {
 				value = 0.01
 			}
-		}		
+		}
 	}
 
 	# The chance that a commander belonging to this IG takes over leadership when it changes
@@ -685,7 +749,7 @@
 		value = 0.5
 		multiply = ig_commander_leader_chance_mult
 	}
-	
+
 	# The chance that a executive belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular executive in the IG
 	executive_leader_chance = {

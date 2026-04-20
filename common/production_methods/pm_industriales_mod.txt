@@ -24,9 +24,7 @@
 }
 
 pm_electrical_workshops = {
-	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
-
-	replacement_if_valid = pm_electrical_workshops_principio_industria
+	texture = "gfx/interface/icons/production_method_icons/electrical_workshops.dds"
 	
 	unlocking_technologies = {
 		electrical_capacitors

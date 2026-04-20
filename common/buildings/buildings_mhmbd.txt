@@ -1,0 +1,17 @@
+﻿building_hardwood_logging = {
+	building_group = bg_logging
+	icon = "gfx/interface/icons/building_icons/hardwood_camp.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_hardwood
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}

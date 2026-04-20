@@ -137,7 +137,6 @@ gm_actions.1 = {
 		remove_global_variable = GM_taking_action
 	}
 	
-	
 	#Modifiers
 	
 	#Give tax waste
@@ -240,6 +239,7 @@ gm_actions.14 = {
 		scope:recipient = {
 			remove_variable = actionee
 		}
+		default_option = yes		
 	}
 }
 
@@ -276,7 +276,7 @@ gm_actions.15 = {
 			add_modifier = game_master
 			remove_variable = actionee
 		}
-		remove_global_variable = GM_taking_action
+		remove_global_variable = GM_taking_action		
 	}
 	
 	option = {
@@ -285,6 +285,8 @@ gm_actions.15 = {
 			remove_variable = actionee
 		}
 		remove_global_variable = GM_taking_action
+
+		default_option = yes		
 	}
 	
 }
@@ -385,7 +387,10 @@ gm_actions.16 = {
 			remove_variable = actionee
 		}
 		remove_global_variable = GM_taking_action
+
+		default_option = yes
 	}
+	
 }
 
 gm_actions.17 = {
@@ -461,6 +466,7 @@ gm_actions.17 = {
 			remove_variable = actionee
 		}
 		remove_global_variable = GM_taking_action
+		default_option = yes		
 	}
 	
 }

@@ -1,4 +1,4 @@
-﻿ig_trait_mecelle = {
+﻿REPLACE_OR_CREATE:ig_trait_mecelle = {
 	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
 	min_approval = happy
 	
@@ -7,7 +7,7 @@
 	}
 }
 
-ig_trait_da_wat = {
+REPLACE_OR_CREATE:ig_trait_da_wat = {
 	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
 	min_approval = loyal
 	

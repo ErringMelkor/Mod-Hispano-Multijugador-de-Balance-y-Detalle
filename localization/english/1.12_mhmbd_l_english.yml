@@ -1,0 +1,91 @@
+﻿l_english:
+  pm_hardwood_frame_buildings: "Hardwood-Frame Buildings"
+  usa_acw_war_support_static_modifier: "Rally to Liberty!"
+  ig_trait_la_loi_royale: "La Loi Royale"
+  ig_trait_la_loi_royale_desc: "The Kings of France rule by Divine Law, and the Church will make sure the populace remembers it."
+  ig_trait_lingua_franca: "Lingua Franca"
+  ig_trait_lingua_franca_desc: "The French language has been, since the times of Charlemagne, the vehicle of communication and of prestige of the continent."
+  ig_trait_coffee_talks: "Coffee Talks"
+  ig_trait_coffee_talks_desc: "The only thing better than a cup of coffee is a a fellow gifted man to share gossip."
+  modifier_macao: "Open Port of Macao"
+  treaty_name_pondicherry: "Treaty of Pondicherry"
+  galicia_minifundismo: "Galician Smallholdings"
+  german_unifier_ruler: "German Unifier"
+
+  pmg_base_hardwood: "Hardwood PMG"
+  pm_manor_house_daimyo_domains: "Daimyo Domains"
+  sonno_joi_agitator: "Sonno Joi Agitator"
+  law_han_system: "Han System"
+  law_han_system_desc: "De jure distribution of domains which served as administrative provinces under the rule of the Tokugawa."
+  ideology_samurai_modernizer: "Samurai Modernizer"
+  ideology_samurai_modernizer_desc: "This character believes in a modernized Japan under a new identity without abandoning samurai hierarchy or its spirit."
+  japanese_urbanization_kanto: "Japanese urbanism"
+  japanese_urbanization_kansai: "Japanese urbanism"
+  japanese_urbanization_kyushu: "Japanese urbanism"
+  japanese_urbanization_chubu: "Japanese urbanism"
+  japanese_urbanization_chugoku: "Japanese urbanism"
+  japanese_urbanization_shikoku: "Japanese urbanism"
+  japanese_urbanization_tohoku: "Japanese urbanism"
+
+  japan_agitators.1.t: "Revere the Emperor, expel the Barbarians"
+  japan_agitators.1.d: "A dashing and popular, low-ranking samurai, Saigo Takamori has been recently promoted by Shimazu Nariakira, daimyo of Satsuma domain. Under protection of his powerful patron, Saigo has begun to spout a reformist ideology under the slogan of Sonnō jōi. Many are listening to him, and the whispers even reach the ears of the shogunal court at Edo. How should we proceed with him?"
+  japan_agitators.1.f: "Saigō Takamori (born Jan. 23, 1828, Kagoshima, Kyushu, Japan—died Sept. 24, 1877, Kagoshima) was a leader in the overthrow of the Tokugawa shogunate who later rebelled against the weaknesses he saw in the Imperial government that he had helped to restore. Although his participation in the restoration made him a legendary hero, it also, to his mortification, relegated his samurai class to impotence. - Encyclopedia Britannica. "
+  japan_agitators.1.a: "Let him be, we can't risk losing the support of the Shimazu."
+  japan_agitators.1.b: "This is treason! Execute him immediately."
+
+  unit_combat_unit_type_hussars_offense_mult: "Hussars Offense Multiplier"
+  unit_combat_unit_type_cuirassiers_offense_mult: "Cuirassiers Offense Multiplier"
+  unit_combat_unit_type_lancers_offense_mult: "Lancers Offense Multiplier"
+  unit_combat_unit_type_revolver_cavalry_offense_mult: "Revolver Cavalry Offense Multiplier"
+  unit_combat_unit_type_dragoons_defense_mult: "Dragoons Defense Multiplier"
+  unit_combat_unit_type_carabiners_defense_mult: "Carabiners Defense Multiplier"
+
+  battle_condition_cavalry_charge_desc: "This side is able to launch a cavalry charge against its enemy."
+
+  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry Defense Multiplier"
+  unit_combat_unit_type_skirmish_infantry_defense_mult: "Skirmish Infantry Defense Multiplier"
+  unit_combat_unit_type_trench_infantry_defense_mult: "Trench Infantry Defense Multiplier"
+  unit_combat_unit_type_squad_infantry_defense_mult: "Squad Infantry Defense Multiplier"
+  unit_combat_unit_type_mechanized_infantry_defense_mult: "Mechanized Infantry Defense Multiplier"
+
+  basic_infantry_commander_desc: "This character is competent ordering infantry."
+
+  ig_trait_segundo_renacimiento: "A Second Rennaissance"
+  ig_trait_segundo_renacimiento_desc: ""
+
+  prestige_good_galician_oil: "Galician Oil"
+  prestige_good_brazilian_coffee: "Brazilian Coffee"
+
+  unit_combat_unit_type_light_tanks_offense_add: "Light Tank Offense"
+  unit_combat_unit_type_light_tanks_offense_mult: "Light Tank Offense Multiplier"
+  unit_combat_unit_type_heavy_tank_defense_mult: "Heavy Tank Defense Multiplier"
+
+  company_societe_renault_freres: "Societe Renault Freres"
+  prestige_good_renault_automobiles: "Renault Automobile"
+  
+  ig_trait_la_buena_vida: "The Good Life"
+  ig_trait_la_buena_vida_desc: "A full stomach, some wines and watching the toros. ¿What else can a man ask for?"
+
+  ideology_republican_paternalistic_usa_desc: ""
+
+  german_unification.6.t: "¡Derrota por el Liderazgo Alemán!"
+  german_unification.6.d: "Pese a los valientes esfuerzos de nuestras tropas, los Austríacos nos han infligido una fuerte derrota. Esto supone un duro revés para nuestras ambiciones políticas, y peor, parece que muchos de entre nuestros oficiales están comenzando a murmurar sobre traiciones en el frente doméstico... Afortunadamente, esta debacle ha permitido aunar la política interior de la Confederación Alemana en un movimiento inesperada, y sus miembros, ante la amenaza del dominio austríaco, viendo el destino de los estados sudalemanes, han preferido unirse a nosotros de libre volición."
+  german_unification.6.f: ""
+  german_unification.6.a: "Más perdimos en las Guerras Napoleónicas. Nos reconstruiremos."
+
+  german_unification.7.t: "¡Golpe de estado en las Fuerzas Armadas!"
+  german_unification.7.d: "Nuestros oficiales se han reunido ante las puertas de nuestra corte, acompañados de soldados y una muchedumbre descontenta. Afortunadamente para nosotros, no están en busca de sangre: parece que solo les interesa el <<bien de la patria>>. Con todo, tienen una serie de demandas que fortalecería su posición en el gobierno y aumentaría la cantidad de tropas disponibles que arrojar al frente, esto es, a expensas de nuestro gobierno civil."
+  german_unification.7.f: ""
+  german_unification.7.a: "Solo tenemos una opción."
+
+  prussian_revanchism: "Prussian Revanchism"
+  ideology_military_totalists: "Military Totalism"
+  ideology_military_totalists_desc: ""
+
+  AMERICAN_CIVIL_WAR_FERVOR: "American Civil War Fervor"
+
+  Iesada: "Iesada"
+  Iemochi: "Iemochi"
+  Sanetomi: "Sanetomi"
+  Kaoru: "Kaoru"
+  Saionji: "Saionji"

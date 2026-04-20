@@ -35,14 +35,10 @@
 
 	on_enable = {
 		ig:ig_intelligentsia ?= {
+			### Specific IG traits
 			if = {
 				limit = {
-					owner = {
-						OR = {
-							c:NHA ?= this
-							c:SON ?= this
-						}
-					}
+					owner = { c:CHI ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_neoconfucian_retreat
 				set_ig_trait = ig_trait:ig_trait_avant_garde
@@ -73,6 +69,17 @@
 			}
 			else_if = {
 				limit = {
+					OR = {
+						owner = { c:SAR ?= this}
+						owner = { c:ITA ?= this}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_crisis_of_identity
+				set_ig_trait = ig_trait:ig_trait_segundo_renacimiento
+				set_ig_trait = ig_trait:ig_trait_propagandists
+			}
+			else_if = {
+				limit = {
 					owner = {
 						OR = {
 							country_has_primary_culture = cu:north_andean
@@ -99,7 +106,6 @@
 				set_ig_trait = ig_trait:ig_trait_propagandists
 			}
 		}
-		
 		# Papal Intellegentsia
 		if = {
 			limit = {
@@ -125,7 +131,7 @@
 					has_discrimination_trait = heritage_han
 				}
 			}
-			ig:ig_intelligentsia ?= { 
+			ig:ig_intelligentsia ?= {
 				set_interest_group_name = ig_literati
 				remove_ideology = ideology_anti_clerical
 			}
@@ -145,12 +151,35 @@
 				add_ideology = ideology_constitutionalist
 			}
 		}
+		# Philippines Intelligentsia
+		else_if = {
+			limit = {
+				c:PHI ?= this
+			}
+			ig:ig_intelligentsia ?= {
+				set_interest_group_name = ig_ilustrados
+			}
+		}
+		# India
+		else_if = {
+			limit = {
+				c:BIC ?= THIS
+			}
+			ig:ig_intelligentsia ?= {
+				set_interest_group_name = ig_civil_servants
+
+				remove_ideology = ideology_republican
+				add_ideology = ideology_constitutionalist
+			}
+		}
 		# Britain and other Constitutionalists
 		if = {
 			limit = {
 				OR = {
 					c:GBR ?= THIS
 					c:JAP ?= THIS
+					c:POR ?= THIS
+					c:SPA ?= THIS
 					c:AUS ?= THIS
 					any_primary_culture = { # Princely States and Nepal
 						has_discrimination_trait_group = heritage_group_south_asian
@@ -162,7 +191,6 @@
 				add_ideology = ideology_constitutionalist
 			}
 		}
-		
 		if = {
 			limit = {
 				has_technology_researched = feminism
@@ -181,7 +209,7 @@
 		rule = {
 			trigger = {
 				c:BIC ?= this
-				any_primary_culture = { 
+				any_primary_culture = {
 					cu:british = this
 				}
 			}
@@ -198,6 +226,32 @@
 			}
 			cultures = {
 				swahili bedouin
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				NOT = { has_variable = je_philippines_main_reliance_happened }
+				NOT = { any_primary_culture = { cu:filipino = this } }
+				NOT = { any_primary_culture = { cu:filipino_hispanophone = this } }
+				any_primary_culture = { cu:spanish = this }
+			}
+			cultures = {
+				spanish filipino_mestizo
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				any_primary_culture = {
+					AND = {
+						cu:spanish = this
+						cu:filipino_hispanophone = this
+					}
+				}
+			}
+			cultures = {
+				spanish filipino_hispanophone
 			}
 		}
 	}
@@ -254,6 +308,9 @@
 			if = {
 				limit = {
 					is_pop_type = aristocrats
+					owner = {
+						has_technology_researched = academia
+					}
 				}
 				if = {
 					limit = {
@@ -263,12 +320,34 @@
 					}
 					value = 75
 				}
+				else_if = {
+					limit = {
+						owner = {
+							country_has_primary_culture = cu:french
+						}
+					}
+					value = 50
+				}
 				else = {
 					value = 25
 				}
 			}
 		}
-		
+
+		add = {
+			desc = "je_hungarian_revolution"
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+					culture = cu:hungarian
+					owner ?= {
+						has_journal_entry = je_hungarian_revolution
+					}
+				}
+				value = 50
+			}
+		}
+
 		add = {
 			desc = "ADMINISTRATION_ROLE"
 			if = {
@@ -318,7 +397,7 @@
 				}
 			}
 		}
-		
+
 		add = {
 			desc = "POP_MILITARY_BUREAUCRACY"
 			if = {
@@ -332,7 +411,7 @@
 				multiply = 0.25
 			}
 		}
-		
+
 		if = {
 			limit = {
 				literacy_rate >= 0.50
@@ -383,7 +462,7 @@
 				min = 0
 			}
 		}
-		
+
 		if = {
 			limit = {
 				scope:interest_group = {
@@ -417,7 +496,7 @@
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
-				is_marginal = yes
+				ig_counts_as_marginal = yes
 			}
 			multiply = {
 				value = 0.1
@@ -474,7 +553,7 @@
 		if = {
 			limit = {
 				owner.ig:ig_intelligentsia ?= {
-					is_marginal = yes
+					ig_counts_as_marginal = yes
 				}
 			}
 			multiply = {
@@ -525,7 +604,7 @@
 
 	female_agitator_chance = {
 		value = 0.035
-		
+
 		if = {
 			limit = {
 				owner = {
@@ -536,8 +615,8 @@
 			add = {
 				value = 0.035
 			}
-		}	
-		
+		}
+
 		if = {
 			limit = {
 				owner = {
@@ -560,7 +639,7 @@
 			add = {
 				value = 0.035
 			}
-		}		
+		}
 	}
 
 	# The chance that a commander belonging to this IG takes over leadership when it changes
@@ -569,7 +648,7 @@
 		value = 0.25
 		multiply = ig_commander_leader_chance_mult
 	}
-	
+
 	# The chance that a executive belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular executive in the IG
 	executive_leader_chance = {

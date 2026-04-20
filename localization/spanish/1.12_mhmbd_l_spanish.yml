@@ -1,0 +1,107 @@
+﻿l_spanish:
+  pm_hardwood_frame_buildings: "Hardwood Frame Construction"
+  usa_acw_war_support_static_modifier: "Por la Libertad!"
+  ig_trait_la_loi_royale: "La Loi Royale"
+  ig_trait_la_loi_royale_desc: "Los reyes de Francia son el epítome de la Cristiandad, y es el deber de la Iglesia asegurarse de que el populacho lo recuerde."
+  ig_trait_lingua_franca: "Lingua Franca"
+  ig_trait_lingua_franca_desc: "Desde tiempos de Carlomagno, la lengua francesa ha sido el idioma vehicular de toda Europa."
+  ig_trait_coffee_talks: "Café y Charlas"
+  ig_trait_coffee_talks_desc: "Una buena taza de café y una compañía agradable siempre van de la mano."
+  STATE_GREATER_MASSACHUSETTS: "Gran Massachusetts"
+  STATE_NEW_ENGLAND: "Nueva Inglaterra"
+  modifier_macao: "Puerto Abierto de Macao"
+  treaty_name_pondicherry: "Acuerdo de Pondicherry"
+  state_trait_tian_shan_mountain: "Montaña del Tian"
+  galicia_minifundismo: "Minifundios Gallegos"
+  german_unifier_ruler: "Unificador Alemán"
+
+  pmg_base_hardwood: "Hardwood PMG"
+  pm_manor_house_daimyo_domains: "Heredades de los Daimio"
+  sonno_joi_agitator: "Agitador Sonno Joi"
+  law_han_system: "Sistema Han"
+  law_han_system_desc: "Sistema de jure bajo el que operan las heredades de los Daimio como provincias administrativas bajo el gobierno de los Tokugawa."
+  ideology_samurai_modernizer: "Modernizador Samurai"
+  ideology_samurai_modernizer_desc: "Este personaje cree en un Japón modernizado bajo una nueva identidad nacional, sin abandonar la jerarquía ni el espíritu samurai."
+  japanese_urbanization_kanto: "Urbanismo japonés"
+  japanese_urbanization_kansai: "Urbanismo japonés"
+  japanese_urbanization_kyushu: "Urbanismo japonés"
+  japanese_urbanization_chubu: "Urbanismo japonés"
+  japanese_urbanization_chugoku: "Urbanismo japonés"
+  japanese_urbanization_shikoku: "Urbanismo japonés"
+  japanese_urbanization_tohoku: "Urbanismo japonés"
+
+  japan_agitators.1.t: "Venera al Emperador, expulsa a los Bárbaros"
+  japan_agitators.1.d: "Un samurai de baja categoría, Saigo Takamori, ha sido promocionado recientemente por Shimazu Nariakira, daimio del dominio de Satsuma. Bajo la protección de su patrón, Saigo ha comenzado a promover una ideología reformiste bajo el eslogan de Sonnō jōi. ¿Cómo debebemos proceder con él?"
+  japan_agitators.1.f: "Saigō Takamori (born Jan. 23, 1828, Kagoshima, Kyushu, Japan—died Sept. 24, 1877, Kagoshima) was a leader in the overthrow of the Tokugawa shogunate who later rebelled against the weaknesses he saw in the Imperial government that he had helped to restore. Although his participation in the restoration made him a legendary hero, it also, to his mortification, relegated his samurai class to impotence. - Encyclopedia Britannica. "
+  japan_agitators.1.a: "Dejémosle estar, no podemos perder el apoyo de los Shimazu."
+  japan_agitators.1.b: "¡Alta traición! Ejecutémosle ahora mismo."
+
+  unit_combat_unit_type_hussars_offense_mult: "Multiplicador al Ataque de los Húsares"
+  unit_combat_unit_type_cuirassiers_offense_mult: "Multiplicador al Ataque de los Coraceros"
+  unit_combat_unit_type_lancers_offense_mult: "Multiplicador al Ataque de los Lanceros"
+  unit_combat_unit_type_revolver_cavalry_offense_mult: "Multiplicador al Ataque de la Caballería con Revólver"
+  unit_combat_unit_type_dragoons_defense_mult: "Multiplicador al Ataque de los Dragones"
+  unit_combat_unit_type_carabiners_defense_mult: "Multiplicador a la Defensa de los Carabineros"
+
+  battle_condition_cavalry_charge_desc: "Este bando es capaz de lanzar una carga de caballería contra el enemigo."
+
+  unit_combat_unit_type_line_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Línea"
+  unit_combat_unit_type_skirmish_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Escaramuza"
+  unit_combat_unit_type_trench_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería de Trinchera"
+  unit_combat_unit_type_squad_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería en Pelotones"
+  unit_combat_unit_type_mechanized_infantry_defense_mult: "Multiplicador a la Defensa de la Infantería Mecanizada"
+
+  basic_infantry_commander_desc: "Este personaje es competente en el comando de infantería."
+
+  ig_trait_segundo_renacimiento: "Un Segundo Renacimiento"
+  ig_trait_segundo_renacimiento_desc: ""
+
+  Iesada: "Iesada"
+  Iemochi: "Iemochi"
+  Sanetomi: "Sanetomi"
+  Sanjo: "Sanjo"
+  Kaoru: "Kaoru"
+  Saionji: "Saionji"
+  Kinmochi: "Kinmochi"
+
+  combat_unit_type_revolver_cavalry_desc: "Caballería ligera equipada con revólveres además de espadas, lo que aumenta enormemente su capacidad de fuego frente a las pistolas tradicionales."
+  combat_unit_type_carabineer_desc: "Caballería pesada equipada con rifles de carabina, más cortos y manejables, con los que hostigar desde una distancia segura a las tropas enemigas mientras se criba el terreno."
+
+  combat_unit_type_screw_frigate_desc: "Barco equipado con propulsión experimental a vapor, lo que le permite contrarrestar parcialmente los malos vientos."
+  combat_unit_type_screw_manowar_desc: "Barco equipado con propulsión experimental a vapor, lo que le permite contrarrestar parcialmente los malos vientos."
+
+  unit_combat_unit_type_mobile_artillery_offense_add: "Ataque a la Artillería Móbil"
+
+  prestige_good_galician_oil: "Petróleo de Galicia"
+  prestige_good_brazilian_coffee: "Café Brasileño"
+
+
+  unit_combat_unit_type_light_tanks_offense_add: "Ataque a los Tanques Ligeros"
+  unit_combat_unit_type_light_tanks_offense_mult: "Multiplicador de Ataque a los Tanques Ligeros"
+  unit_combat_unit_type_heavy_tank_defense_mult: "Multiplicador de Defensa a los Tanques Pesados"
+
+  company_societe_renault_freres: "Societe Renault Freres"
+  prestige_good_renault_automobiles: "Automóbil Renault"
+
+  ig_trait_la_buena_vida: "La Buena Vida"
+  ig_trait_la_buena_vida_desc: "Comidita, vino y los toros. ¿Quién necesita más?"
+
+  german_unification.6.t: "¡Derrota por el Liderazgo Alemán!"
+  german_unification.6.d: "Pese a los valientes esfuerzos de nuestras tropas, los Austríacos nos han infligido una fuerte derrota. Esto supone un duro revés para nuestras ambiciones políticas, y peor, parece que muchos de entre nuestros oficiales están comenzando a murmurar sobre traiciones en el frente doméstico... Afortunadamente, esta debacle ha permitido aunar la política interior de la Confederación Alemana en un movimiento inesperada, y sus miembros, ante la amenaza del dominio austríaco, viendo el destino de los estados sudalemanes, han preferido unirse a nosotros de libre volición."
+  german_unification.6.f: ""
+  german_unification.6.a: "Más perdimos en las Guerras Napoleónicas. Nos reconstruiremos."
+
+  german_unification.7.t: "¡Golpe de estado en las Fuerzas Armadas!"
+  german_unification.7.d: "Nuestros oficiales se han reunido ante las puertas de nuestra corte, acompañados de soldados y una muchedumbre descontenta. Afortunadamente para nosotros, no están en busca de sangre: parece que solo les interesa el <<bien de la patria>>. Con todo, tienen una serie de demandas que fortalecería su posición en el gobierno y aumentaría la cantidad de tropas disponibles que arrojar al frente, esto es, a expensas de nuestro gobierno civil."
+  german_unification.7.f: ""
+  german_unification.7.a: "Solo tenemos una opción."
+
+  prussian_revanchism: "Revanchismo Prusiano"
+  ideology_military_totalists: "Militarismo Totalista"
+  ideology_military_totalists_desc: ""
+
+  Iesada: "Iesada"
+  Iemochi: "Iemochi"
+  Sanetomi: "Sanetomi"
+  Kaoru: "Kaoru"
+  Saionji: "Saionji"

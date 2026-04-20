@@ -30,10 +30,7 @@
 			if = {
 				limit = {
 					owner = {
-						OR = {
-							c:NHA ?= this
-							c:SON ?= this
-						}
+						c:CHI ?= this
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_newly_created_army
@@ -56,11 +53,31 @@
 			else_if = {
 				limit = {
 					owner = {
+						c:JAP ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_veteran_consultation
+				set_ig_trait = ig_trait:ig_trait_bushido_code
+			}
+			else_if = {
+				limit = {
+					owner = {
 						c:TUR ?= this
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_materiel_waste
 				set_ig_trait = ig_trait:ig_trait_unwavering_loyalty
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
+			else_if = {
+				limit = {
+					owner = {
+						c:RUS ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_a_school_for_the_nation
 				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 			}
 			else_if = {
@@ -197,12 +214,12 @@
 		}
 	}
 	on_disable = {}
-	
+
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
 				c:BIC ?= this
-				any_primary_culture = { 
+				any_primary_culture = {
 					cu:british = this
 				}
 			}
@@ -221,10 +238,36 @@
 				bedouin swahili baluchi
 			}
 		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				NOT = { has_variable = je_philippines_main_reliance_happened }
+				NOT = { any_primary_culture = { cu:filipino = this } }
+				NOT = { any_primary_culture = { cu:filipino_hispanophone = this } }
+				any_primary_culture = { cu:spanish = this }
+			}
+			cultures = {
+				spanish filipino_mestizo
+			}
+		}
+		rule = {
+			trigger = {
+				c:PHI ?= this
+				any_primary_culture = {
+					AND = {
+						cu:spanish = this
+						cu:filipino_hispanophone = this
+					}
+				}
+			}
+			cultures = {
+				spanish filipino_hispanophone
+			}
+		}
 	}
 
 	on_character_ig_membership = {}
-	
+
 	pop_potential = {
 		OR = {
 			is_pop_type = soldiers
@@ -356,7 +399,7 @@
 				}
 			}
 		}
-		
+
 		add = {
 			desc = "SIKH_MILITANCY"
 			if = {
@@ -382,12 +425,7 @@
 			desc = "MILITARY_INDUSTRIES"
 			if = {
 				limit = {
-					OR = {
-						pop_employment_building_group = bg_munition_plants
-						pop_employment_building_group = bg_arms_industries
-						pop_employment_building_group = bg_artillery_foundaries
-						pop_employment_building_group = bg_military_shipyards
-					}
+					pop_employment_building_group = bg_military_industry
 				}
 				if = {
 					limit = {
@@ -403,7 +441,7 @@
 				}
 			}
 		}
-		
+
 		add = {
 			desc = "POP_MILITARY_BUREAUCRACY"
 			if = {
@@ -476,7 +514,7 @@
 		# Monarch is not likely to adopt a marginal IG
 		if = {
 			limit = {
-				is_marginal = yes
+				ig_counts_as_marginal = yes
 			}
 			multiply = {
 				value = 0.1
@@ -543,7 +581,7 @@
 		if = {
 			limit = {
 				owner.ig:ig_armed_forces ?= {
-					is_marginal = yes
+					ig_counts_as_marginal = yes
 				}
 			}
 			multiply = {
@@ -593,7 +631,7 @@
 
 	female_agitator_chance = {
 		value = 0.01
-		
+
 		if = {
 			limit = {
 				owner = {
@@ -604,8 +642,8 @@
 			add = {
 				value = 0.01
 			}
-		}	
-		
+		}
+
 		if = {
 			limit = {
 				owner = {
@@ -628,7 +666,7 @@
 			add = {
 				value = 0.01
 			}
-		}		
+		}
 	}
 
 	# The chance that a commander belonging to this IG takes over leadership when it changes
@@ -637,7 +675,7 @@
 		value = 0.75
 		multiply = ig_commander_leader_chance_mult
 	}
-	
+
 	# The chance that a executive belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular executive in the IG
 	executive_leader_chance = {

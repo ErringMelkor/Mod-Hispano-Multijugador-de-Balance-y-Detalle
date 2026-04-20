@@ -69,7 +69,7 @@
 				size = 124800
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 9600
 			}
 		}
@@ -145,7 +145,7 @@
 				size = 21014
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 1187
 			}
 			create_pop = {
@@ -169,7 +169,7 @@
 				size = 9459
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 6306
 			}
 			create_pop = {
@@ -219,11 +219,11 @@
 				size = 116076
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = mordvin
 				size = 145276
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				religion = protestant
 				size = 43939
 			}
@@ -283,11 +283,11 @@
 				size = 46043
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = mordvin
 				size = 15722
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = mari
 				size = 8794
 			}
 		}
@@ -307,7 +307,7 @@
 				size = 62827
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = mordvin
 				size = 67811
 			}
 			create_pop = {
@@ -315,11 +315,12 @@
 				size = 17643
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
+				religion = orthodox
 				size = 20512
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				religion = protestant
 				size = 56900
 			}
@@ -348,11 +349,12 @@
 				size = 11574
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 11145
+				religion = orthodox
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 19312
 				religion = protestant
 			}
@@ -453,7 +455,7 @@
 				size = 16451
 			}
 			create_pop = {
-				culture = FinnoUgric
+				culture = mordvin
 				size = 3581
 			}
 			create_pop = {
@@ -467,7 +469,7 @@
 		}
 	}
 	s:STATE_JETISY = { 
-		region_state:XIN = {
+		region_state:CHI = {
 			create_pop = {
 				culture = kazak
 				size = 50642
@@ -681,7 +683,7 @@
 				size = 8000
 			}
 		}
-		region_state:XIN = {
+		region_state:CHI = {
 			create_pop = {
 				culture = kirgiz
 				size = 30150
@@ -852,6 +854,151 @@
 			}
 		}
 	}
+	s:STATE_PASHTUNISTAN = {
+		# Downscaled data from 1931 census
+		region_state:KAB = {
+			# Peshawar (minority)
+			create_pop = {
+				culture = pashtun
+				size = 100040
+			}
+			# Dera Ismail
+			create_pop = {
+				culture = pashtun
+				size = 32185
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = sunni
+				size = 106869
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = hindu
+				size = 11002
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = hindu
+				pop_type = slaves
+				size = 21002
+			}
+			# Tribal Areas
+			create_pop = {
+				culture = pashtun
+				size = 555572
+			}
+		}
+		region_state:PAN = {
+			# Hazara District
+			create_pop = {
+				culture = panjabi # Hazarewal
+				religion = sunni
+				size = 362076
+			}
+			create_pop = {
+				culture = panjabi # Hazarewal
+				size = 25260
+				religion = hindu
+			}
+			create_pop = {
+				culture = panjabi # Hazarewal
+				size = 7630
+				religion = sikh
+			}
+			create_pop = {
+				culture = pashtun
+				size = 20005
+			}
+			# Peshawar (majority)
+			create_pop = {
+				culture = pashtun
+				size = 369023
+			}
+			create_pop = {
+				culture = panjabi # Hazarewal
+				religion = sunni
+				size = 76313
+			}
+			create_pop = {
+				culture = panjabi # Hazarewal
+				religion = hindu
+				size = 30004
+			}
+			create_pop = {
+				culture = panjabi
+				religion = sunni
+				size = 10483
+			}
+			create_pop = {
+				culture = panjabi
+				religion = sikh
+				size = 10003
+			}
+			# Bannu
+			create_pop = {
+				culture = pashtun
+				size = 137028
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = sunni
+				size = 5128
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = hindu
+				size = 15228
+			}
+			# Kohat
+			create_pop = {
+				culture = pashtun
+				size = 111779
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = sunni
+				size = 11453
+			}
+			create_pop = {
+				culture = panjabi # Saraiki
+				religion = hindu
+				size = 10008
+			}
+		}
+		region_state:CHT = {
+			create_pop = {
+				culture = pashtun
+				size = 140232
+			}
+			create_pop = {
+				culture = panjabi # Kohistani
+				religion = sunni
+				size = 20001
+			}
+			create_pop = {
+				culture = kho
+				religion = sunni
+				size = 55102
+			}
+			create_pop = {
+				culture = kho # Kalash
+				religion = animist
+				size = 7501
+			}
+			create_pop = {
+				culture = pashtun
+				pop_type = slaves
+				size = 10000
+			}
+			create_pop = {
+				culture = kho # Kalash
+				religion = animist
+				pop_type = slaves
+				size = 2501
+			}
+		}
+	}
 	s:STATE_KANDAHAR = {
 		region_state:KAN = {
 			create_pop = {
@@ -926,15 +1073,15 @@
 				size = 5000
 			}
 		}
-		region_state:CHT = {
+		region_state:KAF = {
 			create_pop = {
 				culture = kho # nuristani
-				religion = animist
+				religion = hindu
 				size = 20344
 			}
 			create_pop = {
 				culture = kho # nuristani
-				religion = animist
+				religion = hindu
 				pop_type = slaves
 				size = 2000
 			}
@@ -1229,147 +1376,6 @@
 				culture = hazara
 				pop_type = slaves
 				size = 4200
-			}
-		}
-	}
-	s:STATE_PASHTUNISTAN = {
-		# Downscaled data from 1931 census
-		region_state:PAN = {
-			# Peshawar (minority)
-			create_pop = {
-				culture = pashtun
-				size = 100040
-			}
-			# Dera Ismail
-			create_pop = {
-				culture = pashtun
-				size = 32185
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = sunni
-				size = 106869
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				size = 11002
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				pop_type = slaves
-				size = 21002
-			}
-			# Tribal Areas
-			create_pop = {
-				culture = pashtun
-				size = 555572
-			}
-			# Hazara District
-			create_pop = {
-				culture = panjabi # Hazarewal
-				religion = sunni
-				size = 362076
-			}
-			create_pop = {
-				culture = panjabi # Hazarewal
-				size = 25260
-				religion = hindu
-			}
-			create_pop = {
-				culture = panjabi # Hazarewal
-				size = 7630
-				religion = sikh
-			}
-			create_pop = {
-				culture = pashtun
-				size = 20005
-			}
-			# Peshawar (majority)
-			create_pop = {
-				culture = pashtun
-				size = 369023
-			}
-			create_pop = {
-				culture = panjabi # Hazarewal
-				religion = sunni
-				size = 76313
-			}
-			create_pop = {
-				culture = panjabi # Hazarewal
-				religion = hindu
-				size = 30004
-			}
-			create_pop = {
-				culture = panjabi
-				religion = sunni
-				size = 10483
-			}
-			create_pop = {
-				culture = panjabi
-				religion = sikh
-				size = 10003
-			}
-			# Bannu
-			create_pop = {
-				culture = pashtun
-				size = 137028
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = sunni
-				size = 5128
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				size = 15228
-			}
-			# Kohat
-			create_pop = {
-				culture = pashtun
-				size = 111779
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = sunni
-				size = 11453
-			}
-			create_pop = {
-				culture = panjabi # Saraiki
-				religion = hindu
-				size = 10008
-			}
-			create_pop = {
-				culture = pashtun
-				size = 140232
-			}
-			create_pop = {
-				culture = panjabi # Kohistani
-				religion = sunni
-				size = 20001
-			}
-			create_pop = {
-				culture = kho
-				religion = sunni
-				size = 55102
-			}
-			create_pop = {
-				culture = kho # Kalash
-				religion = animist
-				size = 7501
-			}
-			create_pop = {
-				culture = pashtun
-				pop_type = slaves
-				size = 10000
-			}
-			create_pop = {
-				culture = kho # Kalash
-				religion = animist
-				pop_type = slaves
-				size = 2501
 			}
 		}
 	}

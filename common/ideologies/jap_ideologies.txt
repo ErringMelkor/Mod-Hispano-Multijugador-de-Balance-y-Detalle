@@ -1,4 +1,4 @@
-﻿ideology_shinto_moralist = {
+﻿REPLACE_OR_CREATE:ideology_shinto_moralist = {
 	icon = "gfx/interface/icons/ideology_icons/shinto_moralist.dds"
 	
 	lawgroup_governance_principles = {
@@ -10,9 +10,9 @@
 	}
 	
 	lawgroup_church_and_state = {
-		law_state_religion = approve
-		law_freedom_of_conscience = strongly_approve
-		law_total_separation = strongly_disapprove
+		law_state_religion = neutral
+		law_freedom_of_conscience = approve
+		law_total_separation = strongly_approve
 		law_state_atheism = strongly_disapprove
 	}
 	
@@ -20,8 +20,9 @@
 		law_ethnostate = strongly_approve
 		law_national_supremacy = approve
 		law_racial_segregation = neutral
+		law_subjecthood = neutral
 		law_cultural_exclusion = disapprove
-		law_multicultural = strongly_disapprove	
+		law_multicultural = strongly_disapprove
 	}
 
 	lawgroup_distribution_of_power = {
@@ -34,5 +35,12 @@
 		law_universal_suffrage = disapprove
 		law_anarchy = strongly_disapprove
 		law_technocracy = strongly_disapprove
+	}
+
+	lawgroup_army_model = {
+		law_mass_conscription = strongly_approve
+		law_professional_army = approve
+		law_peasant_levies = disapprove
+		law_national_militia = disapprove
 	}
 }

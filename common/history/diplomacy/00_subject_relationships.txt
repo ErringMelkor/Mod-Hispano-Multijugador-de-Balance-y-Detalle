@@ -5,9 +5,13 @@
 			type = colony
 		}
 		create_diplomatic_pact = {
+			country = c:PCO
+			type = colony
+		}
+		create_diplomatic_pact = {
 			country = c:PHI
 			type = colony
-		}		
+		}
 	}
 	c:NET ?= {
 		create_diplomatic_pact = {
@@ -17,7 +21,7 @@
 		create_diplomatic_pact = {
 			country = c:LUX
 			type = grant_own_market
-		}		
+		}
 		create_diplomatic_pact = {
 			country = c:DEI
 			type = dominion
@@ -60,7 +64,7 @@
 			country = c:HOH
 			type = puppet
 		}
-	}		
+	}
 	c:DEN ?= {
 		create_diplomatic_pact = {
 			country = c:HOL
@@ -73,9 +77,17 @@
 	}
 	c:CHI ?= {
 		create_diplomatic_pact = {
+			country = c:TIB
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = tributary
+		}
+		create_diplomatic_pact = {
 			country = c:LAN
 			type = tributary
-		}			
+		}
 	}
 	c:AUS ?= {
 		create_diplomatic_pact = {
@@ -96,7 +108,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:CRO
-			type = decrease_payments  
+			type = decrease_payments
 		}
 	}
 	c:USA ?= {
@@ -124,12 +136,12 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
-			type = puppet
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:ORG
 			type = colony
-		}		
+		}
 		create_diplomatic_pact = {
 			country = c:HAN
 			type = personal_union
@@ -222,6 +234,10 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
+			country = c:KAS
+			type = tributary
+		}
+		create_diplomatic_pact = {
 			country = c:BIK
 			type = vassal
 		}
@@ -257,12 +273,12 @@
 		
 		create_diplomatic_pact = {
 			country = c:PAN
-			type = tributary
+			type = vassal
 		}
 
 		create_diplomatic_pact = {
 			country = c:BGL
-			type = tributary
+			type = vassal
 		}
 
 		create_diplomatic_pact = {
@@ -358,10 +374,7 @@
 			country = c:BHW
 			type = tributary
 		}
-	}
-	
-	c:MRT ?= {
-		create_diplomatic_pact = {
+				create_diplomatic_pact = {
 			country = c:SAT
 			type = vassal
 		}
@@ -387,11 +400,11 @@
 		}
 		create_diplomatic_pact = {
 			country = c:MYS
-			type = vassal
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:HYD
-			type = vassal
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:KNO
@@ -422,10 +435,11 @@
 			type = vassal
 		}
 	}
+
 	c:DAI ?= {
 		create_diplomatic_pact = {
 			country = c:CAM
-			type = tributary
+			type = vassal
 		}
 	}
 	c:SIA ?= {
@@ -440,7 +454,7 @@
 		create_diplomatic_pact = {
 			country = c:LUA
 			type = tributary
-		}		
+		}
 	}
 	c:EGY ?= {
 		create_diplomatic_pact = {
@@ -460,11 +474,11 @@
 		create_diplomatic_pact = {
 			country = c:SER
 			type = protectorate
-		}		
+		}
 		create_diplomatic_pact = {
 			country = c:TRI
 			type = puppet
-		}	
+		}
 		create_diplomatic_pact = {
 			country = c:TUN
 			type = protectorate
@@ -472,10 +486,6 @@
 		create_diplomatic_pact = {
 			country = c:EGY
 			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:SYR
-			type = puppet
 		}
 	}
 	
@@ -542,28 +552,28 @@
 		}
 	}
 
-	c:PER = {
+	c:PER ?= {
 		create_diplomatic_pact = {
 			country = c:ARB
 			type = vassal
 		}
 	}
-	
-	c:KAL = {
+
+	c:KAL ?= {
 		create_diplomatic_pact = {
 			country = c:MAK
 			type = vassal
 		}
 	}
 
-	
+
 	# Starting liberty desire
 	c:PEC = {
 		add_liberty_desire = -30
 	}
-	
-	c:DEI = {
-		add_liberty_desire = -30
+
+	c:DEI ?= {
+		add_liberty_desire = -50
 	}	
 	
 	c:SAF = {
@@ -663,6 +673,13 @@
 		create_diplomatic_pact = {
 			country = c:SHS
 			type = vassal
+		}
+	}
+
+	c:OMA ?= {
+		create_diplomatic_pact = {
+			country = c:MBS
+			type = tributary
 		}
 	}
 }

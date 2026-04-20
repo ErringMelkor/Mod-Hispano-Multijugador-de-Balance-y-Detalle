@@ -1,0 +1,117 @@
+﻿je_age_of_nicholas_i = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+	scripted_button = je_age_of_nicholas_i_summon_kiselyov
+	scripted_button = je_age_of_nicholas_i_promote_russian_works
+	scripted_button = je_age_of_nicholas_i_kiselyov_schools
+	scripted_button = je_age_of_nicholas_i_curtail_aristocracy
+	scripted_button = je_age_of_nicholas_i_appease_peasantry
+
+
+	is_shown_in_lobby = {
+		c:RUS ?= this
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_template = RUS_nicholas_i
+			}
+			save_scope_as = nicholas_i_scope
+		}
+		ig:ig_landowners ?= {
+			save_scope_as = aristocracy_scope
+		}
+		heir ?= {
+			save_scope_as = alexander_ii_heir_scope
+		}
+		set_variable = { name = boyars_out_var value = 0 }
+	}
+
+	complete = {
+		trigger_if = {
+			limit = {
+				exists = scope:nicholas_i_scope
+			}
+			scope:nicholas_i_scope ?= {
+				is_ruler = no
+			}
+			# se muere de manera natural.
+		}
+	}
+
+	on_complete = {
+		remove_modifier = modifier_nicholas_i_rule
+		add_modifier = {
+			name = modifier_nicholas_i_legacy
+			years = 10
+			multiplier = nicholas_i_agenda_value
+		}
+
+		set_variable = nicholas_completed_var
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+		}
+		effect = {
+			if = {
+				limit = {
+					ig:ig_landowners ?= {
+						is_in_government = no
+					}
+				}
+				change_variable = { name = boyars_out_var add = 1 }
+			}
+			else = {
+				set_variable = { name = boyars_out_var value = 0 }
+			}
+
+			remove_modifier = modifier_nicholas_i_rule
+			add_modifier = {
+				name = modifier_nicholas_i_rule
+				multiplier = nicholas_i_agenda_value
+			}
+		}
+	}
+
+	fail = {
+		OR = {
+			any_civil_war = {
+				is_civil_war_type = revolution
+			}
+			custom_tooltip = {
+				text = landowners_out_of_government_for_six_months_or_more_tt
+				exists = var:boyars_out_var
+				var:boyars_out_var > 6
+				ig:ig_landowners ?= {
+					is_in_government = no
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		remove_modifier = modifier_nicholas_i_rule
+		add_modifier = {
+			name = modifier_nicholas_i_disaster
+			years = 10
+		}
+		ig:ig_landowners ?= {
+			set_ig_trait = ig_trait:ig_trait_terrible_boyars
+		}
+	}
+
+	invalid = {
+		NOT = {
+			has_law_or_variant = law_type:law_monarchy
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+#Guerra y Paz

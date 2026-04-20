@@ -1,4 +1,4 @@
-﻿ideology_scholar_paternalistic = {
+﻿REPLACE_OR_CREATE:ideology_scholar_paternalistic = {
 	icon = "gfx/interface/icons/ideology_icons/scholar_paternalistic.dds"
 	
 	lawgroup_governance_principles = {
@@ -50,7 +50,7 @@
 	}
 }
 
-ideology_confucian = {
+REPLACE_OR_CREATE:ideology_confucian = {
 	icon = "gfx/interface/icons/ideology_icons/confucian.dds"
 	
 	lawgroup_church_and_state = {
@@ -104,7 +104,7 @@ ideology_confucian = {
 	}
 }
 
-ideology_fiscal_conservative = {
+REPLACE_OR_CREATE:ideology_fiscal_conservative = {
 	icon = "gfx/interface/icons/ideology_icons/fiscal_conservative.dds"
 
 	lawgroup_economic_system = {		
@@ -133,7 +133,7 @@ ideology_fiscal_conservative = {
 	}
 }
 
-ideology_manchu_supremacy = {
+REPLACE_OR_CREATE:ideology_manchu_supremacy = {
 	icon = "gfx/interface/icons/ideology_icons/caudillismo.dds"
 
 	lawgroup_citizenship = {

@@ -1695,6 +1695,41 @@ lobby_events.52 = {
 	}
 }
 
+lobby_events.401 = {
+	orphan = yes
+	type = country_event
+	placement = scope:rifle_state
+
+	title = military_tech_events.401.t
+	desc = military_tech_events.401.d
+	flavor = military_tech_events.401.f
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	trigger = {
+	}
+	immediate = {
+	}
+
+	option = { #
+		name = military_tech_events.401.a
+		default_option = yes
+
+		set_global_variable = military_tech_events_var
+		
+	}
+}
+
 # Contradictory Correspondence
 
 lobby_events.53 = {
@@ -1733,6 +1768,8 @@ lobby_events.53 = {
 			target = { relations:root <= relations_threshold:poor }
 		}
 	}
+
+	namespace = military_tech_events
 
 	immediate = {
 		random_political_lobby = {

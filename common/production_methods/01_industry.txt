@@ -127,7 +127,6 @@ pm_cannery_fish = {
 
 pm_vacuum_canning = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
-	replacement_if_valid = pm_vacuum_canning_principle_3
 	
 	unlocking_technologies = {
 		vacuum_canning
@@ -356,45 +355,14 @@ pm_craftsman_sewing = {
 			goods_input_fabric_add = -15				# x20 =  300
 			
 			# output goods
-			goods_output_clothes_add = -30			# x30 = -900
-			goods_output_luxury_clothes_add = 30		# x60 = 1800
+			goods_output_clothes_add = -25			# x30 = -750
+			goods_output_luxury_clothes_add = 25		# x60 = 1500
 		}
 		
 		level_scaled = {
-			# profit = 400 (20.8)
+			# profit = 450 (20.8)
 			building_employment_shopkeepers_add = 500
 		}					
-	}
-}
-
-pm_elastics = {
-	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
-
-	unlocking_technologies = {
-		vulcanization
-	}
-
-	unlocking_production_methods = {
-		pm_sewing_machines
-		pm_electric_sewing_machines
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods	
-			goods_input_rubber_add = 10 			# x40 = -400
-			goods_input_silk_add = 35 				# x40 = -1400
-			goods_input_fabric_add = -35				# x20 =  600
-				
-			# output goods	
-			goods_output_clothes_add = -70 			# x30 = -2100
-			goods_output_luxury_clothes_add = 70		# x60 =  4200
-		}
-		
-		level_scaled = {
-			# profit = 900 (23.4)
-			building_employment_shopkeepers_add = 1000
-		}						
 	}
 }
 
@@ -569,13 +537,14 @@ pm_precision_tools = {
 	unlocking_production_methods = {
 		pm_lathe
 		pm_mechanized_workshops
+		pm_electrical_workshops
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_hardwood_add = 25			# x40 = -1000
-			goods_input_tools_add = 10				# x40 = -400
+			goods_input_tools_add = 5				# x40 = -200
 			goods_input_wood_add = -25				# x20 =  500
 			
 			# output goods
@@ -584,7 +553,7 @@ pm_precision_tools = {
 		}
 		
 		level_scaled = {
-			building_employment_shopkeepers_add = 1000
+			building_employment_shopkeepers_add = 500
 		}						
 	}
 }
@@ -593,7 +562,7 @@ pm_automation_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
-pm_watertube_boiler_building_furniture_manufacturies = {
+pm_watertube_boiler_building_furniture_manufactory = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	
 	unlocking_technologies = {
@@ -623,7 +592,7 @@ pm_watertube_boiler_building_furniture_manufacturies = {
 	}
 }
 
-pm_rotary_valve_engine_building_furniture_manufacturies = {
+pm_rotary_valve_engine_building_furniture_manufactory = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 	
 	unlocking_technologies = {
@@ -653,7 +622,7 @@ pm_rotary_valve_engine_building_furniture_manufacturies = {
 	}
 }
 
-pm_assembly_lines_building_furniture_manufacturies = {
+pm_assembly_lines_building_furniture_manufactory = {
 	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
 	unlocking_technologies = {
@@ -977,7 +946,7 @@ pm_rubber_grips = {
 	}
 }
 
-pm_watertube_boiler_building_tooling_workshops = {
+pm_watertube_boiler_building_tooling_workshop = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	
 	state_modifiers = {
@@ -1005,7 +974,7 @@ pm_watertube_boiler_building_tooling_workshops = {
 	}
 }
 
-pm_rotary_valve_engine_building_tooling_workshops = {
+pm_rotary_valve_engine_building_tooling_workshop = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 	
 	state_modifiers = {
@@ -1033,7 +1002,7 @@ pm_rotary_valve_engine_building_tooling_workshops = {
 	}
 }
 
-pm_assembly_lines_building_tooling_workshops = {
+pm_assembly_lines_building_tooling_workshop = {
 	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
 	state_modifiers = {
@@ -1145,7 +1114,7 @@ pm_bleached_paper = {
 	}
 }
 
-pm_watertube_boiler_building_paper_mills = {
+pm_watertube_boiler_building_paper_mill = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	
 	state_modifiers = {
@@ -1175,7 +1144,7 @@ pm_watertube_boiler_building_paper_mills = {
 	}
 }
 
-pm_rotary_valve_engine_building_paper_mills = {
+pm_rotary_valve_engine_building_paper_mill = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 	
 	state_modifiers = {
@@ -1464,31 +1433,6 @@ pm_no_artificial_fibers = {
 	texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
 }
 
-pm_rayon = {
-	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-
-	unlocking_technologies = {
-		art_silk
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_wood_add = 10
-
-			# output goods
-			goods_output_dye_add = -10
-			goods_output_silk_add = 30
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-			building_employment_machinists_add = 1000
-		}
-	}
-}
-
 pm_blister_steel_process = {
 	texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 	
@@ -1566,11 +1510,11 @@ pm_open_hearth_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 90
-			goods_input_coal_add = 30
+			goods_input_iron_add = 90 # 3600
+			goods_input_coal_add = 30 # 900
 			
 			# output goods
-			goods_output_steel_add = 120
+			goods_output_steel_add = 120 # 6000
 		}
 
 		level_scaled = {
@@ -1599,12 +1543,12 @@ pm_electric_arc_process = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 100
-			goods_input_coal_add = 30 
-			goods_input_electricity_add = 30
+			goods_input_iron_add = 100 # 4000
+			goods_input_coal_add = 30 # 900
+			goods_input_electricity_add = 30 # 900
 			
 			# output goods
-			goods_output_steel_add = 150
+			goods_output_steel_add = 150 # 7500
 		}
 
 		level_scaled = {
@@ -1619,7 +1563,7 @@ pm_electric_arc_process = {
 	required_input_goods = electricity
 }
 
-pm_watertube_boiler_building_steel_mills = {
+pm_watertube_boiler_building_steel_mill = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	
 	state_modifiers = {
@@ -1645,7 +1589,7 @@ pm_watertube_boiler_building_steel_mills = {
 	}
 }
 
-pm_rotary_valve_engine_building_steel_mills = {
+pm_rotary_valve_engine_building_steel_mill = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 	
 	state_modifiers = {
@@ -2119,12 +2063,12 @@ pm_automobile_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 10
-			goods_input_rubber_add = 5
-			goods_input_oil_add = 5
+			goods_input_engines_add = 10 # 600
+			goods_input_rubber_add = 5 # 200
+			goods_input_oil_add = 5 # 200
 
 			# output goods
-			goods_output_automobiles_add = 30
+			goods_output_automobiles_add = 25 # 2500
 		}
 
 		level_scaled = {
@@ -2151,12 +2095,12 @@ pm_mass_automobile_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 10
-			goods_input_rubber_add = 10
-			goods_input_oil_add = 10
+			goods_input_engines_add = 15 # 900
+			goods_input_rubber_add = 10 # 400
+			goods_input_oil_add = 15 # 600
 
 			# output goods
-			goods_output_automobiles_add = 60
+			goods_output_automobiles_add = 45 # 4500
 		}
 
 		level_scaled = {
@@ -2186,7 +2130,7 @@ pm_aeroplane_production = {
 			goods_input_fabric_add = 4
 
 			# output goods
-			goods_output_automobiles_add = -10
+			goods_output_automobiles_add = -5
 			goods_output_aeroplanes_add = 10
 		}
 
@@ -2210,10 +2154,10 @@ pm_tank_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 5
+			goods_input_steel_add = 15
 
 			# output goods
-			goods_output_automobiles_add = -20
+			goods_output_automobiles_add = -15
 			goods_output_tanks_add = 20
 		}
 		
@@ -2594,7 +2538,7 @@ pm_explosive_shells = {
 	}
 }
 
-pm_rotary_valve_engine_building_munition_plants = {
+pm_rotary_valve_engine_building_munition_plant = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 	
 	state_modifiers = {
@@ -2618,7 +2562,7 @@ pm_rotary_valve_engine_building_munition_plants = {
 	}
 }
 
-pm_assembly_lines_building_munition_plants = {
+pm_assembly_lines_building_munition_plant = {
 	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
 	state_modifiers = {

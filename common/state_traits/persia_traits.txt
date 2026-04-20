@@ -1,4 +1,4 @@
-﻿state_trait_gol_gohar_deposit = {
+﻿REPLACE_OR_CREATE:state_trait_gol_gohar_deposit = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
 	
 	modifier = {
@@ -6,7 +6,7 @@
 	}
 }
 
-state_trait_zagros_mountains = {
+REPLACE_OR_CREATE:state_trait_zagros_mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 
 	modifier = {
@@ -15,7 +15,7 @@ state_trait_zagros_mountains = {
 	}
 }
 
-state_trait_alborz_mountains = {
+REPLACE_OR_CREATE:state_trait_alborz_mountains = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 
 	modifier = {
@@ -24,7 +24,7 @@ state_trait_alborz_mountains = {
 	}
 }
 
-state_trait_golden_crescent = {
+REPLACE_OR_CREATE:state_trait_golden_crescent = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	
 	modifier = {
@@ -32,12 +32,28 @@ state_trait_golden_crescent = {
 	}
 }
 
-state_trait_amu_daria_delta = {
+REPLACE_OR_CREATE:state_trait_amu_daria_delta = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 	
 	modifier = {
 		building_group_bg_agriculture_throughput_add = 0.1
 		building_group_bg_plantations_throughput_add = 0.1
 		state_infrastructure_mult = -0.1
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_turqoise_deposits = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+
+	modifier = {
+		building_dye_plantation_throughput_add = 0.5
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_bam_narmashir = {
+	icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+
+	modifier = {
+		building_dye_plantation_throughput_add = 0.5
 	}
 }

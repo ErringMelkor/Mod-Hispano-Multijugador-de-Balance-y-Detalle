@@ -66,7 +66,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
 			}
 		}
 	}
@@ -202,7 +202,7 @@
 	s:STATE_GREATER_CAUCASUS={
 		region_state:RUS={
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
 						type="building_manor_house"
@@ -361,7 +361,7 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:BUK"
@@ -402,7 +402,7 @@
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:KOK"
@@ -458,7 +458,7 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:KOK"
@@ -469,13 +469,13 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -486,13 +486,13 @@
 		}
 	}
 	s:STATE_JETISY={
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
@@ -505,13 +505,13 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -531,7 +531,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:KHI"
@@ -550,10 +550,10 @@
 	s:STATE_KANDAHAR={
 		region_state:KAN={
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
+						type="building_textile_mill"
 						country="c:KAN"
 						levels=1
 						region="STATE_KANDAHAR"
@@ -668,10 +668,10 @@
 	s:STATE_HERAT={
 		region_state:HER={
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
+						type="building_textile_mill"
 						country="c:HER"
 						levels=1
 						region="STATE_HERAT"
@@ -735,10 +735,10 @@
 				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_furniture_manufacturies"
+				building="building_furniture_manufactory"
 				add_ownership={
 					building={
-						type="building_furniture_manufacturies"
+						type="building_furniture_manufactory"
 						country="c:KAB"
 						levels=1
 						region="STATE_KABUL"
@@ -758,7 +758,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -870,19 +870,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
-			create_building={
-				building="building_opium_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:KAL"
-						levels=2
-						region="STATE_BALUCHISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
-			}
 		}
 	}
 	s:STATE_LHASA={
@@ -925,7 +912,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:TIB"
@@ -953,7 +940,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:TIB"
@@ -994,7 +981,7 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:NEP"
@@ -1009,7 +996,7 @@
 	s:STATE_EASTERN_HIMALAYAS={
 		region_state:SIK={
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:SIK"
@@ -1022,7 +1009,7 @@
 		}
 		region_state:BHU={
 			create_building={
-				building="building_barracks"
+				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:BHU"

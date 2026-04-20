@@ -14,7 +14,7 @@
  send_money_big: "Send More Money"
  send_money_big_desc: "Transfers #g 1.000.000#!@money!"
  
- otomanosphere:0 "Otomanosphere"
+ otomanosphere: "Otomanosphere"
  ideology_fiscal_conservative: "Fiscal conservatism"
  ideology_fiscal_conservative_desc: "Economical theory under which the peasantry is the fiscal heart of the state."
  ideology_manchu_supremacy: "Manchu Supremacism"
@@ -35,9 +35,8 @@
  HUB_NAME_STATE_GREATER_MASSACHUSETTS_port: "Fall River"
  HUB_NAME_STATE_GREATER_MASSACHUSETTS_farm: "Warwick"
  HUB_NAME_STATE_GREATER_MASSACHUSETTS_wood: "Newport"
-    
-  #Murcia
- STATE_MURCIA: "Murcia"
+ 
+
  #Ruhr Boom
  ruhr_boom_demografico: "Demographic Boom of the Ruhr Valley"
  ruhr_boom.1.t: "Demographic Boom"
@@ -96,7 +95,6 @@
  state_trait_cuenca_guadalquivir: "Guadalquivir Basin"
  state_trait_bahia_de_cadiz: "Cadiz Bay"
  state_trait_iberian_pyrite_belt: "Iberian Pyrite Belt"
- state_trait_tagus_river: "Tagus River"
  state_trait_ebro_river: "Ebro River"
  state_trait_rias_gallegas: "Galician Estuaries"
   

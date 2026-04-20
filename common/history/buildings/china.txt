@@ -1,12 +1,12 @@
 ﻿BUILDINGS={
 	s:STATE_DZUNGARIA={
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=2
 						region="STATE_DZUNGARIA"
 					}
@@ -17,13 +17,13 @@
 		}
 	}
 	s:STATE_TIANSHAN={
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=2
 						region="STATE_TIANSHAN"
 					}
@@ -34,16 +34,16 @@
 		}
 	}
 	s:STATE_SICHUAN={
-		region_state:TIB={
+		region_state:CHI={
 		}
 	}
 	s:STATE_YUNNAN={
-		region_state:YUN={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:YUN"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -55,20 +55,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:YUN"
+						country="c:CHI"
 						levels=8
 						region="STATE_YUNNAN"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:YUN"
+						country="c:CHI"
 						levels=6
 						region="STATE_YUNNAN"
 					}
@@ -81,7 +81,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:YUN"
+						country="c:CHI"
 						levels=4
 						region="STATE_YUNNAN"
 					}
@@ -94,7 +94,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:YUN"
+						country="c:CHI"
 						levels=12
 						region="STATE_YUNNAN"
 					}
@@ -105,13 +105,13 @@
 		}
 	}
 	s:STATE_GUIZHOU={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_opium_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=3
 						region="STATE_GUIZHOU"
 					}
@@ -123,13 +123,13 @@
 	}
 	s:STATE_SHAOZHOU={
 		#Eastern guandong
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_SHAOZHOU"
 					}
@@ -142,7 +142,7 @@
 				add_ownership={
 					building={
 						type="building_food_industry"
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 						region="STATE_SHAOZHOU"
 					}
@@ -151,11 +151,11 @@
 				activate_production_methods={ "pm_bakery" "pm_disabled_canning"  "pm_manual_dough_processing" "pm_disabled_distillery" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:SON"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=2
 						region="STATE_SHAOZHOU"
 					}
@@ -168,20 +168,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:SON"
+						country="c:CHI"
 						levels=4
 						region="STATE_SHAOZHOU"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=5
 						region="STATE_SHAOZHOU"
 					}
@@ -193,7 +193,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 					}
 				}
@@ -204,7 +204,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -214,13 +214,13 @@
 		}
 	}
 	s:STATE_ALXA={
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MGL"
+						country="c:CHI"
 						levels=4
 						region="STATE_ALXA"
 					}
@@ -232,13 +232,13 @@
 	}
 	s:STATE_HINGGAN={
 		# Inner Mongolia
-		region_state:MGL={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MGL"
+						country="c:CHI"
 						levels=1
 						region="STATE_HINGGAN"
 					}
@@ -251,7 +251,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MGL"
+						country="c:CHI"
 						levels=3
 						region="STATE_HINGGAN"
 					}
@@ -262,13 +262,13 @@
 		}
 	}
 	s:STATE_GUANGXI={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_GUANGXI"
 					}
@@ -281,20 +281,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:SON"
+						country="c:CHI"
 						levels=4
 						region="STATE_GUANGXI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=8
 						region="STATE_GUANGXI"
 					}
@@ -305,12 +305,12 @@
 		}
 	}
 	s:STATE_BEIJING={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -318,11 +318,15 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
+				building="building_forbidden_city"
+				level=1
+			}
+			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 						region="STATE_BEIJING"
 					}
@@ -331,11 +335,11 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:NHA"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=6
 						region="STATE_BEIJING"
 					}
@@ -344,10 +348,10 @@
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 			create_building={
-				building="building_artillery_foundries"
+				building="building_artillery_foundry"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -359,7 +363,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 						region="STATE_BEIJING"
 					}
@@ -368,11 +372,11 @@
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:NHA"
+						type="building_paper_mill"
+						country="c:CHI"
 						levels=4
 						region="STATE_BEIJING"
 					}
@@ -385,20 +389,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=3
 						region="STATE_BEIJING"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_silk_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=5
 						region="STATE_BEIJING"
 					}
@@ -410,7 +414,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=18
 					}
 				}
@@ -420,13 +424,13 @@
 		}
 	}
 	s:STATE_SHENGJING={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:NHA"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=2
 						region="STATE_SHENGJING"
 					}
@@ -439,7 +443,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_SHENGJING"
 					}
@@ -451,7 +455,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -461,16 +465,16 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:MCH={
+		region_state:CHI={
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={
-		region_state:MCH={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:MCH"
+						country="c:CHI"
 						levels=8
 					}
 				}
@@ -482,7 +486,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:MCH"
+						country="c:CHI"
 						levels=4
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
@@ -495,20 +499,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:MCH"
+						country="c:CHI"
 						levels=10
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MCH"
+						country="c:CHI"
 						levels=1
 						region="STATE_SOUTHERN_MANCHURIA"
 					}
@@ -519,26 +523,26 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA={
-		region_state:MCH={
+		region_state:CHI={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:MCH"
+						country="c:CHI"
 						levels=8
 						region="STATE_NORTHERN_MANCHURIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_secondary_production" }
 			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:MCH"
+						country="c:CHI"
 						levels=1
 						region="STATE_NORTHERN_MANCHURIA"
 					}
@@ -549,26 +553,26 @@
 		}
 	}
 	s:STATE_SHANXI={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
-				building="building_vineyard_plantation"
+				building="building_vineyard"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=7
 						region="STATE_SHANXI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=9
 						region="STATE_SHANXI"
 					}
@@ -580,8 +584,8 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
-						levels=4
+						country="c:CHI"
+						levels=12
 					}
 				}
 				reserves=1
@@ -592,7 +596,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=12
 						region="STATE_SHANXI"
 					}
@@ -603,12 +607,12 @@
 		}
 	}
 	s:STATE_NINGXIA={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -620,7 +624,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_NINGXIA"
 					}
@@ -633,7 +637,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 						region="STATE_NINGXIA"
 					}
@@ -646,24 +650,24 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 						region="STATE_NINGXIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
 	s:STATE_GANSU={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=5
 						region="STATE_GANSU"
 					}
@@ -676,7 +680,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_GANSU"
 					}
@@ -688,7 +692,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -698,26 +702,26 @@
 		}
 	}
 	s:STATE_XIAN={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
-				building="building_vineyard_plantation"
+				building="building_vineyard"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=3
 						region="STATE_XIAN"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=7
 						region="STATE_XIAN"
 					}
@@ -729,7 +733,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -741,7 +745,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_XIAN"
 					}
@@ -752,13 +756,13 @@
 		}
 	}
 	s:STATE_QINGHAI={
-		region_state:TIB={
+		region_state:CHI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:TIB"
+						country="c:CHI"
 						levels=5
 						region="STATE_QINGHAI"
 					}
@@ -769,12 +773,12 @@
 		}
 	}
 	s:STATE_CHONGQING={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 					}
 				}
@@ -786,7 +790,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=14
 						region="STATE_CHONGQING"
 					}
@@ -797,14 +801,14 @@
 		}
 	}
 	s:STATE_GUANGDONG={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_trade_center"
-						country="c:SON"
+						country="c:CHI"
 						levels=4
 						region="STATE_GUANGDONG"
 					}
@@ -812,11 +816,11 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tooling_workshops"
+				building="building_tooling_workshop"
 				add_ownership={
 					building={
-						type="building_tooling_workshops"
-						country="c:SON"
+						type="building_tooling_workshop"
+						country="c:CHI"
 						levels=1
 						region="STATE_GUANGDONG"
 					}
@@ -829,7 +833,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 						region="STATE_GUANGDONG"
 					}
@@ -838,10 +842,10 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_shipyards"
+				building="building_shipyard"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -849,11 +853,11 @@
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:SON"
+						type="building_paper_mill"
+						country="c:CHI"
 						levels=8
 						region="STATE_GUANGDONG"
 					}
@@ -862,11 +866,11 @@
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:SON"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=8
 						region="STATE_GUANGDONG"
 					}
@@ -878,8 +882,8 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
-						levels=18
+						country="c:CHI"
+						levels=22
 					}
 				}
 				reserves=1
@@ -890,7 +894,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_GUANGDONG"
 					}
@@ -903,20 +907,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:SON"
+						country="c:CHI"
 						levels=14
 						region="STATE_GUANGDONG"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=4
 						region="STATE_GUANGDONG"
 					}
@@ -929,7 +933,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=5
 						region="STATE_GUANGDONG"
 					}
@@ -942,7 +946,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_GUANGDONG"
 					}
@@ -954,7 +958,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -996,19 +1000,6 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
 			create_building={
-				building="building_dye_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:POR"
-						levels=2
-						region="STATE_BEIRA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
-			}
-			create_building={
 				building="building_port"
 				add_ownership={
 					country={
@@ -1022,12 +1013,12 @@
 		}
 	}
 	s:STATE_HAINAN={
-		region_state:QIA={
+		region_state:CHI={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:QIA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1037,13 +1028,13 @@
 		}
 	}
 	s:STATE_FUJIAN={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:SON"
+						type="building_paper_mill"
+						country="c:CHI"
 						levels=5
 						region="STATE_FUJIAN"
 					}
@@ -1052,11 +1043,11 @@
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
-				building="building_furniture_manufacturies"
+				building="building_furniture_manufactory"
 				add_ownership={
 					building={
-						type="building_furniture_manufacturies"
-						country="c:SON"
+						type="building_furniture_manufactory"
+						country="c:CHI"
 						levels=3
 						region="STATE_FUJIAN"
 					}
@@ -1069,19 +1060,19 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:SON"
+						country="c:CHI"
 						levels=7
 						region="STATE_FUJIAN"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=10
 					}
 				}
@@ -1093,7 +1084,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_FUJIAN"
 					}
@@ -1106,7 +1097,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=3
 						region="STATE_FUJIAN"
 					}
@@ -1119,7 +1110,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 						region="STATE_FUJIAN"
 					}
@@ -1132,7 +1123,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SON"
+						country="c:CHI"
 						levels=4
 						region="STATE_FUJIAN"
 					}
@@ -1144,7 +1135,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1154,13 +1145,13 @@
 		}
 	}
 	s:STATE_ZHEJIANG={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_ZHEJIANG"
 					}
@@ -1173,7 +1164,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_ZHEJIANG"
 					}
@@ -1186,7 +1177,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=7
 						region="STATE_ZHEJIANG"
 					}
@@ -1199,7 +1190,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_ZHEJIANG"
 					}
@@ -1211,7 +1202,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1222,8 +1213,8 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
-						levels=4
+						country="c:CHI"
+						levels=8
 					}
 				}
 				reserves=1
@@ -1232,12 +1223,12 @@
 		}
 	}
 	s:STATE_JIANGSU={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1249,19 +1240,19 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 						region="STATE_JIANGSU"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -1273,7 +1264,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_JIANGSU"
 					}
@@ -1284,13 +1275,13 @@
 		}
 	}
 	s:STATE_NANJING={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:SON"
+						type="building_paper_mill"
+						country="c:CHI"
 						levels=6
 						region="STATE_NANJING"
 					}
@@ -1299,11 +1290,11 @@
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:SON"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=10
 						region="STATE_NANJING"
 					}
@@ -1316,7 +1307,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=10
 						region="STATE_NANJING"
 					}
@@ -1329,7 +1320,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=8
 						region="STATE_NANJING"
 					}
@@ -1341,7 +1332,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=12
 					}
 				}
@@ -1351,13 +1342,13 @@
 		}
 	}
 	s:STATE_HENAN={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
-						levels=2
+						country="c:CHI"
+						levels=10
 					}
 				}
 				reserves=1
@@ -1368,20 +1359,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 						region="STATE_HENAN"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:NHA"
+						type="building_paper_mill"
+						country="c:CHI"
 						levels=3
 						region="STATE_HENAN"
 					}
@@ -1394,7 +1385,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=3
 						region="STATE_HENAN"
 					}
@@ -1407,7 +1398,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 						region="STATE_HENAN"
 					}
@@ -1418,12 +1409,12 @@
 		}
 	}
 	s:STATE_ZHILI={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1434,7 +1425,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=8
 					}
 				}
@@ -1446,7 +1437,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=7
 						region="STATE_ZHILI"
 					}
@@ -1459,7 +1450,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=12
 						region="STATE_ZHILI"
 					}
@@ -1472,7 +1463,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=6
 						region="STATE_ZHILI"
 					}
@@ -1483,13 +1474,13 @@
 		}
 	}
 	s:STATE_JIANGXI={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_JIANGXI"
 					}
@@ -1501,20 +1492,20 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
-						levels=6
+						country="c:CHI"
+						levels=16
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_paper_mill"
 				add_ownership={
 					building={
-						type="building_paper_mills"
-						country="c:SON"
-						levels=2
+						type="building_paper_mill"
+						country="c:CHI"
+						levels=5
 						region="STATE_JIANGXI"
 					}
 				}
@@ -1526,7 +1517,7 @@
 				add_ownership={
 					building={
 						type="building_glassworks"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_JIANGXI"
 					}
@@ -1537,12 +1528,12 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=5
 					}
 				}
@@ -1550,11 +1541,11 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:SON"
+						type="building_textile_mill"
+						country="c:CHI"
 						levels=3
 						region="STATE_SOUTHERN_ANHUI"
 					}
@@ -1565,13 +1556,13 @@
 		}
 	}
 	s:STATE_NORTHERN_ANHUI={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=12
 						region="STATE_NORTHERN_ANHUI"
 					}
@@ -1584,19 +1575,19 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 						region="STATE_NORTHERN_ANHUI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -1606,12 +1597,12 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -1623,7 +1614,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=3
 						region="STATE_WESTERN_HUBEI"
 					}
@@ -1634,12 +1625,12 @@
 		}
 	}
 	s:STATE_EASTERN_HUBEI={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -1651,20 +1642,20 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:SON"
+						country="c:CHI"
 						levels=6
 						region="STATE_EASTERN_HUBEI"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_EASTERN_HUBEI"
 					}
@@ -1673,11 +1664,11 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_tooling_workshops"
+				building="building_tooling_workshop"
 				add_ownership={
 					building={
-						type="building_tooling_workshops"
-						country="c:SON"
+						type="building_tooling_workshop"
+						country="c:CHI"
 						levels=2
 						region="STATE_EASTERN_HUBEI"
 					}
@@ -1688,12 +1679,12 @@
 		}
 	}
 	s:STATE_HUNAN={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 					}
 				}
@@ -1705,7 +1696,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=5
 						region="STATE_HUNAN"
 					}
@@ -1716,13 +1707,13 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:FRS={
+		region_state:CHI={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:FRS"
+						country="c:CHI"
 						levels=5
 						region="STATE_FORMOSA"
 					}
@@ -1735,7 +1726,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FRS"
+						country="c:CHI"
 						levels=3
 						region="STATE_FORMOSA"
 					}
@@ -1748,7 +1739,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FRS"
+						country="c:CHI"
 						levels=5
 						region="STATE_FORMOSA"
 					}
@@ -1760,7 +1751,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:FRS"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1770,13 +1761,13 @@
 		}
 	}
 	s:STATE_SHANDONG={
-		region_state:NHA={
+		region_state:CHI={
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:NHA"
+						country="c:CHI"
 						levels=2
 						region="STATE_SHANDONG"
 					}
@@ -1785,10 +1776,10 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_shipyards"
+				building="building_shipyard"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1800,7 +1791,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NHA"
+						country="c:CHI"
 						levels=4
 						region="STATE_SHANDONG"
 					}
@@ -1813,7 +1804,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:NHA"
+						country="c:CHI"
 						levels=4
 						region="STATE_SHANDONG"
 					}
@@ -1825,7 +1816,7 @@
 				building="building_gold_mine"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=4
 					}
 				}
@@ -1833,11 +1824,11 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_tooling_workshops"
+				building="building_tooling_workshop"
 				add_ownership={
 					building={
-						type="building_tooling_workshops"
-						country="c:NHA"
+						type="building_tooling_workshop"
+						country="c:CHI"
 						levels=2
 						region="STATE_SHANDONG"
 					}
@@ -1850,19 +1841,19 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:NHA"
+						country="c:CHI"
 						levels=5
 						region="STATE_SHANDONG"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_secondary_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=1
 					}
 				}
@@ -1873,7 +1864,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NHA"
+						country="c:CHI"
 						levels=4
 					}
 				}
@@ -1883,13 +1874,13 @@
 		}
 	}
 	s:STATE_SUZHOU={
-		region_state:SON={
+		region_state:CHI={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SON"
+						country="c:CHI"
 						levels=2
 						region="STATE_SUZHOU"
 					}
@@ -1902,7 +1893,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SON"
+						country="c:CHI"
 						levels=12
 						region="STATE_SUZHOU"
 					}
@@ -1914,7 +1905,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SON"
+						country="c:CHI"
 						levels=1
 					}
 				}

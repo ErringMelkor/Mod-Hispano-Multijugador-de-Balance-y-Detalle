@@ -1,0 +1,329 @@
+Changelog Versión 1.12B #19-01-26
+
+Autoridad:
+	Reajuste de la Autoridad otorgada por las leyes de Distribución de Poder:
+		Autocracia: 200 -> 250
+		Neo-Absolutismo: 250 -> 300
+		Oligarquía: 100 -> 200
+		Tecnocracia: 100 -> 150
+		Voto por Propiedades: 100 -> 150
+		Voto por Riqueza: 100 -> 150
+		Anarquía: -50% -> -25%
+		Partido Único: 250 -> 200.
+
+
+
+Leyes:
+	Ateísmo de Estado: 15 aceptación cultural -> 10
+
+Legitimidad:
+	Anarquía: 125 según Clout -> 150.
+
+Economía:
+	Reajuste de los valores y efectos de los salarios civiles y militares.
+	Aumentado el nivel de vida esperado por impuestos para la clase alta.
+
+Militar:
+	Reducido ligeramente el coste de la infamia sobre los países pequeños e insignificantes.
+	Reducido el número de tropas necesarias para la marina, en torno a un 75-25% según se progresa.
+		Objetivo de que la flota sea más barata, tanto en demografía como en salarios.
+		Mayor número de oficiales en proporción al ejército terrestre, para representar la tecnificación necesaria de la flota.
+
+Otomanos:
+	La decisión de Integrar el ejército está disponible con Ateísmo de Estado, genera más lealistas.
+	La decisión de "Llamar a la Jihad" genera menos radicales (y corregido que no funcionara con su variante de ley).
+	
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B3 #20-01-26
+
+Autoridad:
+	Agregada Autoridad a las Asociaciones Laborales:
+		Sistema de Gremios: 0 -> 100
+		Leyes de combinación: 0 -> 200
+		Leyes antihuelga: 0 -> 50
+		Sindicatos Corporativizados: 0 -> 150
+
+Leyes:		
+	Asociaciones Laborales:
+		Sistema de Gremios: -10% de coste burocrático por población.
+		Derecho de Asociación: +10% de coste burocrático por población.
+		Consejos de fábricas: +15% de coste burocrático por población.
+
+Economía:
+	Rebalanceada la línea de ropa y muebles de lujo para que los 2dos niveles sean más rentables.
+
+Japón:
+	Comienza con algunos edificios más en Kansai.
+	
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B4 #22-01-26
+
+Mapa:
+	Ajuste de la madera dura.
+
+Economía:
+	Enfoque de madera dura en aserraderos normales: 2 -> 2.5
+
+Japón:
+	Comienza con algunos edificios más.
+	El monumento "Ciudad Imperial de Kyoto" otorga 25 de infraestructura en Kansai.
+
+Pulido:
+	Corregidos modificadores no funcionales (Gracias 1.12!) y localización en ambos idiomas disponibles (ing-spa).
+
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B5 #24-01-26
+
+Alemania:
+	Restaurada la unificación alemana a los términos del vanilla.
+	Mejorada la compañía de Krupp.
+
+Francia:
+	Ley de arrendatarios co-parcenaria:
+		Subsistencia: 4,5 -> 4,75
+		% poder landowners: 25% -> 0%
+		Producción de cereales: 0 -> 0,05 / nivel.
+		Trabajadores: -500 campesinos -> -1000 campesinos, +50 agricultores.
+		% bloqueado: 50% -> 65%
+
+Italia:
+	Mejoradas sus compañías únicas.
+
+Japón:
+	Tecnologías: Comienza con Archivos Centrales.
+	Leyes:
+		Sistema Han: Sustituto de burócratas hereditarios. Mucha menos fuerza para los terratenientes.
+	Estados: Comienzan con un modificador que aumenta el urbanismo.
+	Personajes:
+		Agregados los gobernantes históricos de la dinastía Tokugawa.
+		Agregados nuevos líderes políticos, militares y navales, siempre garantizados.
+		Agitadores por evento: Saigo Takamori.
+	Mejoradas sus compañías únicas.
+	
+Asia:
+	Mejoradas dos compañías en Corea y Vietnam.
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B6 #03-02-26 - 28-02-26
+
+Economía:
+	Granjas y Plantaciones: Costo de 100 IC -> 125 IC.
+
+Tecnología:
+	Coste de Eras:
+		Era 3: 12000 -> 11750
+		Era 4: 14000 -> 14250
+		Era 5: 15000 -> 15750
+	Instrumentos financieros modernos:
+		Inversión de los capitalistas: 7,5% -> 5%.
+	Mass Surveillance: -10% al radicalismo en los tiers de aceptación 4 y 5.
+	Propaganda de Masas:
+		Autoridad: 10% -> 20%
+		Huecos de Agitadores: 1 -> 2
+		Maniobras Diplomáticas: 10 -> 15
+	Conductismo:
+		Pérdida a la Moral: -10% -> -5%
+	Psicoanálisis:
+		Bono a la Educación por Nivel de Riqueza: 0,5% -> 0,65%
+
+Militar:
+	Ajustadas las bajas por desgaste máximas: 22.5% -> 18.5%
+	
+	Naval:
+		Ataque de los Portaaviones: 140 -> 180
+		Coste de los monitores reducido muy mínimamente.
+
+Culturas:
+	Re-agregadas las obsesiones para distintas culturas: Yankee; Dixie; Japonesa; Eslavas (licor) y Bielorrusa (té).
+
+Jugadas Diplomáticas:
+	La mayoría de jugadas diplomáticas de imperialismo económico son mucho más baratas, en torno a un 50-75%.
+
+Países:
+	España:
+		Agregados dos nuevos Rasgos de Interés para la Pequeña Burguesía.
+		Agregado un nuevo Rasgo de Interés para la Iglesia de los Carlistas.
+
+	Italia:
+		Agregado un nuevo Rasgo de Interés para la Intelligentsia.
+
+	Japón:
+		Agregado un nuevo Rasgo de Interés a sus Fuerzas Armadas.
+		Agregado un nuevo Rasgo de Interés a sus Devotos una vez adoptan la religión sintoísta.
+		La decisión de adoptar el Sintoísmo como religión estatal otorga un 15% de lealistas para dicha religión.
+
+	Alemania:
+		La unificación de alemania no otorga la cultura suralemana como primaria. #Revertido en esta partida, esqueleto listo.
+		Ahora, para obtenerla se debe de completar la entrada de diario de "La Cuestión de Alsacia-Lorena".
+		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Francia. #TO-DO
+
+	Francia:
+		Nueva Entrada de Diario: La Cuestión de Alsacia-Lorena. Compartida con Alemania. #TO-DO
+		La conquista y consolidación de Algeria otorga más bonos.
+
+	Rusia:
+		Ajustada la compañía ruso-americana.
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B7 #05-03-26
+
+	Bugs:
+		Arreglado el error visual de la compañía minera.
+		Arreglado el rasgo de Ascetismo.
+		Arregladas las condiciones de batalla de caballería (iconos y localización).
+		Arreglo menor de los rasgos de comandante de infantería / caballería.
+
+--------------------------------------------------------------------
+
+Changelog Versión 1.12B8 #15-03-26 - 20-03-26
+
+Países:
+	Prusia: Agregada formación de la NGF (con malus) si pierden el Liderazgo. #Parcialmente incorporado.
+	Gran Bretaña:
+		Deuda inicial aumentada: 13.1m -> 16m
+	
+
+Economía:
+	Canal de Panamá: Misión Civilizadora -> Antibióticos
+	Canal de Sinaí: Colonización -> "Gantry Cranes"
+	PM Canales: 50.000 minting -> 35.000 minting.
+
+	Edificios Gubernamentales:
+		Consumo de Papel: 0/10/15/20 -> 0/8/12/15
+
+	Plantaciones: #PMs de Explotación: Esclavos ; Trabajadores.
+		Importación de esclavos hacia las plantaciones: 10% -> 25%
+		Importación de esclavos en Café: 10% -> 35%
+		Importación de esclavos en Caucho: 10% -> 35%
+		Plantaciones de Bananas: 
+			Producción Base: 40 -> 35.
+			PMs de Explotación: 25 -> 15 ; 20 -> 5
+				Atractivo del trabajo para jornales con explotación: -25% -> -5%; Salario mínimo: -25% -> 15%.
+		Plantaciones de Azúcar:
+			PMs de Explotación: 50 -> 35 ; 30 -> 15 
+		Plantaciones de Algodón:
+			PMs de Explotación: 25 -> 35 ; 15 -> 10
+		Plantaciones de Tintes:
+			PMs de Explotación: 10 -> 5 ; 15 -> 10
+		Plantaciones de Té:
+			PMs de Explotación: 25 -> 15 ; 15 -> 10
+				Atractivo del trabajo: -20% -> -10%
+
+
+Compañías:
+	Romanian Star: 20% al throughput del petróleo -> 20% al throughput de la industri automobilística y sintética.
+	Galician Carpathian Oil: Bien de Prestigio único, "Petróleo de Galicia".
+	Ludwig Moser and Sons: Influencia y Throughput a Academias de Arte: 5% -> 15%.
+	Zastava: Defensa de Unidades: 10% -> 5%; Defensa en Terreno Elevado y Peligroso: 0% -> 10%.
+	CAFD: Café de Prestigio Genérico -> Café Brasileño (único, no necesita de JE).
+	Klanicko Drustvo: 2.5% birthrate -> 5% birthrate.
+	Első Budapesti Gőzmalom Rt.: Requerimiento de Estados Incorporados -> Acepta también Estados No Incorporados.
+	FIAT: +5% al Ataque del Ejército -> +15% al Ataque de los Tanques Ligeros.
+
+	Dollfus-Mieg et Cie:
+		Ampliaciones posibles: Algodón y Tintes -> Sintéticos y Tintes.
+		Industrias Base: Fábricas de Ropa y Carbón -> Fábricas de Ropa, Plantaciones de Algodón y Minas de Carbón.
+		Bonos: 10% a la Asimilación -> -10% a los radicales de culturas de tier 5 / Plenamente Acceptadas; +0.5 al SoL de Obreros y Maquinistas en Manufactorías.
+		
+	Societe Renault Freres:
+		Agregada nueva Compañía a Francia.
+		Industria Base: Automotiva
+		Ampliaciones Posibles: Motores y Municiones.
+		Bienes de Prestigio: Automóbiles Renault
+		Bonos: 15% al Ataque y Defensa de los Tanques Pesados.
+
+Demografía:
+	Seguridad Alimentaria necesaria para evitar Carestía: 60% -> 65%
+	Seguridad Alimentaria necesaria para evitar Hambruna: 20% -> 25%
+	Necesidades de la Población: 
+		Alimentación Básica:
+			Fruta: Peso: 1 -> 0.85 ; Consumo máximo: 0.5 -> 0.3
+		Alimentación de Lujo:
+			Fruta: Peso: 0.65 -> 0.625 ; Consumo mínimo: 0.1 -> 0.075 ; Consumo máximo: 0.85 -> 0.7
+			Pescado: Peso: 0.25 -> 0.35 ; Consumo máximo: 0.25 -> 0.35
+			Azúcar: Consumo Máximo: 0.15 -> 0.175
+		Hogar:
+			Papel: Peso: 0.5 -> 0.45 ; Consumo máximo: 0.5 -> 0.35
+		Aumentado el consumo de unidades total de las bebidas de lujo para las poblaciones más pobres (en torno a un 1% de su salario como máximo).
+		# Peso es la prioridad o preferencia que tiene el bien al consumir dicho producto frente a otros en la misma categoría: ex. carne, grano.
+		# Consumo máximo es el porcentaje total del producto que pueden consumir para satisfacer una categoría. Ex: pueden satisfacer un 25% de su alimentación con fruta.
+
+Militar:
+	Submarinos: 200% al daño hacia los convoyes -> 150% al daño hacia los convoyes.
+	Tasa de Reclutamiento de los PM Navales (por nivel): 1/1.25/1.5/1.75/2.25 -> 0.75/0.85/1/1.25/1.65
+
+Principios:
+	Economía Divina:
+		Eficiencia de Inversión del Clero: 0 -> 5%/15%/25%
+	Identidad Religiosa:
+		Aceptación por Religión Estatal: 0 -> 10/15/20
+	Sanidad:
+		Reducción de Mortalidad: 5% -> 5%/7.5%/10%
+	Burocracia:
+		Factor de la Población en el Costo: -10%/-15% -> -10%/-15%/-20%
+		Factor de las Instituciones: 0% -> -5%/-10%/-15%
+		PM Burocracia Eficiente:
+			Capacidad Fiscal: 5 -> 6.5
+	Canon Compartido:
+		Dispersión de Tecnología de Sociedad: 10% -> 10%/15%/25%
+	Verdad Ideológica:
+		Legitimidad Mínima: 0/0/25 -> 0/25/25
+		Penalización a la Legitimidad por Incompatibilidad Ideológica: 0% -> -5%/-15%/-25%
+	Libertad de Movimiento:
+		Cuota de Migraciones Masivas: 10% -> 10%/10%/15%
+		Atracción de Migraciones Masivas: 10% -> 10%/15%/25%
+	Unificación de Mercados:
+		Infraestructura: 10% -> 15%
+	Mercado Interior:
+		Throughput de las Compañías: 0/10%/10% -> 5%/10%/15%
+	Construcción:
+		Consumo de Infraestructura por los Sectores de Construcción: -0/-25%/-50% -> -25%/-50%/-75%
+		Eficiencia de Construcción: 2%/4%/6% -> 2.5%/5%/7.5%
+
+Bugs:
+	Corregida la redacción de varios eventos (véase el evento del petróleo).
+
+Localización:
+	Ajustadas unas 200 líneas de localización, mayormente en Español.
+	Porferinos notifiquen de cualquier otro error, sea de erratas, localización en idioma indebido o falta de esta.
+
+
+-------
+
+Changelog Versión 1.12B8 #25-03-26
+
+Estados Unidos:
+	Ajustado el funcionamiento de la Guerra Civil Americana:
+		· Ajustados los valores de bonificaciones tanto de USA como de la CSA.
+		· Agregado un modificador al hastío bélico que hace pelear a ambas facciones hasta el último hombre.
+
+Confederación Alemana del Norte: #Técnicamente ya agregado en el anterior parche, pero no tuve tiempo de anotarlo en el changelog hasta ahora.
+	Si Prusia pierde la Guerra de los Hermanos, saltará un evento con dos posibilidades:
+		· Abrazar el militarismo, otorgando una ideología única a las Fuerzas Armadas.
+		· Abrazar la conciliación, estrechando vínculos con la Intelligentsia y los Sindicatos.
+
+Bugs:
+	Arreglada la Catedral de Santiago.
+	Pulido de unos 100 bugs.
+	
+------
+
+Changelog Versión 1.12B80 #08-02-26
+
+Bugs:
+	Pulido de bugs general.
+	Corregidos algunos errores visuales en JE/Eventos.
+	Corregidos los estados con 0 de población en Indochina.
+
+#TO-DO:
+#	Pulir el evento german_unification.6
+#	Pensar recompensas y maluses para NGF y AUS/SGF.
+#	Rasgo de revanchismo en las fuerzas armadas de las NGF.
+#	JE de reconquistar terreno?.

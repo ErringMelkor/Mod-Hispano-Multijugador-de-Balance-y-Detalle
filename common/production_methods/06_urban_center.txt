@@ -254,7 +254,8 @@ pm_traditional_art = {
 
 	building_modifiers = {
 		workforce_scaled = { # 500 profit
-			goods_input_paper_add = 10 # 300
+			goods_input_paper_add = 8 # 240
+			goods_input_hardwood_add = 1.5 # 60
 			goods_output_fine_art_add = 4 # 800
 		}
 	}
@@ -269,8 +270,9 @@ pm_realist_art = {
 
 	building_modifiers = {
 
-		workforce_scaled = { # 550 profit
-			goods_input_paper_add = 15 # 450
+		workforce_scaled = { # 560 profit
+			goods_input_paper_add = 12 # 360
+			goods_input_hardwood_add = 2 # 80
 			goods_output_fine_art_add = 5 # 1000
 		}
 	}
@@ -287,9 +289,10 @@ pm_photographic_art = {
 
 		workforce_scaled = { # 630 profit
 			goods_input_paper_add = 15 # 450
-			goods_input_tools_add = 8 # 320
+			goods_input_tools_add = 10 # 400
+			goods_input_hardwood_add = 3 # 120
 
-			goods_output_fine_art_add = 7 # 1400
+			goods_output_fine_art_add = 8 # 1600
 		}
 	}
 }
@@ -303,12 +306,13 @@ pm_film_art = {
 
 	building_modifiers = {
 
-		workforce_scaled = { # 690 profit
+		workforce_scaled = { # 740 profit
 			goods_input_tools_add = 10 # 400
-			goods_input_paper_add = 15 # 450
+			goods_input_paper_add = 20 # 600
+			goods_input_hardwood_add = 5 # 200
 			goods_input_electricity_add = 2 # 60
 
-			goods_output_fine_art_add = 8 # 1600
+			goods_output_fine_art_add = 10 # 2000
 		}
 	}
 
@@ -506,8 +510,8 @@ pm_ac_current = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_steel_add = 5
-            goods_output_electricity_add = 20
+            goods_input_steel_add = 5 # 250
+            goods_output_electricity_add = 15 # 450
         }
 
         level_scaled = {

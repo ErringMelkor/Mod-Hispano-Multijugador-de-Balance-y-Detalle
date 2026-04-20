@@ -1,5 +1,5 @@
 ﻿je_ruhr_boom_main = {
-	icon = "gfx/interface/icons/event_icons/waving_flag_ger.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	group = je_group_internal_affairs
 

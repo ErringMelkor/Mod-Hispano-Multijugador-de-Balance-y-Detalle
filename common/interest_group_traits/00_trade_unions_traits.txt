@@ -7,7 +7,7 @@
 	}
 }
 
-ig_trait_industrial_organizers = {
+REPLACE_OR_CREATE:ig_trait_industrial_organizers = {
 	icon = "gfx/interface/icons/ig_trait_icons/industrial_organizers.dds"
 	min_approval = happy
 
@@ -16,12 +16,13 @@ ig_trait_industrial_organizers = {
 	}
 }
 
-ig_trait_work_to_rule = {
+REPLACE_OR_CREATE:ig_trait_work_to_rule = {
 	icon = "gfx/interface/icons/ig_trait_icons/work_to_rule.dds"
 	max_approval = unhappy
 
 	modifier = {
-		state_construction_mult = -0.1
+		state_construction_mult = -0.05
+		building_group_bg_manufacturing_throughput_add = -0.15
 	}
 }
 

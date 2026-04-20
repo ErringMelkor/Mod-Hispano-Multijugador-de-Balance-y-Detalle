@@ -24,7 +24,6 @@ military_tech_events.401 = {
 		any_scope_building = {
             is_building_type = building_arms_industry
             OR = {
-                has_active_production_method = pm_rifles
                 has_active_production_method = pm_repeaters
                 has_active_production_method = pm_bolt_action_rifles
             }
@@ -41,7 +40,6 @@ military_tech_events.401 = {
             		level >= 3
             		occupancy >= 0.75
            		    OR = {
-              			has_active_production_method = pm_rifles
                 		has_active_production_method = pm_repeaters
                 		has_active_production_method = pm_bolt_action_rifles
             		}
@@ -54,7 +52,6 @@ military_tech_events.401 = {
 					level >= 3
 					occupancy >= 0.75
 		            OR = {
-              			has_active_production_method = pm_rifles
                 		has_active_production_method = pm_repeaters
                 		has_active_production_method = pm_bolt_action_rifles
             		}
@@ -66,7 +63,6 @@ military_tech_events.401 = {
 			save_scope_as = small_arms_good
 		}
 	}
-
 	option = { #
 		name = military_tech_events.401.a
 		default_option = yes

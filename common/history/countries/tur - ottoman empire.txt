@@ -13,22 +13,16 @@
 		set_military_wage_level = low
 		set_government_wage_level = low
 		
-		add_taxed_goods = g:tobacco
-		add_taxed_goods = g:wine
-		add_taxed_goods = g:liquor
-		
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_millet_system
+		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation	
 		activate_law = law_type:law_slave_trade	
-		activate_law = law_type:law_private_schools
-		activate_law = law_type:law_tenant_farmers
 
-		ig:ig_landowners = { # Mehmed Emin Rauf Pasha was Grand Vizier in 1836
+		ig:ig_landowners ?= { # Mehmed Emin Rauf Pasha was Grand Vizier in 1836
 			add_ruling_interest_group = yes
 		}
 
@@ -42,6 +36,10 @@
 		add_modifier = {
 			name = outmoded_bureaucracy
 			months = -1
+		}
+		create_diplomatic_pact = {
+			country = c:MON
+			type = embargo
 		}
 	}
 }

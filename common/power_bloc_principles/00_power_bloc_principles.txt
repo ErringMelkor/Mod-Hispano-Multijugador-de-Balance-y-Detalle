@@ -12,7 +12,10 @@ principle_construction_1 = {
 
 	member_modifier = {
 		# Members get a +10% Construction Efficiency modifier
-		state_construction_mult = 0.02
+		state_construction_mult = 0.025
+
+		building_group_bg_construction_infrastructure_usage_mult = -0.25
+
 	}
 	
 	ai_weight = {
@@ -43,10 +46,10 @@ principle_construction_2 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		
-		state_construction_mult = 0.04
+		state_construction_mult = 0.05
 		
 		# Members Construction Sectors cost less infrastructure
-		building_group_bg_construction_infrastructure_usage_mult = -0.25
+		building_group_bg_construction_infrastructure_usage_mult = -0.5
 	}
 	
 	ai_weight = {
@@ -61,8 +64,8 @@ principle_construction_3 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		
-		state_construction_mult = 0.06
-		building_group_bg_construction_infrastructure_usage_mult = -0.5
+		state_construction_mult = 0.075
+		building_group_bg_construction_infrastructure_usage_mult = -0.75
 		
 		# Members can form Construction type Companies unlock triggers in the company
 	}
@@ -84,6 +87,8 @@ principle_internal_trade_1 = {
 
 		# Members get a bonus to infrastructure
 		state_infrastructure_mult = 0.1
+
+		country_company_throughput_bonus_add = 0.05
 	}
 	
 	ai_weight = {
@@ -92,8 +97,8 @@ principle_internal_trade_1 = {
 		if = {
 			limit = { 
 				OR = {
-					has_law = law_type:law_mercantilism 
-					has_law = law_type:law_command_economy
+					has_law_or_variant = law_type:law_mercantilism
+					has_law_or_variant = law_type:law_command_economy
 				}
 			}
 			add = 100
@@ -118,7 +123,7 @@ principle_internal_trade_2 = {
 		country_convoy_contribution_to_market_owner_add = 0.3
 
 		# Company building throughput bonus
-		country_company_throughput_bonus_add = 0.05
+		country_company_throughput_bonus_add = 0.1
 	}
 	
 	ai_weight = {
@@ -134,7 +139,8 @@ principle_internal_trade_3 = {
 		# Modifiers from previous level(s)
 		state_infrastructure_mult = 0.1
 		country_convoy_contribution_to_market_owner_add = 0.4
-		country_company_throughput_bonus_add = 0.05
+		country_company_throughput_bonus_add = 0.15
+		building_economy_of_scale_level_cap_add = 5
 
 		# Cheaper port connections
 		country_port_connection_cost_mult = -0.25
@@ -157,7 +163,7 @@ principle_market_unification_1 = {
 
 	member_modifier = {
 		# Members get a bonus to infrastructure
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 	}
 
 	power_bloc_modifier = {
@@ -167,7 +173,6 @@ principle_market_unification_1 = {
 		# Members get increased Trade Advantage for goods produced/consumed in the same Power Bloc
 		power_bloc_trade_advantage_add = 100
 	}
-
 	
 	ai_weight = {
 		value = 200 # Generally a good group for a PB to have
@@ -185,7 +190,7 @@ principle_market_unification_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 	}
 
 	power_bloc_modifier = {
@@ -204,7 +209,7 @@ principle_market_unification_3 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		state_infrastructure_mult = 0.1
+		state_infrastructure_mult = 0.15
 
 		# More convoy going to the market owner
 		country_convoy_contribution_to_market_owner_add = 0.2
@@ -500,7 +505,7 @@ principle_external_trade_1 = {
 		value = 100
 		
 		if = {
-			limit = { has_law = law_type:law_free_trade }
+			limit = { has_law_or_variant = law_type:law_free_trade }
 			add = 100
 		}
 
@@ -749,8 +754,8 @@ principle_military_industry_1 = {
 		# Members get increased military industry throughput
 		building_automotive_industry_throughput_add = 0.1
 		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
+		building_artillery_foundry_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
 	}
 	
 	ai_weight = {
@@ -794,8 +799,8 @@ principle_military_industry_2 = {
 		# Modifiers from previous level(s)
 		building_automotive_industry_throughput_add = 0.1
 		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
+		building_artillery_foundry_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
 		
 		# Members get reduced military goods cost
 		country_military_goods_cost_mult = -0.05
@@ -814,9 +819,9 @@ principle_military_industry_3 = {
 		# Modifiers from previous level(s)	
 		building_automotive_industry_throughput_add = 0.1
 		building_arms_industry_throughput_add = 0.1
-		building_artillery_foundries_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		country_military_goods_cost_mult = -0.10
+		building_artillery_foundry_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
+		country_military_goods_cost_mult = -0.15
 		
 		# Supply routes use less convoys
 		character_supply_route_cost_mult = -0.33
@@ -904,7 +909,7 @@ principle_freedom_of_movement_1 = {
 	}
 	
 	possible = {
-		NOT = { has_law = law_type:law_closed_borders }
+		NOT = { has_law_or_variant = law_type:law_closed_borders }
 	}
 
 	member_modifier = {
@@ -925,9 +930,9 @@ principle_freedom_of_movement_1 = {
 		if = {
 			limit = {
 				OR = {
-					country_is_in_north_america = yes
-					country_is_in_central_america = yes
-					country_is_in_south_america = yes
+					is_in_geographic_region = geographic_region_north_america
+					is_in_geographic_region = geographic_region_central_america
+					is_in_geographic_region = geographic_region_south_america
 				}
 			}	
 			add = 100
@@ -966,7 +971,7 @@ principle_freedom_of_movement_2 = {
 		state_migration_quota_mult = 0.1
 		
 		# Increases chance to be picked for mass migrations
-		country_mass_migration_attraction_mult = 0.1
+		country_mass_migration_attraction_mult = 0.15
 	}
 	
 	ai_weight = {
@@ -980,8 +985,8 @@ principle_freedom_of_movement_3 = {
 	
 	member_modifier = {
 		# Modifiers from previous level(s)	
-		state_migration_quota_mult = 0.1
-		country_mass_migration_attraction_mult = 0.1	
+		state_migration_quota_mult = 0.15
+		country_mass_migration_attraction_mult = 0.25
 	}
 
 	power_bloc_modifier = {
@@ -1012,6 +1017,9 @@ principle_divine_economics_1 = {
 
 		# Higher subject payments from other religions
 		country_subject_income_transfer_heathen_mult = 0.5
+
+		state_clergymen_investment_pool_efficiency_mult = 0.05
+
 	}
 	
 	ai_weight = {
@@ -1036,6 +1044,8 @@ principle_divine_economics_2 = {
 		country_subject_income_transfer_heathen_mult = 0.5
 
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
+
+		state_clergymen_investment_pool_efficiency_mult = 0.15
 	}
 	
 	ai_weight = {
@@ -1059,6 +1069,7 @@ principle_divine_economics_3 = {
 
 		# Higher wages for state religion pops
 		country_state_religion_wages_mult = 0.25
+		state_clergymen_investment_pool_efficiency_mult = 0.25
 
 		# New PM for Financial Districts/Manor Houses unlocked via trigger
 	}
@@ -1206,7 +1217,10 @@ principle_sacred_civics_1 = {
 		# Higher diplomatic acceptance from countries with same state religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in diplomactic_actions
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
-		state_conversion_mult = 0.15
+
+		country_acceptance_state_religion_add = 10
+
+
 	}
 	
 	ai_weight = {
@@ -1224,7 +1238,7 @@ principle_sacred_civics_1 = {
 				power_bloc ?= { NOT = { has_identity = identity:identity_religious } } 
 				# State Atheist Ideology bloc wants the power to enforce atheism
 				NAND = {
-					has_law = law_type:law_state_atheism
+					has_law_or_variant = law_type:law_state_atheism
 					power_bloc ?= { has_identity = identity:identity_ideological_union }				
 				}
 			}
@@ -1240,11 +1254,14 @@ principle_sacred_civics_2 = {
 	member_modifier = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
-		state_lower_strata_standard_of_living_add = 0.5
 		
 		# Lower liberty desire for subjects with the same religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in scripted_values
 		country_reduced_liberty_desire_same_religion_bool = yes
+
+		country_acceptance_state_religion_add = 15
+
+
 	}
 	
 	ai_weight = {
@@ -1260,9 +1277,9 @@ principle_sacred_civics_3 = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
 		country_reduced_liberty_desire_same_religion_bool = yes
-		country_acceptance_state_religion_add = 15
-		state_lower_strata_standard_of_living_add = 0.5
-		state_conversion_mult = 0.25
+
+		country_acceptance_state_religion_add = 20
+
 	}
 
 	leader_modifier = {
@@ -1291,7 +1308,10 @@ principle_ideological_truth_1 = {
 		
 		# Reduces IG bolster and suppression costs
 		country_bolster_cost_mult = -0.25
-		country_suppression_cost_mult = -0.25		
+		country_suppression_cost_mult = -0.25
+		
+		country_legitimacy_ideological_incoherence_mult = -0.05
+		
 	}
 	
 	ai_weight = {
@@ -1328,6 +1348,11 @@ principle_ideological_truth_2 = {
 
 		# Reduces ideological coherence penalty for IGs in same party
 		country_party_whip_impact_mult = 0.25
+
+		# Members Legitimacy can't fall under 25
+		country_legitimacy_min_add = 25
+		country_legitimacy_ideological_incoherence_mult = -0.15
+
 	}
 	
 	ai_weight = {
@@ -1348,6 +1373,7 @@ principle_ideological_truth_3 = {
 
 		# Members Legitimacy can't fall under 25
 		country_legitimacy_min_add = 25
+		country_legitimacy_ideological_incoherence_mult = -0.25
 	}
 
 	ai_weight = {
@@ -1393,10 +1419,11 @@ principle_companies_2 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_company_throughput_bonus_add = 0.05
+		country_company_throughput_bonus_add = 0.1
+		country_company_construction_efficiency_bonus_add = 0.05
 
 		# Adds one free company charter
-		country_free_charters_add = 1
+		country_free_charters_add = 2
 	}
 
 	ai_weight = {
@@ -1410,11 +1437,9 @@ principle_companies_3 = {
 
 	member_modifier = {
 		# Modifiers from previous level(s)
-		country_company_throughput_bonus_add = 0.05
-		country_free_charters_add = 1
-
-		# Adds one company slot
-		country_max_companies_add = 1
+		country_company_throughput_bonus_add = 0.15
+		country_company_construction_efficiency_bonus_add = 0.15
+		country_free_charters_add = 3
 	}
 
 	ai_weight = {
@@ -1423,11 +1448,71 @@ principle_companies_3 = {
 }
 
 
+### Shared Canon
+
+principle_shared_canon_1 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = ip4_content
+	}
+
+	member_modifier = {
+		country_society_tech_spread_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 100
+
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_ethnostate
+			}
+			add = 100
+		}
+	}
+}
+
+principle_shared_canon_2 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		country_society_tech_spread_mult = 0.15
+
+		# Adds assimilation bonus
+		state_assimilation_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_shared_canon_3 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		country_society_tech_spread_mult = 0.25
+		state_assimilation_mult = 0.1
+
+		# Adds full acceptance radicalism decrease
+		country_radicalism_increases_full_acceptance_mult = -0.10
+	}
+
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
 
 ### HEALTHCARE FOCUS - MOD
 
 principle_healthcare_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1435,8 +1520,9 @@ principle_healthcare_focus_1 = {
 	}
 
 	member_modifier = {
-	country_institution_cost_institution_health_system_mult = -0.1
-	country_institution_size_change_speed_institution_health_system_mult = 0.25
+		country_institution_cost_institution_health_system_mult = -0.25
+		country_institution_size_change_speed_institution_health_system_mult = 0.25
+		state_mortality_mult = -0.05
 	}
 	
 	ai_weight = {
@@ -1454,12 +1540,12 @@ principle_healthcare_focus_1 = {
 }
 
 principle_healthcare_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
-		state_mortality_mult = -0.05
-		country_institution_cost_institution_health_system_mult = -0.2
+		state_mortality_mult = -0.075
+		country_institution_cost_institution_health_system_mult = -0.35
 		country_institution_size_change_speed_institution_health_system_mult = 0.35
 	}
 	
@@ -1469,13 +1555,13 @@ principle_healthcare_focus_2 = {
 }
 
 principle_healthcare_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
+	icon = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-		state_mortality_mult = -0.05
+		state_mortality_mult = -0.1
 		state_pollution_reduction_health_mult = -0.1
-		country_institution_cost_institution_health_system_mult = -0.25
+		country_institution_cost_institution_health_system_mult = -0.5
 		country_institution_size_change_speed_institution_health_system_mult = 0.5
 	}
 	
@@ -1488,7 +1574,7 @@ principle_healthcare_focus_3 = {
 ### BUREAUCRACY FOCUS - MOD
 
 principle_bureaucracy_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1496,7 +1582,8 @@ principle_bureaucracy_focus_1 = {
 	}
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.10
+		country_bureaucracy_investment_cost_factor_mult = -0.05
 	}
 	
 	ai_weight = {
@@ -1514,11 +1601,12 @@ principle_bureaucracy_focus_1 = {
 }
 
 principle_bureaucracy_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.15
+		country_bureaucracy_investment_cost_factor_mult = -0.1
 		country_bureaucrats_pol_str_mult = 0.15
 		
 	}
@@ -1529,238 +1617,15 @@ principle_bureaucracy_focus_2 = {
 }
 
 principle_bureaucracy_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
+	icon = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.2
+		country_bureaucracy_investment_cost_factor_mult = -0.15
 		country_bureaucrats_pol_str_mult = 0.15
 		country_government_dividends_efficiency_add = 0.05
 		# PM Burocracia Eficiente.
-		
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-### MINING FOCUS - MOD
-
-
-principle_mining_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-	
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	member_modifier = {
-		building_group_bg_mining_throughput_add = 0.05
-	}
-	
-	ai_weight = {
-		value = 100
-		
-		if = {
-			limit = {
-					ig:ig_industrialists ?= { is_in_government = yes }
-				}			
-			}
-			add = 100
-		}
-
-		if = {
-			limit = {
-				has_strategy = ai_strategy_agricultural_expansion
-			}
-			multiply = 1.5
-	}	
-}
-
-principle_mining_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-		# Modifiers from previous level(s)
-		building_group_bg_mining_throughput_add = 0.05
-		building_gold_mine_throughput_add = 0.1
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_mining_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-
-	member_modifier = {
-		# Modifiers from previous level(s)
-		building_group_bg_mining_throughput_add = 0.05
-		building_group_bg_mining_unincorporated_throughput_add = 0.1
-		building_gold_mine_throughput_add = 0.2
-
-		# PM Dinamita (asignada en el PM específico, esta línea solo indica que existe).
-		
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-### AGRICULTURAL FOCUS - MOD
-
-principle_agricultural_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-	
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	member_modifier = {
-		building_group_bg_ranching_throughput_add = 0.1
-		building_millet_farm_throughput_add = 0.1
-		building_maize_farm_throughput_add = 0.1
-		building_wheat_farm_throughput_add = 0.1
-		building_rice_farm_throughput_add = 0.1
-		building_rye_farm_throughput_add = 0.1
-
-	}
-	
-	ai_weight = {
-		value = 100
-		
-		if = {
-			limit = {
-					ig:ig_rural_folk ?= { is_in_government = yes }
-				}			
-			}
-			add = 100
-		}
-
-		if = {
-			limit = {
-				has_strategy = ai_strategy_agricultural_expansion
-			}
-			multiply = 1.5
-	}	
-}
-
-principle_agricultural_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-
-		state_farmers_investment_pool_contribution_add = 0.05
-		state_farmers_investment_pool_efficiency_mult = 0.1
-		# Modifiers from previous level(s)
-		building_millet_farm_throughput_add = 0.1
-		building_maize_farm_throughput_add = 0.1
-		building_wheat_farm_throughput_add = 0.1
-		building_rice_farm_throughput_add = 0.1
-		building_rye_farm_throughput_add = 0.1
-		building_group_bg_ranching_throughput_add = 0.1
-
-		
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_agricultural_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-
-	member_modifier = {
-		# Modifiers from previous level(s)
-		state_farmers_investment_pool_contribution_add = 0.05
-		state_farmers_investment_pool_efficiency_mult = 0.25
-		state_aristocrats_investment_pool_efficiency_mult = 0.05
-		building_millet_farm_throughput_add = 0.1
-		building_maize_farm_throughput_add = 0.1
-		building_wheat_farm_throughput_add = 0.1
-		building_rice_farm_throughput_add = 0.1
-		building_rye_farm_throughput_add = 0.1
-		building_group_bg_ranching_throughput_add = 0.1
-		
-		#Métodos nuevos para los PM secundarios de granjas y ranchos.
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-
-### MANUFACTORIES FOCUS - MOD
-
-principle_manufacturing_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-	
-	visible = {
-		has_dlc_feature = power_bloc_features
-	}
-
-	member_modifier = {
-		building_group_bg_light_industry_throughput_add = 0.05
-	}
-	
-	ai_weight = {
-		value = 100
-		
-		if = {
-			limit = {
-					ig:ig_industrialists ?= { is_in_government = yes }
-				}			
-			}
-			add = 100
-		}
-
-		if = {
-			limit = {
-				has_strategy = ai_strategy_agricultural_expansion
-			}
-			multiply = 1.5
-	}	
-}
-
-principle_manufacturing_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
-
-	member_modifier = {
-
-		building_group_bg_light_industry_throughput_add = 0.05
-		# Modifiers from previous level(s)
-		
-	}
-	
-	ai_weight = {
-		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
-	}
-}
-
-principle_manufacturing_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
-
-	member_modifier = {
-
-		building_group_bg_light_industry_throughput_add = 0.05
-		# Modifiers from previous level(s)
-
-		#Advanced PMs: Vacuum Canning; Electrical Workshops; 
-
 		
 	}
 	
@@ -1783,7 +1648,7 @@ principle_colonial_focus_1 = {
 	member_modifier = {
 		# Cheaper and faster colonial institution
 		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.25
-		country_institution_cost_institution_colonial_affairs_mult = -0.1
+		country_institution_cost_institution_colonial_affairs_mult = -0.25
 		country_disallow_law_no_colonial_affairs_bool = yes
 	}
 
@@ -1814,9 +1679,11 @@ principle_colonial_focus_2 = {
 
 	member_modifier = {
 		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.4
-		country_institution_cost_institution_colonial_affairs_mult = -0.2
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
+		country_institution_cost_institution_colonial_affairs_mult = -0.5
 		country_disallow_law_no_colonial_affairs_bool = yes
+		building_group_bg_plantations_unincorporated_throughput_add = 0.05
+		building_group_building_rubber_plantation_unincorporated_throughput_add = 0.05
 	}
 
 	leader_modifier = {
@@ -1827,8 +1694,7 @@ principle_colonial_focus_2 = {
 	institution_modifier = {
 		# Members get higher colony growth for each level of institution
 		state_colony_growth_creation_factor = 0.1
-		building_group_bg_plantations_unincorporated_throughput_add = 0.04
-		building_group_bg_rubber_unincorporated_throughput_add = 0.04
+		
 	}	
 	
 	ai_weight = {
@@ -1842,9 +1708,11 @@ principle_colonial_focus_3 = {
 	
 	member_modifier = {
 		# Cheaper and faster colonial institution
-		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.5
-		country_institution_cost_institution_colonial_affairs_mult = -0.5
+		country_institution_size_change_speed_institution_colonial_affairs_mult = 0.75
+		country_institution_cost_institution_colonial_affairs_mult = -0.75
 		country_disallow_law_no_colonial_affairs_bool = yes
+		building_group_bg_plantations_unincorporated_throughput_add = 0.1
+		building_group_building_rubber_plantation_unincorporated_throughput_add = 0.1
 	}
 
 	leader_modifier = {
@@ -1855,9 +1723,7 @@ principle_colonial_focus_3 = {
 	institution_modifier = {
 		# Modifiers from previous level(s)	
 		state_colony_growth_creation_factor = 0.1
-		country_infamy_generation_against_unrecognized_mult = -0.1
-		building_group_bg_plantations_unincorporated_throughput_add = 0.06
-		building_group_bg_rubber_unincorporated_throughput_add = 0.06
+		country_infamy_generation_against_unrecognized_mult = -0.1		
 	}				
 
 	ai_weight = {
@@ -1932,8 +1798,8 @@ principle_foreign_investment_focus_3 = {
 
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
-		state_capitalists_investment_pool_efficiency_mult = 0.1
-		country_company_construction_efficiency_bonus_add = 0.1
+		state_capitalists_investment_pool_efficiency_mult = 0.15
+		country_company_construction_efficiency_bonus_add = 0.05
 		country_capitalists_pol_str_mult = 0.15
 	}
 	

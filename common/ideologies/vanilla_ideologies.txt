@@ -27,6 +27,14 @@
 		law_migration_controls = disapprove
 		law_closed_borders = strongly_disapprove
 	}
+
+	lawgroup_labour_associations = {
+		law_combination_acts = approve
+		law_guild_system = strongly_disapprove
+		law_anti_strike_laws = neutral
+		law_corporatized_unions = neutral
+		law_right_to_associate = strongly_disapprove
+	}
 }
 
 ideology_anti_clerical_mod = {
@@ -67,7 +75,7 @@ ideology_anti_clerical_mod = {
 	}
 }
 
-ideology_pious = {
+REPLACE_OR_CREATE:ideology_pious = {
 	icon = "gfx/interface/icons/ideology_icons/pious.dds"
 
 	lawgroup_health_system = {

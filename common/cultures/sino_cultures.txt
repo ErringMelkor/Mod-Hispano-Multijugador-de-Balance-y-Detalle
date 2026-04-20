@@ -1,4 +1,4 @@
-﻿manchu={
+﻿REPLACE_OR_CREATE:manchu={
 	color= rgb{ 233 207 84 }
 	religion = confucian
 	heritage = heritage_manchu
@@ -79,7 +79,7 @@
 	graphics = east_asian
 }
 
-han={
+REPLACE_OR_CREATE:han={
 	color= rgb{ 190 80 48 }
 	religion = confucian
 	heritage = heritage_han
@@ -162,12 +162,15 @@ han={
 	graphics = east_asian
 }
 
-korean={
+REPLACE_OR_CREATE:korean={
 	color= hsv{ 0.17 0.41 0.34 }
 	religion = confucian
 	heritage = heritage_korean
 	language = language_korean
 	traditions = { tradition_sinosphere }
+	obsessions = {
+		liquor
+	}
 	male_common_first_names={
 		Bak Bong-haek
 		Chwa-chin
@@ -247,7 +250,7 @@ korean={
 	graphics = east_asian
 }
 
-hakka={
+REPLACE_OR_CREATE:hakka={
 	color= hsv{ 0.1 0.43 0.34 }
 	religion = mahayana
 	heritage = heritage_han
@@ -320,7 +323,7 @@ hakka={
 	graphics = east_asian
 }
 
-miao={
+REPLACE_OR_CREATE:miao={
 	color= hsv{ 0.62 0.46 0.50 }
 	religion = animist
 	heritage = heritage_miao
@@ -390,7 +393,7 @@ miao={
 	graphics = east_asian
 }
 
-min={
+REPLACE_OR_CREATE:min={
 	color= hsv{ 0.71 0.54 0.78 }
 	religion = mahayana
 	heritage = heritage_han
@@ -458,7 +461,7 @@ min={
 	graphics = east_asian
 }
 
-zhuang={
+REPLACE_OR_CREATE:zhuang={
 	color= hsv{ 0.92 0.32 0.88 }
 	religion = animist
 	heritage = heritage_tai
@@ -518,7 +521,7 @@ zhuang={
 	graphics = east_asian
 }
 
-yi={
+REPLACE_OR_CREATE:yi={
 	color= hsv{ 0.91 0.51 0.52 }
 	religion = animist
 	heritage = heritage_yi
@@ -601,7 +604,7 @@ yi={
 	graphics = east_asian
 }
 
-yue={
+REPLACE_OR_CREATE:yue={
 	color= hsv{ 0.80 0.36 0.39 }
 	religion = mahayana
 	heritage = heritage_han
@@ -684,7 +687,7 @@ yue={
 	graphics = east_asian
 }
 
-tibetan={
+REPLACE_OR_CREATE:tibetan={
 	color= rgb{ 132 121 86 }
 	religion = gelugpa
 	
@@ -735,7 +738,7 @@ tibetan={
 	graphics = east_asian
 }
 
-vietnamese={
+REPLACE_OR_CREATE:vietnamese={
 	color= hsv{ 0.31 0.37 0.48 }
 	religion = confucian
 	heritage = heritage_vietnamese
@@ -788,7 +791,7 @@ vietnamese={
 	graphics = east_asian
 }
 
-khmer={
+REPLACE_OR_CREATE:khmer={
 	color= hsv{ 0.04 0.54 0.86 }
 	religion = theravada
 	heritage = heritage_cambodian
@@ -833,7 +836,7 @@ khmer={
 	graphics = east_asian
 }
 
-thai={
+REPLACE_OR_CREATE:thai={
 	color= hsv{ 0.61 0.29 0.58 }
 	religion = theravada
 	heritage = heritage_tai
@@ -891,7 +894,7 @@ thai={
 	graphics = east_asian
 }
 
-lao={
+REPLACE_OR_CREATE:lao={
 	color= hsv{ 0.73 0.40 0.60 }
 	religion = theravada
 	heritage = heritage_tai
@@ -940,7 +943,7 @@ lao={
 	graphics = east_asian
 }
 
-shan={
+REPLACE_OR_CREATE:shan={
 	color= hsv{ 0.41 0.07 0.37 }
 	religion = theravada
 	heritage = heritage_tai
@@ -995,7 +998,7 @@ shan={
 	graphics = east_asian
 }
 
-burmese={
+REPLACE_OR_CREATE:burmese={
 	color= hsv{ 0.13 0.42 0.38 }
 	religion = theravada
 	heritage = heritage_burmese
@@ -1041,12 +1044,12 @@ burmese={
 	graphics = east_asian
 }
 
-japanese= {
+REPLACE_OR_CREATE:japanese= {
 	color= hsv{ 0 0 90 }
 	religion = mahayana
 	heritage = heritage_japanese
 	language = language_japanese
-	traditions = { }
+	traditions = { tradition_sinosphere }
 	obsessions = {
 		tea
 	}
@@ -1119,6 +1122,14 @@ japanese= {
 		Yoshinobu
 		Yoshinori
 		Yusaku
+
+		#Mod
+
+		Iesada
+		Iemochi
+		Sanetomi
+		Kaoru
+		Saionji
 	}
 	female_common_first_names = {
 		Asako
@@ -1215,6 +1226,11 @@ japanese= {
 		Yamaya
 		Yashiro
 		Yui
+
+		#MHMBD
+
+		Sanjo
+		Kinmochi
 	}
 	ethnicities = {
 		1 = asian

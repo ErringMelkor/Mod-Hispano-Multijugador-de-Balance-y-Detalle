@@ -1,0 +1,10 @@
+﻿GLOBAL = {
+
+	s:STATE_GALICIA = {
+		region_state:SPA = {
+				add_modifier = {
+					name = galicia_minifundismo
+			}
+		}
+	}	
+}	

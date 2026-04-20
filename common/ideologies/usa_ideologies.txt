@@ -56,10 +56,10 @@ ideology_plutocratic_usa = {
 	}
 
 	lawgroup_governance_principles = {
+		law_corporate_state = strongly_approve
+		law_presidential_republic = approve
 		law_monarchy = neutral
-		law_presidential_republic = neutral
 		law_parliamentary_republic = neutral
-		law_corporate_state = disapprove
 		law_theocracy = disapprove
 		law_council_republic = strongly_disapprove
 	}
@@ -69,7 +69,7 @@ ideology_plutocratic_usa = {
 		law_per_capita_based_taxation = neutral
 		law_land_based_taxation = neutral
 		law_proportional_taxation = disapprove
-		law_graduated_taxation = disapprove
+		law_graduated_taxation = strongly_disapprove
 	}
 
 	lawgroup_colonization = {
@@ -88,7 +88,7 @@ ideology_republican_paternalistic_usa = {
 		law_parliamentary_republic = approve
 		law_theocracy = approve
 		law_corporate_state = neutral
-		law_monarchy = neutral
+		law_monarchy = disapprove
 		law_council_republic = disapprove
 	}
 
@@ -125,7 +125,7 @@ ideology_republican_paternalistic_usa = {
 	}
 }
 
-ideology_agrarian_jeffersonian = {
+REPLACE_OR_CREATE:ideology_agrarian_jeffersonian = {
 	icon = "gfx/interface/icons/ideology_icons/frontier_expansionist.dds"
 
 	lawgroup_economic_system = {
@@ -192,5 +192,124 @@ ideology_republican_reactionary = {
 		law_closed_borders = approve
 		law_migration_controls = strongly_approve
 		law_no_migration_controls = disapprove
+	}
+}
+
+REPLACE_OR_CREATE:ideology_jacksonian_democrat = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/jackson_democrat.dds"
+
+	character_ideology = yes
+
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_disapprove
+		law_theocracy = strongly_disapprove
+		law_council_republic = strongly_disapprove
+		law_parliamentary_republic = neutral
+		law_corporate_state = disapprove
+		law_presidential_republic = approve
+	}
+
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = approve
+		law_census_voting = strongly_approve
+		law_wealth_voting = neutral
+		law_landed_voting = disapprove
+		law_anarchy = strongly_disapprove
+		law_oligarchy = strongly_disapprove
+		law_autocracy = strongly_disapprove
+		law_single_party_state = disapprove
+		law_technocracy = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = approve
+		law_appointed_bureaucrats = neutral
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = neutral
+		law_legacy_slavery = approve
+		law_colonial_slavery = approve
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = neutral
+		law_subjecthood = strongly_disapprove
+		law_racial_segregation = approve
+		law_cultural_exclusion = neutral
+		law_multicultural = strongly_disapprove
+	}
+
+	country_trigger = {
+		exists = c:USA
+		OR = {
+			c:USA ?= this
+			civil_war_origin_country ?= c:USA
+		}
+		any_scope_character = {
+			has_variable = is_andrew_jackson
+		}
+	}
+
+	interest_group_leader_trigger = {
+		ideology_jacksonian_democrat_valid_trigger = yes
+	}
+
+	non_interest_group_leader_trigger = {
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law_or_variant = law_type:law_racial_segregation
+				has_law_or_variant = law_type:law_legacy_slavery
+				has_law_or_variant = law_type:law_elected_bureaucrats
+				has_law_or_variant = law_type:law_universal_suffrage
+				has_law_or_variant = law_type:law_presidential_republic
+			}
+		}
+		interest_group = {
+			ideology_jacksonian_democrat_valid_trigger = yes
+		}
+	}
+
+	interest_group_leader_weight = {
+		value = 300
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = 0.1
+		}
+	}
+
+	non_interest_group_leader_weight = {
+		value = 100
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
 	}
 }

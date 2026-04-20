@@ -1,5 +1,196 @@
 ﻿namespace = german_unification
 
+# North/South German Confederation
+german_unification.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = german_unification.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = german_unification.1.d1
+				trigger = {
+					country_has_primary_culture = cu:north_german
+				}
+			}
+			triggered_desc = {
+				desc = german_unification.1.d2
+				trigger = {
+					country_has_primary_culture = cu:south_german
+				}
+			}
+		}
+	}
+	flavor = german_unification.1.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = je_german_confederate_unifier
+
+		every_country = {
+			limit = {
+				country_rank < rank_value:great_power
+				OR = {
+					AND = {
+						root = { country_has_primary_culture = cu:north_german }
+						country_has_primary_culture = cu:north_german
+					}
+					AND = {
+						root = { country_has_primary_culture = cu:south_german }
+						country_has_primary_culture = cu:south_german
+					}
+				}
+				NOR = {
+					THIS = ROOT
+					is_subject_type = subject_type_colony
+					is_subject_type = subject_type_dominion
+					is_subject_type = subject_type_chartered_company
+				}
+			}
+
+			if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						is_in_customs_union_with = root
+						is_supporting_unification_candidate = { who = root country_formation = GER }
+					}
+				}
+				root = { annex_with_incorporation = prev }
+			}
+			else = {
+				trigger_event = { id = german_unification.2 days = 0 popup = yes }
+			}
+		}
+	}
+
+	option = {
+		name = german_unification.1.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				is_in_government = yes
+			}
+			leader = {
+				add_modifier = {
+					name = german_unification_popularity
+					days = long_modifier_time
+				}
+			}
+		}
+		if = {
+			limit = {
+				c:AUS ?= this
+			}
+			add_loyalists = {
+				culture = cu:south_german
+				value = 0.05
+			}
+		}
+		if = {
+			limit = {
+				country_has_primary_culture = cu:north_german
+				NOT = { exists = c:NGF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+
+			# Reconcile with Austria if we didn't conquer states from them or release any crucial territories
+			hidden_effect = {
+				if = {
+					limit = {
+						exists = c:AUS
+						c:AUS ?= {
+							country_rank >= rank_value:great_power
+							NOT = { has_claim = root }
+							owns_entire_state_region = STATE_BOHEMIA
+							owns_entire_state_region = STATE_CENTRAL_HUNGARY
+							owns_entire_state_region = STATE_LOMBARDY
+						}
+					}
+
+					c:AUS ?= {
+						set_mutual_secret_goal = {
+							country = root
+							secret_goal = reconcile
+						}
+					}
+				}
+			}
+
+			change_tag = NGF
+		}
+		else_if = {
+			limit = {
+				country_has_primary_culture = cu:south_german
+				NOT = { exists = c:SGF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = SGF
+		}
+	}
+	option = {
+		name = german_unification.1.b
+		add_modifier = {
+			name = partial_german_unification_influence_prestige
+			days = normal_modifier_time
+		}
+		if = {
+			limit = {
+				c:AUS ?= this
+			}
+			add_loyalists = {
+				culture = cu:south_german
+				value = 0.05
+			}
+		}
+		if = {
+			limit = {
+				country_has_primary_culture = cu:north_german
+				NOT = { exists = c:NGF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = NGF
+		}
+		else_if = {
+			limit = {
+				country_has_primary_culture = cu:south_german
+				NOT = { exists = c:SGF }
+				OR = {
+					NOT = { exists = c:AUS }
+					NOT = { c:AUS ?= THIS }
+				}
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = SGF
+		}
+	}
+}
+
 # Annex a German country after forming NGF/SGF
 german_unification.2 = {
 	type = country_event
@@ -18,12 +209,12 @@ german_unification.2 = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	duration = 3
-	
+
 	immediate = {
 		random_country = {
 			limit = { is_unification_candidate = GER }
 			save_scope_as = german_unification_candidate
-		}	
+		}
 	}
 
 	option = {
@@ -32,7 +223,7 @@ german_unification.2 = {
 			OR = {
 				is_subject = no
 				is_subject_of = scope:german_unification_candidate
-			}				
+			}
 		}
 		scope:german_unification_candidate = { annex_with_incorporation = root }
 		ai_chance = {
@@ -45,25 +236,25 @@ german_unification.2 = {
 		add_radicals = {
 			value = medium_radicals
 			culture = cu:south_german
-		}		
+		}
 		add_radicals = {
 			value = medium_radicals
 			culture = cu:north_german
-		}			
+		}
 		change_relations = {
 			country = scope:german_unification_candidate
 			value = -50
 		}
 		every_scope_state = {
 			if = {
-				limit = { 	
+				limit = {
 					NOT = { has_claim_by = scope:german_unification_candidate }
 				}
 			}
 			state_region = {
 				add_claim = scope:german_unification_candidate
 			}
-		}		
+		}
 		hidden_effect = {
 			scope:german_unification_candidate = {
 				set_secret_goal = {
@@ -72,7 +263,7 @@ german_unification.2 = {
 				}
 			}
 		}
-		
+
 		ai_chance = {
 			base = 1
 		}
@@ -97,38 +288,16 @@ german_unification.3 = {
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
+	cooldown = { days = never_fire_again_modifier_time }
+
 	duration = 3
 
 	trigger = {
-		NOT = { has_global_variable = bismarck_variable }
-		ig:ig_landowners = {
-			is_powerful = yes
-			is_in_government = yes
-		}
-		is_unification_candidate = GER
-		has_technology_researched = nationalism
-		game_date > 1846.1.1
-		game_date < 1898.1.1
+		# triggered by character spawn
 	}
 
 	immediate = {
-		set_global_variable = bismarck_variable
-		create_character = {
-			first_name = Otto
-			last_name = von_Bismarck
-			historical = yes
-			ig_leader = yes
-			interest_group = ig_landowners
-			female = no
-			birth_date = 1815.4.1
-			dna = dna_otto_von_bismarck
-			ideology = ideology_royalist
-			traits = {
-				direct
-				cautious
-			}
-		}
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			save_scope_as = junkers
 			leader = {
 				save_scope_as = bismarck_scope
@@ -141,47 +310,35 @@ german_unification.3 = {
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {
-				first_name = Otto
-				last_name = von_Bismarck
-				historical = yes
-				ig_leader = yes
-				interest_group = ig_landowners
-				female = no
-				birth_date = 1815.4.1
-				ideology = ideology_royalist
-				traits = {
-					direct
-					cautious
-				}
+				template = PRU_otto_von_bismarck
 			}
 		}
 		scope:bismarck_scope = {
 			add_modifier = {
 				name = bismarck_popular
 			}
+			if = {
+				limit = {
+					has_variable = memento_mori_immunity
+				}
+				remove_variable = memento_mori_immunity
+			}
+			set_variable = { name = memento_mori_immunity years = 30 }
 		}
 		add_modifier = {
 			name = realpolitik
-			months = normal_modifier_time
+			days = long_modifier_time
+		}
+
+		ai_chance = {
+			base = 95
 		}
 	}
 	option = {
 		name = german_unification.3.b
-		default_option = yes
 		show_as_tooltip = {
 			create_character = {
-				first_name = Otto
-				last_name = von_Bismarck
-				historical = yes
-				ig_leader = yes
-				interest_group = ig_landowners
-				female = no
-				birth_date = 1815.4.1
-				ideology = ideology_royalist
-				traits = {
-					direct
-					cautious
-				}
+				template = PRU_otto_von_bismarck
 			}
 		}
 		scope:bismarck_scope = {
@@ -191,7 +348,11 @@ german_unification.3 = {
 		}
 		add_modifier = {
 			name = germany_aggressive_expansion
-			months = normal_modifier_time
+			days = long_modifier_time
+		}
+
+		ai_chance = {
+			base = 5
 		}
 	}
 }
@@ -215,12 +376,29 @@ german_unification.4 = {
 
 	duration = 3
 
+immediate = {
+	if = {
+		limit = {
+			has_global_variable = bismarck_variable
+		}
+		s:STATE_NORTH_DAKOTA = {
+			random_scope_state = {
+		        set_hub_name = {
+		            type = city
+		            name = HUB_NAME_STATE_NORTH_DAKOTA_city_bismarck
+		        }
+	        }
+		}
+	}
+}
 
+	trigger = {
+	}
 
 	option = {
 		name = german_unification.4.a
 		default_option = yes
-		
+		give_claims_on_germany = yes
 		ruler = {
 			add_modifier = {
 				name = german_unifier_ruler
@@ -231,25 +409,19 @@ german_unification.4 = {
 				months = 120
 				is_decaying = yes
 		}
-		add_primary_culture = cu:south_german
 	}
 	option = {
 		name = german_unification.4.b
-		
+		give_claims_on_germany = yes
 		add_loyalists = {
-			value = 0.1
+			value = 0.15
 			culture = cu:north_german
-		}
-		add_loyalists = {
-			value = 0.1
-			culture = cu:south_german
 		}
 		add_modifier = {
 				name = ger_explosion_demografica
 				months = 120
 				is_decaying = yes
 		}
-		add_primary_culture = cu:south_german
 	}
 }
 
@@ -279,7 +451,7 @@ german_unification.5 = {
 				trigger = {
 					always = yes
 				}
-			}			
+			}
 		}
 	}
 
@@ -297,7 +469,7 @@ german_unification.5 = {
 
 	option = {
 		name = german_unification.5.a
-		default_option = yes	
+		default_option = yes
 		if = {
 			limit = { country_has_primary_culture = cu:north_german }
 			add_journal_entry = {
@@ -309,6 +481,215 @@ german_unification.5 = {
 			add_journal_entry = {
 				type = je_south_german_unification
 			}
-		}		
+		}
+	}
+}
+
+german_unification.6 = {
+	type = country_event
+	placement = ROOT
+
+	title = german_unification.6.t
+	desc = german_unification.6.d
+	flavor = german_unification.6.f	
+
+	immediate = {
+		every_country = {
+			limit = {
+				country_rank < rank_value:great_power
+				country_has_primary_culture = cu:north_german
+			}
+
+			if = {
+				limit = {
+					is_ai = yes
+					is_in_customs_union_with = c:PRU
+				}
+				c:PRU = { annex_with_incorporation = prev }
+			}
+			else = {
+				trigger_event = { id = german_unification.2 days = 0 popup = yes }
+			}
+		}
+		change_tag = NGF
+
+		trigger_event = { id = german_unification.7 days = 90 popup = yes }
+
+	}
+
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {}
+
+	option = {
+		name = german_unification.6.a
+		default_option = yes
+
+		add_radicals = {
+			value = 0.1
+			culture = cu:north_german
+		}
+
+		add_radicals = {
+			value = 0.25
+			pop_type = officers
+		}
+	}
+}
+
+german_unification.7 = {
+	type = country_event
+	placement = ROOT
+
+	title = german_unification.7.t
+	desc = german_unification.7.d
+	flavor = german_unification.7.f
+	
+	immediate = {
+	}
+	event_image = {
+		video = "europenorthamerica_political_extremism"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {}
+
+	option = {
+		name = german_unification.7.a
+		default_option = yes
+
+		trigger = {
+		}
+
+		add_modifier = {
+			name = prussian_revanchism
+			years = 15
+			is_decaying = yes
+		}
+
+		ig:ig_armed_forces ?= {
+            add_ideology = ideology_military_totalists
+        }
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_UPPER_SILESIA }
+			}
+			s:STATE_UPPER_SILESIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_LOWER_SILESIA }
+			}
+			s:STATE_LOWER_SILESIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_RHINELAND }
+			}
+			s:STATE_RHINELAND = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN }
+			}
+			s:STATE_SCHLESWIG_HOLSTEIN = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_SAXONY }
+			}
+			s:STATE_SAXONY = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_HANNOVER }
+			}
+			s:STATE_HANNOVER = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_FRANCONIA }
+			}
+			s:STATE_FRANCONIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BAVARIA }
+			}
+			s:STATE_BAVARIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WURTTEMBERG }
+			}
+			s:STATE_WURTTEMBERG = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BADEN }
+			}
+			s:STATE_BADEN = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WEST_PRUSSIA }
+			}
+			s:STATE_WEST_PRUSSIA = {
+				add_claim = ROOT
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_EAST_PRUSSIA }
+			}
+			s:STATE_EAST_PRUSSIA = {
+				add_claim = ROOT
+			}
+		}
 	}
 }

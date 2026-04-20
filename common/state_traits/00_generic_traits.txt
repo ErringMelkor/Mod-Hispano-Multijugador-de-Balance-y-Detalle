@@ -1,4 +1,4 @@
-﻿state_trait_malaria = {
+﻿REPLACE_OR_CREATE:state_trait_malaria = {
     icon = "gfx/interface/icons/state_trait_icons/malaria.dds"
 
 	disabling_technologies = { "quinine" }
@@ -9,7 +9,7 @@
 	}
 }
 
-state_trait_severe_malaria = {
+REPLACE_OR_CREATE:state_trait_severe_malaria = {
     icon = "gfx/interface/icons/state_trait_icons/severe_malaria.dds"
 
 	required_techs_for_colonization = { "quinine" }
@@ -21,12 +21,12 @@ state_trait_severe_malaria = {
 	}
 }
 
-state_trait_natural_harbors = {
+REPLACE_OR_CREATE:state_trait_natural_harbors = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 
 	modifier = {
-		building_shipyards_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
+		building_shipyard_throughput_add = 0.1
+		building_military_shipyard_throughput_add = 0.1
 		building_port_throughput_add = 0.1
 		state_trade_capacity_mult = 0.15
 		state_building_naval_base_max_level_add = 10
@@ -34,7 +34,7 @@ state_trait_natural_harbors = {
 	}
 }
 
-state_trait_good_soils = {
+REPLACE_OR_CREATE:state_trait_good_soils = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 	modifier = {
@@ -43,7 +43,7 @@ state_trait_good_soils = {
 	}
 }
 
-state_trait_north_sea_fishing = {
+REPLACE_OR_CREATE:state_trait_north_sea_fishing = {
     icon = "gfx/interface/icons/state_trait_icons/resources_fish.dds"
 
 	modifier = {
@@ -51,7 +51,7 @@ state_trait_north_sea_fishing = {
 	}
 }
 
-state_trait_arctic_whaling = {
+REPLACE_OR_CREATE:state_trait_arctic_whaling = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
 
 	modifier = {
@@ -59,7 +59,7 @@ state_trait_arctic_whaling = {
 	}
 }
 
-state_trait_antarctic_whaling = {
+REPLACE_OR_CREATE:state_trait_antarctic_whaling = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_whales.dds"
 
 	modifier = {
@@ -67,11 +67,11 @@ state_trait_antarctic_whaling = {
 	}
 }
 
-state_trait_terra_rossa = {
+REPLACE_OR_CREATE:state_trait_terra_rossa = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_exotic.dds"
 
 	modifier = {
-		building_vineyard_plantation_throughput_add = 0.10
+		building_vineyard_throughput_add = 0.10
 		goods_output_wine_mult = 0.10
 	}
 }

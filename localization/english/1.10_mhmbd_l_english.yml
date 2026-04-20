@@ -1,0 +1,162 @@
+﻿l_english:
+
+state_trait_red_cedar: "Old Red Cedar Woods"
+
+
+nicholas_unticked: "@simple_box!"
+nicholas_ticked: "@green_checkmark_box!"
+
+alexander_ticked: "@green_checkmark_box!"
+alexander_unticked: "@simple_box!"
+
+je_age_of_nicholas_i: "The Age of Nicholas I"
+je_age_of_nicholas_i_reason: "The Napoleonic Wars have risen [ROOT.GetCountry.GetName] as a Great Power in the Western world. The Tzar, [SCOPE.sCharacter('nicholas_i_scope').GetFullName], succeeded his brother Alexander I in 1825. Without abandoning the absolutist policy of his older brother, [SCOPE.sCharacter('nicholas_i_scope').GetFullName] focuses on internal stability, military supremacy and territorial expansion. \n\n#b The Agenda of Nicholas I:#!\nAchieving his objectives will improve both his current effectiveness as a Tzar as well as his Legacy once he passes the torch of the Russian goverment.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_art_checkbox')] [ROOT.GetCountry.GetNameNoFlag] leads the production of [GetGoods('fine_art').GetName|l].\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_tech_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has researched [GetPlayer.MakeScope.ScriptValue('nicholas_i_tech_target')|v0] [Concept('concept_technology', '$concept_technologies$')|l] (actualmente [GetPlayer.MakeScope.ScriptValue('techs_researched_script')|v0]).\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_movement_checkbox')] All [Concept('concept_political_movement','$concept_political_movements$')|l] of #tooltippable;tooltip:[GetPlayer.GetTooltipTag],liberal_movements_list_tt liberal#! or #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_movements_list_tt socialista#! have support #b marginal#!.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_balkans_checkbox')] [ROOT.GetCountry.GetNameNoFlag] owns all [concept_state_region|l] of [GetStateRegion('STATE_BESSARABIA').GetName], [GetStateRegion('STATE_MOLDAVIA').GetName], [GetStateRegion('STATE_WALLACHIA').GetName] and [GetStateRegion('STATE_DOBRUDJA').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_eastern_anatolia_checkbox')] [ROOT.GetCountry.GetNameNoFlag] owns all [concept_state_region|l] of [GetStateRegion('STATE_GREATER_CAUCASUS').GetName], [GetStateRegion('STATE_KARS').GetName], [GetStateRegion('STATE_ERZURUM').GetName] and [GetStateRegion('STATE_TRABZON').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_manchuria_checkbox')] [ROOT.GetCountry.GetNameNoFlag] owns all [concept_state_region|l] of [GetStateRegion('STATE_AMUR').GetName], [GetStateRegion('STATE_OUTER_MANCHURIA').GetName], [GetStateRegion('STATE_NORTHERN_MANCHURIA').GetName] and [GetStateRegion('STATE_SOUTHERN_MANCHURIA').GetName]. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_manchuria_checkbox')] [ROOT.GetCountry.GetNameNoFlag] owns all [concept_state_region|l] of [GetStateRegion('STATE_AZERBAIJAN').GetName], [GetStateRegion('STATE_TABRIZ').GetName], [GetStateRegion('STATE_URMIA').GetName] and [GetStateRegion('STATE_MAZANDARAN').GetName]\n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_institutions_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has Police and Internal Security at levels 3 and 2 respectively. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_legitimacy_checkbox')][ROOT.GetCountry.GetNameNoFlag] has 90 or higher Goverment Legitimacy. \n•[SCOPE.GetRootScope.GetCountry.GetCustom('nicholas_i_military_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has a land power projection superior to [GetPlayer.MakeScope.ScriptValue('nicholas_i_military_target')|v0]."
+
+modifier_nicholas_i_rule: "The Rule of Nicholas I"
+modifier_nicholas_i_legacy: "The Legacy of Nicolás I"
+modifier_nicholas_i_disaster: "The Disaster of Nicolás I"
+
+ig_trait_terrible_boyars: "Terrible Boyars"
+ig_trait_terrible_boyars_desc: "¿You thought that was being bad? Iván IV would tremble before us."
+ig_trait_farm_and_family: "Farm and Family"
+ig_trait_farm_and_family_desc: "The happyness of a serf resides in working our plots and giving birth to more serfs."
+ig_trait_a_school_for_the_nation: "A School for the Nation"
+ig_trait_a_school_for_the_nation_desc: "¡Come and join the Army, no matter where you're from!"
+ig_trait_divine_autocracy: "Divine Autocracy"
+ig_trait_divine_autocracy_desc: "It is the pleasure of the Orthodox Church promoting the truth about the Royal Family."
+
+law_sosloviia: "Sosloviia"
+law_sosloviia_desc: "A neo-feudalist social system that intermixes a rigid yet undefined model with priviledges to specific classes."
+
+law_ispravniks: "Ispravniks"
+law_ispravniks_desc: "While in theory two separate branches, local nobility controls the administration of the provinces, with heavy priviledges and abuses as a de-facto reality."
+
+law_zemstvos: "Zemstvos"
+law_zemstvos_desc: "Hybrid rule of local governance where aristocrats are still at the top of the assemblies, but the rights of the peasantry and the urban dwellers and fortified against their worst excesses."
+
+law_gymnazii: "Gymnazii"
+law_gymnazii_desc: "System of military schools open to most people, designed to obtein loyal soldiers and officials for the Russian army, all the while keeping marginal groups and peasants from receiving literate instructions."
+
+law_multipolar_serfdom: "Multipolar Serfdom"
+law_multipolar_serfdom_desc: "Dual serfdom system, where half of the peasantry belongs to the State and the other to the aristocracy. While the State serfs are theoretically speaking free tenants, this is frecuently overriden by local aristocracy."
+
+law_obshchina: "Obshchina"
+law_obshchina_desc: "System of land ownership where private servitude still persists, but State serfs can now functionally operate as free tenants."
+
+modifier_yasak: "Yasak System"
+modifier_cossack_stanitsa: "Cossack Stanitsa"
+
+pm_unchecked_bondage: "Unrestricted serfdom"
+pm_manor_house_extensive_networks: "Extensive aristocratic networks"
+
+building_hardwood_logging: "Hardwood Logging Camps"
+building_departement_metropolitain: "Metropolitan Department"
+pmg_base_building_departement_metropolitain: "Metropolitan Department"
+pm_default_building_departement_metropolitain: "Base Production"
+pm_default_building_expanded_departement_metropolitain: "Extended Production"
+old_paris: "Old Paris"
+fra_napoleonic_wars_legacy_workforce: "Legacy of the Napoleonic Wars"
+british_commonwealth: "The British Commonwealth"
+pmg_secondary_logging_camp: "Secondary Production"
+pm_no_secondary_production: "No Secondary Production"
+pm_focused_hardwood_production: "Hardwood focus"
+pm_hardwood_sawmills: "Sawmills"
+pm_electric_hardwood_sawmills: "Electric Sawmills"
+
+veterancy5: "Elite"
+
+Kiselyov: "Kiselyov"
+ideology_nicholean_reformer_leader: "Nicholean Reformer"
+ideology_nicholean_reformer_leader_desc: "This person believes in a model of populist reform, without deviating from the absolutist principles of Russia."
+
+je_age_of_nicholas_i_summon_kiselyov: "Summon Kiselyov"
+je_age_of_nicholas_i_kiselyov_schools: "Finance the Kiselyov Schools"
+je_age_of_nicholas_i_promote_russian_works: "Promote Russian Art and Science"
+je_age_of_nicholas_i_curtail_aristocracy: "Curtail the Aristocracy"
+je_age_of_nicholas_i_appease_peasantry: "Appease the peasantry"
+
+country_turmoil: "National Turmoil equal or superior to 25%"
+
+age_of_nicholas_i.2.t: "Kiselyov answers to the Imperial Court."
+age_of_nicholas_i.2.d: "Tsar Nicholas I has summoned the veteran Pavel Kiselyov to lead the Ministry of Statal Property under the Imperial Council. Of reformist affinities, Kiselyov wishes to transform the State towards a modern apparatus, as well as reforming land tenancy, and is a firm advocate of the peasantry."
+age_of_nicholas_i.2.f: ""
+age_of_nicholas_i.2.a: "Grant him the ministership; we can't risk alienating the aristocracy."
+age_of_nicholas_i.2.b: "Give him free reign to his reformist will."
+
+modifier_curtailed_landowners: "Curtailed aristocracy"
+modifier_appeased_peasantry: "Appeased peasantry"
+
+age_of_nicholas_i.3.t: "An artistic dilemma"
+age_of_nicholas_i.3.d: "Nicholas I is a great promoter of Russian art and science: under his tutelage, figures such as Alexander Pushkin, Nikolai Gogol or Ivan Turgenev have florished; arts like ballet or classical music have developed; thoughts like Slavophilia are grown.\n  Now, we have the opportunity to finance a second generation of thinkers, to bring to Russia new ideas or keep growing our own."
+age_of_nicholas_i.3.f: ""
+age_of_nicholas_i.3.a: "Let's finance new researchs."
+age_of_nicholas_i.3.b: "Lets finance the european thought."
+age_of_nicholas_i.3.c: "Let's finance both possibilities."
+age_of_nicholas_i.3.e: "The sword is always mightier than the pen."
+
+modifier_russian_academics_abroad: "Russian academics, European ideas"
+modifier_russian_academic_expenses: "Extraordinary academic expenses"
+modifier_russian_academic_expenses_big: "Huge extraordinary academic expenses"
+
+age_of_nicholas_i.4.t: "Finance the Kiselyov Schools"
+age_of_nicholas_i.4.d: "Even though Zar Nicholas I  would rather abolish serfdom, he is concious that, against the aristocratic elements of Russia, it’s simply not a realist proposal. Kiselyov, on the other hand, is a man of peculiar ideas: if we can’t free this generation, let us give wings to their children, so that they may free themselves in the future. \n  These ideas are divisive, specially amongst the Church, who deeply believe that the peasantry shouldn’t be educated, but also from the aristocracy, that see in social mobility the engine for the abolition of serfdom. \n From the Imperial administration, financing primary schools it’s feasible without agitating the reactionary nest. Waiting for the correct opportunity, however (Labor Movement), could mean we get to introduce key legislation while implementing the schoools."
+age_of_nicholas_i.4.f: ""
+age_of_nicholas_i.4.a: "Make token efforts to the Kiselyov Schools"
+age_of_nicholas_i.4.b: "Let's give Kiselyov extra funding for the schools."
+age_of_nicholas_i.4.c: "Institute a radical programme of schooling"
+
+modifier_kiselyov_schools: "Kiselyov Schools"
+modifier_kiselyov_schools_expanded: "Expanded Kiselyov Schools"
+modifier_kiselyov_schools_radical: "Radical Kiselyov Schools"
+
+law_french_tenancy: "Coparcenary Tenancy"
+law_french_tenancy_desc: "Agrarian model where the land is equally divided amongst all sons."
+
+pm_french_tenancy: "Coparcenary Tenants"
+
+institute_plan_haussmann: "Institute Plan Haussmann"
+institute_plan_haussmann_desc: "Paris is a bloated corpse, unable to sustain itself. If we want for Paris to be the Capital of Europe, we need profound reforms on its urban planning."
+new_paris: "New Paris"
+rebuilding_paris: "Rebuilding Paris"
+
+
+company_east_indies_trading_company: "East Indies Trading Company"
+Etiope: "Etíope"
+dp_unify_iberia: "Unificar Iberia"
+dp_leadership_Iberia: "Jugada de Liderazgo por Iberia"
+dp_unify_platinean: "Unificar La Plata"
+dp_leadership_platinean: "Jugada de Liderazgo por La Plata"
+dp_unify_yuan: "Unificar Yuan"
+dp_leadership_yuan: "Jugada de Liderazgo por Yuan"
+Native_Mesoamerican: "Nativo Mesoamericano"
+Baltic: "Báltico"
+FinnoUgric: "Finno-Ugric"
+ideology_french_patriarchal: "Patriarchal-Egalitarian"
+ideology_liberalismo_gaditano_parte_2: "Gaditan Liberalism"
+mobilization_option_early_rail_transport: "Early Rail Transport"
+pm_default_building_modern_sar_i_sang: "Modern Mine"
+pm_default_building_full_mine_sar_i_sang: "Full Mine"
+state_trait_ardennes_forest: "Ardennes Forest"
+state_trait_Altai_Mountains: "Altai Mountains"
+state_trait_amu_daria_delta: "Amu Daria Delta"
+
+pm_oil_trawlers: "Oil Trawlers"
+
+goods_output_coal_mult: "$coal$ Output Multiplier"
+goods_output_coal_mult_desc: "A bonus or penalty for the production of $Coal$."
+
+law_glasnost: "Glasnost"
+
+je_age_of_alexander_ii: "The Age of Alexander II"
+je_age_of_alexander_ii_reason: "Distant from the militaristic of his father, Alexander II wishes to industrialize and modernize Russia without abandoning divine rule. \n\n#b The Agenda of Alexander II:#!\n Achieving his objectives will improve both his current effectiveness as a Tzar as well as his Legacy once he passes the torch of the Russian goverment.\n• [ROOT.GetCountry.GetNameNoFlag] will increase its bonus by leading the production on Industrial Goods, Grain and Liquor, and to a lesser extent with the rest.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_debt_checkbox')] National debt [ROOT.GetCountry.GetNameNoFlag] does not surpass half its credit.\n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_industralists_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has Powerful Industrialists. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_commercialized_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has Commercialized Agriculture. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_conscription_checkbox')] [ROOT.GetCountry.GetNameNoFlag] has Mass Conscription. \n• [SCOPE.GetRootScope.GetCountry.GetCustom('alexander_ii_autocracy_checkbox')] [ROOT.GetCountry.GetNameNoFlag] maintains Autocracy."
+
+modifier_alexander_ii_rule: "The Rule of Alexander II"
+modifier_alexander_ii_legacy: "The Legacy of Alexander II"
+modifier_alexander_ii_disaster: "The Disaster of Alexander II"
+
+
+ideology_zapadniki: "Zapadniki"
+ideology_zapadniki_desc: "This person believes that the Western world is a mirror that reflects the ideal pathway for Russia."
+
+ideology_slavianofily: "Slavianofily"
+ideology_slavianofily_desc: "This person believes in the character singular and timeless of Russia, and is partidary of reforms that strengthen it."

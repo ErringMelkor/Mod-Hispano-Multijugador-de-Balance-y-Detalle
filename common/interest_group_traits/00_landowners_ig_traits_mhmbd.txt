@@ -1,0 +1,68 @@
+﻿ ### Rusia 
+
+REPLACE_OR_CREATE:ig_trait_bad_boyars = {
+	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
+	max_approval = unhappy
+
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.2
+		building_group_bg_agriculture_standard_of_living_add = -0.5
+	}
+}
+
+ig_trait_terrible_boyars = {
+	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
+	max_approval = unhappy
+
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.2
+		building_group_bg_agriculture_standard_of_living_add = -0.5
+		country_authority_mult = -0.1
+	}
+}
+ 
+REPLACE_OR_CREATE:ig_trait_the_velvet_book = { 
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy #Happy
+
+	modifier = {
+		state_tax_capacity_mult = 0.1
+		state_pop_qualifications_mult = -0.1
+	}
+}
+
+#The Table of Ranks
+
+# Farm and Family
+ig_trait_farm_and_family = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+	min_approval = loyal #Loyal
+
+	modifier = {
+		state_birth_rate_mult = 0.05
+	}
+}
+
+
+### Francia
+
+ig_trait_lingua_franca = { 
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy # Happy
+
+	modifier = {
+		country_influence_mult = 0.25
+	}
+}
+
+
+### Genérico
+
+REPLACE_OR_CREATE:ig_trait_noblesse_oblige = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+	min_approval = loyal #Loyal
+
+	modifier = {
+		state_aristocrats_investment_pool_efficiency_mult = 0.15
+	}
+}
