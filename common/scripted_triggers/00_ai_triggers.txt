@@ -161,22 +161,6 @@ has_je_conquest_reason = {
 		}
 
 		AND = {
-			has_journal_entry = je_opium_wars
-			$TARGET$ = {
-				has_variable = opium_wars_target
-			}
-		}
-
-		AND = {
-			has_journal_entry = je_boxer_rebellion
-			$TARGET$ = {
-				any_scope_state = {
-					state_region = { is_homeland = cu:han }
-				}
-			}
-		}
-
-		AND = {
 			has_journal_entry = je_greek_nationalism
 			$TARGET$ = {
 				any_scope_state = {

@@ -14,7 +14,6 @@
 [17:59:14][jomini_effect.cpp:541]: Unknown effect save_revolution_scopes at events/resignation.txt:307
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key resignation.4.a. CEventOptionDesc:139
 [17:59:14][jomini_dynamicdescription.cpp:67]: Unrecognized loc key ruhr_boom.1.a. CEventOptionDesc:139
-[17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_europe, near line: 27" in file: "events/agitators_events/dickens_event.txt" near line: 30
 [17:59:14][jomini_effect.cpp:752]: Inconsistent effect scopes (state vs. country) inevents/agitators_events/japan_agitators_mhmbd.txt:65
 [17:59:14][jomini_effect.cpp:752]: Inconsistent effect scopes (state vs. country) inevents/agitators_events/japan_agitators_mhmbd.txt:78
 [17:59:14][jomini_effect.cpp:752]: Inconsistent effect scopes (state vs. country) inevents/agitators_events/japan_agitators_mhmbd.txt:81
@@ -32,14 +31,7 @@ Unknown trigger type: country_is_in_north_america, near line: 40" in file: "even
 [17:59:14][jomini_eventmanager.cpp:440]: Duplicated event ID 'algeria_events.6' found. New Location: 'events/algeria_events.txt:773', Previous Location: 'events/agitators_events/algeria_events.txt:761'
 [17:59:14][jomini_eventmanager.cpp:440]: Duplicated event ID 'algeria_events.8' found. New Location: 'events/algeria_events.txt:902', Previous Location: 'events/agitators_events/algeria_events.txt:890'
 [17:59:14][jomini_eventmanager.cpp:440]: Duplicated event ID 'algeria_events.9' found. New Location: 'events/algeria_events.txt:1122', Previous Location: 'events/agitators_events/algeria_events.txt:1110'
-[17:59:14][jomini_eventmanager.cpp:440]: Duplicated event ID 'historical_agitators.14' found. New Location: 'events/agitators_events/dickens_event.txt:3', Previous Location: 'events/agitators_events/historic_agitator_events.txt:1275'
-[17:59:14][character_templates_utils.cpp:1565]: Missing localization key for character first name Iesada, reverting to random name
-[17:59:14][character_templates_utils.cpp:1565]: Missing localization key for character first name Iemochi, reverting to random name
-[17:59:14][character_templates_utils.cpp:1565]: Missing localization key for character first name Sanetomi, reverting to random name
-[17:59:14][character_templates_utils.cpp:1584]: Missing localization key for character last name Sanjo, reverting to random name
-[17:59:14][character_templates_utils.cpp:1565]: Missing localization key for character first name Kaoru, reverting to random name
-[17:59:14][character_templates_utils.cpp:1565]: Missing localization key for character first name Saionji, reverting to random name
-[17:59:14][character_templates_utils.cpp:1584]: Missing localization key for character last name Kinmochi, reverting to random name
+
 [17:59:14][gamedatabase.h:378]: Duplicated key chi_sun_yat_sen_character_template will not be created from file: common/character_templates/historical_agitators.txt:1777
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 4
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 6" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 6
@@ -115,6 +107,7 @@ Unknown trigger type: country_is_in_north_america, near line: 40" in file: "even
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 248" in file: "common/decisions/manifest_destiny.txt" near line: 248
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 53" in file: "common/decisions/ottoman_decisions.txt" near line: 53
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 125" in file: "common/decisions/ottoman_decisions.txt" near line: 125
+
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 17" in file: "gfx/map/spline_network/route_graphics/00_ep1_naval_vehicles.txt" near line: 21
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 26" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 31
 [17:59:14][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 60" in file: "gfx/map/spline_network/route_graphics/00_ep1_road_vehicles.txt" near line: 67
@@ -177,33 +170,13 @@ Unknown trigger type: state_is_in_south_america, near line: 163" in file: "commo
 [17:59:15][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_institution_size_change_speed_institution_health_system_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_institution_size_change_speed_institution_health_system_mult, near line: 1565" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1565
 [17:59:15][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_group_building_rubber_plantation_unincorporated_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_group_building_rubber_plantation_unincorporated_throughput_add, near line: 1686" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1686
 [17:59:15][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_group_building_rubber_plantation_unincorporated_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_group_building_rubber_plantation_unincorporated_throughput_add, near line: 1715" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1715
-[17:59:16][country_definition.cpp:231]: Country definition NEN has invalid capital STATE_MASSACHUSETTS
-[17:59:16][country_definition.cpp:198]: Invalid culture Etiope in country_definition ETH
-[17:59:16][country_definition.cpp:198]: Invalid culture Etiope in country_definition SHW
-[17:59:16][country_formation.cpp:65]: Invalid unification play dp_unify_yugoslavia in country_formation
-[17:59:16][country_formation.cpp:74]: Invalid leadership play dp_leadership_yugoslavia in country_formation
+
 
 [17:59:16][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
+
 [17:59:16][journal_entry_type.cpp:452]: Journal entry is missing loc for je_matter_of_alsace
 [17:59:16][journal_entry_type.cpp:457]: Journal entry is missing loc for je_matter_of_alsace_reason!
-[17:59:16][company_type.cpp:40]: Invalid extension building type building_synthetics_plants for company type building_synthetics_plants
-[17:59:16][pdx_persistent_reader.cpp:268]: Error: "Wrong type parsed in create_character effect: hq_region, near line: 1300" in file: "common/history/military_formations/05_military_formations_india.txt" near line: 1310
-[17:59:16][pdx_persistent_reader.cpp:268]: Error: "Wrong type parsed in create_character effect: hq_region, near line: 1323" in file: "common/history/military_formations/05_military_formations_india.txt" near line: 1333
-[17:59:17][jomini_script_system.cpp:247]: Script system error!
-  Error: has_strategy trigger [ Invalid database object 'ai_strategy_unify_china' ]
-  Script location: common/script_values/ai_script_values.txt:204
 
-[17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_strategy' returned false at common/script_values/ai_script_values.txt:204
-[17:59:17][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/scripted_effects/00_victoria_ip4_scripted_effects.txt:557
-
-[17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:557
-[17:59:17][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_war_of_the_confederation' ]
-  Script location: common/decrees/00_decree.txt:900
-
-[17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/decrees/00_decree.txt:900
 [17:59:17][jomini_script_system.cpp:247]: Script system error!
   Error: is_diplomatic_play_type trigger [ Invalid database object 'dp_balkan_war' ]
   Script location: events/balkans_events/balkan_wars_events.txt:872
@@ -304,14 +277,7 @@ Unknown trigger type: state_is_in_south_america, near line: 163" in file: "commo
   Script location: common/diplomatic_catalysts/00_diplomatic_catalysts.txt:1669
 
 [17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_strategy' returned false at common/diplomatic_catalysts/00_diplomatic_catalysts.txt:1669
-[17:59:17][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/scripted_triggers/00_ai_triggers.txt:162
 
-[17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:162
-[17:59:17][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_boxer_rebellion' ]
-  Script location: common/scripted_triggers/00_ai_triggers.txt:168
 
 [17:59:17][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:168
 [17:59:17][jomini_script_system.cpp:247]: Script system error!
