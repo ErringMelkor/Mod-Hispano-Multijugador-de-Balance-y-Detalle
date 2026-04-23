@@ -1,0 +1,26 @@
+Eventos:
+    Otomanos:
+    · "Tercüme Odasi" - "Translation Bureau". Cuerpo otomano establecido en los 1830s, eventualmente dedicado a estudiar las lenguas europeas y traer el conocimiento moderno.
+    · Relegar "tax-farming". Hay un evento semejante durante la Tanzimat, pero quizá pueda valorarse crear uno nuevo o modificar el ya existente. Elementos: Tax-waste, Taxing Capacity, Lealistas.
+    · "Gülhane Hatt-ı Şerifi" - "Rose Garden Decree" - "Edicto Imperial de Reorganización". Salta con el ascenso de Abdülmecid I  al trono. Elimina diferencias religiosas para los varones, todos los varones se presumen iguales ante la ley. Promesa de abolir tax-farming (?) [Es un esfuerzo de muchos compromisos con las élites locales por parte de los otomanos en los 30s-50s] Elementos: Ammendment por evento con cambio de ley?.
+    · "Hatt-i Humayun". Decreto de 1856, refuerza el "Gülhane Hatt-ı Şerifi", igualdad ante la ley, acceso a instituciones públicas y universalidad de la conscripción. Elementos: Ammendment por evento con cambio de ley?. Aceptación en la ley de burocracia (?)
+    · Mujeres accediendo a esferas de la educación universitaria a través de esfuerzos privados (ie., sus familias pagándoles el acceso a universidades públicas). Elementos: Ammendment por evento con cambio de ley?. Más gasto en la educación, algo más de WR?. Algo más de educación y cualificaciones.
+    # Anotación ad-hoc, musulmanes podrían empezar con mujeres propietarias o un ammendment? El Islam otorga bastantes protecciones a las propiedades de las mujeres al mismo tiempo que supone una barrera adicional comparado a la esfera cristiana.
+    · "Split-up Modernization". Evento de fractura ideológica en la Intelligentsia, hacia los 1860s. Requiere completar la Tanzimat y alguna tech o semejante. Da a elegir entre variantes de Otomanismo.
+    · Oficio del Gran Visir.
+    · "Kaime", un papel moneda puesto en circulación en 1840 para solventar problemas financieros. Elementos: Ventaja económica a cambio de mayor tasa de interés, quizá menos salario de los dependientes.
+    · "Frenkmesreb" - "Europeístas". Evento en relación con "Split-up Modernization".
+    · "Kalemiye" vs "Mülkiye" - "Servicio Escribano" vs "Oficiales Civiles". Proceso transformador de la burocracia otomana hacia una profesionalización, estandarización y estatismo burocrático. En los 1800s, emplean a unos 1000-2000 escribas (burocráticos in-game), frente a 100.000 a finales de siglo.
+
+    Brasil:
+    · Inversiones del senador Vergueiro en el café, usando colonos libres.
+
+
+Decisiones:
+
+Personajes:
+
+    Perú-Bolivia:
+    · Ramón Castilla y Marquesado (1797-1867). Militar y político peruano, pro-unión con Bolivia (a condición de hegemonía peruana sobre Bolivia). 
+    · José Ballivián Segurola (1805-1852). Militar y político boliviano.
+    
