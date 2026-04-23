@@ -897,6 +897,7 @@ decree_enlistment_efforts = {
 					OR = {
 						has_strategy = ai_strategy_unify_germany
 						has_strategy = ai_strategy_unify_italy
+						is_involved_in_journal_entry = je_peru_bolivia
 					}
 				}
 			}

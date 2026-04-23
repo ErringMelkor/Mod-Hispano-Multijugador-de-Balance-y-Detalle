@@ -1,6 +1,6 @@
 ﻿namespace = historical_agitators
 
-REPLACE_OR_CREATE:historical_agitators.14 = { #Dickens
+historical_agitators.14 = { #Dickens
 	type = country_event
 	placement = root
 
@@ -24,7 +24,7 @@ REPLACE_OR_CREATE:historical_agitators.14 = { #Dickens
 		has_dlc_feature = voice_of_the_people_content
 		empty_agitator_slots >= 1
 		country_has_primary_culture = cu:british
-		is_in_geographic_region = geographic_region_europe
+		country_is_in_europe = yes
 		game_date > 1848.1.1
 		game_date < 1870.1.1
 		NOT = { has_global_variable = dickens_spawn }
