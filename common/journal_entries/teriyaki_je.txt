@@ -1,4 +1,4 @@
-﻿je_terakoya = {
+﻿REPLACE_OR_CREATE:je_terakoya = {
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	group = je_group_historical_content

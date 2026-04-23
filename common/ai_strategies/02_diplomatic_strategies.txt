@@ -3002,16 +3002,6 @@ ai_strategy_prussia_of_the_balkans = {
 
 	obligation_value = {
 		value = 0
-
-		if = {
-			limit = {
-				has_variable = bul_pursued_greater_yugoslavism
-				scope:target_country = {
-					can_form_nation = YUG
-				}
-			}
-			add = 25
-		}
 	}
 
 	recklessness = {
@@ -3042,13 +3032,6 @@ ai_strategy_prussia_of_the_balkans = {
 			add = -2.0
 
 			if = {
-				limit = {
-					scope:target_country = {
-						is_unification_candidate = YUG
-					}
-				}
-				add = 0.25
-
 				if = {
 					limit = {
 						has_technology_researched = enlistment_offices
@@ -3061,7 +3044,6 @@ ai_strategy_prussia_of_the_balkans = {
 					scope:target_country = {
 						OR = {
 							country_has_primary_culture = cu:bulgarian
-							NOT = { is_unification_candidate = YUG }
 						}
 					}
 				}
@@ -3165,9 +3147,7 @@ ai_strategy_prussia_of_the_balkans = {
 				has_variable = bul_pursued_greater_yugoslavism
 				scope:target_country = {
 					country_has_primary_culture = cu:bulgarian
-					NOT = { is_unification_candidate = YUG }
 					OR = {
-						is_supporting_unification_candidate = { who = root country_formation = YUG }
 						is_subject_of = root
 						is_in_customs_union_with = root
 					}
@@ -3182,51 +3162,9 @@ ai_strategy_prussia_of_the_balkans = {
 				has_variable = bul_pursued_greater_yugoslavism
 				scope:target_country = {
 					country_has_primary_culture = cu:bulgarian
-					NOT = { is_unification_candidate = YUG }
 					NOR = {
-						is_supporting_unification_candidate = { who = root country_formation = YUG }
 						is_subject_of = root
 						is_in_customs_union_with = root
-					}
-				}
-			}
-			score = {
-				add = 1000
-			}
-		}
-		conquer = {
-			trigger = {
-				OR = {
-					AND = {
-						has_variable = bul_pursued_greater_yugoslavism
-						OR = {
-				scope:target_country = {
-					is_unification_candidate = YUG
-				}
-							AND = {
-								NOT = {
-									can_form_nation = YUG
-			}
-								any_scope_state = {
-									state_region = {
-										OR = {
-											is_homeland = cu:slovene
-											is_homeland = cu:croat
-											is_homeland = cu:serb
-											is_homeland = cu:bosniak
-										}
-									}
-								}
-							}
-						}
-					}
-					AND = {
-						has_variable = bul_pursued_bulgarian_empire
-						scope:target_country = {
-							any_scope_state = {
-								is_homeland_of_country_cultures = root
-							}
-						}
 					}
 				}
 			}

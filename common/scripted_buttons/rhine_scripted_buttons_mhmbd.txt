@@ -1,4 +1,4 @@
-REPLACE_OR_CREATE:je_confederation_of_the_rhine_confederate_button = {
+﻿REPLACE_OR_CREATE:je_confederation_of_the_rhine_confederate_button = {
 	name = "je_confederation_of_the_rhine_confederate_button"
 	desc = "je_confederation_of_the_rhine_confederate_button_desc"
 
@@ -55,7 +55,7 @@ REPLACE_OR_CREATE:je_confederation_of_the_rhine_confederate_button = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 
 	effect = {
@@ -132,7 +132,7 @@ REPLACE_OR_CREATE:je_confederation_of_the_rhine_expand_button = {
 	}
 
 	ai_chance = {
-		base = 0
+		value = 0
 	}
 
 	effect = {

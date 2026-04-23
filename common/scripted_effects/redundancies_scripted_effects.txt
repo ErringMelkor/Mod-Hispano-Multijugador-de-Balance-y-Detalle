@@ -1,0 +1,24 @@
+
+REPLACE_OR_CREATE:india_bengal_stability_decrease_10 = {
+}
+
+REPLACE_OR_CREATE:india_bombay_stability_decrease_10 = {
+}
+
+REPLACE_OR_CREATE:india_madras_stability_decrease_10 = {
+}
+
+REPLACE_OR_CREATE:india_bengal_stability_increase_10 = {
+}
+
+REPLACE_OR_CREATE:india_bombay_stability_increase_10 = {
+}
+
+REPLACE_OR_CREATE:india_madras_stability_increase_10 = {
+}
+
+REPLACE_OR_CREATE:india_stability_increase_10 = {
+}
+
+REPLACE_OR_CREATE:india_stability_decrease_10 = {
+}
