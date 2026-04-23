@@ -1,0 +1,415 @@
+Versión 1.10.3/2 del Mod # Deberíamos establecer una nomenclatura (ex: seguir el patrón del parche de PDX y luego decir cual es la nuestra).
+
+Ideologías:
+	Francia:
+		* Ideología de paternalismo francés: prefieren mujeres propietarias.
+
+Rasgos de Grupo de Interés:
+	Francia:
+		* Lingua Franca.
+	Rusia:
+		* "The Velvet Book": Sustituido el bono por un +10%/+20% a la capacidad fiscal.
+	Japón:
+		* Mobilización Espiritual:
+
+	Techs:
+		Agricultura tier 2 para Bálticos y Austria.
+
+Personajes:
+	Rusia:
+		* Piotr Chaadáyev (1794-1851) - Zapadnik, "Occidentalista". Las Cartas Filosóficas.
+		* Pushkin (1799-1837) - Primer gran autor literario ruso. Evento de duelo.
+		* Mikhail Lermontov (1814-1841) - Oficial y poeta; {reformista de los militares?}. Muere en un duelo al igual que Pushkin.
+		* Vissarion Grigoryevich Belinsky (1811-1846) - Literario; entre radical, modernizador y utilitario.
+		* Sergei Uvarov (1786-1855) - Ministro de educación bajo Nicolás I. Acuña la frase "Ortodoxia, Autocracia, Nacionalidad".
+			El orden de la frase denota la importancia.
+			Nacionalidad -> "Narodnost"
+			Sustitución del Francés por el Ruso en la burocracia (malus temporal por el reajuste linguistico?)
+		* Nicolás I: Claro ejemplo de Subjecthood como concepto opuesto al de identidad nacional.
+		* Figuras burocráticas destacables: Serge Witte; Petr Stolypin; Petr Durnovo; Alexander Krivoshein.
+		* Liberales/reformistas rusos: Mikhail Urusov; Alexander Muravev; Aleksei Odintsov. Governadores de Nizhnii Novgorod.
+		* E. F. Kankrin: Ministro de Finanzas en 1839. Propone abolir el sistema de "posessionnye".
+		* Nikolai Karl Paul von Bunge / Nikolai Khristianovich Bunge (1823-1895) - Modernizador fiscal ruso; ministro de finanzas en 1881-86. Limitó el trabajo infantil. Alemán del Báltico. PB o Intelligentsia.
+			Los trabajadores deberían recibir una parte de los dividendos de la empresa. # curioso
+		* Nikolai Pirogov -> Doctor reputado, anti-servidumbre, reformista de la educación. Intelligentsia.
+		* Aleksei D. Pazukhin -> aristócratra reaccionario.
+		* Konstantin Ushinskii -> participa en la reforma educativa del ejército en los 60s.
+		* Maria Vasilievna Trubnikova; Nadezhda Vasilievna Stasova; Anna Filosofova. Activistas y reformistas feministas de la época de Alejandro II.
+		* Gogol.
+		* Nikolay Gavrilovich Chernyshevsky; Alexander Mikhailov. Revolucionarios de Narodnaya Volya. 
+		* Alexander Ivanovich Herzen. Populista agrario de la intelligentsia. / De la mano con Konstantin Kavelin y Timofey Granovsky.
+		
+
+
+		
+Términos:
+	Rusia:
+		"raznodichnets"
+		"Narodnost" -> "nacionalidad", en un sentido vago y nebuloso.
+		"inorodtsy" -> "foráneos"; súbditos asiáticos del Imperio. Definido por primera vez en 1822 (Reformas Siberianas de Mikhail Speranskii) para finales de siglo denota a los no-rusos y no-ortodoxos.
+		"soslovie" -> grupo aristocrático hereditario vagamente definido por sus privilegios e instituciones (?).
+		"zemstva / zemstvo" -> asambleas locales de la pequeña nobleza.
+		"chiny" -> rango codificado con privilegios, derechos y obligaciones.
+		"sosloviia / sostoianiia" -> categorias sociales aglomeradas (?). Comparable a los "Estamentos" del Ancien Regime.
+		"raznochintsy" -> lit. "gente de diversos rangos y/u orígenes". Muy maleable, una pseudo-clase, un hiperónimo. Comprendido por sirvientes civiles de bajo rango, soldados, hijos de nobles que no han heredado el estatus nobiliario y profesiones liberales.
+		"narodnik / narodniki" -> revolucionarios agrarios, anteriores al socialismo científico en Rusia. Se pueden abreviar como agrarios utópicos. Rama radical, minoritaria, que entremezcla Intelligentsia partidaria de los Rurales.
+		"stanitsa" -> Villa autónoma cosaca.
+		"posessionnye" -> Labor de corvea en fábricas.
+		"neravnomernost" -> Desigualdad (fiscal).
+		"krugovaia poruka or krugovoe ruchatel’stvo" -> Responsabilidad Colectiva (fiscal). Los propios campesinos, en comunas, estaban encargados / se esperaba de ellos que presentaran los impuestos debidos al Estado.
+		"opolchenie" -> milicias territoriales (1874-1917 aprox). National Guard especial para rusia?
+		"Sosloviia, pl.; soslovie sing." -> Estamentos rusos. Es el tejido sociocultural; muy difícil de atar a una sola ley del vicky. 
+			Las Grandes reformas al "Ancièn Regime" ruso no buscaban deshacerse de él, sino dejar paso a un Estado absoluto y burocratizado que reforzara la perpetuidad del sistema.
+			Sosloviia hereditarios: campesinos estatales; campesinos de la corona; siervos; campesinos bajo el Colegio Económico; pequeños granjeros propietarios; campesinos estatales asignados a labor en las fábricas; siervos posesionarios; campesinos tributarios (iasachnye).
+			Sosloviia no hereditarios, como artesanos gremiales, que podían perder su soslovie si caían en la pobreza.
+			Sosloviia de profesión o etnicidad: soldados; cosacos; judíos; musulmanes.
+		"raznochintsy" -> como gente "fuera" de los sosloviia.
+		"Meshchantsvo" -> "residente urbano", entendido como de baja categoría; ni artesano ni mercader.
+		"meshchane" -> ídem.
+		"obshchestvo" -> estructuras corporativas sociales de nobles y residentes de ciudadades (?). ¿Pseudo-gremios?
+			"ciudadanos" (?)
+		"Tabla de Rangos" -> usado de manera efectiva como un motor de mobilidad social.
+		"vsesoslovnyi" -> "all-state", en el sentido de que abarca todos los estamentos; absolutismo ruso. Modismo para las Grandes Reformas.
+		"Rabochii klass" -> "clase trabajadora"; aparece en el periodo post-reforma. Clase maleable y sin definición legal dentro de los Sosloviia. El proletariado ruso.
+		"muzhik" -> Campesino, rural.
+		"volost'" -> aldea.
+		"glasnost" -> "discurso interno"; entendido como "autocrítica", o periodo donde se permite discutir cambios dentro del régimen, delimitado por el monarca. [Ley de libertadad de prensa para Rusia? +1/2 hueco(s) de agitador]
+		"Gymnazii" -> escuelas preparatorias que ofrecen educación civil básica. [Muy correlacionado, aunque no sé si estrictamente vinculado, con la educación militar profesional]
+		"Voennye uchilischna" -> Academias militares, 4 años de estudio y entrenamiento.
+		"narod" -> "el pueblo"; la masa popular.
+		"Narodnik / Narodniki " -> "populista"; movimiento heterogéneo de socialistas utópicos / agrarios pre-marxistas.
+		"Narodnaya Volya" -> "La voluntad del Pueblo / la Gente " organización política secreta de ideologia narodnaya / agraria socialista. Más famoso acto es el asesinato de Alejandro II.
+		"Zemal i Volya" -> "Tierra y Libertad"; precursora de Narodnaya Volya.
+		"obshchina" -> "comunidad campesina" (?)
+		"západnichestvo" -> "Occidentalismo".
+		"západniki" -> "occidentalistas". 
+
+Reworks:
+	* Si Rusia pierde en la Entrada de Diario de la Guerra Ruso-Otomano, debería haber una oleada de modernización hacia el país. Ex: el líder de los militares cambia su ideología a modernizador; "lecciones de la derrota X".
+	 Enfatizar en "history/pops" la nobleza no rusa de la periferia imperial (el báltico, polonia, finlandia, etc.)
+
+Comentarios generales:
+	1863 como inicio de identidad rusia moderna (?). Respuesta a la revuelta polaca de 1863.
+	Aumentar la resistencia polaca; resistencia a incorporarse como estado.
+	Cambio drástico de Subjecthood hacia National Supremacy; excepción más importante los bálticos germanos, élite bien integrada en la sociedad rusa.
+	Papel muy importante de la Iglesia Ortodoxa en el gobierno y administración.
+	Tabla de Rangos de 1722; muy parecida a la nobleza de toga francesa: el estatus de noble se adquiría por llegar a determinados rangos dentro del aparato estatal.
+	Tan solo 15000 "aristócratas" en torno al 1700; para 1897, en torno a 1 millón.
+	Los alemanes tienen un papel destacado en el servicio militar.
+	Top 1% de los dueños de siervos poseían el 35% de los siervos.
+	Hierro de los Urales: Rusia es el mayor productor de hierro mundial desde 1775 aprox. Todo esto está en manos de familias aristocráticas, de inclinación industrial.
+	La alta aristocracia tiene una esfera cultural cosmopolita y francófila.
+	Importancia de la élite cosaca en la frontera estepario de Ucrania y Kazajistán.
+	Agricultura próspera en el Protectorado Báltico.
+	Bajo Nicolás I (r. 1825-1855) la administración provincial estaba en manos de oficiales de carrera militar.
+	Las Fuerzas Policiales están entrelazadas entre el servicio militar, el mantenimiento del orden y como policía política / secreta.
+	Nicolás II, populista que idealizaba un campesinado sumiso (?). Altamente impopular con, esencialmente, todo el mundo.
+	Cuatro instituciones de élite a nivel europeo: "Alexander Lycée; School of Law; Universidades de San Petersburgo y Moscú."
+	Movimiento constitucionalista por parte de la Intelligentsia? Duma conservadora; voto por propiedades.
+	Entre 1860 y 1900 aristocracia transiciona de vivir de las rentas de sus propiedades, de las que venden en torno al 40%, hacia vivir de acciones y bonos.
+	En general, la élite aristocrática transiciona muy bien para la media europea hacia un modelo capitalista.
+	El radicalismo entre la "Rural Folk" es un punto clave, al menos a partir de 1870-ish.
+	Modelo social muy rígido para la libertad de empresa. Desde luego parece razonable una versión aún más conservadora de la ley de gremios. 
+	Quizá incorporar el "raznochintsy" como variante, entendido como una cuasi-casta de gente que debe operar en la alegalidad de sus profesiones, sean artesanales, comerciantes o de "profesiones liberales".
+	Los soldados tenían salarios promedio altos y numerosos beneficios como pensiones, y el servicio militar era un camino hacia la educación y el permiso para dedicarse a labores artesanales.
+	Si juntamos esta pseudoclase con la codificación social y la Tabla de Rangos, tenemos muchos elementos que impiden una movilidad social ágil; en mecánicas, esto anularía cualificaciones.
+	Para finales del siglo XIX, los "raznochintsy" como identidad social transicionan a una "nueva generación", una Intelligentsia o PB más liberal.
+	Introducir eventos de los Narodnik sería MUY interesante.
+	Ideologias únicas rusas que cambien según desbloqueas techs? Como pasa de Pío -> Corporativista.
+	Los zemstvo pueden ser modificadores provinciales en las provincias de mayoría cultural rusa, que tengas que revocar como parte de la Gran Reforma o mediante decisión, o tolerar su existencia. Mayor poder a la aristocracia.
+	El zemstvo también actua como modelo asambleario local hasta las reformas de 1906.
+	"Digest of Laws" de 1832; primer nuevo código legal. Categoriza a las gentes en dos grupos: aquellos que pagan un impuesto de "poll tax", o "per cápita".
+		Esta categoría de "pagador de impuestos" era menospreciada socialmente hasta las reformas de 1874-1887.
+	
+
+	Reformas: autogobierno local (zemstvo); administración urbana; tasación; conscripción universal. Objetivo de *reforzar* y no *abolir* el régimen.
+		Contrarreforma en 1890 para asegurarlo bajo la "gentry" nobiliaria.
+
+	Oposición hacia la Sosloviia a partir de la revolución de 1905.
+	Witte, partidario de profunda reforma de la Sosloviia. 
+	Stolypin, continua su reforma, circunnavegando la Sosloviia en favor de una reforma agraria hacia una agricultura privada y comercializada.
+	1906, reforma de la ciudadanía rusa hacia un modelo universal.
+	1906, motto conservador: "Ortodoxia, Autocracia, Nacionalidad, Soslovnost".
+
+	Mercaderes demoteando a "townsperson" si caen en la pobreza.
+
+	
+	
+
+	
+	Los zemstvo son un gobierno local *paralelo* al gobierno. 
+	Con las reformas de Alejandro II se junta con el modelo social de los "raznochintsy" como importante motor de mobilidad social.
+	Esto es un vector para la PB e Intelligentsia.
+
+	Las Reformas de Alejandro II sustituyen este sistema local (hereditary -> appointed); quizá gremios -> alegalidad. Jurisdicciones vagas y, en general, un modelo ineficiente.
+	Duma como Ley de voto particular a rusia?
+	Si lo entiendo bien, la monarquía rusa pasa a adoptar el concepto del Zemstvo, las asambleas nobiliarias locales, pero transformándolas bajo este aparato de nobleza de toga.
+	La nueva combinación de zemstvo provincial con duma municipal establece el precedente democrático-electivo dentro de la Rusia gubernamental de 1855 en adelante.
+	"Literacy rates for Russia’s population remained very low: in 1834, only 1 of 208 Russians could read and write; in 1856, 1 of 143"
+
+	En 1839 seguían con deuda de las Guerras Napoleónicas.
+	Lenta reforma fiscal de 1839 hasta 1848, introduciendo un nuevo sistema de papel dinero y reformando el fisco y toma de deuda.
+	Sergei Witte, 1898: "The French state budget is 1,260 million rubles for a population of 38 million;
+						the Austrian budget is 1,100 million rubles for a population of 43 million. If our
+						taxpayers were as prosperous as the French, our budget would be 4,200 million
+						rubles instead of its current 1,400 million, and if we matched the Austrians,
+						our budget would be 3,300 million rubles. Why can we not achieve this? The
+						main reason is the poor condition of our peasantry."
+
+	#Leer p. 344, capitulo de "Reforma"; régimen constitucional de Alejandro II.
+
+	#Continuar mañana capítulo 18.
+
+	Campesinado:
+		El campesinado "compraba la tierra" como compromiso para abolir la servidumbre.
+		Reformas militares de 1874; conscripción extendida.
+		Representativos electos en las zemstva; "elected bureaucrats" (?).
+		"The total population of the expanding empire, 80–90 per cent of whom were peasants, increased from around 11 million in 1678 to almost 172 million in 1917"
+		"Between 1857 and 1917, the number of peasants inside the mid-seventeenth-century borders of Russia increased three times."
+		Ley agricultural de 1803 que permite la liberación de aldeas de la servidumbre bajo la categoría de "agricultores libres".
+		Emancipación de los siervos en el protectorado báltico ya desde 1810s.
+		Los campesinos rusos en condición de siervos gozaban de blindaje legal, más teórico que práctico, que les otorgaba un sustento en la red socioeconómica de su ambiente.
+		Por ejemplo, estaba prohibido manumitir a siervos para no pagar impuestos por ellos, o si tenían enfermedad o avanzada edad y no podían trabajar.
+		Así mismo, debían cuidar de ellos. Carácter claramente paternalista.	
+		Libertad de la servidumbre con la Emancipación de los Siervos no significaba libertad individual, si no una inscripción en los Estamentos de la sociedad rusa.
+
+
+	
+		
+	Impuestos generales a las comunidades campesinas, más que una oficina de recolección central.
+	La reforma del fisco hacia un "per-cápita" es un proceso largo que lleva desde 1860 a 1890.
+	Capacidad de obtener impuestos muy limitada en Siberia (?). Facilitaría la migración por el nivel de vida como subproducto.
+	Enfoque en la "excise taxation"; impuestos sobre consumos específicos y monopolizados por el estado (id est, vodka, pero también tabaco, azúcar y sal).
+	En 1859, el "tax farming" estaba dominado por 149 familias; a través de las cuales pasaban la mitad de los ingresos del Estado ruso.
+
+
+	Trigger de que hagan cambio de régimen a república durante el reinado de Nicolás I.
+	Reducir el activismo político con Nicolás I para evitar el cheeseo de abdicar.
+
+	Zemstvos: instituciones de gobierno local, 1864.
+		Peso del voto según la riqueza o estatus.
+	Reforma militar: 1874; conscripción en masa.
+	"Autocracia Racional" -> régimen zarista centralizado vs la autoridad de la nobleza poseedora de siervos / regiones autónomas / gentes autónomas.
+	El proceso de "land redeeming" / compra de las tierras en la emancipación de los siervos comienza de manera efectiva tan pronto como 1886. 
+		El pago es, funcionalmente, permanente. Como punto óptimo 1950, bien fuera del marco temporal del juego.
+	La tierra campesina (id est subsistencia) era propiedad comunal ["States of Obligation" no me da contexto si es durante o tras la servidumbre, o durante todo el plazo cronológico del Zarato].
+	Hasta la década de 1880, solo los campesinos eran elegibles para el "poll tax".
+		Aristocracia, Clero, cosacos y minorías culturales o religiosas estaban exentas.
+	Sistema fiscal separado para el urbano y el rural (?).
+	Relativa libertad de prensa bajo Alejandro II.
+	Decisión de integrar a los bálticos en la rama financiera del gobierno (?). Nuevo IG trait para la PB?
+	Este cuerpo reformador es más bien "Enlightened Bureaucrats" que "liberales".
+	En 1855 todavía estaban usando "Land Taxation" en términos del juego. Ojalá tener una condición de que no se puede tasar profesiones.
+
+	En 1859 un censo fiscal (no demográfico) identifica unas 53-54m de personas tasables. Para 1859 la aristocracia todavía se opone a ser tasada.
+		325k varones nobles hereditarios (no necesariamente poseedores de tierra) estaban exentos de cualquier impuesto.
+		3m de varones en total estaban exentos. Destacan: exiliados en siberia; soldados retirados; marineros; Bashkires; Tátaros; 
+		Los "Meshcheriaki" [tátaros de Mishar según entiendo]; 250k mercaderes; 500k musulmanes y judíos; 300k miembors del clero; 500k cosacos; universitarios.
+		En total, en torno al 10% de la población rusa (varones + familias) no era tasable con "poll tax"; si pagaban impuestos lo hacían de manera indirecta e informal.
+		La elaboración de este censo fiscal se enfrentó a una altísima resistencia campesina; dependía de muchas suposiciones; carecía de herramientas para medir el cadastro de manera regularizada.
+		La Comisión Fiscal de la "Gran Reforma" nunca consigue averiguar los problemas fiscales a los que se enfrentan.
+
+	Para 1860-70, la reforma fiscal asume que es imposible tasar verazmente el rural y la periferia imperial. La reforma fiscal, pues, se centra en las áreas urbanas del Imperio.
+		Circunnavegan el blindaje fiscal de la nobleza pasando a tasar las propiedades en vez de la persona en sí misma.
+
+	1880s: politica proteccionista de la economía y el fisco, monopolios estatales.
+
+
+-----
+
+instituir la ley falloux para francia; mete escuelas religiosas y da nuevo rasgo a la iglesia.
+derogar la ley falloux; condiciones: ser república, la iglesia no está en el gobierno; no es poderosa. No tener religión de estado. Retira la iglesia y le mete -% al poder porcentual durante 10 años.
+
+
+-35% a desembarco.
+españa con colonización? más por balanceo.
+nerf compañías gbr?
+Reajuste de nivel de experiencia.
+"résèrve légale": Ley de tierras francesa.
+
+
+Sistemas:
+	Ciudadanía (Sosloviia)
+	Votos (Duma)
+	Gobierno Local (Zemstvo)
+	Guardia Nacional 
+	Servidumbre 
+	Escuelas militares (gimnasios)
+
+
+
+	
+----
+
+Emancipación de 1861.
+Establecimiento del zemstvo en 1864.
+Reforma de las cortes judiciales en 1864.
+Reforma del gobierno urbano en 1870.
+Alejandro II, sobre la emancipación: "It is much better that this comes from above than from below."
+"Petrashevsky Circle"
+
+En 1856, Miliutin propone en un memorando la emancipación de los siervos en Karlovka, en Poltava; [siervos de la corona?] Pertenecían a la Gran Duquesa Elena Pavlovna. 
+	Rechazado por Alejandro II. Primer experimento o antesala a la reforma por parte  de Miliutin.
+
+Prorreformistas: Alexander Koshelev(eslavófilo); Yuri Fyodorovich Samarin (eslavófilo / "etnonacionalista"); Yakov Rostovtsev (militar pro-emancipación); Alexei Strolman (ingeniero de minería; industrialistas).
+Alejandro II se posiciona frente al Comité de la Emancipación e impone por decreto.
+La Comisión Editorial de 1859-1860, clave en las reformas, con Rostovtsev presidiéndola como requisito de Alejandro II. 
+	Formada por una mayoría liberal, frente a la conservadora del anterior Comité de la Emancipación.
+	Integrada por Yuri Samarin; Piotr Petróvich Semiónov-Tian-Shanski; Nikolai Khristianovich Bunge; Prince Cherkasskii; Nikolay Alexeyevich Milyutin.
+	Irregular  y sin precedente. Disuelta por esto mismo en octubre de 1860.
+	Base para los Estatutos de 1861.
+	El objetivo de la comisión era la eliminación de los siervos y su conversión en pequeños propietarios agricultores.
+	Las pertenencias y agricultura señorial seguían formando parte del sistema, no así sus derechos teóricos sobre el campesinado.
+	Ejemplos de Francia y Prusia en sus procesos transformativos históricos con la servidumbre.
+	A largo plazo, buscaba evitar [el caos social, no tengo manera exacta de describirlo; evitar la inestabilidad, ejemplificada en los pensadores utópicos europeos de la época].
+
+[Leer sobre Pavel Kiselyov. Importante reformista y precursor, ministro de Nicolás I]
+	
+La oposición a propuesta de la Comisión no consiguió cancelar la Emancipación; Dolgorukov, uno de los principales opositores, se había rendido para 1860.
+	Sin embargo, lograron introducir significativo coste para el campesino en la redención.
+	La alteración de los derechos manoriales da paso a una reforma del sistema administrativo y judicial a nivel local, el Zemstvo.
+
+Los Códigos Judiciales de 1864 (el Zemstvo) son la más radical de las propuestas que lograron pasarse.
+	Autogobierno, jueces electos y con tenencia. Jurado de los Soslovie; de facto mayoría campesina.
+	Dan pie a una autorregulación burguesa que hace frente a los peores excesos de la nobleza y la autocracia.
+
+Otras reformas [no tema focal de la monografía]: censura, ejército, finanzas, educación.
+
+El Comité Secreto se transforma en el Comité Principal, "abierto".
+Alejandro II crea el "Comité de Ministros", nombrados a dedo y reunidos solo cuando él lo requiere.
+	Este comité se reúne en total privacidad y supervisa que el plan de la Comisión Editorial se lleve a cabo de manera superficial.
+	Autodisolución en 1881, tras enterrar la "Constitución" de Loris-Melikov.
+Autócrata indoblegable hasta marzo de 1881, cuando acepta una reunión para el borrador del Proyecto de Constitución de Boris-Melikov.
+Su asesinato el mismo día de la reunión pone el fin a esta época de reformas.
+
+Duma: Landed / Wealth Voting (de manera efectiva).
+
+A su muerte, manifiesto de la "irremplazabilidad de la autocracia", seguido del "Estatuto por la Seguridad y Tranquilidad" del 14 de agosto de 1881.
+	Prohibía la disidencia de manera estricta, y se mantendría vigente hasta la Revolución de Febrero. De manera efectiva la primera "constitución" rusa.
+
+Fatiga desde la monarquía hacia el Glasnost y la reforma, incluso desde el propio Alejandro II.
+
+La reforma campesina de 1861, la "Empancipación de los Siervos" no resolvería la cuestión de la tierra.
+
+El estado es el gran ganador de la reforma agraria, capaz de incrementar su control económico y social por la reforma. 
+	Ex: al forzar la emancipación, los campesinos pasan a participar forzosamente dentro de la economía monetaria.
+
+Konstantin Romanov: caida en desgracia con la rebelión en Polonia en 1861.
+
+Shuvalov: aristócrata conservador;  [útil como agitador].
+
+Facción Shuvalov: Reaccionaria, dirigida por el aristócrata Shuvalov. Poderosa entre 1866-1874.
+
+Nikolai: Levas Campesinas -> Ejército Profesional; Alejandro II: Ejército Profesional -> Conscripción en Masa.
+
+Cossack Stanitsa: Privilegio autónomo cosaco; owned farmland, no taxation, conscription, training rate; migration attraction.
+	Regiones: Don; Bug; Kuban; Terek; Astrakhan / Lower Volga; Ural (river) / Yaik; Orenburg; Semireche; Baikal; Amur; Ussuri (Primorye).
+
+Pomorye
+
+Yasak: Tartars; Chuvash; Komis; Mordvians.
+
+Regiones de "siervos" estatales: urales y ucrania; yasak del Medio Volga y los Urales.
+	Los siervos estatales gozan de mayor libertad y protecciones; esencialmente campesinos libres bajo otro nombre.
+
+Decisión: Revocar la soslovie.
+
+["Legado de las Guerras Napoleónicas" - Bono temporal al ejército? ]
+[Severo atraso en tecnología militar naval]
+[Carencia de screw frigates y equivalente hasta mediados y finales de 1850]
+[Rebelión en polonia debería desacreditar a Konstantin]
+
+
+Los zemstvos de Alejandro II no podían publicar sus documentos; la colaboración para el desarrollo interprovincial estaba prohibida.
+
+Bad boyars: evasion fiscal.
+
+40% poblacion rural, siervos privados; 40% poblacion rural, siervos estatales. [y el otro 20%?]
+
+
+Rebeliones campesinas frecuentes: 400 entre 1830-1849; 137 en 1849-55.
+	Reformas de Kiselyov. Abolición parcial de la servidumbre (1845-1846). 
+	Para Kiselyov un cambio administrativo tendría que ocurrir primero antes que uno sobre el control económico.
+	Centrado en mejorar la condición de los campesinos y no en mejorar las finanzas del estado (la comisión de Kiselyov estaba divorciada del ministerio de finanzas).
+	Éxito en materia práctica, si bien no en el papel, para garantizar los derechos ya existentes de los campesinos arrendatarios del estado.
+	Extorsiones de los "ispravniks", que funneleaban dinero de los campesinos para ellos.
+	Cancelación de impuestos comunales del campesinado, sustituido por otros impuestos y labores (como escuelas y reserva agraria para crisis).
+	Aunque el fisco era secundario, acabó aumentando.
+	Tras la reforma, un siervo privado pagaba 4 veces más que un campesino arrendatario.
+
+[Ispravniks] Hereditary bureaucrats.
+[Zemstvos] Elected bureaucrats.
+
+"Kiselyov Schools" [probablemente mejor representadas como un modificador a través de un scripted button].
+
+Obras Consultadas:
+
+"Freed Serfs without Free People: Manumision in Imperial Russia" - Allison K. Smith
+
+
+
+-----------------------------------------------
+
+Nuevas Ideas:
+
+Evento de Alejandro II: en 1837, todavía como gran duque, emprende por orden de su padre un tour de siete meses por el imperio. Es el primer Romanov en pisar Siberia.
+	Con todo, fue un recorrido apresurado y en cierta parte enmascarado de la miseria del campesinado.
+	2do viaje poco después, esta vez a Europa. En parte para darle experiencias, en parte como iniciación diplomática.
+	Entre los dos viajes consigue aumentar los horizontes de su perspectiva sobre su futuro cargo, y le inculca ideas más profundas frente a la superficialidad con la que se había tomado su educación hasta entonces.
+	
+Nicolás I le encarga muchas tareas de 1839 en adelante, con cada vez mayor responsabilidad, para que entienda y comprenda las instituciones del Imperio.
+Entre 1846-1848, es parte de los comités secretos que discutían el estado de la servidumbre.
+Con la guerra de crimea, Nicolás le encomienda tareas militares.
+
+Alejandro II es el primer Romanov que recibe instrucciones de su padre y tiene responsabilidades gubernamentales (aunque sean nominales) desde la adultez.
+
+Transición al trono muy suave por haber estado 15 años ocupando cargos gubernamentales.
+
+Hambruna de los 90.
+
+"As a Christian, I forgive you. As your Emperor, I cannot."
+
+------------------
+
+Petr Chaadáyev: Las "Cartas Filosóficas" (1827-1831), publicadas en 1836. Según Alexander Herzen, "resonó como el disparo de una pistola en la medianoche"; "un grito de dolor y reprimenda a la Rusia petrina."
+	A partir de esta disputa, se original los "napadniki", occidentalistas; y los "slavianofily", eslavófilos.
+	Para los occidentalistas el carácter ruso era síntoma de su atraso.
+	Para los eslavófilos, era síntoma de su excepcionalismo.
+	Occidentalistas: Vissarion Belinskii (1811-1848); Aleksandr Herzen (1812-1870); Timofei Granovskii (1813-1855).
+	Eslavófilos: Aleksei Khomiakov (1804-1860); Ivan Kireevskii (1806-1856); Konstantin Aksakov (1817-1860).
+	
+"kruzhki": Círculos culturales, centrados en la literatura y la política.
+	Kruzkhi de Nikolai Stankevich: de él surgen figuras como Bakunin, Belinskii, Granovskii, Akasov o Mikhail Katkov.
+
+Las ocho Cartas Filosóficas de Chaadáyev son uno de los eventos culturales más importantes del reinado de Nicolás I.
+	Literatura cruenta, nihilista, que argumenta que el Occidente es lo más cercano al "Reino de Dios".
+
+1836-1845; periodo formativo para los Occidentalistas y Eslavófilos.
+
+Herzen: Describe a ambos grupos como nacidos juntos, pero bicéfalos como Jano.
+
+Ambos grupos están de acuerdo en que Rusia y Europa son antítesis.
+	Ambos grupos crean una "Imagen de Rusia" e "Imagen de Europa".
+	Rusia: patriarcal, convencional, viva pero estática, impregnada de una consciencia colectiva.
+	Europa: dinámica, desarrollada, aspiraba hacia un futuro perfecto y al individualismo.
+
+La eslavofilia está asentada sobre los principios filosóficos de Aleksei Khomiakov.
+	Khomiakov: la forma de una cultura depende su origen filosófico: la "obshchina", colectiva y de consenso; y los grupos "individualistas", por coercitivos.
+	Rusia representa los principios de armonía y concordia.
+	Fraternidad entre los Rusos (todavía no hablamos de todos los eslavos).
+	La comuna eslavófica representa un pensamiento tradicionalista, conservador, donde el campesino está "inmaculado" frente a lo urbano.
+	"utópico retrospectivo": el mundo estaba mejor antes, vaya. Era dorada pre-mongola; declive con las reformas petrinas.
+
+Occidentalistas:
+	Konstantin Kavelin: "Una examinación de la vida jurídica en la Antigua Rusia" (1847). 
+	También mira hacia la Antigua Rusia, pero sus conclusiones son las opuestas.
+	Del ideal caballeresco nace el individualismo.
+	El individualismo es necesario para el desarrollo espiritual de un pueblo.
+	1845-1846, escisión en dos grupos:
+		facción liberal: Kavelin y Granovskii. Con la rusia petrina se entró en occidente.
+		facción radical: Belinskii, Herzen y Bakunin. Rusia todavía no ha entrado en occidente.
+			Herzen: La historia de Rusia es la historia del desarrollo de la autocracia y del poder.
+
+
+
+	
