@@ -1303,19 +1303,6 @@
 				activate_production_methods = { "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:NAG"
-						levels = 3
-						region = "STATE_CENTRAL_PROVINCES"
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "default_building_dye_plantation" "pm_road_carts" }
-			}
-			create_building = {
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {

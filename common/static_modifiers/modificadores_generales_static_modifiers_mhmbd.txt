@@ -1,4 +1,4 @@
-REPLACE_OR_CREATE:war_hero_cult = {
+﻿REPLACE_OR_CREATE:war_hero_cult = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_popularity_add = 75
 }

@@ -1,7 +1,7 @@
 ﻿#nicholean reformer
 je_age_of_nicholas_i_summon_kiselyov = {
 	name = "je_age_of_nicholas_i_summon_kiselyov"
-	desc = ""
+	
 
 	visible = {
 		c:RUS = ROOT
@@ -24,7 +24,7 @@ je_age_of_nicholas_i_summon_kiselyov = {
  #nicholean art: Pushkin; Gogol; Turgenev.
 je_age_of_nicholas_i_promote_russian_works = {
 	name = "je_age_of_nicholas_i_promote_russian_works"
-	desc = ""
+	
 
 	visible = {
 		c:RUS = ROOT
@@ -48,7 +48,7 @@ je_age_of_nicholas_i_promote_russian_works = {
 #temporary school buff
 je_age_of_nicholas_i_kiselyov_schools = {
 	name = "je_age_of_nicholas_i_kiselyov_schools"
-	desc = ""
+	
 
 	visible = {
 		c:RUS = ROOT
@@ -78,7 +78,7 @@ je_age_of_nicholas_i_kiselyov_schools = {
 #curtail the aristocracy
 je_age_of_nicholas_i_curtail_aristocracy = {
 	name = "je_age_of_nicholas_i_curtail_aristocracy"
-	desc = ""
+	
 
 	visible = {
 		c:RUS = ROOT
@@ -106,7 +106,7 @@ je_age_of_nicholas_i_curtail_aristocracy = {
 #appease the peasantry
 je_age_of_nicholas_i_appease_peasantry = {
 	name = "je_age_of_nicholas_i_appease_peasantry"
-	desc = ""
+	
 
 	visible = {
 		c:RUS = ROOT

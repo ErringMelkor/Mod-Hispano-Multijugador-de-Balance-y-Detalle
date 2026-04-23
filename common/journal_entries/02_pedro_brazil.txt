@@ -63,7 +63,7 @@
 	immediate = {
 		set_variable = {
 			name = pedropoints
-			value = 5
+			value = 3
 		}
 		root = {
 			save_scope_as = brazil_scope

@@ -1297,7 +1297,6 @@
 			culture = cu:hindustani
 			interest_group = ig_armed_forces
 			historical = yes
-			hq_region = sr:region_delhi
 			commander_rank = commander_rank_5
 			age = 56
 			traits = {
@@ -1320,7 +1319,6 @@
 			culture = cu:hindustani
 			interest_group = ig_landowners
 			historical = yes
-			hq_region = sr:region_delhi
 			commander_rank = commander_rank_3
 			age = 44
 			traits = {

@@ -1,4 +1,4 @@
-REPLACE_OR_CREATE:lowlands_land_reclamation = {
+﻿REPLACE_OR_CREATE:lowlands_land_reclamation = {
 	is_shown = {
 		owns_entire_state_region = STATE_FRIESLAND
 		owns_entire_state_region = STATE_HOLLAND
@@ -46,13 +46,15 @@ REPLACE_OR_CREATE:lowlands_land_reclamation = {
 	}
 
 	ai_chance = {
-		base = 5
-		modifier = {
-			OR = {
-				is_diplomatic_play_committed_participant = yes
-				is_at_war = yes
+		value = 5
+		if = {
+			limit = {
+				OR = {
+					is_diplomatic_play_committed_participant = yes
+					is_at_war = yes
+				}
 			}
-			add = -1000
-		}		
+			multiply = 0
+		}
 	}
 }

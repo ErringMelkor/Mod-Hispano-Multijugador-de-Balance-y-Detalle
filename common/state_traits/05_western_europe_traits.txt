@@ -166,7 +166,7 @@ REPLACE_OR_CREATE:state_trait_venetian_lagoon = {
 	}
 }
 
-REPLACE_OR_CREATE:REPLACE_OR_CREATE:state_trait_douro_valley = {
+REPLACE_OR_CREATE:state_trait_douro_valley = {
 	icon = "gfx/interface/icons/state_trait_icons/vineyard.dds"
 	modifier = {
 		building_vineyard_throughput_add = 0.25

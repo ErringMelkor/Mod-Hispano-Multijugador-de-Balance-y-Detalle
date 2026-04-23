@@ -28,11 +28,11 @@ dp_open_market = {
 	war_goal = open_market
 	
 	texture = "gfx/interface/icons/war_goals/open_market.dds"
-	
+
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }		
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
@@ -40,7 +40,7 @@ dp_open_market = {
 	}
 
 	ai_acceptance_max = 100
-	
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -650,7 +650,7 @@ dp_taiping_rebellion = {
 	possible = {
 		exists = c:TPG
 		scope:target_country = {
-			this = c:TPG
+			c:TPG ?= THIS
 		}
 	}
 	
@@ -1250,28 +1250,7 @@ dp_leadership_platinean = {
 	on_war_end = {}
 }
 
-dp_sepoy_mutiny = {
-	war_goal = annex_country
 
-	allow_negotiated_peace = no
-	add_infamy_for_starting_initiator_wargoals = no
-
-	texture = "gfx/interface/icons/war_goals/annex_country.dds"
-
-	selectable_in_lens = {
-		always = no
-	}
-
-	possible = {}
-
-	ai_acceptance_max = 75
-
-	on_weekly_pulse = {}
-
-	on_war_begins = {}
-
-	on_war_end = {}
-}
 
 dp_unify_yuan = {
 	war_goal = unification
@@ -1324,4 +1303,186 @@ dp_leadership_yuan = {
 	on_war_begins = {}
 
 	on_war_end = {}
+}
+
+dp_balkan_war = {
+	war_goal = humiliation
+
+	requires_interest_marker = no
+	allow_negotiated_peace = no
+	add_infamy_for_starting_initiator_wargoals = no
+	initiator_can_add_war_goals = no
+
+	texture = "gfx/interface/icons/war_goals/return_state.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	ai_acceptance_max = 75
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_enforce_trialist_manifesto = {
+	war_goal = humiliation
+
+	requires_interest_marker = no
+	allow_negotiated_peace = yes
+	add_infamy_for_starting_initiator_wargoals = no
+	initiator_can_add_war_goals = yes
+
+	texture = "gfx/interface/icons/war_goals/return_state.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	ai_acceptance_max = 75
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_unify_yugoslavia = {
+	war_goal = unification
+
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+	add_infamy_for_starting_initiator_wargoals = no
+
+	texture = "gfx/interface/icons/war_goals/unification.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		NOT = { exists = c:YUG }
+		NOT = { is_country_type = decentralized }
+		is_subject = no
+		has_technology_researched = pan-nationalism
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_yugoslavia = {
+	war_goal = unification_leadership
+
+	requires_interest_marker = no
+	mirror_war_goal = yes
+
+	texture = "gfx/interface/icons/war_goals/unification.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_hungarian_revolution = {
+	war_goal = annex_country
+
+	allow_negotiated_peace = no
+	add_infamy_for_starting_initiator_wargoals = no
+	initiator_can_add_war_goals = no
+
+	texture = "gfx/interface/icons/war_goals/annex_country.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {}
+
+	ai_acceptance_max = 75
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {
+
+	}
+}
+
+dp_restore_union = {
+	war_goal = restore_union
+
+	texture = "gfx/interface/icons/war_goals/enforce_treaty_article.dds"
+
+	selectable_in_lens = {
+		has_law = law_type:law_monarchy
+		has_variable = por_seeking_restore_union_var
+	}
+
+	possible = {
+		aggressive_diplomatic_plays_permitted = yes
+	}
+
+	ai_acceptance_max = 90
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {
+		if = {
+			limit = {
+				any_scope_play_involved = {
+					has_variable = por_seeking_restore_union_var
+				}
+			}
+			random_scope_play_involved = { # This is typically a temp variable. Starting this war makes it permanent for the duration of the war.
+				limit = {
+					has_variable = por_seeking_restore_union_var
+				}
+				remove_variable = por_seeking_restore_union_var
+				set_variable = por_seeking_restore_union_var
+			}
+		}
+	}
+
+	on_war_end = {
+		if = {
+			limit = {
+				any_scope_play_involved = {
+					has_variable = por_seeking_restore_union_var
+				}
+			}
+			random_scope_play_involved = { # Removes variable upon war conclusion, regardless of outcome
+				limit = {
+					has_variable = por_seeking_restore_union_var
+				}
+				remove_variable = por_seeking_restore_union_var
+			}
+		}
+	}
 }

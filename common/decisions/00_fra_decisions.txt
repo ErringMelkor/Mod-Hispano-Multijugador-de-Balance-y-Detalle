@@ -33,6 +33,6 @@ institute_plan_haussmann = {
 	}
 
 	ai_chance = {
-		base = 4
+		value = 4
 	}
 }

@@ -36,15 +36,4 @@ unit_combat_unit_type_shrapnel_artillery_defense_mult = {
 
 }
 
-unit_combat_unit_type_mobile_artillery_offense_mult = {
-
-	percent = yes
-
-}
-
-unit_combat_unit_type_shrapnel_artillery_offense_mult = {
-
-	percent = yes
-
-}
 
