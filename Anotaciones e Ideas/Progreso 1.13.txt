@@ -5,12 +5,19 @@ Combat Unit Types #Hecho
 
 Compañías #Hecho, 90%, falta revisar.
 
+Country Definitions #Hecho
+
 Defines #Hecho
+
+Decisiones #Parcial
+
+JEs #To-do
 
 History
 History/Cultures #Hecho
 History/MilitaryDeployments #Parcial, EUW
 History/States #Hecho
+History/Pops #Hecho
 
 Laws #Hecho
 
