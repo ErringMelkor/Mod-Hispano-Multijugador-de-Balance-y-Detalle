@@ -159,7 +159,7 @@ building_livestock_ranch = {
 
 
 building_vineyard = {
-	aliases = { building_vineyards }
+	aliases = { building_vineyard_plantations }
 	building_group = bg_agriculture
 	icon = "gfx/interface/icons/building_icons/vineyards.dds"
 	required_construction = 125
