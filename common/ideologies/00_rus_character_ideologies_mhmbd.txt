@@ -21,7 +21,7 @@
 		law_tenant_farmers = approve
 		law_collectivized_agriculture = strongly_disapprove
 		law_commercialized_agriculture = disapprove
-		law_homesteading = strongly_disapprove
+		law_peasant_proprietorship = strongly_disapprove
 	}
 
 	lawgroup_childrens_rights = {
@@ -173,7 +173,7 @@ ideology_zapadniki = {
 	lawgroup_land_reform = {
 		law_commercialized_agriculture = strongly_approve
 		law_tenant_farmers = approve
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_serfdom = disapprove
 		law_collectivized_agriculture = disapprove
 	}
@@ -296,7 +296,7 @@ ideology_slavianofily = {
 		law_commercialized_agriculture = strongly_approve
 		law_tenant_farmers = strongly_approve
 		law_serfdom = approve
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_collectivized_agriculture = disapprove
 	}
 

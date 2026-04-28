@@ -564,7 +564,7 @@ ideology_slavianofily_disfavoured_laws = {
 		limit = {
 			OR = {
 				has_law_or_variant = law_type:law_serfdom
-				has_law_or_variant = law_type:law_homesteading
+				has_law_or_variant = law_type:law_peasant_proprietorship
 				has_law_or_variant = law_type:law_collectivized_agriculture
 			}
 		}
@@ -675,7 +675,7 @@ ideology_zapadniki_disfavoured_laws = {
 	if = {
 		limit = {
 			OR = {
-				has_law_or_variant = law_type:law_homesteading
+				has_law_or_variant = law_type:law_peasant_proprietorship
 				has_law_or_variant = law_type:law_tenant_farmers
 				has_law_or_variant = law_type:law_serfdom
 			}

@@ -88,7 +88,7 @@ pm_corvee_labor = {
 pm_homesteading_building_subsistence = {
 	texture = "gfx/interface/icons/production_method_icons/homesteading.dds"
 	unlocking_laws = {
-		law_homesteading
+		law_peasant_proprietorship
 	}
 	
 	building_modifiers = {
@@ -405,7 +405,7 @@ pm_serfdom_building_subsistence_rice_farm = {
 pm_homesteading_building_subsistence_rice_farm = {
 	texture = "gfx/interface/icons/production_method_icons/homesteading.dds"
 	unlocking_laws = {
-		law_homesteading
+		law_peasant_proprietorship
 	}
 	
 	building_modifiers = {

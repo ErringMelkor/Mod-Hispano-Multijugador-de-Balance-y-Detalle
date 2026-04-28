@@ -3,17 +3,26 @@ Buildings #Hecho
 
 Combat Unit Types #Hecho
 
+Defines #Hecho
+
 History
 History/Cultures #Hecho
 History/MilitaryDeployments #Parcial, EUW
 History/States #Hecho
 
+Laws #Hecho
+
 On Actions #Hecho
+
+Power Block Identities #Hecho
+Power Block Names #Hecho
+Power Block Principle Groups #Hecho
+Power Block Principles # Parcial
 
 Production Methods #Hecho
 
 State Traits # Parcial
-Static Modifiers #Hecho
+Static Modifiers #Hecho / 90%
 Strategic Regions #Hecho
 Techs #Hecho
 

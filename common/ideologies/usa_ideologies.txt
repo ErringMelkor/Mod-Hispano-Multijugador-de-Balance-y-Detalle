@@ -35,7 +35,7 @@
 		law_collectivized_agriculture = strongly_disapprove
 		law_serfdom = disapprove
 		law_tenant_farmers = neutral
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_commercialized_agriculture = approve
 	}
 }
@@ -144,7 +144,7 @@ REPLACE_OR_CREATE:ideology_agrarian_jeffersonian = {
 		law_collectivized_agriculture = disapprove
 		law_tenant_farmers = disapprove
 		law_commercialized_agriculture = neutral
-		law_homesteading = strongly_approve
+		law_peasant_proprietorship = strongly_approve
 	}
 
 	lawgroup_taxation = {
