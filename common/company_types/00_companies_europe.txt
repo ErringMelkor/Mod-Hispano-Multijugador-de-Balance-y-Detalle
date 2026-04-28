@@ -1586,7 +1586,7 @@ company_zastava = {
 	}
 
 	prosperity_modifier = {
-		unit_defense_mult = 0.5
+		unit_defense_mult = 0.05
 		unit_defense_elevated_mult = 0.1
 		unit_defense_hazardous_mult = 0.1
 		unit_morale_loss_mult = -0.05
