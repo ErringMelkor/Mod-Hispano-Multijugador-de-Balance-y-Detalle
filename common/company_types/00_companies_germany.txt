@@ -22,7 +22,7 @@ company_krupp = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	attainable = {
@@ -121,7 +121,7 @@ company_rheinmetall = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	attainable = {
@@ -220,7 +220,6 @@ company_schichau = {
 
 	building_types = {
 		building_motor_industry
-		building_military_shipyard
 		building_shipyard
 	}
 
@@ -234,7 +233,7 @@ company_schichau = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_poland
+		has_interest_marker_in_region = sr:region_eastern_europe
 	}
 
 	attainable = {
@@ -251,15 +250,18 @@ company_schichau = {
 			state_region = s:STATE_WEST_PRUSSIA
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_motor_industry
+				OR = {
+					is_building_type = building_motor_industry
+					is_building_type = building_shipyard
+				}
 				level >= 5
 			}
 		}
 	}
 
 	prosperity_modifier = {
-		unit_navy_offense_mult = 0.05
-		unit_combat_unit_type_submarine_offense_mult = 0.1
+		ship_hull_damage_mult = 0.025
+		ship_ship_type_submarine_hull_damage_mult = 0.05
 	}
 
 	ai_will_do = {
@@ -272,6 +274,12 @@ company_schichau = {
 
 	ai_construction_targets = {
 		building_motor_industry = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_WEST_PRUSSIA
+			}
+		}
+		building_shipyard = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_WEST_PRUSSIA
@@ -303,7 +311,7 @@ company_siemens_and_halske = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	attainable = {
@@ -357,6 +365,8 @@ company_prussian_state_railways = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/german_kpev.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 
+	category = bureaucrat_owned
+
 	flavored_company = yes
 
 	building_types = {
@@ -377,12 +387,7 @@ company_prussian_state_railways = {
 	possible = {
 		has_technology_researched = railways
 		any_scope_state = {
-			OR = {
-				region = sr:region_north_germany
-				region = sr:region_south_germany
-				region = sr:region_rhine
-				region = sr:region_poland
-			}
+			is_in_geographic_region = geographic_region_greater_germany
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_railway
@@ -393,18 +398,13 @@ company_prussian_state_railways = {
 	}
 
 	prosperity_modifier = {
-		military_formation_movement_speed_mult = 0.1
+		military_formation_army_movement_speed_mult = 0.1
 	}
 
 	ai_will_do = {
 		has_technology_researched = railways
 		any_scope_state = {
-			OR = {
-				region = sr:region_north_germany
-				region = sr:region_south_germany
-				region = sr:region_rhine
-				region = sr:region_poland
-			}
+			is_in_geographic_region = geographic_region_greater_germany
 			is_incorporated = yes
 		}
 	}
@@ -413,12 +413,7 @@ company_prussian_state_railways = {
 		building_railway = {
 			level = 5
 			state_trigger = {
-				OR = {
-					region = sr:region_north_germany
-					region = sr:region_south_germany
-					region = sr:region_rhine
-					region = sr:region_poland
-				}
+				is_in_geographic_region = geographic_region_greater_germany
 				is_incorporated = yes
 			}
 		}
@@ -454,7 +449,7 @@ company_basf = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_south_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	attainable = {

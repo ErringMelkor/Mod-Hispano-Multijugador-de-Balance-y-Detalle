@@ -20,8 +20,15 @@ company_fundidora_monterrey = {
 		prestige_good_generic_steel
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_steel_complete_tt
+			has_variable = prestige_good_generic_steel_var
+		}
+	}
+
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -98,7 +105,7 @@ company_el_aguila = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -115,7 +122,7 @@ company_el_aguila = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				region = sr:region_mexico
+				region = sr:region_central_america
 			}
 		}
 	}
@@ -123,7 +130,7 @@ company_el_aguila = {
 	possible = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_mexico
+			region = sr:region_central_america
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_oil_rig
@@ -134,14 +141,14 @@ company_el_aguila = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.15
+		country_ship_group_supply_ships_construction_efficiency_add = 0.15
 		interest_group_ig_industrialists_approval_add = 3
 	}
 
 	ai_will_do = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_mexico
+			region = sr:region_central_america
 			is_incorporated = yes
 			is_coastal = yes
 			has_potential_resource = building_oil_rig
@@ -152,7 +159,7 @@ company_el_aguila = {
 		building_oil_rig = {
 			level = 5
 			state_trigger = {
-				region = sr:region_mexico
+				region = sr:region_central_america
 				is_incorporated = yes
 				is_coastal = yes
 			}
@@ -183,7 +190,7 @@ company_csfa = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_andes
+		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -263,7 +270,7 @@ company_caribbean_petroleum = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_gran_colombia
+		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -304,7 +311,7 @@ company_caribbean_petroleum = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.2
+		country_ship_group_supply_ships_construction_efficiency_add = 0.2
 		interest_group_ig_industrialists_approval_add = 5
 	}
 
@@ -357,8 +364,15 @@ company_bunge_born = {
 		prestige_good_generic_groceries
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_groceries_complete_tt
+			has_variable = prestige_good_generic_groceries_var
+		}
+	}
+
 	potential = {
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -453,8 +467,15 @@ company_la_rosada = {
 		prestige_good_generic_steel
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_steel_complete_tt
+			has_variable = prestige_good_generic_steel_var
+		}
+	}
+
 	potential = {
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -534,8 +555,19 @@ company_famae = {
 		building_explosives_factory
 	}
 
+	possible_prestige_goods = {
+		prestige_good_generic_small_arms
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_small_arms_complete_tt
+			has_variable = prestige_good_generic_small_arms_var
+		}
+	}
+
 	potential = {
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -572,10 +604,6 @@ company_famae = {
 	prosperity_modifier = {
 		unit_offense_mult = 0.15
 		building_steel_mill_throughput_add = 0.15
-	}
-
-	possible_prestige_goods = {
-		prestige_good_generic_small_arms
 	}
 
 	ai_will_do = {
@@ -618,7 +646,7 @@ company_peruvian_amazon = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_andes
+		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -701,7 +729,7 @@ company_kablin = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -788,8 +816,15 @@ company_hbc = {
 		prestige_good_generic_fish
 	}
 
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_fish_complete_tt
+			has_variable = prestige_good_generic_fish_var
+		}
+	}
+
 	potential = {
-		has_interest_marker_in_region = region_canada
+		has_interest_marker_in_region = sr:region_canada
 	}
 
 	attainable = {
