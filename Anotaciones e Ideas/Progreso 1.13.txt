@@ -1,4 +1,6 @@
 
+Buildings #Hecho
+
 Combat Unit Types #Hecho
 
 History
@@ -8,10 +10,19 @@ History/States #Hecho
 
 On Actions #Hecho
 
+Production Methods #Hecho
+
 State Traits # Parcial
 Static Modifiers #Hecho
 Strategic Regions #Hecho
 Techs #Hecho
+
+Script Values #Hecho
+Scripted Buttons #Hecho
+Scripted Effects #Hecho
+Scripted Progress Bars #Hecho
+Scripted Rules #Hecho
+Scripted Triggers #Hecho
 
 Map Data #Hecho
 
