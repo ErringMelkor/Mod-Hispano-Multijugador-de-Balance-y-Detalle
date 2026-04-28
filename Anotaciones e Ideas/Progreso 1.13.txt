@@ -1,4 +1,12 @@
 
+Combat Unit Types #Hecho
+
+History
+History/Cultures #Hecho
+History/MilitaryDeployments #Parcial, EUW
+History/States #Hecho
+
+On Actions #Hecho
 
 State Traits # Parcial
 Static Modifiers #Hecho
@@ -6,5 +14,5 @@ Strategic Regions #Hecho
 Techs #Hecho
 
 Map Data #Hecho
-Unidades #Hecho
+
 
