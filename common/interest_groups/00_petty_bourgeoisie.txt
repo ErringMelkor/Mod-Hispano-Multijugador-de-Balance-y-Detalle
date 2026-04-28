@@ -173,17 +173,13 @@
 					# Ideologies
 					remove_ideology = ideology_patriotic
 					add_ideology = ideology_sovereignist
+				remove_ideology = ideology_reactionary
+				add_ideology = ideology_modernizer
 
 					# Traits
 					set_ig_trait = ig_trait:ig_trait_swadesh
 					set_ig_trait = ig_trait:ig_trait_lines_of_credit
 					set_ig_trait = ig_trait:ig_trait_cooperative_agencies
-				}
-				else = {
-					set_ig_trait = ig_trait:ig_trait_xenophobia
-					set_ig_trait = ig_trait:ig_trait_middle_managers
-					set_ig_trait = ig_trait:ig_trait_treasury_bonds
-				}
 			}
 			# Kleinbürger
 			else_if = {
