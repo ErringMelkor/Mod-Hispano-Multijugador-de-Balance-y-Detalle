@@ -3,6 +3,8 @@ Buildings #Hecho
 
 Combat Unit Types #Hecho
 
+Compañías #Hecho, 90%, falta revisar.
+
 Defines #Hecho
 
 History
