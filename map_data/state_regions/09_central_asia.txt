@@ -43,7 +43,7 @@ STATE_KUBAN = {
         type = "building_oil_rig"
         undiscovered_amount = 30
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_ARMENIA = {
@@ -104,7 +104,7 @@ STATE_GREATER_CAUCASUS = {
         building_logging_camp = 19
         building_fishing_wharf = 5
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_SAMARA = {
@@ -460,8 +460,9 @@ STATE_HIMALAYAS = {
     arable_land = 145
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
-        building_iron_mine = 4
-        building_logging_camp = 9
+        building_logging_camp = 10
+        building_lead_mine = 8
+        building_iron_mine = 8
     }
 }
 

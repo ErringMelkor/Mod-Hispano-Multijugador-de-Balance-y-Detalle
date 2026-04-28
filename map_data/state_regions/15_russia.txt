@@ -13,7 +13,7 @@
         building_logging_camp = 9
         building_fishing_wharf = 8
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3082
 }
 
 STATE_TARTU = {
@@ -163,7 +163,7 @@ STATE_WEST_KARELIA = {
         building_hardwood_logging = 2
         building_fishing_wharf = 2
     }
-    naval_exit_id = 3000
+    naval_exit_id = 3082
 }
 
 STATE_ALAND = {
@@ -1186,9 +1186,8 @@ STATE_AMUR = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 18
     }
-    naval_exit_id = 3059
+    naval_exit_id = 3118
 }
-
 
 STATE_CHELYABINSK = {
     #done
@@ -1317,4 +1316,3 @@ STATE_NENETSIA = {
     }
     naval_exit_id = 3039
 }
-

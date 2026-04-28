@@ -678,7 +678,7 @@ STATE_PEGU = {
         type = "building_oil_rig"
         undiscovered_amount = 5
     }
-    naval_exit_id = 3050
+    naval_exit_id = 3051
 }
 
 STATE_ARAKAN = {

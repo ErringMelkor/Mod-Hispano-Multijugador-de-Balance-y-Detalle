@@ -1,0 +1,10 @@
+
+
+State Traits # Parcial
+Static Modifiers #Hecho
+Strategic Regions #Hecho
+Techs #Hecho
+
+Map Data #Hecho
+Unidades #Hecho
+
