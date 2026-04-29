@@ -145,6 +145,14 @@
 				set_ig_trait = ig_trait:ig_trait_divine_right
 				set_ig_trait = ig_trait:ig_trait_la_loi_royale
 			}
+			else_if = {
+				limit = {
+					owner = { c:RUS ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_pious_fiction
+				set_ig_trait = ig_trait:ig_trait_divine_autocracy
+				set_ig_trait = ig_trait:ig_trait_la_loi_royale
+			}			
 			else = {
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
 				set_ig_trait = ig_trait:ig_trait_divine_right
