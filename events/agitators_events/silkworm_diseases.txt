@@ -35,20 +35,21 @@ silkworm_diseases.1 = {
 			can_research = ac_power
 			is_researching_technology = ac_power
 		}
-		OR = {	
-			country_is_in_europe = yes
-			country_is_in_north_america = yes
+		OR = {
+			is_in_geographic_region = geographic_region_europe
+			is_in_geographic_region = geographic_region_north_america
 		}
 		NOT = {
 			has_variable = pebrine_outbreak_event
-		}	
+		}
 	}
 
 	immediate = {
 		set_variable = pebrine_outbreak_event
 		random_scope_state = {
 			limit = {
-				any_scope_building = { 
+				is_incorporated = yes
+				any_scope_building = {
 		            is_building_type = building_silk_plantation
 		            level >= 5
 		        }
@@ -266,7 +267,8 @@ silkworm_diseases.3 = {
 		}
 		random_scope_state = {
 			limit = {
-				any_scope_building = { 
+				is_incorporated = yes
+				any_scope_building = {
 		            is_building_type = building_silk_plantation
 		            level >= 2
 		        }
@@ -342,7 +344,7 @@ silkworm_diseases.4 = {
 			has_modifier = modifier_pebrine_state_modifier
 		}
 		ig:ig_landowners ?= {
-			is_marginal = no
+			ig_counts_as_marginal = no
 		}
 		OR = {
 			has_law_or_variant = law_type:law_serfdom
@@ -431,8 +433,8 @@ silkworm_diseases.5 = {
 		any_scope_state = {
 			has_modifier = modifier_pebrine_state_modifier
 		}
-		ig:ig_industrialists = {
-			is_marginal = no
+		ig:ig_industrialists ?= {
+			ig_counts_as_marginal = no
 		}
 		can_research = art_silk
 	}
@@ -444,7 +446,7 @@ silkworm_diseases.5 = {
 			}
 			save_scope_as = pebrine_state
 		}
-		ig:ig_industrialists = {
+		ig:ig_industrialists ?= {
 			save_scope_as = industrialists_scope
 		}
 	}
@@ -465,7 +467,7 @@ silkworm_diseases.5 = {
 	}
 	option = {
 		name = silkworm_diseases.5.b
-		ig:ig_industrialists = {
+		ig:ig_industrialists ?= {
 			add_modifier = {
 				name = modifier_art_silk_refused
 				days = short_modifier_time
@@ -506,7 +508,7 @@ silkworm_diseases.6 = {
 			}
 		}
 		ig:ig_rural_folk ?= {
-			is_marginal = no
+			ig_counts_as_marginal = no
 		}
 	}
 
@@ -595,7 +597,7 @@ silkworm_diseases.7 = {
 	}
 
 	immediate = {
-		
+
 	}
 
 	option = {

@@ -273,7 +273,7 @@ sick_man.3 = {
 		}
 		set_country_type = unrecognized
 		ruler = {
-			kill_character = yes
+			retire_character = yes
 		}
 		if = { #failure of JE immediately triggers eastern_crisis, showing here
 			limit = {

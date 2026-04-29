@@ -40,8 +40,9 @@ algeria_events.1 = {
 		}
 		random_scope_character = {
 			limit = {
-				has_role = general
-				is_ruler = no
+				has_role_of_type = general
+				is_ruler_of_own_country = no
+				character_is_valid_for_events = yes
 			}
 			save_scope_as = algerian_parade_general_scope
 		}
@@ -491,7 +492,7 @@ algeria_events.3 = {
 		random_list = {
 			50 = {
 				scope:algerian_fiasco_ig_leader = {
-					kill_character = yes
+					retire_character = yes
 				}
 			}
 			50 = {
@@ -670,9 +671,10 @@ algeria_events.5 = {
 			}
 		}
 		any_scope_character = {
-			has_role = general
-			is_ruler = no
-			is_heir = no
+			has_role_of_type = general
+			is_ruler_of_own_country = no
+			character_is_valid_for_events = yes
+			is_heir_of_own_country = no
 		}
 	}
 
@@ -713,9 +715,10 @@ algeria_events.5 = {
 		}
 		random_scope_character = {
 			limit = {
-				has_role = general
-				is_ruler = no
-				is_heir = no
+				has_role_of_type = general
+				is_ruler_of_own_country = no
+				character_is_valid_for_events = yes
+				is_heir_of_own_country = no
 			}
 			save_scope_as = algerian_raid_general_scope
 		}
@@ -752,7 +755,7 @@ algeria_events.5 = {
 			random_list = {
 				50 = {
 					scope:algerian_raid_general_scope = {
-						kill_character = yes
+						retire_character = yes
 					}
 				}
 				50 = {
@@ -794,9 +797,10 @@ algeria_events.6 = {
 		NOT = { has_variable = arab_bureaux_var }
 		NOT = { has_law_or_variant = law_type:law_no_colonial_affairs }
 		any_scope_character = {
-			has_role = general
-			is_ruler = no
-			is_heir = no
+			has_role_of_type = general
+			is_ruler_of_own_country = no
+			character_is_valid_for_events = yes
+			is_heir_of_own_country = no
 			NOT = { has_trait = bigoted }
 		}
 		any_scope_state = {
@@ -808,9 +812,10 @@ algeria_events.6 = {
 	immediate = {
 		random_scope_character = {
 			limit = {
-				has_role = general
-				is_ruler = no
-				is_heir = no
+				has_role_of_type = general
+				is_ruler_of_own_country = no
+				character_is_valid_for_events = yes
+				is_heir_of_own_country = no
 				NOT = { has_trait = bigoted }
 			}
 			save_scope_as = arab_bureaux_general_scope

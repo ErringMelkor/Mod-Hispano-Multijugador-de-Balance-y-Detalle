@@ -162,7 +162,7 @@ meiji.1 = {
 			}
 		}
 		scope:shogunate_ig_leader = { # honorable sudoku
-			kill_character = yes
+			retire_character = yes
 		}
 		if = {
 			limit = {
@@ -281,7 +281,7 @@ meiji.1 = {
 			}
 		}
 		scope:shogunate_ig_leader = {
-			kill_character = yes
+			retire_character = yes
 		}
 		if = {
 			limit = {
@@ -545,7 +545,7 @@ meiji.3 = {
 			remove_ideology = ideology_bakufu
 		}
 		scope:samurai_ig_leader = { # honorable sudoku
-			kill_character = yes
+			retire_character = yes
 		}
 		add_radicals = {
 			pop_type = officers
