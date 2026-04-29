@@ -116,7 +116,7 @@ russia_monarchy.2 = { #Death of Nicholas Tsaraevich
 		name = russia_monarchy.2.a
 		default_option = yes
 		scope:nicholas_scope = {
-			retire_character = yes
+			kill_character = yes
 		}
 		create_character = {
 			template = RUS_alexander_iii
@@ -422,7 +422,7 @@ russia_monarchy.7 = { #Nicholas I falls ill
 		name = russia_monarchy.7.a
 		default_option = yes
 		ruler = {
-			retire_character = yes
+			kill_character = yes
 		}
 	}
 	option = {
@@ -475,7 +475,7 @@ russia_monarchy.8 = { #Death of Georgy
 		name = russia_monarchy.8.a
 		default_option = yes
 		heir ?= {
-			retire_character = yes
+			kill_character = yes
 		}
 		custom_tooltip = {
 			text = michael_becomes_heir_tt
@@ -493,7 +493,7 @@ russia_monarchy.8 = { #Death of Georgy
 		random_list = {
 			50 = {
 				heir ?= {
-					retire_character = yes
+					kill_character = yes
 				}
 				custom_tooltip = {
 					text = michael_becomes_heir_tt

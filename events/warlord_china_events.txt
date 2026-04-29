@@ -1,1 +1,1 @@
-﻿namespace = warlord_china_events
+﻿
