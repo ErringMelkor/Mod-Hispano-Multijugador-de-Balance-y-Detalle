@@ -71,7 +71,7 @@
 
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }
@@ -292,7 +292,7 @@ je_great_russo_turkish_war = {
 		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }
@@ -474,7 +474,7 @@ je_western_russo_turkish_war = {
 		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }
@@ -642,7 +642,7 @@ je_eastern_russo_turkish_war = {
 		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }
@@ -708,7 +708,7 @@ je_turkish_pov_war = { #ottoman perspective
 		trigger_event = { id = russo-turkish_war.7  popup = yes } #ottomans halt the russians
 	}
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	weight = 100
 }

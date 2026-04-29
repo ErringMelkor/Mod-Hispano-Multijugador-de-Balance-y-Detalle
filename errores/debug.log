@@ -1047,44 +1047,44 @@ Failed to read key reference: building_military_shipyards: building_military_shi
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 37" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 45
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 57" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 65
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: possible, near line: 77" in file: "gfx/map/spline_network/route_graphics/ap1_road_vehicles.txt" near line: 85
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 86" in file: "common/journal_entries/00_acw_entries.txt" near line: 86
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 123" in file: "common/journal_entries/00_acw_entries.txt" near line: 123
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 162" in file: "common/journal_entries/00_acw_entries.txt" near line: 162
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 298" in file: "common/journal_entries/00_acw_entries.txt" near line: 298
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 352" in file: "common/journal_entries/00_acw_entries.txt" near line: 352
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 447" in file: "common/journal_entries/00_acw_entries.txt" near line: 447
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 210" in file: "common/journal_entries/00_autocracy.txt" near line: 210
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 105" in file: "common/journal_entries/00_german_unification.txt" near line: 105
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 275" in file: "common/journal_entries/00_german_unification.txt" near line: 275
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 345" in file: "common/journal_entries/00_german_unification.txt" near line: 345
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 406" in file: "common/journal_entries/00_german_unification.txt" near line: 406
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 459" in file: "common/journal_entries/00_german_unification.txt" near line: 459
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 111" in file: "common/journal_entries/00_italian_unification.txt" near line: 111
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 17" in file: "common/journal_entries/00_lake_fucine_je.txt" near line: 17
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 94" in file: "common/journal_entries/00_sick_man.txt" near line: 94
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 206" in file: "common/journal_entries/00_sick_man.txt" near line: 206
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 250" in file: "common/journal_entries/00_sick_man.txt" near line: 250
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 286" in file: "common/journal_entries/00_sick_man.txt" near line: 286
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 334" in file: "common/journal_entries/00_sick_man.txt" near line: 334
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 418" in file: "common/journal_entries/00_sick_man.txt" near line: 418
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 479" in file: "common/journal_entries/00_sick_man.txt" near line: 479
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 529" in file: "common/journal_entries/00_sick_man.txt" near line: 529
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 613" in file: "common/journal_entries/00_sick_man.txt" near line: 613
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 699" in file: "common/journal_entries/00_sick_man.txt" near line: 699
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 257" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 257
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 310" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 310
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 86" in file: "common/journal_entries/00_acw_entries.txt" near line: 86
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 123" in file: "common/journal_entries/00_acw_entries.txt" near line: 123
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 162" in file: "common/journal_entries/00_acw_entries.txt" near line: 162
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 298" in file: "common/journal_entries/00_acw_entries.txt" near line: 298
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 352" in file: "common/journal_entries/00_acw_entries.txt" near line: 352
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 447" in file: "common/journal_entries/00_acw_entries.txt" near line: 447
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 210" in file: "common/journal_entries/00_autocracy.txt" near line: 210
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 105" in file: "common/journal_entries/00_german_unification.txt" near line: 105
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 275" in file: "common/journal_entries/00_german_unification.txt" near line: 275
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 345" in file: "common/journal_entries/00_german_unification.txt" near line: 345
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 406" in file: "common/journal_entries/00_german_unification.txt" near line: 406
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 459" in file: "common/journal_entries/00_german_unification.txt" near line: 459
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 111" in file: "common/journal_entries/00_italian_unification.txt" near line: 111
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 17" in file: "common/journal_entries/00_lake_fucine_je.txt" near line: 17
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 94" in file: "common/journal_entries/00_sick_man.txt" near line: 94
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 206" in file: "common/journal_entries/00_sick_man.txt" near line: 206
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 250" in file: "common/journal_entries/00_sick_man.txt" near line: 250
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 286" in file: "common/journal_entries/00_sick_man.txt" near line: 286
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 334" in file: "common/journal_entries/00_sick_man.txt" near line: 334
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 418" in file: "common/journal_entries/00_sick_man.txt" near line: 418
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 479" in file: "common/journal_entries/00_sick_man.txt" near line: 479
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 529" in file: "common/journal_entries/00_sick_man.txt" near line: 529
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 613" in file: "common/journal_entries/00_sick_man.txt" near line: 613
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 699" in file: "common/journal_entries/00_sick_man.txt" near line: 699
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 257" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 257
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 310" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 310
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: is_heir, near line: 382" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 383
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 402" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 402
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 402" in file: "common/journal_entries/02_pedro_brazil.txt" near line: 402
 [19:20:37][gamedatabase.h:378]: Duplicated key je_brazilian_nation_building will not be created from file: common/journal_entries/04_brazilian_nation_building.txt:1
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 65" in file: "common/journal_entries/golden_crescent_je.txt" near line: 65
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 26" in file: "common/journal_entries/imperial_examination_je.txt" near line: 26
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 48" in file: "common/journal_entries/irish_oppression_je.txt" near line: 48
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 65" in file: "common/journal_entries/golden_crescent_je.txt" near line: 65
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 26" in file: "common/journal_entries/imperial_examination_je.txt" near line: 26
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 48" in file: "common/journal_entries/irish_oppression_je.txt" near line: 48
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: is_ruler, near line: 30" in file: "common/journal_entries/je_age_of_alexander_ii.txt" near line: 31
 [19:20:37][jomini_scriptvalue.h:617]: Cannot read [alexander_ii_agenda_value] as a script value
 [19:20:37][jomini_scriptvalue.h:391]: Badly read script value alexander_ii_agenda_value at common/journal_entries/je_age_of_alexander_ii.txt:41
 [19:20:37][jomini_scriptvalue.h:617]: Cannot read [alexander_ii_agenda_value] as a script value
 [19:20:37][jomini_scriptvalue.h:391]: Badly read script value alexander_ii_agenda_value at common/journal_entries/je_age_of_alexander_ii.txt:53
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 76" in file: "common/journal_entries/je_age_of_alexander_ii.txt" near line: 76
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 76" in file: "common/journal_entries/je_age_of_alexander_ii.txt" near line: 76
 [19:20:37][journal_entry_type.cpp:112]: Failed to read key reference je_age_of_nicholas_i_summon_kiselyov from database common/journal_entries/je_age_of_nicholas_i.txt:6
 [19:20:37][journal_entry_type.cpp:112]: Failed to read key reference je_age_of_nicholas_i_promote_russian_works from database common/journal_entries/je_age_of_nicholas_i.txt:7
 [19:20:37][journal_entry_type.cpp:112]: Failed to read key reference je_age_of_nicholas_i_kiselyov_schools from database common/journal_entries/je_age_of_nicholas_i.txt:8
@@ -1095,15 +1095,15 @@ Failed to read key reference: building_military_shipyards: building_military_shi
 [19:20:37][jomini_scriptvalue.h:391]: Badly read script value nicholas_i_agenda_value at common/journal_entries/je_age_of_nicholas_i.txt:50
 [19:20:37][jomini_scriptvalue.h:617]: Cannot read [nicholas_i_agenda_value] as a script value
 [19:20:37][jomini_scriptvalue.h:391]: Badly read script value nicholas_i_agenda_value at common/journal_entries/je_age_of_nicholas_i.txt:75
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 114" in file: "common/journal_entries/je_age_of_nicholas_i.txt" near line: 114
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 33" in file: "common/journal_entries/manifest_destiny_mexico_je.txt" near line: 33
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 74" in file: "common/journal_entries/ruhr_je.txt" near line: 74
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 74" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 74
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 295" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 295
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 477" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 477
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 645" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 645
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 711" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 711
-[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 26" in file: "common/journal_entries/teriyaki_je.txt" near line: 26
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 114" in file: "common/journal_entries/je_age_of_nicholas_i.txt" near line: 114
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 33" in file: "common/journal_entries/manifest_destiny_mexico_je.txt" near line: 33
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 74" in file: "common/journal_entries/ruhr_je.txt" near line: 74
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 74" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 74
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 295" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 295
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 477" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 477
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 645" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 645
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 711" in file: "common/journal_entries/russo-turkish_war_je.txt" near line: 711
+[19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default_uninvolved_or_context, near line: 26" in file: "common/journal_entries/teriyaki_je.txt" near line: 26
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: military_formation_army_movement_speed_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: military_formation_army_movement_speed_mult, near line: 313" in file: "common/mobilization_options/00_mobilization_option.txt" near line: 313
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: highest_ranked_commander, near line: 324" in file: "common/mobilization_options/00_mobilization_option.txt" near line: 331
 [19:20:37][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: military_formation_army_movement_speed_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: military_formation_army_movement_speed_mult, near line: 386" in file: "common/mobilization_options/00_mobilization_option.txt" near line: 386
