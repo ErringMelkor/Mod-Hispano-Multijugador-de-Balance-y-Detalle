@@ -1586,10 +1586,8 @@ ai_strategy_default = {
 					has_journal_entry = je_eastern_frontier
 					scope:target_state = {
 						OR = {
-							region = sr:region_persia
-							region = sr:region_central_asia
-							region = sr:region_bombay
-							region = sr:region_punjab
+							region = sr:region_greater_persia
+							region = sr:region_north_india
 						}
 						has_claim_by = ROOT
 					}
