@@ -32,7 +32,7 @@
 				limit = {
 					owner = { c:RUS ?= this}
 				}
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
+				set_ig_trait = ig_trait:ig_trait_farm_and_family
 				set_ig_trait = ig_trait:ig_trait_the_velvet_book
 				set_ig_trait = ig_trait:ig_trait_bad_boyars
 			}

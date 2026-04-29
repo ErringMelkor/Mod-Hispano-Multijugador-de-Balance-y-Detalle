@@ -137,6 +137,14 @@
 				set_ig_trait = ig_trait:ig_trait_mecelle
 				set_ig_trait = ig_trait:ig_trait_da_wat
 			}
+			else_if = {
+				limit = {
+					owner = { c:FRA ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_pious_fiction
+				set_ig_trait = ig_trait:ig_trait_divine_right
+				set_ig_trait = ig_trait:ig_trait_la_loi_royale
+			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
 				set_ig_trait = ig_trait:ig_trait_divine_right
