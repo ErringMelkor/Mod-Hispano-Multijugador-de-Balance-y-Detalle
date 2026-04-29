@@ -13,7 +13,34 @@
 		imposing
 	}
 	on_created = {
+		set_variable = {
+            name = is_nicky1
+        }
 		set_variable = is_married
+	}
+	trait_generation = {
+
+	}
+}
+
+RUS_alexander_ii = { #Alexander II, son of Nicholas I
+	first_name = Aleksandr
+	last_name = Romanov
+	historical = yes
+	culture = primary_culture
+	heir = yes
+	birth_date = 1818.4.29
+	dna = dna_tsar_alexander_02
+	interest_group = ig_industrialists
+	ideology = ideology_market_liberal
+	traits = {
+		meticulous
+		romantic
+	}
+	on_created = {
+		set_variable = {
+            name = is_sasha2
+        }
 	}
 	trait_generation = {
 
