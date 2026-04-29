@@ -1058,6 +1058,36 @@ pre_dreadnought_tech = {
 	}
 }
 
+dreadnought_tech = {
+	# Unlocks Dreadnoughts PM in Naval Bases
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/dreadnought.dds"
+	category = military
+
+	modifier = {
+		# increased coal consumption
+		# increased offense and defense?
+
+		# prestige bonus? Or a prestige bonus to overall naval size. Could apply this to mahanian_thought instead.
+	}
+
+	unlocking_technologies = {
+		pre_dreadnought_tech
+		sea_lane_strategies
+		concrete_dockyards
+	}
+
+	ai_weight = {
+		value = 1
+
+		# Important for naval powers
+		if = {
+			limit = { navy_size >= 20 }
+			add = 0.5
+		}
+	}
+}
+
 steel_frame_armor = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/ironclad_tech.dds"
@@ -1273,13 +1303,13 @@ mobile_armor = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
 	category = military
-	
-	unlocking_technologies = {	
+
+	unlocking_technologies = {
 		military_aviation
 		concrete_fortifications
 		nco_training
 	}
-	
+
 	ai_weight = {
 		value = 1.5 # Important tech in general
 	}
