@@ -44,4 +44,14 @@ Scripted Triggers #Hecho
 
 Map Data #Hecho
 
+[15:21:12][pdx_gui_widget.cpp:2295]: gui/military_formation_panel.gui:1123 - Property 'datamodel'(1002) not handled
+[15:21:12][pdx_gui_factory.cpp:1658]: gui/military_formation_panel.gui:1121 - Error setting properties for '' (dynamicgridbox)
+[15:21:12][pdx_gui_widget.cpp:2295]: gui/military_formation_panel.gui:1143 - Property 'datamodel'(1002) not handled
+[15:21:12][pdx_gui_factory.cpp:1658]: gui/military_formation_panel.gui:1141 - Error setting properties for '' (dynamicgridbox)
+[15:21:14][pdx_gui_factory.cpp:1620]: gui/outliner_pinnable_types.gui:857 - untyped is not a valid type
+
+
+[15:21:18][ai_goal_utils.cpp:1558]: No valid strait access status. Does AI Strategies have a script value for them?
+[15:21:18][ai_goal_utils.cpp:1613]: No valid strait access permissions. Does AI Strategies have a script value for them?
+[15:21:18][ai_goal_utils.cpp:1665]: No valid toll rate. Does AI Strategies have a script value for them?
 
