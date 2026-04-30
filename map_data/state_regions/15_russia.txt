@@ -120,6 +120,7 @@ STATE_KUOPIO = {
         building_hardwood_logging = 2
         building_iron_mine = 11
     }
+    naval_exit_id = 3000
 }
 
 STATE_UUSIMAA = {
@@ -286,7 +287,7 @@ STATE_INGRIA = {
         building_logging_camp = 25
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3082
+    naval_exit_id = 3000
 }
 
 STATE_MOSCOW = {

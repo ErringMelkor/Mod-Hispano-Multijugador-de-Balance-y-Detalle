@@ -119,7 +119,7 @@ STATE_CORSICA = {
         building_logging_camp = 6
         building_fishing_wharf = 7
     }
-    naval_exit_id = 3098
+    naval_exit_id = 3032
 }
 
 STATE_CAMPANIA = {
