@@ -6,11 +6,11 @@
 	is_basic_order_type = yes
 
 	visible = {
-		has_role = admiral
+		has_role_of_type = admiral
 	}
 
     possible = {
-		has_role = admiral
+		has_role_of_type = admiral
     }
 
 	clicksound = "event:/SFX/UI/Military/order_admiral_blockade"

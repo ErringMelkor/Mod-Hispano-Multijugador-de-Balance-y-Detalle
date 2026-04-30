@@ -261,7 +261,7 @@ REPLACE_OR_CREATE:ideology_jacksonian_democrat = {
 
 	non_interest_group_leader_trigger = {
 		NAND = {
-			has_role = agitator
+			has_role_of_type = agitator
 			owner = {
 				has_law_or_variant = law_type:law_racial_segregation
 				has_law_or_variant = law_type:law_legacy_slavery

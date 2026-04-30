@@ -3165,7 +3165,7 @@ on_new_ruler = {
 					}
 					if = { # Sitting Emperors don't need this role
 						limit = {
-							has_role = character_role_emperor_of_japan
+							has_role_of_type = character_role_emperor_of_japan
 						}
 						remove_character_role = character_role_emperor_of_japan
 					}

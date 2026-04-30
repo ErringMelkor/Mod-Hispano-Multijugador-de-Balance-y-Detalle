@@ -9,7 +9,7 @@ the military type this order applies to, must be either army or navy
 check to determine if this order should be visible for the given commander
 
 	visible = {
-		has_role = general
+		has_role_of_type = general
 	}
 
 check to determine if it should be possible to select this order for the given commander
@@ -18,7 +18,7 @@ unlock specific orders by parsing has_trait triggers; this means that e.g. NOT =
 could be parsed as if the child trait unlocks, rather than blocks, an Order
 
 	possible = {
-		has_role = general
+		has_role_of_type = general
 		has_trait = cautious
 	}
 

@@ -6,11 +6,11 @@
 	is_basic_order_type = yes
 
 	visible = {
-		has_role = admiral
+		has_role_of_type = admiral
 	}
 
     possible = {
-		has_role = admiral
+		has_role_of_type = admiral
     }
 
 	modifier = {
@@ -37,11 +37,11 @@ escort_convoys_advanced = {
 	behavior = escort_convoys
 
 	visible = {
-		has_role = admiral
+		has_role_of_type = admiral
 	}
 
     possible = {
-		has_role = admiral
+		has_role_of_type = admiral
 		OR = {
 			has_trait = basic_naval_commander
 			has_trait = experienced_naval_commander

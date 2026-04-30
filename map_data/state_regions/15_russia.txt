@@ -624,7 +624,7 @@ STATE_ROSTOV = {
         building_logging_camp = 7
         building_fishing_wharf = 4
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_PERM = {
@@ -901,7 +901,7 @@ STATE_TAURIDA = {
         building_logging_camp = 8
         building_fishing_wharf = 12
     }
-    naval_exit_id = 3036
+    naval_exit_id = 3094
 }
 
 STATE_TAMBOV = {
