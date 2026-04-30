@@ -465,27 +465,8 @@ STATE_CHONGQING = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 5
     }
-}
-
-STATE_GUANGDONG = {
-    id = 497
-    subsistence_building = "building_subsistence_rice_farm"
-    provinces = { "x156AC0" "x19FD82" "x260389" "x2BDE7B" "x2C4C48" "x30B0E0" "x3131E0" "x475968" "x477755" "x489AB0" "x4E581C" "x62BF42" "x7131E0" "x85E0D4" "x8C9358" "x9A21B1" "xA92B88" "xA9B6D4" "xB031E0" "xB0B061" "xC77200" "xCB457A" "xDC137A" "xF0B061" "xF98B04" "xFEBFD5" }
-    traits = { "state_trait_pearl_river" "state_trait_natural_harbors" }
-    city = "x2BDE7B"
-    port = "xB031E0"
-    farm = "xFEBFD5"
-    mine = "x30B0E0"
-    wood = "xA92B88"
-    arable_land = 330
-    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
-    capped_resources = {
-        building_logging_camp = 8
-        building_fishing_wharf = 14
-    }
-    naval_exit_id = 3056
 }
 
 STATE_FUJIAN = {
@@ -1436,3 +1417,63 @@ STATE_PYONGYANG = {
     }
     naval_exit_id = 3138
 }
+
+STATE_GUANGDONG = {
+    id = 497
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x19FD82" "x260389" "x2BDE7B" "x2C4C48" "x3131E0" "x475968" "x477755" "x489AB0" "x4E581C" "x7131E0" "x85E0D4" "x8C9358" "x9A21B1" "xA9B6D4" "xB031E0" "xB0B061" "xC77200" "xF0B061" "xF98B04" "xFEBFD5" }
+    traits = { "state_trait_pearl_river" }
+    city = "x2BDE7B"
+    port = "xB031E0"
+    farm = "xFEBFD5"
+    mine = "x2C4C48"
+    wood = "x260389"
+    arable_land = 265
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_logging_camp = 38
+        building_fishing_wharf = 16
+        building_coal_mine = 1
+        building_iron_mine = 14
+        building_sulfur_mine = 28
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 2
+    }
+    naval_exit_id = 3056
+}
+
+STATE_HAINAN = {
+    id = 5003
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x156AC0" "x30B0E0" "x62BF42" "xA92B88" "xCB457A" "xDC137A" }
+    city = "x156AC0"
+    port = "x30B0E0"
+    farm = "x62BF42"
+    mine = "xA92B88"
+    wood = "xCB457A"
+    arable_land = 35
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_logging_camp = 6
+        building_fishing_wharf = 12
+        building_iron_mine = 4
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 2
+    }
+    naval_exit_id = 3056
+}
+
