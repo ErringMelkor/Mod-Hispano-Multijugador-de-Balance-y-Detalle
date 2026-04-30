@@ -668,6 +668,15 @@ STATES = {
 		add_homeland = cu:dixie
 		add_homeland = cu:afro_american
 	}
+	s:STATE_DISTRICT_OF_COLUMBIA = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x700080 x44578c }
+		}
+
+		add_homeland = cu:dixie
+		add_homeland = cu:yankee
+	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {
 			country = c:USA
@@ -675,7 +684,28 @@ STATES = {
 		}
 
 		add_homeland = cu:dixie
+		add_homeland = cu:yankee
 	}
+	s:STATE_MARYLAND = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x708080 x0E3435 xAEB9F5 xF08000 x16482D x5E6C0F x888194 x576240 x3CC08F }
+		}
+
+		add_homeland = cu:dixie
+		add_homeland = cu:yankee
+	}
+
+	s:STATE_DELAWARE = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x708000 xeba646 }
+		}
+
+		add_homeland = cu:dixie
+		add_homeland = cu:yankee
+	}
+
 	s:STATE_PENNSYLVANIA = {
 		create_state = {
 			country = c:USA
@@ -697,6 +727,55 @@ STATES = {
 			country = c:USA
 			owned_provinces = { x00A080 x22BBD7 x6D1F7A x4A94CA x908040 x2B0E33 xD998BB x2938A5 x746E6F x1B1B01 x0212BC x6D8AAA xF82338 xBD8B8B x26D283 x6B3BE8 x4E0162 x3FEEB5 x33B258 xB90E0D x9EA280 x977A71 xCD3BFC xA53D3B x585A65 xBCB645 x999D9F x806000 x7A2E59 xA36021 x67EB18 x445F91 x34036E x50C040 x6F02DA xAD5337 x2FBF72 x543986 xEB7340 xF68D89 x108040 x7514E0 }
 		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_CONNECTICUT = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x3040C0 x7DE678 x9D3A73 }
+		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_RHODE_ISLAND = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x939ACE x1A77EA xc5ce93 }
+		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_MASSACHUSETTS = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { xA58ED2 x211ECF x13444D x382709 xB040C0 x8D8744 }
+		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_VERMONT = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { xB0C040 x34FFC4 x142566 x30F1AF x3FA10D x38CCDA }
+		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_NEW_HAMPSHIRE = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x30C040 xBB7965 x1DC591 xDB930D x3E6BAD xD871BE x2B5499 xB16D83 x92CF0F }
+		}
+
+		add_homeland = cu:yankee
+	}
+	s:STATE_MAINE = {
+		create_state = {
+			country = c:USA
+			owned_provinces = { x6B3A42 xF2502E x1CA7B0 xBD7C03 x6AE419 xC2B02B xC4CDFC x8F9450 xD68A28 x990681 x54816B xD64964 xEFC355 x7182E8 xFBEDD6 x8243C0 x59DEDF xFB9715 x262924 x6E757B xFCFF52 xF080C0 xA5DE9D x441473 x5806F4 x1E33E8 xB04040 }
+		}
+
 		add_homeland = cu:yankee
 	}
 	s:STATE_NORTH_CAROLINA = {
@@ -7094,7 +7173,7 @@ STATES = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = {
-				x0BB1FD x0CD56E x0FA31C x1628E7 x1A96D6 x1CA516 x1CBDEB x1E2B5B x1E766C x1FFCB8 x200F1E x20B9B8 x25425B x26CFB7 x28A469 x2A3BA7 x2A8941 x2FB9C1 x31DB5B x35E5A6 x3CC0FB x3CE40F x420171 x429A2D x46C752 x48D0ED x4E6196 x51C8FE x5EBA61 x5F68D6 x619172 x64D221 x66C5EF x677428 x6C0FF5 x6DFA0C x7214AC x7F54BB x83F3D4 x8469FE x85EDAB x8B7A5E x8C62C2 x935523 x98562F x989A23 xA2B075 xA2D436 xA4641B xA6E1B1 xA9C393 xAD8661 xB1C68F xB4ABCE xBD5671 xC6A067 xCF5A60 xD00924 xD4F3DE xDB53A0 xDED72F xE03060 xE6B547 xE78B94 xED5B03 xF91EB1 xF97B78 xFB886B xFD3127
+				x0BB1FD x0CD56E x0FA31C x1628E7 x1A96D6 x1CA516 x1CBDEB x1E2B5B x1E766C x1FFCB8 x200F1E x20B9B8 x25425B x26CFB7 x28A469 x2A3BA7 x2A8941 x2FB9C1 x31DB5B x35E5A6 x3CC0FB x3CE40F x420171 x429A2D x46C752 x48D0ED x4E6196 x51C8FE x5EBA61 x5F68D6 x619172 x64D221 x66C5EF x677428 x6C0FF5 x6DFA0C x7214AC x7F54BB x83F3D4 x8469FE x85EDAB x8B7A5E x8C62C2 x935523 x98562F x989A23 xA2B075 xA2D436 xA4641B xA6E1B1 xA9C393 xAD8661 xB1C68F xB4ABCE xC6A067 xCF5A60 xD00924 xD4F3DE xDB53A0 xDED72F xE03060 xE6B547 xE78B94 xED5B03 xF91EB1 xF97B78 xFB886B xFD3127
 			}
 		}
 
@@ -7129,6 +7208,22 @@ STATES = {
 		}
 
 		add_homeland = cu:han
+	}
+	s:STATE_GUANGDONG = {
+		create_state = {
+			country = c:CHI
+			owned_provinces = { x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
+		}
+		create_state = {
+			country = c:POR
+			owned_provinces = { xB031E0 }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:yue
+		add_homeland = cu:min
+		add_homeland = cu:han
+		add_homeland = cu:miao
 	}
 	s:STATE_FUJIAN = {
 		create_state = {
@@ -8907,62 +9002,4 @@ STATES = {
 		}
 	    add_homeland = cu:tibetan
 	}
-
-	### MOD ###
-
-	s:STATE_GUANGDONG = {
-		create_state = {
-			country = c:CHI
-			owned_provinces = { x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
-		}
-		create_state = {
-			country = c:POR
-			owned_provinces = { xB031E0 }
-			state_type = unincorporated
-		}
-
-		add_homeland = cu:yue
-		add_homeland = cu:min
-		add_homeland = cu:han
-		add_homeland = cu:miao
-	}
-	s:STATE_HAINAN = {
-		create_state = {
-			country = c:CHI
-			owned_provinces = { "x156AC0" "x30B0E0" "x62BF42" "xA92B88" "xCB457A" "xDC137A" }
-		}
-		add_homeland = cu:min
-		add_homeland = cu:zhuang
-		add_homeland = cu:miao
-	}
-
-	s:STATE_GREATER_MASSACHUSETTS = {
-		create_state = {
-			country = c:USA
-			owned_provinces = { xA58ED2 x211ECF x13444D x382709 xB040C0 x8D8744 x939ACE x1A77EA xc5ce93 x3040C0 x7DE678 x9D3A73 }
-		}
-		
-		add_homeland = cu:yankee
-	}
-	s:STATE_NEW_ENGLAND = {
-		create_state = {
-			country = c:USA
-			owned_provinces = { xB0C040 x34FFC4 x142566 x30F1AF x3FA10D x38CCDA x30C040 xBB7965 x1DC591 xDB930D x3E6BAD xD871BE x2B5499 xB16D83 x92CF0F x6B3A42 xF2502E x1CA7B0 xBD7C03 x6AE419 xC2B02B xC4CDFC x8F9450 xD68A28 x990681 x54816B xD64964 xEFC355 x7182E8 xFBEDD6 x8243C0 x59DEDF xFB9715 x262924 x6E757B xFCFF52 xF080C0 xA5DE9D x441473 x5806F4 x1E33E8 xB04040 }
-		}
-		
-		add_homeland = cu:yankee
-	}	
-	s:STATE_GREATER_MARYLAND = {
-		create_state = {
-			country = c:USA
-			owned_provinces = { x708080 x0E3435 xAEB9F5 xF08000 x16482D x5E6C0F x888194 x576240 x3CC08F x708000 xeba646 x700080 x44578c }
-		}
-		add_homeland = cu:dixie	
-	}
-
-
-
-
 }
-
-
