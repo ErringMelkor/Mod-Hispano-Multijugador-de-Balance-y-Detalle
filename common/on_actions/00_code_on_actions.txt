@@ -553,6 +553,9 @@ on_monthly_pulse_country = {
 		# Sweden
 		sweden_monarchy.2
 		sweden_monarchy.3
+
+		# Japan
+		japan_monarchy.5
 	}
 
 	effect = {
@@ -2745,10 +2748,6 @@ on_character_death = {
 									c:JAP ?= {
 										set_variable = { name = emperor_var value = PREV }
 									}
-									add_career_length = {
-										years = 75
-										random_range = { 1.0 1.5 } # 75-100 years
-									}
 									if = {
 										limit = {
 											c:JAP ?= { has_variable = one_emperor_one_era }
@@ -2787,10 +2786,6 @@ on_character_death = {
 									c:JAP ?= {
 										set_variable = { name = emperor_var value = PREV }
 									}
-									add_career_length = {
-										years = 75
-										random_range = { 1.0 1.5 } # 75-100 years
-									}
 									set_first_name = Meiji
 								}
 							}
@@ -2822,10 +2817,6 @@ on_character_death = {
 									c:JAP ?= {
 										set_variable = { name = emperor_var value = PREV }
 									}
-									add_career_length = {
-										years = 75
-										random_range = { 1.0 1.5 } # 75-100 years
-									}
 									set_first_name = Taisho
 								}
 							}
@@ -2855,10 +2846,6 @@ on_character_death = {
 								on_created = {
 									c:JAP ?= {
 										set_variable = { name = emperor_var value = PREV }
-									}
-									add_career_length = {
-										years = 75
-										random_range = { 1.0 1.5 } # 75-100 years
 									}
 									set_first_name = Showa
 								}
@@ -3147,37 +3134,6 @@ on_new_ruler = {
 						}
 					}
 					character_japan_ruler_succession_chain_effect = yes
-					if = {
-						limit = {
-							has_variable = house_yamato
-						}
-						c:JAP ?= {
-							set_variable = { name = emperor_var value = PREV }
-						}
-						if = {
-							limit = {
-								NOT = {
-									has_trait = special_character_japanese_emperor
-								}
-							}
-							add_trait = special_character_japanese_emperor
-						}
-					}
-					if = { # Sitting Emperors don't need this role
-						limit = {
-							has_role_of_type = character_role_emperor_of_japan
-						}
-						remove_character_role = character_role_emperor_of_japan
-					}
-					if = { # Marks the Shogun as the Shogun
-						limit = {
-							owner = {
-								has_gov_regency = no
-								has_law = law_type:law_bakufu
-							}
-						}
-						set_variable = shogun_var
-					}
 				}
 			}
 

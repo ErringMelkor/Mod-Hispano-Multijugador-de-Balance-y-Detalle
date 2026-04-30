@@ -7006,7 +7006,6 @@ movement_modernizer = { # This movement loves you and wants you to succeed. It e
 		ideology_protectionist
 		ideology_market_liberal
 		ideology_abolitionist
-		ideology_samurai_modernizer
 	}
 
 	creation_trigger = {

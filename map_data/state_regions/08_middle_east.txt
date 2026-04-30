@@ -204,11 +204,6 @@ STATE_LEBANON = {
         building_coal_mine = 44
         building_logging_camp = 2
         building_hardwood_logging = 3 #Excepción histórica.
-
-
-
-
-
         building_fishing_wharf = 5
     }
     naval_exit_id = 3034

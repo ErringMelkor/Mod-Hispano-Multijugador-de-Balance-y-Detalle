@@ -566,7 +566,8 @@
 
 	NUM_DAYS_TO_REMEMBER_FAILED_FRONT_OR_HQ_ASSIGNMENT = 10 				# For how many days should the AI remember failing to assign a general to a front or HQ (and thus not try with that front again)
 	NUM_DAYS_TO_REMEMBER_FAILED_SUPPLY_ROUTE = 30 							# For how many days should the AI remember that a formation failed to find a supply route to a target
-
+	NUM_DAYS_TO_REMEMBER_FAILED_NAVAL_INVASION = 100 						# For how many days should the AI remember that a regular formation failed to launch a naval invasion
+	
 	# If a front is worth less than this, the AI will not assign any generals to it
 	FRONT_OR_HQ_IMPORTANCE_MIN_SCORE = 50
 
@@ -1240,6 +1241,15 @@
 	HUNT_PIRATES_SCORING_FLEET_DETECTION_RATIO_MULT = 2.0 			# Favor fleets with high detection for hunting pirates
 	HUNT_PIRATES_SCORING_FLEET_SCREENING_RATIO_MULT = 1.0 			# Favor fleets with high screening ratio for pirate hunting patrols
 	HUNT_PIRATES_MIN_HOSTILITY_MULT = 0.25							# Minimum multiplier for hunt pirates scoring during hostilities. Prevents AI from completely abandoning pirate hunting during war.
+	HUNT_PIRATES_AT_WAR_MULT = 0.25									# Additional multiplier applied to hunt pirates scoring when at war
+
+	PIRACY_SCORING_FLEET_SPEED_VISIBILITY_RATIO_ADJUSTER = 1.0 	# If the score seems to end up being too high for piracy, lower this oen
+	PIRACY_SCORING_FLEET_SPEED_VISIBILITY_RATIO_MULT = 2.0 		# Favor fleets with as much goods per visibility for pirates
+	PIRACY_NO_HOSTILITIES_MULT = 1.0 							# Multiplied with shipping lane score when we have no hostilities currently
+	PIRACY_HOSTILITIES_MULT = 0.5 								# Multiplied with shipping lane score when we have hostilities currently
+
+	PRIVATEER_SCORING_FLEET_SPEED_VISIBILITY_RATIO_ADJUSTER = 1.0 	# If the score seems to end up being too high for privateer, lower this oen
+	PRIVATEER_SCORING_FLEET_SPEED_VISIBILITY_RATIO_MULT = 2.0 		# Favor fleets with as much goods per visibility for privateers
 
 	PORT_BOMBARDMENT_NAVAL_HOSTILITIES_MULT = 2.0 					# Multiplied with coast score when we are in naval hostilities with coast owner
 	PORT_BOMBARDMENT_FULL_HOSTILITIES_MULT = 0.5 					# Multiplied with coast score when we are in full hostilities with coast owner

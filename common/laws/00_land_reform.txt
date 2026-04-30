@@ -170,7 +170,7 @@ law_tenant_farmers = {
 		interest_group_ig_landowners_pol_str_mult = 0.25
 		state_peasants_internal_migration_disallowed_bool = yes
 		state_minimum_incorporated_subsistence_arable_land_add = 0.25
-		building_minimum_incorporated_subsistence_employment_add = 0.25
+		#building_minimum_incorporated_subsistence_employment_add = 0.25
 	}
 
 	on_enact = {
@@ -229,7 +229,8 @@ law_french_tenancy = {
 	modifier = {
 		state_peasants_internal_migration_disallowed_bool = yes
 		state_minimum_incorporated_subsistence_arable_land_add = 0.65
-		building_minimum_incorporated_subsistence_employment_add = 0.65
+		#building_minimum_incorporated_subsistence_employment_add = 0.65
+		
 	}
 
 	is_visible = {
@@ -406,7 +407,7 @@ law_peasant_proprietorship = { # Homesteading for old world countries
 		building_group_bg_ranching_allowed_collectivization_add = 0.25
 		country_financial_districts_buy_farms_likelihood = 0.25
 		state_minimum_incorporated_subsistence_arable_land_add = 0.35
-		building_minimum_incorporated_subsistence_employment_add = 0.25
+		#building_minimum_incorporated_subsistence_employment_add = 0.25
 	}
 
 	on_enact = {
@@ -520,7 +521,7 @@ law_homesteading = {
 		building_group_bg_agriculture_allowed_collectivization_add = 0.35
 		building_group_bg_ranching_allowed_collectivization_add = 0.35
 		state_minimum_incorporated_subsistence_arable_land_add = 0.35
-		building_minimum_incorporated_subsistence_employment_add = 0.25
+		#building_minimum_incorporated_subsistence_employment_add = 0.25
 	}
 
 	on_enact = {
@@ -813,7 +814,6 @@ law_obshchina = {
 		state_peasants_mass_migration_disallowed_bool = yes
 
 		state_minimum_incorporated_subsistence_arable_land_add = 0.25
-		building_minimum_incorporated_subsistence_employment_add = 0.25
 
 		building_group_bg_subsistence_agriculture_allowed_collectivization_add = 0.25
 		building_group_bg_subsistence_ranching_allowed_collectivization_add = 0.1
@@ -885,7 +885,6 @@ law_multipolar_serfdom = {
 		state_peasants_mass_migration_disallowed_bool = yes
 
 		state_minimum_incorporated_subsistence_arable_land_add = 0.75
-		building_minimum_incorporated_subsistence_employment_add = 0.5
 	}
 
 	# AI should never try to bring back serfdom

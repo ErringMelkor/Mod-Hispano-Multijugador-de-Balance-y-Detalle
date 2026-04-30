@@ -59,10 +59,13 @@ can_start_diplomatic_plays_against = {
 	}
 
 	OR = {
-		highest_overlapping_interest_tier = { target = scope:target_country value >= interest_tier_effect_can_start_diplomatic_plays_min_tier }
+		has_strategic_region_interest_tier = {
+			strategic_region = scope:region
+			value >= interest_tier_effect_can_start_diplomatic_plays_min_tier
+		}
 		is_direct_subject_of = scope:target_country
 		scope:target_country = { is_direct_subject_of = root }
-	}	
+	}
 
 	NOT = {
 		scope:target_country = {
@@ -100,7 +103,10 @@ can_join_side_in_diplomatic_play = {
 	}
 
 	OR = {
-		highest_overlapping_interest_tier = { target = scope:target_country value >= interest_tier_effect_can_join_diplomatic_plays_min_tier }
+		has_strategic_region_interest_tier = {
+			strategic_region = scope:region
+			value >= interest_tier_effect_can_join_diplomatic_plays_min_tier
+		}
 		is_direct_subject_of = scope:enemy_country
 		scope:enemy_country = { is_direct_subject_of = root }
 		is_direct_subject_of = scope:target_country
@@ -217,9 +223,9 @@ can_threaten_naval_hostilities = {
 			}
 		}
 	}
-	
+
 	"relations(scope:other_country)" < relations_threshold:cordial
-	NOR = { 
+	NOR = {
 		is_diplomatic_play_ally_of = scope:other_country
 		any_scope_treaty = {
 			binds = scope:other_country
