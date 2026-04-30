@@ -376,7 +376,7 @@ STATE_INDIAN_OCEAN_TERRITORY = {
         building_whaling_station = 5
         building_fishing_wharf = 10
     }
-    naval_exit_id = 3111
+    naval_exit_id = 3108
 }
 
 STATE_ORISSA = {
@@ -497,7 +497,7 @@ STATE_MADRAS = {
         type = "building_rubber_plantation"
         undiscovered_amount = 7
     }
-    naval_exit_id = 3049
+    naval_exit_id = 3050
 }
 
 STATE_KURNOOL = {
@@ -555,7 +555,7 @@ STATE_BOMBAY = {
         building_coal_mine = 12
         building_iron_mine = 36
     }
-    naval_exit_id = 3048
+    naval_exit_id = 3049
 }
 # Burma
 
