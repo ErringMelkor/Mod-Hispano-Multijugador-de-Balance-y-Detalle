@@ -1,0 +1,16 @@
+Changelog Versión 1.13 #01-05-26
+
+Actualizado el mod a la 1.13.
+Revertidos los Estados de USA y China al Vanilla hasta que sean funcionales de nuevo.
+
+Economía:
+	Ajustados los métodos secundarios de las granjas para que sean equitativos en eficiencia (no se "pierde valor" al usarlos).
+
+	Campamentos de Madera Dura: 20/35/55 -> 25/40/60
+	
+	Necesidades de las Pops:
+		Peso del Pescado en Comida de Lujo: 0.35 -> 0.425
+
+
+
+

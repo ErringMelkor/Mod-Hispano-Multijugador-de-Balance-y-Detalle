@@ -78,7 +78,7 @@ je_age_of_alexander_ii = {
 	}
 
 	weight = 1000
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 #Guerra y Paz

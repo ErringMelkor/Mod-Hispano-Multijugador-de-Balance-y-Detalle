@@ -84,7 +84,7 @@
 	weight = 100
 
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_acw_war = {
@@ -122,7 +122,7 @@ je_acw_war = {
 	}
 
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	can_revolution_inherit = no
 
@@ -162,7 +162,7 @@ je_acw_reconstruction = {
 	timeout = 4380
 
 	
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	on_timeout = {
 		trigger_event = { id = acw_je_events.3 }
@@ -299,7 +299,7 @@ je_acw_reincorporate = {
 	}
 
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_acw_equality = {
@@ -354,7 +354,7 @@ je_acw_equality = {
 	}
 
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_acw_wild_wild_west = {
@@ -450,5 +450,5 @@ je_acw_wild_wild_west = {
 
 	timeout = 4380
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

@@ -246,7 +246,7 @@ je_sick_man_egypt = {
 	weight = 5000
 
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_sick_man_economy = {
@@ -283,7 +283,7 @@ je_sick_man_economy = {
 
 	weight = 5000
 		
-	should_be_pinned_by_default_uninvolved_or_context_uninvolved_or_context = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 # Literacy and Universities
