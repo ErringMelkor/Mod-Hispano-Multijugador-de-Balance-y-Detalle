@@ -11,6 +11,13 @@ Economía:
 	Necesidades de las Pops:
 		Peso del Pescado en Comida de Lujo: 0.35 -> 0.425
 
+Países:
+	Otomanos:
+		Modificado el Rasgo de Grupo de Interés "Effendi": 10% prestigio -> 25% velocidad al cambio de las instituciones.
+
+		Entrada de Diario "El Enfermo de Europa":
+			Recompensa "Auge Agrario": 10% a la eficiencia de inversión de los Aristócratas -> 25%
+			Recompensa por completarla con éxito: 15% de lealistas de cultura turca; 35% a la atracción política de la y 50% a su fuerza política Intelligentsia por 15 años con decaída.
 
 
 

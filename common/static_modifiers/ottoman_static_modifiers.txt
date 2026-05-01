@@ -43,7 +43,7 @@ sponsored_state_jihad  = {
 ottoman_rural_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/unused/modifier_explosion_positive.dds
 	building_group_bg_agriculture_mortality_mult = -0.1
-	state_aristocrats_investment_pool_efficiency_mult = 0.1
+	state_aristocrats_investment_pool_efficiency_mult = 0.25
 	state_farmers_investment_pool_efficiency_mult = 0.25
 }
 
@@ -52,5 +52,12 @@ ottoman_industrial_boom = {
 
 	state_construction_mult = 0.1
 	state_capitalists_investment_pool_efficiency_mult = 0.1
+}
+
+ottomanism_popular = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.35
+	interest_group_ig_intelligentsia_pol_str_mult = 0.5
 }
 

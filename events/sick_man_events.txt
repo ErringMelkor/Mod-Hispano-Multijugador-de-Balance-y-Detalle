@@ -115,6 +115,17 @@ sick_man.2 = {
 			months = 180
 			is_decaying = yes
 		}
+
+		add_modifier = {
+			name = ottomanism_popular
+			months = 180
+			is_decaying = yes
+		}
+
+		add_loyalists = {
+			value = 0.15
+			culture = cu:turkish
+		}
 	}
 	option = {
 		name = sick_man.2.b
@@ -166,6 +177,17 @@ sick_man.2 = {
 			name = major_explosion_demografica
 			months = 180
 		}
+
+		add_modifier = {
+			name = ottomanism_popular
+			months = 180
+			is_decaying = yes
+		}
+
+		add_loyalists = {
+			value = 0.15
+			culture = cu:turkish
+		}
 	}
 	option = {
 		name = sick_man.2.c
@@ -180,6 +202,17 @@ sick_man.2 = {
 			name = major_explosion_demografica
 			months = 180
 			is_decaying = yes
+		}
+
+		add_modifier = {
+			name = ottomanism_popular
+			months = 180
+			is_decaying = yes
+		}
+
+		add_loyalists = {
+			value = 0.15
+			culture = cu:turkish
 		}
 	}
 	option = {
@@ -196,6 +229,17 @@ sick_man.2 = {
 			months = 180
 			is_decaying = yes
 		}
+
+		add_modifier = {
+			name = ottomanism_popular
+			months = 180
+			is_decaying = yes
+		}
+
+		add_loyalists = {
+			value = 0.15
+			culture = cu:turkish
+		}
 	}
 	option = {
 		name = sick_man.2.e
@@ -210,6 +254,17 @@ sick_man.2 = {
 			name = major_explosion_demografica
 			months = 180
 			is_decaying = yes
+		}
+
+		add_modifier = {
+			name = ottomanism_popular
+			months = 180
+			is_decaying = yes
+		}
+
+		add_loyalists = {
+			value = 0.15
+			culture = cu:turkish
 		}
 	}
 }
