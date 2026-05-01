@@ -265,7 +265,7 @@ formation.4 = {
 		}
 
 		add_modifier = {
-			name = eth_explosion_demografica
+			name = ethiopian_unification
 			years = 30
 			is_decaying = yes
 		}

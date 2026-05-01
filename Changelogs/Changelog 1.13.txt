@@ -19,5 +19,8 @@ Países:
 			Recompensa "Auge Agrario": 10% a la eficiencia de inversión de los Aristócratas -> 25%
 			Recompensa por completarla con éxito: 15% de lealistas de cultura turca; 35% a la atracción política de la y 50% a su fuerza política Intelligentsia por 15 años con decaída.
 
-
+	Etiopía:
+		Reagregados sus bonos de contenido:
+			Territorio inicial con más recursos y tierra arable.
+			Bono por unificar Etiopía.
 
