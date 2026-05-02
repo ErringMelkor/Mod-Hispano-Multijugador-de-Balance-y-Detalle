@@ -190,11 +190,11 @@ company_mantetsu = {
 		has_technology_researched = railways
 		custom_tooltip = {
 			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+			has_variable = japan_restoration_complete
 		}
 		any_scope_state = {
 			OR = {
-				region = sr:region_manchuria
+				region = sr:region_northeast_asia
 				region = sr:region_north_china
 			}
 			any_scope_building = {

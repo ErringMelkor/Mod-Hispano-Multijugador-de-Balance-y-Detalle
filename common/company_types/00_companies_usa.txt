@@ -249,10 +249,10 @@ company_us_steel = {
 company_general_electric = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/american_general_electric.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
-	
+
 	flavored_company = yes
-	
-	preferred_headquarters = { STATE_GREATER_MASSACHUSETTS STATE_NEW_YORK }
+
+	preferred_headquarters = { STATE_MASSACHUSETTS STATE_NEW_YORK }
 
 	building_types = {
 		building_electrics_industry
@@ -266,27 +266,27 @@ company_general_electric = {
 	possible_prestige_goods = {
 		prestige_good_radiola_radios
 	}
-	
+
 	potential = {
 		has_interest_marker_in_region = sr:region_atlantic_coast
 	}
-	
+
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				OR = {
-					state_region = s:STATE_GREATER_MASSACHUSETTS
+					state_region = s:STATE_MASSACHUSETTS
 					state_region = s:STATE_NEW_YORK
 				}
 			}
 		}
-	}		
-	
+	}
+
 	possible = {
 		has_technology_researched = telephone
 		any_scope_state = {
 			OR = {
-				state_region = s:STATE_GREATER_MASSACHUSETTS
+				state_region = s:STATE_MASSACHUSETTS
 				state_region = s:STATE_NEW_YORK
 			}
 			is_incorporated = yes
@@ -296,11 +296,12 @@ company_general_electric = {
 			}
 		}
 	}
-	
+
 	prosperity_modifier = {
 		building_motor_industry_throughput_add = 0.1
 		country_weekly_innovation_mult = 0.05
 	}
+
 	ai_will_do = {
 		has_technology_researched = telephone
 		any_scope_state = {
@@ -337,9 +338,9 @@ company_william_cramp = {
 	
 	flavored_company = yes
 
-	preferred_headquarters = { STATE_NEW_JERSEY STATE_GREATER_MARYLAND }
-	
-	building_types = {  
+	preferred_headquarters = { STATE_NEW_JERSEY STATE_DELAWARE STATE_MARYLAND }
+
+	building_types = {
 		building_shipyard
 		building_motor_industry
 	}
@@ -357,22 +358,24 @@ company_william_cramp = {
 			any_scope_state = {
 				OR = {
 					state_region = s:STATE_NEW_JERSEY # This Should be Philly, but due to map issues that won't work
-					state_region = s:STATE_GREATER_MARYLAND
+					state_region = s:STATE_DELAWARE
+					state_region = s:STATE_MARYLAND
 				}
 			}
 		}
-	}		
-	
+	}
+
 	possible = {
 		has_technology_researched = gantry_cranes
 		any_scope_state = {
 			OR = {
 				state_region = s:STATE_NEW_JERSEY # This Should be Philly, but due to map issues that won't work
-				state_region = s:STATE_GREATER_MARYLAND
+				state_region = s:STATE_DELAWARE
+				state_region = s:STATE_MARYLAND
 			}
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_shipyard
+				is_building_type = building_shipyard
 				level >= 5
 			}
 		}
@@ -387,7 +390,8 @@ company_william_cramp = {
 		any_scope_state = {
 			OR = {
 				state_region = s:STATE_NEW_JERSEY # This Should be Philly, but due to map issues that won't work
-				state_region = s:STATE_GREATER_MARYLAND
+				state_region = s:STATE_DELAWARE
+				state_region = s:STATE_MARYLAND
 			}
 			is_incorporated = yes
 		}
@@ -399,7 +403,8 @@ company_william_cramp = {
 			state_trigger = {
 				OR = {
 					state_region = s:STATE_NEW_JERSEY # This Should be Philly, but due to map issues that won't work
-					state_region = s:STATE_GREATER_MARYLAND
+					state_region = s:STATE_DELAWARE
+					state_region = s:STATE_MARYLAND
 				}
 				is_incorporated = yes
 			}
@@ -415,9 +420,9 @@ company_william_cramp = {
 company_ford_motor = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/american_ford.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
-	
+
 	flavored_company = yes
-	
+
 	preferred_headquarters = { STATE_MICHIGAN }
 
 	building_types = {

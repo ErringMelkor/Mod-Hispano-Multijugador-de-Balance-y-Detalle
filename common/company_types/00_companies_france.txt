@@ -410,6 +410,7 @@ company_fcm = {
 
 	prosperity_modifier = {
 		ship_hull_damage_mult = 0.025
+		ship_crew_damage_mult = 0.025
 		unit_combat_unit_type_heavy_tank_offense_mult = 0.1
 	}
 

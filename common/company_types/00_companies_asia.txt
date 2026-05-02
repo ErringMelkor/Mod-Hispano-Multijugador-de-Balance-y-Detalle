@@ -133,8 +133,8 @@ company_imperial_arsenal = {
 	}
 
 	prosperity_modifier = {
-		unit_navy_offense_mult = 0.05
-		unit_navy_defense_mult = 0.10
+		ship_hit_points_max_mult = 0.05
+		ship_armor_mult = 0.05
 	}
 
 	ai_will_do = {
