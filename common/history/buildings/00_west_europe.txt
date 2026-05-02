@@ -307,7 +307,7 @@
 					building={
 						type="building_shipyard"
 						country="c:SWE"
-						levels=1
+						levels=2
 						region="STATE_SCANIA"
 					}
 				}
@@ -898,7 +898,7 @@
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -1035,12 +1035,12 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=6
+						levels=3
 						region="STATE_HOME_COUNTIES"
 					}
 					country={
 						country="c:GBR"
-						levels=4
+						levels=2
 					}
 				}
 				reserves=1
@@ -1188,7 +1188,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1
@@ -2454,6 +2454,17 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
+			create_building={ # Amalgamation of the four Ancient Universities of Scotland
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
@@ -2871,6 +2882,19 @@
 				reserves=1
 			}
 			create_building={
+				building="building_vineyard"
+				add_ownership={
+					building={
+						type="building_vineyard"
+						country="c:FRA"
+						levels=1
+						region="STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_construction_sector"
 				add_ownership={
 					country={
@@ -2922,18 +2946,37 @@
 					building={
 						type="building_furniture_manufactory"
 						country="c:FRA"
-						levels=8
+						levels=4
 						region="STATE_ILE_DE_FRANCE"
 					}
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=10
+						levels=8
 						region="STATE_ILE_DE_FRANCE"
 					}					
 				}
 				reserves=1
-				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_luxury_furniture" }
+				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_no_luxuries" }
+			}
+			create_building={
+				building="building_textile_mill"
+				add_ownership={
+					building={
+						type="building_textile_mill"
+						country="c:FRA"
+						levels=2
+						region="STATE_ILE_DE_FRANCE"
+					}
+					building={
+						type="building_financial_district"
+						country="c:FRA"
+						levels=3
+						region="STATE_ILE_DE_FRANCE"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_dye_workshops"  "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -5840,7 +5883,7 @@
 						type="building_financial_district"
 						country="c:AUS"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_BOHEMIA"
 					}
 				}
 				reserves=1
@@ -5859,7 +5902,7 @@
 						type="building_financial_district"
 						country="c:AUS"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_BOHEMIA"
 					}
 				}
 				reserves=1
@@ -5891,7 +5934,7 @@
 						type="building_financial_district"
 						country="c:AUS"
 						levels=1
-						region="STATE_AUSTRIA"
+						region="STATE_BOHEMIA"
 					}
 				}
 				reserves=1
@@ -5936,10 +5979,45 @@
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
+			create_building={
+				building="building_lead_mine"
+				add_ownership={
+					building={
+						type="building_lead_mine"
+						country="c:AUS"
+						levels=1
+						region="STATE_BOHEMIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 		}
 	}
 	s:STATE_MORAVIA={
 		region_state:AUS={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
 			create_building={
 				building="building_textile_mill"
 				add_ownership={
@@ -7106,8 +7184,12 @@
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
+					country={
+						country="c:PRU"
+						levels=2
+					}
 					building={
-						type="building_financial_district"
+						type="building_arms_industry"
 						country="c:PRU"
 						levels=1
 						region="STATE_BRANDENBURG"
