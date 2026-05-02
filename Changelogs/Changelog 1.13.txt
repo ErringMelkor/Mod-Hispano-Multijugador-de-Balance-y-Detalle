@@ -13,6 +13,8 @@ Economía:
 
 	Compañías:
 		Ajustados los modificadores navales a valores de la 1.13. Provisionales en tanto que no tenemos un buen entendimiento de cómo funciona el naval.
+		Compañía Agrícola Facenda Dumont: Su bien pasa a ser café de prestigio genérico.
+		Fedecafé: Nueva compañía para Nueva Granada.
 
 		India:
 			Compañía de Carbón de Bengala: 20% a la fuerza política de los Industrialistas -> 20% a la atracción política.
