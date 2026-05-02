@@ -20,7 +20,7 @@ company_CAFD = {
 	}
 	
 	potential = {
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:brazilian
 		}	
@@ -93,8 +93,8 @@ company_Alpargatas = {
 	
 	potential = {
 	    OR = {
-		has_interest_marker_in_region = region_brazil
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_brazil
+		has_interest_marker_in_region = sr:region_la_plata
 		}
 	}
 	
@@ -183,7 +183,7 @@ company_mondragon = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		
 		c:MEX ?= this
 	}
@@ -242,7 +242,7 @@ company_la_cruz_azul = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		
 		c:MEX ?= this
 	}
@@ -301,7 +301,7 @@ company_managem  = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_africa
+		has_interest_marker_in_region = sr:region_north_africa
 	}
 
 	attainable = {
@@ -364,7 +364,7 @@ company_lena_gold_mining_partnertship  = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_east_siberia
+		has_interest_marker_in_region = sr:region_northeast_asia
 	}
 
 	attainable = {
@@ -372,7 +372,7 @@ company_lena_gold_mining_partnertship  = {
 
 	possible = {
 		any_scope_state = {
-			region = sr:region_east_siberia
+			region = sr:region_northeast_asia
 			any_scope_building = {
 				is_building_type = building_gold_mine
 				level >= 5
@@ -396,7 +396,7 @@ company_lena_gold_mining_partnertship  = {
 		building_gold_mine = {
 			level = 5
 			state_trigger = {
-				region = sr:region_east_siberia
+				region = sr:region_northeast_asia
 			}
 		}
 	}

@@ -11,6 +11,14 @@ Economía:
 	Necesidades de las Pops:
 		Peso del Pescado en Comida de Lujo: 0.35 -> 0.425
 
+	Compañías:
+		Ajustados los modificadores navales a valores de la 1.13. Provisionales en tanto que no tenemos un buen entendimiento de cómo funciona el naval.
+
+		India:
+			Compañía de Carbón de Bengala: 20% a la fuerza política de los Industrialistas -> 20% a la atracción política.
+			Calcutta Electric: Infraestructura máxima por población: 12 -> 25. Industria eléctrica como extensión disponible.
+			Ralli Brothers: Bono de 10% al throughput del azufre -> 15%. Bono a la ventaja comercial: 5% -> 15%.
+
 Países:
 	Otomanos:
 		Modificado el Rasgo de Grupo de Interés "Effendi": 10% prestigio -> 25% velocidad al cambio de las instituciones.
