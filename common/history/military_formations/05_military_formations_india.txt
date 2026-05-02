@@ -1211,7 +1211,7 @@
 	c:DLH ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_punjab
+			hq_region = sr:region_north_india
 			name = DelhiArmy
 
 			combat_unit = {
@@ -1300,7 +1300,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_central_india
+			hq_region = sr:region_north_india
 			name = FrontierArmy
 
 			combat_unit = {
@@ -1323,7 +1323,7 @@
 			culture = cu:hindustani
 			interest_group = ig_armed_forces
 			historical = yes
-			hq = sr:region_central_india
+			hq_region = sr:region_north_india
 			commander_rank = commander_rank_3
 			age = 37
 			traits = {
@@ -1340,7 +1340,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_bombay
+			hq_region = sr:region_south_india
 			name = MarathaArmy
 
 			combat_unit = {
@@ -1384,7 +1384,6 @@
 			culture = cu:marathi
 			interest_group = ig_armed_forces
 			historical = yes
-			hq = sr:region_bombay
 			commander_rank = commander_rank_4
 			age = 32
 			traits = {
@@ -1402,7 +1401,6 @@
 			culture = cu:marathi
 			interest_group = ig_landowners
 			historical = yes
-			hq = sr:region_bombay
 			commander_rank = commander_rank_3
 			age = 52
 			traits = {
