@@ -158,8 +158,9 @@ je_sick_man_syria = {
 				OR = {
 					AND = {
 						exists = c:EGY
-						c:EGY = {
+						c:EGY ?= {
 							is_subject_of = ROOT
+							is_subject_type = subject_type_puppet
 						}
 					}
 					AND = {
@@ -170,7 +171,6 @@ je_sick_man_syria = {
 					}
 				}
 			}
-			custom_tooltip = je_sick_man_advance
 			change_variable = {
 				name = sick_man_var
 				add = 1
@@ -213,8 +213,9 @@ je_sick_man_egypt = {
 		OR = {
 			AND = {
 				exists = c:EGY
-				c:EGY = {
+				c:EGY ?= {
 					is_subject_of = ROOT
+					is_subject_type = subject_type_puppet
 				}
 			}
 			AND = {
@@ -331,6 +332,7 @@ je_sick_man_education = {
 
 	weight = 5000
 
+		
 	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	progressbar = yes
@@ -387,12 +389,10 @@ je_sick_man_separatism = {
 				c:TUR ?= this
 				has_dlc_feature = ip3_content
 				NOT = {
-					has_variable = eastern_crisis_happened
+					has_global_variable = eastern_crisis_happened
 				}
 			}
-			add_journal_entry = {
-				type = je_great_eastern_crisis
-			}
+			add_contextless_journal_entry = je_great_eastern_crisis
 		}
 	}
 
@@ -429,16 +429,16 @@ je_sick_man_army = {
 	complete = {
 		army_size >= 100
 		has_technology_researched = napoleonic_warfare
-			any_scope_building = {
+		any_scope_building = {
 			filter = {
-				is_building_type = building_barrack				
+				is_building_type = building_barrack
 			}
 			NOR = {
-					building_has_goods_shortage = yes
-					has_active_production_method = pm_no_organization
-				}
-			percent = 1
+				building_has_goods_shortage = yes
+				has_active_production_method = pm_no_organization
 			}
+			percent = 1
+		}
 		NOT = {
 			any_military_formation = {
 				filter = {
