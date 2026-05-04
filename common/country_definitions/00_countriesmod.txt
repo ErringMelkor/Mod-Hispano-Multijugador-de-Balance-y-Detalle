@@ -14,18 +14,6 @@ PEC = {
 	capital = STATE_SINDH
 }
 
-USA = {
-	color = { 66  94  193 }
-	
-	country_type = recognized
-	
-	tier = empire
-	
-	cultures = { yankee dixie }
-	capital = STATE_GREATER_MARYLAND
-
-}
-
 
 DLH = {
 	color = { 33 96 48 }
