@@ -121,7 +121,7 @@ REPLACE_OR_CREATE:building_white_house = {
 	}
 
 	potential = {
-		state_region = s:STATE_GREATER_MARYLAND
+		state_region = s:STATE_DISTRICT_OF_COLUMBIA
 	}
 
 	required_construction = construction_cost_monument

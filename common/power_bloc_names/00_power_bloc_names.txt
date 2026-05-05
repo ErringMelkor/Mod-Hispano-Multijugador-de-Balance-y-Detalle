@@ -432,7 +432,7 @@ convention_of_naples = {
 washington_convention = {
 	trigger = {
 	    scope:selected_identity = identity:identity_ideological_union
-	    any_scope_state = { state_region = s:STATE_GREATER_MARYLAND is_incorporated = yes }
+	    any_scope_state = { state_region = s:STATE_DISTRICT_OF_COLUMBIA is_incorporated = yes }
 	}
 }
 
