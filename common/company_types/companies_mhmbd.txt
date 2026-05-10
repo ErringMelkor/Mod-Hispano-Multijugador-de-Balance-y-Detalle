@@ -336,7 +336,6 @@ company_la_cruz_azul = {
 	}		
 	
 	possible = {
-		has_technology_researched = bolt_action_rifles
 		any_scope_state = {
 			state_region = s:STATE_MEXICO
 			is_incorporated = yes

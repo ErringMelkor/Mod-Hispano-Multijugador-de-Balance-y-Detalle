@@ -34,3 +34,13 @@ Países:
 			Territorio inicial con más recursos y tierra arable.
 			Bono por unificar Etiopía.
 
+
+Changelog Versión 1.13A #10-05-26
+
+Países
+
+	México:
+		La Cruz Azul no requiere de Rifles de Cerrojo. #wtf, por que necesitaba eso como concepto, se me quedó pillado de mondragón.
+		Mondragón en rifles de repetición #por hacer.
+
+		
