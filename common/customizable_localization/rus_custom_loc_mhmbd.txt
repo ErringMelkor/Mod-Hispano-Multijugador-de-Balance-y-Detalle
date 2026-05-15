@@ -6,13 +6,13 @@
 				leading_producer_of = g:fine_art
 			}
 		}
-		localization_key = nicholas_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			leading_producer_of = g:fine_art
 		}
-		localization_key = nicholas_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -22,13 +22,13 @@ nicholas_i_tech_checkbox = {
 		trigger = {
 			techs_researched < 58
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			techs_researched >= 58
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -38,13 +38,13 @@ nicholas_i_legitimacy_checkbox = {
 		trigger = {
 			government_legitimacy < 90
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			government_legitimacy >= 90
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -60,7 +60,7 @@ nicholas_i_movement_checkbox = {
 				political_movement_support >= 0.05
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -74,7 +74,7 @@ nicholas_i_movement_checkbox = {
 				}
 			}
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -88,7 +88,7 @@ nicholas_i_balkans_checkbox = {
 				country_or_subject_owns_entire_state_region = STATE_WALLACHIA
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -96,7 +96,7 @@ nicholas_i_balkans_checkbox = {
 			country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
 			country_or_subject_owns_entire_state_region = STATE_WALLACHIA
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -110,7 +110,7 @@ nicholas_i_eastern_anatolia_checkbox = {
 				country_or_subject_owns_entire_state_region = STATE_ERZURUM
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -118,7 +118,7 @@ nicholas_i_eastern_anatolia_checkbox = {
 			country_or_subject_owns_entire_state_region = STATE_TRABZON
 			country_or_subject_owns_entire_state_region = STATE_ERZURUM
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -133,7 +133,7 @@ nicholas_i_manchuria_checkbox = {
 				country_or_subject_owns_entire_state_region = STATE_OUTER_MANCHURIA
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -142,7 +142,7 @@ nicholas_i_manchuria_checkbox = {
 			country_or_subject_owns_entire_state_region = STATE_AMUR
 			country_or_subject_owns_entire_state_region = STATE_OUTER_MANCHURIA
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -154,13 +154,13 @@ nicholas_i_military_checkbox = {
 				army_power_projection >= 8000
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			army_power_projection >= 8000
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -181,7 +181,7 @@ nicholas_i_institutions_checkbox = {
 				}
 			}
 		}
-		localization_key = metternich_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -196,7 +196,7 @@ nicholas_i_institutions_checkbox = {
 				}
 			}
 		}
-		localization_key = metternich_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -206,13 +206,13 @@ alexander_ii_debt_checkbox = {
 		trigger = {
 			scaled_debt < 0.5
 		}
-		localization_key = alexander_ticked
+		localization_key = checkbox_ticked
 	}
 	text = {
 		trigger = {
 			scaled_debt > 0.5
 		}
-		localization_key = alexander_unticked
+		localization_key = checkbox_unticked
 	}
 }
 
@@ -226,7 +226,7 @@ alexander_ii_industralists_checkbox = {
 				}
 			}
 		}
-		localization_key = alexander_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
@@ -234,7 +234,7 @@ alexander_ii_industralists_checkbox = {
 				is_powerful = yes
 			}
 		}
-		localization_key = alexander_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -246,13 +246,13 @@ alexander_ii_commercialized_checkbox = {
 				has_law = law_type:law_commercialized_agriculture
 			}
 		}
-		localization_key = alexander_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			has_law = law_type:law_commercialized_agriculture
 		}
-		localization_key = alexander_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -264,13 +264,13 @@ alexander_ii_conscription_checkbox = {
 				has_law = law_type:law_mass_conscription
 			}
 		}
-		localization_key = alexander_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			has_law = law_type:law_mass_conscription
 		}
-		localization_key = alexander_ticked
+		localization_key = checkbox_ticked
 	}
 }
 
@@ -282,12 +282,12 @@ alexander_ii_autocracy_checkbox = {
 				has_law = law_type:law_autocracy
 			}
 		}
-		localization_key = alexander_unticked
+		localization_key = checkbox_unticked
 	}
 	text = {
 		trigger = {
 			has_law = law_type:law_autocracy
 		}
-		localization_key = alexander_ticked
+		localization_key = checkbox_ticked
 	}
 }
