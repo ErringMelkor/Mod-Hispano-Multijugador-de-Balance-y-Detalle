@@ -443,7 +443,7 @@ company_lena_gold_mining_partnertship  = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = sr:region_northeast_asia
+		has_interest_marker_in_region = sr:region_siberia
 	}
 
 	attainable = {
@@ -451,7 +451,7 @@ company_lena_gold_mining_partnertship  = {
 
 	possible = {
 		any_scope_state = {
-			region = sr:region_northeast_asia
+			region = sr:region_siberia
 			any_scope_building = {
 				is_building_type = building_gold_mine
 				level >= 5
@@ -475,7 +475,7 @@ company_lena_gold_mining_partnertship  = {
 		building_gold_mine = {
 			level = 5
 			state_trigger = {
-				region = sr:region_northeast_asia
+				region = sr:region_siberia
 			}
 		}
 	}
