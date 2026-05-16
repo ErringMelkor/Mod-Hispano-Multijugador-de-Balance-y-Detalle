@@ -24,6 +24,7 @@ company_CAFD = {
 	}
 	
 	extension_building_types = {
+		building_livestock_ranch
 	}
 	
 	potential = {
@@ -133,8 +134,7 @@ company_Alpargatas = {
 	}
 
 	prosperity_modifier = {
-		building_group_building_coffee_plantation_throughput_add = 0.15 #16
-
+		building_group_building_coffee_plantation_throughput_add = 0.15
 	}
 	
 
@@ -184,6 +184,7 @@ company_fedecafe = {
 	}
 	
 	extension_building_types = {
+		building_sugar_plantation	
 	}
 	
 	potential = {
@@ -377,6 +378,7 @@ company_managem  = {
 	}
 
 	extension_building_types = {
+		building_coal_mine
 	}
 
 	potential = {
