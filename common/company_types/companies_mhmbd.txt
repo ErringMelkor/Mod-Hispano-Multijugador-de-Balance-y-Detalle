@@ -93,10 +93,12 @@ company_Alpargatas = {
 	building_types = {  #26
         building_cotton_plantation
 		building_logging_camp
+        building_textile_mill
 	}
 	
 	extension_building_types = {
 		building_rubber_plantation
+        building_hardwood_logging 
 	}
 	
 	potential = {
@@ -134,7 +136,7 @@ company_Alpargatas = {
 	}
 
 	prosperity_modifier = {
-		building_group_building_coffee_plantation_throughput_add = 0.15
+		building_coffee_plantation_throughput_add = 0.15
 	}
 	
 
