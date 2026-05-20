@@ -183,8 +183,9 @@ Imposición de las leyes piamontesas sobre el resto de Italia.
 Acta de Educación de 1859. Escuelas primarias, secundarias y universidades.
 	· Educación primaria obligatoria para ambos sexos, complementada por las autoridades locales, los "comuni".
 
-The "Brigand War" desde 1860, en Sicilia.
+The "Brigand War" desde 1860, en el Mezzogiorno, particularmente Sicilia.
 	· Coalición de bandidos, revolucionarios republicanos, restauracionistas borbónicos y campesinos empobrecidos.
+	· Movimiento reaccionario pro-Borbón en Calabria, Basilicata y Puglia.
 
 
 Azeglio: "L'Italia è fatta. Restano a fare gli italiani.", "Italia está hecha. Resta hacer a los italianos."
@@ -220,7 +221,34 @@ Movimiento: "Patrioti". Inspirados por la Ilustración, buscan establecer regím
 
 Statuto Albertino. Constitución liberal conservada por Vittorio Emanuele II.
 
+"Squadre". Armed gangs, en el sentido más informal posible.
 
+"Protesta del popolo delle Due Sicilie". "Una protesta del pueblo de las Dos Sicilias", de Luigi Settembrini. Acusa al monarca de las Dos Sicilias de "corrupción, superstición e ineptitud".
+
+
+Hambruna del 53-54. Cólera en el 55.
+
+Muratismo. Revolución monárquica en Dos Sicilias para poner a Luciano Murat en el trono.
+
+"Facinorosi". Gente sinley.
+
+El Mezzogiorno, y particularmente Sicilia, está en crisis hasta el compromiso de 1876, que aboga por el proteccionismo económico del sur.
+
+Uso de la rama de estadísticas analíticas en los estereotipos norte vs sur.
+
+Pietro Maestri sostiene que la ausencia de un modelo agrario generalizado y registrado apropiadamente es el obstáculo fundamental en la compilación de las estadísticas de la agricultura.
+· Resistencia de los terratenientes al registro, que podría aumentar su carga fiscal.
+· No es hasta 1886 que se introducen impuestos a la tierra uniformes.
+· El registro de tierras tarda 70 años en llevarse a cabo por completo.
+
+Ideología "Piemontista".
+
+Italia norte debería ser maíz y arroz.
+
+Carbón de Italia: Toscana (1, antracita; 8) -> Umbría (2) -> Abruzzo -> (1) -> Piamonte (1) -> Emilia (y Romagna) (2) -> Veneto (3) -> Trento (1)
+	Torba: Lombardia (3) / Toscana (2)
+
+Petróleo: Abruzzo y Emilia.
 
 Personajes:
 	Gaetano Bresci. Anarquista italiano, asesino de Umberto I.
@@ -232,7 +260,28 @@ Personajes:
 
 		Marchesa di Barolo. Reforma estatal (vs privada / eclesiástica) de los penitenciarios femeninos, llevada a cabo gracias a / con el permiso de Carlos Alberto.
 
-		Rasgos: Romántico, Impulsivo.
+		Rasgos: Romántico, Impulsivo, Reservado. Modernizador.
+
+		Cavour: "Half monastery, Half barracks".
+
+	Revolucionarios del 48:
+		· Giuseppe La Masa.
+
+		· Giuseppe Ricciardi. 
+
+		· Giuseppe Sodano.
+
+
+	Giuseppe Massari.
+
+	Giuseppe La Farina y Filippo Cordova. La Farina se hace líder de la "Sociedad Nacional Italiana".
+
+	Francesco Crispi. Democrático no radical, futuro primer ministro de italia. En 1860 apoya la Revolución en Sicilia con dinero y armas, y financia a la expedición Noritaliana de los "Mil" de Garibaldi.
+		· Cogobierna con Garibaldi en Sicilia durante la revolución.
+
+	Rosolino Pio. Revolucionario en el 59-60, mobiliza al rural durante la Revolución del 60.
+
+
 
 
 	Conde Camilo Benso di Cavour. Reformador económico en Cerdeña-Piamonte bajo Carlos Alberto (?). Modernizador, secularizador, liberalizador.
@@ -249,6 +298,16 @@ Personajes:
 		El Bismarck italiano. "Tan antirrevolucionario como anti-nacionalista."
 		Se refiere a piamonte como una "nación piamontesa", o "nación ligur".
 
+		Cavour sobre el Mezzogiorno: "[...] la región más moralmente corrupta y débil de toda Italia."
+
+		Con el éxito de Garibaldi y Crispi en las Dos Sicilias, gira su política hacia absorber unilateralmente a Dos Sicilias, en vez de una unión negociada y/o liderada por republicanos o demócratas radicales. Esta estrategia busca la dominación de Piamonte sobre la península.
+
+		Purgan a más Garibaldinos que pro-Borbones del ejército y administración.
+
+		Cavour traiciona a los autonomistas de Sicilia.
+
+		Las políticas de libre comercio de Cavour daña la economía proteccionista del sur.
+
 	Giustino Fortunato. Terrateniente del Mezzogiorno. Ideología "Meridionalisti". "Pesimista" en cuanto a la capacidad del desarrollo agrario del Mezzogiorno por sus características inherentes.
 	Francesco Saverio Nitti. Disputa a Fortunato, argumentando que existe una discriminación en las prioridades estatales hacia el norte. Nitti llama al gobierno para crear la infraestructura que permita el crecimiento económico.
 	
@@ -258,6 +317,15 @@ Personajes:
 
 	Carlo Cattaneo.
 		Según L.C.B. Seaman, la unificación italiana se lleva a cabo pese a Cavour / Nap III, y no "gracias a", ellos. El objetivo de ambos era la italia austríaca.
+
+	Vincenzo Cuoco
+
+	Goffredo Mameli
+
+	Bettino Ricasoli, "Barón de Hierro".
+
+	Garibaldi.
+		Marcha sobre Roma en 1862. Movimiento suprimido duramente por parte del gobierno piamontés.
 
 	Mazzini.
 		Ammendment para la ley de voto: "Triunvirato".
