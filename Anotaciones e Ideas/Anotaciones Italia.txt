@@ -81,7 +81,8 @@ Los Plebiscitos del Mediano o Mezzogiorno, como ocurre con Saboya desde Francia.
 "Connubio" de Cavour con "Sinistra" en 1852.
 
 
-Gobierno unitario vs federalista
+Gobierno unitario vs federalista.
+	Federalistas: Carlo Cattaneo (republicano radical); Vincenzo Gioberti (conservador, Zollverein como modelo).
 
 Movimiento Neo-Guelfo de Cerdeña-Piamonte (Gioberti's "Primato").
 Disputa de la sal entre Cerdeña-Piamonte y Austria (Carlos Alberto vs Metternich).
@@ -189,6 +190,9 @@ The "Brigand War" desde 1860, en el Mezzogiorno, particularmente Sicilia.
 
 
 Azeglio: "L'Italia è fatta. Restano a fare gli italiani.", "Italia está hecha. Resta hacer a los italianos."
+Metternich: "Italia es meramente un término geográfico."
+
+Ippolito Nievo. "Confesiones de un Italiano".
 
 Cavour sobre las bases de Italia: "Monarquía, ejército, parlamento". En ese orden.
 
@@ -360,3 +364,27 @@ Personajes:
 
 
 	
+#### ----- ####
+
+Culturas de Italia
+	Lombarda
+	Veneciana #algo más separada del resto.
+	Piamontesa
+	Emiliana(-Romagnola)
+	Toscana
+	Sarda
+	
+	--> North Italian (Gallo-Italic / Gallo-Romance)
+
+	Umbro
+	Romanesco
+	--> Central Italian (Italo-Romance)
+
+	Dálmata
+	Istriota
+
+	--> East Italian (Romance Continental)
+
+	Siciliana
+	Napolitana
+	--> South Italian (Italo-Romance)

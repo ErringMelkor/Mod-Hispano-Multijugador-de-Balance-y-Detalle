@@ -552,6 +552,10 @@
 	s:STATE_PROVENCE = {
 		region_state:SAR = {
 			create_pop = {
+				culture = piedmontese
+				size = 131100
+			}
+			create_pop = {
 				culture = north_italian
 				size = 131100
 			}
@@ -1304,7 +1308,7 @@
 				size = 183000
 			}
 			create_pop = {
-				culture = north_italian
+				culture = lombard
 				size = 308000
 			}
 		}

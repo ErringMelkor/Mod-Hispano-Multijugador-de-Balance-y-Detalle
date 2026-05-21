@@ -47,4 +47,6 @@ Países
 Changelog Versión 1.13B #10-05-26
 
 Italia:
-	Reajuste a sus depósitos de carbón y petróleo; el carbón orbita más en torno hacia Toscana, en detrimento de Piamonte; el petróleo ve dos depósitos nuevos, en Abruzzo y Emilia, de 10 y 5 respectivamente.
+
+	Economía:
+	· Reajuste a sus depósitos de carbón y petróleo; el carbón orbita más en torno hacia Toscana, en detrimento de Piamonte; el petróleo ve dos depósitos nuevos, en Abruzzo y Emilia, de 10 y 5 respectivamente.
