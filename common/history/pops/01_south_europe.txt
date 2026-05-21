@@ -100,7 +100,7 @@
 	s:STATE_SARDINIA = {
 		region_state:SAR = {
 			create_pop = {
-				culture = south_italian
+				culture = sardo
 				size = 852408
 			}
 		}
