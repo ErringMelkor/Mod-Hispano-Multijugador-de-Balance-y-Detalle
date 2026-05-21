@@ -16,5 +16,11 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
+
+		start_national_awakening = {
+			culture = cu:siciliano
+			months = 240
+			state_region = s:STATE_SICILY
+		}
 	}
 }

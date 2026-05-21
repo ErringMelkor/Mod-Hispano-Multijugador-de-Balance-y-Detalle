@@ -106,10 +106,10 @@
 
 	# Southern Europe
 	cu:north_italian = {
-		set_fervor = 30
+		set_fervor = 35
 	}
 	cu:south_italian = {
-		set_fervor = 15
+		set_fervor = 25
 	}
 	cu:siciliano = {
 		set_fervor = 50
