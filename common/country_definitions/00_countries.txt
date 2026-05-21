@@ -768,7 +768,7 @@ TUS = {
 	tier = principality
 
 	capital = STATE_TUSCANY
-	cultures = { north_italian }
+	cultures = { north_italian central_italian }
 	is_named_from_capital = yes
 }
 
