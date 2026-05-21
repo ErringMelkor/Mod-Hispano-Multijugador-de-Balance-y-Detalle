@@ -51,6 +51,18 @@ GLOBAL = {
 		}
 	}
 
+	every_country = { # Mercantile ideology
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_traditionalism
+				has_law_or_variant = law_type:law_isolationism
+			}
+		}
+		ig:ig_petty_bourgeoisie = {
+			add_ideology = ideology_mercantile
+		}
+	}
+
 	c:HAI ?= {
 		add_treasury = {
 			value = gold_reserves_limit
@@ -137,7 +149,7 @@ GLOBAL = {
 			name = national_guard_preoccupied
 		}
 	}
-	
+
 	# Debt - to compensate for our relatively low credit limits, all debts are ~3x lighter than they were historically. Capped out at a -2.5x modifier.
 	c:SPA ?= { # Spain was broke, with a "B" emoji. Historically 22:1 ratio of debt to revenue.
 		add_treasury = {
@@ -151,7 +163,7 @@ GLOBAL = {
 			value = yearly_gross_income
 			multiply = -1.5
 		}
-	}	
+	}
 
 	c:SPC ?= {
 		add_modifier = {

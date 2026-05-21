@@ -211,6 +211,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:venetian
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
@@ -1144,6 +1145,7 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:siciliano
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
@@ -2047,6 +2049,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:emilian
 	}
 	s:STATE_TUSCANY = {
 		create_state = {
@@ -2055,6 +2058,8 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:central_italian
+		add_homeland = cu:tuscan
 	}
 	s:STATE_ROMAGNA = {
 		create_state = {
@@ -2063,6 +2068,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:emilian
 	}
 	s:STATE_LAZIO = {
 		create_state = {
@@ -2071,6 +2077,8 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:central_italian
+		add_homeland = cu:romanesco
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -7954,6 +7962,7 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:neapolitano
 	}
 	s:STATE_ABRUZZO = {
 		create_state = {
@@ -7962,6 +7971,8 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:neapolitano
+
 	}
 	s:STATE_CALABRIA = {
 		create_state = {
@@ -7970,6 +7981,8 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:neapolitano
+		add_homeland = cu:siciliano
 	}
 	s:STATE_APULIA = {
 		create_state = {
@@ -7978,6 +7991,9 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:neapolitano
+		add_homeland = cu:siciliano
+
 	}
 	s:STATE_WEST_GALICIA = {
 		create_state = {
@@ -8072,6 +8088,7 @@ STATES = {
 		add_homeland = cu:croat
 		add_homeland = cu:slovene
 		add_homeland = cu:north_italian
+		add_homeland = cu:istriota
 	}
 	s:STATE_LOMBARDY = {
 		create_state = {
@@ -8080,6 +8097,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:lombard
 	}
 	s:STATE_BOHEMIA = {
 		create_state = {
@@ -8139,6 +8157,7 @@ STATES = {
 
 		add_homeland = cu:south_german
 		add_homeland = cu:north_italian
+		add_homeland = cu:venetian
 	}
 	s:STATE_SLOVENIA = {
 		create_state = {
@@ -8411,6 +8430,7 @@ STATES = {
 		}
 
 		add_homeland = cu:north_italian
+		add_homeland = cu:piedmontese
 	}
 	s:STATE_SARDINIA = {
 		create_state = {
@@ -8419,6 +8439,7 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:sardinian
 	}
 	s:STATE_TARAPACA = {
 		create_state = {
@@ -8518,6 +8539,8 @@ STATES = {
 		}
 
 		add_homeland = cu:south_italian
+		add_homeland = cu:central_italian
+		add_homeland = cu:umbro
 	}
 	s:STATE_BANAT = {
 		create_state = {

@@ -100,7 +100,7 @@
 	s:STATE_SARDINIA = {
 		region_state:SAR = {
 			create_pop = {
-				culture = sardo
+				culture = sardinian
 				size = 852408
 			}
 		}
@@ -264,7 +264,7 @@
 		region_state:SIC = {
 			create_pop = {
 				culture = neapolitano
-				size = 8920448
+				size = 892044
 			}
 			create_pop = {
 				culture = south_italian
@@ -291,7 +291,7 @@
 		region_state:SAR = {
 			create_pop = {
 				culture = french
-				size = 192032
+				size = 92032
 			}
 			create_pop = {
 				culture = french
@@ -299,7 +299,7 @@
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 181200
+				size = 281200
 			}
 			create_pop = {
 				culture = francoprovencal

@@ -1,0 +1,52 @@
+language_galloitalic = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_venetian = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_emiliano = { #dialecto de transición, técnicamente.
+	type = language
+	trait_group = language_group_romance
+}
+
+language_toscano = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_mediano = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_sardu = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_meridionale = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_siciliano = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_dalmata = {
+	type = language
+	trait_group = language_group_romance
+}
+
+tradition_settentrionale = {
+	type = tradition
+}
+
+tradition_mezzogiorno = {
+	type = tradition
+}

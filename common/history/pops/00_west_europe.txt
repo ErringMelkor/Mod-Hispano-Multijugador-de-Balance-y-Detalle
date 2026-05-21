@@ -1308,7 +1308,7 @@
 				size = 183000
 			}
 			create_pop = {
-				culture = lombard
+				culture = venetian
 				size = 308000
 			}
 		}

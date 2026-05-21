@@ -567,7 +567,7 @@ company_societe_renault_freres = {
 	}
 	
 	potential = {
-		has_interest_marker_in_region = region_france
+		has_interest_marker_in_region = sr:region_france
 	}
 	
 	attainable = {
