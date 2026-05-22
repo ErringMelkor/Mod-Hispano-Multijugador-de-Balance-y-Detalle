@@ -29,3 +29,28 @@
 		}
 	}
 }
+
+NIT = {
+
+	required_states_fraction = 1.0
+
+	ai_will_do = { always = yes }
+
+	potential = {
+		country_has_primary_culture = cu:north_italian
+	}
+
+	possible = {
+		country_has_primary_culture = cu:north_italian
+	}
+
+	states = {
+		STATE_PIEDMONT
+		STATE_SAVOY
+		STATE_LOMBARDY
+		STATE_VENETIA
+		STATE_EMILIA
+		STATE_TUSCANY
+	}
+
+}

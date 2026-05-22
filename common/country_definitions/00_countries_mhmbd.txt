@@ -106,3 +106,27 @@ GDN = {
 	capital = STATE_ANNAM
 
 }
+
+SCI = {
+	color = { 147 198 173 }
+
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { siciliano }
+	capital = STATE_SICILY
+}
+
+NIT = {
+
+	color = { 88 158 82 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { north_italian }
+	capital = STATE_LOMBARDY	
+}
+

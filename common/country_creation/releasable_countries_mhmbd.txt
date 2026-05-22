@@ -1,8 +1,6 @@
-﻿REPLACE_OR_CREATE:NEN = {
+﻿SCI = {
 	states = {
-		STATE_GREATER_MASSACHUSETTS
-		STATE_NEW_ENGLAND
+		STATE_SICILY
 	}
-
 	ai_will_do = { always = no }
 }

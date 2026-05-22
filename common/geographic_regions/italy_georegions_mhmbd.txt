@@ -1,0 +1,35 @@
+geographic_region_north_italy = {
+	short_key = "northitaly"
+
+	state_regions = {
+		STATE_PIEDMONT
+		STATE_SAVOY
+		STATE_LOMBARDY
+		STATE_VENETIA
+		STATE_EMILIA
+		STATE_TUSCANY
+	}
+}
+
+geographic_region_mediano = {
+	short_key = "mediano"
+
+	state_regions = {
+		STATE_TUSCANY
+		STATE_LAZIO
+		STATE_UMBRIA
+		STATE_ROMAGNA
+	}
+}
+
+geographic_region_mezzogiorno = {
+	short_key = "mezzogiorno"
+
+	state_regions = {
+		STATE_CAMPANIA
+		STATE_ABRUZZO
+		STATE_APULIA
+		STATE_CALABRIA
+		STATE_SICILY
+	}
+}

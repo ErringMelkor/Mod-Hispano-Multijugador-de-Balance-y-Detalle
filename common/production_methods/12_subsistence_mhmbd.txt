@@ -50,7 +50,7 @@ pm_unchecked_bondage = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.001
+			building_group_bg_agriculture_construction_efficiency_add = 0.0015
 		}
 		unscaled = {
 		}
@@ -58,7 +58,6 @@ pm_unchecked_bondage = {
 }
 
 ### La expresión geográfica conocida como Italia.
-
 pm_latifondi = {
 	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
 	unlocking_laws = {
@@ -79,7 +78,7 @@ pm_latifondi = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_agriculture_construction_efficiency_add = 
+			building_group_bg_agriculture_construction_efficiency_add = 0.001
 		}
 		unscaled = {
 		}
@@ -101,6 +100,8 @@ pm_mezzadria = {
 			building_subsistence_output_add = 4.5
 		}
 		level_scaled = {
+			building_employment_peasants_add = -50
+			building_employment_farmers_add = 25			
 		}
 	}
 }
