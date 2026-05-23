@@ -16,4 +16,16 @@ prestige_good_renault_automobiles = {
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/ford_automobiles_prestige.dds"
 }
 
+prestige_good_red_fife = {
+	base_good = grain
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_grain_prestige.dds"
+}
+
+prestige_good_guano = {
+	base_good = fertilizer
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_fertilizer_prestige.dds"
+}
+
 #Caucho de prestigio para Brasil y el Congo
