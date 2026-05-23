@@ -1005,6 +1005,188 @@ company_guano_management= {
 	}
 }
 
+# Agro Paramonga
+company_agro_paramonga= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/historical_perskhlopok.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_LIMA }
+
+	building_types = {
+		building_sugar_plantation
+        building_maize_farm
+        building_rice_farm
+	}
+
+	extension_building_types = {
+		building_synthetics_plant
+        building_power_plant
+	}
+
+	possible_prestige_goods = {
+		prestige_good_specialty_sugar
+	}
+    
+    prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_good_specialty_sugar_complete_tt
+			has_variable = prestige_good_specialty_sugar_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_andes
+		OR = {
+				c:PEU ?= this
+				c:PBC ?= this
+				c:BOL ?= this
+				}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_LIMA
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+				c:PEU ?= this
+				c:PBC ?= this
+				c:BOL ?= this
+				}
+        any_scope_state = {
+			state_region = s:STATE_LIMA
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_sugar_plantation
+					level >= 5
+				}
+			}
+			}
+
+	prosperity_modifier = {
+		building_sugar_plantation_throughput_add = 0.2
+        building_power_plant_throughput_add = 0.1
+        building_sugar_plantation_standard_of_living_add = 3
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_LIMA
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_sugar_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_LIMA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Postobon
+company_postobon= {
+	icon = "gfx/interface/icons/company_icons/basic_food.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_ANTIOQUIA }
+
+	building_types = {
+		building_food_industry
+	}
+
+	extension_building_types = {
+		building_wheat_farm
+		building_maize_farm
+		building_tea_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_ultra_food
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_good_ultra_food_complete_tt
+			has_variable = prestige_good_ultra_food_var
+		}
+	}
+
+    potential = {
+		has_interest_marker_in_region = sr:region_gran_colombia
+		OR = {
+				c:ECU ?= this
+				c:GCO ?= this
+				c:VNZ ?= this
+				}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_ANTIOQUIA
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+				c:ECU ?= this
+				c:GCO ?= this
+				c:VNZ ?= this
+				}
+		any_scope_state = {
+			state_region = s:STATE_ANTIOQUIA
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_food_industry
+					level >= 5
+				}
+			}
+		has_technology_researched = canneries
+			}
+
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.05
+		state_standard_of_living_add = 1
+		building_group_bg_government_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_ANTIOQUIA
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_food_industry = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_ANTIOQUIA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
 ### -------------- NORTH AMERICA --------- ###
 
 #Fusiles Mondragón
@@ -1379,6 +1561,95 @@ company_granos_winnipeg= {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ONTARIO
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Tequila José Cuervo
+company_jose_cuervo= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/historical_perskhlopok.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_JALISCO }
+
+	building_types = {
+		building_food_industry
+	}
+
+	extension_building_types = {
+		building_maize_farm
+	}
+
+    possible_prestige_goods = {
+		prestige_good_premium_liquor
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_good_premium_liquor_complete_tt
+			has_variable = prestige_good_premium_liquor_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_central_america
+		OR = {
+			country_has_primary_culture = cu:mexican
+			country_has_primary_culture = cu:brazilian
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:platinean
+            country_has_primary_culture = cu:chilean
+            country_has_primary_culture = cu:peruvian
+            country_has_primary_culture = cu:bolivian
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_JALISCO
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_JALISCO
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_food_industry
+					level >= 5
+				}
+			}
+			}
+
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.05
+        state_lower_strata_standard_of_living_add = 2
+		state_middle_strata_standard_of_living_add = 1
+		state_upper_strata_standard_of_living_add = 0.5
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_JALISCO
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_food_industry = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_JALISCO
 			}
 		}
 	}
