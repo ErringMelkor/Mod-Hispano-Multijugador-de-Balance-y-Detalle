@@ -923,6 +923,88 @@ company_peruvian_corporation= {
 	}
 }
 
+# Compañía Administradora del Guano
+company_guano_management= {
+	icon = "gfx/interface/icons/company_icons/basic_chemicals.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_ICA }
+
+	building_types = {
+		building_chemical_plant
+	}
+
+	extension_building_types = {
+		building_livestock_ranch
+	}
+
+	possible_prestige_goods = {
+		prestige_good_guano
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_andes
+		OR = {
+				c:PEU ?= this
+				c:PBC ?= this
+				c:BOL ?= this
+				}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_ICA
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+				c:PEU ?= this
+				c:PBC ?= this
+				c:BOL ?= this
+				}
+		any_scope_state = {
+			state_region = s:STATE_ICA
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_chemical_plant
+					level >= 5
+				}
+			}
+		has_technology_researched = intensive_agriculture
+			}
+
+	prosperity_modifier = {
+		building_chemical_plant_throughput_add = 0.3
+		building_group_bg_agriculture_throughput_add = 0.1
+		interest_group_ig_rural_folk_approval_add = 5
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_ICA
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_chemical_plant = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_ICA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
 ### -------------- NORTH AMERICA --------- ###
 
 #Fusiles Mondragón
@@ -1231,6 +1313,80 @@ company_pelladini= {
 	}
 }
 
+# Bolsa de Granos de Winnipeg
+company_granos_winnipeg= {
+	icon = "gfx/interface/icons/company_icons/company_basic_agriculture.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_ONTARIO }
+
+	building_types = {
+		building_wheat_farm
+	}
+
+	extension_building_types = {
+		building_logging_camp
+		building_hardwood_logging
+	}
+
+	possible_prestige_goods = {
+		prestige_good_red_fife
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_canada
+		c:CAN ?= this
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_ONTARIO
+			}
+		}
+	}
+
+	possible = {
+		c:CAN ?= this
+		any_scope_state = {
+			state_region = s:STATE_ONTARIO
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_wheat_farm
+					level >= 5
+				}
+			}
+		has_technology_researched = intensive_agriculture
+			}
+
+	prosperity_modifier = {
+		building_wheat_farm_throughput_add = 0.5
+		building_wheat_farm_standard_of_living_add = 1
+		building_group_bg_manufacturing_throughput_add = -0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_ONTARIO
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_wheat_farm = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_ONTARIO
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
 
 ### ------- AFRICA ------- ###
 
