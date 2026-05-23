@@ -314,6 +314,87 @@ company_la_forestal= {
 	}
 }
 
+# Falabella
+company_falabella= {
+	icon = "gfx/interface/icons/company_icons/basic_home_goods.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_SANTIAGO }
+
+	building_types = {
+		building_furniture_manufactory
+		building_textile_mill
+		building_glassworks
+	}
+
+	extension_building_types = {
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_furniture
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_furniture_complete_tt
+			has_variable = prestige_good_generic_furniture_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_la_plata
+		c:CHL ?= this
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_SANTIAGO
+			}
+		}
+	}
+
+	possible = {
+		c:CHL ?= this
+		any_scope_state = {
+			state_region = s:STATE_SANTIAGO
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_furniture_manufactory
+					level >= 5
+				}
+			}
+			}
+
+	prosperity_modifier = {
+		building_group_bg_light_industry_throughput_add = 0.15
+		state_trade_advantage_mult = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_SANTIAGO
+			is_incorporated = yes
+			}
+		}
+
+	ai_construction_targets = {
+		building_furniture_manufactory = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_SANTIAGO
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
 ### -------------- NORTH AMERICA --------- ###
 
 #Fusiles Mondragón
