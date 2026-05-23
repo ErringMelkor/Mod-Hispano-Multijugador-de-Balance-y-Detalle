@@ -86,6 +86,10 @@ law_frontier_colonization = {
 
 	progressiveness = 0
 
+	disallowing_laws = {
+		law_sakoku
+	}
+
 	unlocking_technologies = {
 		colonization
 	}
@@ -123,6 +127,13 @@ law_frontier_colonization = {
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
+		}
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_taming_the_north
+			}
+			add = 250
 		}
 	}
 
@@ -166,6 +177,10 @@ law_colonial_resettlement = {
 
 	progressiveness = 0
 
+	disallowing_laws = {
+		law_sakoku
+	}
+
 	unlocking_technologies = {
 		colonization
 	}
@@ -203,6 +218,13 @@ law_colonial_resettlement = {
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
+		}
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_taming_the_north
+			}
+			add = 500
 		}
 	}
 
@@ -289,6 +311,13 @@ law_colonial_exploitation = {
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
+		}
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_taming_the_north
+			}
+			add = 500
 		}
 	}
 

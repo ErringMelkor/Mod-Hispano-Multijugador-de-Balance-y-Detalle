@@ -708,7 +708,7 @@ worker_exploitation_sugar = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -771,7 +771,7 @@ worker_exploitation_coffee = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -833,7 +833,7 @@ worker_exploitation_cotton = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -895,7 +895,7 @@ worker_exploitation_dye = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -957,7 +957,7 @@ worker_exploitation_banana = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1018,7 +1018,7 @@ worker_exploitation_tea = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1079,7 +1079,7 @@ worker_exploitation_rubber = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension
@@ -1118,7 +1118,7 @@ worker_exploitation_tobacco = {
 		law_regulatory_bodies
 		law_worker_protections
 		law_collectivized_agriculture
-		law_homesteading
+		law_peasant_proprietorship
 		law_multicultural
 		law_wage_subsidies
 		law_old_age_pension

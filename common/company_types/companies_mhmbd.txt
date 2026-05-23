@@ -8,7 +8,14 @@ company_CAFD = {
 	preferred_headquarters = { STATE_SAO_PAULO }
 	
 	possible_prestige_goods = {
-		prestige_good_brazilian_coffee
+		prestige_good_generic_coffee
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_coffee_complete_tt
+			has_variable = prestige_good_generic_coffee_var
+		}
 	}
 	
 	building_types = {  #25
@@ -17,10 +24,11 @@ company_CAFD = {
 	}
 	
 	extension_building_types = {
+		building_livestock_ranch
 	}
 	
 	potential = {
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:brazilian
 		}	
@@ -85,16 +93,18 @@ company_Alpargatas = {
 	building_types = {  #26
         building_cotton_plantation
 		building_logging_camp
+        building_textile_mill
 	}
 	
 	extension_building_types = {
 		building_rubber_plantation
+        building_hardwood_logging 
 	}
 	
 	potential = {
 	    OR = {
-		has_interest_marker_in_region = region_brazil
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_brazil
+		has_interest_marker_in_region = sr:region_la_plata
 		}
 	}
 	
@@ -126,8 +136,7 @@ company_Alpargatas = {
 	}
 
 	prosperity_modifier = {
-		building_group_building_coffee_plantation_throughput_add = 0.15 #16
-
+		building_coffee_plantation_throughput_add = 0.15
 	}
 	
 
@@ -160,6 +169,80 @@ company_Alpargatas = {
     }
 }
 
+# Fedecafé
+company_fedecafe = {
+	icon = "gfx/interface/icons/company_icons/basic_agriculture_2.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	
+	flavored_company = yes
+	preferred_headquarters = { STATE_CUNDINAMARCA }
+	
+	possible_prestige_goods = {
+		prestige_good_coffea_arabica
+	}
+	
+	building_types = {  #25
+		building_coffee_plantation	
+	}
+	
+	extension_building_types = {
+		building_sugar_plantation	
+	}
+	
+	potential = {
+		has_interest_marker_in_region = sr:region_gran_colombia
+		OR = {
+			country_has_primary_culture = cu:north_andean
+			country_has_primary_culture = cu:colombian
+		}	
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_CUNDINAMARCA
+			}
+		}
+	}		
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_CUNDINAMARCA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coffee_plantation
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_rural_folk_approval_add = 3
+		building_group_bg_plantations_construction_efficiency_add = 0.1
+		state_trade_advantage_mult = 0.25
+	}
+	
+
+	ai_will_do = {
+		any_scope_state = {
+			state_region = s:STATE_CUNDINAMARCA
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_coffee_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_CUNDINAMARCA
+			}
+		}
+	}
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+    }
+}
+
 
 ### -------------- NORTH AMERICA --------- ###
 
@@ -183,7 +266,7 @@ company_mondragon = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		
 		c:MEX ?= this
 	}
@@ -242,7 +325,7 @@ company_la_cruz_azul = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_mexico
+		has_interest_marker_in_region = sr:region_central_america
 		
 		c:MEX ?= this
 	}
@@ -256,7 +339,6 @@ company_la_cruz_azul = {
 	}		
 	
 	possible = {
-		has_technology_researched = bolt_action_rifles
 		any_scope_state = {
 			state_region = s:STATE_MEXICO
 			is_incorporated = yes
@@ -298,10 +380,11 @@ company_managem  = {
 	}
 
 	extension_building_types = {
+		building_coal_mine
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_africa
+		has_interest_marker_in_region = sr:region_north_africa
 	}
 
 	attainable = {
@@ -364,7 +447,7 @@ company_lena_gold_mining_partnertship  = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_east_siberia
+		has_interest_marker_in_region = sr:region_siberia
 	}
 
 	attainable = {
@@ -372,7 +455,7 @@ company_lena_gold_mining_partnertship  = {
 
 	possible = {
 		any_scope_state = {
-			region = sr:region_east_siberia
+			region = sr:region_siberia
 			any_scope_building = {
 				is_building_type = building_gold_mine
 				level >= 5
@@ -396,7 +479,7 @@ company_lena_gold_mining_partnertship  = {
 		building_gold_mine = {
 			level = 5
 			state_trigger = {
-				region = sr:region_east_siberia
+				region = sr:region_siberia
 			}
 		}
 	}
@@ -484,7 +567,7 @@ company_societe_renault_freres = {
 	}
 	
 	potential = {
-		has_interest_marker_in_region = region_france
+		has_interest_marker_in_region = sr:region_france
 	}
 	
 	attainable = {

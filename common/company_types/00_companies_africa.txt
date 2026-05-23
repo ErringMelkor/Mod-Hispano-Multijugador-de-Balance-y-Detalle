@@ -2,7 +2,9 @@
 company_misr = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/misr.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
-	
+
+	category = bureaucrat_owned
+
 	flavored_company = yes
 
 	preferred_headquarters = { STATE_LOWER_EGYPT }
@@ -21,7 +23,7 @@ company_misr = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_nile_basin
+		has_interest_marker_in_region = sr:region_nile_basin
 	}
 
 	attainable = {
@@ -77,6 +79,8 @@ company_egyptian_rail = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/egyptian_rail.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 
+	category = bureaucrat_owned
+
 	flavored_company = yes
 
 	building_types = {
@@ -94,7 +98,7 @@ company_egyptian_rail = {
 	possible = {
 		has_technology_researched = corporate_charters
 		any_scope_state = {
-			region = sr:region_nile_basin
+			is_in_geographic_region = geographic_region_nile_basin
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_railway
@@ -112,7 +116,7 @@ company_egyptian_rail = {
 	ai_will_do = {
 		has_technology_researched = corporate_charters
 		any_scope_state = {
-			region = sr:region_nile_basin
+			is_in_geographic_region = geographic_region_nile_basin
 			is_incorporated = yes
 		}
 	}
@@ -121,7 +125,7 @@ company_egyptian_rail = {
 		building_railway = {
 			level = 5
 			state_trigger = {
-				region = sr:region_nile_basin
+				is_in_geographic_region = geographic_region_nile_basin
 				is_incorporated = yes
 			}
 		}

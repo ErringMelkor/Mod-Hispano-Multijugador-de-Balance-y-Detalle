@@ -8,7 +8,7 @@
 
 	possible = {
 		has_technology_researched = nationalism
-		has_interest_marker_in_region = region_great_plains
+		has_interest_marker_in_region = sr:region_great_plains
 	}
 
 	when_taken = {

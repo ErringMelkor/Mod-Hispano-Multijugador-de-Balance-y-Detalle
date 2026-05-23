@@ -21,7 +21,7 @@
 		law_tenant_farmers = approve
 		law_collectivized_agriculture = strongly_disapprove
 		law_commercialized_agriculture = disapprove
-		law_homesteading = strongly_disapprove
+		law_peasant_proprietorship = strongly_disapprove
 	}
 
 	lawgroup_childrens_rights = {
@@ -43,7 +43,7 @@
 	non_interest_group_leader_trigger = {
 		# Agitators should have an ideology at odds with current laws
 		NAND = {
-			has_role = agitator
+			has_role_of_type = agitator
 			owner = {
 				has_law_or_variant = law_type:law_appointed_bureaucrats
 				has_law_or_variant = law_type:law_compulsory_primary_school
@@ -173,7 +173,7 @@ ideology_zapadniki = {
 	lawgroup_land_reform = {
 		law_commercialized_agriculture = strongly_approve
 		law_tenant_farmers = approve
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_serfdom = disapprove
 		law_collectivized_agriculture = disapprove
 	}
@@ -184,7 +184,7 @@ ideology_zapadniki = {
 
 	non_interest_group_leader_trigger = {
 		NAND = {
-			has_role = agitator
+			has_role_of_type = agitator
 			owner = {
 				has_law_or_variant = law_type:law_monarchy
 				has_law_or_variant = law_type:law_national_supremacy
@@ -296,7 +296,7 @@ ideology_slavianofily = {
 		law_commercialized_agriculture = strongly_approve
 		law_tenant_farmers = strongly_approve
 		law_serfdom = approve
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_collectivized_agriculture = disapprove
 	}
 
@@ -313,7 +313,7 @@ ideology_slavianofily = {
 
 	non_interest_group_leader_trigger = {
 		NAND = {
-			has_role = agitator
+			has_role_of_type = agitator
 			owner = {
 				has_law_or_variant = law_type:law_monarchy
 				has_law_or_variant = law_type:law_national_supremacy

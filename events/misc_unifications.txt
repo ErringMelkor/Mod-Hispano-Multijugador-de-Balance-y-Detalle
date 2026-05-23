@@ -1,4 +1,5 @@
-﻿# Generic Unification
+﻿
+# Generic Unification
 formation.17 = {
 	type = country_event
 	placement = ROOT

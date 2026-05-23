@@ -12,7 +12,7 @@
  	}
 
  	possible = {
- 		has_role = general
+ 		has_role_of_type = general
  		owner ?= {
  			has_technology_researched = standing_army
  		}
@@ -411,7 +411,7 @@ basic_infantry_commander = {
  	}
 
  	possible = {
- 		has_role = general
+ 		has_role_of_type = general
  		owner ?= {
  			has_technology_researched = standing_army
  		}

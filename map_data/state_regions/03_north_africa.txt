@@ -135,7 +135,7 @@ STATE_ERITREA = {
         depleted_type = "building_gold_mine"
         undiscovered_amount = 6
     }
-    naval_exit_id = 3047
+    naval_exit_id = 3073
 }
 
 STATE_DONGOLA = {
@@ -372,7 +372,6 @@ STATE_ORAN = {
         building_iron_mine = 12
         building_fishing_wharf = 5
         building_logging_camp = 3
-
     }
     naval_exit_id = 3032
 }
@@ -394,7 +393,7 @@ STATE_TUNISIA = {
         building_logging_camp = 9
         building_fishing_wharf = 7
     }
-    naval_exit_id = 3032
+    naval_exit_id = 3033
 }
 
 STATE_TRIPOLI = {
@@ -635,7 +634,7 @@ STATE_NIGER = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 30
+        undiscovered_amount = 50
     }
 }
 

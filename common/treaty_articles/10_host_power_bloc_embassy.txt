@@ -3,13 +3,17 @@
 	cost = 25
 
 	relations_progress_per_day = 0.5
-	relations_improvement_max = 25
+	relations_improvement_max = 20
+
+	max_target_involvement = 2000
+	target_involvement_applies_to = source_country
 
 	icon = "gfx/interface/icons/diplomatic_treaties_articles_icons/power_bloc_embassy_treaties.dds"
 
 	flags = {
 		can_be_renegotiated
 		friendly
+		ai_consider_threaten_naval_hostilities
 	}
 
 	maintenance_paid_by = target_country
@@ -28,7 +32,6 @@
 	}
 
 	possible = {
-
 		trigger_if = {
 			limit = {
 				exists = power_bloc
@@ -66,16 +69,16 @@
 	requirement_to_maintain = {
 		trigger = {
 			scope:source_country = {
-							is_power_bloc_leader = no
-						}
+				is_power_bloc_leader = no
+			}
 		}
 	}
 
 	requirement_to_maintain = {
 		trigger = {
 			scope:target_country = {
-							is_power_bloc_leader = yes
-						}
+				is_power_bloc_leader = yes
+			}
 		}
 	}
 
@@ -87,12 +90,12 @@
 					exists = scope:target_country.power_bloc
 				}
 				NOT = { scope:source_country.power_bloc = scope:target_country.power_bloc }
-					}
+			}
 			trigger_else = {
 				always = yes
-            }
-        }
-    }
+			}
+		}
+	}
 
 	on_entry_into_force = {}
 

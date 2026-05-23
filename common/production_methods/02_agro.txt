@@ -14,6 +14,32 @@
 	}
 }
 
+pm_herring_meal_farming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_fishing.dds"
+
+	is_hidden_when_unavailable = yes
+
+	unlocking_geographic_regions = {
+		geographic_region_japan
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fish_add = 5 # 100
+
+			# output goods
+			goods_output_grain_add = 30 # 600
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
 pm_soil_enriching_farming = {
 	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
 	
@@ -118,8 +144,8 @@ pm_potatoes = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -10 # -200
-			goods_output_liquor_add = 5 # 150
+			goods_output_grain_add = -15 # -300
+			goods_output_liquor_add = 10 # 300
 		}
 	}
 }
@@ -131,8 +157,8 @@ pm_apple_orchards = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -10 # -200 
-			goods_output_fruit_add = 5 # 150
+			goods_output_grain_add = -15 # -300 
+			goods_output_fruit_add = 10 # 300
 		}
 	}
 }
@@ -140,10 +166,14 @@ pm_apple_orchards = {
 pm_sugar_beets = {
 	texture = "gfx/interface/icons/production_method_icons/sugar_beets.dds"
 
+	unlocking_technologies = {
+		fractional_distillation
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -10 # -200
-			goods_output_sugar_add = 5 # 150
+			goods_output_grain_add = -15 # -300
+			goods_output_sugar_add = 10 # 300
 		}
 	}
 }
@@ -154,7 +184,7 @@ pm_tools_disabled = {
 
 pm_tools = {
 	texture = "gfx/interface/icons/production_method_icons/harvesting_tools.dds"
-	
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -206,8 +236,8 @@ pm_tractors = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			# input goods								
-			goods_input_coal_add = 2 
+			# input goods
+			goods_input_coal_add = 2
 			goods_input_engines_add = 1
 		}
 
@@ -249,8 +279,8 @@ pm_citrus_orchards = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -10 # -200
-			goods_output_fruit_add = 5  # 150
+			goods_output_grain_add = -15 # -300
+			goods_output_fruit_add = 10  # 300
 		}
 	}
 }
@@ -270,9 +300,38 @@ pm_simple_farming_building_rice_farm = {
 	}
 }
 
+pm_herring_meal_farming_building_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/simple_fishing.dds"
+	
+	is_hidden_when_unavailable = yes
+
+	unlocking_geographic_regions = {
+		geographic_region_japan
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fish_add = 10 # 200
+
+			# output goods
+			goods_output_grain_add = 60	# 1200
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 8000
+			building_employment_farmers_add = 2000
+		}
+		unscaled = {
+			building_slaves_mortality_mult = 0.2
+		}
+	}
+}
+
 pm_soil_enriching_farming_building_rice_farm = {
 	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
-	
+
 	unlocking_technologies = {
 		intensive_agriculture
 	}
@@ -347,7 +406,7 @@ pm_fig_orchards_building_rice_farm = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -20 # 400
+			goods_output_grain_add = -15 # 300
 			goods_output_fruit_add = 10 # 300
 		}
 	}
@@ -398,8 +457,8 @@ pm_fig_orchards = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = -10
-			goods_output_fruit_add = 5
+			goods_output_grain_add = -15
+			goods_output_fruit_add = 10
 		}
 	}
 }						

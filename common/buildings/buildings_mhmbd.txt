@@ -15,3 +15,155 @@
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
+
+REPLACE_OR_CREATE:building_power_plant = {
+	building_group = bg_power
+	icon = "gfx/interface/icons/building_icons/power_plant.dds"
+	levels_per_mesh = 50
+
+	city_type = city
+	
+	unlocking_technologies = { 
+		electrical_generation 
+	}
+
+	production_method_groups = {
+		pmg_base_building_power_plant
+		pmg_alternate_building_power_plant
+	}
+	
+	required_construction = construction_cost_medium
+
+	ai_value = {
+		value = 1000 
+
+		# Need 1 level of Power Plants everywhere as its a local good and a prerequisite to enabling electricity PMs to begin with
+		if = {
+			limit = {
+				NOR = {
+					has_building = building_power_plant
+					any_scope_building = {
+						is_building_type = building_power_plant
+						is_under_construction = yes
+					}
+				}
+			}
+			add = 4000
+		}
+	}
+
+	possible = {
+		owner = {
+			NOT = { has_law_or_variant = law_type:law_industry_banned }
+		}
+	}
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+REPLACE_OR_CREATE:building_government_administration = {
+	building_group = bg_bureaucracy
+	city_type = city
+
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		tech_bureaucracy
+	}
+
+	should_auto_expand = {
+		occupancy >= 0.8
+		OR = {
+			state.tax_capacity < state.tax_capacity_usage
+			owner = {
+				bureaucracy < -10
+			}
+		}
+	}
+
+	production_method_groups = {
+		pmg_base_building_government_administration
+		pmg_government_administration_bureaucrat_professionalism
+		pmg_government_administration_religious_administration
+		pmg_efficient_bureaucracy_principle
+	}
+
+	icon = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = 100
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+
+REPLACE_OR_CREATE:building_white_house = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/white_house.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "white_house_locator"
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_white_house_01_entity"}
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 4
+	}
+
+	production_method_groups = {
+		pmg_base_building_white_house
+	}
+
+	potential = {
+		state_region = s:STATE_DISTRICT_OF_COLUMBIA
+	}
+
+	required_construction = construction_cost_monument
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+REPLACE_OR_CREATE:building_logging_camp = {
+	building_group = bg_logging
+	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_building_logging_camp
+		pmg_secondary_logging_camp
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+REPLACE_OR_CREATE:building_fishing_wharf = {
+	building_group = bg_fishing
+	icon = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	city_type = port
+	levels_per_mesh = 1
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_base_building_fishing_wharf
+		pmg_refrigeration_building_fishing_wharf
+	}
+
+	potential = {
+		is_sea_adjacent = yes
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
+}

@@ -5,6 +5,9 @@
     relations_progress_per_day = -0.25
     relations_improvement_min = 0
 
+	max_target_involvement = 3000
+	target_involvement_applies_to = source_country
+
 	icon = "gfx/interface/icons/diplomatic_treaties_articles_icons/treaty_port_treaties.dds"
 
 	flags = {
@@ -27,6 +30,7 @@
     }
 
 	visible = {
+		is_revolutionary = no
 		any_scope_state = {
 			is_coastal = yes
 		}
@@ -57,7 +61,16 @@
 				scope:article.input_state ?= {
 					state_region = {
 						any_scope_state = {
-							owner = scope:article.target_country
+							OR = {
+								owner = scope:article.target_country
+								owner = {
+									OR = {
+										is_secessionist = yes
+										is_revolutionary = yes
+									}
+									is_diplomatic_play_enemy_of = scope:article.target_country
+								}
+							}
 							controls_treaty_port_province = yes
 						}
 					}
@@ -78,7 +91,18 @@
 				scope:article.input_state ?= {
 					state_region = {
 						any_scope_state = {
-							owner = scope:article.source_country
+							owner = {
+								OR = {
+									this = scope:article.source_country
+									AND = {
+										OR = {
+											is_revolutionary = yes
+											is_secessionist = yes
+										}
+										is_diplomatic_play_enemy_of = scope:article.source_country
+									}
+								}
+							}
 							is_treaty_port = no
 						}
 					}
@@ -285,11 +309,24 @@
 
 					if = {
 						limit = {
-							has_law = law_type:law_isolationism
+							country_has_isolationism_or_sakoku = yes
 						}
 						add = {
 							desc = "law_isolationism"
 							add = -1000
+						}
+					}
+				
+					if = {
+						limit = {
+							c:JAP ?= scope:source_country
+							scope:source_country ?= {
+								has_journal_entry = je_meiji_imperial_marriage
+							}
+						}
+						add = {
+							desc = "je_meiji_imperial_marriage"
+							value = -500
 						}
 					}
 				}
@@ -305,6 +342,20 @@
 						add = {
 							value = -300
 							desc = "DIPLOMATIC_ACCEPTANCE_TRADE_STATE_REJECT"
+						}
+					}
+					if = {
+						limit = {
+							scope:source_country ?= {
+								c:JAP ?= this
+								has_journal_entry = je_iwakura_mission
+								has_variable = current_expedition_location_var
+								var:current_expedition_location_var ?= ROOT
+							}
+						}
+						add = {
+							desc = "HOSTING_DIPLOMATIC_MISSION"
+							value = -50
 						}
 					}
 				}
@@ -345,6 +396,9 @@
 			if = {
 				limit = {
 					exists = scope:state
+				}
+				scope:state = {
+					save_temporary_scope_as = target_state
 				}
 				add = {
 					desc = "INFAMY_STATE_POPULATION_FACTOR"

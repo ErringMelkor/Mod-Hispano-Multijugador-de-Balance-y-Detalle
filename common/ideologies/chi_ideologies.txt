@@ -45,7 +45,7 @@
 		law_serfdom = strongly_approve
 		law_tenant_farmers = approve
 		law_commercialized_agriculture = disapprove
-		law_homesteading = disapprove
+		law_peasant_proprietorship = disapprove
 		law_collectivized_agriculture = strongly_disapprove
 	}
 }

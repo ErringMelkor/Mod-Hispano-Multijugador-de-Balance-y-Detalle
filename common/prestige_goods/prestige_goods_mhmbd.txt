@@ -4,15 +4,16 @@
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
 }
 
-prestige_good_brazilian_coffee = {
+prestige_good_coffea_arabica = {
 	base_good = coffee
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_coffee_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/java_coffee_prestige.dds"
 }
-
 		
 prestige_good_renault_automobiles = {
 	base_good = automobiles
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/ford_automobiles_prestige.dds"
 }
+
+#Caucho de prestigio para Brasil y el Congo

@@ -185,13 +185,13 @@
 							limit = {
 								scope:target_country.country_rank = rank_value:unrecognized_major_power
 							}
-							add = modifier:power_bloc_invite_acceptance_unrecognized_major_power_add 
+							add = modifier:power_bloc_invite_acceptance_unrecognized_major_power_add
 						}
 						else_if = {
 							limit = {
 								scope:target_country.country_rank = rank_value:unrecognized_regional_power
 							}
-							add = modifier:power_bloc_invite_acceptance_unrecognized_regional_power_add 
+							add = modifier:power_bloc_invite_acceptance_unrecognized_regional_power_add
 						}
 					}
 				}
@@ -439,8 +439,8 @@
 				add = 50
 			}
 		}
-		
-		will_propose_even_if_not_accepted = { 
+
+		will_propose_even_if_not_accepted = {
 			OR = {
 				has_attitude = {
 					who = scope:target_country

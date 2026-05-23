@@ -201,7 +201,29 @@ GLOBAL = {
 			}
 		}
 	}
-
+	every_country = {
+		limit = {
+			navy_size >= 1
+		}
+		add_supply_ships = {
+			value = 1
+			add = navy_size
+			if = {
+				limit = {
+					any_scope_building = {
+						is_building_type = building_shipyard
+					}
+				}
+				every_scope_building = {
+					limit = {
+						is_building_type = building_shipyard
+					}
+					add = 10
+				}
+			}
+			multiply = 8
+		}
+	}
 	c:NET ?= { # Historically 3.2:1 ratio of debt to yearly revenue
 		add_treasury = {
 			value = gold_reserves_limit

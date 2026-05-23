@@ -5,6 +5,9 @@
 	relations_progress_per_day = 0.5
 	relations_improvement_max = 50
 
+	max_target_involvement = 1000
+	target_involvement_applies_to = target_country
+
 	icon = "gfx/interface/icons/diplomatic_treaties_articles_icons/military_assistance_treaties.dds"
 
 	flags = {
@@ -69,9 +72,9 @@
 		}
 		custom_tooltip = {
 			text = military_assistance_limit_tt
-		scope:target_country = {
-			any_scope_treaty = {
-				count < 2
+			scope:target_country = {
+				any_scope_treaty = {
+					count < 2
 					hidden_trigger = {
 						OR = {
 							scope:treaty = {
@@ -80,9 +83,9 @@
 							scope:treaty.amended_treaty != this
 						}
 					}
-				any_scope_article = {
-					has_type = military_assistance
-					target_country = scope:target_country
+					any_scope_article = {
+						has_type = military_assistance
+						target_country = scope:target_country
 					}
 				}
 			}
@@ -277,9 +280,8 @@
 								}
 								scope:target_country = {
 									c:CIR ?= this
-									scope:source_country = {
-										has_variable = circassia_recognizer
-									}
+									has_global_variable = circassia_recognizer
+									global_var:circassia_recognizer ?= scope:source_country
 								}
 							}
 						}

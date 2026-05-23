@@ -1,0 +1,46 @@
+Changelog Versión 1.13 #01-05-26
+
+Actualizado el mod a la 1.13.
+Revertidos los Estados de USA y China al Vanilla hasta que sean funcionales de nuevo.
+
+Economía:
+	Ajustados los métodos secundarios de las granjas para que sean equitativos en eficiencia (no se "pierde valor" al usarlos).
+
+	Campamentos de Madera Dura: 20/35/55 -> 25/40/60
+	
+	Necesidades de las Pops:
+		Peso del Pescado en Comida de Lujo: 0.35 -> 0.425
+
+	Compañías:
+		Ajustados los modificadores navales a valores de la 1.13. Provisionales en tanto que no tenemos un buen entendimiento de cómo funciona el naval.
+		Compañía Agrícola Facenda Dumont: Su bien pasa a ser café de prestigio genérico.
+		Fedecafé: Nueva compañía para Nueva Granada.
+
+		India:
+			Compañía de Carbón de Bengala: 20% a la fuerza política de los Industrialistas -> 20% a la atracción política.
+			Calcutta Electric: Infraestructura máxima por población: 12 -> 25. Industria eléctrica como extensión disponible.
+			Ralli Brothers: Bono de 10% al throughput del azufre -> 15%. Bono a la ventaja comercial: 5% -> 15%.
+
+Países:
+	Otomanos:
+		Modificado el Rasgo de Grupo de Interés "Effendi": 10% prestigio -> 25% velocidad al cambio de las instituciones.
+
+		Entrada de Diario "El Enfermo de Europa":
+			Recompensa "Auge Agrario": 10% a la eficiencia de inversión de los Aristócratas -> 25%
+			Recompensa por completarla con éxito: 15% de lealistas de cultura turca; 35% a la atracción política de la y 50% a su fuerza política Intelligentsia por 15 años con decaída.
+
+	Etiopía:
+		Reagregados sus bonos de contenido:
+			Territorio inicial con más recursos y tierra arable.
+			Bono por unificar Etiopía.
+
+
+Changelog Versión 1.13A #10-05-26
+
+Países
+
+	México:
+		La Cruz Azul no requiere de Rifles de Cerrojo. #wtf, por que necesitaba eso como concepto, se me quedó pillado de mondragón.
+		Mondragón en rifles de repetición #por hacer.
+
+		

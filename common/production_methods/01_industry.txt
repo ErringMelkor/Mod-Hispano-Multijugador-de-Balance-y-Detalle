@@ -1338,7 +1338,7 @@ pm_vacuum_evaporation = {
 			state_pollution_generation_add = 20
 		}
 	}
-	
+
 	unlocking_technologies = {
 		dynamite
 	}
@@ -1796,11 +1796,11 @@ pm_assembly_lines_building_automotive_industry = {
 			state_pollution_generation_add = 15
 		}
 	}
-	
+
 	unlocking_technologies = {
 		conveyors
 	}
-	
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -1820,15 +1820,22 @@ pm_assembly_lines_building_automotive_industry = {
 
 pm_basic_shipbuilding = {
 	texture = "gfx/interface/icons/production_method_icons/wooden_ships.dds"
-	
+
+	country_modifiers = {
+		workforce_scaled = {
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_wood_add = 40
 			goods_input_fabric_add = 20
-			
+
 			# output goods
-			goods_output_clippers_add = 35 
+			goods_output_clippers_add = 40
 		}
 
 		level_scaled = {
@@ -1846,7 +1853,14 @@ pm_complex_shipbuilding = {
 	unlocking_technologies = {
 		screw_frigate
 	}
-	
+
+	country_modifiers = {
+		workforce_scaled = {
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 10
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -1854,7 +1868,7 @@ pm_complex_shipbuilding = {
 			goods_input_hardwood_add = 20
 			goods_input_fabric_add = 20
 			goods_input_engines_add = 5
-			
+
 			# output goods
 			goods_output_clippers_add = 70
 		}
@@ -1871,24 +1885,31 @@ pm_complex_shipbuilding = {
 
 pm_metal_shipbuilding = {
 	texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships.dds"
-	
+
+	country_modifiers = {
+		workforce_scaled = {
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 15
+		}
+	}
+
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
 		}
 	}
-	
+
 	unlocking_technologies = {
 		gantry_cranes
 	}
-	
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_steel_add = 30
 			goods_input_coal_add = 10
 			goods_input_engines_add = 10
-			
+
 			# output goods
 			goods_output_steamers_add = 65
 		}
@@ -1905,9 +1926,16 @@ pm_metal_shipbuilding = {
 
 pm_arc_welding_shipbuilding = {
 	texture = "gfx/interface/icons/production_method_icons/arc_welded_steam_ships.dds"
-	
+
 	unlocking_technologies = {
 		arc_welding
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 20
+		}
 	}
 
 	state_modifiers = {
@@ -1915,14 +1943,14 @@ pm_arc_welding_shipbuilding = {
 			state_pollution_generation_add = 20
 		}
 	}
-	
+
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_steel_add = 30
 			goods_input_electricity_add = 30
 			goods_input_engines_add = 10
-			
+
 			# output goods
 			goods_output_steamers_add = 80
 		}
@@ -1945,17 +1973,15 @@ pm_no_military_shipbuilding = {
 
 pm_military_shipbuilding_wooden = {
 	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_wooden.dds"
-	
-	building_modifiers = {
+
+	country_modifiers = {
 		workforce_scaled = {
-			#input goods
-			goods_input_hardwood_add = 20
-			goods_input_fabric_add = 20
-			goods_input_iron_add = 10
-			# output goods
-			goods_output_manowars_add = 35
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 2
 		}
-	
+	}
+
+	building_modifiers = {
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -1972,17 +1998,15 @@ pm_military_shipbuilding_wooden_2 = {
 	unlocking_technologies = {
 		screw_frigate
 	}
-	
-	building_modifiers = {
+
+	country_modifiers = {
 		workforce_scaled = {
-			#input goods
-			goods_input_hardwood_add = 30
-			goods_input_fabric_add = 10
-			goods_input_engines_add = 5
-			goods_input_iron_add = 10
-			# output goods
-			goods_output_manowars_add = 45
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 5
 		}
+	}
+
+	building_modifiers = {
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -1991,7 +2015,7 @@ pm_military_shipbuilding_wooden_2 = {
 			building_employment_engineers_add = 500
 		}
 	}
-}			
+}
 
 pm_military_shipbuilding_steam = {
 	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_steam.dds"
@@ -1999,16 +2023,15 @@ pm_military_shipbuilding_steam = {
 	unlocking_technologies = {
 		ironclad_tech
 	}
-	
-	building_modifiers = {
+
+	country_modifiers = {
 		workforce_scaled = {
-			#input goods
-			goods_input_steel_add = 40
-			goods_input_coal_add = 20
-			goods_input_engines_add = 10
-			# output goods
-			goods_output_ironclads_add = 55
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 10
 		}
+	}
+
+	building_modifiers = {
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -2021,21 +2044,19 @@ pm_military_shipbuilding_steam = {
 
 pm_military_shipbuilding_steam_2 = {
 	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_steam_2.dds"
-	
+
 	unlocking_technologies = {
 		arc_welding
 	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			#input
-			goods_input_steel_add = 40
-			goods_input_electricity_add = 30
-			goods_input_engines_add = 20
 
-			# output goods
-			goods_output_ironclads_add = 70
+	country_modifiers = {
+		workforce_scaled = {
+			# Todo [PRCAL-41723]: Placeholder value
+			country_ship_construction_add = 15
 		}
+	}
+
+	building_modifiers = {
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 500
@@ -2044,9 +2065,7 @@ pm_military_shipbuilding_steam_2 = {
 			building_employment_engineers_add = 1000
 		}
 	}
-
-	required_input_goods = electricity
-}			
+}
 
 pm_automobile_production = {
 	texture = "gfx/interface/icons/production_method_icons/automobiles.dds"

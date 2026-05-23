@@ -253,29 +253,35 @@ dp_increase_autonomy = {
 
 dp_reduce_autonomy = {
 	war_goal = reduce_autonomy
-	
+
 	requires_interest_marker = no
-	
+
 	texture = "gfx/interface/icons/war_goals/reduce_autonomy.dds"
-	
+
 	possible = {
 		OR = {
 			NOT = {
 				scope:target_country = { is_subject_type = subject_type_personal_union }
-			} 
+			}
 			has_technology_researched = nationalism
-		}		
+		}
 
 		OR = {
 			NOT = {
 				scope:target_country = { has_government_type = gov_chartered_company }
-			} 
+			}
 			has_technology_researched = civilizing_mission
-		}	
+		}
+		NAND = {
+			is_involved_in_journal_entry = je_ryukyu_rivalry
+			scope:target_country = {
+				c:RYU ?= this
+			}
+		}
 	}
-	
+
 	on_weekly_pulse = {}
-	
+
 	on_war_begins = {}
 
 	on_war_end = {}
@@ -286,6 +292,8 @@ dp_take_treaty_port = {
 	war_goal = take_treaty_port
 
 	texture = "gfx/interface/icons/war_goals/take_treaty_port.dds"
+
+	add_infamy_for_starting_target_wargoals = yes
 
 	possible = {
 		NOT = { is_country_type = decentralized }
@@ -307,13 +315,14 @@ dp_take_treaty_port = {
 	on_war_end = {}
 }
 
-dp_make_tributary = {	
+dp_make_tributary = {
 	war_goal = make_tributary
 	
 	texture = "gfx/interface/icons/war_goals/make_tributary.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes	
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { scope:target_country = { has_modifier = modifier_ryukyu_rivalry_secured_neutrality } }
 	}
 	
 	ai_acceptance_max = 90
@@ -331,7 +340,8 @@ dp_make_dominion = {
 	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes	
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { scope:target_country = { has_modifier = modifier_ryukyu_rivalry_secured_neutrality } }
 	}
 	
 	ai_acceptance_max = 90
@@ -347,9 +357,10 @@ dp_make_protectorate = {
 	war_goal = make_protectorate
 	
 	texture = "gfx/interface/icons/war_goals/make_protectorate.dds"
-	
-	possible = {	
-		aggressive_diplomatic_plays_permitted = yes				
+
+	possible = {
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { scope:target_country = { has_modifier = modifier_ryukyu_rivalry_secured_neutrality } }
 	}
 	
 	ai_acceptance_max = 90
@@ -361,34 +372,15 @@ dp_make_protectorate = {
 	on_war_end = {}
 }
 
-# TODO PRCAL-36324 - add this diplo play back in when we get rid of Colonial country type
-#dp_make_dominion = {
-#	war_goal = make_dominion
-#	
-#	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
-#	
-#	possible = {	
-#		aggressive_diplomatic_plays_permitted = yes				
-#	}
-#	
-#	ai_acceptance_max = 90
-#	
-#	on_weekly_pulse = {}
-#	
-#	on_war_begins = {}
-#
-#	on_war_end = {}
-#}
-
 dp_transfer_subject = {
 	war_goal = transfer_subject
-	
+
 	texture = "gfx/interface/icons/war_goals/transfer_subject.dds"
-	
-	possible = {	
+
+	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			is_subject = yes
@@ -433,7 +425,7 @@ dp_annex_subject = {
 				always = no
 			}
 		}
-		
+
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 		scope:target_country = {
@@ -443,16 +435,27 @@ dp_annex_subject = {
 				has_diplomatic_pact = { who = root type = colony }
 				has_diplomatic_pact = { who = root type = puppet }
 				has_diplomatic_pact = { who = root type = vassal }
+				has_diplomatic_pact = { who = root type = crown_land }
 			}
 		}
 		NAND = {
-			has_journal_entry = je_peru_bolivia
+			is_involved_in_journal_entry = je_peru_bolivia
 			scope:target_country = {
 				OR = {
 					country_has_primary_culture = cu:quechua
 					country_has_primary_culture = cu:south_andean
 				}
 			}
+		}
+		NAND = {
+			is_involved_in_journal_entry = je_ryukyu_rivalry
+			scope:target_country = {
+				c:RYU ?= this
+			}
+		}
+		NAND = {
+			c:JAP ?= this
+			has_law_or_variant = law_type:law_serfdom # Proxy for feudalism
 		}
 	}
 	
@@ -896,37 +899,35 @@ dp_unify_scandinavia = {
 
 dp_unify_ethiopia = {
 	war_goal = annex_country
-	
+
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
-	
+
 	selectable_in_lens = {
-		can_form_nation = ETH
+		has_journal_entry = je_age_of_princes
 	}
-	
+
 	possible = {
 		NOT = { exists = c:ETH }
 		NOT = { is_country_type = decentralized }
 		is_subject = no
-		custom_tooltip = {
-			text = ETH_tt
-			can_form_nation = ETH
-		}
+		has_journal_entry = je_age_of_princes
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
-			aggressive_diplomatic_plays_permitted = yes
 			custom_tooltip = {
 				text = ETH_tt
 				can_form_nation = ETH
 			}
+			aggressive_diplomatic_plays_permitted = yes
 		}
 	}
-	
+
 	on_weekly_pulse = {}
-	
+
 	on_war_begins = {}
 
 	on_war_end = {}
 }
+
 
 dp_unify_arabia = {
 	war_goal = annex_country
@@ -1241,61 +1242,6 @@ dp_leadership_platinean = {
 	
 	possible = {
 		has_technology_researched = nationalism			
-	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
-}
-
-
-
-dp_unify_yuan = {
-	war_goal = unification
-	
-	requires_interest_marker = no
-	blocked_by_diplomatic_status = no
-	add_infamy_for_starting_initiator_wargoals = no
-	
-	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
-	
-	selectable_in_lens = {
-		always = no
-	}
-	
-	possible = {
-		NOR = { 
-			exists = c:GDN
-			exists = c:GJN
-			exists = c:GSN 
-		}
-		NOT = { is_country_type = decentralized }
-		has_technology_researched = pan-nationalism
-	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
-}
-
-dp_leadership_yuan = {
-	war_goal = unification_leadership
-	
-	requires_interest_marker = no
-	mirror_war_goal = yes
-	
-	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
-	
-	selectable_in_lens = {
-		always = no
-	}	
-	
-	possible = {
-		has_technology_researched = nationalism
 	}
 	
 	on_weekly_pulse = {}

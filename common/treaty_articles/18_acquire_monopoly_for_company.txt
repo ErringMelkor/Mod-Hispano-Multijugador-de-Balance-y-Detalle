@@ -2,6 +2,9 @@
     kind = directed
     cost = 25
 
+	max_target_involvement = 1000
+	target_involvement_applies_to = source_country
+
 	icon = "gfx/interface/icons/diplomatic_treaties_articles_icons/acquire_monopoly_for_company_treaties.dds"
 
 	flags = {
@@ -24,8 +27,8 @@
     }
 
 	visible = {
-
         has_dlc_feature = mp1_treaties
+		is_revolutionary = no
 	}
 
 	possible = {

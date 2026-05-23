@@ -2,7 +2,7 @@
 company_sao_paulo_railway = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/brazil_sao_paulo_railway.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
-	
+
 	flavored_company = yes
 
 	preferred_headquarters = { STATE_SAO_PAULO }
@@ -17,7 +17,7 @@ company_sao_paulo_railway = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -106,7 +106,7 @@ company_estaleiro_maua = {
 
 	building_types = {
 		building_shipyard
-		building_military_shipyard
+		building_artillery_foundry
 	}
 
 	extension_building_types = {
@@ -115,7 +115,7 @@ company_estaleiro_maua = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -144,7 +144,7 @@ company_estaleiro_maua = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_shipyard
-					is_building_type = building_military_shipyard
+					is_building_type = building_artillery_foundry
 				}
 				level >= 5
 			}
@@ -152,9 +152,9 @@ company_estaleiro_maua = {
 	}
 
 	prosperity_modifier = {
-		country_convoys_capacity_mult = 0.1
+		country_ship_group_supply_ships_construction_efficiency_add = 0.1
 		building_steel_mill_throughput_add = 0.1
-		country_navy_defense_mult = 0.05
+		ship_hit_points_max_mult = 0.05
 	}
 
 	ai_will_do = {
@@ -171,7 +171,7 @@ company_estaleiro_maua = {
 				state_region = s:STATE_RIO_DE_JANEIRO
 			}
 		}
-		building_military_shipyard = {
+		building_artillery_foundry = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_RIO_DE_JANEIRO
@@ -188,7 +188,7 @@ company_estaleiro_maua = {
 company_pernambuco_textiles = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/brazil_companhia_fiacai_e_tecidos_de_pernambuco.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
-	
+
 	flavored_company = yes
 
 	preferred_headquarters = { STATE_PERNAMBUCO }
@@ -215,7 +215,7 @@ company_pernambuco_textiles = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -305,7 +305,7 @@ company_fundicao_ipanema = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -406,7 +406,7 @@ company_rossi = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -486,7 +486,7 @@ company_estanifera_llallagua = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_andes
+		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -551,6 +551,8 @@ company_estanifera_llallagua = {
 company_argentinian_wine = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/argentina_centro_vitivinicola_nacional.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
+
+	category = shopkeeper_owned
 
 	building_types = {
 		building_vineyard
@@ -632,7 +634,7 @@ company_sudamericana_de_vapores = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -668,7 +670,7 @@ company_sudamericana_de_vapores = {
 
 	prosperity_modifier = {
 		state_colony_growth_speed_mult = 0.1
-		country_convoys_capacity_mult = 0.2
+		country_ship_group_supply_ships_construction_efficiency_add = 0.2
 	}
 
 	ai_will_do = {
@@ -713,7 +715,7 @@ company_electricidad_de_caracas = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_gran_colombia
+		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -794,7 +796,7 @@ company_cordoba_railway = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_la_plata
+		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian
@@ -881,7 +883,7 @@ company_eea = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		has_interest_marker_in_region = region_andes
+		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			country_has_primary_culture = cu:mexican
 			country_has_primary_culture = cu:brazilian

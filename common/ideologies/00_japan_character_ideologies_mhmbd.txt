@@ -58,7 +58,7 @@
 	lawgroup_land_reform = {
 		law_serfdom = disapprove
 		law_tenant_farmers = approve
-		law_homesteading = neutral
+		law_peasant_proprietorship = neutral
 		law_collectivized_agriculture = disapprove
 		law_commercialized_agriculture = neutral
 	}
@@ -76,7 +76,7 @@
 	non_interest_group_leader_trigger = {
 		# Agitators should have an ideology at odds with current laws
 		NAND = {
-			has_role = agitator
+			has_role_of_type = agitator
 			owner = {
 				has_law_or_variant = law_type:law_compulsory_primary_school
 				has_law_or_variant = law_type:law_public_schools

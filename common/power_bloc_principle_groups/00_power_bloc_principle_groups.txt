@@ -140,6 +140,8 @@ principle_group_creative_legislature = {
 }
 
 principle_group_freedom_of_movement = {
+	primary_for_identity = identity_cultural
+
 	levels = {
 		principle_freedom_of_movement_1
 		principle_freedom_of_movement_2
@@ -196,6 +198,15 @@ principle_group_companies = {
 		principle_companies_1
 		principle_companies_2
 		principle_companies_3
+	}
+}
+
+principle_group_navy = {
+
+	levels = {
+		principle_navy_1
+		principle_navy_2
+		principle_navy_3
 	}
 }
 
