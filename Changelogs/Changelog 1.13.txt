@@ -39,7 +39,21 @@ Changelog Versión 1.13A #10-05-26 - 29-05-26
 
 Compañías:
 	Agregadas nuevas compañías, gracias a Wichux.
-		[Insterte nombre de compañías agregadas aquí]
+		Bolsa de Comercio de Buenos Aires (Argentina)
+        La Forestal (Argentina)
+		Wilson Sons (Brasil)
+ 		Industrias Reunidas Fabricas Matarazzo (Brasil)
+		Bolsa de Granos de Winnipeg (Canada)
+		Coltejer (Colombia)
+		Postobon (Colombia)
+		Falabella (Chile)
+		Sociedad Explotadora de Tierra del Fuego (Chile)
+		Casa Pelladini (Mexico)
+		Tequila Jose Cuervo (Mexico)
+		Cemex (Mexico)
+		Peruvian Corporation (Peru-Bolivia)
+		Compañia Administradora del Guano (Peru-Bolivia)
+		Agro Paramonga (Peru-Bolivia)
 
 Militar:
 	Reducida la cantidad de prestigio otorgada por la marina en un 50%: 0.65 -> 0.325
