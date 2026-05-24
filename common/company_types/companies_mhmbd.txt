@@ -255,16 +255,16 @@ company_la_forestal= {
 	building_types = {
 		building_logging_camp
 		building_railway
-		building_port
+		building_hardwood_logging
 	}
 
 	extension_building_types = {
-		building_hardwood_logging
+		building_port
 	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		c:ARG ?= this
+		
 	}
 
 	attainable = {
@@ -276,21 +276,30 @@ company_la_forestal= {
 	}
 
 	possible = {
-		c:ARG ?= this
-		any_scope_state = {
-			state_region = s:STATE_CHACO
-			is_incorporated = yes
-			any_scope_building = {
+		OR = {
+			any_scope_state = {
+				state_region = s:STATE_CHACO
+				any_scope_building = {
 					is_building_type = building_logging_camp
 					level >= 5
 				}
 			}
+			any_scope_state = {
+				state_region = s:STATE_CHACO
+				any_scope_building = {
+					is_building_type = building_hardwood_logging
+					level >= 5
+				}
 			}
+		}
+		shares_heritage_trait_with_any_primary_culture = cu:platinean
+	}
 
 	prosperity_modifier = {
-		building_logging_camp_throughput_add = 0.1
-		building_group_bg_light_industry_throughput_add = 0.1
-		interest_group_ig_trade_unions_pol_str_mult = 0.3
+		country_radicalism_increases_second_rate_citizen_mult = -0.15
+		country_radicalism_increases_open_prejudice_mult = -0.15
+		building_group_bg_ranching_throughput_add = 0.15
+		interest_group_ig_industrialists_approval_add = 0.25
 	}
 
 	ai_will_do = {
@@ -363,11 +372,11 @@ company_falabella= {
 			state_region = s:STATE_SANTIAGO
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_furniture_manufactory
-					level >= 5
-				}
+				is_building_type = building_furniture_manufactory
+				level >= 5
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
 		building_group_bg_light_industry_throughput_add = 0.15
@@ -378,8 +387,8 @@ company_falabella= {
 		any_scope_state = {
 	        state_region = s:STATE_SANTIAGO
 			is_incorporated = yes
-			}
 		}
+	}
 
 	ai_construction_targets = {
 		building_furniture_manufactory = {
@@ -428,10 +437,10 @@ company_coltejer= {
 	potential = {
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
-				c:ECU ?= this
-				c:GCO ?= this
-				c:VNZ ?= this
-				}
+			c:CLM ?= this
+			was_formed_from = CLM
+			was_formed_from = GCO
+		}
 	}
 
 	attainable = {
@@ -444,33 +453,32 @@ company_coltejer= {
 
 	possible = {
 		OR = {
-				c:ECU ?= this
-				c:GCO ?= this
-				c:VNZ ?= this
-				}
+			c:CLM ?= this
+			was_formed_from = CLM
+			was_formed_from = GCO
+		}
 		any_scope_state = {
 			state_region = s:STATE_ANTIOQUIA
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_textile_mill
-					level >= 5
-				}
+				is_building_type = building_textile_mill
+				level >= 5
 			}
-		has_technology_researched = lathes
-			}
+		}
+		has_technology_researched = mechanized_workshops
+	}
 
 	prosperity_modifier = {
-		country_tech_spread_mult = 0.05
-		country_weekly_innovation_mult = 0.05
-		state_trade_advantage_mult = 0.10
+		country_production_tech_spread_mult = 0.15
+		state_trade_advantage_mult = 0.15
 	}
 
 	ai_will_do = {
 		any_scope_state = {
 	        state_region = s:STATE_ANTIOQUIA
 			is_incorporated = yes
-			}
 		}
+	}
 
 	ai_construction_targets = {
 		building_textile_mill = {
@@ -505,7 +513,11 @@ company_bolsa_bsas= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		c:ARG ?= this
+		OR = {
+			c:ARG ?= this
+			was_formed_from = ARG
+		}
+		
 	}
 
 	attainable = {
@@ -517,17 +529,20 @@ company_bolsa_bsas= {
 	}
 
 	possible = {
-		c:ARG ?= this
+		OR = {
+			c:ARG ?= this
+			was_formed_from = ARG
+		}
 		any_scope_state = {
 			state_region = s:STATE_BUENOS_AIRES
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_trade_center
-					level >= 5
-				}
+				is_building_type = building_trade_center
+				level >= 5
 			}
+		}
 		has_technology_researched = investment_banks
-			}
+	}
 
 	prosperity_modifier = {
 		country_max_companies_add = 1
@@ -697,9 +712,9 @@ company_tierra_fuego_society= {
 			any_scope_building = {
 					is_building_type = building_livestock_ranch
 					level >= 5
-				}
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
 		country_colony_growth_speed_mult = 1
@@ -783,18 +798,19 @@ company_wilson_sons= {
 			state_region = s:STATE_BAHIA
 			is_incorporated = yes
 			any_scope_building = {
-					OR = {
+				OR = {
 					is_building_type = building_trade_center
 					is_building_type = building_port
-				    }
-					level >= 5
-				}
+			    }
+				level >= 5
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
-		country_max_companies_add = 1
+		building_group_bg_logging_throughput_add = 0.15
 		state_construction_mult = 0.1
+		state_infrastructure_from_population_max_add = 15
 	}
 
 	ai_will_do = {
@@ -849,10 +865,10 @@ company_peruvian_corporation= {
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
 	}
 
 	attainable = {
@@ -865,28 +881,22 @@ company_peruvian_corporation= {
 
 	possible = {
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
 		any_scope_state = {
 			state_region = s:STATE_LIMA
 			is_incorporated = yes
 			any_scope_building = {
-					OR = {
+				OR = {
 					is_building_type = building_railway
 					is_building_type = building_port
-				    }
-					level >= 5
-				}
+			    }
+			level >= 5
 			}
-		any_scope_treaty = {
-							binds = c:GBR ?= this
-							any_scope_article = {
-							has_type = trade_privilege
-							}
-						}
-			}
+		}
+	}
 
 	prosperity_modifier = {
 		country_loan_interest_rate_mult = -0.05
@@ -947,10 +957,10 @@ company_guano_management= {
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
 	}
 
 	attainable = {
@@ -963,24 +973,24 @@ company_guano_management= {
 
 	possible = {
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
 		any_scope_state = {
 			state_region = s:STATE_ICA
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_chemical_plant
-					level >= 5
-				}
+				is_building_type = building_chemical_plant
+				level >= 5
 			}
+		}
 		has_technology_researched = intensive_agriculture
-			}
+	}
 
 	prosperity_modifier = {
-		building_chemical_plant_throughput_add = 0.3
-		building_group_bg_agriculture_throughput_add = 0.1
+		building_chemical_plant_throughput_add = 0.15
+		building_group_bg_agriculture_throughput_add = 0.15
 		interest_group_ig_rural_folk_approval_add = 5
 	}
 
@@ -988,8 +998,8 @@ company_guano_management= {
 		any_scope_state = {
 	        state_region = s:STATE_ICA
 			is_incorporated = yes
-			}
 		}
+	}
 
 	ai_construction_targets = {
 		building_chemical_plant = {
@@ -1039,10 +1049,10 @@ company_agro_paramonga= {
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
 	}
 
 	attainable = {
@@ -1055,24 +1065,24 @@ company_agro_paramonga= {
 
 	possible = {
 		OR = {
-				c:PEU ?= this
-				c:PBC ?= this
-				c:BOL ?= this
-				}
+			c:BOL ?= this
+			was_formed_from = BOL
+			was_formed_from = PBC
+		}
         any_scope_state = {
 			state_region = s:STATE_LIMA
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_sugar_plantation
-					level >= 5
-				}
+				is_building_type = building_sugar_plantation
+				level >= 5
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
 		building_sugar_plantation_throughput_add = 0.2
         building_power_plant_throughput_add = 0.1
-        building_sugar_plantation_standard_of_living_add = 3
+        building_sugar_plantation_standard_of_living_add = 2
 	}
 
 	ai_will_do = {
@@ -1129,10 +1139,10 @@ company_postobon= {
     potential = {
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
-				c:ECU ?= this
-				c:GCO ?= this
-				c:VNZ ?= this
-				}
+			c:CLM ?= this
+			was_formed_from = CLM
+			was_formed_from = GCO
+		}
 	}
 
 	attainable = {
@@ -1145,10 +1155,10 @@ company_postobon= {
 
 	possible = {
 		OR = {
-				c:ECU ?= this
-				c:GCO ?= this
-				c:VNZ ?= this
-				}
+			c:CLM ?= this
+			was_formed_from = CLM
+			was_formed_from = GCO
+		}
 		any_scope_state = {
 			state_region = s:STATE_ANTIOQUIA
 			is_incorporated = yes
@@ -1162,7 +1172,7 @@ company_postobon= {
 
 	prosperity_modifier = {
 		state_birth_rate_mult = 0.05
-		state_standard_of_living_add = 1
+		state_standard_of_living_add = 0.5
 		building_group_bg_government_throughput_add = 0.1
 	}
 
@@ -1462,11 +1472,11 @@ company_pelladini= {
 			state_region = s:STATE_MEXICO
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_furniture_manufactory
-					level >= 5
-				}
+				is_building_type = building_furniture_manufactory
+				level >= 5
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
 		building_furniture_manufactory_throughput_add = 0.1
@@ -1541,12 +1551,12 @@ company_granos_winnipeg= {
 				}
 			}
 		has_technology_researched = intensive_agriculture
-			}
+	}
 
 	prosperity_modifier = {
-		building_wheat_farm_throughput_add = 0.5
-		building_wheat_farm_standard_of_living_add = 1
-		building_group_bg_manufacturing_throughput_add = -0.1
+		building_wheat_farm_throughput_add = 0.25
+		building_group_bg_agriculture_standard_of_living_add = 2
+		building_group_bg_agriculture_tax_mult = -0.1
 	}
 
 	ai_will_do = {
@@ -1625,17 +1635,17 @@ company_jose_cuervo= {
 			state_region = s:STATE_JALISCO
 			is_incorporated = yes
 			any_scope_building = {
-					is_building_type = building_food_industry
-					level >= 5
-				}
+				is_building_type = building_food_industry
+				level >= 5
 			}
-			}
+		}
+	}
 
 	prosperity_modifier = {
-		state_birth_rate_mult = 0.05
-        state_lower_strata_standard_of_living_add = 2
-		state_middle_strata_standard_of_living_add = 1
-		state_upper_strata_standard_of_living_add = 0.5
+		state_birth_rate_mult = 0.1
+		state_lower_strata_expected_sol_add = -1
+		state_middle_strata_expected_sol_add = -1.5
+		state_upper_strata_expected_sol_add = -2
 	}
 
 	ai_will_do = {
@@ -1788,6 +1798,61 @@ company_lena_gold_mining_partnertship  = {
 
 
 ### -------------- EUROPE ------------- ###
+
+company_lanificio_paoletti = {
+	icon = "gfx/interface/icons/company_icons/basic_fabrics.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_textile_mill
+		building_livestock_ranch
+	}
+
+	extension_building_types = {
+		building_silk_plantation
+		building_cotton_plantation
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_southern_europe
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_generic_clothes
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_VENETIA
+			}
+		}
+	}
+
+	possible = {
+		country_has_primary_culture = cu:north_italian
+		any_scope_state = {
+			state_region = s:STATE_VENETIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_textile_mill
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_livestock_ranch_throughput_add = 0.25
+		building_cotton_plantation_throughput_add = 0.15
+		interest_group_ig_trade_unions_pol_str_mult = 0.35
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
 
 company_alhstrom = {
 	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
