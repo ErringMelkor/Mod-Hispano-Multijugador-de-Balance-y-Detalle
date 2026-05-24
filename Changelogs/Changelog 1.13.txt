@@ -37,6 +37,10 @@ Países:
 
 Changelog Versión 1.13A #10-05-26 - 29-05-26
 
+Compañías:
+	Agregadas nuevas compañías, gracias a Wichux.
+		[Insterte nombre de compañías agregadas aquí]
+
 Militar:
 	Reducida la cantidad de prestigio otorgada por la marina en un 50%: 0.65 -> 0.325
 
