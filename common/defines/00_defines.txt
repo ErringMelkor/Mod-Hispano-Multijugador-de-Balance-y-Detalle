@@ -1206,7 +1206,7 @@ NDiplomacy = {
 	PRESTIGE_FROM_COUNTRY_GDP = 4 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP
 	PRESTIGE_FROM_SUBJECT_GDP = 1.5 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP in subjects
 	PRESTIGE_FROM_ARMY_POWER_PROJECTION = 0.04 # Per point of power projection from army combat power
-	PRESTIGE_FROM_NAVY_POWER_PROJECTION = 0.065 # Per point of power projection from navy combat power
+	PRESTIGE_FROM_NAVY_POWER_PROJECTION = 0.0325 # Per point of power projection from navy combat power
 	PRESTIGE_FROM_SUBJECT_ARMY_POWER_PROJECTION = 0.0005 # Per point of power projection from army combat power in subjects
 	PRESTIGE_FROM_SUBJECT_NAVY_POWER_PROJECTION = 0.01 # Per point of power projection from navy combat power in subjects
 
