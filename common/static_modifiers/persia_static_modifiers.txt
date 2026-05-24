@@ -31,5 +31,5 @@ golden_crescent_people = {
 
 persian_boom = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	state_birth_rate_mult = 0.25
+	state_birth_rate_mult = 0.225
 }
