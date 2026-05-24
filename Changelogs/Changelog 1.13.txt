@@ -46,6 +46,9 @@ Militar:
 
 Países
 
+	Argentina:
+		Rebalanceada la madera del Chaco hacia Madera Dura.
+
 	Persia:
 		Bono de los Terratenientes: -0.75% a la mortandad en campesinos -> -0.625%
 		Bono a la natalidad por el Creciente Dorado: 0.25% -> 0.225%
