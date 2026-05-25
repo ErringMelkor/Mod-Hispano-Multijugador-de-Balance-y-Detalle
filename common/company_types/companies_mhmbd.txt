@@ -1082,7 +1082,7 @@ company_agro_paramonga= {
 	prosperity_modifier = {
 		building_sugar_plantation_throughput_add = 0.2
         building_power_plant_throughput_add = 0.1
-        building_group_bg_agriculture_standard_of_living_add = 2
+        building_group_bg_plantations_standard_of_living_add = 2
 	}
 
 	ai_will_do = {
