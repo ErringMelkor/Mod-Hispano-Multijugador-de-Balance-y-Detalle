@@ -32,6 +32,7 @@
   je_prestige_good_specialty_sugar_complete_tt: "Ha completado la #b $je_prestige_good_specialty_sugar$#! [concept_journal_entry]"
   je_prestige_good_specialty_sugar_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
   not_prestige_good_specialty_sugar_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] desarrolla #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
   notification_prestige_good_specialty_sugar_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
   notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
 
