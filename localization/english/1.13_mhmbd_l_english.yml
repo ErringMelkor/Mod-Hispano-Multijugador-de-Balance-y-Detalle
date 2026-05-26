@@ -25,3 +25,14 @@
   prestige_good_ultra_food: "Ultra-Processed Food"
   company_jose_cuervo: "José Cuervo Tequila"
   prestige_good_premium_liquor: "Premium Liquor"
+
+  je_prestige_good_specialty_sugar: "$prestige_good_specialty_sugar$"
+  je_prestige_good_specialty_sugar_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!. If successful, it will be able to expand its competitiveness within the global @sugar! #b $sugar$#! market."
+  je_prestige_good_specialty_sugar_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_specialty_sugar_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_specialty_sugar_complete_tt: "Has completed the #b $je_prestige_good_specialty_sugar$#! [concept_journal_entry]"
+  je_prestige_good_specialty_sugar_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!"
+  not_prestige_good_specialty_sugar_var_tt: "Has #b not#! already developed @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!"
+  notification_prestige_good_specialty_sugar_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!"
+  notification_prestige_good_specialty_sugar_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!"
+  notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
+
