@@ -25,3 +25,13 @@
   prestige_good_ultra_food: "Alimentos Ultra Procesados"
   company_jose_cuervo: "Tequila José Cuervo"
   prestige_good_premium_liquor: "Licor Premium"
+
+  je_prestige_good_specialty_sugar: "$prestige_good_specialty_sugar$"
+  je_prestige_good_specialty_sugar_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $sugar$#! @sugar!."
+  je_prestige_good_specialty_sugar_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_specialty_sugar_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_specialty_sugar_complete_tt: "Ha completado la #b $je_prestige_good_specialty_sugar$#! [concept_journal_entry]"
+  je_prestige_good_specialty_sugar_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  not_prestige_good_specialty_sugar_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
+
