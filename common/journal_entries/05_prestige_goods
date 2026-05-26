@@ -8,7 +8,7 @@ je_prestige_good_specialty_sugar = {
             can_potentially_produce_prestige_goods = prestige_good_specialty_sugar
             is_producing_prestige_goods = no
             NOT = {
-                has_variable = 
+                has_variable = prestige_good_specialty_sugar_var
             }
         }
     }
@@ -21,7 +21,7 @@ je_prestige_good_specialty_sugar = {
             NOT = {
                 custom_tooltip = {
                     text = not_prestige_good_specialty_sugar_var_tt
-                    has_variable = 
+                    has_variable = prestige_good_specialty_sugar_var
                 }
             }
         }
@@ -34,14 +34,14 @@ je_prestige_good_specialty_sugar = {
                 is_producing_prestige_goods = no
                 company_is_prosperous = yes
                 NOT = {
-                    has_variable = 
+                    has_variable = prestige_good_specialty_sugar_var
                 }
             }
             save_scope_as = relevant_company
         }
 		set_variable = {
 			name = prestige_sugar_timer_var
-			value = 0.1
+			value = 0
 		}
         g:sugar = {
             save_scope_as = relevant_goods
@@ -51,7 +51,7 @@ je_prestige_good_specialty_sugar = {
     complete = {
         trigger_if = {
             limit = {
-                has_variable = prestige_sugar_timer_var
+                has_variable = prestige_good_specialty_sugar_var
             }
             scope:journal_entry = {
                 is_goal_complete = yes
@@ -90,7 +90,7 @@ je_prestige_good_specialty_sugar = {
                     }
                     "goods_production_rank(scope:relevant_goods)" <= 3
                 }
-                change_variable = { name =  add = 1 }
+                change_variable = { name = prestige_good_specialty_sugar_var add = 1 }
             }
         }
     }
@@ -103,17 +103,21 @@ je_prestige_good_specialty_sugar = {
             custom_tooltip = {
                 text = je_prestige_good_specialty_sugar_reward_tt
                 scope:relevant_company ?= {
-                    set_variable = 
+                    set_variable = prestige_good_specialty_sugar_var
                 }
             }
         }
         post_notification = prestige_good_specialty_sugar_unlocked
     }
 
-    can_deactivate = yes
+    invalid = {
+        NOT = {
+            exists = scope:relevant_company
+        }
+    }
 
 	current_value = {
-		value = root.var:prestige_sugar_timer_var
+		value = root.var:prestige_good_specialty_sugar_var
 	}
 
 	goal_add_value = {
@@ -124,17 +128,9 @@ je_prestige_good_specialty_sugar = {
 
     weight = 1000
 
-    	
-	should_be_pinned_by_default_uninvolved_or_context = yes
+	should_be_pinned_by_default = yes
 }
 
-prestige_good_ultra_food = {
-	base_good = groceries
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
-}
-
--- Prestigio entrada de diario
 je_prestige_good_ultra_food = {
     icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
 
