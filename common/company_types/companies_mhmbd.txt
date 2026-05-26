@@ -1041,7 +1041,7 @@ company_agro_paramonga= {
     
     prestige_goods_trigger = {
 		custom_tooltip = {
-			text = je_prestige_good_specialty_sugar_complete_tt
+			text = je_prestige_goods_specialty_sugar_complete_tt
 			has_variable = prestige_good_specialty_sugar_var
 		}
 	}
