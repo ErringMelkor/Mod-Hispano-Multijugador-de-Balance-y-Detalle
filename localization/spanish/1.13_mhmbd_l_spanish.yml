@@ -8,8 +8,42 @@
 
   gm_actions.1.l: "Otorgar bono de Relleno"
   gm_actions_fill.1.t: "Categoría de Rango de Relleno"
-  gm_actions_fill.1.d: "Esta decisión permite escoger la Categoría de Rango de Relleno, que se corresponde a la lista de países del roster. Como GM, otorgas el Rango de la categoría (ie., una Prusia de Relleno tendría categoría de Gran Potencia; una Cerdeña de Importante; una Suecia de Menor; una Colombia de Insignificante.) y el jugador decide el tipo de bono que recibe a partir de un evento."
+  gm_actions_fill.1.d: "Esta decisión permite escoger la Categoría de Rango de Relleno, que se corresponde a la lista de países del roster. Como GM, otorgas el Rango de la categoría (ie., una Prusia de Relleno tendría categoría de Gran Potencia; una Cerdeña de Importante; una Suecia de Menor; una Colombia de Insignificante.) y el jugador decide el tipo de bono que recibe a partir de un evento. Por motivos técnicos, ahora mismo solo se debe dar un bono cada 95 días."
   gm_actions_fill.1.a: "Categoría de Gran Potencia"
   gm_actions_fill.1.b: "Categoría de Potencia Importante"
   gm_actions_fill.1.c: "Categoría de Potencia Menor"
   gm_actions_fill.1.e: "Categoría de Potencia Insignificante"
+
+  gm_actions_fill.2.t: "Bono por Relleno"
+  gm_actions_fill.2.d: "Has escogido jugar un país de Relleno. Muchas gracias. Desde aquí tienes una opción para escoger qué tipo de bonificador quieres tener."
+  gm_actions_fill.2.a: "Dinero"
+  gm_actions_fill.2.b: "Tasa de Natalidad"
+  gm_actions_fill.2.c: "Lealistas"
+  gm_actions_fill.2.e: "Velocidad de Investigación"
+  gm_actions_fill.2.f: "Decaimiento de Infamia"
+  gm_actions_fill.2.g: "Autoridad"
+
+  fill_dinero_gp: "Bono por Gran Potencia: Dinero"
+  fill_dinero_major: "Bono por Potencia Importante: Dinero"
+  fill_dinero_minor: "Bono por Potencia Menor: Dinero"
+  fill_dinero_insignificante: "Bono por Potencia Insignificante: Dinero"
+
+  fill_birth_rate_gp: "Bono por Gran Potencia: Tasa de Natalidad"
+  fill_birth_rate_major: "Bono por Potencia Importante: Tasa de Natalidad"
+  fill_birth_rate_minor: "Bono por Potencia Menor: Tasa de Natalidad"
+  fill_birth_rate_insignificante: "Bono por Potencia Insignificante: Tasa de Natalidad"
+
+  fill_investigacion_gp: "Bono por Gran Potencia: Velocidad de Investigación"
+  fill_investigacion_major: "Bono por Potencia Importante: Velocidad de Investigación"
+  fill_investigacion_minor: "Bono por Potencia Menor: Velocidad de Investigación"
+  fill_investigacion_insignificante: "Bono por Potencia Insignificante: Velocidad de Investigación"
+
+  fill_infamia_gp: "Bono por Gran Potencia: Decaimiento de Infamia"
+  fill_infamia_major: "Bono por Potencia Importante: Decaimiento de Infamia"
+  fill_infamia_minor: "Bono por Potencia Menor: Decaimiento de Infamia"
+  fill_infamia_insignificante: "Bono por Potencia Insignificante: Decaimiento de Infamia"
+
+  fill_autoridad_gp: "Bono por Gran Potencia: Autoridad"
+  fill_autoridad_major: "Bono por Potencia Importante: Autoridad"
+  fill_autoridad_minor: "Bono por Potencia Menor: Autoridad"
+  fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
