@@ -170,6 +170,18 @@ gm_actions.1 = {
 			remove_variable = actionee
 		}
 	}
+
+	# Bono por Fill (1ra parte, escoger categoría).
+
+	option = {
+		name = gm_actions.1.l
+		trigger_event = {
+			id = gm_actions_fill.1
+			days = 0
+			popup = yes
+		}
+	}
+	
 }
 
 

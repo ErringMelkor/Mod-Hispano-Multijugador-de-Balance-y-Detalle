@@ -1,0 +1,99 @@
+fill_dinero_gp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_minting_add = 10000
+}
+
+fill_dinero_major = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_minting_add = 15000
+}
+
+fill_dinero_minor = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_minting_add = 20000
+}
+
+fill_dinero_insignificante = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_minting_add = 30000
+}
+
+fill_birth_rate_gp = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.1
+}
+
+fill_birth_rate_major = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.2
+}
+
+fill_birth_rate_minor = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.3
+}
+
+fill_birth_rate_insignificante = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = 0.5
+}
+
+fill_investigacion_gp = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_research_speed_mult = 0.1
+}
+
+fill_investigacion_major = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_research_speed_mult = 0.2
+}
+
+fill_investigacion_minor = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_research_speed_mult = 0.3
+}
+
+fill_investigacion_insignificante = {
+icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tech_research_speed_mult = 0.5
+}
+
+fill_infamia_gp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.1
+}
+
+fill_infamia_major = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.2
+}
+
+fill_infamia_minor = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.3
+}
+
+fill_infamia_insignificante = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_infamy_decay_mult = 0.5
+}
+
+fill_autoridad_gp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 100
+}
+
+fill_autoridad_major = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 200
+}
+
+fill_autoridad_minor = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 300
+}
+
+fill_autoridad_insignificante = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 300
+}

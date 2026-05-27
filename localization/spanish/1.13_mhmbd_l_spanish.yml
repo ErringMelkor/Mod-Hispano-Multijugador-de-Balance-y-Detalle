@@ -5,3 +5,11 @@
   prestige_good_coffea_arabica: "Café Arábigo"
   prestige_good_coffea_robusta: "Café Robusto"
   company_fedecafe: "Fedecafé"
+
+  gm_actions.1.l: "Otorgar bono de Relleno"
+  gm_actions_fill.1.t: "Categoría de Rango de Relleno"
+  gm_actions_fill.1.d: "Esta decisión permite escoger la Categoría de Rango de Relleno, que se corresponde a la lista de países del roster. Como GM, otorgas el Rango de la categoría (ie., una Prusia de Relleno tendría categoría de Gran Potencia; una Cerdeña de Importante; una Suecia de Menor; una Colombia de Insignificante.) y el jugador decide el tipo de bono que recibe a partir de un evento."
+  gm_actions_fill.1.a: "Categoría de Gran Potencia"
+  gm_actions_fill.1.b: "Categoría de Potencia Importante"
+  gm_actions_fill.1.c: "Categoría de Potencia Menor"
+  gm_actions_fill.1.e: "Categoría de Potencia Insignificante"
