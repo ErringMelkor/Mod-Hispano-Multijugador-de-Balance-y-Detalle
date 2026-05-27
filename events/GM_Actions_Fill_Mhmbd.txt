@@ -1,0 +1,358 @@
+namespace = gm_actions_fill
+
+#Categoría de País - Se añade con variable al scope, limpiar después de usar.
+gm_actions_fill.1 = { 
+	type = country_event
+	placement = ROOT
+	title = gm_actions_fill.1.t
+	desc = gm_actions_fill.1.d
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 1
+	
+	trigger = {
+		#triggered by gm_actions.1
+	}
+	
+	option = {
+		name = gm_actions_fill.1.a
+		default_option = yes
+		scope:recipient = {
+			set_variable = fill_gp
+			trigger_event = {
+				id = gm_actions_fill.2
+				days = 0
+				popup = yes
+			}
+		}
+	}
+	
+	option = {
+		name = gm_actions_fill.1.b
+		scope:recipient = {
+			set_variable = fill_major
+			trigger_event = {
+				id = gm_actions_fill.2
+				days = 0
+				popup = yes
+			}
+		}
+	}
+
+	option = {
+		name = gm_actions_fill.1.c
+		scope:recipient = {
+			set_variable = fill_minor
+			trigger_event = {
+				id = gm_actions_fill.2
+				days = 0
+				popup = yes
+			}
+		}		
+	}
+	option = {
+		name = gm_actions_fill.1.e
+		scope:recipient = {
+			set_variable = fill_insignificante
+			trigger_event = {
+				id = gm_actions_fill.2
+				days = 0
+				popup = yes
+			}
+		}		
+	}
+}
+
+#Tipo de Bono
+gm_actions_fill.2 = {
+	type = country_event
+	placement = ROOT
+	title = gm_actions_fill.2.t
+	desc = gm_actions_fill.2.d
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 1
+	
+	trigger = {
+		#triggered by gm_actions.1
+	}
+	
+	# Dinero
+	option = {
+		name = gm_actions_fill.2.a		
+		default_option = yes
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_modifier = {
+				name = fill_dinero_gp
+				years = 10
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_modifier = {
+				name = fill_dinero_major
+				years = 10
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_modifier = {
+				name = fill_dinero_minor
+				years = 10
+			}
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_modifier = {
+				name = fill_dinero_insignificante
+				years = 10
+			}
+			remove_variable = fill_insignificante
+		}
+	}
+	# Birth Rate
+	option = {
+		name = gm_actions_fill.2.b
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_modifier = {
+				name = fill_birth_rate_gp
+				years = 10
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_modifier = {
+				name = fill_birth_rate_major
+				years = 10
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_modifier = {
+				name = fill_birth_rate_minor
+				years = 10
+			}
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_modifier = {
+				name = fill_birth_rate_insignificante
+				years = 10
+			}
+			remove_variable = fill_insignificante
+		}		
+	}
+	# Lealistas
+	option = {
+		name = gm_actions_fill.2.c
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_loyalists = {
+				value = 0.1
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_loyalists = {
+				value = 0.2
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_loyalists = {
+				value = 0.3
+			}			
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_loyalists = {
+				value = 0.3
+			}			
+			remove_variable = fill_insignificante
+		}		
+	}
+
+	# Investigación
+	option = {
+		name = gm_actions_fill.2.e
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_modifier = {
+				name = fill_investigacion_gp
+				years = 10
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_modifier = {
+				name = fill_investigacion_major
+				years = 10
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_modifier = {
+				name = fill_investigacion_minor
+				years = 10
+			}
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_modifier = {
+				name = fill_investigacion_insignificante
+				years = 10
+			}
+			remove_variable = fill_insignificante
+		}
+	}
+
+	# Infamia
+	option = {
+		name = gm_actions_fill.2.f
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_modifier = {
+				name = fill_infamia_gp
+				years = 10
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_modifier = {
+				name = fill_infamia_major
+				years = 10
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_modifier = {
+				name = fill_infamia_minor
+				years = 10
+			}
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_modifier = {
+				name = fill_infamia_insignificante
+				years = 10
+			}
+			remove_variable = fill_insignificante
+		}		
+	}
+
+	# Autoridad
+	option = {
+		name = gm_actions_fill.2.g
+		if = {
+			limit = {
+				has_variable = fill_gp
+			}
+			add_modifier = {
+				name = fill_autoridad_gp
+				years = 10
+			}
+			remove_variable = fill_gp
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_major
+			}
+			add_modifier = {
+				name = fill_autoridad_major
+				years = 10
+			}
+			remove_variable = fill_major
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_minor
+			}
+			add_modifier = {
+				name = fill_autoridad_minor
+				years = 10
+			}
+			remove_variable = fill_minor
+		}
+		else_if = {
+			limit = {
+				has_variable = fill_insignificante
+			}
+			add_modifier = {
+				name = fill_autoridad_insignificante
+				years = 10
+			}
+			remove_variable = fill_insignificante
+		}		
+	}
+}
