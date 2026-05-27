@@ -32,7 +32,6 @@ gm_actions_fill.1 = {
 				popup = yes
 			}
 		}
-		remove_global_variable = GM_taking_action
 	}
 	
 	option = {
@@ -45,7 +44,6 @@ gm_actions_fill.1 = {
 				popup = yes
 			}
 		}
-		remove_global_variable = GM_taking_action
 	}
 
 	option = {
@@ -57,8 +55,7 @@ gm_actions_fill.1 = {
 				days = 0
 				popup = yes
 			}
-		}
-		remove_global_variable = GM_taking_action		
+		}		
 	}
 	option = {
 		name = gm_actions_fill.1.e
@@ -69,8 +66,7 @@ gm_actions_fill.1 = {
 				days = 0
 				popup = yes
 			}
-		}
-		remove_global_variable = GM_taking_action		
+		}		
 	}
 }
 
