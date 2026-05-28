@@ -5,8 +5,6 @@
   prestige_good_coffea_arabica: "Arabica Coffee"
   prestige_good_coffea_robusta: "Robusta Coffee"
   company_fedecafe: "Fedecafé"
-<<<<<<< HEAD
-=======
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -27,7 +25,6 @@
   prestige_good_ultra_food: "Ultra-Processed Food"
   company_jose_cuervo: "José Cuervo Tequila"
   prestige_good_premium_liquor: "Premium Liquor"
->>>>>>> wichux
 
   NIT: "North Italy"
   NIT_ADJ: "North Italian"
@@ -73,3 +70,6 @@
   fill_autoridad_major: "Bono por Potencia Importante: Autoridad"
   fill_autoridad_minor: "Bono por Potencia Menor: Autoridad"
   fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
+
+  pmg_canal_kiel: "Kiel Canal"
+  pm_canal_kiel: "Kiel Canal"
