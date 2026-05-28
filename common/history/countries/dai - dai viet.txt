@@ -11,7 +11,7 @@
 		add_technology_researched = law_enforcement
 		add_technology_researched = mandatory_service
 
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
 		}
 

@@ -20,12 +20,16 @@
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_canton_system
 
+		set_tax_level = low
+		
 		add_journal_entry = { type = je_imperial_examination_system }
 
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
 		}
+
+		set_variable = ryukyu_rival_member
 		
 	}
 }

@@ -4,7 +4,8 @@
 		add_technology_researched = napoleonic_warfare
 		add_technology_researched = stock_exchange
 		add_technology_researched = corporate_charters
-
+		add_technology_researched = fractional_distillation #beet producer
+		
 		set_tax_level = low # pre-Kankrin reform tax system
 
 		# Laws 
@@ -17,12 +18,13 @@
 		activate_law = law_type:law_sosloviia
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_professional_navy
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_gymnazii
 		activate_law = law_type:law_women_own_property
 		
 		add_taxed_goods = g:liquor
-		
+
 		if = {
 			limit = {
 				has_dlc_feature = ep1_content
