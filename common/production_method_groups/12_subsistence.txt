@@ -18,6 +18,8 @@ pmg_serfdom_building_subsistence_farm = {
 	production_methods = {
 		pm_serfdom_no
 		pm_french_tenancy
+		pm_latifondi
+		pm_mezzadria
 		pm_unchecked_bondage
 		pm_serfdom
 		pm_corvee_labor

@@ -2,8 +2,42 @@
 	s:STATE_LOMBARDY = {
 		region_state:AUS = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 2376996
+=======
+				culture = lombard
+				size = 2048896
+			}
+			create_pop = {
+				culture = north_italian
+				size = 250000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 15000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = bureaucrats
+				size = 6500
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = shopkeepers
+				size = 20000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 25000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = officers
+				size = 600
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 			create_pop = {
 				culture = north_italian
@@ -15,8 +49,52 @@
 	s:STATE_PIEDMONT = {
 		region_state:SAR = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 2367188
+=======
+				culture = piedmontese
+				size = 2167369
+			}
+			create_pop = {
+				culture = piedmontese
+				size = 65000
+				religion = protestant
+			}
+			create_pop = {
+				culture = piedmontese
+				size = 50000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 8675
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = bureaucrats
+				size = 22100
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = shopkeepers
+				size = 28888
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = farmers
+				size = 5633
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 16323
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = officers
+				size = 3200
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 			create_pop = {
 				culture = french
@@ -32,7 +110,11 @@
 	s:STATE_SARDINIA = {
 		region_state:SAR = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
+=======
+				culture = sardinian
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				size = 852408
 			}
 		}
@@ -52,8 +134,36 @@
 	s:STATE_UMBRIA = {
 		region_state:PAP = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 951000
+=======
+				culture = umbro
+				size = 615000
+			}
+			create_pop = {
+				culture = south_italian
+				size = 85000
+			}
+			create_pop = {
+				culture = central_italian
+				size = 225000
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = aristocrats
+				size = 5222
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 1345
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = clergymen
+				size = 12000
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
@@ -81,32 +191,138 @@
 	s:STATE_CAMPANIA = {
 		region_state:SIC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 2557396
+=======
+				culture = neapolitano
+				size = 1819396
+			}
+			create_pop = {
+				culture = south_italian
+				size = 180000
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = farmers
+				size = 64232
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 27665
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clerks
+				size = 42211
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = shopkeepers
+				size = 21111
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 18752
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
 	s:STATE_CALABRIA = {
 		region_state:SIC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 1182848
+=======
+				culture = neapolitano
+				size = 788565
+			}
+			create_pop = {
+				culture = siciliano
+				size = 394282
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 6210
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 12100
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
 	s:STATE_APULIA = {
 		region_state:SIC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 1284392
+=======
+				culture = neapolitano
+				size = 876261
+			}
+			create_pop = {
+				culture = siciliano
+				size = 328130
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 8725
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 18752
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = farmers
+				size = 24519
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = shopkeepers
+				size = 6432
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
 	s:STATE_ABRUZZO = {
 		region_state:SIC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 1020448
+=======
+				culture = neapolitano
+				size = 892044
+			}
+			create_pop = {
+				culture = south_italian
+				size = 102341
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 6444
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 12111
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = shopkeepers
+				size = 7888
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
@@ -114,6 +330,7 @@
 		region_state:SAR = {
 			create_pop = {
 				culture = french
+<<<<<<< HEAD
 				size = 192032
 			}
 			create_pop = {
@@ -123,18 +340,60 @@
 			create_pop = {
 				culture = north_italian
 				size = 201200
+=======
+				size = 92032
+			}
+			create_pop = {
+				culture = french
+				size = 295568
+			}
+			create_pop = {
+				culture = francoprovencal
+				size = 281200
+			}
+			create_pop = {
+				culture = francoprovencal
+				religion = protestant
+				size = 121200
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
 	s:STATE_EMILIA = {
 		region_state:PAR = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 472004
+=======
+				culture = emilian
+				size = 452004
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 3400
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 7111
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = bureaucrats
+				size = 120
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = farmers
+				size = 8444
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 		region_state:LUC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 108408
 			}
@@ -144,16 +403,74 @@
 				culture = north_italian
 				size = 648400
 			}
+=======
+				culture = emilian
+				size = 108408
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 601
+			}
+		}
+		region_state:MOD = {
+			create_pop = {
+				culture = emilian
+				size = 648400
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 5111
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 10000
+			}
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 		}
 	}
 	s:STATE_TUSCANY = {
 		region_state:TUS = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
+=======
+				culture = tuscan
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				size = 1625400
 			}
 			create_pop = {
 				culture = north_italian
+<<<<<<< HEAD
+=======
+				pop_type = aristocrats
+				size = 11162
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clerks
+				size = 23762
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = aristocrats
+				size = 1762
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = farmers
+				size = 57752
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = shopkeepers
+				size = 8102
+			}
+			create_pop = {
+				culture = north_italian
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				religion = jewish
 				size = 6996
 			}
@@ -162,19 +479,71 @@
 	s:STATE_ROMAGNA = {
 		region_state:PAP = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 1103600
+=======
+				culture = emilian
+				size = 988600
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 7762
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = shopkeepers
+				size = 21356
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 16532
+			}
+
+			create_pop = {
+				culture = north_italian
+				pop_type = farmers
+				size = 28222
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
 	s:STATE_LAZIO = {
 		region_state:PAP = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 1333868
 			}
 			create_pop = {
 				culture = south_italian
+=======
+				culture = romanesco
+				size = 737868
+			}
+			create_pop = {
+				culture = south_italian
+				size = 43111
+			}
+			create_pop = {
+				culture = central_italian
+				size = 421868
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = clergymen
+				size = 14000
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = clergymen
+				size = 14000
+			}
+			create_pop = {
+				culture = central_italian
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				religion = jewish
 				size = 5596
 			}
@@ -183,11 +552,52 @@
 	s:STATE_VENETIA = {
 		region_state:AUS = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
+=======
+				culture = venetian
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				size = 1855196
 			}
 			create_pop = {
 				culture = north_italian
+<<<<<<< HEAD
+=======
+				size = 384531
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 10000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = bureaucrats
+				size = 8323
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clergymen
+				size = 18323
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = capitalists
+				size = 828
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = officers
+				size = 1434
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = shopkeepers
+				size = 52371
+			}
+			create_pop = {
+				culture = north_italian
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				religion = jewish
 				size = 2000
 			}
@@ -196,8 +606,33 @@
 	s:STATE_SICILY = {
 		region_state:SIC = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = south_italian
 				size = 2147596
+=======
+				culture = siciliano
+				size = 1977596
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 12111
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clerks
+				size = 18542
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = bureaucrats
+				size = 4450
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = officers
+				size = 450
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 		}
 	}
@@ -697,7 +1132,11 @@
 				size = 80000
 			}
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
+=======
+				culture = dalmata
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 				size = 20004
 			}
 		}
@@ -750,8 +1189,22 @@
 	s:STATE_ISTRIA = {
 		region_state:AUS = {
 			create_pop = {
+<<<<<<< HEAD
 				culture = north_italian
 				size = 197800
+=======
+				culture = istriota
+				size = 164800
+			}
+			create_pop = {
+				culture = north_italian
+				size = 32121
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = aristocrats
+				size = 4000
+>>>>>>> parent of 766e126 (Reversión cambios ITA)
 			}
 			create_pop = {
 				culture = hungarian
