@@ -151,7 +151,7 @@
 				}
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
 				set_ig_trait = ig_trait:ig_trait_divine_autocracy
-				set_ig_trait = ig_trait:ig_trait_la_loi_royale
+				set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
 			}			
 			else = {
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
