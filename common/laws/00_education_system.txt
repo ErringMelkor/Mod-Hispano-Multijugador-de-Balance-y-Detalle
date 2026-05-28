@@ -58,6 +58,7 @@ law_religious_schools = {
 	institution_modifier = {
 		state_conversion_mult = 0.2
 		state_education_access_add = 0.1
+		state_literacy_growth_add = 0.000025
 		interest_group_ig_devout_pol_str_mult = 0.1
 	}
 
@@ -193,6 +194,7 @@ law_private_schools = {
 	institution_modifier = {
 		state_education_access_wealth_add = 0.0064
 		interest_group_ig_intelligentsia_pol_str_mult = 0.15
+		state_literacy_growth_add = 0.000035
 	}
 
 	can_impose = {
@@ -295,6 +297,7 @@ law_terakoya = {
 		country_tech_research_speed_mult = -0.10
 		state_education_access_add = 0.25
 		state_peasants_education_access_add = 0.20
+		state_literacy_growth_add = 0.000035
 	}
 
 	can_impose = {
@@ -327,6 +330,7 @@ law_public_schools = {
 		state_assimilation_mult = 0.125
 		state_education_access_add = 0.125
 		country_education_fervor_add = 5
+		state_literacy_growth_add = 0.00005
 	}
 
 	can_impose = {
@@ -435,6 +439,7 @@ law_gymnazii = {
 	institution = institution_schools
 	institution_modifier = {
 		state_education_access_wealth_add = 0.003
+		state_literacy_growth_add = 0.000025
 		country_qualification_growth_second_rate_citizen_mult = 0.05
 		country_qualification_growth_open_prejudice_mult = 0.05
 		building_training_rate_mult = 0.1

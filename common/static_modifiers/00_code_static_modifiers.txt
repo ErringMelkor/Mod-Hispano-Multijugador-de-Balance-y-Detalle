@@ -42,7 +42,8 @@ base_values = {
 	state_aristocrats_investment_pool_contribution_add = 0.15
 	state_capitalists_investment_pool_contribution_add = 0.2
 	
-	state_literacy_growth_add = 0.0002 #Erring dice que debería ser 35 buuuuuuuu
+	state_literacy_growth_add = 0.00015 #Erring dice que debería ser 35 buuuuuuuu; +0.000025-50 dependiendo por nivel de escuelas (max. de 0.000125-0.000250 + 0.00015 base).
+
 
 # To balance for unincorporated states not paying taxes
 	state_unincorporated_starting_wages_mult = -0.20
