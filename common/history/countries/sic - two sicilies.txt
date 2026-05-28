@@ -7,7 +7,6 @@
 		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_latifondi
 
 		add_taxed_goods = g:wine
 		add_taxed_goods = g:liquor
@@ -16,12 +15,6 @@
 		
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
-		}
-
-		start_national_awakening = {
-			culture = cu:siciliano
-			months = 240
-			state_region = s:STATE_SICILY
 		}
 	}
 }
