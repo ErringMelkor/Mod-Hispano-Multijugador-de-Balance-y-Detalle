@@ -107,8 +107,6 @@ GDN = {
 
 }
 
-<<<<<<< HEAD
-=======
 SCI = {
 	color = { 147 198 173 }
 
@@ -132,4 +130,3 @@ NIT = {
 	capital = STATE_LOMBARDY	
 }
 
->>>>>>> parent of 766e126 (Reversión cambios ITA)
