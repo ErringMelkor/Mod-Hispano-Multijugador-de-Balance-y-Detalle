@@ -74,18 +74,6 @@ Países
 		
 Changelog Versión 1.13B #10-05-26
 
-Países:
-
-	Rusia:
-		El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
-
-	Italia:
-
-		Agregadas variantes de ley agraria para las distintas culturas italianas:
-			Suritalianos: "Latifondi"
-			Centroitalianos: "Mezzadria"
-
-		Agregado el país liberable de Sicilia.
-
-		Economía:
-		· Reajuste a sus depósitos de carbón y petróleo; el carbón orbita más en torno hacia Toscana, en detrimento de Piamonte; el petróleo ve dos depósitos nuevos, en Abruzzo y Emilia, de 10 y 5 respectivamente.
+	Países:
+		Rusia:
+			El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
