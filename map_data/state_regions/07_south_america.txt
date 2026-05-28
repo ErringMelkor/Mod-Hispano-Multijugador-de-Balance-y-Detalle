@@ -527,7 +527,8 @@ STATE_JUJUY = {
     capped_resources = {
         building_iron_mine = 42
         building_lead_mine = 19
-        building_logging_camp = 10
+        building_logging_camp = 5
+        building_hardwood_logging = 5
         building_gold_mine = 5
     }
 }
@@ -544,7 +545,8 @@ STATE_ALTO_PARAGUAY = {
     arable_land = 45
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 22
+        building_logging_camp = 12
+        building_hardwood_logging = 8
     }
     resource = {
         type = "building_oil_rig"
@@ -726,7 +728,8 @@ STATE_CHACO = {
     arable_land = 85
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 14
+        building_logging_camp = 5
+        building_hardwood_logging = 10
     }
 }
 

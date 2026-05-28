@@ -35,9 +35,37 @@ Países:
 			Bono por unificar Etiopía.
 
 
-Changelog Versión 1.13A #10-05-26
+Changelog Versión 1.13A #10-05-26 - 29-05-26
+
+Compañías:
+	Agregadas nuevas compañías, gracias a Wichux.
+		Bolsa de Comercio de Buenos Aires (Argentina)
+        La Forestal (Argentina)
+		Wilson Sons (Brasil)
+ 		Industrias Reunidas Fabricas Matarazzo (Brasil)
+		Bolsa de Granos de Winnipeg (Canada)
+		Coltejer (Colombia)
+		Postobon (Colombia)
+		Falabella (Chile)
+		Sociedad Explotadora de Tierra del Fuego (Chile)
+		Casa Pelladini (Mexico)
+		Tequila Jose Cuervo (Mexico)
+		Cemex (Mexico)
+		Peruvian Corporation (Peru-Bolivia)
+		Compañia Administradora del Guano (Peru-Bolivia)
+		Agro Paramonga (Peru-Bolivia)
+
+Militar:
+	Reducida la cantidad de prestigio otorgada por la marina en un 50%: 0.65 -> 0.325
 
 Países
+
+	Argentina:
+		Rebalanceada la madera del Chaco hacia Madera Dura.
+
+	Persia:
+		Bono de los Terratenientes: -0.75% a la mortandad en campesinos -> -0.625%
+		Bono a la natalidad por el Creciente Dorado: 0.25% -> 0.225%
 
 	México:
 		La Cruz Azul no requiere de Rifles de Cerrojo. #wtf, por que necesitaba eso como concepto, se me quedó pillado de mondragón.
