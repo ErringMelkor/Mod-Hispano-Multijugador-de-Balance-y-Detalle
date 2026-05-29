@@ -56,10 +56,9 @@ Compañías:
 		Agro Paramonga (Peru-Bolivia)
 
 Militar:
-	Reducida la cantidad de prestigio otorgada por la marina en un 50%: 0.65 -> 0.325
+	Reducida la cantidad de prestigio otorgada por la marina de nuevo: 0.65 -> 0.2
 
 Países
-
 	Argentina:
 		Rebalanceada la madera del Chaco hacia Madera Dura.
 
@@ -70,14 +69,6 @@ Países
 	México:
 		La Cruz Azul no requiere de Rifles de Cerrojo. #wtf, por que necesitaba eso como concepto, se me quedó pillado de mondragón.
 		Mondragón en rifles de repetición #por hacer.
-
+	Rusia:
+		El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
 		
-Changelog Versión 1.13B #10-05-26
-
-Militar:
-	Reducida la cantidad de prestigio otorgada por la marina de nuevo: 0.325 -> 0.2
-
-
-	Países:
-		Rusia:
-			El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
