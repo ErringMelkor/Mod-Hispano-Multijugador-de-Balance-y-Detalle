@@ -68,6 +68,9 @@ gm_actions_fill.1 = {
 			}
 		}		
 	}
+	option = {
+		name = gm_actions_fill.1.z
+	}
 }
 
 #Tipo de Bono
@@ -113,6 +116,9 @@ gm_actions_fill.2 = {
 				name = fill_dinero_major
 				years = 10
 			}
+			add_loyalists = {
+				value = 0.05
+			}
 			remove_variable = fill_major
 		}
 		else_if = {
@@ -124,6 +130,9 @@ gm_actions_fill.2 = {
 				years = 10
 			}
 			remove_variable = fill_minor
+			add_loyalists = {
+				value = 0.1
+			}
 		}
 		else_if = {
 			limit = {
@@ -132,6 +141,9 @@ gm_actions_fill.2 = {
 			add_modifier = {
 				name = fill_dinero_insignificante
 				years = 10
+			}
+			add_loyalists = {
+				value = 0.2
 			}
 			remove_variable = fill_insignificante
 		}
@@ -188,7 +200,7 @@ gm_actions_fill.2 = {
 				has_variable = fill_gp
 			}
 			add_loyalists = {
-				value = 0.1
+				value = 0.075
 			}
 			remove_variable = fill_gp
 		}
@@ -197,7 +209,7 @@ gm_actions_fill.2 = {
 				has_variable = fill_major
 			}
 			add_loyalists = {
-				value = 0.2
+				value = 0.125
 			}
 			remove_variable = fill_major
 		}
@@ -206,7 +218,7 @@ gm_actions_fill.2 = {
 				has_variable = fill_minor
 			}
 			add_loyalists = {
-				value = 0.3
+				value = 0.2
 			}			
 			remove_variable = fill_minor
 		}
@@ -215,7 +227,7 @@ gm_actions_fill.2 = {
 				has_variable = fill_insignificante
 			}
 			add_loyalists = {
-				value = 0.3
+				value = 0.4
 			}			
 			remove_variable = fill_insignificante
 		}		
@@ -287,6 +299,9 @@ gm_actions_fill.2 = {
 				name = fill_infamia_major
 				years = 10
 			}
+			add_loyalists = {
+				value = 0.05
+			}
 			remove_variable = fill_major
 		}
 		else_if = {
@@ -297,6 +312,9 @@ gm_actions_fill.2 = {
 				name = fill_infamia_minor
 				years = 10
 			}
+			add_loyalists = {
+				value = 0.10
+			}
 			remove_variable = fill_minor
 		}
 		else_if = {
@@ -306,6 +324,9 @@ gm_actions_fill.2 = {
 			add_modifier = {
 				name = fill_infamia_insignificante
 				years = 10
+			}
+			add_loyalists = {
+				value = 0.15
 			}
 			remove_variable = fill_insignificante
 		}		
