@@ -1929,15 +1929,10 @@ company_societe_renault_freres = {
 	}
 	
 	potential = {
-		has_interest_marker_in_region = sr:region_france
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 	
 	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_ILE_DE_FRANCE
-			}
-		}
 	}	
 	
 	possible = {
