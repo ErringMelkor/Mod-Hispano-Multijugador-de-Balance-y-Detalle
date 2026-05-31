@@ -1,0 +1,23 @@
+### For je_earn_recognition
+
+bourbon_instability_progress_bar = {
+	name = "bourbon_instability_progress_bar"
+	desc = "bourbon_instability_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				c:SIC ?= this
+			}
+			add = {
+				desc = "bourbon_progress_from_legitimacy"
+				value = owner.var:bourbon_progress_from_legitimacy
+			}
+		}
+	}		
+	start_value = 0
+	min_value = 0
+	max_value = 100
+}
