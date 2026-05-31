@@ -268,52 +268,27 @@ company_bombay_burmah_trading_corporation = {
 	}
 
 	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_BOMBAY
-			}
-			any_scope_state = {
-				has_state_trait = state_trait_burmese_teak
-			}
+		any_scope_state = {
+			has_state_trait = state_trait_burmese_teak
 		}
 	}
 
 	possible = {
 		OR = {
 			any_scope_state = {
-				state_region = s:STATE_BOMBAY
-				is_incorporated = yes
-			}
-			s:STATE_BOMBAY ?= {
-				any_scope_state = {
-					owner = {
-						OR = {
-							any_scope_treaty = {
-								binds = ROOT
-								any_scope_article = {
-									has_type = trade_privilege
-								}
-							}
-							top_overlord ?= {
-								any_scope_treaty = {
-									binds = ROOT
-									any_scope_article = {
-										has_type = trade_privilege
-									}
-								}
-							}
-						}
-					}
+				has_state_trait = state_trait_burmese_teak
+				any_scope_building = {
+					is_building_type = building_logging_camp
+					level >= 5
 				}
 			}
-		}
-		any_scope_state = {
-			has_state_trait = state_trait_burmese_teak
-			any_scope_building = {
-				is_building_type = building_logging_camp
-				level >= 5
+			any_scope_state = {
+				has_state_trait = state_trait_burmese_teak
+				any_scope_building = {
+					is_building_type = building_hardwood_logging
+					level >= 2
+				}
 			}
-			count >= 2
 		}
 	}
 
