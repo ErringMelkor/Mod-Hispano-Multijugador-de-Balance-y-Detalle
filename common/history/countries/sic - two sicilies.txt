@@ -27,8 +27,12 @@ COUNTRIES = {
 
 		start_national_awakening = {
 			culture = cu:siciliano
-			months = 240
+			months = 360
 			state_region = s:STATE_SICILY
+		}
+
+		add_journal_entry = {
+			type = je_bourbon_instability
 		}
 	}
 }

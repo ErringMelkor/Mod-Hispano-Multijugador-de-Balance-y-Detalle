@@ -1,0 +1,6 @@
+POLITICAL_MOVEMENTS = {
+
+	c:SIC ?= {
+		create_political_movement = { type = movement_cultural_minority culture = cu:siciliano }
+	}
+}

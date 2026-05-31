@@ -1,1 +1,25 @@
 #Stub.
+
+je_bourbon_instability = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	group = je_group_historical_content
+
+	modifiers_while_active = {
+		bourbon_instability
+	}
+
+	complete = {
+		#stub
+		institution_investment_level = {
+			institution = institution_police
+			value >= 5
+		}
+	}
+
+	on_complete = {
+	}
+
+	weight = 100
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
