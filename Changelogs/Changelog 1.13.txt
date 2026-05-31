@@ -70,10 +70,8 @@ Países
 	México:
 		La Cruz Azul no requiere de Rifles de Cerrojo. #wtf, por que necesitaba eso como concepto, se me quedó pillado de mondragón.
 		Mondragón en rifles de repetición #por hacer.
+	Rusia:
+		El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
 
-		
-Changelog Versión 1.13B #10-05-26
-
-	Países:
-		Rusia:
-			El método de producción "Servidumbre sin restricciones" pasa de dar bono de eficiencia de construcción general a solamente en la agricultura: 0.1% (por nivel) -> 0.15%
+Arreglos:
+	Las compañías de Renault y Burma tienen nuevos requisitos/asignaciones geográficas; los anteriores estaban desactualizados y no funcionaban.
