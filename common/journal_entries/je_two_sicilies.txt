@@ -29,20 +29,26 @@ je_bourbon_instability = {
 		}
 		effect = {
 			if = {
-				limit = {
-				}
+				limit = {}
 				bourbon_instability_pulse_variables_progress = yes
 			}
 		}
 	}
 
 	complete = {
-		#stub
-		institution_investment_level = {
-			institution = institution_police
-			value >= 5
+		OR = {
+			AND = {
+				country_has_monarchy_law = yes
+				custom_tooltip = {
+					text = je_bourbon_instability_tt
+					scope:journal_entry ?= {
+						"scripted_bar_progress(bourbon_instability_progress_bar)" >= 100
+					}
+				}
+			}
+			
 		}
-		# country_has_monarchy_law = yes
+		
 	}
 
 	on_complete = {

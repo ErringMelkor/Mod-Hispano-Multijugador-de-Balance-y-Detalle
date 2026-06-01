@@ -15,6 +15,26 @@ bourbon_instability_progress_bar = {
 				desc = "bourbon_progress_from_legitimacy"
 				value = owner.var:bourbon_progress_from_legitimacy
 			}
+			add = {
+				desc = "bourbon_progress_from_absolutist_movement"
+				value = owner.var:bourbon_progress_from_absolutist_movement
+			}
+			add = {
+				desc = "bourbon_police_var_contribution"
+				value = owner.var:bourbon_police_var_contribution
+			}
+			add = {
+				desc = "bourbon_home_affairs_var_contribution"
+				value = owner.var:bourbon_home_affairs_var_contribution
+			}
+			subtract = {
+				desc = "bourbon_progress_from_italian_national_movement"
+				value = owner.var:bourbon_progress_from_italian_national_movement
+			}
+			subtract = {
+				desc = "bourbon_progress_from_sicilian_separatist_movement"
+				value = owner.var:bourbon_progress_from_sicilian_separatist_movement
+			}
 		}
 	}		
 	start_value = 0

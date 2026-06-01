@@ -2,12 +2,97 @@ bourbon_instability_variables = {
 	#bourbon Variables
 	set_variable = { name = bourbon_progress_from_legitimacy value = 0 }
 
+	set_variable = { name = bourbon_police_var_contribution value = institution:institution_police.investment }
+	set_variable = { name = bourbon_home_affairs_var_contribution value = institution:institution_home_affairs.investment }
+
 	set_variable = { name = ig_weight value = 0 } #This variable is used solely for mathematical purposes, and is set as equivalent to the clout of a given interest group. It exists so that IGs can be weighted higher or lower depending on whether they're in-government or not.
+
 }
 
 bourbon_instability_pulse_variables_progress = {
 	set_variable = { name = bourbon_progress_from_legitimacy value = root.government_legitimacy }
+	set_variable = { name = bourbon_police_var_contribution value = institution:institution_police.investment }
+	set_variable = { name = bourbon_home_affairs_var_contribution value = institution:institution_home_affairs.investment }
+
 	# From Legitimacy
 	change_variable = { name = bourbon_progress_from_legitimacy divide = 100 }
 	change_variable = { name = bourbon_progress_from_legitimacy subtract = 0.5 }
+
+	# Movimiento Nacional Italiano - Negativo para los Borbones
+	if = {
+		limit = {
+			any_political_movement = {
+				is_political_movement_type = movement_italian_national
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_italian_national
+			}
+			ROOT = {
+				set_variable = { name = bourbon_progress_from_italian_national_movement value = prev.political_movement_support }
+				change_variable = { name = bourbon_progress_from_italian_national_movement }
+			}
+		}
+	}
+
+	# Movimiento Separatista Siciliano - Negativo para los Borbones
+	if = {
+		limit = {
+			any_political_movement = {
+				is_political_movement_type = movement_cultural_minority culture = cu:siciliano
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_cultural_minority culture = cu:siciliano
+			}
+			ROOT = {
+				set_variable = { name = bourbon_progress_from_sicilian_separatist_movement value = prev.political_movement_support }
+				change_variable = { name = bourbon_progress_from_sicilian_separatist_movement }
+			}
+		}
+	}
+
+	# Movimiento Absolutista - Positivo para los Borbones
+	if = {
+		limit = {
+			any_political_movement = {
+				is_political_movement_type = movement_royalist_absolutist
+			}
+		}
+		random_political_movement = {
+			limit = {
+				is_political_movement_type = movement_royalist_absolutist
+			}
+			ROOT = {
+				set_variable = { name = bourbon_progress_from_absolutist_movement value = prev.political_movement_support }
+				change_variable = { name = bourbon_progress_from_absolutist_movement }
+			}
+		}
+	}
+
+	# Institución de Policía
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_local_police
+				has_law_or_variant = law_type:law_dedicated_police
+				has_law_or_variant = law_type:law_militarized_police
+			}
+		}
+		change_variable = { name = bourbon_police_var_contribution divide = 10 }
+	}
+
+	# Institución de Asuntos Internos
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_national_guard
+				has_law_or_variant = law_type:law_secret_police
+				has_law_or_variant = law_type:law_guaranteed_liberties
+			}
+		}
+		change_variable = { name = bourbon_home_affairs_var_contribution divide = 10 }
+	}
 }
