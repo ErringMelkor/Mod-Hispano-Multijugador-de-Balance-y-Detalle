@@ -8,22 +8,6 @@ bourbon_instability_variables = {
 bourbon_instability_pulse_variables_progress = {
 	set_variable = { name = bourbon_progress_from_legitimacy value = root.government_legitimacy }
 	# From Legitimacy
-	if = {
-		limit = {
-			government_legitimacy <= 50
-		}
-		change_variable = { name = bourbon_progress_from_legitimacy add = 1 }
-	}
-	else_if = {
-		limit = {
-			government_legitimacy > 50
-		}
-		change_variable = { name = bourbon_progress_from_legitimacy subtract = 0.5 }
-	}
-	else_if = {
-		limit = {
-			government_legitimacy >= 25
-		}
-		change_variable = { name = bourbon_progress_from_legitimacy subtract = 2 }
-	}
+	change_variable = { name = bourbon_progress_from_legitimacy divide = 100 }
+	change_variable = { name = bourbon_progress_from_legitimacy subtract = 0.5 }
 }

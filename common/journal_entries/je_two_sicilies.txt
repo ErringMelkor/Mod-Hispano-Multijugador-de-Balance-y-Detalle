@@ -24,6 +24,18 @@ je_bourbon_instability = {
 
 	scripted_progress_bar = bourbon_instability_progress_bar
 
+	on_weekly_pulse = {
+		events = {
+		}
+		effect = {
+			if = {
+				limit = {
+				}
+				bourbon_instability_pulse_variables_progress = yes
+			}
+		}
+	}
+
 	complete = {
 		#stub
 		institution_investment_level = {
