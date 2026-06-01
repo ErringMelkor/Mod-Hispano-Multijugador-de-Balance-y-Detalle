@@ -3,6 +3,11 @@ bourbon_instability = {
 	country_radicals_from_legitimacy_mult = 0.75
 	state_radicals_from_political_movements_mult = 0.25
 	country_legitimacy_headofstate_add = -25
-	political_movement_radicalism_add = 0.10
+	political_movement_radicalism_add = 0.15
 	country_fervor_target_siciliano_add = 30
+}
+
+bourbon_integration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_assimilation_mult = 1	
 }

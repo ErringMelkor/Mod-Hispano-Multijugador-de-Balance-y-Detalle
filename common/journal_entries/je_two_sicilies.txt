@@ -23,6 +23,7 @@ je_bourbon_instability = {
 	}
 
 	scripted_progress_bar = bourbon_instability_progress_bar
+	display_progressbar_as_months = yes
 
 	on_weekly_pulse = {
 		events = {
@@ -46,12 +47,47 @@ je_bourbon_instability = {
 					}
 				}
 			}
-			
+			AND = {
+				country_has_monarchy_law = yes
+				any_subject_or_below = {
+					OR = {
+						country_definition = cd:SCI
+						was_formed_from = SCI
+					}
+				}
+			}
 		}
-		
+		has_technology_researched = nationalism
 	}
 
 	on_complete = {
+		add_loyalists = {
+			value = 0.35
+			culture = cu:south_italian
+		}
+	}
+
+	fail = {
+		OR = {
+			country_has_monarchy_law = no
+			any_subject_or_below = {
+				NOT = {
+					country_definition = cd:SCI
+					was_formed_from = SCI
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		add_radicals = {
+			value = 0.15
+			culture = cu:neapolitano
+		}
+		add_radicals = {
+			value = 0.25
+			culture = cu:siciliano
+		}
 	}
 
 	weight = 100
