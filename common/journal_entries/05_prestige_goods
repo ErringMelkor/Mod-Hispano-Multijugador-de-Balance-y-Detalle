@@ -4,6 +4,7 @@ je_prestige_good_specialty_sugar = {
 	group = je_group_technology
 
     is_shown_when_inactive = {
+        has_dlc_feature = mp1_content
         any_company = {
             can_potentially_produce_prestige_goods = prestige_good_specialty_sugar
             is_producing_prestige_goods = no
@@ -51,7 +52,7 @@ je_prestige_good_specialty_sugar = {
     complete = {
         trigger_if = {
             limit = {
-                has_variable = prestige_good_specialty_sugar_var
+                has_variable = prestige_sugar_timer_var
             }
             scope:journal_entry = {
                 is_goal_complete = yes
@@ -78,11 +79,6 @@ je_prestige_good_specialty_sugar = {
 
     on_monthly_pulse = {
         effect = {
-            rebind_prestige_good_company = {
-                GOODS = prestige_good_specialty_sugar
-                UNLOCK_VAR = 
-                TIMER_VAR = 
-            }
             if = {
                 limit = {
                     scope:relevant_company ?= {
@@ -90,7 +86,7 @@ je_prestige_good_specialty_sugar = {
                     }
                     "goods_production_rank(scope:relevant_goods)" <= 3
                 }
-                change_variable = { name = prestige_good_specialty_sugar_var add = 1 }
+                change_variable = { name = prestige_sugar_timer_var add = 1 }
             }
         }
     }
@@ -117,7 +113,7 @@ je_prestige_good_specialty_sugar = {
     }
 
 	current_value = {
-		value = root.var:prestige_good_specialty_sugar_var
+		value = root.var:prestige_sugar_timer_var
 	}
 
 	goal_add_value = {
@@ -131,142 +127,13 @@ je_prestige_good_specialty_sugar = {
 	should_be_pinned_by_default = yes
 }
 
-je_prestige_good_ultra_food = {
-    icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
-
-	group = je_group_technology
-
-    is_shown_when_inactive = {
-        any_company = {
-            can_potentially_produce_prestige_goods = prestige_good_ultra_food
-            is_producing_prestige_goods = no
-            NOT = {
-                has_variable = prestige_good_ultra_food_var
-            }
-        }
-    }
-
-    possible = {
-        any_company = {
-            can_potentially_produce_prestige_goods = prestige_good_ultra_food
-            is_producing_prestige_goods = no
-            company_is_prosperous = yes
-            NOT = {
-                custom_tooltip = {
-                    text = not_prestige_good_ultra_food_var_tt
-                    has_variable = prestige_good_ultra_food_var
-                }
-            }
-        }
-    }
-
-    immediate = {
-        random_company = {
-            limit = {
-                can_potentially_produce_prestige_goods = prestige_good_ultra_food
-                is_producing_prestige_goods = no
-                company_is_prosperous = yes
-                NOT = {
-                    has_variable = prestige_good_ultra_food_var
-                }
-            }
-            save_scope_as = relevant_company
-        }
-		set_variable = {
-			name = prestige_food_timer_var
-			value = 0.1
-		}
-        g:liquor = {
-            save_scope_as = relevant_goods
-        }
-    }
-
-    complete = {
-        trigger_if = {
-            limit = {
-                has_variable = prestige_food_timer_var
-            }
-            scope:journal_entry = {
-                is_goal_complete = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            scope:relevant_company ?= {
-                company_is_prosperous = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_goods
-            }
-            custom_tooltip = {
-                text = relevant_goods_production_rank_tt
-                "goods_production_rank(scope:relevant_goods)" <= 3
-            }
-        }
-    }
-
-    on_monthly_pulse = {
-        effect = {
-            rebind_prestige_good_company = {
-                GOODS = prestige_good_ultra_food
-                UNLOCK_VAR = prestige_good_ultra_food_var
-                TIMER_VAR = prestige_good_ultra_food_var
-            }
-            if = {
-                limit = {
-                    scope:relevant_company ?= {
-                        company_is_prosperous = yes
-                    }
-                    "goods_production_rank(scope:relevant_goods)" <= 3
-                }
-                change_variable = { name = prestige_good_ultra_food_var add = 1 }
-            }
-        }
-    }
-
-    on_complete = {
-        if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            custom_tooltip = {
-                text = je_prestige_goods_premium_liquor_reward_tt
-                scope:relevant_company ?= {
-                    set_variable = prestige_good_ultra_food_var
-                }
-            }
-        }
-        post_notification = prestige_good_ultra_food_unlocked
-    }
-
-    can_deactivate = yes
-
-	current_value = {
-		value = root.var:prestige_food_timer_var
-	}
-
-	goal_add_value = {
-		add = prestige_good_journal_entry_months
-	}
-
-	progressbar = yes
-
-    weight = 1000
-
-    	
-	should_be_pinned_by_default_uninvolved_or_context = yes
-}
-
 je_prestige_good_premium_liquor = {
     icon = "gfx/interface/icons/goods_icons/prestige_goods/bacardi_rum_prestige.dds"
 
 	group = je_group_technology
 
     is_shown_when_inactive = {
+        has_dlc_feature = mp1_content
         any_company = {
             can_potentially_produce_prestige_goods = prestige_good_premium_liquor
             is_producing_prestige_goods = no
@@ -304,7 +171,7 @@ je_prestige_good_premium_liquor = {
         }
 		set_variable = {
 			name = prestige_liquor_timer_var
-			value = 0.1
+			value = 0
 		}
         g:liquor = {
             save_scope_as = relevant_goods
@@ -341,11 +208,6 @@ je_prestige_good_premium_liquor = {
 
     on_monthly_pulse = {
         effect = {
-            rebind_prestige_good_company = {
-                GOODS = prestige_good_premium_liquor
-                UNLOCK_VAR = prestige_good_premium_liquor_var
-                TIMER_VAR = prestige_good_premium_liquor_var
-            }
             if = {
                 limit = {
                     scope:relevant_company ?= {
@@ -353,7 +215,7 @@ je_prestige_good_premium_liquor = {
                     }
                     "goods_production_rank(scope:relevant_goods)" <= 3
                 }
-                change_variable = { name = prestige_good_premium_liquor_var add = 1 }
+                change_variable = { name = prestige_liquor_timer_var add = 1 }
             }
         }
     }
@@ -373,7 +235,11 @@ je_prestige_good_premium_liquor = {
         post_notification = prestige_good_premium_liquor_unlocked
     }
 
-    can_deactivate = yes
+    invalid = {
+        NOT = {
+            exists = scope:relevant_company
+        }
+    }
 
 	current_value = {
 		value = root.var:prestige_liquor_timer_var
@@ -387,6 +253,134 @@ je_prestige_good_premium_liquor = {
 
     weight = 1000
 
-    	
-	should_be_pinned_by_default_uninvolved_or_context = yes
+	should_be_pinned_by_default = yes
+}
+
+je_prestige_good_ultra_food = {
+    icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
+
+	group = je_group_technology
+
+    is_shown_when_inactive = {
+        has_dlc_feature = mp1_content
+        any_company = {
+            can_potentially_produce_prestige_goods = prestige_good_ultra_food
+            is_producing_prestige_goods = no
+            NOT = {
+                has_variable = prestige_good_ultra_food_var
+            }
+        }
+    }
+
+    possible = {
+        any_company = {
+            can_potentially_produce_prestige_goods = prestige_good_ultra_food
+            is_producing_prestige_goods = no
+            company_is_prosperous = yes
+            NOT = {
+                custom_tooltip = {
+                    text = not_prestige_good_ultra_food_var_tt
+                    has_variable = prestige_good_ultra_food_var
+                }
+            }
+        }
+    }
+
+    immediate = {
+        random_company = {
+            limit = {
+                can_potentially_produce_prestige_goods = prestige_good_ultra_food
+                is_producing_prestige_goods = no
+                company_is_prosperous = yes
+                NOT = {
+                    has_variable = prestige_good_ultra_food_var
+                }
+            }
+            save_scope_as = relevant_company
+        }
+		set_variable = {
+			name = prestige_groceries_timer_var
+			value = 0
+		}
+        g:groceries = {
+            save_scope_as = relevant_goods
+        }
+    }
+
+    complete = {
+        trigger_if = {
+            limit = {
+                has_variable = prestige_groceries_timer_var
+            }
+            scope:journal_entry = {
+                is_goal_complete = yes
+            }
+        }
+        trigger_if = {
+            limit = {
+                exists = scope:relevant_company
+            }
+            scope:relevant_company ?= {
+                company_is_prosperous = yes
+            }
+        }
+        trigger_if = {
+            limit = {
+                exists = scope:relevant_goods
+            }
+            custom_tooltip = {
+                text = relevant_goods_production_rank_tt
+                "goods_production_rank(scope:relevant_goods)" <= 3
+            }
+        }
+    }
+
+    on_monthly_pulse = {
+        effect = {
+            if = {
+                limit = {
+                    scope:relevant_company ?= {
+                        company_is_prosperous = yes
+                    }
+                    "goods_production_rank(scope:relevant_goods)" <= 3
+                }
+                change_variable = { name = prestige_groceries_timer_var add = 1 }
+            }
+        }
+    }
+
+    on_complete = {
+        if = {
+            limit = {
+                exists = scope:relevant_company
+            }
+            custom_tooltip = {
+                text = je_prestige_good_ultra_food_reward_tt
+                scope:relevant_company ?= {
+                    set_variable = prestige_good_ultra_food_var
+                }
+            }
+        }
+        post_notification = prestige_good_ultra_food_unlocked
+    }
+
+    invalid = {
+        NOT = {
+            exists = scope:relevant_company
+        }
+    }
+
+	current_value = {
+		value = root.var:prestige_groceries_timer_var
+	}
+
+	goal_add_value = {
+		add = prestige_good_journal_entry_months
+	}
+
+	progressbar = yes
+
+    weight = 1000
+
+	should_be_pinned_by_default = yes
 }
