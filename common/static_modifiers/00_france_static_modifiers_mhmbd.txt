@@ -8,7 +8,7 @@
 new_paris = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_group_bg_manufacturing_throughput_add = 0.1
-	state_pollution_reduction_health_mult = 0.15
+	state_pollution_reduction_health_mult = -0.15
 	state_infrastructure_mult = 0.15
 	state_migration_pull_mult = 0.25
 }
