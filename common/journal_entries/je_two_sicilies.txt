@@ -71,16 +71,33 @@ je_bourbon_instability = {
 	fail = {
 		OR = {
 			country_has_monarchy_law = no
-			NOT = {
-				has_state_in_state_region = STATE_SICILY
-			}
 			AND = {
 				NOT = {
-					has_subject_relation_with = c:SCI
+					OR = {
+						has_subject_relation_with = c:SCI
+						c:SCI = {
+							has_state_in_state_region = STATE_SICILY
+						}
+					}
 				}
 				NOT = {
 					has_state_in_state_region = STATE_SICILY
 				}
+			}
+			AND = {
+				has_subject_relation_with = c:SCI
+				NOT = {
+					c:SCI = {
+						has_state_in_state_region = STATE_SICILY
+					}
+				}
+				NOT = {
+					has_state_in_state_region = STATE_SICILY
+				}
+			}
+			AND = {
+				has_subject_relation_with = c:SCI
+				has_state_in_state_region = STATE_SICILY
 			}
 		}
 	}
