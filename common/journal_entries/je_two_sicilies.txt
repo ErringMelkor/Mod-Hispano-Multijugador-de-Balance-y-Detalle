@@ -36,6 +36,7 @@ je_bourbon_instability = {
 		}
 	}
 
+
 	complete = {
 		OR = {
 			AND = {
@@ -70,10 +71,15 @@ je_bourbon_instability = {
 	fail = {
 		OR = {
 			country_has_monarchy_law = no
-			any_subject_or_below = {
+			NOT = {
+				has_state_in_state_region = STATE_SICILY
+			}
+			AND = {
 				NOT = {
-					country_definition = cd:SCI
-					was_formed_from = SCI
+					has_subject_relation_with = c:SCI
+				}
+				NOT = {
+					has_state_in_state_region = STATE_SICILY
 				}
 			}
 		}
