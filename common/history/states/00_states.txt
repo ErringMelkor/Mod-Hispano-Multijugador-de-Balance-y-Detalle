@@ -8438,7 +8438,7 @@ STATES = {
 			owned_provinces = { xFD923D x80D020 xA61F49 x0D6170 xD8550D xFA1A93 x30A040 xDC4AE3 }
 		}
 
-		add_homeland = cu:south_italian
+		add_homeland = cu:central_italian
 		add_homeland = cu:sardinian
 	}
 	s:STATE_TARAPACA = {

@@ -12,7 +12,7 @@
 			create_pop = {
 				culture = north_italian
 				pop_type = aristocrats
-				size = 15000
+				size = 17000
 			}
 			create_pop = {
 				culture = north_italian
@@ -23,6 +23,11 @@
 				culture = north_italian
 				pop_type = shopkeepers
 				size = 20000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = capitalists
+				size = 500
 			}
 			create_pop = {
 				culture = north_italian
@@ -59,7 +64,7 @@
 			create_pop = {
 				culture = north_italian
 				pop_type = aristocrats
-				size = 8675
+				size = 18675
 			}
 			create_pop = {
 				culture = north_italian
@@ -87,6 +92,16 @@
 				size = 3200
 			}
 			create_pop = {
+				culture = north_italian
+				pop_type = academics
+				size = 1000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = capitalists
+				size = 1200
+			}
+			create_pop = {
 				culture = french
 				size = 93996
 			}
@@ -101,7 +116,60 @@
 		region_state:SAR = {
 			create_pop = {
 				culture = sardinian
-				size = 852408
+				size = 820408
+			}
+			create_pop = {
+				culture = catalan #minoría étnica en la isla, interesante en todo caso.
+				size = 12408
+			}
+			create_pop = {
+				culture = siciliano #minoría étnica en la isla, interesante en todo caso.
+				size = 21032
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = clergymen
+				size = 8200
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 1000
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 400
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = aristocrats
+				size = 4200
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = clerks
+				size = 4000
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = capitalists
+				size = 1200
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = engineers
+				size = 1000
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = bureaucrats
+				size = 520
+			}
+			create_pop = {
+				culture = central_italian
+				pop_type = officers
+				size = 400
 			}
 		}
 	}
@@ -353,6 +421,16 @@
 				pop_type = clergymen
 				size = 10000
 			}
+			create_pop = {
+				culture = north_italian
+				pop_type = academics
+				size = 1000
+			}
+			create_pop = {
+				culture = north_italian
+				pop_type = clerks
+				size = 1000
+			}
 		}
 	}
 	s:STATE_TUSCANY = {
@@ -467,11 +545,11 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = venetian
-				size = 1855196
+				size = 2055196
 			}
 			create_pop = {
 				culture = north_italian
-				size = 384531
+				size = 184531
 			}
 			create_pop = {
 				culture = north_italian
@@ -491,7 +569,7 @@
 			create_pop = {
 				culture = north_italian
 				pop_type = capitalists
-				size = 828
+				size = 928
 			}
 			create_pop = {
 				culture = north_italian
@@ -514,7 +592,11 @@
 		region_state:SIC = {
 			create_pop = {
 				culture = siciliano
-				size = 1977596
+				size = 1959596
+			}
+			create_pop = {
+				culture = lombard
+				size = 18722
 			}
 			create_pop = {
 				culture = south_italian
