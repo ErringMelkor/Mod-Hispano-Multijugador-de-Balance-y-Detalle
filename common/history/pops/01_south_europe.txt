@@ -173,31 +173,27 @@
 		region_state:SIC = {
 			create_pop = {
 				culture = neapolitano
-				size = 1819396
-			}
-			create_pop = {
-				culture = south_italian
-				size = 180000
+				size = 1999396
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = farmers
-				size = 64232
+				size = 34232
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = clergymen
-				size = 27665
+				size = 7665
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = clerks
-				size = 42211
+				size = 22211
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = shopkeepers
-				size = 21111
+				size = 12111
 			}
 			create_pop = {
 				culture = south_italian
@@ -219,12 +215,12 @@
 			create_pop = {
 				culture = south_italian
 				pop_type = aristocrats
-				size = 6210
+				size = 5210
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = clergymen
-				size = 12100
+				size = 4100
 			}
 		}
 	}
@@ -241,22 +237,22 @@
 			create_pop = {
 				culture = south_italian
 				pop_type = aristocrats
-				size = 8725
+				size = 5625
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = clergymen
-				size = 18752
+				size = 6752
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = farmers
-				size = 24519
+				size = 6519
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = shopkeepers
-				size = 6432
+				size = 1432
 			}
 		}
 	}
@@ -264,11 +260,7 @@
 		region_state:SIC = {
 			create_pop = {
 				culture = neapolitano
-				size = 892044
-			}
-			create_pop = {
-				culture = south_italian
-				size = 102341
+				size = 994044
 			}
 			create_pop = {
 				culture = south_italian
@@ -278,7 +270,7 @@
 			create_pop = {
 				culture = south_italian
 				pop_type = clergymen
-				size = 12111
+				size = 4111
 			}
 			create_pop = {
 				culture = south_italian
@@ -517,12 +509,12 @@
 			create_pop = {
 				culture = south_italian
 				pop_type = aristocrats
-				size = 12111
+				size = 2111
 			}
 			create_pop = {
 				culture = south_italian
 				pop_type = clerks
-				size = 18542
+				size = 10542
 			}
 			create_pop = {
 				culture = south_italian

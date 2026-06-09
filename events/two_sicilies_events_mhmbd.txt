@@ -1,0 +1,31 @@
+namespace = bourbon_instability
+
+bourbon_instability.1 = {
+	type = country_event
+	placement = root
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {
+		# Desencadenado por la JE principal.
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.1.a
+		default_option = yes
+	}
+
+
+}

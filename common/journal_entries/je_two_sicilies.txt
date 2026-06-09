@@ -27,6 +27,7 @@ je_bourbon_instability = {
 
 	on_weekly_pulse = {
 		events = {
+			bourbon_instability.1
 		}
 		effect = {
 			if = {
