@@ -121,15 +121,15 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = umbro
-				size = 615000
+				size = 898500
 			}
 			create_pop = {
 				culture = south_italian
-				size = 85000
+				size = 3500
 			}
 			create_pop = {
 				culture = central_italian
-				size = 225000
+				size = 25000
 			}
 			create_pop = {
 				culture = central_italian
@@ -426,28 +426,38 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = romanesco
-				size = 737868
+				size = 1137868
 			}
 			create_pop = {
 				culture = south_italian
-				size = 43111
+				size = 23111
 			}
 			create_pop = {
 				culture = central_italian
-				size = 421868
-			}
-			create_pop = {
-				culture = central_italian
-				pop_type = clergymen
-				size = 14000
+				size = 41868
 			}
 			create_pop = {
 				culture = central_italian
 				pop_type = clergymen
-				size = 14000
+				size = 6000
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = clergymen
+				size = 4000
 			}
 			create_pop = {
 				culture = central_italian
+				pop_type = aristocrats
+				size = 8000
+			}
+			create_pop = {
+				culture = south_italian
+				pop_type = aristocrats
+				size = 1000
+			}
+			create_pop = {
+				culture = sephardic
 				religion = jewish
 				size = 5596
 			}
