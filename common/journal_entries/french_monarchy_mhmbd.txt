@@ -1,0 +1,15 @@
+INJECT:je_cement_the_rightful_dynasty = {
+
+	on_complete = {
+		add_loyalists = {
+			value = 0.1
+			culture = cu:french
+		}
+		add_modifier = {
+			name = french_monarchism_solidified
+			years = 10
+			is_decaying = yes
+		}
+	}
+
+}
