@@ -75,3 +75,16 @@ Países
 
 Arreglos:
 	Las compañías de Renault y Burma tienen nuevos requisitos/asignaciones geográficas; los anteriores estaban desactualizados y no funcionaban.
+
+
+Changelog Versión 1.13B #30-05-26 - 14-06-26
+
+Países:
+	Francia:
+		Suavizado el penalizador de "Malestar Republicano", asociado a la Entrada de Diario inicial de la "Monarquía Inestable".
+		Agregadas dos recompensas adicionales por completar la Entrada de Diario "Cimentar la Dinastía".
+			+25 de Legitimidad por incluir al Monarca en el gobierno.
+			+15% de lealistas franceses.
+			10 años de duración, con decaimiento.
+	
+

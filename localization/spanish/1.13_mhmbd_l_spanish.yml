@@ -5,8 +5,6 @@
   prestige_good_coffea_arabica: "Café Arábigo"
   prestige_good_coffea_robusta: "Café Robusto"
   company_fedecafe: "Fedecafé"
-<<<<<<< HEAD
-=======
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -27,7 +25,6 @@
   prestige_good_ultra_food: "Alimentos Ultra Procesados"
   company_jose_cuervo: "Tequila José Cuervo"
   prestige_good_premium_liquor: "Licor Premium"
->>>>>>> wichux
 
   gm_actions.1.l: "Otorgar bono de Relleno"
   gm_actions_fill.1.t: "Categoría de Rango de Relleno"
@@ -70,3 +67,5 @@
   fill_autoridad_major: "Bono por Potencia Importante: Autoridad"
   fill_autoridad_minor: "Bono por Potencia Menor: Autoridad"
   fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
+
+  french_monarchism_solidified: "Monarquía francesa asegurada"

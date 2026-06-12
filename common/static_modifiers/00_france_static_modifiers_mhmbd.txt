@@ -19,3 +19,16 @@ rebuilding_paris = {
 	country_bureaucracy_add = -1500
 	country_expenses_add = 10000
 }
+
+INJECT:fra_republican_unrest = {
+	country_radicals_from_legitimacy_mult = -0.5
+	country_loyalists_from_legitimacy_mult = 0.25
+	country_legitimacy_ideological_incoherence_mult = 0.15
+	political_movement_radicalism_add = 0.10
+}
+
+french_monarchism_solidified = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_legitimacy_headofstate_add = 25
+	country_authority_mult = 0.25
+}
