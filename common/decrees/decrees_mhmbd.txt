@@ -1,0 +1,85 @@
+decree_focused_incorporation = {
+	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
+	modifier = {
+		state_incorporation_speed_mult = 0.5
+	}
+	unlocking_technologies = {
+		central_archives
+	}
+	cost = 100
+
+	state_trigger = {
+		is_incorporated = no
+	}
+
+	ai_weight = {
+		value = 25
+
+		if = {
+			limit = {
+				OR = {
+					relative_infrastructure < 1
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 1.25
+					}
+				}
+
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				OR = {
+					relative_infrastructure < 0.5
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 0.75
+					}
+				}
+
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				OR = {
+					relative_infrastructure < 0.25
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure < 0.5
+					}
+				}
+
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				OR = {
+					relative_infrastructure >= 1.25
+					AND = {
+						has_decree = decree_road_maintenance
+						relative_infrastructure >= 1.5
+					}
+				}
+			
+			}
+			multiply = 0
+		}
+
+		# Place instances where content should ignore weights here
+		if = {
+			limit = {
+				scope:country = {
+					has_journal_entry = je_lands_of_anarchy
+				}
+				is_capital = yes
+			}
+			add = 1000
+		}
+	}
+}

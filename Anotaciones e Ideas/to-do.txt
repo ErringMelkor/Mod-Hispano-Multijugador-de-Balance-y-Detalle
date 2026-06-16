@@ -1,0 +1,16 @@
+JE:
+    Guerra Ruso Turca admite a Valaquia y Moldavia como vasallos.
+
+Compañías:
+    Mover el requisito del azufre de Kanto.
+
+Sistemas:
+    Burocracia aumenta la velocidad de incorporación en un 25%. #Hecho
+
+    Decreto para velocidad de integración.
+
+    Velo de integración en las techs? Hay que ver como se stackea eso.
+
+Leyes:
+    TUs Cristianas #done
+    Landeswehr para Prusia #Done

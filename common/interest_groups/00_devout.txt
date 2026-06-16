@@ -630,6 +630,19 @@
 		}
 
 		add = {
+			desc = "POP_MACHINISTS"
+			if = {
+				limit = {
+					is_pop_type = machinists
+					owner = {
+						has_law_or_variant = law_type:law_religious_unions
+					}
+				}
+				value = 10
+			}
+		}
+
+		add = {
 			desc = "POP_PEASANTS"
 			if = {
 				limit = {

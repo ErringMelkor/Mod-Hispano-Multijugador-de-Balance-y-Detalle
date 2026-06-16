@@ -88,3 +88,17 @@ Países:
 			10 años de duración, con decaimiento.
 	
 
+Changelog Versión 1.13C #17-06-26 - X
+
+Leyes:
+	Asociaciones Laborales:
+		Agregada nueva ley: Asociación Religiosa. Aumenta la atracción al Grupo de Interés en los Maquinistas.
+	Asuntos Internos:
+		Agregada variante de "Guardia Nacional" para países de cultura norgermánica, el "Landwehr".
+		Prusia comienza con el Landwehr activo.
+	
+Sistemas:
+	Salarios de la Administración:
+		Sustitución del bono a burocracia por un bono a la velocidad de incorporación: 0/25%/50%
+	Decretos:
+		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 50%.	
