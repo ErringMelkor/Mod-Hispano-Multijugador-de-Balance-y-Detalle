@@ -149,11 +149,21 @@ je_great_russo_turkish_war = {
 		custom_tooltip = {
 			text = great_russo_turkish_war_goal_tt
 
-			any_scope_state = {
-				state_region = s:STATE_MOLDAVIA
-				is_incorporated = yes
-				is_split_state = no
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_WALLACHIA
+				any_scope_state = {
+					state_region = s:STATE_WALLACHIA
+					is_incorporated = yes
+				}
 			}
+			AND = {
+				country_or_subject_owns_entire_state_region = STATE_MOLDAVIA
+				any_scope_state = {
+					state_region = s:STATE_MOLDAVIA
+					is_incorporated = yes
+				}
+			}
+
 			any_scope_state = {
 				state_region = s:STATE_DOBRUDJA
 				is_incorporated = yes
@@ -161,11 +171,6 @@ je_great_russo_turkish_war = {
 			}
 			any_scope_state = {
 				state_region = s:STATE_BULGARIA
-				is_incorporated = yes
-				is_split_state = no
-			}
-			any_scope_state = {
-				state_region = s:STATE_WALLACHIA
 				is_incorporated = yes
 				is_split_state = no
 			}
