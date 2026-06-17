@@ -99,6 +99,6 @@ Leyes:
 	
 Sistemas:
 	Salarios de la Administración:
-		Sustitución del bono a burocracia por un bono a la velocidad de incorporación: 0/25%/50%
+		Sustitución del bono a burocracia por un bono a la velocidad de incorporación: 0/35%/75%
 	Decretos:
-		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 50%.	
+		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 100%.	
