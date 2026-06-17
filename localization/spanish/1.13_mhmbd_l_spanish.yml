@@ -72,4 +72,6 @@
 
   law_landwehr: "Landwehr"
   law_religious_unions: "Sindicatos Religiosos"
+  law_religious_unions_tt: "La [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] atraerá a más [GetPopType('machinists').GetName]."
+
   decree_focused_incorporation: "Incorporación Focalizada"
