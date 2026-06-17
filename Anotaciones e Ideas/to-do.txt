@@ -5,11 +5,13 @@ Compañías:
     Mover el requisito del azufre de Kanto.
 
 Sistemas:
-    Burocracia aumenta la velocidad de incorporación en un 25%. #Hecho
+    Burocracia aumenta la velocidad de incorporación en un 25%. #Hecho -> movido a los salarios
 
-    Decreto para velocidad de integración.
+    Decreto para velocidad de integración. #Hecho
 
     Velo de integración en las techs? Hay que ver como se stackea eso.
+
+    Decreto de fomentar natalidad?
 
 Leyes:
     TUs Cristianas #done
