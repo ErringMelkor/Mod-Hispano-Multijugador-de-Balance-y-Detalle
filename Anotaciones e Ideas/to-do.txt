@@ -9,9 +9,9 @@ Sistemas:
 
     Decreto para velocidad de integración. #Hecho
 
-    Velo de integración en las techs? Hay que ver como se stackea eso.
+    Velo de integración en las techs? Hay que ver como se stackea eso. #Hecho
 
-    Decreto de fomentar natalidad?
+    Decreto de fomentar natalidad? #noppes
 
 Leyes:
     TUs Cristianas #done

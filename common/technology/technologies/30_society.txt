@@ -552,7 +552,7 @@ central_archives = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 100
 		country_institution_home_affairs_max_investment_add = 1
-		state_incorporation_speed_mult = 0.05
+		state_incorporation_speed_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -1271,7 +1271,7 @@ identification_documents = {
 		state_tax_capacity_add = 25
 		country_bureaucracy_add = 150
 		country_institution_home_affairs_max_investment_add = 1
-		state_incorporation_speed_mult = 0.05
+		state_incorporation_speed_mult = 0.15
 	}
 	
 	unlocking_technologies = {
@@ -1373,7 +1373,7 @@ central_planning = {
 		country_bureaucracy_add = 250
 		country_government_dividends_efficiency_add = 0.05
 		country_institution_home_affairs_max_investment_add = 1
-		state_incorporation_speed_mult = 0.05
+		state_incorporation_speed_mult = 0.15
 	}
 	
 	unlocking_technologies = {

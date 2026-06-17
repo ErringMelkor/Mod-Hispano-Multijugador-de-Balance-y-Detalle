@@ -101,4 +101,11 @@ Sistemas:
 	Salarios de la Administración:
 		Sustitución del bono a burocracia por un bono a la velocidad de incorporación: 0/35%/75%
 	Decretos:
-		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 100%.	
+		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 100%.
+
+Tecnologías:
+	Los Avances de Burocracia en la Rama de Sociedad otorgan Velocidad de Incorporación adicional.
+
+Entradas de Diario:
+	Risorgimento:
+		Optar por la opción conservadora otorga un 25% de lealistas en vez de un 5%.
