@@ -19,13 +19,13 @@ prestige_good_renault_automobiles = {
 prestige_good_red_fife = {
 	base_good = grain
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_grain_prestige.dds"
+	texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
 }
 
 prestige_good_guano = {
 	base_good = fertilizer
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_fertilizer_prestige.dds"
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
 }
 
 prestige_good_specialty_sugar = {
@@ -37,13 +37,37 @@ prestige_good_specialty_sugar = {
 prestige_good_ultra_food = {
 	base_good = groceries
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
+	texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
 }
 
 prestige_good_premium_liquor = {
 	base_good = liquor
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/bacardi_rum_prestige.dds"
+}
+
+prestige_good_tempered_glass = {
+	base_good = glass
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
+}
+
+prestige_good_earl_gray_tea = {
+	base_good = tea
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china_tea_prestige.dds"
+}
+
+prestige_good_pineapple = {
+	base_good = fruit
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
+}
+
+prestige_good_latex = {
+	base_good = rubber
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/rubber.dds"
 }
 
 #Caucho de prestigio para Brasil y el Congo
