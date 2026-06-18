@@ -7,6 +7,7 @@
   company_fedecafe: "Fedecafé"
 <<<<<<< HEAD
 =======
+ --Companies
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -37,7 +38,7 @@
   company_egyptian_sugar: "Egyptian Sugar Company"
   company_ethiopian_partnership: "Ethiopian People's General Partnership"
 
---Bienes de Prestigio
+--Prestige good
   prestige_good_red_fife: "Red Fife Grain"
   prestige_good_guano: "Guano"
   prestige_good_specialty_sugar: "Specialty Sugar"
@@ -80,6 +81,17 @@
   notification_prestige_good_premium_liquor_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_premium_liquor! #b $prestige_good_premium_liquor$#!"
   notification_prestige_good_premium_liquor_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_premium_liquor! #b $prestige_good_premium_liquor$#!"
   notification_prestige_good_premium_liquor_unlocked_tooltip: "#header $notification_prestige_good_premium_liquor_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_premium_liquor_unlocked_desc$"
+
+--Tempered Glass (event)
+  je_prestige_good_tempered_glass: "$prestige_good_tempered_glass$"
+  je_prestige_good_tempered_glass_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!. If successful, it will be able to expand its competitiveness within the global @glass! #b $glass$#! market."
+  je_prestige_good_tempered_glass_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_tempered_glass_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_tempered_glass_complete_tt: "Has completed the #b $je_prestige_good_tempered_glass$#! [concept_journal_entry]"
+  je_prestige_good_tempered_glass_tt: "[SCOPE.sCompany('relevant_company').GetName] will be able to produce @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!"
+  not_prestige_good_tempered_glass_var_tt: "Has #b not#! already developed @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!"
+  notification_prestige_good_tempered_glass_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] develops @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!"
+  notification_prestige_good_tempered_glass_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!"
+  notification_prestige_good_tempered_glass_unlocked_tooltip: "#header $notification_prestige_good_tempered_glass_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_tempered_glass_unlocked_desc$"
 
 >>>>>>> wichux
 
