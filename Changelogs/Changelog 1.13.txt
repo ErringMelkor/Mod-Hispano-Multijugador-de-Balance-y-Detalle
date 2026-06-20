@@ -110,6 +110,12 @@ Tecnologías:
 		Gantry Cranes: 10% -> 15%
 		Concrete Dockyards: 10% -> 20%
 
+Economía:
+	Nuevo método secundario para Madera Dura en los campamentos madereros.
+
+Pops:
+	Bajado su consumo de Madera Dura: 0.15 -> 0.125
+
 Militar:
 	Barcos de Suministro:
 		Costo de construcción:

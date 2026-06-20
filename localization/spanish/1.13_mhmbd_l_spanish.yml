@@ -69,3 +69,14 @@
   fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
 
   french_monarchism_solidified: "Monarquía francesa asegurada"
+
+  law_landwehr: "Landwehr"
+  law_religious_unions: "Sindicatos Religiosos"
+  law_religious_unions_tt: "La [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] atraerá a más [GetPopType('machinists').GetName]."
+
+  decree_focused_incorporation: "Incorporación Focalizada"
+
+  bourbon_instability.1.t: "Una Monarquía Inestable"
+  bourbon_instability.1.d: "Blablabla reinado inestable de los borbones, súbditos alienados / uncaring / indiferentes al régimen de los Borbón. Reestablecidos tras las guerras napoleónicas, blablabla; risorgimento, separatistas sicilianos."
+
+  pm_intensified_hardwood_production: "Producción de Madera Dura Intensiva"

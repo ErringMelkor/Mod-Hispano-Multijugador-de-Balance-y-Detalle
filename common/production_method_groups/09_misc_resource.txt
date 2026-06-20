@@ -21,6 +21,7 @@ pmg_secondary_logging_camp = {
 	production_methods = {
 		pm_no_secondary_production
 		pm_focused_hardwood_production
+		pm_intensified_hardwood_production
 		pm_charcoal
 	}
 }

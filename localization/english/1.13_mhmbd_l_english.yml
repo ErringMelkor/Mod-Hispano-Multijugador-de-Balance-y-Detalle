@@ -72,3 +72,13 @@
   fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
 
   french_monarchism_solidified: "French Monarchy Solidified"
+
+  law_landwehr: "Landwehr"
+  law_religious_unions: "Religious Unions"
+  law_religious_unions_tt: "The [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] will attract more [GetPopType('machinists').GetName]."
+
+  decree_focused_incorporation: "Focused Incorporation"
+
+  pm_intensified_hardwood_production: "Intensified Hardwood Production"
+
+
