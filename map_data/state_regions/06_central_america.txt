@@ -11,7 +11,8 @@
     arable_land = 38
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 11
+        building_logging_camp = 10
+        building_hardwood_logging = 1
         building_fishing_wharf = 4
     }
     resource = {
@@ -35,8 +36,8 @@ STATE_GUATEMALA = {
     arable_resources = { "building_dye_plantation" "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_iron_mine = 34
-        building_logging_camp = 24
-        building_hardwood_logging = 2
+        building_logging_camp = 22
+        building_hardwood_logging = 4
         building_fishing_wharf = 5
     }
     resource = {
@@ -59,7 +60,8 @@ STATE_HONDURAS = {
     arable_land = 43
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 15
+        building_logging_camp = 12
+        building_hardwood_logging = 3
         building_fishing_wharf = 8
     }
     resource = {
@@ -82,7 +84,8 @@ STATE_NICARAGUA = {
     arable_land = 55
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 16
+        building_logging_camp = 14
+        building_hardwood_logging = 2
         building_fishing_wharf = 8
     }
     resource = {
