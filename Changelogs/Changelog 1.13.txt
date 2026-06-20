@@ -110,6 +110,19 @@ Tecnologías:
 		Gantry Cranes: 10% -> 15%
 		Concrete Dockyards: 10% -> 20%
 
+Militar:
+	Barcos de Suministro:
+		Costo de construcción:
+			· Madera Dura: 130 -> 50
+			· Tela: 130 -> 100
+		Costo de mantenimiento:
+			· Madera Dura: 0 -> 0.25
+			· Tela: 0 -> 0.5
+
+Entradas de Diario:
+	Risorgimento:
+		Optar por la opción conservadora otorga un 25% de lealistas en vez de un 5%.
+
 Mapa:
 	Aumentados los bonos regionales a la producción de Madera Dura:
 		· Bosque Negro: 10% -> 15%
@@ -186,8 +199,8 @@ Mapa:
 			· Madera Dura: 0 -> 3
 		Nicaragua:
 			· Madera: 16 -> 14
-			· Madera Dura: 0 -> 2																															
-
-Entradas de Diario:
-	Risorgimento:
-		Optar por la opción conservadora otorga un 25% de lealistas en vez de un 5%.
+			· Madera Dura: 0 -> 2
+	Reajustada la madera del Amazonas:
+		Guaviare:
+			· Madera: 35 -> 38
+			· Madera Dura: 8 -> 12																																
