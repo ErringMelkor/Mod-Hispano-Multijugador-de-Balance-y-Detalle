@@ -106,7 +106,7 @@ REPLACE_OR_CREATE:state_trait_hamburger_hafen = {
 REPLACE_OR_CREATE:state_trait_black_forest = {
     icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 	modifier = {
-		goods_output_hardwood_mult = 0.1
+		goods_output_hardwood_mult = 0.15
 	}
 }
 

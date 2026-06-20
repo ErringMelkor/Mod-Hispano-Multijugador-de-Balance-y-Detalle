@@ -1,0 +1,9 @@
+REPLACE_OR_CREATE:state_trait_congo_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+
+	modifier = {
+		state_construction_mult = -0.15
+		state_infrastructure_mult = -0.15
+		goods_output_hardwood_mult = 0.35
+	}
+}
