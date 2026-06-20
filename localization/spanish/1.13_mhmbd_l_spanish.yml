@@ -5,8 +5,6 @@
   prestige_good_coffea_arabica: "Café Arábigo"
   prestige_good_coffea_robusta: "Café Robusto"
   company_fedecafe: "Fedecafé"
-<<<<<<< HEAD
-=======
 
 --Compañías
   company_la_forestal: "La Forestal"
@@ -94,7 +92,6 @@
   notification_prestige_good_tempered_glass_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!"
   notification_prestige_good_tempered_glass_unlocked_tooltip: "#header $notification_prestige_good_tempered_glass_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_tempered_glass_unlocked_desc$"
 
->>>>>>> wichux
 
   gm_actions.1.l: "Otorgar bono de Relleno"
   gm_actions_fill.1.t: "Categoría de Rango de Relleno"
