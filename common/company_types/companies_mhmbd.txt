@@ -1529,7 +1529,6 @@ company_granos_winnipeg= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_canada
-		c:CAN ?= this
 	}
 
 	attainable = {
@@ -1541,7 +1540,6 @@ company_granos_winnipeg= {
 	}
 
 	possible = {
-		c:CAN ?= this
 		any_scope_state = {
 			state_region = s:STATE_ONTARIO
 			is_incorporated = yes
