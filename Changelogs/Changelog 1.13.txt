@@ -88,7 +88,7 @@ Países:
 			10 años de duración, con decaimiento.
 	
 
-Changelog Versión 1.13C #17-06-26 - X
+Changelog Versión 1.13C #17-06-26 - 21-06-26
 
 Sistemas:
 	Salarios de la Administración:
