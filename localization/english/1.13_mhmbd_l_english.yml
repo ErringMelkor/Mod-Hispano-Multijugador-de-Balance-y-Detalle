@@ -81,4 +81,7 @@
 
   pm_intensified_hardwood_production: "Intensified Hardwood Production"
 
+  goods_input_luxury_clothes_add:0 "@luxury_clothes! Clothes input"
+  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Clothes consumed by buildings"
+
 

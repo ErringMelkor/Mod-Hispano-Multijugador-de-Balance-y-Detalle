@@ -1106,12 +1106,14 @@ combat_unit_type_low_tier_marines = {
 
 	upkeep_modifier = {
 		goods_input_small_arms_add = 1.5
+        goods_input_luxury_clothes_add = 0.5
+        goods_input_groceries_add = 0.5
     }
 
     battle_modifier = {
-        unit_offense_add = 20
-        unit_defense_add = 25
-        unit_morale_loss_add = 10
+        unit_offense_add = 25
+        unit_defense_add = 20
+        unit_morale_loss_add = 12
 		# no naval invasion efficiency loss
     }
 
@@ -1136,18 +1138,20 @@ combat_unit_type_mid_tier_marines = {
 	conscript_peasant_levies = yes
 
 	upkeep_modifier = {
-		goods_input_small_arms_add = 2.5
+		goods_input_small_arms_add = 3
 		goods_input_ammunition_add = 1.5
+        goods_input_luxury_clothes_add = 1
+        goods_input_groceries_add = 1
     }
 
     battle_modifier = {
-        unit_offense_add = 25
+        unit_offense_add = 30
         unit_defense_add = 35
-        unit_morale_loss_add = 10
+        unit_morale_loss_add = 8
         # no naval invasion efficiency loss
     }
 
-	unlocking_technologies = { power_of_the_purse }
+	unlocking_technologies = { jeune_ecole }
 
     combat_unit_image = {
 		# fallback
@@ -1169,12 +1173,14 @@ combat_unit_type_high_tier_marines = {
 	upkeep_modifier = {
 		goods_input_small_arms_add = 4
 		goods_input_ammunition_add = 3
+        goods_input_luxury_clothes_add = 2
+        goods_input_groceries_add = 2
     }
 
     battle_modifier = {
-        unit_offense_add = 30
+        unit_offense_add = 35
         unit_defense_add = 40
-        unit_morale_loss_add = 8
+        unit_morale_loss_add = 6
         # no naval invasion efficiency loss
     }
 
