@@ -210,3 +210,9 @@ Mapa:
 		Guaviare:
 			· Madera: 35 -> 38
 			· Madera Dura: 8 -> 12																																
+
+Changelog Versión 1.13D # 22-06-26 - 27-06-26
+
+Militar:
+	Ajustados los valores y bienes de la Infantería de Marina, más caros y especializados en ser unidades de élite que golpean por encima de su peso.
+	Prestigio otorgado por la Flota: 0.2 -> 0.175
