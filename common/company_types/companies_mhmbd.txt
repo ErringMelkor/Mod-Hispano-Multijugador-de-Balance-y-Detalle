@@ -2000,10 +2000,6 @@ company_egyptian_sugar= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_nile_basin
-		OR = {
-			c:EGY ?= this
-			c:ARA ?= this
-		}
 	}
 
 	attainable = {
@@ -2015,10 +2011,6 @@ company_egyptian_sugar= {
 	}
 
 	possible = {
-		OR = {
-			c:EGY ?= this
-			c:ARA ?= this
-		}
         any_scope_state = {
 			state_region = s:STATE_LOWER_EGYPT
 			is_incorporated = yes
@@ -2073,10 +2065,6 @@ company_khedivial_company= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_nile_basin
-		OR = {
-			c:EGY ?= this
-			c:ARA ?= this
-		}
 	}
 
 	attainable = {
@@ -2088,10 +2076,6 @@ company_khedivial_company= {
 	}
 
 	possible = {
-		OR = {
-			c:EGY ?= this
-			c:ARA ?= this
-		}
 		any_scope_state = {
 			region = sr:region_nile_basin
 			is_coastal = yes
