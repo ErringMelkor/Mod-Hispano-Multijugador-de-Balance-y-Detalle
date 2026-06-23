@@ -74,6 +74,7 @@
   french_monarchism_solidified: "French Monarchy Solidified"
 
   law_landwehr: "Landwehr"
+  law_landwehr_desc: "Conscription system that acts as both a mobile reserve of manpower and a National Guard."
   law_religious_unions: "Religious Unions"
   law_religious_unions_tt: "The [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] will attract more [GetPopType('machinists').GetName]."
 
@@ -81,4 +82,15 @@
 
   pm_intensified_hardwood_production: "Intensified Hardwood Production"
 
+  SCI: "Sicily"
 
+  law_latifondi: "Latifondi"
+  law_latifondi_desc: "Agricultural land characterized by vast swathes of land worked by seasonal farmhands with no protections."
+
+  je_bourbon_instability: "Bourbon Instability"
+  je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea face por delante."
+
+  bourbon_instability: "Bourbon Instability"
+
+  bourbon_instability.1.t: "Agitación en el Meridiano"
+  bourbon_instability.1.d: ""

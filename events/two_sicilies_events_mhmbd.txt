@@ -1,5 +1,6 @@
 namespace = bourbon_instability
 
+#Agitación en el Meridiano
 bourbon_instability.1 = {
 	type = country_event
 	placement = root
@@ -29,3 +30,44 @@ bourbon_instability.1 = {
 
 
 }
+
+#Epidemia de Cólera de 1836.
+bourbon_instability.2 = {
+	type = country_event
+	placement = root
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {
+		# Desencadenado por la JE principal.
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.1.a
+		default_option = yes
+	}
+}
+
+#"Bandidos"-1840
+
+#El Viejo Orden.
+
+
+#Jacquerie de 1837.
+
+
+#Cólera en el 54, Rebelión en el 55.
+
+#Protest of the People of the Two Sicilies - Si no completa la entrada de diario a tiempo (SC forma Italia del norte o desbloquea X tech, o Austria no tiene Lombardía y/o Veneto).
