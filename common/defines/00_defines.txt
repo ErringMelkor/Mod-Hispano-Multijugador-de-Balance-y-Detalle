@@ -1396,8 +1396,8 @@ NPops = {
 	ALLOW_ASSIMILATION_REQUIRE_HERITAGE_TRAIT = no		# Can pops assimilate into pops of a different heritage trait (stronger condition)
 	#in case if both are allowed, heritage trait requirement takes precedence
 
-	ASSIMILATION_RATE = 0.0025					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
-	MIN_ASSIMILATION = 1						# If there is any assmiliation at least this many people will assimilate
+	ASSIMILATION_RATE = 0.0035					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
+	MIN_ASSIMILATION = 3						# If there is any assmiliation at least this many people will assimilate
 	ASSIMILATION_IN_HOMELAND_MULT = 0.75		# Assimilation rate is multiplied by this in homelands
 
 	CONVERSION_RATE = 0.0025				# Percentage of pops who will Convert into a different Religion each month, if eligible
@@ -1419,6 +1419,8 @@ NPops = {
 	MAX_DEMAND_ADJUSTMENT_SCALED_AMOUNT = 0.09	# Controls how much a pop can change demand of a substituable goods in a single update (scaled)
 	MAX_DEMAND_ADJUSTMENT_SCALE = 1.0			# At this delta between target and current demand, apply max demand adjustment scale
 
+	PRESTIGE_GOOD_SOL_BONUS_SCALING = 0.4 		# Added multiplier to SoL, scales with % of pop buy package that is prestige goods
+	PRESTIGE_GOOD_SOL_MAX_BONUS = 0.2 			# Added multiplier to SoL from prestige goods cannot be higher than this
 
 	# To allow local goods to properly compete with non-local ones in large markets, we add a fraction of the market production of the local good that is equal to ( 1 - the state's GDP share ) * this
 	# This is only done for the purposes of goods substitution supply and *not* for price calculations
