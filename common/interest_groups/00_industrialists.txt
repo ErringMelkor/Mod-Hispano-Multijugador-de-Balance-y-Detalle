@@ -7,7 +7,7 @@
 	ideologies = {
 		ideology_plutocratic
 		ideology_laissez_faire
-		ideology_individualist_mod
+		ideology_individualist
 	}
 
 	character_ideologies = {
@@ -113,7 +113,7 @@
 				add_ideology = ideology_colonialist
 				remove_ideology = ideology_plutocratic
 				add_ideology = ideology_enclavist
-				remove_ideology = ideology_individualist_mod
+				remove_ideology = ideology_individualist
 				add_ideology = ideology_malthusian
 
 				set_ig_trait = ig_trait:ig_trait_wounded_honor
