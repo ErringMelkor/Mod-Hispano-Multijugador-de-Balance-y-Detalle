@@ -123,7 +123,11 @@
 			#Culturas Alemanas
 			else_if = {
 				limit = {
-					has_discrimination_trait = language_germanophone
+					owner = {
+						any_primary_culture = {
+							has_discrimination_trait = language_germanophone
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
 				set_ig_trait = ig_trait:ig_trait_kohleexpertise

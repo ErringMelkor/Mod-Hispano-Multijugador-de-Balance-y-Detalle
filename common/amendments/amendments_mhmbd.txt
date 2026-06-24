@@ -97,7 +97,7 @@ amendment_bashibazouk = {
 
 	modifier = {
 		country_military_wages_mult = -0.25
-		state_mortality_turmoil_mult = 0.15
+		state_mortality_turmoil_mult = 0.015
 		country_infamy_decay_mult = -0.15
 	}
 

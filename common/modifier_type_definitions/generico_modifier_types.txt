@@ -1,6 +1,6 @@
 ﻿country_institution_military_max_investment_add={
 	decimals=0
-	color=bad
+	color=good
 	game_data={
 		ai_value=0
 	}
@@ -8,7 +8,7 @@
 
 country_institution_cost_institution_military_mult={
 	decimals=0
-	color=good
+	color=bad
 	percent=yes
 	game_data={
 		ai_value=0

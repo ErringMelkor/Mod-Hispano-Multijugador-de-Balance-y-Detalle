@@ -172,6 +172,16 @@
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 			else_if = {
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:dutch
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_handelaar
+				set_ig_trait = ig_trait:ig_trait_treasury_bonds
+			}
+			else_if = {
 					limit = {
 						owner = {
 							c:BIC ?= this
