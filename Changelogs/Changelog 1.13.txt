@@ -107,6 +107,13 @@ Leyes:
 	Militar:
 		Indostán comienza con Levas Campesinas en vez de Ejército Profesional.
 
+Enmiendas:
+	Italia:
+		Cerdeña-Piamonte comienza con la Enmienda de "Bersaglieri": +5% al daño a la moral; +15% al costo de la Institución Militar.
+		Dos Sicilias comienza con la Enmienda de "Cacciatori": +5% al daño a la moral; +15% al costo de la Institución Militar.
+	Otomanos:
+		Comienzan con la Enmienda de "Bashi-Bazouk": -25% a los salarios militares; +15% a la mortalidad por turmoil; -15% a la reducción de Infamia; los Rurales atraen Soldados.
+
 Tecnologías:
 	Los Avances de Burocracia en la Rama de Sociedad otorgan Velocidad de Incorporación adicional.
 	Agregada mayor producción de barcos de suministro en la rama de infraestructura naval, para un total de +25%:
@@ -121,7 +128,17 @@ Grupos de Interés:
 			Agregado nuevo rasgo a los Industrialistas: "Crédit Mobilier": -5% a la reducción de la tasa de interés; +15% a las reservas monetarias de los edificios.
 			Agregado nuevo rasgo a los Terratenientes: "Les Notables": +5% a la eficiencia de inversión de los aristócratas; +10% a la Autoridad.
 			Agregado nuevo rasgo a los Rurales: "Metayage": +1 al Output de Subsistencia; -7.5% a la mortalidad en Agricultura de Subsistencia.
-			Agregado nuevo rasgo a los Rurales: "Jacquerie": +10% a los efectos del Turmoil; -10% a la Capacidad Fiscal.	
+			Agregado nuevo rasgo a los Rurales: "Jacquerie": +10% a los efectos del Turmoil; -10% a la Capacidad Fiscal.
+		Prusia:
+			Agregado nuevo rasgo a los Terratenientes: "Rittergut": -15% al costo de las instituciones.
+			Agregado nuevo rasgo a los Devotos: "Pietismo Filantropista": +5% al Acceso a la Educación; -0.5 al Nivel de Vida Esperado por las Clases Bajas.
+		Alemanes:
+			Agregado nuevo rasgo a los Industrialistas: "Eisenbahnlagen": +15% a las inversiones de los capitalistas; +15% al Throughput de los Ferrocarriles.
+			Agregado nuevo rasgo a los Industrialistas: "Kohleexpertise": +15% al Throughput de las minas de carbón.
+		Dos Sicilias / Italia:
+			Agregado nuevo rasgo a la Pequeña Burguesía: "Galantuomini": -10% a los radicales en culturas de tier 5; +5% autoridad.
+		Países Bajos:
+			Agregado nuevo rasgo a la Pequeña Burguesía: "Handelaar": +15% a la ventaja comercial; +15% a la capacidad comercial.
 
 
 

@@ -78,6 +78,8 @@
   law_religious_unions: "Religious Unions"
   law_religious_unions_tt: "The [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] will attract more [GetPopType('machinists').GetName]."
 
+  amendment_bashibazouk_tt: "The [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] will attract more [GetPopType('soldiers').GetName]."
+
   decree_focused_incorporation: "Focused Incorporation"
 
   pm_intensified_hardwood_production: "Intensified Hardwood Production"

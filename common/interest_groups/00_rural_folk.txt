@@ -323,6 +323,19 @@
 			}
 		}
 
+		add = {
+			desc = "POP_SOLDIERS"
+			if = {
+				limit = {
+					AND = {
+						has_amendment = amendment_type:amendment_bashibazouk
+						is_pop_type = soldiers
+					}
+				}
+				value = 25
+			}
+		}
+
 		if = {
 			limit = {
 				c:BIC ?= owner

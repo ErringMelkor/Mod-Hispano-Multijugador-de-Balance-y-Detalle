@@ -61,7 +61,27 @@ REPLACE_OR_CREATE:ig_trait_effendi = {
 	}
 }
 
+### Dos Sicilias / Italia ###
+
+ig_trait_galantuomini = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy
+
+	modifier = {
+		state_radicalism_increases_full_acceptance_mult = -0.1
+		country_authority_mult = 0.05
+	}
+}
+
 
 ### Países Bajos ###
 
-#Puerto de Europa - Ventaja Comercial.
+ig_trait_handelaar = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy
+
+	modifier = {
+		state_trade_advantage_mult = 0.15
+		state_trade_capacity_mult = 0.25
+	}
+}

@@ -108,7 +108,7 @@
 			create_pop = {
 				culture = north_italian
 				religion = jewish
-				size = 2804
+				size = 22804
 			}
 		}
 	}
@@ -365,6 +365,10 @@
 				culture = francoprovencal
 				religion = protestant
 				size = 121200
+			}
+			create_pop = {
+				culture = sephardic
+				size = 18244
 			}
 		}
 	}

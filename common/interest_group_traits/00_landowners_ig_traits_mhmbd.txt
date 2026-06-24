@@ -43,6 +43,17 @@ ig_trait_farm_and_family = {
 	}
 }
 
+### Prusia ###
+
+ig_trait_rittergut = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy
+
+	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = -0.15
+	}
+}
+
 
 ### Francia ###
 
