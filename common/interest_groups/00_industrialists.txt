@@ -76,7 +76,7 @@
 					owner = { c:FRA ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
-				set_ig_trait = ig_trait:ig_trait_engines_of_progress
+				set_ig_trait = ig_trait:ig_trait_credit_mobilier
 				set_ig_trait = ig_trait:ig_trait_ventilate_unify_beautify
 			}
 			else_if = {

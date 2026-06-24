@@ -74,6 +74,14 @@
 			}
 			else_if = {
 				limit = {
+					owner = { c:FRA ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+				set_ig_trait = ig_trait:ig_trait_metayage
+				set_ig_trait = ig_trait:ig_trait_jacquerie
+			}
+			else_if = {
+				limit = {
 					owner = { 
 						OR = {
 							c:BIC ?= this

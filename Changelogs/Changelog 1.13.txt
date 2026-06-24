@@ -102,6 +102,10 @@ Leyes:
 	Asuntos Internos:
 		Agregada variante de "Guardia Nacional" para países de cultura norgermánica, el "Landwehr".
 		Prusia comienza con el Landwehr activo.
+	Burocracia:
+		Agregada nueva variante de ley para los Otomanos: "Derebeys".
+	Militar:
+		Indostán comienza con Levas Campesinas en vez de Ejército Profesional.
 
 Tecnologías:
 	Los Avances de Burocracia en la Rama de Sociedad otorgan Velocidad de Incorporación adicional.
@@ -109,6 +113,17 @@ Tecnologías:
 		Hydraulic Cranes: 0% -> 10%
 		Gantry Cranes: 10% -> 15%
 		Concrete Dockyards: 10% -> 20%
+
+Grupos de Interés:
+	Rasgos:
+		Francia:
+			Restaurado el bono original de "Ventilate, Unify, Beautify": 7,5% eficiencia construcción -> 10% eficiencia construcción; +5% prestigio -> +5% a la reducción de polución.
+			Agregado nuevo rasgo a los Industrialistas: "Crédit Mobilier": -5% a la reducción de la tasa de interés; +15% a las reservas monetarias de los edificios.
+			Agregado nuevo rasgo a los Terratenientes: "Les Notables": +5% a la eficiencia de inversión de los aristócratas; +10% a la Autoridad.
+			Agregado nuevo rasgo a los Rurales: "Metayage": +1 al Output de Subsistencia; -7.5% a la mortalidad en Agricultura de Subsistencia.
+			Agregado nuevo rasgo a los Rurales: "Jacquerie": +10% a los efectos del Turmoil; -10% a la Capacidad Fiscal.	
+
+
 
 Economía:
 	Nuevo método secundario para Madera Dura en los campamentos madereros.

@@ -60,3 +60,8 @@ REPLACE_OR_CREATE:ig_trait_effendi = {
 		country_institution_size_change_speed_mult = 0.25
 	}
 }
+
+
+### Países Bajos ###
+
+#Puerto de Europa - Ventaja Comercial.

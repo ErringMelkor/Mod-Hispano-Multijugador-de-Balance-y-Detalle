@@ -1142,6 +1142,7 @@ STATES = {
 		create_state = {
 			country = c:SIC
 			owned_provinces = { x805120 x8A0548 xF0AF66 xC090A0 x702CA8 x00D020 xB7B8F1 }
+			state_type = unincorporated
 		}
 
 		add_homeland = cu:south_italian

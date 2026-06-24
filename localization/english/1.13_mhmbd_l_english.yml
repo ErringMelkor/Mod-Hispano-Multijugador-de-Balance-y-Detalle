@@ -88,9 +88,10 @@
   law_latifondi_desc: "Agricultural land characterized by vast swathes of land worked by seasonal farmhands with no protections."
 
   je_bourbon_instability: "Bourbon Instability"
-  je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea face por delante."
+  je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea fácil por delante."
 
   bourbon_instability: "Bourbon Instability"
 
   bourbon_instability.1.t: "Agitación en el Meridiano"
-  bourbon_instability.1.d: ""
+  bourbon_instability.1.d: "Tras dos décadas desde el retorno de los Borbones a Nápoles, Sicilia se mantiene como un territorio ajeno a la corona. Con el único bastión leal en Palermo y Messina, su geografía áspera sirve de escondrijo a toda clase de opositores: algunos son revolucionarios radicales, que hablan de una Italia unida; otros son separistas sicilianos, que ven en la dinastía de Borbón un régimen napolitano ajeno a sus intereses; la mayoría, peor aún, son contrabandistas. Sicilia permanece sin orden ni ley, ni infraestructura que pueda soportarla."
+  bourbon_instability.1.a: "La monarquía debe ser una con la isla para perdurar."

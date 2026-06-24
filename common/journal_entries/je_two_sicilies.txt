@@ -37,6 +37,13 @@ je_bourbon_instability = {
 		}
 	}
 
+	on_monthly_pulse = {
+        random_events = {
+            90 = 0
+            30 = bourbon_instability.2
+        }
+    }
+
 
 	complete = {
 		OR = {

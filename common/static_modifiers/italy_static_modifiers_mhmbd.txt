@@ -8,6 +8,20 @@ bourbon_instability = {
 }
 
 bourbon_integration = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	state_assimilation_mult = 1	
+}
+
+bourbon_cholera_outbreak = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+
+	state_mortality_mult = 0.05
+	state_radicalism_increases_second_rate_citizen_mult = 0.25
+}
+
+bourbon_jacquerie = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+
+	state_incorporation_speed_mult = -2
+	state_mortality_turmoil_mult = 0.25
 }

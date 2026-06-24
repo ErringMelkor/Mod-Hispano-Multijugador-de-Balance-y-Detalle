@@ -5,6 +5,9 @@ bourbon_instability.1 = {
 	type = country_event
 	placement = root
 
+	title = bourbon_instability.1.t
+	desc = bourbon_instability.1.d
+
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	gui_window = event_window_1char_tabloid
 
@@ -36,6 +39,9 @@ bourbon_instability.2 = {
 	type = country_event
 	placement = root
 
+	title = bourbon_instability.2.t
+	desc = bourbon_instability.2.d
+
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	gui_window = event_window_1char_tabloid
 
@@ -55,8 +61,70 @@ bourbon_instability.2 = {
 	immediate = {}
 
 	option = {
-		name = bourbon_instability.1.a
+		name = bourbon_instability.2.a
 		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_modifier = {
+				name = bourbon_cholera_outbreak
+				months = 6
+				is_decaying = yes
+			}
+		}
+
+		hidden_effect = {
+			trigger_event = {
+				id = bourbon_instability.3
+				days = 90
+			}
+		}
+	}
+}
+
+bourbon_instability.3 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.3.t
+	desc = bourbon_instability.3.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = {}
+
+	is_popup = yes
+
+	trigger = {}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.3.a
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_radicals_in_state = {
+				value = 0.05
+				culture = cu:siciliano
+			}
+			add_modifier = {
+				name = bourbon_jacquerie
+				months = 12
+				is_decaying = yes
+			}
+		}
 	}
 }
 
