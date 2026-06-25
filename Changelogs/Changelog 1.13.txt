@@ -95,6 +95,9 @@ Sistemas:
 		Sustitución del bono a burocracia por un bono a la velocidad de incorporación: 0/35%/75%
 	Decretos:
 		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 100%.
+	Diplomacia:
+		Costo base en Infamia por Conquista: 4.75 -> 4.65.
+		
 
 Leyes:
 	Asociaciones Laborales:
@@ -147,6 +150,7 @@ Economía:
 
 Pops:
 	Bajado su consumo de Madera Dura: 0.15 -> 0.125
+	Posibilidad de generar una nueva obsesión: 2% -> 1.25%
 
 Militar:
 	Barcos de Suministro:
