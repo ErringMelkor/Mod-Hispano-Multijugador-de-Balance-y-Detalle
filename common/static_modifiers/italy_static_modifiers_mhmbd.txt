@@ -9,7 +9,9 @@ bourbon_instability = {
 
 bourbon_integration = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	state_assimilation_mult = 1	
+	state_assimilation_mult = 1.5
+	country_radicalism_increases_full_acceptance_mult = -0.35
+	country_authority_mult = 0.25
 }
 
 bourbon_cholera_outbreak = {
@@ -24,4 +26,20 @@ bourbon_jacquerie = {
 
 	state_incorporation_speed_mult = -2
 	state_mortality_turmoil_mult = 0.25
+}
+
+bourbon_palermitani_concesions = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	
+	state_incorporation_speed_mult = -1
+	state_radicalism_increases_second_rate_citizen_mult = -0.25
+	state_turmoil_effects_mult = -0.5
+}
+
+bourbon_palermitani_repression = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	
+	state_incorporation_speed_mult = 0.5
+	state_radicalism_increases_second_rate_citizen_mult = 0.35
+	state_turmoil_effects_mult = 0.25
 }

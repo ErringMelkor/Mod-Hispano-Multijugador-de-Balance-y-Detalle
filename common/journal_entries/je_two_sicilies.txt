@@ -41,6 +41,7 @@ je_bourbon_instability = {
         random_events = {
             90 = 0
             30 = bourbon_instability.2
+			10 = bourbon_instability.4
         }
     }
 
@@ -70,6 +71,11 @@ je_bourbon_instability = {
 	}
 
 	on_complete = {
+		add_modifier = {
+			name = bourbon_integration
+			years = 10
+			is_decaying = yes
+		}
 		add_loyalists = {
 			value = 0.35
 			culture = cu:south_italian

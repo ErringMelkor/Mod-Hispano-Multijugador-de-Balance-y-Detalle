@@ -656,7 +656,7 @@
 						has_law_or_variant = law_type:law_religious_unions
 					}
 				}
-				value = 10
+				value = 25
 			}
 		}
 

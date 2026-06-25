@@ -268,6 +268,21 @@
 		value = 0
 
 		add = {
+			desc = "POP_SOLDIERS"
+			if = {
+				limit = {
+					owner = {
+						active_law:lawgroup_army_model ?= {
+							has_amendment = amendment_type:amendment_bashibazouk
+						}
+					}
+					is_pop_type = soldiers
+				}
+				value = 25
+			}
+		}
+
+		add = {
 			desc = "RURAL_POP"
 			if = {
 				limit = {
@@ -320,19 +335,6 @@
 					is_pop_type = clergymen
 				}
 				value = 75
-			}
-		}
-
-		add = {
-			desc = "POP_SOLDIERS"
-			if = {
-				limit = {
-					AND = {
-						has_amendment = amendment_type:amendment_bashibazouk
-						is_pop_type = soldiers
-					}
-				}
-				value = 25
 			}
 		}
 

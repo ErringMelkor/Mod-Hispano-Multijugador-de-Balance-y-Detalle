@@ -11,7 +11,7 @@ amendment_bersaglieri = {
 	}
 
 	modifier = {
-		unit_morale_damage_mult = 0.05
+		unit_morale_damage_mult = 0.025
 		country_institution_cost_institution_military_mult = 0.15
 	}
 
@@ -53,7 +53,7 @@ amendment_cacciatori = {
 	}
 
 	modifier = {
-		unit_morale_damage_mult = 0.05
+		unit_morale_damage_mult = 0.025
 		country_institution_cost_institution_military_mult = 0.15
 	}
 
@@ -99,14 +99,10 @@ amendment_bashibazouk = {
 		country_military_wages_mult = -0.25
 		state_mortality_turmoil_mult = 0.015
 		country_infamy_decay_mult = -0.15
+		interest_group_ig_rural_folk_pol_str_mult = 0.25
 	}
 
-	on_activate = {
-		if = {
-			limit = { c:TUR ?= this }
-		}
-		custom_tooltip = amendment_bashibazouk_tt		
-	}
+	on_activate = {	}
 
 	possible = {
 		country_has_primary_culture = cu:turkish
