@@ -46,6 +46,10 @@ pmg_serfdom_building_subsistence_orchard = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_serfdom_no
+		pm_french_tenancy
+		pm_latifondi
+		pm_mezzadria
+		pm_unchecked_bondage
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_orchard
 		pm_homesteading_building_subsistence
@@ -71,6 +75,10 @@ pmg_serfdom_building_subsistence_pasture = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_serfdom_no
+		pm_french_tenancy
+		pm_latifondi
+		pm_mezzadria
+		pm_unchecked_bondage
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_pasture
 		pm_homesteading_building_subsistence
@@ -96,6 +104,10 @@ pmg_serfdom_building_subsistence_fishing_village = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_serfdom_no
+		pm_french_tenancy
+		pm_latifondi
+		pm_mezzadria
+		pm_unchecked_bondage
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_fishing_village
 		pm_homesteading_building_subsistence
@@ -125,5 +137,7 @@ pmg_serfdom_building_subsistence_rice_farm = {
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_rice_farm
 		pm_homesteading_building_subsistence_rice_farm
+		pm_french_tenancy_rice
+		
 	}
 }
