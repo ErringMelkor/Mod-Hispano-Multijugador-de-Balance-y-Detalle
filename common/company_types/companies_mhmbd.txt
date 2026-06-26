@@ -1529,7 +1529,6 @@ company_granos_winnipeg= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_canada
-		c:CAN ?= this
 	}
 
 	attainable = {
@@ -1541,7 +1540,6 @@ company_granos_winnipeg= {
 	}
 
 	possible = {
-		c:CAN ?= this
 		any_scope_state = {
 			state_region = s:STATE_ONTARIO
 			is_incorporated = yes
@@ -1734,6 +1732,929 @@ company_managem  = {
 	}
 }
 
+# Compañía Comercial de África Occidental
+company_west_african= {
+	icon = "gfx/interface/icons/company_icons/basic_forestry.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_rubber_plantation
+		building_livestock_ranch
+		building_cotton_plantation
+	}
+
+	extension_building_types = {
+		building_coffee_plantation
+		building_banana_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_latex
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_west_africa
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_west_africa
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_west_africa
+			any_scope_building = {
+				is_building_type = building_rubber_plantation
+				level >= 5
+			}
+		}
+		count >= 5
+		s:STATE_ILE_DE_FRANCE = {
+			any_scope_state = {
+				OR = {
+					owner = root
+					owner = {
+						relations:root >= relations_threshold:cordial
+					}
+				}
+			}
+		}
+		has_technology_researched = rubber_mastication
+	}
+	
+	prosperity_modifier = {
+		building_group_bg_rubber_mortality_mult = 0.2
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			region = sr:region_west_africa
+		}
+	}
+
+	ai_construction_targets = {
+		building_rubber_plantation = {
+			level = 5
+			state_trigger = {
+				region = sr:region_west_africa
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# La Compañía Marroqui
+company_morrocan= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_siam_electrical_company_limited.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_railway
+		building_trade_center
+	}
+
+	extension_building_types = {
+		building_port
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_north_africa
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_north_africa
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_north_africa
+			any_scope_building = {
+				OR = {
+					is_building_type = building_railway
+					is_building_type = building_trade_center
+				}
+				level >= 5
+			}
+		}
+		any_scope_treaty = {
+			binds = c:FRA ?= this
+			any_scope_article = {
+				has_type = trade_privilege
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		country_max_companies_add = 1
+		country_company_throughput_bonus_add = 0.025
+		country_free_charters_add = 3
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			region = sr:region_north_africa
+		}
+	}
+
+	ai_construction_targets = {
+		building_railway = {
+			level = 5
+			state_trigger = {
+				region = sr:region_north_africa
+			}
+		}
+		building_trade_center = {
+			level = 5
+			state_trigger = {
+				region = sr:region_north_africa
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Compañía del Congo para el Comercio y la Industria
+company_congo_trade_ind= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/brazil_estaleiro_maua.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_railway
+		building_trade_center
+		building_port
+	}
+
+	extension_building_types = {
+		building_logging_camp
+		building_hardwood_logging
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_equatorial_africa
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_equatorial_africa
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_equatorial_africa
+			any_scope_building = {
+				is_building_type = building_railway
+				level >= 5
+			}
+		}
+		count >= 5
+		s:STATE_WALLONIA = {
+			any_scope_state = {
+				OR = {
+					owner = root
+					owner = {
+						relations:root >= relations_threshold:cordial
+					}
+				}
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_group_bg_agriculture_throughput_add = 0.05
+		building_group_bg_plantations_throughput_add = 0.05
+		country_company_throughput_bonus_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			region = sr:region_equatorial_africa
+		}
+	}
+
+	ai_construction_targets = {
+		building_railway = {
+			level = 5
+			state_trigger = {
+				region = sr:region_equatorial_africa
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Sociedad General de Azúcares y Refinerias de Egipto
+company_egyptian_sugar= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/historical_perskhlopok.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_LOWER_EGYPT }
+
+	building_types = {
+		building_sugar_plantation
+        building_banana_plantation
+	}
+
+	extension_building_types = {
+		building_tobacco_plantation
+		building_opium_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_specialty_sugar
+	}
+    
+    prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_specialty_sugar_complete_tt
+			has_variable = prestige_good_specialty_sugar_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_nile_basin
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_LOWER_EGYPT
+			}
+		}
+	}
+
+	possible = {
+        any_scope_state = {
+			state_region = s:STATE_LOWER_EGYPT
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_sugar_plantation
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_sugar_plantation_throughput_add = 0.1
+        state_trade_capacity_mult = 0.2
+        state_trade_advantage_mult = 0.15
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_LOWER_EGYPT
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_sugar_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_LOWER_EGYPT
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Khedivial Mail SS Company
+company_khedivial_company= {
+	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_shipyard
+	}
+
+	extension_building_types = {
+		building_port
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_nile_basin
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_nile_basin
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_nile_basin
+			is_coastal = yes
+			any_scope_building = {
+				is_building_type = building_shipyard
+				level >= 5
+			}
+		}
+		s:STATE_HOME_COUNTIES = {
+			any_scope_state = {
+				OR = {
+					owner = root
+					owner = {
+						relations:root >= relations_threshold:cordial
+					}
+				}
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		country_ship_group_supply_ships_construction_efficiency_add = 0.1
+		building_shipyard_throughput_add = 0.1
+		ship_movement_speed_mult = 0.2
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			region = sr:region_nile_basin
+		}
+	}
+
+	ai_construction_targets = {
+		building_shipyard = {
+			level = 5
+			state_trigger = {
+				region = sr:region_nile_basin
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# El León de Shewa SA
+company_shewa_sa= {
+	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations_1.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_OROMIA }
+
+	building_types = {
+		building_coffee_plantation
+        building_millet_farm
+        building_food_industry
+	}
+
+	extension_building_types = {
+		building_vineyard
+        building_cotton_plantation
+		building_livestock_ranch
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_coffee
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_coffee_complete_tt
+			has_variable = prestige_good_generic_coffee_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_east_africa
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_OROMIA
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+		any_scope_state = {
+			state_region = s:STATE_OROMIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coffee_plantation
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_birth_rate_mult = 0.25
+		state_mortality_mult = -0.25
+		bbg_mining_throughput_add = 0.5
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_OROMIA
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_coffee_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_OROMIA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# La Gran Minera de Harar SRL
+company_harar_mining = { 
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/german_basf.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_OROMIA }
+
+	building_types = {
+		building_explosives_factory
+        building_coal_mine
+        building_sulfur_mine
+	}
+
+	extension_building_types = {
+		building_iron_mine
+        building_gold_mine
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_explosives
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_explosives_complete_tt
+			has_variable = prestige_good_generic_explosives_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_east_africa
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_OROMIA
+			}
+		}
+	}
+
+	possible = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+		any_scope_state = {
+			state_region = s:STATE_OROMIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_explosives_factory
+				level >= 5
+			}
+		}
+		has_technology_researched = dynamite
+	}
+	
+	prosperity_modifier = {
+		state_construction_mult = 0.1
+		state_pollution_reduction_health_mult = 0.05
+		interest_group_ig_industrialists_pop_attraction_mult = 0.2
+	}
+
+	ai_will_do = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		any_scope_state = {
+	        state_region = s:STATE_OROMIA
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_explosives_factory = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_OROMIA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Compañía para la Explotación de Etiopía
+company_ethiopian_explotation = { 
+	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations_2.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_OROMIA }
+
+	building_types = {
+		building_tobacco_plantation
+        building_opium_plantation
+        building_tea_plantation
+	}
+
+	extension_building_types = {
+		building_dye_plantation
+        building_sugar_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_opium
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_opium_complete_tt
+			has_variable = prestige_good_generic_opium_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_east_africa
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = { 
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+			}
+		}
+	}
+
+	possible = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+		any_scope_state = {
+			state_region = {
+				OR = {
+					is_homeland = cu:amhara
+					is_homeland = cu:oromo
+					is_homeland = cu:tigray
+				}
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_tobacco_plantation
+					is_building_type = building_opium_plantation
+					is_building_type = building_tea_plantation
+				}
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		country_tech_spread_mult = 0.1
+		building_group_bg_manufacturing_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		any_scope_state = {
+	        state_region = {
+				OR = {
+					is_homeland = cu:amhara
+					is_homeland = cu:oromo
+					is_homeland = cu:tigray
+				}
+			}
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_tobacco_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = {
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+				is_incorporated = yes
+			}
+		}
+		building_opium_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = {
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+				is_incorporated = yes
+			}
+		}
+		building_tea_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = {
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Sociedad Colectiva para el Pueblo Etíope
+company_ethiopian_partnership = { 
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/ap_moller.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_OROMIA }
+
+	building_types = {
+		building_tooling_workshop
+        building_furniture_manufactory
+        building_glassworks
+	}
+
+	extension_building_types = {
+		building_textile_mill
+        building_electrics_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_tempered_glass
+	}
+    
+    prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_tempered_glass_complete_tt
+			has_variable = prestige_good_tempered_glass_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_east_africa
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = { 
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+			}
+		}
+	}
+
+	possible = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		OR = {
+			c:SHW ?= this
+			c:ETH ?= this
+		}
+		any_scope_state = {
+			state_region = {
+				OR = {
+					is_homeland = cu:amhara
+					is_homeland = cu:oromo
+					is_homeland = cu:tigray
+				}
+			}
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_standard_of_living_add = 1
+		building_group_bg_light_industry_throughput_add = 0.025
+		interest_group_ig_trade_unions_approval_add = 3
+	}
+
+	ai_will_do = {
+		NOR = {
+			is_country_type = unrecognized
+		}
+		any_scope_state = {
+	        state_region = {
+				OR = {
+					is_homeland = cu:amhara
+					is_homeland = cu:oromo
+					is_homeland = cu:tigray
+				}
+			}
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_glassworks = {
+			level = 5
+			state_trigger = {
+				state_region = {
+					OR = {
+						is_homeland = cu:amhara
+						is_homeland = cu:oromo
+						is_homeland = cu:tigray
+					}
+				}
+				is_incorporated = yes
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Sappi
+company_sappi= {
+	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_CAPE_COLONY }
+
+	building_types = {
+		building_paper_mill
+        building_logging_camp
+	}
+
+	extension_building_types = {
+		building_sulfur_mine
+		building_hardwood_logging
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_paper_complete_tt
+			has_variable = prestige_good_generic_paper_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_southern_africa
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_CAPE_COLONY
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_CAPE_COLONY
+			is_incorporated = yes
+			any_scope_building = {
+					is_building_type = building_paper_mill
+					level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_colony_growth_speed_mult = 0.1
+		building_university_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_CAPE_COLONY
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_paper_mill = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_CAPE_COLONY
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
 
 ### ------- ASIA ------- ### 
 
@@ -1796,6 +2717,194 @@ company_lena_gold_mining_partnertship  = {
 	}
 }
 
+# Harrisons & Crosfield
+company_elementis= {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/oriental_development_company.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_NORTH_BORNEO }
+
+	building_types = {
+		building_tea_plantation
+        building_rubber_plantation
+		building_logging_camp
+	}
+
+	extension_building_types = {
+		building_hardwood_logging
+		building_coffee_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_earl_gray_tea
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_indonesia
+		OR = {
+			c:DEI ?= this
+			c:NET ?= this
+			c:UNL ?= this
+		}
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+			c:DEI ?= this
+			c:NET ?= this
+			c:UNL ?= this
+		}
+		any_scope_state = {
+			state_region = s:STATE_NORTH_BORNEO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tea_plantation
+				level >= 5
+			}
+		}
+		s:STATE_HOME_COUNTIES = {
+			any_scope_state = {
+				OR = {
+					owner = root
+					owner = {
+						relations:root >= relations_threshold:cordial
+					}
+				}
+			}
+		}
+		any_scope_treaty = {
+			binds = c:GBR ?= this
+			any_scope_article = {
+				has_type = trade_privilege
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_group_bg_government_throughput_add = 0.1
+        state_trade_advantage_mult = 0.15
+		state_trade_capacity_mult = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_NORTH_BORNEO
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_tea_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Nederlandsche Handel-Maatschappij
+company_handel_maatschappij= {
+	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_WEST_JAVA }
+
+	building_types = {
+		building_port
+        building_trade_center
+	}
+
+	extension_building_types = {
+		building_shipyard
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_merchant_marine
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_merchant_marine_complete_tt
+			has_variable = prestige_good_generic_merchant_marine_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_indonesia
+		c:DEI ?= this
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_WEST_JAVA
+			}
+		}
+	}
+
+	possible = {
+		c:DEI ?= this
+		any_scope_state = {
+			state_region = s:STATE_WEST_JAVA
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_port
+					is_building_type = building_trade_center
+				}
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		country_max_companies_add = 1
+		country_company_throughput_bonus_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_WEST_JAVA
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_port = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_WEST_JAVA
+			}
+		}
+		building_trade_center = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_WEST_JAVA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
 
 ### -------------- EUROPE ------------- ###
 
@@ -1965,6 +3074,179 @@ company_societe_renault_freres = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+### -------------- OCEANIA ------------- ###
+
+# Dalgety
+company_dalgety= {
+	icon = "gfx/interface/icons/company_icons/basic_fabrics.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_VICTORIA }
+
+	building_types = {
+		building_livestock_ranch
+        building_cotton_plantation
+		building_wheat_farm
+	}
+
+	extension_building_types = {
+		building_vineyard
+		building_tea_plantation
+		building_sugar_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_meat
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_meat_complete_tt
+			has_variable = prestige_good_generic_meat_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_oceania
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_VICTORIA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_VICTORIA
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_livestock_ranch
+					is_building_type = building_cotton_plantation
+					is_building_type = building_wheat_farm
+				}
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_colony_growth_speed_mult = 0.2
+		building_textile_mill_throughput_add = 0.1
+		interest_group_ig_rural_folk_pol_str_mult = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_VICTORIA
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_livestock_ranch = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_VICTORIA
+			}
+		}
+		building_cotton_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_VICTORIA
+			}
+		}
+		building_wheat_farm = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_VICTORIA
+			}
+		}
+	}
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Dole
+company_dole= {
+	icon = "gfx/interface/icons/company_icons/basic_colonial_plantations.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_HAWAIIAN_ISLANDS }
+
+	building_types = {
+		building_banana_plantation
+        building_wheat_farm
+		building_maize_farm
+	}
+
+	extension_building_types = {
+		building_rice_farm
+		building_coffee_plantation
+	}
+
+	possible_prestige_goods = {
+		prestige_good_pineapple
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_oceania
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_HAWAIIAN_ISLANDS
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_HAWAIIAN_ISLANDS
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_banana_plantation
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+        building_group_bg_plantations_throughput_add = 0.1
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+	        state_region = s:STATE_HAWAIIAN_ISLANDS
+			is_incorporated = yes
+		}
+	}
+
+	ai_construction_targets = {
+		building_banana_plantation = {
+			level = 5
+			state_trigger = {
+				state_region = s:STATE_HAWAIIAN_ISLANDS
 			}
 		}
 	}
