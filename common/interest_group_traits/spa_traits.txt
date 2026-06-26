@@ -5,7 +5,7 @@ ig_trait_ideal_gaditano = {
 	min_approval = loyal
 	
 	modifier = {
-		country_law_enactment_speed_mult = -0.33
+		country_law_enactment_speed_mult = 0.33
 		country_voting_power_base_add = 5
 	}
 }

@@ -163,7 +163,7 @@ bourbon_instability.4 = {
 				state_region = s:STATE_SICILY
 			}
 			add_modifier = {
-				name = bourbon_palermitani_concesions
+				name = bourbon_palermitani_concessions
 				years = 5
 				is_decaying = yes
 			}
@@ -195,7 +195,7 @@ bourbon_instability.4 = {
 	}
 }
 
-#Bandidos en Calabria
+#Bandidos en Calabria - Calas - Restricciones comerciales sí o no.
 bourbon_instability.5 = {
 	type = country_event
 	placement = root
@@ -227,17 +227,17 @@ bourbon_instability.5 = {
 
 		every_scope_state = {
 			limit = {
-				state_region = s:STATE_SICILY
+				state_region = s:STATE_CALABRIA
 			}
 			add_modifier = {
-				name = bourbon_palermitani_concesions
+				name = bourbon_calabrese_concessions
 				years = 5
 				is_decaying = yes
 			}
 
 			add_loyalists_in_state = {
-				value = 0.15
-				strata = middle
+				value = 0.05
+				strata = lower
 			}
 		}
 	}
@@ -247,25 +247,57 @@ bourbon_instability.5 = {
 
 		every_scope_state = {
 			limit = {
-				state_region = s:STATE_SICILY
+				state_region = s:STATE_CALABRIA
 			}
 			add_modifier = {
-				name = bourbon_palermitani_repression
+				name = bourbon_calabrese_apathy
 				years = 5
 				is_decaying = yes
 			}
 			add_radicals_in_state = {
-				value = 0.15
-				strata = middle
+				value = 0.1
+				pop_type = peasants
+			}
+		}
+	}
+
+	option = {
+		name = bourbon_instability.5.c #explicar los requisitos de esta en el evento por si sale repetible
+
+		trigger = {
+			OR = {
+				institution_investment_level = {
+					institution = institution_police
+					value = 3
+				}
+				institution_investment_level = {
+					institution = institution_home_affairs
+					value = 2
+				}
+			}
+		}
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_modifier = {
+				name = bourbon_calabrese_repression
+				years = 5
+				is_decaying = yes
 			}
 		}
 	}
 }
 
+#Radicales
+
 #El Viejo Orden.
 
 
 #Jacquerie de 1837.
+
+# Sicilianos, Home or Abroad or POLISIA
 
 
 #Cólera en el 54, Rebelión en el 55.
