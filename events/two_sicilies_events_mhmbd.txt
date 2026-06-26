@@ -35,7 +35,7 @@ bourbon_instability.1 = {
 }
 
 #Epidemia de Cólera de 1836.
-bourbon_instability.2 = {
+	bourbon_instability.2 = {
 	type = country_event
 	placement = root
 
@@ -99,7 +99,7 @@ bourbon_instability.3 = {
 
 	duration = 3
 
-	cooldown = {}
+	cooldown = { days = never_fire_again_modifier_time }
 
 	is_popup = yes
 
@@ -144,12 +144,11 @@ bourbon_instability.4 = {
 
 	duration = 3
 
-	cooldown = { days = 730 }
+	cooldown = { days = 1065 }
 
 	is_popup = yes
 
 	trigger = {
-
 	}
 
 	immediate = {}
@@ -211,12 +210,14 @@ bourbon_instability.5 = {
 
 	duration = 3
 
-	cooldown = { days = 730 }
+	cooldown = { days = 1065 }
 
 	is_popup = yes
 
 	trigger = {
-
+		NOT = {
+			has_variable = liugoro_var
+		}
 	}
 
 	immediate = {}
@@ -255,7 +256,7 @@ bourbon_instability.5 = {
 				is_decaying = yes
 			}
 			add_radicals_in_state = {
-				value = 0.1
+				value = 0.05
 				pop_type = peasants
 			}
 		}
@@ -286,9 +287,58 @@ bourbon_instability.5 = {
 				years = 5
 				is_decaying = yes
 			}
+			set_variable = liugoro_var
 		}
 	}
 }
+
+#Revueltas por malestar general + nacionalistas liberales.
+bourbon_instability.6 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.6.t
+	desc = bourbon_instability.6.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.6.a # De Liguoro
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_devastation = 15
+		}
+	}
+
+	option = {
+		name = bourbon_instability.6.b
+
+		add_modifier = {
+			name = bourbon_parlamentary_compromises
+			years = 5
+			is_decaying = yes
+		}
+	}
+}
+
 
 #Radicales
 

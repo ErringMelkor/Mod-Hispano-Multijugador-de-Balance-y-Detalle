@@ -381,6 +381,7 @@ government_wages_high = {
 	interest_group_ig_intelligentsia_approval_add = 1	
 	interest_group_ig_petty_bourgeoisie_approval_add = 1
 	state_incorporation_speed_mult = 0.35
+	country_institution_size_change_speed_mult = 0.15
 }
 
 government_wages_very_high = {
@@ -389,6 +390,7 @@ government_wages_very_high = {
 	interest_group_ig_intelligentsia_approval_add = 3
 	interest_group_ig_petty_bourgeoisie_approval_add = 3
 	state_incorporation_speed_mult = 0.75
+	country_institution_size_change_speed_mult = 0.35
 }
 
 military_wages_very_low = {

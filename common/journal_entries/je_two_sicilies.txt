@@ -43,6 +43,7 @@ je_bourbon_instability = {
             30 = bourbon_instability.2
 			10 = bourbon_instability.4
 			10 = bourbon_instability.5
+			5 = bourbon_instability.6
         }
     }
 

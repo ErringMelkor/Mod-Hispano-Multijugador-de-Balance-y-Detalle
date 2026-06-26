@@ -46,7 +46,7 @@ ig_trait_santiago_y_cierra = {
 
 ### Noralemanes y Escandinavos ###
 
-ig_trait_pietist_philantrophy = {
+ig_trait_pietist_philanthropy = {
 	icon = "gfx/interface/icons/ig_trait_icons/divine_right.dds"
 	min_approval = happy
 	

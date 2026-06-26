@@ -5,7 +5,6 @@
   prestige_good_coffea_arabica: "Arabica Coffee"
   prestige_good_coffea_robusta: "Robusta Coffee"
   company_fedecafe: "Fedecafé"
- --Companies
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -36,7 +35,7 @@
   company_egyptian_sugar: "Egyptian Sugar Company"
   company_ethiopian_partnership: "Ethiopian People's General Partnership"
 
---Prestige good
+  Prestige good
   prestige_good_red_fife: "Red Fife Grain"
   prestige_good_guano: "Guano"
   prestige_good_specialty_sugar: "Specialty Sugar"
@@ -47,7 +46,7 @@
   prestige_good_earl_gray_tea: "Earl Gray Tea"
   prestige_good_tempered_glass: "Tempered Glass"
   
---Specialty Sugar (event)
+  Specialty Sugar (event)
   je_prestige_good_specialty_sugar: "$prestige_good_specialty_sugar$"
   je_prestige_good_specialty_sugar_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!. If successful, it will be able to expand its competitiveness within the global @sugar! #b $sugar$#! market."
   je_prestige_good_specialty_sugar_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_specialty_sugar_var').GetValue]#!): #indent_newline:3 "
@@ -58,7 +57,7 @@
   notification_prestige_good_specialty_sugar_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_specialty_sugar! #b $prestige_good_specialty_sugar$#!"
   notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
 
---Ultra-Processed Food (event)
+  Ultra-Processed Food (event)
   je_prestige_good_ultra_food: "$prestige_good_ultra_food$"
   je_prestige_good_ultra_food_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_ultra_food! #b $prestige_good_ultra_food$#!. If successful, it will be able to expand its competitiveness within the global @groceries! #b $groceries$#! market."
   je_prestige_good_ultra_food_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_ultra_food_var').GetValue]#!): #indent_newline:3 "
@@ -69,7 +68,7 @@
   notification_prestige_good_ultra_food_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_ultra_food! #b $prestige_good_ultra_food$#!"
   notification_prestige_good_ultra_food_unlocked_tooltip: "#header $notification_prestige_good_ultra_food_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_ultra_food_unlocked_desc$"
 
---Premium Liquor (event)
+  Premium Liquor (event)
   je_prestige_good_premium_liquor: "$prestige_good_premium_liquor$"
   je_prestige_good_premium_liquor_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_premium_liquor! #b $prestige_good_premium_liquor$#!. If successful, it will be able to expand its competitiveness within the global @liquor! #b $liquor$#! market."
   je_prestige_good_premium_liquor_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_premium_liquor_var').GetValue]#!): #indent_newline:3 "
@@ -80,7 +79,7 @@
   notification_prestige_good_premium_liquor_unlocked_desc: "[Concept('concept_building', '$concept_buildings$')] owned by [SCOPE.sCompany('relevant_company').GetName] may now begin producing @prestige_good_premium_liquor! #b $prestige_good_premium_liquor$#!"
   notification_prestige_good_premium_liquor_unlocked_tooltip: "#header $notification_prestige_good_premium_liquor_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_premium_liquor_unlocked_desc$"
 
---Tempered Glass (event)
+  Tempered Glass (event)
   je_prestige_good_tempered_glass: "$prestige_good_tempered_glass$"
   je_prestige_good_tempered_glass_reason: "[SCOPE.sCompany('relevant_company').GetName] has established itself as an important actor within our economy. The company seeks to leverage its current prosperity to develop its own brand of @prestige_good_tempered_glass! #b $prestige_good_tempered_glass$#!. If successful, it will be able to expand its competitiveness within the global @glass! #b $glass$#! market."
   je_prestige_good_tempered_glass_goal: "Maintain the following for #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] months#! (currently #v [ROOT.GetCountry.MakeScope.Var('prestige_good_tempered_glass_var').GetValue]#!): #indent_newline:3 "
@@ -159,11 +158,94 @@
   je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea fácil por delante."
 
   bourbon_instability: "Bourbon Instability"
+  bourbon_instability_bar_desc: "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%1]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|0]/100)"
+  bourbon_instability_progress_bar: "Bourbon Instability Completion"
+  bourbon_progress_from_legitimacy: "Progress from Legitimacy"
+  bourbon_progress_from_absolutist_movement: "Progress from Absolutist Movement"
+  bourbon_progress_from_italian_national_movement: "Stall from Italian National Movement"
+  bourbon_progress_from_sicilian_separatist_movement: "Stall from Sicilian Separatist Movement"
+  bourbon_police_var_contribution: "Progress from Police Institution Level"
+  bourbon_home_affairs_var_contribution: "Progress from Home Affairs Institution Level"
+  je_bourbon_instability_tt: "We have fullfilled the Progress Bar"
 
   bourbon_instability.1.t: "Agitación en el Meridiano"
   bourbon_instability.1.d: "Tras dos décadas desde el retorno de los Borbones a Nápoles, Sicilia se mantiene como un territorio ajeno a la corona. Con el único bastión leal en Palermo y Messina, su geografía áspera sirve de escondrijo a toda clase de opositores: algunos son revolucionarios radicales, que hablan de una Italia unida; otros son separistas sicilianos, que ven en la dinastía de Borbón un régimen napolitano ajeno a sus intereses; la mayoría, peor aún, son contrabandistas. Sicilia permanece sin orden ni ley, ni infraestructura que pueda soportarla."
   bourbon_instability.1.a: "La monarquía debe ser una con la isla para perdurar."
-  goods_input_luxury_clothes_add:0"@luxury_clothes! Clothes input"
-  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Clothes consumed by buildings"
+
+  bourbon_instability.2.t: "Cholera Outbreak in Sicily"
+  bourbon_instability.2.d: "Disaster has struck the island! Since the New Year we've been hearing more and more reports of people getting sick from Sicily's brackish water, and we've prayed those reports away until now. Thousands lay sick, many more lay dead, and all those who are spared wonder what we were doing about it."
+  bourbon_instability.2.a: "They should've mixed their water with some wine."
+  bourbon_cholera_outbreak: "Sicilian Cholera Outbreak of 1836"
+  
+  bourbon_instability.3.t: "Chaos erupts in Sicily"
+  bourbon_instability.3.d: "As the outbreak lasts and the days have gone by, the social framework has broken down. According to some, collective paranoia has taken hold of the island, with many peasants accusing each other -or worse, the goverment- of poisoning the waters. After a day of odd calm, now words have been taken into action, often with chants amongst the peasantry calling for the fall of our Regime, and it's already being called amongst the educated as a Jacquerie, in reference to the ancient peasant revolts."
+  bourbon_instability.3.a: "Poisoning their water? How uncivilized."
+  bourbon_jacquerie: "Sicilian Jacquerie of 1836-1837"
+
+  bourbon_instability.4.t: "The Palermitani"
+  bourbon_instability.4.d: "Due to the current instability of our regime, and of the island of Sicily, the local body of rule in which we've deposited the good goverment of the island, spearheaded by the urban aristocracy in Palermo, have come to ask us for more rights and an extended autonomy in exchange for their further collaboration. This, of course, would leave us unable to properly utilize the resources of Sicily, but it might be wise to conceed before unease escalates further."
+  bourbon_instability.4.a: "Very well, let's give them their priviledges."
+  bourbon_instability.4.b: "Nonsense! They will bend the knee or we'll destroy them."
+  bourbon_palermitani_concessions: "Concessions to the Palermitani"
+  bourbon_palermitani_repression: "Palermitani Repressed"
+
+  bourbon_instability.5.t: "Contraband in Calabria"
+  bourbon_instability.5.d: "The region of Calabria is home to many small ports and hill passes. Due to, apparently, bad living conditions, many peasants have taken up contraband as means to make a living. We could sponsor some agricultural works to ease their conditions or we could let them cope with their petty crimes. Aditionally, De Liguoro, a police colonel, has submitted a report asking for more resources for the local police force, which could put an end to this situation for good."
+  bourbon_instability.5.a: "Let's finance those agricultural projects."
+  bourbon_instability.5.b: "Let them be, we're all trying to cope."
+  bourbon_instability.5.c: "Fund De Liguoro efforts."
+  bourbon_calabrese_concessions: "Calabrese Concessions"
+  bourbon_calabrese_apathy: "Calabrese Apathy"
+  bourbon_calabrese_repression: "Calabrese Repression"
+
+  bourbon_instability.6.t: "Wave of Parlamentarism"
+  bourbon_instability.6.d: "With instability rising, many in Calabria have been rallied by officers disloyal to the crown. They've disarmed the local garrisons and they are marching towards Naples in order to pettition the king!"
+  bourbon_instability.6.a: "This is not Sicily! Send a counter-expedition with De Liguoro and punish the rabble."
+  bourbon_instability.6.b: "Very well, we shall pretend to hear them. Court Composer, please play some Melodies for the Masses."
+  bourbon_parlamentary_compromises: "Parlamentary Compromises"
+
+  bourbon_integration: "Borbonic Stability"
+  borbonic_instability: "Borbonic Instability"
+
+  amendment_bashibazouk: "Bashi-Bazouk Irregulars"
+  amendment_bersaglieri: "Bersaglieri Sharpshooters"
+  armendment_cacciatori: "Cacciatori Sharpshooters"
+  
+  law_derebeys: "Derebeys"
+  law_derebeys_desc: "Local rule devolved to military warlords who help us defend our provinces."
+
+  ig_trait_galantuomini: "Galantuomini"
+  ig_trait_galantuomini_desc: "By relying on the educated gentlemen of our urban cores we can ensure good rule across the Peninsula."
+
+  ig_trait_credit_mobilier: "Crédit Mobilier"
+  ig_trait_credit_mobilier: "By movilizing the credit of our profitable industries we may draw more for less and continue our expending scheme. After all, it's not a bubble if it doesn't pop."
+  ig_trait_les_notables: "Les Notables"
+  ig_trait_les_notables_desc: "Although the old aristocracy has suffered from the Revolutions, it is not yet dead. Some may say that it is more manageable, and their efforts can be put to good use in the hands of L'État."
+  ig_trait_metayage: "Métayage"
+  ig_trait_metayage_desc: "By formalizing and regulating the sharecropping of our subsistence farmers we can ensure that, even if they are not as productive, they will at least keep their good share."
+
+  ig_trait_kohleexpertise: "Kohleexpertise"
+  ig_trait_kohleexpertise_desc: "Much of our capitalists have their origin in the mining industry, and they know how to make it work best in Europe."
+  ig_trait_eisenbachlagen: "Eisenbachlagen"
+  ig_trait_eisenbachlagen_desc: "Our capitalists are adept not only at moving money, but in ensuring that the money moves with everything else it needs to foster new growth."
+
+  ig_trait_handelaar: "Handelaar"
+  ig_trait_handelaar_desc: "Thanks to our key position in Europe and our long-standing tradition of trade our merchants have developed key expertise that we intend to profit from ourselves."
+
+  ig_trait_rittergut: "Rittergut"
+  ig_trait_rittergut_desc: "Coming from a tradition of different patchworks of land and legal systems, the local nobility know how to handle goverment the best."
+
+  ig_trait_jacquerie: "Jacquerie"
+  ig_trait_jacquerie_desc: "If the peasants want bread, they will get their bread."
+
+  ig_trait_pietist_philanthropy: "Pietist Philanthropy"
+  ig_trait_pietist_philanthropy_desc: "It is in our tradition to know the goods words of the Bible and to be humble about our wants."
+
+
+  goods_input_luxury_clothes_add:0 "@luxury_clothes! Luxury Clothes input"
+  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
+
+
+  
 
 
