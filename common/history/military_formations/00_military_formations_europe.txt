@@ -851,7 +851,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_western_europe
-			name = "Troupes de la Marine" # TODO PRCAL-44441
+			name = troupes_de_la_marine
 
 			combat_unit = { # 1er, 2e régiment d'infanterie de la marine, régiment d’artillerie de marine, roughly 5000 men
 				type = unit_type:combat_unit_type_mid_tier_marines
@@ -879,7 +879,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_ALGIERS
-				count = 5
+				count = 2
 			}
 
 			combat_unit = {
@@ -1102,6 +1102,18 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_western_europe
+			name = royal_marine_corps
+
+			combat_unit = { # Around 9k men in 92 companies of infantry and artillery
+				type = unit_type:combat_unit_type_mid_tier_marines
+				state_region = s:STATE_HOME_COUNTIES
+				count = 9
+			}
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_southern_europe
 			name = Army_of_the_Mediterranean
 
 			combat_unit = {
@@ -3588,7 +3600,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_western_europe
-			name = "Korps Mariniers" # TODO PRCAL-44441
+			name = korps_mariniers
 
 			combat_unit = { # Korps Mariniers
 				type = unit_type:combat_unit_type_low_tier_marines
@@ -3750,7 +3762,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_southern_europe
-			name = "Regimento da Armada" # From 1837 Batalhão Naval # TODO PRCAL-44441
+			name = regimento_da_armada # From 1837 Batalhão Naval
 
 			combat_unit = { # Regimento da Armada
 				type = unit_type:combat_unit_type_low_tier_marines
@@ -4002,6 +4014,7 @@
 			name = "Carlist_Army_of_the_North"
 			type = army
 			hq_region = sr:region_southern_europe
+			supply_hub = s:STATE_BASQUE_COUNTRY
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -4047,6 +4060,7 @@
 			name = "Army_of_Maestrazgo"
 			type = army
 			hq_region = sr:region_southern_europe
+			supply_hub = s:STATE_ARAGON
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -4085,6 +4099,7 @@
 			name = "Army_of_Catalonia"
 			type = army
 			hq_region = sr:region_southern_europe
+			supply_hub = s:STATE_CATALONIA
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry

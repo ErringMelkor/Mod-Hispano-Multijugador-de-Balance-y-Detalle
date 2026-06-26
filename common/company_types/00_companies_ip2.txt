@@ -263,8 +263,10 @@ company_bombay_burmah_trading_corporation = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = sr:region_south_india
-		has_interest_marker_in_region = sr:region_indochina
+		OR = {
+			has_interest_marker_in_region = sr:region_south_india
+			has_interest_marker_in_region = sr:region_indochina
+		}
 	}
 
 	attainable = {

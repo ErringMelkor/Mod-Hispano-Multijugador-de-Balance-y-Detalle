@@ -1181,12 +1181,12 @@ mutual_funds = {
 		country_minting_mult = 0.1
 		country_loan_interest_rate_add = -0.03
 		state_max_trade_advantage_from_capacity_add = 0.05
-		state_capitalists_investment_pool_efficiency_mult = 0.05
-		state_farmers_investment_pool_efficiency_mult = 0.05
-		state_shopkeepers_investment_pool_efficiency_mult = 0.05
-		state_bureaucrats_investment_pool_efficiency_mult = 0.05
-		state_engineers_investment_pool_efficiency_mult = 0.05
-		state_machinists_investment_pool_efficiency_mult = 0.05
+		state_capitalists_investment_pool_efficiency_add = 0.05
+		state_farmers_investment_pool_efficiency_add = 0.05
+		state_shopkeepers_investment_pool_efficiency_add = 0.05
+		state_bureaucrats_investment_pool_efficiency_add = 0.05
+		state_engineers_investment_pool_efficiency_add = 0.05
+		state_machinists_investment_pool_efficiency_add = 0.05
 	}
 	
 	unlocking_technologies = {

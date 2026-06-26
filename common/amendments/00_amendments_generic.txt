@@ -1,6 +1,7 @@
 ﻿amendment_generic_sponsor_polstr_increase = {
 
 	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.025
 	}
 
 	sponsor_modifier = {
@@ -26,6 +27,7 @@
 amendment_generic_sponsor_polstr_approval_increase = {
 
 	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.065
 	}
 
 	sponsor_modifier = {
@@ -52,6 +54,7 @@ amendment_generic_sponsor_polstr_approval_increase = {
 amendment_generic_sponsor_polstr_increase_negotiation_1 = {
 
 	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.05
 	}
 
 	sponsor_modifier = {
@@ -80,6 +83,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_1 = {
 amendment_generic_sponsor_polstr_increase_negotiation_2 = {
 
 	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.075
 	}
 
 	sponsor_modifier = {
@@ -108,6 +112,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_2 = {
 amendment_generic_sponsor_polstr_increase_negotiation_3 = {
 
 	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = 0.1
 	}
 
 	sponsor_modifier = {

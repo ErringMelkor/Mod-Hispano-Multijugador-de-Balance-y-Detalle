@@ -97,7 +97,9 @@ Sistemas:
 		Agregado el decreto de "Integración Focalizada": aumenta la velocidad de incorporación en un 100%.
 	Diplomacia:
 		Costo base en Infamia por Conquista: 4.75 -> 4.65.
-		
+
+
+Changelog Versión 1.13D # 22-06-26 - 27-06-26
 
 Leyes:
 	Asociaciones Laborales:
@@ -153,6 +155,8 @@ Pops:
 	Posibilidad de generar una nueva obsesión: 2% -> 1.25%
 
 Militar:
+	Ajustados los valores y bienes de la Infantería de Marina, más caros y especializados en ser unidades de élite que golpean por encima de su peso.
+	Prestigio otorgado por la Flota: 0.2 -> 0.175
 	Barcos de Suministro:
 		Costo de construcción:
 			· Madera Dura: 130 -> 50
@@ -245,4 +249,4 @@ Mapa:
 	Reajustada la madera del Amazonas:
 		Guaviare:
 			· Madera: 35 -> 38
-			· Madera Dura: 8 -> 12																																
+			· Madera Dura: 8 -> 12

@@ -14,9 +14,6 @@ veterancy1 = {
         unit_offense_mult = 0.05
         unit_defense_mult = 0.05
         unit_kill_rate_add = 0.05
-		unit_convoy_defense_mult = 0.05
-		unit_convoy_raiding_mult = 0.05
-		unit_blockade_mult = 0.05
 	}
 }
 
@@ -29,9 +26,6 @@ veterancy2 = {
         unit_defense_mult = 0.15
         unit_morale_damage_mult = 0.15
         unit_kill_rate_add = 0.1
-		unit_convoy_defense_mult = 0.1
-		unit_convoy_raiding_mult = 0.1
-		unit_blockade_mult = 0.15
 	}
 }
 
@@ -42,9 +36,6 @@ veterancy3 = {
 	unit_modifier = {
         unit_offense_mult = 0.25
         unit_defense_mult = 0.25
-		unit_convoy_defense_mult = 0.15
-		unit_convoy_raiding_mult = 0.15
-		unit_blockade_mult = 0.25
         unit_morale_damage_mult = 0.35
         unit_kill_rate_add = 0.15
 	}
@@ -57,9 +48,6 @@ veterancy4 = {
 	unit_modifier = {
         unit_offense_mult = 0.35
         unit_defense_mult = 0.35
-		unit_convoy_defense_mult = 0.35
-		unit_convoy_raiding_mult = 0.35
-		unit_blockade_mult = 0.35
 		unit_morale_damage_mult = 0.55
 		unit_kill_rate_add = 0.25
 	}
@@ -72,9 +60,6 @@ veterancy5 = {
 	unit_modifier = {
         unit_offense_mult = 0.5
         unit_defense_mult = 0.5
-		unit_convoy_defense_mult = 0.5
-		unit_convoy_raiding_mult = 0.75
-		unit_blockade_mult = 0.5
 		unit_morale_damage_mult = 0.75
 		unit_kill_rate_add = 0.35
 	}

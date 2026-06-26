@@ -97,3 +97,7 @@
   bourbon_instability.1.t: "Agitación en el Meridiano"
   bourbon_instability.1.d: "Tras dos décadas desde el retorno de los Borbones a Nápoles, Sicilia se mantiene como un territorio ajeno a la corona. Con el único bastión leal en Palermo y Messina, su geografía áspera sirve de escondrijo a toda clase de opositores: algunos son revolucionarios radicales, que hablan de una Italia unida; otros son separistas sicilianos, que ven en la dinastía de Borbón un régimen napolitano ajeno a sus intereses; la mayoría, peor aún, son contrabandistas. Sicilia permanece sin orden ni ley, ni infraestructura que pueda soportarla."
   bourbon_instability.1.a: "La monarquía debe ser una con la isla para perdurar."
+  goods_input_luxury_clothes_add:0"@luxury_clothes! Clothes input"
+  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Clothes consumed by buildings"
+
+
