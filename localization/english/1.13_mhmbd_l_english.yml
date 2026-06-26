@@ -150,12 +150,13 @@
   pm_intensified_hardwood_production: "Intensified Hardwood Production"
 
   SCI: "Sicily"
+  SCI_ADJ: "Sicilian"
 
   law_latifondi: "Latifondi"
   law_latifondi_desc: "Agricultural land characterized by vast swathes of land worked by seasonal farmhands with no protections."
 
   je_bourbon_instability: "Bourbon Instability"
-  je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea fácil por delante."
+  je_bourbon_instability_reason: "The people of the Two Sicilies has always had a difficult relation with its rulers, everchanging in the political game of thrones of Europe. With the French Revolution and the national awakening of the european people, now the rule of the Bourbon Dinasty, reinstated by Austria, finds itself at a crossroads to solidy its throne and justify the existance of the Monarchy. Threatened from all sides by italian nationalists, radical agitators and sicilian separatists, the Dinasty of Bourbon has no easy task ahead."
 
   bourbon_instability: "Bourbon Instability"
   bourbon_instability_bar_desc: "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%1]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|0]/100)"
@@ -168,9 +169,9 @@
   bourbon_home_affairs_var_contribution: "Progress from Home Affairs Institution Level"
   je_bourbon_instability_tt: "We have fullfilled the Progress Bar"
 
-  bourbon_instability.1.t: "Agitación en el Meridiano"
-  bourbon_instability.1.d: "Tras dos décadas desde el retorno de los Borbones a Nápoles, Sicilia se mantiene como un territorio ajeno a la corona. Con el único bastión leal en Palermo y Messina, su geografía áspera sirve de escondrijo a toda clase de opositores: algunos son revolucionarios radicales, que hablan de una Italia unida; otros son separistas sicilianos, que ven en la dinastía de Borbón un régimen napolitano ajeno a sus intereses; la mayoría, peor aún, son contrabandistas. Sicilia permanece sin orden ni ley, ni infraestructura que pueda soportarla."
-  bourbon_instability.1.a: "La monarquía debe ser una con la isla para perdurar."
+  bourbon_instability.1.t: "Agitation in the Mezzogiorno"
+  bourbon_instability.1.d: "After two decades since the returns of the Bourbons to Naples, Sicily still stands as a territory foreign to the dinasty, who can only find loyal support in Palermo and Messina. The harsh geography of the island serves as refuge to all opposition: some are radical revolutionaries, whom wish for a united Italy; others, sicilian separatists, see in the Dinasty of Bourbon a regime alien to their interests; many, worse yet, are linked with ties to contraband. Sicily stands without order and law, nor the infrastructure to sustain it."
+  bourbon_instability.1.a: "The monarchy must be one with the Island to last.."
 
   bourbon_instability.2.t: "Cholera Outbreak in Sicily"
   bourbon_instability.2.d: "Disaster has struck the island! Since the New Year we've been hearing more and more reports of people getting sick from Sicily's brackish water, and we've prayed those reports away until now. Thousands lay sick, many more lay dead, and all those who are spared wonder what we were doing about it."
@@ -178,7 +179,7 @@
   bourbon_cholera_outbreak: "Sicilian Cholera Outbreak of 1836"
   
   bourbon_instability.3.t: "Chaos erupts in Sicily"
-  bourbon_instability.3.d: "As the outbreak lasts and the days have gone by, the social framework has broken down. According to some, collective paranoia has taken hold of the island, with many peasants accusing each other -or worse, the goverment- of poisoning the waters. After a day of odd calm, now words have been taken into action, often with chants amongst the peasantry calling for the fall of our Regime, and it's already being called amongst the educated as a Jacquerie, in reference to the ancient peasant revolts."
+  bourbon_instability.3.d: "As the outbreak lasts and the days have gone by, the social framework has broken down. According to some, collective paranoia has taken hold of the island, with many peasants accusing each other -or worse, the goverment- of poisoning the waters. After a day of odd calm, now words have been taken into action, often with the peasantry chanting for the fall of our Regime, and it's already being called amongst the educated as a Jacquerie, in reference to the ancient peasant revolts of Medieval France."
   bourbon_instability.3.a: "Poisoning their water? How uncivilized."
   bourbon_jacquerie: "Sicilian Jacquerie of 1836-1837"
 
@@ -218,7 +219,7 @@
   ig_trait_galantuomini_desc: "By relying on the educated gentlemen of our urban cores we can ensure good rule across the Peninsula."
 
   ig_trait_credit_mobilier: "Crédit Mobilier"
-  ig_trait_credit_mobilier: "By movilizing the credit of our profitable industries we may draw more for less and continue our expending scheme. After all, it's not a bubble if it doesn't pop."
+  ig_trait_credit_mobilier_desc: "By movilizing the credit of our profitable industries we may draw more for less and continue our expending scheme. After all, it's not a bubble if it doesn't pop."
   ig_trait_les_notables: "Les Notables"
   ig_trait_les_notables_desc: "Although the old aristocracy has suffered from the Revolutions, it is not yet dead. Some may say that it is more manageable, and their efforts can be put to good use in the hands of L'État."
   ig_trait_metayage: "Métayage"

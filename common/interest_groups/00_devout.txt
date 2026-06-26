@@ -168,7 +168,7 @@
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
-				set_ig_trait = ig_trait:ig_trait_pietist_philantrophy
+				set_ig_trait = ig_trait:ig_trait_pietist_philanthropy
 				set_ig_trait = ig_trait:ig_trait_work_ethic
 			}			
 			else = {
