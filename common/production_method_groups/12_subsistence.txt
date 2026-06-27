@@ -24,6 +24,7 @@ pmg_serfdom_building_subsistence_farm = {
 		pm_serfdom
 		pm_corvee_labor
 		pm_homesteading_building_subsistence
+		pm_peasant_proprietorship_building_subsistence
 	}
 }
 
@@ -53,6 +54,7 @@ pmg_serfdom_building_subsistence_orchard = {
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_orchard
 		pm_homesteading_building_subsistence
+		pm_peasant_proprietorship_building_subsistence
 	}
 }
 
@@ -82,6 +84,7 @@ pmg_serfdom_building_subsistence_pasture = {
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_pasture
 		pm_homesteading_building_subsistence
+		pm_peasant_proprietorship_building_subsistence
 	}
 }
 
@@ -111,6 +114,7 @@ pmg_serfdom_building_subsistence_fishing_village = {
 		pm_corvee_labor
 		pm_serfdom_building_subsistence_fishing_village
 		pm_homesteading_building_subsistence
+		pm_peasant_proprietorship_building_subsistence
 	}
 }
 
@@ -138,6 +142,6 @@ pmg_serfdom_building_subsistence_rice_farm = {
 		pm_serfdom_building_subsistence_rice_farm
 		pm_homesteading_building_subsistence_rice_farm
 		pm_french_tenancy_rice
-		
+		pm_peasant_proprietorship_building_subsistence
 	}
 }
