@@ -19,12 +19,6 @@ company_da_afghan_nassaji_sherkat = {
 		prestige_good_generic_clothes
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
-	}
 
 	potential = {
 		has_dlc_feature = ep1_content
@@ -380,13 +374,6 @@ company_opium_export_monopoly = {
 		prestige_good_generic_opium
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_opium_complete_tt
-			has_variable = prestige_good_generic_opium_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_greater_persia
 	}
@@ -461,12 +448,6 @@ company_sherkate_eslamiya = {
 		prestige_good_generic_clothes
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
-	}
 
 	potential = {
 		has_dlc_feature = ep1_content
@@ -918,13 +899,6 @@ company_moscow_irrigation_company = {
 		prestige_good_generic_grain
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
-	}
-
 	potential = {
 		has_dlc_feature = ep1_content
 		has_interest_marker_in_region = sr:region_greater_persia
@@ -1028,13 +1002,6 @@ company_guinness = {
 		prestige_good_generic_groceries
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_groceries_complete_tt
-			has_variable = prestige_good_generic_groceries_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_western_europe
 	}
@@ -1110,13 +1077,6 @@ company_oriental_development_company = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_grain
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
 	}
 
 	potential = {

@@ -11,12 +11,6 @@ company_CAFD = {
 		prestige_good_generic_coffee
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_coffee_complete_tt
-			has_variable = prestige_good_generic_coffee_var
-		}
-	}
 	
 	building_types = {  #25
 		building_coffee_plantation
@@ -346,13 +340,6 @@ company_falabella= {
 		prestige_good_generic_furniture
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_furniture_complete_tt
-			has_variable = prestige_good_generic_furniture_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
 		c:CHL ?= this
@@ -427,12 +414,7 @@ company_coltejer= {
 		prestige_good_generic_clothes
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_gran_colombia
@@ -594,12 +576,6 @@ company_industrias_reunidas_matarazzo= {
 		prestige_good_generic_grain
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
@@ -684,12 +660,6 @@ company_tierra_fuego_society= {
 		prestige_good_generic_meat
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_meat_complete_tt
-			has_variable = prestige_good_generic_meat_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
@@ -764,12 +734,7 @@ company_wilson_sons= {
 		prestige_good_generic_merchant_marine
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_merchant_marine_complete_tt
-			has_variable = prestige_good_generic_merchant_marine_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
@@ -1039,13 +1004,6 @@ company_agro_paramonga= {
 		prestige_good_specialty_sugar
 	}
     
-    prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_specialty_sugar_complete_tt
-			has_variable = prestige_good_specialty_sugar_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
@@ -1127,13 +1085,6 @@ company_postobon= {
 
 	possible_prestige_goods = {
 		prestige_good_ultra_food
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_good_ultra_food_complete_tt
-			has_variable = prestige_good_ultra_food_var
-		}
 	}
 
     potential = {
@@ -1249,13 +1200,6 @@ company_mondragon = {
 		unit_combat_unit_type_trench_infantry_defense_add = 5
 		unit_combat_unit_type_trench_infantry_offense_add = 5
 	}	
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_small_arms_complete_tt
-			has_variable = prestige_good_generic_small_arms_var
-		}
-	}
 	
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
@@ -1334,13 +1278,6 @@ company_cemex= {
 
 	possible_prestige_goods = {
 		prestige_good_generic_steel
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_steel_complete_tt
-			has_variable = prestige_good_generic_steel_var
-		}
 	}
 
     potential = {
@@ -1436,13 +1373,6 @@ company_pelladini= {
 
 	possible_prestige_goods = {
 		prestige_good_generic_furniture
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_furniture_complete_tt
-			has_variable = prestige_good_generic_furniture_var
-		}
 	}
 
 	potential = {
@@ -1597,13 +1527,6 @@ company_jose_cuervo= {
 
     possible_prestige_goods = {
 		prestige_good_premium_liquor
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_good_premium_liquor_complete_tt
-			has_variable = prestige_good_premium_liquor_var
-		}
 	}
 
 	potential = {
@@ -1990,13 +1913,6 @@ company_egyptian_sugar= {
 	possible_prestige_goods = {
 		prestige_good_specialty_sugar
 	}
-    
-    prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_specialty_sugar_complete_tt
-			has_variable = prestige_good_specialty_sugar_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_nile_basin
@@ -2147,13 +2063,6 @@ company_shewa_sa= {
 		prestige_good_generic_coffee
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_coffee_complete_tt
-			has_variable = prestige_good_generic_coffee_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_east_africa
 		OR = {
@@ -2236,12 +2145,7 @@ company_harar_mining = {
 		prestige_good_generic_explosives
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_explosives_complete_tt
-			has_variable = prestige_good_generic_explosives_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_east_africa
@@ -2332,12 +2236,7 @@ company_ethiopian_explotation = {
 		prestige_good_generic_opium
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_opium_complete_tt
-			has_variable = prestige_good_generic_opium_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_east_africa
@@ -2480,13 +2379,6 @@ company_ethiopian_partnership = {
 	possible_prestige_goods = {
 		prestige_good_tempered_glass
 	}
-    
-    prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_tempered_glass_complete_tt
-			has_variable = prestige_good_tempered_glass_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_east_africa
@@ -2598,13 +2490,6 @@ company_sappi= {
 
 	possible_prestige_goods = {
 		prestige_good_generic_paper
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_paper_complete_tt
-			has_variable = prestige_good_generic_paper_var
-		}
 	}
 
 	potential = {
@@ -2839,12 +2724,7 @@ company_handel_maatschappij= {
 		prestige_good_generic_merchant_marine
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_merchant_marine_complete_tt
-			has_variable = prestige_good_generic_merchant_marine_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indonesia
@@ -2980,13 +2860,6 @@ company_alhstrom = {
 		building_glassworks
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_paper_complete_tt
-			has_variable = prestige_good_generic_paper_var
-		}
-	}
-
 	possible = {
 		any_scope_state = {
 			state_region = s:STATE_KUOPIO
@@ -3110,12 +2983,6 @@ company_dalgety= {
 		prestige_good_generic_meat
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_meat_complete_tt
-			has_variable = prestige_good_generic_meat_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_oceania

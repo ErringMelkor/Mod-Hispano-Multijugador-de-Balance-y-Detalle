@@ -179,13 +179,6 @@ company_john_cockerill = {
 		prestige_good_generic_tools
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_tools_complete_tt
-			has_variable = prestige_good_generic_tools_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_western_europe
 	}
@@ -493,13 +486,6 @@ company_kouppas = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_tools
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_tools_complete_tt
-			has_variable = prestige_good_generic_tools_var
-		}
 	}
 
 	potential = {
@@ -895,13 +881,6 @@ company_nokia = {
 		prestige_good_generic_paper
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_paper_complete_tt
-			has_variable = prestige_good_generic_paper_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_northern_europe
 	}
@@ -1045,13 +1024,6 @@ company_lilpop = {
 		prestige_good_generic_steel
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_steel_complete_tt
-			has_variable = prestige_good_generic_steel_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_eastern_europe
 	}
@@ -1138,13 +1110,6 @@ company_mozambique_company = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_grain
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
 	}
 
 	potential = {
@@ -1239,13 +1204,6 @@ company_altos_hornos_de_vizcaya = {
 		prestige_good_generic_steel
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_steel_complete_tt
-			has_variable = prestige_good_generic_steel_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
 	}
@@ -1318,13 +1276,6 @@ company_duro_y_compania = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_steel
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_steel_complete_tt
-			has_variable = prestige_good_generic_steel_var
-		}
 	}
 
 	potential = {
@@ -1401,13 +1352,6 @@ company_espana_industrial = {
 		prestige_good_generic_clothes
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
 	}
@@ -1482,12 +1426,6 @@ company_trubia = {
 		prestige_good_generic_artillery
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_artillery_complete_tt
-			has_variable = prestige_good_generic_artillery_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
@@ -1562,12 +1500,7 @@ company_zastava = {
 		prestige_good_generic_small_arms
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_small_arms_complete_tt
-			has_variable = prestige_good_generic_small_arms_var
-		}
-	}
+
 
 	potential = {
 		has_interest_marker_in_region = sr:region_balkans
@@ -1644,12 +1577,6 @@ company_chr_hansens = {
 		prestige_good_generic_groceries
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_groceries_complete_tt
-			has_variable = prestige_good_generic_groceries_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_northern_europe
@@ -1731,12 +1658,6 @@ company_ap_moller = {
 		prestige_good_generic_merchant_marine
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_merchant_marine_complete_tt
-			has_variable = prestige_good_generic_merchant_marine_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_northern_europe

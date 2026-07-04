@@ -113,13 +113,6 @@ company_rheinmetall = {
 		prestige_good_generic_artillery
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_artillery_complete_tt
-			has_variable = prestige_good_generic_artillery_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_central_europe
 	}

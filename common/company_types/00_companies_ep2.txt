@@ -23,13 +23,6 @@ company_sumitomo = {
 		prestige_good_generic_steel
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_steel_complete_tt
-			has_variable = prestige_good_generic_steel_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_northeast_asia
 	}
@@ -122,13 +115,6 @@ company_yasuda = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_merchant_marine
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_merchant_marine_complete_tt
-			has_variable = prestige_good_generic_merchant_marine_var
-		}
 	}
 
 	potential = {
@@ -249,9 +235,6 @@ company_tokyo_electric_light_company = {
 	possible_prestige_goods = {
 	}
 
-	prestige_goods_trigger = {
-	}
-
 	potential = {
 		has_dlc_feature = ep2_content
 		has_interest_marker_in_region = sr:region_northeast_asia
@@ -331,8 +314,6 @@ company_guthrie = {
 	possible_prestige_goods = {
 	}
 
-	prestige_goods_trigger = {
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
@@ -584,12 +565,7 @@ company_ramirez = {
 		prestige_good_generic_groceries
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_groceries_complete_tt
-			has_variable = prestige_good_generic_groceries_var
-		}
-	}
+
 
 	potential = {
 		has_dlc_feature = ep2_content
@@ -1057,13 +1033,6 @@ company_a_markwald_and_company = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_grain
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
 	}
 
 	potential = {

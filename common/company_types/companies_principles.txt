@@ -38,12 +38,6 @@ company_construction_power_bloc = {
 		prestige_good_generic_tools
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_tools_complete_tt
-			has_variable = prestige_good_generic_tools_var
-		}
-	}
 
 	prosperity_modifier = {
 		building_construction_sector_throughput_add = 0.35

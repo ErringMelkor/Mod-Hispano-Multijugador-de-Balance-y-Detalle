@@ -86,13 +86,6 @@ company_bombay_dyeing_company = {
 		prestige_good_generic_clothes
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_south_india
 		has_dlc_feature = ip2_content
@@ -168,12 +161,6 @@ company_david_sassoon = {
 		prestige_good_generic_opium
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_opium_complete_tt
-			has_variable = prestige_good_generic_opium_var
-		}
-	}
 
 	potential = {
 		has_interest_marker_in_region = sr:region_south_india
@@ -354,13 +341,6 @@ company_madura_mills = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_clothes
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_clothes_complete_tt
-			has_variable = prestige_good_generic_clothes_var
-		}
 	}
 
 	potential = {
@@ -579,13 +559,6 @@ company_steel_brothers = {
 		prestige_good_generic_grain
 	}
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
 		has_dlc_feature = ip2_content
@@ -670,13 +643,6 @@ company_ralli_brothers = {
 
 	possible_prestige_goods = {
 		prestige_good_generic_grain
-	}
-
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_grain_complete_tt
-			has_variable = prestige_good_generic_grain_var
-		}
 	}
 
 	potential = {
