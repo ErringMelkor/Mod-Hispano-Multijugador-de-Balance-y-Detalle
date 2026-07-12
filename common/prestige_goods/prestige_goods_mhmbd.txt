@@ -5,13 +5,13 @@
 }
 
 prestige_good_metz_coal = {
-	base_good = oil
+	base_good = coal
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/coal.dds"
 }
 
 prestige_good_constantine_lead = {
-	base_good = oil
+	base_good = lead
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
 }
