@@ -4,6 +4,18 @@
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
 }
 
+prestige_good_metz_coal = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/coal.dds"
+}
+
+prestige_good_constantine_lead = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/lead.dds"
+}
+
 prestige_good_coffea_arabica = {
 	base_good = coffee
 	prestige_bonus = 0.1

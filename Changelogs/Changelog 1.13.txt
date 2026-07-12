@@ -250,3 +250,14 @@ Mapa:
 		Guaviare:
 			· Madera: 35 -> 38
 			· Madera Dura: 8 -> 12
+
+
+Changelog 1.13E # 12-07-26 - 
+
+Compañías:
+	Francia:
+		Reajustada la compañía de Anzin: 0.05 throughput al acero -> 0.15; 0.1 throughput a los ferrocarriles -> 0.15.
+		Reajustada la compañía de Dollfus: Sustituidas las minas de carbón por fábricas de herramientas.
+		Reajustada la compañía de "Société Mokta El Hadid": Intercambiado su acceso al hierro por plomo; agregado plomo de prestigio, "Plomo de Constantina".
+		Agregada la Compagnie d'Wendel-Stiring: .0.15 throughput al acero; 0.05 a la eficiencia en la construcción de recursos; bien de prestigio: carbón de Metz.
+		
