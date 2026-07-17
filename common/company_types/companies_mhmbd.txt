@@ -264,7 +264,12 @@ company_la_forestal= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 	}
 
 	attainable = {
@@ -276,6 +281,12 @@ company_la_forestal= {
 	}
 
 	possible = {
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 		OR = {
 			any_scope_state = {
 				state_region = s:STATE_CHACO
@@ -355,7 +366,12 @@ company_falabella= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		c:CHL ?= this
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 	}
 
 	attainable = {
@@ -367,7 +383,12 @@ company_falabella= {
 	}
 
 	possible = {
-		c:CHL ?= this
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 		any_scope_state = {
 			state_region = s:STATE_SANTIAGO
 			is_incorporated = yes
@@ -514,7 +535,9 @@ company_bolsa_bsas= {
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
+			c:CHL ?= this
 			c:ARG ?= this
+			was_formed_from = CHL
 			was_formed_from = ARG
 		}
 		
@@ -530,7 +553,9 @@ company_bolsa_bsas= {
 
 	possible = {
 		OR = {
+			c:CHL ?= this
 			c:ARG ?= this
+			was_formed_from = CHL
 			was_formed_from = ARG
 		}
 		any_scope_state = {
@@ -693,7 +718,12 @@ company_tierra_fuego_society= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		c:CHL ?= this
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 	}
 
 	attainable = {
@@ -705,7 +735,12 @@ company_tierra_fuego_society= {
 	}
 
 	possible = {
-		c:CHL ?= this
+		OR = {
+			c:CHL ?= this
+			c:ARG ?= this
+			was_formed_from = CHL
+			was_formed_from = ARG
+		}
 		any_scope_state = {
 			state_region = s:STATE_ARAUCANIA
 			is_incorporated = yes
