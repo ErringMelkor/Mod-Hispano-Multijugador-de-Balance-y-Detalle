@@ -2186,8 +2186,8 @@ company_shewa_sa= {
 	}
 	
 	prosperity_modifier = {
-		state_birth_rate_mult = 0.25
-		state_mortality_mult = -0.25
+		state_birth_rate_mult = 0.025
+		state_mortality_mult = -0.025
 		bbg_mining_throughput_add = 0.5
 	}
 
@@ -2848,7 +2848,11 @@ company_handel_maatschappij= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indonesia
-		c:DEI ?= this
+		OR = {
+			c:DEI ?= this
+			c:NET ?= this
+			c:UNL ?= this
+		}
 	}
 
 	attainable = {
@@ -2860,7 +2864,11 @@ company_handel_maatschappij= {
 	}
 
 	possible = {
-		c:DEI ?= this
+		OR = {
+			c:DEI ?= this
+			c:NET ?= this
+			c:UNL ?= this
+		}
 		any_scope_state = {
 			state_region = s:STATE_WEST_JAVA
 			is_incorporated = yes
