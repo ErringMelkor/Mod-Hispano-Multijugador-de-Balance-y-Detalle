@@ -75,6 +75,16 @@
 				set_ig_trait = ig_trait:ig_trait_la_buena_vida
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
+			else_if = {
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:south_italian
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_galantuomini
+				set_ig_trait = ig_trait:ig_trait_treasury_bonds
+			}
 			#China
 			else_if = {
 				limit = {
@@ -159,6 +169,16 @@
 				set_interest_group_name = ig_chonin
 				set_ig_trait = ig_trait:ig_trait_xenophobia
 				set_ig_trait = ig_trait:ig_trait_middle_managers
+				set_ig_trait = ig_trait:ig_trait_treasury_bonds
+			}
+			else_if = {
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:dutch
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_xenophobia
+				set_ig_trait = ig_trait:ig_trait_handelaar
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 			else_if = {

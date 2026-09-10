@@ -5,6 +5,8 @@
   prestige_good_coffea_arabica: "Café Arábigo"
   prestige_good_coffea_robusta: "Café Robusto"
   company_fedecafe: "Fedecafé"
+
+  Compañías
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -16,15 +18,83 @@
   company_wilson_sons: "Wilson Sons"
   company_peruvian_corporation: "Peruvian Corporation"
   company_granos_winnipeg: "Bolsa de Granos de Winnipeg"
-  prestige_good_red_fife: "Grano Red Fife"
   company_guano_management: "Compañía Administradora del Guano"
-  prestige_good_guano: "Guano"
   company_agro_paramonga: "Agro Paramonga"
-  prestige_good_specialty_sugar: "Azucar de Especialidad"
   company_postobon: "Postobon"
-  prestige_good_ultra_food: "Alimentos Ultra Procesados"
   company_jose_cuervo: "Tequila José Cuervo"
+  company_west_african: "Compañía Comercial de África Occidental"
+  company_congo_trade_ind: "Compañía del Congo para el Comercio y la Industria"
+  company_morrocan: "La Compañía Marroqui"
+  company_ethiopian_explotation: "Compañía para la Explotación de Etiopía"
+  company_dalgety: "Dalgety"
+  company_shewa_sa: "El León de Shewa SA"
+  company_dole: "Dole"
+  company_elementis: "Harrisons & Crosfield"
+  company_khedivial_company: "Empresa de Correos Khedivial"
+  company_harar_mining: "La Gran Minera de Harar SRL"
+  company_handel_maatschappij: "Nederlandsche Handel-Maatschappij"
+  company_sappi: "Sappi"
+  company_egyptian_sugar: "Sociedad General de Azúcares y Refinerias de Egipto"
+  company_ethiopian_partnership: "Sociedad Colectiva para el Pueblo Etíope"
+  
+  Bienes de Prestigio
+  prestige_good_red_fife: "Grano Red Fife"
+  prestige_good_guano: "Guano"
+  prestige_good_specialty_sugar: "Azucar de Especialidad"
+  prestige_good_ultra_food: "Alimentos Ultra Procesados"
   prestige_good_premium_liquor: "Licor Premium"
+  prestige_good_latex: "Látex"
+  prestige_good_pineapple: "Piña"
+  prestige_good_earl_gray_tea: "Té Earl Gray"
+  prestige_good_tempered_glass: "Vidrio Templado"
+
+  Azucar de Especicalidad (evento)
+  je_prestige_good_specialty_sugar: "$prestige_good_specialty_sugar$"
+  je_prestige_good_specialty_sugar_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $sugar$#! @sugar!."
+  je_prestige_good_specialty_sugar_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_specialty_sugar_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_specialty_sugar_complete_tt: "Ha completado la #b $je_prestige_good_specialty_sugar$#! [concept_journal_entry]"
+  je_prestige_good_specialty_sugar_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  not_prestige_good_specialty_sugar_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] desarrolla #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
+  notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
+
+  Alimentos Ultraprocesados (evento)
+  je_prestige_good_ultra_food: "$prestige_good_ultra_food$"
+  je_prestige_good_ultra_food_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $groceries$#! @groceries!."
+  je_prestige_good_ultra_food_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_ultra_food_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_ultra_food_complete_tt: "Ha completado la #b $je_prestige_good_ultra_food$#! [concept_journal_entry]"
+  je_prestige_good_ultra_food_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!"
+  not_prestige_good_ultra_food_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!"
+  notification_prestige_good_ultra_food_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] desarrolla #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!"
+  notification_prestige_good_ultra_food_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!"
+  notification_prestige_good_ultra_food_unlocked_tooltip: "#header $notification_prestige_good_ultra_food_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_ultra_food_unlocked_desc$"
+
+  Liccor Premium (evento)
+  je_prestige_good_premium_liquor: "$prestige_good_premium_liquor$"
+  je_prestige_good_premium_liquor_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_premium_liquor$#! @prestige_good_premium_liquor!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $liquor$#! @liquor!."
+  je_prestige_good_premium_liquor_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_premium_liquor_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_premium_liquor_complete_tt: "Ha completado la #b $je_prestige_good_premium_liquor$#! [concept_journal_entry]"
+  je_prestige_good_premium_liquor_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_premium_liquor$#! @prestige_good_premium_liquor!"
+  not_prestige_good_premium_liquor_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_premium_liquor$#! @prestige_good_premium_liquor!"
+  notification_prestige_good_premium_liquor_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] desarrolla #b $prestige_good_premium_liquor$#! @prestige_good_premium_liquor!"
+  notification_prestige_good_premium_liquor_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_premium_liquor$#! @prestige_good_premium_liquor!"
+  notification_prestige_good_premium_liquor_unlocked_tooltip: "#header $notification_prestige_good_premium_liquor_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_premium_liquor_unlocked_desc$"
+
+  Vidrio Templado (evento)
+  je_prestige_good_tempered_glass: "$prestige_good_tempered_glass$"
+  je_prestige_good_tempered_glass_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $glass$#! @glass!."
+  je_prestige_good_tempered_glass_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_tempered_glass_var').GetValue]#!): #indent_newline:3 "
+  je_prestige_good_tempered_glass_complete_tt: "Ha completado la #b $je_prestige_good_tempered_glass$#! [concept_journal_entry]"
+  je_prestige_good_tempered_glass_tt: "[SCOPE.sCompany('relevant_company').GetName] podrá producir #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!"
+  not_prestige_good_tempered_glass_var_tt: "Aún #b no#! ha desarrollado #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!"
+  notification_prestige_good_tempered_glass_unlocked_name: "[SCOPE.sCompany('relevant_company').GetName] desarrolla #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!"
+  notification_prestige_good_tempered_glass_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_tempered_glass$#! @prestige_good_tempered_glass!"
+  notification_prestige_good_tempered_glass_unlocked_tooltip: "#header $notification_prestige_good_tempered_glass_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_tempered_glass_unlocked_desc$"
+
+
+  NIT: "Italia Septentrional"
+  NIT_ADJ: "Noritaliana"
 
   gm_actions.1.l: "Otorgar bono de Relleno"
   gm_actions_fill.1.t: "Categoría de Rango de Relleno"
@@ -68,4 +138,117 @@
   fill_autoridad_minor: "Bono por Potencia Menor: Autoridad"
   fill_autoridad_insignificante: "Bono por Potencia Insignificante: Autoridad"
 
-  french_monarchism_solidified: "Monarquía francesa asegurada"
+  french_monarchism_solidified: "Monarquía francesa consolidada"
+
+  law_landwehr: "Landwehr"
+  law_landwehr_desc: "Modelo de conscripción que sirve tanto como reserva móbil de soldadesca como de Guardia Nacional."
+  law_religious_unions: "Sindicatos Religiosos"
+  law_religious_unions_tt: "La [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] atraerá a más [GetPopType('machinists').GetName]."
+
+  amendment_bashibazouk_tt: "Los [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]atraerán a más [GetPopType('soldiers').GetName]."
+
+  decree_focused_incorporation: "Incorporación Focalizada"
+
+  pm_intensified_hardwood_production: "Producción de Madera Dura Intensiva"
+
+  SCI: "Sicilia"
+  SCI_ADJ: "Siciliano"
+
+  law_latifondi: "Latifondi"
+  law_latifondi_desc: "Extensión agricultural de grandes dimensiones trabajada por jornaleros sin protecciones contractuales."
+
+  je_bourbon_instability: "Inestabilidad Borbónica"
+  je_bourbon_instability_reason: "El pueblo de las Dos Sicilias siempre ha tenido una relación distante con sus gobernantes, siempre cambiantes en el juego de tronos de la política europea. Con la Revolución Francesa y el despertar de las identidades nacionales, el gobierno de los Borbones en las Dos Sicilias, reestablecido por Austria, se encuentra en un punto crucial para solidifcar el trono y justificar la existencia de su dinastía. Asediados por nacionalistas italianos, agitadores radicales y separatistas sicilianos, la Dinastía de Borbón no tiene una tarea fácil por delante."
+
+  bourbon_instability: "Inestabilidad Borbónica"
+  bourbon_instability_bar_desc: "Progreso: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%1]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|0]/100)"
+  bourbon_instability_progress_bar: "Progreso en asegurar la Dinastía de Borbón"
+  bourbon_progress_from_legitimacy: "Progreso por Legitimidad"
+  bourbon_progress_from_absolutist_movement: "Progreso por el Movimiento Absolutista"
+  bourbon_progress_from_italian_national_movement: "Retroceso por el Movimiento Nacional Italiano"
+  bourbon_progress_from_sicilian_separatist_movement: "Retroceso por el Movimiento Separatista Siciliano"
+  bourbon_police_var_contribution: "Progreso por el Nivel de Institución Policial"
+  bourbon_home_affairs_var_contribution: "Progreso por el Nivel de Asuntos Internos"
+  je_bourbon_instability_tt: "Hemos completado la barra de progreso."
+
+  bourbon_instability.1.t: "Agitación en el Meridiano"
+  bourbon_instability.1.d: "Tras dos décadas desde el retorno de los Borbones a Nápoles, Sicilia se mantiene como un territorio ajeno a la corona. Con el único bastión leal en Palermo y Messina, su geografía áspera sirve de escondrijo a toda clase de opositores: algunos son revolucionarios radicales, que hablan de una Italia unida; otros son separistas sicilianos, que ven en la dinastía de Borbón un régimen napolitano ajeno a sus intereses; la mayoría, peor aún, son contrabandistas. Sicilia permanece sin orden ni ley, ni infraestructura que pueda soportarla."
+  bourbon_instability.1.a: "La monarquía debe ser una con la isla para perdurar."
+
+  bourbon_instability.2.t: "Brote de cólera en Sicilia"
+  bourbon_instability.2.d: "¡Un desastre azota Sicilia! Desde el Año Nuevo nos llegan cada vez más reportes de gente enferma por el agua salobre de Sicilia. Desde la corte hemos sido conscientes de ello y mandado nuestras plegarias, y con eso ha bastado, hasta ahora. Dicen que miles yacen enfermos, otros tantos muertos, y muchos se preguntan qué ha estado haciendo la monarquía por remediar la situación"
+  bourbon_instability.2.a: "Si no pueden beber agua, que tomen vino."
+  bourbon_cholera_outbreak: "Brote de Coléra siciliano de 1836"
+  
+  bourbon_instability.3.t: "El caos estalla en Sicilia"
+  bourbon_instability.3.d: "El orden social de la isla parece haberse fragmentado de la nada. Una paranoia colectiva se ha adueñado de sus paisanos, acusándose entre sí -o, peor aún, al gobierno-, de envenenar las aguas. Tras un día de nerviosa calma parece que las palabras han dejado paso a la acción, a menudo con consignas contra la corona, y entre los educados ya se está llamando a esto una Jaquería, en referencia a las antiguas revueltas campesinas de la Francia medieval."
+  bourbon_instability.3.a: "¿Para qué envenenarles el agua? Es con lo que les rebajamos el vino."
+  bourbon_jacquerie: "Jaquería siciliana de 1836-1837"
+
+  bourbon_instability.4.t: "The Palermitani"
+  bourbon_instability.4.d: "Due to the current instability of our regime, and of the island of Sicily, the local body of rule in which we've deposited the good goverment of the island, spearheaded by the urban aristocracy in Palermo, have come to ask us for more rights and an extended autonomy in exchange for their further collaboration. This, of course, would leave us unable to properly utilize the resources of Sicily, but it might be wise to conceed before unease escalates further."
+  bourbon_instability.4.a: "Very well, let's give them their priviledges."
+  bourbon_instability.4.b: "Nonsense! They will bend the knee or we'll destroy them."
+  bourbon_palermitani_concessions: "Concessions to the Palermitani"
+  bourbon_palermitani_repression: "Palermitani Repressed"
+
+  bourbon_instability.5.t: "Contraband in Calabria"
+  bourbon_instability.5.d: "The region of Calabria is home to many small ports and hill passes. Due to, apparently, bad living conditions, many peasants have taken up contraband as means to make a living. We could sponsor some agricultural works to ease their conditions or we could let them cope with their petty crimes. Aditionally, De Liguoro, a police colonel, has submitted a report asking for more resources for the local police force, which could put an end to this situation for good."
+  bourbon_instability.5.a: "Let's finance those agricultural projects."
+  bourbon_instability.5.b: "Let them be, we're all trying to cope."
+  bourbon_instability.5.c: "Fund De Liguoro efforts."
+  bourbon_calabrese_concessions: "Calabrese Concessions"
+  bourbon_calabrese_apathy: "Calabrese Apathy"
+  bourbon_calabrese_repression: "Calabrese Repression"
+
+  bourbon_instability.6.t: "Wave of Parlamentarism"
+  bourbon_instability.6.d: "With instability rising, many in Calabria have been rallied by officers disloyal to the crown. They've disarmed the local garrisons and they are marching towards Naples in order to pettition the king!"
+  bourbon_instability.6.a: "This is not Sicily! Send a counter-expedition with De Liguoro and punish the rabble."
+  bourbon_instability.6.b: "Very well, we shall pretend to hear them. Court Composer, please play some Melodies for the Masses."
+  bourbon_parlamentary_compromises: "Parlamentary Compromises"
+
+  bourbon_integration: "Borbonic Stability"
+  borbonic_instability: "Borbonic Instability"
+
+  amendment_bashibazouk: "Bashi-Bazouk Irregulars"
+  amendment_bersaglieri: "Bersaglieri Sharpshooters"
+  armendment_cacciatori: "Cacciatori Sharpshooters"
+  
+  law_derebeys: "Derebeys"
+  law_derebeys_desc: "Local rule devolved to military warlords who help us defend our provinces."
+
+  ig_trait_galantuomini: "Galantuomini"
+  ig_trait_galantuomini_desc: "By relying on the educated gentlemen of our urban cores we can ensure good rule across the Peninsula."
+
+  ig_trait_credit_mobilier: "Crédit Mobilier"
+  ig_trait_credit_mobilier_desc: "By movilizing the credit of our profitable industries we may draw more for less and continue our expending scheme. After all, it's not a bubble if it doesn't pop."
+  ig_trait_les_notables: "Les Notables"
+  ig_trait_les_notables_desc: "Although the old aristocracy has suffered from the Revolutions, it is not yet dead. Some may say that it is more manageable, and their efforts can be put to good use in the hands of L'État."
+  ig_trait_metayage: "Métayage"
+  ig_trait_metayage_desc: "By formalizing and regulating the sharecropping of our subsistence farmers we can ensure that, even if they are not as productive, they will at least keep their good share."
+
+  ig_trait_kohleexpertise: "Kohleexpertise"
+  ig_trait_kohleexpertise_desc: "Much of our capitalists have their origin in the mining industry, and they know how to make it work best in Europe."
+  ig_trait_eisenbachlagen: "Eisenbachlagen"
+  ig_trait_eisenbachlagen_desc: "Our capitalists are adept not only at moving money, but in ensuring that the money moves with everything else it needs to foster new growth."
+
+  ig_trait_handelaar: "Handelaar"
+  ig_trait_handelaar_desc: "Thanks to our key position in Europe and our long-standing tradition of trade our merchants have developed key expertise that we intend to profit from ourselves."
+
+  ig_trait_rittergut: "Rittergut"
+  ig_trait_rittergut_desc: "Coming from a tradition of different patchworks of land and legal systems, the local nobility know how to handle goverment the best."
+
+  ig_trait_jacquerie: "Jacquerie"
+  ig_trait_jacquerie_desc: "If the peasants want bread, they will get their bread."
+
+  ig_trait_pietist_philanthropy: "Pietist Philanthropy"
+  ig_trait_pietist_philanthropy_desc: "It is in our tradition to know the goods words of the Bible and to be humble about our wants."
+
+
+  goods_input_luxury_clothes_add:0 "@luxury_clothes! Luxury Clothes input"
+  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
+
+
+  
+
+

@@ -80,7 +80,7 @@
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
-				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_rittergut
 				set_ig_trait = ig_trait:ig_trait_junkerdom
 			}
 			else_if = {
@@ -129,7 +129,7 @@
 				}
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
 				set_ig_trait = ig_trait:ig_trait_lingua_franca
-				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+				set_ig_trait = ig_trait:ig_trait_les_notables
 
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_french_patriarchal

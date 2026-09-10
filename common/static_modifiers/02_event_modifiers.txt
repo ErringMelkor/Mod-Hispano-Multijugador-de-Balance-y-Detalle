@@ -20,7 +20,7 @@ accepted_petition = {
 
 landowners_petition_rejected_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_time_mult = 0.15
+	country_law_enactment_speed_mult = -0.15
 }
 
 landowners_petition_acepted_modifier = {
@@ -70,7 +70,7 @@ less_conscription_rural_folk_modifier = {
 
 trade_unions_placation_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_law_enactment_time_mult = 0.33
+	country_law_enactment_speed_mult = -0.33
 }
 
 accepted_petition_TU = {
@@ -80,7 +80,7 @@ accepted_petition_TU = {
 
 no_public_schools_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_time_mult = -0.2
+	country_law_enactment_speed_mult = 0.2
 }
 
 industralists_tax_denied_modifier = {
@@ -90,7 +90,7 @@ industralists_tax_denied_modifier = {
 
 industralists_tax_agreed_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
-	country_law_enactment_time_mult = 0.1
+	country_law_enactment_speed_mult = -0.1
 }
 
 accepted_petition_IN = {
@@ -361,7 +361,7 @@ modifier_religious_schools_abolished_intelligentsia = {
 
 religious_schools_good_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_time_mult = 0.2
+	country_law_enactment_speed_mult = -0.2
 }
 
 religious_schools_bad_modifier = {

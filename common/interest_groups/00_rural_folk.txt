@@ -74,6 +74,14 @@
 			}
 			else_if = {
 				limit = {
+					owner = { c:FRA ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+				set_ig_trait = ig_trait:ig_trait_metayage
+				set_ig_trait = ig_trait:ig_trait_jacquerie
+			}
+			else_if = {
+				limit = {
 					owner = { 
 						OR = {
 							c:BIC ?= this
@@ -258,6 +266,21 @@
 
 	pop_weight = {
 		value = 0
+
+		add = {
+			desc = "POP_SOLDIERS"
+			if = {
+				limit = {
+					owner = {
+						active_law:lawgroup_army_model ?= {
+							has_amendment = amendment_type:amendment_bashibazouk
+						}
+					}
+					is_pop_type = soldiers
+				}
+				value = 25
+			}
+		}
 
 		add = {
 			desc = "RURAL_POP"

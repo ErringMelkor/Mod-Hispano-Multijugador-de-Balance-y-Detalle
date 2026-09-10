@@ -1,0 +1,18 @@
+JE:
+    Guerra Ruso Turca admite a Valaquia y Moldavia como vasallos. #done
+
+Compañías:
+    Mover el requisito del azufre de Kanto. #done
+
+Sistemas:
+    Burocracia aumenta la velocidad de incorporación en un 25%. #Hecho -> movido a los salarios
+
+    Decreto para velocidad de integración. #Hecho
+
+    Velo de integración en las techs? Hay que ver como se stackea eso. #Hecho
+
+    Decreto de fomentar natalidad? #noppes
+
+Leyes:
+    TUs Cristianas #done
+    Landeswehr para Prusia #Done

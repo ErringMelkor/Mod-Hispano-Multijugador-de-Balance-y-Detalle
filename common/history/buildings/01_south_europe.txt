@@ -598,7 +598,7 @@
 				add_ownership={
 					country={
 						country="c:SIC"
-						levels=4
+						levels=2
 					}
 				}
 				reserves=1
@@ -1837,17 +1837,6 @@
 	}
 	s:STATE_SICILY={
 		region_state:SIC={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:SIC"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
 			create_building={
 				building="building_vineyard"
 				add_ownership={

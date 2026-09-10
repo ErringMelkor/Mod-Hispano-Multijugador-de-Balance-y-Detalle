@@ -1,0 +1,26 @@
+GLOBAL = {
+	s:STATE_CALABRIA = {
+		region_state:SIC = {
+			add_radicals_in_state = {
+				value = 0.15
+				culture = cu:siciliano
+			}
+		}
+	}
+	s:STATE_APULIA = {
+		region_state:SIC = {
+			add_radicals_in_state = {
+				value = 0.15
+				culture = cu:siciliano
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:SIC = {
+			add_radicals_in_state = {
+				value = 0.25
+				culture = cu:siciliano
+			}
+		}
+	}
+}

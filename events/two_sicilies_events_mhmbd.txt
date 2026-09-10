@@ -1,0 +1,355 @@
+namespace = bourbon_instability
+
+#Agitación en el Meridiano
+bourbon_instability.1 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.1.t
+	desc = bourbon_instability.1.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {
+		# Desencadenado por la JE principal.
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.1.a
+		default_option = yes
+	}
+
+
+}
+
+#Epidemia de Cólera de 1836.
+	bourbon_instability.2 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.2.t
+	desc = bourbon_instability.2.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {
+		# Desencadenado por la JE principal.
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.2.a
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_modifier = {
+				name = bourbon_cholera_outbreak
+				months = 6
+				is_decaying = yes
+			}
+		}
+
+		hidden_effect = {
+			trigger_event = {
+				id = bourbon_instability.3
+				days = 90
+			}
+		}
+	}
+}
+
+bourbon_instability.3 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.3.t
+	desc = bourbon_instability.3.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.3.a
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_radicals_in_state = {
+				value = 0.05
+				culture = cu:siciliano
+			}
+			add_modifier = {
+				name = bourbon_jacquerie
+				months = 12
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+#Aristocracia de Palermo
+bourbon_instability.4 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.4.t
+	desc = bourbon_instability.4.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = 1065 }
+
+	is_popup = yes
+
+	trigger = {
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.4.a
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_modifier = {
+				name = bourbon_palermitani_concessions
+				years = 5
+				is_decaying = yes
+			}
+
+			add_loyalists_in_state = {
+				value = 0.15
+				strata = middle
+			}
+		}
+	}
+
+	option = {
+		name = bourbon_instability.4.b
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_SICILY
+			}
+			add_modifier = {
+				name = bourbon_palermitani_repression
+				years = 5
+				is_decaying = yes
+			}
+			add_radicals_in_state = {
+				value = 0.15
+				strata = middle
+			}
+		}
+	}
+}
+
+#Bandidos en Calabria - Calas - Restricciones comerciales sí o no.
+bourbon_instability.5 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.5.t
+	desc = bourbon_instability.5.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = 1065 }
+
+	is_popup = yes
+
+	trigger = {
+		NOT = {
+			has_variable = liugoro_var
+		}
+	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.5.a
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_modifier = {
+				name = bourbon_calabrese_concessions
+				years = 5
+				is_decaying = yes
+			}
+
+			add_loyalists_in_state = {
+				value = 0.05
+				strata = lower
+			}
+		}
+	}
+
+	option = {
+		name = bourbon_instability.5.b
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_modifier = {
+				name = bourbon_calabrese_apathy
+				years = 5
+				is_decaying = yes
+			}
+			add_radicals_in_state = {
+				value = 0.05
+				pop_type = peasants
+			}
+		}
+	}
+
+	option = {
+		name = bourbon_instability.5.c #explicar los requisitos de esta en el evento por si sale repetible
+
+		trigger = {
+			OR = {
+				institution_investment_level = {
+					institution = institution_police
+					value = 3
+				}
+				institution_investment_level = {
+					institution = institution_home_affairs
+					value = 2
+				}
+			}
+		}
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_modifier = {
+				name = bourbon_calabrese_repression
+				years = 5
+				is_decaying = yes
+			}
+			set_variable = liugoro_var
+		}
+	}
+}
+
+#Revueltas por malestar general + nacionalistas liberales.
+bourbon_instability.6 = {
+	type = country_event
+	placement = root
+
+	title = bourbon_instability.6.t
+	desc = bourbon_instability.6.d
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	gui_window = event_window_1char_tabloid
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	duration = 3
+
+	cooldown = { days = never_fire_again_modifier_time }
+
+	is_popup = yes
+
+	trigger = {	}
+
+	immediate = {}
+
+	option = {
+		name = bourbon_instability.6.a # De Liguoro
+		default_option = yes
+
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_CALABRIA
+			}
+			add_devastation = 15
+		}
+	}
+
+	option = {
+		name = bourbon_instability.6.b
+
+		add_modifier = {
+			name = bourbon_parlamentary_compromises
+			years = 5
+			is_decaying = yes
+		}
+	}
+}
+
+
+#Radicales
+
+#El Viejo Orden.
+
+
+#Jacquerie de 1837.
+
+# Sicilianos, Home or Abroad or POLISIA
+
+
+#Cólera en el 54, Rebelión en el 55.
+
+#Protest of the People of the Two Sicilies - Si no completa la entrada de diario a tiempo (SC forma Italia del norte o desbloquea X tech, o Austria no tiene Lombardía y/o Veneto).

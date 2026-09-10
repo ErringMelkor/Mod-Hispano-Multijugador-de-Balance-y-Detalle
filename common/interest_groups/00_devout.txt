@@ -33,7 +33,12 @@
 					owner = {
 						country_has_state_religion = rel:protestant
 						NOT = {
-							c:BIC ?= this
+							OR = {
+								c:BIC ?= this
+								country_has_primary_culture = cu:north_german
+								country_has_primary_culture = cu:swedish
+							}
+
 						}
 					}
 				}
@@ -152,6 +157,19 @@
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
 				set_ig_trait = ig_trait:ig_trait_divine_autocracy
 				set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+			}
+			else_if = {
+				limit = {
+					owner = {
+						OR = {
+							country_has_primary_culture = cu:north_german
+							country_has_primary_culture = cu:swedish
+						}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_pious_fiction
+				set_ig_trait = ig_trait:ig_trait_pietist_philanthropy
+				set_ig_trait = ig_trait:ig_trait_work_ethic
 			}			
 			else = {
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
@@ -626,6 +644,19 @@
 					is_pop_type = clergymen
 				}
 				value = 250
+			}
+		}
+
+		add = {
+			desc = "POP_MACHINISTS"
+			if = {
+				limit = {
+					is_pop_type = machinists
+					owner = {
+						has_law_or_variant = law_type:law_religious_unions
+					}
+				}
+				value = 25
 			}
 		}
 

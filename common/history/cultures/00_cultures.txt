@@ -111,7 +111,9 @@
 	cu:south_italian = {
 		set_fervor = 25
 	}
-	
+	cu:siciliano = {
+		set_fervor = 50
+	}
 	# Balkans
 	cu:greek = {
 		set_fervor = 25

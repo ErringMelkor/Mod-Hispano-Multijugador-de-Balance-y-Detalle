@@ -32,6 +32,8 @@ Europa:
     Eastern Counties Farmers (Agricultura). Estado: East Anglia.
     Lapua (Armas). Estado: Ostrobothnia.
 
+    Continental AG. Alemania. Sintéticos (caucho en especifico, petróleo).
+
 África:
     Aspen Farmacare. Estado: Eastern Cape / Zululand.
     SABMiller (Licor). Sudáfrica.

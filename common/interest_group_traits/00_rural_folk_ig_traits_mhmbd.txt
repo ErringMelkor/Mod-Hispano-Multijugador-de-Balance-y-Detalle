@@ -3,3 +3,25 @@
 ### Italia ###
 
 # il prodotto locale
+
+
+### Francia ###
+
+ig_trait_metayage = {
+	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
+	min_approval = happy
+
+	modifier = {
+		building_subsistence_output_add = 1
+		building_group_bg_subsistence_agriculture_mortality_mult = -0.075
+	}
+}
+ig_trait_jacquerie = {
+	icon = "gfx/interface/icons/ig_trait_icons/old_ways.dds"
+	max_approval = unhappy
+
+	modifier = {
+		state_turmoil_effects_mult = 0.1
+		state_tax_capacity_mult = -0.1
+	}
+}

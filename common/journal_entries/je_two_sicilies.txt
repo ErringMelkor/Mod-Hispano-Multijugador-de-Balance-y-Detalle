@@ -1,1 +1,134 @@
 #Stub.
+
+je_bourbon_instability = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	is_shown_in_lobby = {
+		c:SIC ?= THIS
+	}
+	
+	group = je_group_historical_content
+
+	modifiers_while_active = {
+		bourbon_instability
+	}
+
+	immediate = {
+		bourbon_instability_variables = yes
+		bourbon_instability_pulse_variables_progress = yes
+		random_law = {
+			limit = { type = law_type:law_monarchy }
+			save_scope_as = monarchy_scope
+		}
+	}
+
+	scripted_progress_bar = bourbon_instability_progress_bar
+	display_progressbar_as_months = yes
+
+	on_weekly_pulse = {
+		events = {
+			bourbon_instability.1
+		}
+		effect = {
+			if = {
+				limit = {}
+				bourbon_instability_pulse_variables_progress = yes
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+        random_events = {
+            90 = 0
+            30 = bourbon_instability.2
+			10 = bourbon_instability.4
+			10 = bourbon_instability.5
+			5 = bourbon_instability.6
+        }
+    }
+
+
+	complete = {
+		OR = {
+			AND = {
+				country_has_monarchy_law = yes
+				custom_tooltip = {
+					text = je_bourbon_instability_tt
+					scope:journal_entry ?= {
+						"scripted_bar_progress(bourbon_instability_progress_bar)" >= 100
+					}
+				}
+			}
+			AND = {
+				country_has_monarchy_law = yes
+				any_subject_or_below = {
+					OR = {
+						country_definition = cd:SCI
+						was_formed_from = SCI
+					}
+				}
+			}
+		}
+		has_technology_researched = nationalism
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = bourbon_integration
+			years = 10
+			is_decaying = yes
+		}
+		add_loyalists = {
+			value = 0.35
+			culture = cu:south_italian
+		}
+	}
+
+	fail = {
+		OR = {
+			country_has_monarchy_law = no
+			AND = {
+				NOT = {
+					OR = {
+						has_subject_relation_with = c:SCI
+						c:SCI = {
+							has_state_in_state_region = STATE_SICILY
+						}
+					}
+				}
+				NOT = {
+					has_state_in_state_region = STATE_SICILY
+				}
+			}
+			AND = {
+				has_subject_relation_with = c:SCI
+				NOT = {
+					c:SCI = {
+						has_state_in_state_region = STATE_SICILY
+					}
+				}
+				NOT = {
+					has_state_in_state_region = STATE_SICILY
+				}
+			}
+			AND = {
+				has_subject_relation_with = c:SCI
+				has_state_in_state_region = STATE_SICILY
+			}
+		}
+	}
+
+	on_fail = {
+		add_radicals = {
+			value = 0.15
+			culture = cu:neapolitano
+		}
+		add_radicals = {
+			value = 0.25
+			culture = cu:siciliano
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

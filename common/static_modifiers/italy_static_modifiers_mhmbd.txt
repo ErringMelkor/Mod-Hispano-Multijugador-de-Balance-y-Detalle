@@ -1,0 +1,78 @@
+bourbon_instability = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_radicals_from_legitimacy_mult = 0.75
+	state_radicals_from_political_movements_mult = 0.25
+	country_legitimacy_headofstate_add = -25
+	political_movement_radicalism_add = 0.15
+	country_fervor_target_siciliano_add = 30
+}
+
+bourbon_integration = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_assimilation_mult = 1.5
+	country_radicalism_increases_full_acceptance_mult = -0.35
+	country_legitimacy_headofstate_add = 25
+	country_authority_mult = 0.25
+}
+
+bourbon_cholera_outbreak = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+
+	state_mortality_mult = 0.05
+	state_radicalism_increases_second_rate_citizen_mult = 0.25
+}
+
+bourbon_jacquerie = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+
+	state_incorporation_speed_mult = -2
+	state_mortality_turmoil_mult = 0.25
+}
+
+bourbon_palermitani_concessions = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	
+	state_incorporation_speed_mult = -1
+	state_radicalism_increases_second_rate_citizen_mult = -0.25
+	state_turmoil_effects_mult = -0.5
+}
+
+bourbon_palermitani_repression = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	
+	state_incorporation_speed_mult = 0.5
+	state_radicalism_increases_second_rate_citizen_mult = 0.35
+	state_turmoil_effects_mult = 0.25
+}
+
+bourbon_calabrese_concessions = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	
+	state_bureaucracy_population_base_cost_factor_mult = 0.5
+	building_subsistence_output_add = 0.5
+}
+
+bourbon_calabrese_apathy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_tax_waste_add = 0.15
+	state_trade_advantage_mult = -0.15
+}
+
+bourbon_calabrese_repression = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_radicalism_increases_second_rate_citizen_mult = 0.15
+}
+
+bourbon_parlamentary_compromises = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_legitimacy_headofstate_add = -5
+	political_movement_pop_attraction_mult = 0.5
+}
+
+borbonic_instability = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_radicalism_increases_second_rate_citizen_mult = 0.5
+	country_legitimacy_headofstate_add = -25
+	political_movement_radicalism_add = 0.25
+	country_fervor_target_siciliano_add = 30
+}

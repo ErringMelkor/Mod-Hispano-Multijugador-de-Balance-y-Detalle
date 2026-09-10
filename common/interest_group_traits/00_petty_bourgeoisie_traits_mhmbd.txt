@@ -35,7 +35,7 @@ ig_trait_vuelva_usted_manana = {
 	min_approval = unhappy
 	
 	modifier = {
-		country_law_enactment_time_mult = 0.25
+		country_law_enactment_speed_mult = -0.25
 		country_bureaucracy_mult = -0.05
 	}
 }
@@ -58,5 +58,30 @@ REPLACE_OR_CREATE:ig_trait_effendi = {
 
 	modifier = {
 		country_institution_size_change_speed_mult = 0.25
+	}
+}
+
+### Dos Sicilias / Italia ###
+
+ig_trait_galantuomini = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy
+
+	modifier = {
+		state_radicalism_increases_full_acceptance_mult = -0.1
+		country_authority_mult = 0.05
+	}
+}
+
+
+### Países Bajos ###
+
+ig_trait_handelaar = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy
+
+	modifier = {
+		state_trade_advantage_mult = 0.15
+		state_trade_capacity_mult = 0.25
 	}
 }

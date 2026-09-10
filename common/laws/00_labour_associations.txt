@@ -356,6 +356,64 @@ law_corporatized_unions = {
 	}
 }
 
+
+law_religious_unions = {
+	group = lawgroup_labour_associations
+
+	icon = "gfx/interface/icons/law_icons/religious_unions.dds"
+
+	progressiveness = 0
+
+	unlocking_technologies = {
+		corporatism
+	}
+
+	on_enact = {
+		if = {
+			limit = {
+				OR = {
+					has_law_or_variant = law_type:law_guild_system
+					has_law_or_variant = law_type:law_anti_strike_laws
+					has_law_or_variant = law_type:law_combination_acts
+					has_law_or_variant = law_type:law_right_to_associate
+					has_law_or_variant = law_type:law_corporatized_unions
+
+				}
+			}
+			custom_tooltip = law_religious_unions_tt
+		}			
+	}
+
+	modifier = {
+		country_authority_add = 100
+		state_radicals_and_loyalists_from_sol_change_mult = 0.10
+		state_pop_support_movement_communist_mult = -0.15
+		state_pop_support_movement_anarchist_mult = -0.15
+		state_pop_support_movement_socialist_mult = -0.15
+	}
+
+	ai_will_do = {
+		any_interest_group = {
+			is_in_government = yes
+			OR = {
+				has_ideology = ideology:ideology_corporatist
+				leader ?= {
+					has_ideology = ideology:ideology_corporatist_leader
+				}
+			}
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}	
+}
+
 law_factory_councils = {
 	group = lawgroup_labour_associations
 

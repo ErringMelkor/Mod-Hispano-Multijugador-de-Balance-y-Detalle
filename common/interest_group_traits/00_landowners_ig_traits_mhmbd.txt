@@ -43,8 +43,29 @@ ig_trait_farm_and_family = {
 	}
 }
 
+### Prusia ###
 
-### Francia
+ig_trait_rittergut = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+	min_approval = happy
+
+	modifier = {
+		country_bureaucracy_investment_cost_factor_mult = -0.15
+	}
+}
+
+
+### Francia ###
+
+ig_trait_les_notables = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+	min_approval = loyal
+
+	modifier = {
+		state_aristocrats_investment_pool_efficiency_mult = 0.05
+		country_authority_mult = 0.1
+	}
+}
 
 ig_trait_lingua_franca = { 
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
@@ -55,8 +76,7 @@ ig_trait_lingua_franca = {
 	}
 }
 
-
-### Genérico
+### Genérico ###
 
 REPLACE_OR_CREATE:ig_trait_noblesse_oblige = {
 	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"

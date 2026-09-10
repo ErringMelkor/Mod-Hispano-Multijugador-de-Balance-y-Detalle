@@ -6,7 +6,7 @@
 
 	ideologies = {
 		ideology_liberal
-		ideology_anti_clerical_mod
+		ideology_anti_clerical
 		ideology_republican
 		ideology_anti_slavery
 	}
@@ -122,7 +122,7 @@
 				c:PAP ?= this
 			}
 			ig:ig_intelligentsia ?= {
-				remove_ideology = ideology_anti_clerical_mod
+				remove_ideology = ideology_anti_clerical
 			}
 		}
 		# Hawaiian Democrats

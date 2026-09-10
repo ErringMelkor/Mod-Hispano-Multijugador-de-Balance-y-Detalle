@@ -8,7 +8,7 @@
 
 country_institution_cost_institution_military_mult={
 	decimals=0
-	color=good
+	color=bad
 	percent=yes
 	game_data={
 		ai_value=0
@@ -28,6 +28,22 @@ goods_output_coal_mult = {
 	decimals=0
 	color=good
 	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+country_fervor_target_siciliano_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_luxury_clothes_add = {
+	decimals=1
+	color=bad
 	game_data={
 		ai_value=0
 	}

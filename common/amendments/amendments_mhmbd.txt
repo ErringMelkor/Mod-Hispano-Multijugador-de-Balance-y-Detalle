@@ -1,0 +1,135 @@
+#purchase of commisions
+
+amendment_bersaglieri = {
+
+	parent = law_professional_army
+
+	allowed_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	modifier = {
+		unit_morale_damage_mult = 0.025
+		country_institution_cost_institution_military_mult = 0.15
+	}
+
+	possible = {
+		country_has_primary_culture = cu:north_italian
+	}
+
+	would_sponsor = {
+		AND = {
+			exists = scope:approval
+			scope:approval > 0
+		}
+	}
+
+	ai_will_revoke = {
+		any_interest_group = {
+			is_in_government = yes
+			interest_group_has_socialist_ideology = yes
+		}
+	}
+
+	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
+	}
+
+	amendment_activism_multiplier = 0.05
+}
+
+#cacciatori
+
+amendment_cacciatori = {
+
+	parent = law_professional_army
+
+	allowed_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	modifier = {
+		unit_morale_damage_mult = 0.025
+		country_institution_cost_institution_military_mult = 0.15
+	}
+
+	possible = {
+		country_has_primary_culture = cu:south_italian
+	}
+
+	would_sponsor = {
+		AND = {
+			exists = scope:approval
+			scope:approval > 0
+		}
+	}
+
+	ai_will_revoke = {
+		any_interest_group = {
+			is_in_government = yes
+			interest_group_has_socialist_ideology = yes
+		}
+	}
+
+	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
+	}
+
+	amendment_activism_multiplier = 0.05	
+}
+
+#bashi-bazouk
+
+amendment_bashibazouk = {
+	
+	parent = law_national_militia
+
+	allowed_laws = {
+		law_peasant_levies
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	modifier = {
+		country_military_wages_mult = -0.25
+		state_mortality_turmoil_mult = 0.015
+		country_infamy_decay_mult = -0.15
+		interest_group_ig_rural_folk_pol_str_mult = 0.25
+	}
+
+	on_activate = {	}
+
+	possible = {
+		country_has_primary_culture = cu:turkish
+	}
+
+	would_sponsor = {
+		AND = {
+			exists = scope:approval
+			scope:approval > 0
+		}
+	}
+
+	ai_will_revoke = {
+		any_interest_group = {
+			is_in_government = yes
+			interest_group_has_socialist_ideology = yes
+		}
+	}
+
+	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
+		NOT = {
+			has_modifier = sick_man_of_europe
+		}
+	}
+
+	amendment_activism_multiplier = 0.35
+}
+
+#squadra (versión buena) / squadre briganti (versión mala)

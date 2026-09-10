@@ -71,6 +71,60 @@ law_national_guard = {
 	}
 }
 
+law_landwehr = {
+	group = lawgroup_internal_security
+	parent = law_national_guard
+	icon = "gfx/interface/icons/law_icons/national_guard.dds"
+	
+	progressiveness = 25
+
+	unlocking_technologies = {
+		law_enforcement
+	}
+
+	is_visible = {
+		country_has_primary_culture = cu:north_german
+	}
+
+	modifier = {
+		country_officers_pol_str_mult = 0.35
+		country_soldiers_pol_str_mult = 0.15
+	}
+
+	institution = institution_home_affairs
+	institution_modifier = {
+		interest_group_ig_armed_forces_pol_str_mult = 0.05
+		state_conscription_rate_add = 0.003
+		building_training_rate_mult = 0.03
+		political_movement_radicalism_add = -0.03
+		country_coup_resistance_add = 0.5
+	}
+
+	# Don't return to national guard we have something more advanced
+	ai_will_do = {
+		NOR = {
+			has_law_or_variant = law_type:law_secret_police
+			has_law_or_variant = law_type:law_guaranteed_liberties
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+
+		if = {
+			limit = {
+				has_journal_entry = je_hawaii
+			}
+			add = 10000
+		}
+	}
+}
+
 law_secret_police = {
 	group = lawgroup_internal_security
 	icon = "gfx/interface/icons/law_icons/secret_police.dds"

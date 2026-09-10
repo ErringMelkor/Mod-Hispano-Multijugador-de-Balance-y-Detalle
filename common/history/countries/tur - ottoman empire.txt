@@ -18,12 +18,20 @@
 		activate_law = law_type:law_millet_system
 		activate_law = law_type:law_subjecthood
 		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_derebeys
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_slave_trade
 
 		ig:ig_landowners ?= { # Mehmed Emin Rauf Pasha was Grand Vizier in 1836
 			add_ruling_interest_group = yes
+		}
+
+		active_law:lawgroup_army_model ?= {
+			add_amendment = {
+				type = amendment_bashibazouk
+				sponsor = PREV.ig:ig_rural_folk
+			}
 		}
 
 		trigger_event = {

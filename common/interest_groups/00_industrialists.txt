@@ -7,7 +7,7 @@
 	ideologies = {
 		ideology_plutocratic
 		ideology_laissez_faire
-		ideology_individualist_mod
+		ideology_individualist
 	}
 
 	character_ideologies = {
@@ -76,7 +76,7 @@
 					owner = { c:FRA ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
-				set_ig_trait = ig_trait:ig_trait_engines_of_progress
+				set_ig_trait = ig_trait:ig_trait_credit_mobilier
 				set_ig_trait = ig_trait:ig_trait_ventilate_unify_beautify
 			}
 			else_if = {
@@ -113,12 +113,25 @@
 				add_ideology = ideology_colonialist
 				remove_ideology = ideology_plutocratic
 				add_ideology = ideology_enclavist
-				remove_ideology = ideology_individualist_mod
+				remove_ideology = ideology_individualist
 				add_ideology = ideology_malthusian
 
 				set_ig_trait = ig_trait:ig_trait_wounded_honor
 				set_ig_trait = ig_trait:ig_trait_stamped_and_signed
 				set_ig_trait = ig_trait:ig_trait_responsible_government
+			}
+			#Culturas Alemanas
+			else_if = {
+				limit = {
+					owner = {
+						any_primary_culture = {
+							has_discrimination_trait = language_germanophone
+						}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_tax_avoidance
+				set_ig_trait = ig_trait:ig_trait_kohleexpertise
+				set_ig_trait = ig_trait:ig_trait_eisenbahnlagen
 			}
 			else_if = {
 				limit = {

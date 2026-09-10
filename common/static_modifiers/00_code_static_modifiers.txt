@@ -40,14 +40,11 @@ base_values = {
 	state_shopkeepers_investment_pool_contribution_add = 0.15
 	state_clergymen_investment_pool_contribution_add = 0.15
 	state_aristocrats_investment_pool_contribution_add = 0.15
-	state_capitalists_investment_pool_contribution_add = 0.2
+	state_capitalists_investment_pool_contribution_add = 0.225
 	
-	state_literacy_growth_add = 0.00015 #Erring dice que debería ser 35 buuuuuuuu; +0.000025-50 dependiendo por nivel de escuelas (max. de 0.000125-0.000250 + 0.00015 base).
-
+	state_literacy_growth_add = 0.00015
 
 # To balance for unincorporated states not paying taxes
-	state_unincorporated_starting_wages_mult = -0.20
-	building_unincorporated_subsistence_output_mult = -0.20
 		
 	country_construction_add = 15
 	
@@ -61,7 +58,7 @@ base_values = {
 	country_max_weekly_construction_progress_add = 10
 	country_ship_construction_progress_max_add = 0
 
-	military_formation_organization_gain_add = 0.5 # 200 days to get max organization
+	military_formation_organization_gain_add = 1.0 # 100 days to get max organization
 
 	state_urbanization_per_level_add = 100
 
@@ -264,6 +261,11 @@ unincorporated_state = {
 	building_group_bg_military_industry_construction_efficiency_add = -0.5
 	building_group_bg_light_industry_construction_efficiency_add = -0.3
 	building_group_bg_government_construction_efficiency_add = -0.3
+
+	# To balance for unincorporated states not paying taxes
+	building_minimum_wage_mult = -0.20
+	building_subsistence_output_mult = -0.20
+
 }
 
 treaty_port_state = {
@@ -378,7 +380,8 @@ government_wages_high = {
 	country_government_wages_mult = 0.175
 	interest_group_ig_intelligentsia_approval_add = 1	
 	interest_group_ig_petty_bourgeoisie_approval_add = 1
-	country_bureaucracy_mult = 0.05
+	state_incorporation_speed_mult = 0.35
+	country_institution_size_change_speed_mult = 0.15
 }
 
 government_wages_very_high = {
@@ -386,7 +389,8 @@ government_wages_very_high = {
 	country_government_wages_mult = 0.35
 	interest_group_ig_intelligentsia_approval_add = 3
 	interest_group_ig_petty_bourgeoisie_approval_add = 3
-	country_bureaucracy_mult = 0.1
+	state_incorporation_speed_mult = 0.75
+	country_institution_size_change_speed_mult = 0.35
 }
 
 military_wages_very_low = {
@@ -455,7 +459,9 @@ prestige_goods_supply_army = {
 }
 
 prestige_goods_supply_navy = {
-	unit_morale_recovery_mult = 0.25
+	ship_hull_damage_mult = 0.1
+	ship_crew_damage_mult = 0.1
+	ship_armor_mult = 0.1
 }
 
 insurrectionary_ig = {
@@ -471,7 +477,7 @@ ruler_left_interest_group = {
 # Unscaled modifier applied to all insurrectionary countries
 uprising = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	building_training_rate_add = 1000
+	building_training_rate_add = 200
 	building_training_rate_mult = 2.0
 }
 
@@ -481,6 +487,7 @@ uprising_conscription = {
 	state_conscription_rate_add = 1.0
 }
 
+# Below modifiers generate sell orders of military goods in insurrectionary capitals, based on pre-civil war market conditions
 uprising_arms_cache_small_arms = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	state_sell_orders_small_arms_add = 15
@@ -574,7 +581,7 @@ administrative_overburden = {
 # Excess AUT reduces enactment time by -25% at 2x production to usage
 legislative_efficiency = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-	country_law_enactment_time_mult = -0.35
+	country_law_enactment_speed_mult = 0.35
 	state_radicals_from_political_movements_mult = -0.35
 }
 
@@ -907,7 +914,7 @@ low_organization_army = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	unit_offense_mult = -0.85
 	unit_defense_mult = -0.85
-	military_formation_attrition_risk_mult = 0.5
+	military_formation_attrition_risk_mult = 0.65
 	unit_morale_recovery_mult = -1
 	unit_recovery_rate_add = -0.5
 }
