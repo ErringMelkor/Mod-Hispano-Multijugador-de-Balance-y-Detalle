@@ -897,7 +897,7 @@
 	c:BGL ?= {
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_bengal
+			hq_region = sr:region_north_india
 			name = BengalArmy
 			
 			combat_unit = {

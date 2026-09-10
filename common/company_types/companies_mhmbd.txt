@@ -859,14 +859,14 @@ company_wilson_sons= {
 		building_trade_center = {
 			level = 5
 			state_trigger = {
-				region = sr:STATE_BAHIA
+				state_region = s:STATE_BAHIA
 				is_incorporated = yes
 			}
 		}
 		building_port = {
 			level = 5
 			state_trigger = {
-				region = sr:STATE_BAHIA
+				state_region = s:STATE_BAHIA
 				is_incorporated = yes
 			}
 		}
@@ -2223,7 +2223,7 @@ company_shewa_sa= {
 	prosperity_modifier = {
 		state_birth_rate_mult = 0.025
 		state_mortality_mult = -0.025
-		bg_mining_throughput_add = 0.5
+		building_group_bg_mining_throughput_add = 0.05
 	}
 
 	ai_will_do = {

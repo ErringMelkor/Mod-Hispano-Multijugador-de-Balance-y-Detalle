@@ -351,6 +351,7 @@
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 			if = {
 			   limit = {
 					is_slave_state = yes
@@ -446,6 +447,7 @@
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 			if = {
 			   limit = {
 					is_slave_state = yes
@@ -551,6 +553,19 @@
 
 		if = {
 			limit = {
+				owner ?= { has_journal_entry = je_acw_countdown }
+				c:USA = {
+					has_law_or_variant = law_type:law_slavery_banned
+				}
+			}
+			add = {
+				value = -0.25
+				desc = "je_acw_countdown"
+			}
+		}
+
+		if = {
+			limit = {
 				owner = {
 					any_neighbouring_state = {
 						owner = {
@@ -566,6 +581,20 @@
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -773,12 +802,13 @@ movement_pro_slavery = {
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 			if = {
 			   limit = {
 					is_slave_state = no
 					NOT = { has_variable = former_slave_state }
-			   }
-			   if = {
+				}
+			    if = {
 					limit = {
 						owner ?= {
 							OR = {
@@ -866,6 +896,7 @@ movement_pro_slavery = {
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 			if = {
 			   limit = {
 					is_slave_state = no
@@ -905,7 +936,10 @@ movement_pro_slavery = {
 				if = { # Ensure the union retains Washington DC/Maryland/Delaware in case of southern secession
 					limit = {
 						OR = {
+							state_region = s:STATE_MARYLAND
+							state_region = s:STATE_DELAWARE
 							state_region = s:STATE_DISTRICT_OF_COLUMBIA
+							state_region = s:STATE_WEST_VIRGINIA
 						}
 					}
 
@@ -995,7 +1029,7 @@ movement_pro_slavery = {
 				owner = {
 					every_scope_building = {
 						limit = {
-							is_building_type = building_naval_base
+							is_building_type = building_naval_administration
 							state = { is_slave_state = yes }
 						}
 						add = this.level
@@ -1021,7 +1055,35 @@ movement_pro_slavery = {
 			}
 
 			add = {
-				value = 0.45
+				value = 0.35
+				desc = "je_acw_countdown"
+			}
+		}
+
+		if = {
+			limit = {
+				owner ?= { has_journal_entry = je_acw_countdown }
+				c:USA = {
+					has_law_or_variant = law_type:law_slave_trade
+				}
+				
+			}
+			add = {
+				value = -0.25
+				desc = "je_acw_countdown"
+			}
+		}
+
+		if = {
+			limit = {
+				owner ?= { has_journal_entry = je_acw_countdown }
+				c:USA = {
+					has_law_or_variant = law_type:law_legacy_slavery
+				}
+				
+			}
+			add = {
+				value = -0.05
 				desc = "je_acw_countdown"
 			}
 		}
@@ -1043,6 +1105,19 @@ movement_pro_slavery = {
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -1113,8 +1188,8 @@ movement_royalist_absolutist = {
 			}
 		}
 		NOT = { c:FRA ?= this }
-		NOR = { 
-			has_law = law_type:law_bakufu 
+		NOR = {
+			has_law = law_type:law_bakufu
 			AND = {
 				c:JAP ?= this
 				NOT = { has_variable = japan_restoration_complete }
@@ -1383,6 +1458,7 @@ movement_royalist_absolutist = {
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 
 			subtract = state_urbanization_rate
 
@@ -1487,6 +1563,19 @@ movement_royalist_absolutist = {
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -1768,6 +1857,7 @@ movement_royalist_constitutional = {
 
 		state_weight = {
 			value = 1
+			add = scope:clout
 
 			subtract = {
 				value = state_urbanization_rate
@@ -1878,6 +1968,19 @@ movement_royalist_constitutional = {
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -2199,6 +2302,9 @@ movement_labor = { # Explicitly non-socialist labour movement
 
 		state_weight = {
 			value = state_urbanization_rate
+			add = scope:clout
+			add = { value = this.turmoil divide = 2 }
+			subtract = this.loyalists
 		}
 	}
 
@@ -2214,6 +2320,8 @@ movement_labor = { # Explicitly non-socialist labour movement
 
 		state_weight = {
 			value = state_urbanization_rate
+			add = { value = this.turmoil divide = 2 }
+			subtract = this.loyalists
 		}
 	}
 
@@ -2271,6 +2379,19 @@ movement_labor = { # Explicitly non-socialist labour movement
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -2593,6 +2714,9 @@ movement_socialist = {
 
 		state_weight = {
 			value = state_urbanization_rate
+			add = scope:clout
+			add = { value = this.turmoil divide = 2 }
+			subtract = this.loyalists
 
 			if = {
 				limit = { is_capital = yes }
@@ -2712,6 +2836,19 @@ movement_socialist = {
 			add = {
 				desc = "NEIGHBOURING_COUNTRY_WITH_REVOLUTION"
 				value = 0.15
+			}
+		}
+		if = {
+			limit = {
+				this.days_since_movement_defeated <= very_long_modifier_time
+			}
+			add = { # (x-y)/y - ([1, 7300]-7300)/7300
+				desc = "movement_suppressed_after_civil_war"
+				value = this.days_since_movement_defeated
+				subtract = very_long_modifier_time
+				divide = {
+					value = very_long_modifier_time
+				}
 			}
 		}
 	}
@@ -3033,29 +3170,18 @@ movement_anarchist = {
 	secession = {
 		possible = {
 			political_movement_support >= 0.05
-			OR = {
-				scope:clout <= 0
-				trigger_if = {
-					NOT = {
-						owner = {
-							has_journal_entry = je_spanish_anarchism # So the Spanish anarchists will always launch a revolution if possible
-						}
-					}
-					AND = {
-						scope:clout > 0
-						scope:clout <= 0.15
-						owner ?= {
-							NOR = {
-								has_law_or_variant = law_type:law_council_republic
-								is_enacting_law = law_type:law_council_republic
-								is_enacting_law = law_type:law_anarchy
-								any_interest_group = {
-									is_in_government = yes
-									leader ?= {
-										has_ideology = ideology:ideology_anarchist
-									}
-								}
-							}
+			political_movement_support <= 0.15
+			scope:clout <= 0.15
+			owner ?= {
+				num_states > 5
+				NOR = {
+					has_law_or_variant = law_type:law_council_republic
+					is_enacting_law = law_type:law_council_republic
+					is_enacting_law = law_type:law_anarchy
+					any_interest_group = {
+						is_in_government = yes
+						leader ?= {
+							has_ideology = ideology:ideology_anarchist
 						}
 					}
 				}
@@ -3063,7 +3189,21 @@ movement_anarchist = {
 		}
 
 		weight = {
-			value = 1000
+			value = 150
+
+			multiply = {
+				value = 1
+				subtract = scope:clout
+			}
+
+			if = {
+				limit = {
+					owner = {
+						has_journal_entry = je_spanish_anarchism # So the Spanish anarchists will always launch a revolution if possible
+					}
+				}
+				multiply = 0
+			}
 		}
 	}
 

@@ -1508,7 +1508,6 @@ on_monthly_pulse_country = {
 		delay = { days = 7 }
 		japan_monarchy_monthly_events
 		fund_lobbies_monthly_events
-		spooky_halloween_events
 		HMPS_Check_for_GM
 		delay = { days = 7 }
 		sweden_events
@@ -5493,14 +5492,6 @@ on_secession_start = {
 				}
 				trigger_event = { id = independence.1 days = 7 popup = yes }
 			}
-		}
-		if = {
-			limit = {
-				has_journal_entry = je_warlord_china
-				NOT = { has_variable = china_warlord_explosion_revolution }
-			}
-			chi_remove_1_fragile_unity = yes
-			set_variable = china_warlord_explosion_revolution
 		}
 		if = {
 			limit = {

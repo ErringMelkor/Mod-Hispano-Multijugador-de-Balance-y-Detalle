@@ -1,0 +1,28 @@
+# Gracias a HMPS por el código.
+
+on_monthly_pulse_country = {
+	on_actions = {
+		HMPS_Check_for_GM
+	}
+}
+
+HMPS_Check_for_GM = {
+	effect = {
+		if = {
+			limit = {
+				has_global_variable = player_gm
+				any_country = {
+					has_modifier = game_master
+					is_player = no
+				}
+			}
+			random_country = {
+				limit = {
+					has_modifier = game_master
+				}
+				remove_modifier = game_master
+				remove_global_variable = player_gm
+			}
+		}
+	}
+}

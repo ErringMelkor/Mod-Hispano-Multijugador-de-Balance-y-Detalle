@@ -642,7 +642,7 @@ company_colt_firearms = {
 
 	flavored_company = yes
 
-	preferred_headquarters = { STATE_GREATER_MASSACHUSETTS }
+	preferred_headquarters = { STATE_MASSACHUSETTS }
 
 	building_types = {
 		building_arms_industry

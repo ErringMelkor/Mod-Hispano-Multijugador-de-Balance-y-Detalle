@@ -1,0 +1,23 @@
+﻿#stub
+
+
+prestige_goods_specialty_sugar_unlocked = {  # One would think one could create one notification for unlocking any prestige good. Were it so easy. # Qué razón tienes.
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_specialty_sugar_unlocked = {  # One would think one could create one notification for unlocking any prestige good. Were it so easy. # Qué razón tienes.
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}
+
+prestige_goods_premium_liquor_unlocked = {  # One would think one could create one notification for unlocking any prestige good. Were it so easy. # Qué razón tienes.
+	type = country
+	texture = "gfx/interface/icons/notification_icons/company.dds"
+
+	notification_type = toast
+}

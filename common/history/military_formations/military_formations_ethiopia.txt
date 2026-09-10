@@ -3,7 +3,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_ethiopia
+			hq_region = sr:region_east_africa
 			name = Shewan_Army
 
 			combat_unit = {
@@ -23,7 +23,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1801.1.22
-			hq = region_ethiopia
+			hq = region_east_africa
 			commander_rank = commander_rank_3
 			traits = {
 				direct

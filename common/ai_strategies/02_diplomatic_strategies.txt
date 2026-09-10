@@ -78,7 +78,7 @@
 
 			if = {
 				limit = {
-					power_bloc ?= { has_principle = principle:principle_colonial_offices_3 }
+					power_bloc ?= { has_principle = principle:principle_colonial_focus_3 }
 				}
 				add = 0.5
 			}
@@ -274,7 +274,7 @@ ai_strategy_territorial_expansion = {
 		conquer = {
 			trigger = {
 				NOT = { scope:target_country = { is_subject_of = root } }
-				can_reach_target_country = yes
+				can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 				has_strategic_adjacency = scope:target_country
 				scope:target_country.country_rank <= root.country_rank
 			}
@@ -434,7 +434,7 @@ ai_strategy_colonial_expansion = {
 		if = {
 			limit = {
 				NOT = { is_country_type = unrecognized }
-				scope:target_country = { is_country_type = unrecognized }
+				scope:target_country = { ai_country_is_valid_colonization_target = yes }
 				has_technology_researched = colonization
 				institution_investment_level = {
 					institution = institution_colonial_affairs
@@ -445,7 +445,7 @@ ai_strategy_colonial_expansion = {
 
 			if = {
 				limit = {
-					power_bloc ?= { has_principle = principle:principle_colonial_offices_3 }
+					power_bloc ?= { has_principle = principle:principle_colonial_focus_3 }
 				}
 				add = 0.75
 			}
@@ -473,19 +473,6 @@ ai_strategy_colonial_expansion = {
 					}
 					add = 10
 				}
-			}
-
-			if = {
-				limit = {
-					scope:target_country = {
-						is_subject = yes
-						is_country_type = unrecognized
-						top_overlord ?= {
-							NOT = { is_country_type = unrecognized }
-						}
-					}
-				}
-				multiply = 0.0
 			}
 		}
 		if = {
@@ -587,15 +574,13 @@ ai_strategy_colonial_expansion = {
 			score = {
 				if = {
 					limit = {
-						scope:target_country = { NOT = { is_country_type = unrecognized } }
+						scope:target_country = { ai_country_is_valid_colonization_target = no }
 					}
 					add = -100
 				}
-				if = {
+				else_if = {
 					limit = {
-						NOT = { scope:target_country = { is_subject_of = root } }
-						has_strategic_adjacency = scope:target_country
-						scope:target_country = { is_country_type = unrecognized }
+						ai_country_is_valid_colonization_target = yes
 					}
 					add = 200
 
@@ -609,6 +594,8 @@ ai_strategy_colonial_expansion = {
 						add = 600
 					}
 				}
+
+				# Cleaning up Boers and Zulu
 				if = {
 					limit = {
 						country_has_primary_culture = cu:british
@@ -648,6 +635,19 @@ ai_strategy_colonial_expansion = {
 							}
 						}
 						add = 600
+					}
+
+					if = {
+						limit = {
+							scope:target_country = {
+								is_subject = yes
+								is_country_type = unrecognized
+								top_overlord ?= {
+									NOT = { is_country_type = unrecognized }
+								}
+							}
+						}
+						multiply = 0.0
 					}
 				}
 				if = {
@@ -718,7 +718,7 @@ ai_strategy_colonial_expansion = {
 		if = {
 			limit = {
 				power_bloc ?= {
-					has_principle_group = principle_group:principle_group_colonial_offices
+					has_principle_group = principle_group:principle_group_colonial_focus
 				}
 			}
 			add = 5
@@ -741,7 +741,7 @@ ai_strategy_colonial_expansion = {
 
 		if = {
 			limit = {
-				power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_offices }
+				power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_focus }
 			}
 			multiply = 1.5
 		}
@@ -834,9 +834,7 @@ ai_strategy_armed_isolationism = {
 
 	wargoal_weights = {
 		conquer_state = 0.0
-		make_protectorate = 0.0
 		reduce_autonomy = 0.0
-		make_tributary = 0.0
 		force_nationalization = 2.0
 	}
 
@@ -851,7 +849,7 @@ ai_strategy_armed_isolationism = {
 
 		if = {
 			limit = { is_country_type = unrecognized }
-			add = 50
+			add = 10
 		}
 
 		if = {
@@ -861,7 +859,7 @@ ai_strategy_armed_isolationism = {
 
 		if = {
 			limit = { has_law_or_variant = law_type:law_isolationism }
-			add = 100
+			add = 125
 		}
 
 		if = {
@@ -991,7 +989,7 @@ ai_strategy_economic_imperialism = {
 
 			if = {
 				limit = {
-					power_bloc ?= { has_principle = principle:principle_colonial_offices_3 }
+					power_bloc ?= { has_principle = principle:principle_colonial_focus_3 }
 				}
 				add = 0.5
 			}
@@ -1112,7 +1110,7 @@ ai_strategy_economic_imperialism = {
 						NOT = { scope:target_country = { is_subject_of = root } }
 						has_technology_researched = nationalism  # Just to make sure it doesn't happen immediately in 1836
 						country_rank = rank_value:great_power
-						navy_size >= 25
+						can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 						scope:target_country = {
 							country_has_primary_culture = cu:japanese
 							has_law_or_variant = law_type:law_isolationism
@@ -1125,12 +1123,11 @@ ai_strategy_economic_imperialism = {
 				else_if = {
 					limit = {
 						NOT = { scope:target_country = { is_subject_of = root } }
-						has_strategic_adjacency = scope:target_country
+						can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 						scope:target_country = {
-							country_has_primary_culture = cu:japanese
 							has_law_or_variant = law_type:law_isolationism
 							gdp >= 2000000
-							NOT = { capital.region = sr:region_northeast_asia }
+							NOT = { country_has_primary_culture = cu:japanese }
 						}
 					}
 					add = 100
@@ -1143,9 +1140,8 @@ ai_strategy_economic_imperialism = {
 						root.country_rank > scope:target_country.country_rank
 						scope:target_country.country_rank < rank_value:major_power
 						scope:target_country = {
-							NOR = {
+							NOT = {
 								has_law_or_variant = law_type:law_free_trade
-								has_law_or_variant = law_type:law_isolationism
 							}
 						}
 					}
@@ -1157,6 +1153,12 @@ ai_strategy_economic_imperialism = {
 							scope:target_country = { is_country_type = unrecognized }
 						}
 						add = 50
+					}
+					else_if = {
+						limit = {
+							scope:target_country = { NOT = { is_country_type = unrecognized } }
+						}
+						add = -25
 					}
 				}
 			}
@@ -1170,7 +1172,7 @@ ai_strategy_economic_imperialism = {
 					}
 					add = 50
 				}
-				if = {
+				else_if = {
 					limit = {
 						scope:target_country = { NOT = { is_country_type = unrecognized } }
 					}
@@ -1194,16 +1196,14 @@ ai_strategy_economic_imperialism = {
 	}
 
 	wargoal_weights = {
-		make_protectorate = 1.5
-		make_tributary = 1.5
-		make_dominion = 1.5
+		make_subject = 1.5
 		force_nationalization = 1.5
 	}
 
 	treaty_port_value = {
 		if = {
 			limit = {
-				can_reach_target_state = yes
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
 				scope:target_country = {
 					has_law_or_variant = law_type:law_isolationism
 					gdp >= 2000000 # Not worth doing against very small markets
@@ -1220,6 +1220,16 @@ ai_strategy_economic_imperialism = {
 				}
 			}
 		}
+
+		# Eager to reclaim a treaty port from a country that recently reneged on the agreement we inherited to them
+		if = {
+			limit = {
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
+				has_variable = wants_treaty_port_revenge_against
+				var:wants_treaty_port_revenge_against ?= scope:target_country
+			}
+			add = 100
+		}
 	}
 
 	wargoal_scores = {
@@ -1230,7 +1240,7 @@ ai_strategy_economic_imperialism = {
 			if = {
 				limit = {
 					country_rank = rank_value:great_power
-					can_reach_target_country = yes
+					can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 					scope:target_country = {
 						has_law_or_variant = law_type:law_isolationism
 						gdp >= 5000000 # Not worth doing against small markets
@@ -1263,7 +1273,7 @@ ai_strategy_economic_imperialism = {
 			if = {
 				limit = {
 					country_rank = rank_value:great_power
-					can_reach_target_country = yes
+					can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 					scope:target_country = {
 						has_law_or_variant = law_type:law_isolationism
 						gdp >= 5000000 # Not worth doing against small markets
@@ -1510,9 +1520,12 @@ ai_strategy_unify_germany = {
 						}
 					}
 				}
-				can_reach_target_state = yes
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
 			}
-			add = 100
+			add = {
+				value = 100
+				desc = "STATE_VALUE_UNIFY_GERMANY"
+			}
 		}
 	}
 
@@ -1798,13 +1811,17 @@ ai_strategy_unify_italy = {
 					state_region = {
 						OR = {
 							is_homeland = cu:north_italian
+							is_homeland = cu:central_italian
 							is_homeland = cu:south_italian
 						}
 					}
 				}
-				can_reach_target_state = yes
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
 			}
-			add = 100
+			add = {
+				value = 100
+				desc = "STATE_VALUE_UNIFY_ITALY"
+			}
 		}
 	}
 
@@ -2081,9 +2098,12 @@ ai_strategy_unify_ethiopia = {
 						}
 					}
 				}
-				can_reach_target_state = yes
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
 			}
-			add = 100
+			add = {
+				value = 100
+				desc = "STATE_VALUE_UNIFY_ETHIOPIA"
+			}
 		}
 	}
 
@@ -2094,7 +2114,7 @@ ai_strategy_unify_ethiopia = {
 					scope:target_country = {
 						has_journal_entry = je_age_of_princes
 					}
-					can_reach_target_country = yes
+					can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 				}
 				add = 300
 			}
@@ -2119,7 +2139,7 @@ ai_strategy_unify_ethiopia = {
 
 				if = {
 					limit = {
-						can_reach_target_country = no
+						NOT = { can_reach_target_country = { TARGET_COUNTRY = scope:target_country } }
 					}
 					add = 150
 				}
@@ -2136,7 +2156,7 @@ ai_strategy_unify_ethiopia = {
 						}
 					}
 				}
-				can_reach_target_country = yes
+				can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 			}
 			score = {
 				value = 500
@@ -2269,10 +2289,8 @@ ai_strategy_socialism_in_one_country = {
 
 	wargoal_weights = {
 		conquer_state = 0.0
-		make_protectorate = 0.0
+		make_subject = 0.0
 		reduce_autonomy = 0.0
-		make_tributary = 0.0
-		make_dominion = 0.0
 		force_nationalization = 5.0
 	}
 
@@ -2837,7 +2855,7 @@ ai_strategy_restore_natural_borders = {
 
 			if = {
 				limit = {
-					power_bloc ?= { has_principle = principle:principle_colonial_offices_3 }
+					power_bloc ?= { has_principle = principle:principle_colonial_focus_3 }
 				}
 				add = 1.0
 			}
@@ -2904,11 +2922,22 @@ ai_strategy_restore_natural_borders = {
 		force_nationalization = 0.5
 	}
 
+	strategic_region_scores = {
+		if = {
+			limit = {
+				scope:region = {
+					this = sr:region_western_europe
+				}
+			}
+			add = 250
+		}
+	}
+
 	secret_goal_scores = {
 		conquer = {
 			trigger = {
 				NOT = { scope:target_country = { is_subject_of = root } }
-				can_reach_target_country = yes
+				can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 			}
 			score = {
 				if = {
@@ -3042,6 +3071,16 @@ ai_strategy_prussia_of_the_balkans = {
 
 	obligation_value = {
 		value = 0
+
+		if = {
+			limit = {
+				has_variable = bul_pursued_greater_yugoslavism
+				scope:target_country = {
+					can_form_nation = YUG
+				}
+			}
+			add = 25
+		}
 	}
 
 	recklessness = {
@@ -3072,6 +3111,13 @@ ai_strategy_prussia_of_the_balkans = {
 			add = -2.0
 
 			if = {
+				limit = {
+					scope:target_country = {
+						is_unification_candidate = YUG
+					}
+				}
+				add = 0.25
+
 				if = {
 					limit = {
 						has_technology_researched = enlistment_offices
@@ -3084,6 +3130,7 @@ ai_strategy_prussia_of_the_balkans = {
 					scope:target_country = {
 						OR = {
 							country_has_primary_culture = cu:bulgarian
+							NOT = { is_unification_candidate = YUG }
 						}
 					}
 				}
@@ -3148,9 +3195,12 @@ ai_strategy_prussia_of_the_balkans = {
 						is_homeland = cu:bulgarian
 					}
 				}
-				can_reach_target_state = yes
+				can_reach_target_state = { TARGET_STATE = scope:target_state }
 			}
-			add = 100
+			add = {
+				value = 100
+				desc = "STATE_VALUE_PRUSSIA_OF_THE_BALKANS"
+			}
 		}
 	}
 
@@ -3160,7 +3210,7 @@ ai_strategy_prussia_of_the_balkans = {
 		}
 		return_state = {
 			add = 1000
-	}
+		}
 		conquer_state = {
 			if = {
 				limit = {
@@ -3176,7 +3226,7 @@ ai_strategy_prussia_of_the_balkans = {
 						}
 					}
 				}
-				add = 250
+				add = 100
 			}
 		}
 	}
@@ -3187,7 +3237,9 @@ ai_strategy_prussia_of_the_balkans = {
 				has_variable = bul_pursued_greater_yugoslavism
 				scope:target_country = {
 					country_has_primary_culture = cu:bulgarian
+					NOT = { is_unification_candidate = YUG }
 					OR = {
+						is_supporting_unification_candidate = { who = root country_formation = YUG }
 						is_subject_of = root
 						is_in_customs_union_with = root
 					}
@@ -3202,9 +3254,51 @@ ai_strategy_prussia_of_the_balkans = {
 				has_variable = bul_pursued_greater_yugoslavism
 				scope:target_country = {
 					country_has_primary_culture = cu:bulgarian
+					NOT = { is_unification_candidate = YUG }
 					NOR = {
+						is_supporting_unification_candidate = { who = root country_formation = YUG }
 						is_subject_of = root
 						is_in_customs_union_with = root
+					}
+				}
+			}
+			score = {
+				add = 1000
+			}
+		}
+		conquer = {
+			trigger = {
+				OR = {
+					AND = {
+						has_variable = bul_pursued_greater_yugoslavism
+						OR = {
+				scope:target_country = {
+					is_unification_candidate = YUG
+				}
+							AND = {
+								NOT = {
+									can_form_nation = YUG
+			}
+								any_scope_state = {
+									state_region = {
+										OR = {
+											is_homeland = cu:slovene
+											is_homeland = cu:croat
+											is_homeland = cu:serb
+											is_homeland = cu:bosniak
+										}
+									}
+								}
+							}
+						}
+					}
+					AND = {
+						has_variable = bul_pursued_bulgarian_empire
+						scope:target_country = {
+							any_scope_state = {
+								is_homeland_of_country_cultures = root
+							}
+						}
 					}
 				}
 			}

@@ -1,0 +1,415 @@
+# Piedmontese #
+
+piedmontese_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	piedmontese_cultural_acceptance_modifier_negative = 1
+}
+
+piedmontese_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	piedmontese_cultural_acceptance_modifier_positive = 1
+}
+
+piedmontese_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	piedmontese_fervor_target_modifier_negative = 1
+}
+
+piedmontese_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	piedmontese_fervor_target_modifier_negative = 1
+}
+
+piedmontese_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	piedmontese_standard_of_living_modifier_negative = 1
+}
+
+piedmontese_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	piedmontese_standard_of_living_modifier_positive = 1
+}
+
+# Lombard #
+
+lombard_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	lombard_cultural_acceptance_modifier_negative = 1
+}
+
+lombard_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	lombard_cultural_acceptance_modifier_positive = 1
+}
+
+lombard_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	lombard_fervor_target_modifier_negative = 1
+}
+
+lombard_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	lombard_fervor_target_modifier_negative = 1
+}
+
+lombard_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	lombard_standard_of_living_modifier_negative = 1
+}
+
+lombard_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	lombard_standard_of_living_modifier_positive = 1
+}
+
+# Venetian #
+
+venetian_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	venetian_cultural_acceptance_modifier_negative = 1
+}
+
+venetian_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	venetian_cultural_acceptance_modifier_positive = 1
+}
+
+venetian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	venetian_fervor_target_modifier_negative = 1
+}
+
+venetian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	venetian_fervor_target_modifier_negative = 1
+}
+
+venetian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	venetian_standard_of_living_modifier_negative = 1
+}
+
+venetian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	venetian_standard_of_living_modifier_positive = 1
+}
+
+# Tuscan #
+
+tuscan_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	tuscan_cultural_acceptance_modifier_negative = 1
+}
+
+tuscan_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	tuscan_cultural_acceptance_modifier_positive = 1
+}
+
+tuscan_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	tuscan_fervor_target_modifier_negative = 1
+}
+
+tuscan_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	tuscan_fervor_target_modifier_negative = 1
+}
+
+tuscan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	tuscan_standard_of_living_modifier_negative = 1
+}
+
+tuscan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	tuscan_standard_of_living_modifier_positive = 1
+}
+
+# Emilian #
+
+emilian_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	emilian_cultural_acceptance_modifier_negative = 1
+}
+
+emilian_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	emilian_cultural_acceptance_modifier_positive = 1
+}
+
+emilian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	emilian_fervor_target_modifier_negative = 1
+}
+
+emilian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	emilian_fervor_target_modifier_negative = 1
+}
+
+emilian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	emilian_standard_of_living_modifier_negative = 1
+}
+
+emilian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	emilian_standard_of_living_modifier_positive = 1
+}
+
+# Sardinian #
+
+sardinian_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	sardinian_cultural_acceptance_modifier_negative = 1
+}
+
+sardinian_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	sardinian_cultural_acceptance_modifier_positive = 1
+}
+
+sardinian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	sardinian_fervor_target_modifier_negative = 1
+}
+
+sardinian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	sardinian_fervor_target_modifier_negative = 1
+}
+
+sardinian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	sardinian_standard_of_living_modifier_negative = 1
+}
+
+sardinian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	sardinian_standard_of_living_modifier_positive = 1
+}
+
+# Umbro #
+
+umbro_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	umbro_cultural_acceptance_modifier_negative = 1
+}
+
+umbro_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	umbro_cultural_acceptance_modifier_positive = 1
+}
+
+umbro_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	umbro_fervor_target_modifier_negative = 1
+}
+
+umbro_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	umbro_fervor_target_modifier_negative = 1
+}
+
+umbro_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	umbro_standard_of_living_modifier_negative = 1
+}
+
+umbro_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	umbro_standard_of_living_modifier_positive = 1
+}
+
+# Romanesco #
+
+romanesco_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	romanesco_cultural_acceptance_modifier_negative = 1
+}
+
+romanesco_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	romanesco_cultural_acceptance_modifier_positive = 1
+}
+
+romanesco_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	romanesco_fervor_target_modifier_negative = 1
+}
+
+romanesco_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	romanesco_fervor_target_modifier_negative = 1
+}
+
+romanesco_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	romanesco_standard_of_living_modifier_negative = 1
+}
+
+romanesco_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	romanesco_standard_of_living_modifier_positive = 1
+}
+
+# Central Italian #
+
+central_italian_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	central_italian_cultural_acceptance_modifier_negative = 1
+}
+
+central_italian_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	central_italian_cultural_acceptance_modifier_positive = 1
+}
+
+central_italian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	central_italian_fervor_target_modifier_negative = 1
+}
+
+central_italian_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	central_italian_fervor_target_modifier_negative = 1
+}
+
+central_italian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	central_italian_standard_of_living_modifier_negative = 1
+}
+
+central_italian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	central_italian_standard_of_living_modifier_positive = 1
+}
+
+# Neapolitano #
+
+neapolitano_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	neapolitano_cultural_acceptance_modifier_negative = 1
+}
+
+neapolitano_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	neapolitano_cultural_acceptance_modifier_positive = 1
+}
+
+neapolitano_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	neapolitano_fervor_target_modifier_negative = 1
+}
+
+neapolitano_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	neapolitano_fervor_target_modifier_negative = 1
+}
+
+neapolitano_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	neapolitano_standard_of_living_modifier_negative = 1
+}
+
+neapolitano_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	neapolitano_standard_of_living_modifier_positive = 1
+}
+
+# Siciliano #
+
+siciliano_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	siciliano_cultural_acceptance_modifier_negative = 1
+}
+
+siciliano_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	siciliano_cultural_acceptance_modifier_positive = 1
+}
+
+siciliano_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	siciliano_fervor_target_modifier_negative = 1
+}
+
+siciliano_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	siciliano_fervor_target_modifier_negative = 1
+}
+
+siciliano_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	siciliano_standard_of_living_modifier_negative = 1
+}
+
+siciliano_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	siciliano_standard_of_living_modifier_positive = 1
+}
+
+# Dalmata #
+
+dalmata_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	dalmata_cultural_acceptance_modifier_negative = 1
+}
+
+dalmata_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	dalmata_cultural_acceptance_modifier_positive = 1
+}
+
+dalmata_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	dalmata_fervor_target_modifier_negative = 1
+}
+
+dalmata_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	dalmata_fervor_target_modifier_negative = 1
+}
+
+dalmata_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	dalmata_standard_of_living_modifier_negative = 1
+}
+
+dalmata_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	dalmata_standard_of_living_modifier_positive = 1
+}
+
+# Istriota #
+
+istriota_cultural_acceptance_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	istriota_cultural_acceptance_modifier_negative = 1
+}
+
+istriota_cultural_acceptance_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	istriota_cultural_acceptance_modifier_positive = 1
+}
+
+istriota_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	istriota_fervor_target_modifier_negative = 1
+}
+
+istriota_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	istriota_fervor_target_modifier_negative = 1
+}
+
+istriota_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	istriota_standard_of_living_modifier_negative = 1
+}
+
+istriota_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	istriota_standard_of_living_modifier_positive = 1
+}

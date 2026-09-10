@@ -103,7 +103,7 @@ je_prestige_good_specialty_sugar = {
                 }
             }
         }
-        post_notification = prestige_good_specialty_sugar_unlocked
+        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
     }
 
     invalid = {
@@ -232,7 +232,7 @@ je_prestige_good_premium_liquor = {
                 }
             }
         }
-        post_notification = prestige_good_premium_liquor_unlocked
+        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
     }
 
     invalid = {
@@ -361,7 +361,7 @@ je_prestige_good_ultra_food = {
                 }
             }
         }
-        post_notification = prestige_good_ultra_food_unlocked
+        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
     }
 
     invalid = {
@@ -490,7 +490,7 @@ je_prestige_good_tempered_glass = {
                 }
             }
         }
-        post_notification = prestige_good_tempered_glass_unlocked
+        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
     }
 
     invalid = {

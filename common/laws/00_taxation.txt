@@ -26,25 +26,26 @@ law_usa_consumption = {
 	}
 
 	tax_modifier_very_low = {
-		tax_consumption_add = 0.15
-		state_capitalists_investment_pool_efficiency_mult = 0.35
+		tax_consumption_add = 0.175
+		state_capitalists_investment_pool_efficiency_mult = 0.5
 	}
 
 	tax_modifier_low = {
-		tax_consumption_add = 0.20
+		tax_consumption_add = 0.225
 		state_capitalists_investment_pool_efficiency_mult = 0.25
 	}
 
 	tax_modifier_medium = {
-		tax_consumption_add = 0.25
+		tax_consumption_add = 0.275
+		state_capitalists_investment_pool_efficiency_mult = 0.05
 	}
 
 	tax_modifier_high = {
-		tax_consumption_add = 0.35
+		tax_consumption_add = 0.375
 	}
 
 	tax_modifier_very_high = {
-		tax_consumption_add = 0.4
+		tax_consumption_add = 0.425
 	}
 
 	# AI shouldn't change to consumption-based-taxation as it's likely to wreck their economy

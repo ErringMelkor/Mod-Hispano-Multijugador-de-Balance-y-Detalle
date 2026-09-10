@@ -1,0 +1,72 @@
+REPLACE_OR_CREATE:gbr_wellington_character_template = {
+    first_name = Arthur
+    last_name = Wellesley
+    historical = yes
+    culture = cu:british
+    female = no
+    religion = rel:protestant
+    ideology = ideology_jingoist_leader
+    dna = dna_lord_wellington
+    interest_group = ig_armed_forces
+	home_region = STATE_LEINSTER
+    birth_date = 1769.5.1
+	role = character_role_politician
+    traits = {
+        celebrity_commander
+        expert_defensive_strategist
+        brave
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:GBR
+            c:GBR ?= THIS
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_armed_forces
+            NOR = {
+                has_variable = communist_ig_var
+                has_variable = chose_vanguardism
+                has_variable = chose_fascism
+                has_variable = chose_conservatism
+                has_variable = chose_ethno_nationalism
+            }
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1852.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE_OR_CREATE:GBR_thomas_barnes = {
+    # Editor of The Times, 1817-1841
+    first_name = Thomas
+    last_name = Barnes
+    historical = yes
+    culture = primary_culture
+    birth_date = 1785.9.11
+    is_agitator = yes
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_reformer
+	home_region = STATE_HOME_COUNTIES
+    traits = {
+        literary
+        meticulous
+    }
+}
+
+
+REPLACE_OR_CREATE:GBR_william_lamb = {
+    first_name = William
+    last_name = Lamb
+    historical = yes
+    culture = primary_culture
+    birth_date = 1779.3.15
+    ig_leader = yes
+    interest_group = ig_intelligentsia
+    ideology = ideology_moderate #proteccionista, anti-egalitario(ie anti reformista) y esclavista, lmao
+	home_region = STATE_EAST_ANGLIA
+    traits = {
+        arrogant
+    }
+}

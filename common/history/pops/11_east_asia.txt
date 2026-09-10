@@ -574,22 +574,6 @@
 			}
 		}
 	}
-	s:STATE_HAINAN = {
-		region_state:CHI = {
-			create_pop = {
-				culture = min
-				size = 360004
-			}
-			create_pop = {
-				culture = miao
-				size = 132004
-			}
-			create_pop = {
-				culture = zhuang
-				size = 234000
-			}
-		}
-	}
 	s:STATE_FUJIAN = {
 		region_state:CHI = {
 			#Editado 1/3 del original para Han; 1/3 para Min; -1 millón para min; -500k para hakka.

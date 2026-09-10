@@ -71,12 +71,18 @@
 				}
 			}
 			NOT = {
-				country_rank >= scope:other_country.country_rank
+				country_rank < scope:other_country.country_rank
 			}
 		}
 	}
 
 	can_ratify = {
+		scope:target_country = {
+			has_strategic_region_interest_tier = {
+				strategic_region = scope:source_country.capital.region
+				value >= interest_tier_effect_can_sign_foreign_investment_rights_min_tier
+			}
+		}
         custom_tooltip = {
             text = DUPLICATE_ARTICLE_SAME_INPUTS_TREATY
             NOT = {
@@ -166,7 +172,7 @@
 					}
 					add = {
 						desc = "law_isolationism"
-						add = -100
+						add = -300
 					}
 				}
 
@@ -271,9 +277,9 @@
 					limit = {
 						has_law_or_variant = law_type:law_isolationism
 					}
-				add = {
+					add = {
 						desc = "law_isolationism"
-						add = -100
+						add = -300
 					}
 				}
 
@@ -381,6 +387,19 @@
 						value = -100
 					}
 				}
+
+				add = {
+					desc = "je_hawaiian_interest"
+					if = {
+						limit = {
+							has_journal_entry = je_hawaiian_interest
+							c:HAW ?= {
+								this = scope:source_country
+							}
+						}
+						value = 20
+					}
+				}
 			}
 		}
 
@@ -465,7 +484,7 @@
 							type = embargo
 						}
 					}
-					can_reach_target_country = yes
+					can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
 				}
 				add = 1
 			}

@@ -1,4 +1,4 @@
-﻿RUS_nicholas_i = { #Nicholas I
+﻿REPLACE_OR_CREATE:RUS_nicholas_i = { #Nicholas I
 	first_name = Nikolai
 	last_name = Romanov
 	historical = yes
@@ -23,7 +23,7 @@
 	}
 }
 
-RUS_alexander_ii = { #Alexander II, son of Nicholas I
+REPLACE_OR_CREATE:RUS_alexander_ii = { #Alexander II, son of Nicholas I
 	first_name = Aleksandr
 	last_name = Romanov
 	historical = yes
