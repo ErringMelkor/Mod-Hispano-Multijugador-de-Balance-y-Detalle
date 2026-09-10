@@ -5,7 +5,7 @@ Países:
 		Los movimientos abolicionista y esclavista tienen radicalismo reducido con las distintas leyes de Esclavitud.
 	Ley de Tasación:
 		Aumentada la eficiencia a inversión de los capitalistas: 35/25/0/0/0% -> 50/25/5/0/0%
-		Aumentada la tasación al consumo: 0,025 a todos los niveles.
+		Aumentada la tasación al consumo: +2,5% a todos los niveles.
 	
 Bloques de Poder:
 	Principios:

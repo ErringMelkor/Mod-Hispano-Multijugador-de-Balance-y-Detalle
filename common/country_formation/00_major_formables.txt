@@ -187,6 +187,7 @@ FND = {
 	should_target_state_in_unification_play = {}
 }
 
+
 YUG = {
 	geographic_region = geographic_region_yugoslavia
 

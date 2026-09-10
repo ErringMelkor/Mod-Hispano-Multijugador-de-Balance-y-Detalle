@@ -27,7 +27,7 @@ is_russo-turkish_east_region = {
 is_russo-turkish_west_region = {
 	AND = {
 		any_scope_state = {
-			state_region = s:STATE_MOLDOVA
+			state_region = s:STATE_MOLDAVIA
 			is_incorporated = yes
 			is_split_state = no
 		}

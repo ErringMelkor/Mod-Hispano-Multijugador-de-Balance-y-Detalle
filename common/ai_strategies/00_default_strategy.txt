@@ -2126,20 +2126,6 @@ ai_strategy_default = {
 					desc = "STATE_VALUE_LENIENT_BEHAVIOR"
 				}
 			}
-
-			if = {
-				limit = {
-					has_strategy = ai_strategy_armed_isolationism
-					scope:target_state = {
-						NOR = {
-							owner = root
-							has_claim_by = root
-						}
-					}
-				}
-				multiply = 0
-			}
-		}
 		if = {
 				limit = {
 					NOT = { can_reach_target_state = { TARGET_STATE = scope:target_state } }
@@ -2869,13 +2855,6 @@ ai_strategy_default = {
 			add = 1
 		}
 
-		# Braver against own overlord in general
-		if = {
-			limit = {
-				is_subject_of = scope:target_country
-			}
-			add = 1
-		}
 		# Ottomans should be extremely confident against owners of Syria and Egypt when they have the relevant JE's
 		if = {
 			limit = {
@@ -6821,7 +6800,7 @@ ai_strategy_default = {
 
 					if = {
 						limit = {
-							power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_offices }
+							power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_focus }
 						}
 						add = 50
 					}
@@ -7200,7 +7179,7 @@ ai_strategy_default = {
 
 					if = {
 						limit = {
-							power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_offices }
+							power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_focus }
 						}
 						add = 50
 					}
@@ -8783,3 +8762,5 @@ ai_strategy_default = {
 		value = 0
 	}
 }
+
+

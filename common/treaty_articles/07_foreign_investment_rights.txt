@@ -67,7 +67,7 @@
 				exists = scope:other_country.power_bloc
 				power_bloc = scope:other_country.power_bloc
 				power_bloc ?= {
-					has_principle = principle:principle_foreign_investment_3
+					has_principle = principle:principle_foreign_investment_focus_3
 				}
 			}
 			NOT = {

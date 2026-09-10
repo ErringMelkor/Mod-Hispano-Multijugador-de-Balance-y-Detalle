@@ -9,7 +9,7 @@ major_railways.1 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	duration = 3
-	placement = scope:siberia_end_scope	
+	placement = scope:siberia_end_scope
 	title = major_railways.1.t
 	desc = major_railways.1.d
 	flavor = major_railways.1.f
@@ -34,14 +34,14 @@ major_railways.1 = {
 			}
 			save_scope_as = moscow_scope
 		}
-		sr:region_east_siberia = {
-			save_scope_as = east_siberia
-		}
-		sr:region_west_siberia = {
+		sr:region_siberia = {
 			save_scope_as = west_siberia
 		}
+		sr:region_northeast_asia = {
+			save_scope_as = manchuria
+		}
 	}
-	
+
 	option = {
 		name = major_railways.1.a
 		default_option = yes
@@ -50,8 +50,8 @@ major_railways.1 = {
 			random_scope_state = {
 				limit = {
 					OR = {
-						region = sr:region_east_siberia
-						region = sr:region_west_siberia
+						region = sr:region_siberia
+						region = sr:region_northeast_asia
 					}
 					has_building = building_railway
 				}
@@ -70,8 +70,8 @@ major_railways.1 = {
 			every_scope_state = {
 				limit = {
 					OR = {
-						region = sr:region_east_siberia
-						region = sr:region_west_siberia
+						region = sr:region_siberia
+						region = sr:region_northeast_asia
 					}
 					has_building = building_railway
 				}
@@ -95,8 +95,8 @@ major_railways.1 = {
 			random_scope_state = {
 				limit = {
 					OR = {
-						region = sr:region_east_siberia
-						region = sr:region_west_siberia
+						region = sr:region_siberia
+						region = sr:region_northeast_asia
 					}
 					has_building = building_railway
 				}
@@ -115,8 +115,8 @@ major_railways.1 = {
 			every_scope_state = {
 				limit = {
 					OR = {
-						region = sr:region_east_siberia
-						region = sr:region_west_siberia
+						region = sr:region_siberia
+						region = sr:region_northeast_asia
 					}
 					has_building = building_railway
 				}
@@ -144,7 +144,7 @@ major_railways.2 = {
 
 	duration = 3
 	placement = scope:california_scope
-	
+
 	title = major_railways.2.t
 	desc = major_railways.2.d
 	flavor = major_railways.2.f
@@ -160,7 +160,7 @@ major_railways.2 = {
 			save_scope_as = california_scope
 		}
 	}
-	
+
 	option = { # settle the great plains
 		name = major_railways.2.a
 		every_scope_state = {
@@ -215,7 +215,7 @@ major_railways.3 = {
 			save_scope_as = pacific_railroad_end
 		}
 	}
-	
+
 	option = { # settle the west coast
 		name = major_railways.3.a
 		default_option = yes

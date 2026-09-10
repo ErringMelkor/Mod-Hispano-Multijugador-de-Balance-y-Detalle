@@ -184,7 +184,9 @@ REPLACE_OR_CREATE:state_trait_douro_river = {
 REPLACE_OR_CREATE:state_trait_port_mahon = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	modifier = {
-		state_building_naval_base_max_level_add = 10
+		building_port_throughput_add = 0.1
+		state_trade_capacity_mult = 0.15
+		#state_building_naval_base_max_level_add = 10
 	}
 }
 

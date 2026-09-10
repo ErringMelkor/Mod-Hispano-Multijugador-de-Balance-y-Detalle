@@ -4,7 +4,7 @@
 
 	modifier = {
 		
-		state_building_naval_base_max_level_add = 25
+		#state_building_naval_base_max_level_add = 25
 	}
 }
 

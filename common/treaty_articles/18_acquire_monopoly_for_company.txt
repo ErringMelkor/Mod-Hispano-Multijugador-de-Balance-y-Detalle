@@ -83,7 +83,7 @@
 				is_subject_of = scope:target_country
 			}
 			scope:source_country.power_bloc ?= {
-				has_principle = principle:principle_foreign_investment_3
+				has_principle = principle:principle_foreign_investment_focus_3
 				any_power_bloc_member = {
 					this = scope:target_country
 				}
