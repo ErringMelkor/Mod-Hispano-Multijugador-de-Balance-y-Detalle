@@ -1,0 +1,18 @@
+﻿l_english:
+ 
+ --Companies
+  company_aramco: "Aramco"
+  company_ansteel: "Ansteel"
+  company_bmmi: "BMMI"
+  company_nakajima: "Nakajima Aircraft Company"
+  company_caspian_company: "Caspian Fishing Company"
+  company_indochina_yunnan_railway: "French Indochina and Yunnan Railway Company"
+  company_itc_limited: "ITC Limited"
+  company_tuason_sampedro: "Tuason and Sampedro"
+  company_yuhan: "Yuhan Corporation"
+  
+--Prestige good
+  prestige_good_ghawar_oil: "Ghawar Oil"
+  prestige_good_caviar: "Caviar"
+  prestige_good_nakajima_aircraft: "Nakajima Aircraft"
+  prestige_good_philipine_timber: "Philipine Timber"
