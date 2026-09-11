@@ -1809,7 +1809,6 @@ company_west_african= {
 				level >= 5
 			}
 		}
-		count >= 5
 		s:STATE_ILE_DE_FRANCE = {
 			any_scope_state = {
 				OR = {

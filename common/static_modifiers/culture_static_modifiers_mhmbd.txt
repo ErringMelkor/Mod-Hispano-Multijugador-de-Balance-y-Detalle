@@ -15,7 +15,7 @@ piedmontese_fervor_target_modifier_negative = {
 	piedmontese_fervor_target_modifier_negative = 1
 }
 
-piedmontese_fervor_target_modifier_negative = {
+piedmontese_fervor_target_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	piedmontese_fervor_target_modifier_negative = 1
 }
@@ -47,7 +47,7 @@ lombard_fervor_target_modifier_negative = {
 	lombard_fervor_target_modifier_negative = 1
 }
 
-lombard_fervor_target_modifier_negative = {
+lombard_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	lombard_fervor_target_modifier_negative = 1
 }
@@ -79,7 +79,7 @@ venetian_fervor_target_modifier_negative = {
 	venetian_fervor_target_modifier_negative = 1
 }
 
-venetian_fervor_target_modifier_negative = {
+venetian_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	venetian_fervor_target_modifier_negative = 1
 }
@@ -111,7 +111,7 @@ tuscan_fervor_target_modifier_negative = {
 	tuscan_fervor_target_modifier_negative = 1
 }
 
-tuscan_fervor_target_modifier_negative = {
+tuscan_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	tuscan_fervor_target_modifier_negative = 1
 }
@@ -143,7 +143,7 @@ emilian_fervor_target_modifier_negative = {
 	emilian_fervor_target_modifier_negative = 1
 }
 
-emilian_fervor_target_modifier_negative = {
+emilian_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	emilian_fervor_target_modifier_negative = 1
 }
@@ -175,7 +175,7 @@ sardinian_fervor_target_modifier_negative = {
 	sardinian_fervor_target_modifier_negative = 1
 }
 
-sardinian_fervor_target_modifier_negative = {
+sardinian_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	sardinian_fervor_target_modifier_negative = 1
 }
@@ -207,7 +207,7 @@ umbro_fervor_target_modifier_negative = {
 	umbro_fervor_target_modifier_negative = 1
 }
 
-umbro_fervor_target_modifier_negative = {
+umbro_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	umbro_fervor_target_modifier_negative = 1
 }
@@ -239,7 +239,7 @@ romanesco_fervor_target_modifier_negative = {
 	romanesco_fervor_target_modifier_negative = 1
 }
 
-romanesco_fervor_target_modifier_negative = {
+romanesco_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	romanesco_fervor_target_modifier_negative = 1
 }
@@ -271,7 +271,7 @@ central_italian_fervor_target_modifier_negative = {
 	central_italian_fervor_target_modifier_negative = 1
 }
 
-central_italian_fervor_target_modifier_negative = {
+central_italian_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	central_italian_fervor_target_modifier_negative = 1
 }
@@ -303,7 +303,7 @@ neapolitano_fervor_target_modifier_negative = {
 	neapolitano_fervor_target_modifier_negative = 1
 }
 
-neapolitano_fervor_target_modifier_negative = {
+neapolitano_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	neapolitano_fervor_target_modifier_negative = 1
 }
@@ -335,7 +335,7 @@ siciliano_fervor_target_modifier_negative = {
 	siciliano_fervor_target_modifier_negative = 1
 }
 
-siciliano_fervor_target_modifier_negative = {
+siciliano_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	siciliano_fervor_target_modifier_negative = 1
 }
@@ -367,7 +367,7 @@ dalmata_fervor_target_modifier_negative = {
 	dalmata_fervor_target_modifier_negative = 1
 }
 
-dalmata_fervor_target_modifier_negative = {
+dalmata_fervor_target_modifier_positive  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	dalmata_fervor_target_modifier_negative = 1
 }
@@ -399,7 +399,7 @@ istriota_fervor_target_modifier_negative = {
 	istriota_fervor_target_modifier_negative = 1
 }
 
-istriota_fervor_target_modifier_negative = {
+istriota_fervor_target_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	istriota_fervor_target_modifier_negative = 1
 }

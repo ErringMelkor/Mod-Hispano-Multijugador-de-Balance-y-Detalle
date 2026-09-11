@@ -1187,7 +1187,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_madras
+			hq_region = sr:region_south_india
 			name = Army_of_India
 
 			combat_unit = {
