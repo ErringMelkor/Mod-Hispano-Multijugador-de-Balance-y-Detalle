@@ -15,13 +15,13 @@ csa_static_modifier = {
 	unit_defense_mult = 0.55
 	unit_offense_mult = 0.15
 	unit_morale_loss_mult = -0.15
-	country_war_exhaustion_casualties_mult = -2
+	country_war_support_casualties_mult = -0.25
 	country_minting_add = 35000
 }
 
 usa_acw_war_support_static_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	country_war_exhaustion_casualties_mult = -3
+	country_war_support_casualties_mult = -0.25
 	building_training_rate_mult = 0.25
 }
 

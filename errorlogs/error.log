@@ -1,0 +1,1675 @@
+[09:01:13][dlc.cpp:422]: Folder not found for DLC/Mod dlc010: 
+[09:01:14][localization_reader.cpp:451]: Missing colon (:) separator at line 38 and column 10 in localization/english/1.13_mhmbd_l_english.yml
+[09:01:14][localization_reader.cpp:451]: Missing colon (:) separator at line 49 and column 11 in localization/english/1.13_mhmbd_l_english.yml
+[09:01:14][localization_reader.cpp:451]: Missing colon (:) separator at line 60 and column 17 in localization/english/1.13_mhmbd_l_english.yml
+[09:01:14][localization_reader.cpp:451]: Missing colon (:) separator at line 71 and column 9 in localization/english/1.13_mhmbd_l_english.yml
+[09:01:14][localization_reader.cpp:451]: Missing colon (:) separator at line 82 and column 10 in localization/english/1.13_mhmbd_l_english.yml
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'ADD_CONSUMPTION_TAX_ENTRY_COST' is defined in both 'localization/english/CTE_interfaces_l_english.yml' and 'localization/english/interfaces_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'malaria_prevention' is defined in both 'localization/english/1.9_mbd_l_english.yml' and 'localization/english/inventions_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Iesada' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Iemochi' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Sanetomi' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Saionji' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Kinmochi' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'Kaoru' is defined in both 'localization/english/1.12_mhmbd_l_english.yml' and 'localization/english/names_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'ATTITUDE_DETAILS' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
+[09:01:14][pdx_localize.cpp:199]: Duplicate localization key. Key 'ai_attitude_human_tooltip' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
+[09:01:16][pdx_data_factory.cpp:1466]: Could not find data system function 'SortCompanies' in 'AccessPlayer.SortCompanies('name')'.
+[09:01:16][pdx_data_factory.cpp:1092]: Failed converting statement for 'AccessPlayer.SortCompanies('name')'
+[09:01:16][pdx_gui_factory.cpp:268]: failed reading callback, at gui/companies_panel.gui:1028
+[09:01:16][pdx_data_factory.cpp:1466]: Could not find data system function 'SortCompanies' in 'AccessPlayer.SortCompanies('building_database_order')'.
+[09:01:16][pdx_data_factory.cpp:1092]: Failed converting statement for 'AccessPlayer.SortCompanies('building_database_order')'
+[09:01:16][pdx_gui_factory.cpp:268]: failed reading callback, at gui/companies_panel.gui:1036
+[09:01:16][pdx_data_factory.cpp:1466]: Could not find data system function 'SortCompanies' in 'AccessPlayer.SortCompanies('productivity')'.
+[09:01:16][pdx_data_factory.cpp:1092]: Failed converting statement for 'AccessPlayer.SortCompanies('productivity')'
+[09:01:16][pdx_gui_factory.cpp:268]: failed reading callback, at gui/companies_panel.gui:1044
+[09:01:16][pdx_data_factory.cpp:1466]: Could not find data system function 'SortCompanies' in 'AccessPlayer.SortCompanies('levels')'.
+[09:01:16][pdx_data_factory.cpp:1092]: Failed converting statement for 'AccessPlayer.SortCompanies('levels')'
+[09:01:16][pdx_gui_factory.cpp:268]: failed reading callback, at gui/companies_panel.gui:1052
+[09:01:17][pdx_gui_localize.cpp:182]: Unlocalized text 'NUM_CONVOYS_TOOLTIP_EXTENDED' at gui/panel_military.gui:180, either localize it or use the raw_text property instead of text
+[09:01:17][pdx_gui_localize.cpp:182]: Unlocalized text 'USED_AVAILABE_CONVOYS_TEXT' at gui/panel_military.gui:185, either localize it or use the raw_text property instead of text
+[09:01:17][pdx_gui_localize.cpp:182]: Unlocalized text 'USED_AVAILABE_CONVOYS_VALUE' at gui/panel_military.gui:191, either localize it or use the raw_text property instead of text
+[09:01:17][pdx_gui_localize.cpp:182]: Unlocalized text 'PANEL_MILITARY_NAVY_CURRENT_FLOTILLAS' at gui/panel_military.gui:206, either localize it or use the raw_text property instead of text
+[09:01:17][pdx_gui_localize.cpp:182]: Unlocalized text 'PANEL_MILITARY_NAVY_CURRENT_FLOTILLAS_TOOLTIP' at gui/panel_military.gui:207, either localize it or use the raw_text property instead of text
+[09:01:17][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/alert_icons/repairing.dds not found'
+[09:01:31][lexer.cpp:285]: File 'common/geographic_regions/italy_georegions_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:31][lexer.cpp:285]: File 'common/script_values/war_exhaustion_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:31][lexer.cpp:285]: File 'common/scripted_effects/redundancies_scripted_effects.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:31][lexer.cpp:285]: File 'common/scripted_effects/scripted_effects_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][lexer.cpp:285]: File 'common/discrimination_traits/italian_discrimination_traits_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][lexer.cpp:285]: File 'common/static_modifiers/ethiopia_static_modifiers.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][lexer.cpp:285]: File 'common/static_modifiers/fill_static_modifiers_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][lexer.cpp:285]: File 'common/static_modifiers/italy_static_modifiers_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][gamedatabase.h:378]: Duplicated key movement_suppressed_after_civil_war will not be created from file: common/static_modifiers/00_ip3_04_modifiers.txt:570
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 18" in file: "common/static_modifiers/usa_static_modifiers_mhmbd.txt" near line: 18
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 24" in file: "common/static_modifiers/usa_static_modifiers_mhmbd.txt" near line: 24
+[09:01:32][lexer.cpp:285]: File 'common/cultures/italian_cultures_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Trigger section already read earlier: is_visible, near line: 186" in file: "common/laws/00_education_system.txt" near line: 191
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Malformed token: 0.000025, near line: 197" in file: "common/laws/00_education_system.txt" near line: 197
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Malformed token: 0.000015, near line: 300" in file: "common/laws/00_education_system.txt" near line: 300
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Malformed token: 0.000035, near line: 333" in file: "common/laws/00_education_system.txt" near line: 333
+[09:01:32][pdx_persistent_reader.cpp:268]: Error: "Malformed token: 0.000015, near line: 442" in file: "common/laws/00_education_system.txt" near line: 442
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_colonial_affairs will not be created from file: common/laws/01_colonial_affairs.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_frontier_colonization will not be created from file: common/laws/01_colonial_affairs.txt:63
+[09:01:33][gamedatabase.h:378]: Duplicated key law_colonial_resettlement will not be created from file: common/laws/01_colonial_affairs.txt:172
+[09:01:33][gamedatabase.h:378]: Duplicated key law_colonial_exploitation will not be created from file: common/laws/01_colonial_affairs.txt:272
+[09:01:33][gamedatabase.h:378]: Duplicated key law_traditionalism will not be created from file: common/laws/01_economic_system.txt:5
+[09:01:33][gamedatabase.h:378]: Duplicated key law_interventionism will not be created from file: common/laws/01_economic_system.txt:57
+[09:01:33][gamedatabase.h:378]: Duplicated key law_agrarianism will not be created from file: common/laws/01_economic_system.txt:143
+[09:01:33][gamedatabase.h:378]: Duplicated key law_industry_banned will not be created from file: common/laws/01_economic_system.txt:241
+[09:01:33][gamedatabase.h:378]: Duplicated key law_extraction_economy will not be created from file: common/laws/01_economic_system.txt:348
+[09:01:33][gamedatabase.h:378]: Duplicated key law_laissez_faire will not be created from file: common/laws/01_economic_system.txt:453
+[09:01:33][gamedatabase.h:378]: Duplicated key law_cooperative_ownership will not be created from file: common/laws/01_economic_system.txt:529
+[09:01:33][gamedatabase.h:378]: Duplicated key law_command_economy will not be created from file: common/laws/01_economic_system.txt:614
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_schools will not be created from file: common/laws/01_education_system.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_religious_schools will not be created from file: common/laws/01_education_system.txt:36
+[09:01:33][gamedatabase.h:378]: Duplicated key law_private_schools will not be created from file: common/laws/01_education_system.txt:156
+[09:01:33][gamedatabase.h:378]: Duplicated key law_terakoya will not be created from file: common/laws/01_education_system.txt:265
+[09:01:33][gamedatabase.h:378]: Duplicated key law_public_schools will not be created from file: common/laws/01_education_system.txt:299
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_health_system will not be created from file: common/laws/01_health_system.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_charitable_health_system will not be created from file: common/laws/01_health_system.txt:25
+[09:01:33][gamedatabase.h:378]: Duplicated key law_private_health_insurance will not be created from file: common/laws/01_health_system.txt:73
+[09:01:33][gamedatabase.h:378]: Duplicated key law_public_health_insurance will not be created from file: common/laws/01_health_system.txt:105
+[09:01:33][gamedatabase.h:378]: Duplicated key law_serfdom will not be created from file: common/laws/01_land_reform.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_manorialism will not be created from file: common/laws/01_land_reform.txt:74
+[09:01:33][gamedatabase.h:378]: Duplicated key law_tenant_farmers will not be created from file: common/laws/01_land_reform.txt:140
+[09:01:33][gamedatabase.h:378]: Duplicated key law_latifundias will not be created from file: common/laws/01_land_reform.txt:237
+[09:01:33][gamedatabase.h:378]: Duplicated key law_expanded_latifundias will not be created from file: common/laws/01_land_reform.txt:292
+[09:01:33][gamedatabase.h:378]: Duplicated key law_commercialized_agriculture will not be created from file: common/laws/01_land_reform.txt:342
+[09:01:33][gamedatabase.h:378]: Duplicated key law_peasant_proprietorship will not be created from file: common/laws/01_land_reform.txt:419
+[09:01:33][gamedatabase.h:378]: Duplicated key law_homesteading will not be created from file: common/laws/01_land_reform.txt:531
+[09:01:33][gamedatabase.h:378]: Duplicated key law_collectivized_agriculture will not be created from file: common/laws/01_land_reform.txt:633
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_police will not be created from file: common/laws/01_policing.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_local_police will not be created from file: common/laws/01_policing.txt:30
+[09:01:33][gamedatabase.h:378]: Duplicated key law_dedicated_police will not be created from file: common/laws/01_policing.txt:129
+[09:01:33][gamedatabase.h:378]: Duplicated key law_militarized_police will not be created from file: common/laws/01_policing.txt:223
+[09:01:33][gamedatabase.h:378]: Duplicated key law_consumption_based_taxation will not be created from file: common/laws/01_taxation.txt:5
+[09:01:33][gamedatabase.h:378]: Duplicated key law_land_based_taxation will not be created from file: common/laws/01_taxation.txt:52
+[09:01:33][gamedatabase.h:378]: Duplicated key law_per_capita_based_taxation will not be created from file: common/laws/01_taxation.txt:99
+[09:01:33][gamedatabase.h:378]: Duplicated key law_proportional_taxation will not be created from file: common/laws/01_taxation.txt:187
+[09:01:33][gamedatabase.h:378]: Duplicated key law_graduated_taxation will not be created from file: common/laws/01_taxation.txt:256
+[09:01:33][gamedatabase.h:378]: Duplicated key law_mercantilism will not be created from file: common/laws/01_trade_policy.txt:5
+[09:01:33][gamedatabase.h:378]: Duplicated key law_protectionism will not be created from file: common/laws/01_trade_policy.txt:51
+[09:01:33][gamedatabase.h:378]: Duplicated key law_free_trade will not be created from file: common/laws/01_trade_policy.txt:96
+[09:01:33][gamedatabase.h:378]: Duplicated key law_isolationism will not be created from file: common/laws/01_trade_policy.txt:159
+[09:01:33][gamedatabase.h:378]: Duplicated key law_canton_system will not be created from file: common/laws/01_trade_policy.txt:229
+[09:01:33][gamedatabase.h:378]: Duplicated key law_sakoku will not be created from file: common/laws/01_trade_policy.txt:290
+[09:01:33][gamedatabase.h:378]: Duplicated key law_outlawed_dissent will not be created from file: common/laws/02_free_speech.txt:5
+[09:01:33][gamedatabase.h:378]: Duplicated key law_censorship will not be created from file: common/laws/02_free_speech.txt:37
+[09:01:33][gamedatabase.h:378]: Duplicated key law_right_of_assembly will not be created from file: common/laws/02_free_speech.txt:69
+[09:01:33][gamedatabase.h:378]: Duplicated key law_protected_speech will not be created from file: common/laws/02_free_speech.txt:95
+[09:01:33][gamedatabase.h:378]: Duplicated key law_guild_system will not be created from file: common/laws/02_labour_associations.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_combination_acts will not be created from file: common/laws/02_labour_associations.txt:69
+[09:01:33][gamedatabase.h:378]: Duplicated key law_anti_strike_laws will not be created from file: common/laws/02_labour_associations.txt:141
+[09:01:33][gamedatabase.h:378]: Duplicated key law_right_to_associate will not be created from file: common/laws/02_labour_associations.txt:213
+[09:01:33][gamedatabase.h:378]: Duplicated key law_corporatized_unions will not be created from file: common/laws/02_labour_associations.txt:288
+[09:01:33][gamedatabase.h:378]: Duplicated key law_factory_councils will not be created from file: common/laws/02_labour_associations.txt:353
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_migration_controls will not be created from file: common/laws/02_migration.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_migration_controls will not be created from file: common/laws/02_migration.txt:25
+[09:01:33][gamedatabase.h:378]: Duplicated key law_closed_borders will not be created from file: common/laws/02_migration.txt:82
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_womens_rights will not be created from file: common/laws/02_rights_of_women.txt:5
+[09:01:33][gamedatabase.h:378]: Duplicated key law_women_in_the_fields will not be created from file: common/laws/02_rights_of_women.txt:43
+[09:01:33][gamedatabase.h:378]: Duplicated key law_women_own_property will not be created from file: common/laws/02_rights_of_women.txt:91
+[09:01:33][gamedatabase.h:378]: Duplicated key law_women_in_the_workplace will not be created from file: common/laws/02_rights_of_women.txt:127
+[09:01:33][gamedatabase.h:378]: Duplicated key law_womens_suffrage will not be created from file: common/laws/02_rights_of_women.txt:169
+[09:01:33][gamedatabase.h:378]: Duplicated key law_no_social_security will not be created from file: common/laws/02_welfare.txt:1
+[09:01:33][gamedatabase.h:378]: Duplicated key law_chiefs_distribute_aid will not be created from file: common/laws/02_welfare.txt:29
+[09:01:33][gamedatabase.h:378]: Duplicated key law_poor_laws will not be created from file: common/laws/02_welfare.txt:73
+[09:01:33][gamedatabase.h:378]: Duplicated key law_wage_subsidies will not be created from file: common/laws/02_welfare.txt:99
+[09:01:33][gamedatabase.h:378]: Duplicated key law_old_age_pension will not be created from file: common/laws/02_welfare.txt:125
+[09:01:33][lexer.cpp:285]: File 'common/amendments/amendments_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 557" in file: "common/technology/technologies/20_military.txt" near line: 557
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 842" in file: "common/technology/technologies/20_military.txt" near line: 842
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_max_declared_interests_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_max_declared_interests_add, near line: 267" in file: "common/technology/technologies/30_society.txt" near line: 267
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_max_declared_interests_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_max_declared_interests_add, near line: 972" in file: "common/technology/technologies/30_society.txt" near line: 972
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_capitalists_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_capitalists_investment_pool_efficiency_add, near line: 1184" in file: "common/technology/technologies/30_society.txt" near line: 1184
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_farmers_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_farmers_investment_pool_efficiency_add, near line: 1185" in file: "common/technology/technologies/30_society.txt" near line: 1185
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_shopkeepers_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_shopkeepers_investment_pool_efficiency_add, near line: 1186" in file: "common/technology/technologies/30_society.txt" near line: 1186
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_bureaucrats_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_bureaucrats_investment_pool_efficiency_add, near line: 1187" in file: "common/technology/technologies/30_society.txt" near line: 1187
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_engineers_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_engineers_investment_pool_efficiency_add, near line: 1188" in file: "common/technology/technologies/30_society.txt" near line: 1188
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_machinists_investment_pool_efficiency_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_machinists_investment_pool_efficiency_add, near line: 1189" in file: "common/technology/technologies/30_society.txt" near line: 1189
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 1515" in file: "common/technology/technologies/30_society.txt" near line: 1515
+[09:01:33][lexer.cpp:285]: File 'common/state_traits/africa_traits_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 26" in file: "common/state_traits/italy_state_traits.txt" near line: 26
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 27" in file: "common/state_traits/italy_state_traits.txt" near line: 27
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 36" in file: "common/state_traits/italy_state_traits.txt" near line: 36
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 37" in file: "common/state_traits/italy_state_traits.txt" near line: 37
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 46" in file: "common/state_traits/italy_state_traits.txt" near line: 46
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 49" in file: "common/state_traits/italy_state_traits.txt" near line: 49
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 59" in file: "common/state_traits/italy_state_traits.txt" near line: 59
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 60" in file: "common/state_traits/italy_state_traits.txt" near line: 60
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 69" in file: "common/state_traits/italy_state_traits.txt" near line: 69
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 72" in file: "common/state_traits/italy_state_traits.txt" near line: 72
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 6" in file: "common/state_traits/otomanos_traits.txt" near line: 6
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 8" in file: "common/state_traits/otomanos_traits.txt" near line: 8
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 22" in file: "common/state_traits/spain_traits.txt" near line: 22
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 25" in file: "common/state_traits/spain_traits.txt" near line: 25
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 43" in file: "common/state_traits/spain_traits.txt" near line: 43
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 45" in file: "common/state_traits/spain_traits.txt" near line: 45
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 63" in file: "common/state_traits/spain_traits.txt" near line: 63
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 65" in file: "common/state_traits/spain_traits.txt" near line: 65
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 187" in file: "common/state_traits/05_western_europe_traits.txt" near line: 187
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_military_shipyard_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_military_shipyard_throughput_add, near line: 24" in file: "common/state_traits/canada_traits.txt" near line: 24
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 26" in file: "common/state_traits/canada_traits.txt" near line: 26
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_naval_base_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_naval_base_max_level_add, near line: 7" in file: "common/state_traits/usa_traits.txt" near line: 7
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_loyalists_from_sol_change_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_loyalists_from_sol_change_mult, near line: 809" in file: "common/production_methods/monuments_mhmbd.txt" near line: 809
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_loyalists_from_sol_change_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_loyalists_from_sol_change_mult, near line: 380" in file: "common/production_methods/monuments_mhmbd.txt" near line: 380
+[09:01:33][lexer.cpp:285]: File 'common/production_method_groups/pmg_canal_kiel.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:33][gamedatabase.h:378]: Duplicated key pmg_base_building_victoria_terminus will not be created from file: common/production_method_groups/08_monuments.txt:593
+[09:01:33][lexer.cpp:285]: File 'common/script_values/war_exhaustion_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'war_exhaustion_from_casualties' at common/script_values/war_exhaustion_mhmbd.txt:5
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [war_exhaustion_from_casualties] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value war_exhaustion_from_casualties at common/script_values/war_exhaustion_mhmbd.txt:5
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'war_exhaustion_from_enemy_contested_wargoals' at common/script_values/war_exhaustion_mhmbd.txt:7
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [war_exhaustion_from_enemy_contested_wargoals] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value war_exhaustion_from_enemy_contested_wargoals at common/script_values/war_exhaustion_mhmbd.txt:7
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'war_exhaustion_from_acceptance_of_dead(root)' at common/script_values/war_exhaustion_mhmbd.txt:9
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [scope:war.war_exhaustion_from_acceptance_of_dead(root)] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value scope:war.war_exhaustion_from_acceptance_of_dead(root) at common/script_values/war_exhaustion_mhmbd.txt:9
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'war_exhaustion_from_country_turmoil' at common/script_values/war_exhaustion_mhmbd.txt:11
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [war_exhaustion_from_country_turmoil] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value war_exhaustion_from_country_turmoil at common/script_values/war_exhaustion_mhmbd.txt:11
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'war_exhaustion_from_lobby_clout' at common/script_values/war_exhaustion_mhmbd.txt:15
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [war_exhaustion_from_lobby_clout] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value war_exhaustion_from_lobby_clout at common/script_values/war_exhaustion_mhmbd.txt:15
+[09:01:33][jomini_eventtarget_links.cpp:912]: Invalid define, could not find define for 'NWar:WAR_EXHAUSTION_BASE'. Location: common/script_values/war_exhaustion_mhmbd.txt:23
+[09:01:33][jomini_eventtarget.cpp:745]: Failed to parse data for event target link. Link: define, location: common/script_values/war_exhaustion_mhmbd.txt:23
+
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [define:NWar|WAR_EXHAUSTION_BASE] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value define:NWar|WAR_EXHAUSTION_BASE at common/script_values/war_exhaustion_mhmbd.txt:23
+[09:01:33][jomini_eventtarget.cpp:694]: Failed to find a valid event target link 'additional_war_exhaustion(scope:war.diplomatic_play)' at common/script_values/war_exhaustion_mhmbd.txt:167
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [additional_war_exhaustion(scope:war.diplomatic_play)] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value additional_war_exhaustion(scope:war.diplomatic_play) at common/script_values/war_exhaustion_mhmbd.txt:167
+[09:01:33][jomini_eventtarget_links.cpp:912]: Invalid define, could not find define for 'NWar:WAR_EXHAUSTION_MAX'. Location: common/script_values/war_exhaustion_mhmbd.txt:197
+[09:01:33][jomini_eventtarget.cpp:745]: Failed to parse data for event target link. Link: define, location: common/script_values/war_exhaustion_mhmbd.txt:197
+
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [define:NWar|WAR_EXHAUSTION_MAX] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value define:NWar|WAR_EXHAUSTION_MAX at common/script_values/war_exhaustion_mhmbd.txt:197
+[09:01:33][jomini_eventtarget_links.cpp:912]: Invalid define, could not find define for 'NWar:WAR_EXHAUSTION_MIN'. Location: common/script_values/war_exhaustion_mhmbd.txt:198
+[09:01:33][jomini_eventtarget.cpp:745]: Failed to parse data for event target link. Link: define, location: common/script_values/war_exhaustion_mhmbd.txt:198
+
+[09:01:33][jomini_scriptvalue.h:617]: Cannot read [define:NWar|WAR_EXHAUSTION_MIN] as a script value
+[09:01:33][jomini_scriptvalue.h:391]: Badly read script value define:NWar|WAR_EXHAUSTION_MIN at common/script_values/war_exhaustion_mhmbd.txt:198
+[09:01:33][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: country_is_in_india, near line: 1848" in file: "common/scripted_triggers/00_scripted_triggers.txt" near line: 1850
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:446
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:465
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:479
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:491
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:508
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:576
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:590
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_scripted_effects.txt:608
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_heir_generation.txt:202
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:315
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:327
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:339
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:351
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:365
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:376
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:391
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:406
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:421
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:438
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:449
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect country_summon_heir_effect at common/scripted_effects/00_victoria_royal_successions.txt:460
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:33][jomini_effect.cpp:542]: Unknown effect summon_generic_make_ruler_effect at common/scripted_effects/00_victoria_ip4_scripted_effects.txt:1989
+[09:01:34][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3
+Failed to read key reference: : , near line: 3" in file: "" near line: 3
+[09:01:34][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7
+Failed to read key reference: : , near line: 7" in file: "" near line: 7
+[09:01:34][gamedatabase.h:781]: Failed to cache an item for Static Modifiers! Key: war_support_battle_effects
+
+[09:01:34][gamedatabase.h:781]: Failed to cache an item for Static Modifiers! Key: country_gdp_construction
+
+[09:01:34][culture_type.cpp:192]: Missing localization key for name Michisura in culture japanese
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier piedmontese_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier lombard_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier venetian_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier tuscan_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier emilian_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier sardinian_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier umbro_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier romanesco_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier central_italian_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier neapolitano_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier siciliano_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier dalmata_fervor_target_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_standard_of_living_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_standard_of_living_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_cultural_acceptance_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_cultural_acceptance_modifier_negative
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_fervor_target_modifier_positive
+[09:01:34][culture_type.cpp:339]: Missing expected culture static modifier istriota_fervor_target_modifier_negative
+[09:01:34][building_group.cpp:93]: Building group bg_hardwood_logging has invalid parent building group building_logging_camp
+[09:01:34][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_ownership_building_manor_house, PM: pm_manor_house_daimyo_domains
+[09:01:34][building_type.cpp:1752]: Production Method Group is missing loc key! Production Method Group: pmg_canal_kiel
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_canal_kiel
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_manor_house_latifondi
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:34][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_french_tenancy_rice
+[09:01:34][lexer.cpp:285]: File 'common/ideologies/vanilla_character_ideologies.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:34][gamedatabase.h:378]: Duplicated key IBE will not be created from file: common/country_formation/formables_mhmbd.txt:1
+[09:01:35][lexer.cpp:285]: File 'common/interest_group_traits/00_industrialists_ig_traits_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:35][lexer.cpp:285]: File 'common/decrees/decrees_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:35][lexer.cpp:285]: File 'events/GM_Actions_Fill_Mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions_fill.1.z. CEventOptionDesc:139
+[09:01:35][jomini_effect.cpp:542]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:345
+[09:01:35][jomini_effect.cpp:542]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:353
+[09:01:35][jomini_effect.cpp:542]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:377
+[09:01:35][jomini_effect.cpp:542]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:385
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.8.t. events/HMPS_00_GM_Money.txt:51
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.9.t. events/HMPS_00_GM_Money.txt:203
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.10.t. events/HMPS_00_GM_Money.txt:345
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.11.t. events/HMPS_00_GM_Money.txt:458
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.12.t. events/HMPS_00_GM_Money.txt:610
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.13.t. events/HMPS_00_GM_Money.txt:752
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.18.t. events/HMPS_00_GM_Money.txt:865
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.18.l. CEventOptionDesc:139
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.19.t. events/HMPS_00_GM_Money.txt:1016
+[09:01:35][jomini_dynamicdescription.cpp:67]: Unrecognized loc key manifest_destiny_mexico.1.a. CEventOptionDesc:139
+[09:01:35][jomini_eventmanager.cpp:572]: Namespace 'formation' used in event 'formation.17' (file: events/misc_unifications.txt) is not defined in this file - it might not load properly.
+[09:01:35][lexer.cpp:285]: File 'events/two_sicilies_events_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:35][jomini_eventmanager.cpp:572]: Namespace 'REPLACE_OR_CREATE:historical_agitators' used in event 'REPLACE_OR_CREATE:historical_agitators.14' (file: events/agitators_events/dickens_event.txt) is not defined in this file - it might not load properly.
+[09:01:35][jomini_eventmanager.cpp:118]: 'REPLACE_OR_CREATE:historical_agitators.14' does not have a valid namespace
+[09:01:35][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/interface/icons/event_icºons/event_newspaper.dds not found'
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:116
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:132
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:148
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:164
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:315
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:324
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:350
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:375
+[09:01:35][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at events/iberia_events/regency_events.txt:400
+[09:01:35][jomini_eventmanager.cpp:440]: Duplicated event ID 'military_tech_events.401' found. New Location: 'events/tech_events/military_tech_events.txt:4', Previous Location: 'events/tech_events/military_tech_events_01.txt:3'
+[09:01:35][jomini_eventmanager.cpp:440]: Duplicated event ID 'military_tech_events.402' found. New Location: 'events/tech_events/military_tech_events.txt:98', Previous Location: 'events/tech_events/military_tech_events_01.txt:90'
+[09:01:35][jomini_eventmanager.cpp:440]: Duplicated event ID 'military_tech_events.403' found. New Location: 'events/tech_events/military_tech_events.txt:243', Previous Location: 'events/tech_events/military_tech_events_01.txt:242'
+[09:01:35][jomini_eventmanager.cpp:440]: Duplicated event ID 'military_tech_events.404' found. New Location: 'events/tech_events/military_tech_events.txt:319', Previous Location: 'events/tech_events/military_tech_events_01.txt:318'
+[09:01:35][gamedatabase.h:378]: Duplicated key chi_sun_yat_sen_character_template will not be created from file: common/character_templates/historical_agitators.txt:1777
+[09:01:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_land_logistics_center, near line: 84" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 84
+[09:01:35][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_land_logistics_center, near line: 52" in file: "gfx/map/city_data/city_types/japan_city.txt" near line: 52
+[09:01:36][jomini_trigger.cpp:722]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:68
+[09:01:36][jomini_trigger.cpp:722]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:69
+[09:01:36][jomini_trigger.cpp:722]: Inconsistent trigger scopes (battle_side vs. character) incommon/battle_conditions/battle_conditions_mod.txt:107
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 11" in file: "common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt" near line: 11
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 74" in file: "common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt" near line: 74
+[09:01:36][lexer.cpp:285]: File 'common/scripted_progress_bars/scripted_progress_bars_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][lexer.cpp:285]: File 'common/journal_entries/05_prestige_goods_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][lexer.cpp:285]: File 'common/journal_entries/french_monarchy_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][lexer.cpp:285]: File 'common/journal_entries/je_italian_nation_building.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][lexer.cpp:285]: File 'common/journal_entries/je_sal_y_vino.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][lexer.cpp:285]: File 'common/journal_entries/je_two_sicilies.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:36][gamedatabase.h:378]: Duplicated key je_brazilian_nation_building will not be created from file: common/journal_entries/04_brazilian_nation_building.txt:1
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 127" in file: "common/journal_entries/05_prestige_goods_mhmbd.txt" near line: 127
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 256" in file: "common/journal_entries/05_prestige_goods_mhmbd.txt" near line: 256
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 385" in file: "common/journal_entries/05_prestige_goods_mhmbd.txt" near line: 385
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: should_be_pinned_by_default, near line: 514" in file: "common/journal_entries/05_prestige_goods_mhmbd.txt" near line: 514
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: is_ruler, near line: 30" in file: "common/journal_entries/je_age_of_alexander_ii.txt" near line: 31
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: is_ruler, near line: 39" in file: "common/journal_entries/je_age_of_nicholas_i.txt" near line: 40
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Effect section already read earlier: on_complete, near line: 3" in file: "common/journal_entries/french_monarchy_mhmbd.txt" near line: 13
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: highest_ranked_commander, near line: 324" in file: "common/mobilization_options/00_mobilization_option.txt" near line: 331
+[09:01:36][company_type.cpp:101]: Invalid building type 'building_military_shipyard'
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: STATE_GREATER_MASSACHUSETTS: STATE_GREATER_MASSACHUSETTS, near line: 645" in file: "common/company_types/00_companies_mp1.txt" near line: 645
+[09:01:36][jomini_trigger.cpp:722]: Inconsistent trigger scopes (country vs. culture) incommon/company_types/companies_mhmbd.txt:306
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: count, near line: 1812" in file: "common/company_types/companies_mhmbd.txt" near line: 1819
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: ?=, near line: 1890" in file: "common/company_types/companies_mhmbd.txt" near line: 1893
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: count, near line: 1967" in file: "common/company_types/companies_mhmbd.txt" near line: 1974
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: bg_mining_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: bg_mining_throughput_add, near line: 2226" in file: "common/company_types/companies_mhmbd.txt" near line: 2226
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: ?=, near line: 2821" in file: "common/company_types/companies_mhmbd.txt" near line: 2824
+[09:01:36][building_type.cpp:1752]: Production Method Group is missing loc key! Production Method Group: pmg_canal_kiel
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_canal_kiel
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_manor_house_latifondi
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:36][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_french_tenancy_rice
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 455" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 455
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_war_exhaustion_casualties_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_war_exhaustion_casualties_mult, near line: 476" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 476
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: power_bloc_religion_trade_route_competitiveness_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: power_bloc_religion_trade_route_competitiveness_mult, near line: 1059" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1059
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_party_whip_impact_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_party_whip_impact_mult, near line: 1347" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1347
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_party_whip_impact_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_party_whip_impact_mult, near line: 1369" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1369
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_institution_size_change_speed_institution_health_system_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_institution_size_change_speed_institution_health_system_mult, near line: 1521" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1521
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_institution_size_change_speed_institution_health_system_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_institution_size_change_speed_institution_health_system_mult, near line: 1546" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1546
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_institution_size_change_speed_institution_health_system_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_institution_size_change_speed_institution_health_system_mult, near line: 1562" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1562
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_group_building_rubber_plantation_unincorporated_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_group_building_rubber_plantation_unincorporated_throughput_add, near line: 1683" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1683
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: building_group_building_rubber_plantation_unincorporated_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: building_group_building_rubber_plantation_unincorporated_throughput_add, near line: 1712" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1712
+[09:01:36][jomini_script_argument.cpp:217]: Compiling source for can_reach_target_country failed for missing arguments: TARGET_COUNTRY, TARGET_COUNTRY, TARGET_COUNTRY, TARGET_COUNTRY. At common/scripted_triggers/00_scripted_triggers.txt:1058
+[09:01:36][jomini_script_argument.cpp:217]: Compiling source for can_reach_target_state failed for missing arguments: TARGET_STATE, TARGET_STATE, TARGET_STATE. At common/scripted_triggers/00_scripted_triggers.txt:1087
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_pacific_coast, near line: 5264" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5271
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_great_plains, near line: 5272" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5279
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_dixie, near line: 5280" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5287
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_new_england, near line: 5288" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5295
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_canada, near line: 5296" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5303
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_the_midwest, near line: 5304" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5311
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: region_central_america, near line: 5312" in file: "common/ai_strategies/00_default_strategy.txt" near line: 5326
+[09:01:36][ai_strategy.cpp:107]: Invalid war goal kind 'make_protectorate' in ai_strategies
+[09:01:36][ai_strategy.cpp:107]: Invalid war goal kind 'make_tributary' in ai_strategies
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: ai_opium_dealer_no_alliance_trigger, near line: 430" in file: "common/treaty_articles/01_defensive_pact.txt" near line: 431
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: ai_opium_dealer_no_alliance_trigger, near line: 327" in file: "common/treaty_articles/02_guarantee_independence.txt" near line: 328
+[09:01:36][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: dp_sepoy_mutiny: dp_sepoy_mutiny, near line: 27" in file: "common/treaty_articles/03_support_independence.txt" near line: 28
+[09:01:37][country_definition.cpp:225]: Country definition NEN has invalid capital STATE_GREATER_MASSACHUSETTS
+[09:01:37][jomini_onaction.cpp:29]: No on_action scripted with tag spooky_halloween_events cannot link
+[09:01:37][jomini_onaction.cpp:29]: No on_action scripted with tag HMPS_Check_for_GM cannot link
+[09:01:37][jomini_onaction.cpp:789]: Couldn't find predefined on action named on_diplo_play_subject_backstab_overlord
+[09:01:37][jomini_onaction.cpp:789]: Couldn't find predefined on action named on_amendment_timeout
+[09:01:37][jomini_onaction.cpp:789]: Couldn't find predefined on action named on_commander_promoted
+[09:01:37][jomini_onaction.cpp:789]: Couldn't find predefined on action named on_treaty_ports_inherited
+[09:01:37][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
+[09:01:37][journal_entry_type.cpp:485]: Journal entry is missing loc for je_matter_of_alsace
+[09:01:37][journal_entry_type.cpp:490]: Journal entry is missing loc for je_matter_of_alsace_reason!
+[09:01:37][company_type.cpp:41]: Invalid base building type building_tooling_workshops for company type building_tooling_workshops
+[09:01:37][building_type.cpp:1752]: Production Method Group is missing loc key! Production Method Group: pmg_canal_kiel
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_canal_kiel
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_manor_house_latifondi
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_latifondi
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_mezzadria
+[09:01:37][building_type.cpp:1758]: Production Method is missing loc key! Production Method: pm_french_tenancy_rice
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/brz - brazil.txt:20
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/ida - idar.txt:7
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/jai - jaipur.txt:7
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/joh - johore.txt:6
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/kor - korea.txt:6
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/mnp - manipur.txt:10
+[09:01:37][jomini_effect.cpp:542]: Unknown effect designate_character_as_regent at common/history/characters/spa - spain.txt:6
+[09:01:37][lexer.cpp:285]: File 'common/history/countries/sic - two sicilies.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:38][lexer.cpp:285]: File 'common/history/global/italy_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:38][pdx_persistent_reader.cpp:268]: Error: "Wrong type parsed in create_character effect: hq_region, near line: 1326" in file: "common/history/military_formations/05_military_formations_india.txt" near line: 1335
+[09:01:38][lexer.cpp:285]: File 'common/history/political_movements/political_movements_mhmbd.txt' should be in utf8-bom encoding (will try to use it anyways)
+[09:01:38][jomini_named_values.cpp:68]: The game expects the named value 'diplomatic_play_acceptance' to exist, but it does not
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'GBR_thomas_ismay' ]
+  Script location: gfx/portraits/portrait_modifiers/01_clothes.txt:4377
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_clothes.txt:4377
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'GBR_joseph_ismay' ]
+  Script location: gfx/portraits/portrait_modifiers/01_clothes.txt:4378
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_clothes.txt:4378
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'GBR_thomas_ismay' ]
+  Script location: gfx/portraits/portrait_modifiers/01_headgear.txt:45
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_headgear.txt:45
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'GBR_joseph_ismay' ]
+  Script location: gfx/portraits/portrait_modifiers/01_headgear.txt:46
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_headgear.txt:46
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2147
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at events/soi_events/00_lobbies_events_03.txt:2147
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2149
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at events/soi_events/00_lobbies_events_03.txt:2149
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_research trigger [ Invalid database object 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2150
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_research' returned false at events/soi_events/00_lobbies_events_03.txt:2150
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2194
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at events/soi_events/00_lobbies_events_03.txt:2194
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2196
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at events/soi_events/00_lobbies_events_03.txt:2196
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_research trigger [ Invalid database object 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2197
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_research' returned false at events/soi_events/00_lobbies_events_03.txt:2197
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2264
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at events/soi_events/00_lobbies_events_03.txt:2264
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_research trigger [ Invalid database object 'antibiotics' ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2265
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_research' returned false at events/soi_events/00_lobbies_events_03.txt:2265
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: common/character_templates/country_jap.txt:131
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_technology_researched' returned false at common/character_templates/country_jap.txt:131
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_company_type trigger [ target: Not found in database class CCompanyTypeDatabase ]
+  Script location: common/on_actions/00_code_on_actions.txt:1416
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_company_type' returned false at common/on_actions/00_code_on_actions.txt:1416
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/on_actions/00_code_on_actions.txt:5499
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_journal_entry' returned false at common/on_actions/00_code_on_actions.txt:5499
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_no_hardwood ]
+  Script location: gfx/map/city_data/city_centerpiece/balkan_centerpieces.txt:57
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/city_data/city_centerpiece/balkan_centerpieces.txt:57
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_increased_hardwood ]
+  Script location: gfx/map/city_data/city_centerpiece/balkan_centerpieces.txt:59
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/city_data/city_centerpiece/balkan_centerpieces.txt:59
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_no_hardwood ]
+  Script location: gfx/map/city_data/city_centerpiece/japan_centerpieces.txt:57
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/city_data/city_centerpiece/japan_centerpieces.txt:57
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_increased_hardwood ]
+  Script location: gfx/map/city_data/city_centerpiece/japan_centerpieces.txt:59
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/city_data/city_centerpiece/japan_centerpieces.txt:59
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_no_hardwood ]
+  Script location: gfx/map/spline_network/route_graphics/02_railroad_vehicles.txt:897
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/spline_network/route_graphics/02_railroad_vehicles.txt:897
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_active_production_method trigger [ Invalid Production Method: pm_no_hardwood ]
+  Script location: gfx/map/spline_network/route_graphics/02_railroad_vehicles.txt:908
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_active_production_method' returned false at gfx/map/spline_network/route_graphics/02_railroad_vehicles.txt:908
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/journal_entries/00_abolish_monarchy.txt:70
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_journal_entry' returned false at common/journal_entries/00_abolish_monarchy.txt:70
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_sepoy_mutiny' ]
+  Script location: common/journal_entries/04_imperialism_of_promise.txt:63
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_journal_entry' returned false at common/journal_entries/04_imperialism_of_promise.txt:63
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip trigger [ Unknown loc key je_prestige_goods_specialty_sugar_complete_tt ]
+  Script location: common/company_types/companies_mhmbd.txt:1078
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'custom_tooltip' returned false at common/company_types/companies_mhmbd.txt:1078
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip trigger [ Unknown loc key je_prestige_goods_specialty_sugar_complete_tt ]
+  Script location: common/company_types/companies_mhmbd.txt:2030
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'custom_tooltip' returned false at common/company_types/companies_mhmbd.txt:2030
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip trigger [ Unknown loc key je_prestige_goods_tempered_glass_complete_tt ]
+  Script location: common/company_types/companies_mhmbd.txt:2520
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'custom_tooltip' returned false at common/company_types/companies_mhmbd.txt:2520
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_strategy trigger [ Invalid database object 'ai_strategy_unify_china' ]
+  Script location: common/diplomatic_catalysts/00_diplomatic_catalysts.txt:1681
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_strategy' returned false at common/diplomatic_catalysts/00_diplomatic_catalysts.txt:1681
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:155
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/scripted_triggers/00_ai_triggers.txt:155
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_consolidate_colonial_rule' ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:172
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:172
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:297
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/scripted_triggers/00_ai_triggers.txt:297
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:367
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/scripted_triggers/00_ai_triggers.txt:367
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:426
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/scripted_triggers/00_ai_triggers.txt:426
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:498
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/scripted_triggers/00_ai_triggers.txt:498
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_naval_base' ]
+  Script location: common/political_movements/00_ideological_movements.txt:998
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_building_type' returned false at common/political_movements/00_ideological_movements.txt:998
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_unification_candidate trigger [ Invalid country formation ]
+  Script location: common/political_movements/03_pan_national_movements.txt:1875
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_unification_candidate' returned false at common/political_movements/03_pan_national_movements.txt:1875
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_unification_candidate trigger [ Invalid country formation ]
+  Script location: common/political_movements/03_pan_national_movements.txt:1877
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_unification_candidate' returned false at common/political_movements/03_pan_national_movements.txt:1877
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_unification_candidate trigger [ Invalid country formation ]
+  Script location: common/political_movements/03_pan_national_movements.txt:1890
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_unification_candidate' returned false at common/political_movements/03_pan_national_movements.txt:1890
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_unification_candidate trigger [ Invalid country formation ]
+  Script location: common/political_movements/03_pan_national_movements.txt:1893
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_unification_candidate' returned false at common/political_movements/03_pan_national_movements.txt:1893
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: is_unification_candidate trigger [ Invalid country formation ]
+  Script location: common/political_movements/03_pan_national_movements.txt:1912
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'is_unification_candidate' returned false at common/political_movements/03_pan_national_movements.txt:1912
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:1320
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/00_default_strategy.txt:1320
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:22
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/scripted_triggers/00_ai_triggers.txt:22
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:54
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/scripted_triggers/00_ai_triggers.txt:54
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:64
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/scripted_triggers/00_ai_triggers.txt:64
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:2044
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/00_default_strategy.txt:2044
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:2065
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:2065
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:3253
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:3253
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:3272
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:3272
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:3291
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:3291
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:4830
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:4830
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6207
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:6207
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6379
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:6379
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6811
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:6811
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6858
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:6858
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6965
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:6965
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:7377
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:7377
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:7394
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:7394
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:7693
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:7693
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/00_default_strategy.txt:8012
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/00_default_strategy.txt:8012
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:277
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:277
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1206
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1206
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1233
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1233
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1266
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1266
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1513
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1513
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1805
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1805
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:2084
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/02_diplomatic_strategies.txt:2084
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:2097
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:2097
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:2122
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:2122
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:2139
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:2139
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:2911
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/ai_strategies/02_diplomatic_strategies.txt:2911
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_state trigger [ Arguments needed for scripted trigger ]
+  Script location: common/ai_strategies/02_diplomatic_strategies.txt:3151
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_state' returned false at common/ai_strategies/02_diplomatic_strategies.txt:3151
+[09:01:38][jomini_script_system.cpp:247]: Script system error!
+  Error: can_reach_target_country trigger [ Arguments needed for scripted trigger ]
+  Script location: common/treaty_articles/07_foreign_investment_rights.txt:468
+
+[09:01:38][jomini_trigger.cpp:224]: PostValidate of trigger 'can_reach_target_country' returned false at common/treaty_articles/07_foreign_investment_rights.txt:468
+[09:01:39][state_region_template.cpp:1597]: State Region STATE_MANITOBA (307) is coastal but is missing a port hub
+[09:01:39][state_region_template.cpp:1636]: No Port / Treaty Port province designated for coastal State Region: STATE_MANITOBA
+[09:01:39][state_region_template.cpp:1753]: If the state region is considered coastal land, it should always have an exit region! State Region: STATE_ONTARIO
+[09:01:39][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_frigate_defense_mult is defined in script but not in code, it should either be added to code or flagged script_only.
+[09:01:39][travel_network_definition.cpp:1489]: Harbor node 3777 has no port node to dock with
+[09:01:39][travel_network_definition.cpp:1489]: Harbor node 3778 has no port node to dock with
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_foreign_investment' file location: common/script_values/01_power_bloc_values.txt:35
+[09:01:39][eventtargetlinks.cpp:5117]: Non-existent modifier type 'country_war_exhaustion_casualties_mult' file location: 'common/script_values/war_exhaustion_mhmbd.txt:135'
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_east_siberia' file location: events/major_railways.txt:37
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_west_siberia' file location: events/major_railways.txt:40
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_east_siberia' file location: events/major_railways.txt:53
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_west_siberia' file location: events/major_railways.txt:54
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_east_siberia' file location: events/major_railways.txt:73
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_west_siberia' file location: events/major_railways.txt:74
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_east_siberia' file location: events/major_railways.txt:98
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_west_siberia' file location: events/major_railways.txt:99
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_east_siberia' file location: events/major_railways.txt:118
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_west_siberia' file location: events/major_railways.txt:119
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events.txt:120
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events.txt:128
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events.txt:141
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events.txt:152
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events.txt:160
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events_01.txt:127
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events_01.txt:140
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events_01.txt:151
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: events/tech_events/military_tech_events_01.txt:159
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'company_suez_company' file location: common/character_templates/country_fra.txt:674
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'company_ingolstadt_electrical_company' file location: common/character_templates/spooky_templates.txt:86
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:186
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:204
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:222
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:240
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:258
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'mobilization_option_machinegunners' file location: gfx/map/front_entities/front_entities_support.txt:279
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:43
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:42
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:41
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:21
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:20
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:19
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:90
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:91
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:92
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:111
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:112
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:113
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:148
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:149
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:150
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:170
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:171
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:172
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:197
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:198
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:199
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_rhine' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:228
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_north_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:229
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_south_germany' file location: common/scripted_buttons/rhine_scripted_buttons_mhmbd.txt:230
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'STATE_BAHIA' file location: common/company_types/companies_mhmbd.txt:862
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'STATE_BAHIA' file location: common/company_types/companies_mhmbd.txt:869
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_manchuria' file location: common/company_types/companies_tratado_mod.txt:16
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_manchuria' file location: common/company_types/companies_tratado_mod.txt:33
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_defensive_cooperation' file location: common/power_bloc_principles/00_power_bloc_principles.txt:439
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_colonial_offices' file location: common/ai_strategies/00_default_strategy.txt:6499
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_colonial_offices' file location: common/ai_strategies/00_default_strategy.txt:6899
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_colonial_offices_3' file location: common/ai_strategies/02_diplomatic_strategies.txt:81
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_colonial_offices_3' file location: common/ai_strategies/02_diplomatic_strategies.txt:448
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_colonial_offices' file location: common/ai_strategies/02_diplomatic_strategies.txt:721
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_group_colonial_offices' file location: common/ai_strategies/02_diplomatic_strategies.txt:744
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_colonial_offices_3' file location: common/ai_strategies/02_diplomatic_strategies.txt:994
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_colonial_offices_3' file location: common/ai_strategies/02_diplomatic_strategies.txt:2840
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_foreign_investment_3' file location: common/treaty_articles/07_foreign_investment_rights.txt:70
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'principle_foreign_investment_3' file location: common/treaty_articles/18_acquire_monopoly_for_company.txt:86
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_bombay' file location: common/history/countries/bic - british east india company.txt:57
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_madras' file location: common/history/countries/bic - british east india company.txt:58
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_madras' file location: common/history/military_formations/00_military_formations_europe.txt:1190
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_bengal' file location: common/history/military_formations/05_military_formations_india.txt:900
+[09:01:39][eventtargetlinks.cpp:138]: Invalid database object key 'region_ethiopia' file location: common/history/military_formations/military_formations_ethiopia.txt:6
+[09:01:39][jomini_eventmanager.cpp:118]: 'raj.1' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'raj.1' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.2' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.9' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.10' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.7' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.3' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.1' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.8' does not have a valid namespace
+[09:01:39][jomini_eventmanager.cpp:118]: 'india_home_rule_events.10' does not have a valid namespace
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/00_west_europe.txt:112
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_military_shipbuilding_wooden ]
+  Script location: common/history/buildings/00_west_europe.txt:3240
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/05_north_america.txt:2205
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/05_north_america.txt:2244
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/05_north_america.txt:2287
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/05_north_america.txt:2341
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_no_hardwood ]
+  Script location: common/history/buildings/11_east_asia.txt:3434
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_no_hardwood ]
+  Script location: common/history/buildings/11_east_asia.txt:3540
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_hardwood ]
+  Script location: common/history/buildings/11_east_asia.txt:3618
+
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: change_variable effect [ No operation specified ]
+  Script location: common/scripted_effects/scripted_effects_mhmbd.txt:30
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'change_variable' returned false at common/scripted_effects/scripted_effects_mhmbd.txt:30
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: change_variable effect [ No operation specified ]
+  Script location: common/scripted_effects/scripted_effects_mhmbd.txt:46
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'change_variable' returned false at common/scripted_effects/scripted_effects_mhmbd.txt:46
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: change_variable effect [ No operation specified ]
+  Script location: common/scripted_effects/scripted_effects_mhmbd.txt:62
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'change_variable' returned false at common/scripted_effects/scripted_effects_mhmbd.txt:62
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_progress effect [ technology: Not found in database class CTechnologyDatabase ]
+  Script location: events/soi_events/00_lobbies_events_03.txt:2267
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'add_technology_progress' returned false at events/soi_events/00_lobbies_events_03.txt:2267
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key je_prestige_good_specialty_sugar_reward_tt ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:99
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'custom_tooltip' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:99
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: post_notification effect [ Invalid database object 'prestige_good_specialty_sugar_unlocked' ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:106
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'post_notification' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:106
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key je_prestige_good_premium_liquor_reward_tt ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:228
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'custom_tooltip' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:228
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: post_notification effect [ Invalid database object 'prestige_good_premium_liquor_unlocked' ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:235
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'post_notification' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:235
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key je_prestige_good_ultra_food_reward_tt ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:357
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'custom_tooltip' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:357
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: post_notification effect [ Invalid database object 'prestige_good_ultra_food_unlocked' ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:364
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'post_notification' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:364
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key je_prestige_good_tempered_glass_reward_tt ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:486
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'custom_tooltip' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:486
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: post_notification effect [ Invalid database object 'prestige_good_tempered_glass_unlocked' ]
+  Script location: common/journal_entries/05_prestige_goods_mhmbd.txt:493
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'post_notification' returned false at common/journal_entries/05_prestige_goods_mhmbd.txt:493
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid building ]
+  Script location: common/history/buildings/00_west_europe.txt:3240
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_building' returned false at common/history/buildings/00_west_europe.txt:3240
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_england in common/history/characters/gbr - great britain.txt:39
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/characters/gbr - great britain.txt:39
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_north_sea_coast in common/history/characters/gbr - great britain.txt:43
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/characters/gbr - great britain.txt:43
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_west_siberia in common/history/characters/rus - russia.txt:47
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/characters/rus - russia.txt:47
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_anatolia in common/history/characters/tur - ottomans.txt:118
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/characters/tur - ottomans.txt:118
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_anatolia in common/history/characters/tur - ottomans.txt:134
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/characters/tur - ottomans.txt:134
+[09:01:39][jomini_script_system.cpp:247]: Script system error!
+  Error: add_journal_entry effect [ Invalid journal entry type 'je_uneasy_raj' ]
+  Script location: common/history/countries/bic - british east india company.txt:42
+
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'add_journal_entry' returned false at common/history/countries/bic - british east india company.txt:42
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_north_sea_coast in common/history/military_formations/00_military_formations_europe.txt:1092
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:1092
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_england in common/history/military_formations/00_military_formations_europe.txt:1255
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:1255
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_caucasus in common/history/military_formations/00_military_formations_europe.txt:1718
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:1718
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_dnieper in common/history/military_formations/00_military_formations_europe.txt:1902
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:1902
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_poland in common/history/military_formations/00_military_formations_europe.txt:1991
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:1991
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_east_siberia in common/history/military_formations/00_military_formations_europe.txt:2171
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/00_military_formations_europe.txt:2171
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_mexico in common/history/military_formations/01_military_formations_north_america.txt:231
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/01_military_formations_north_america.txt:231
+[09:01:39][character_templates_utils.cpp:40]: Invalid HQ region_ethiopia in common/history/military_formations/military_formations_ethiopia.txt:17
+[09:01:39][jomini_effect.cpp:141]: PostValidate of effect 'create_character' returned false at common/history/military_formations/military_formations_ethiopia.txt:17
+[09:01:39][jomini_effect.cpp:1135]: Variable 'wants_treaty_port_revenge_against' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'britain_granted_dop_permission' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'usa_state_flag_block' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'coup_loc_law_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'doctrine_of_lapse_cooldown' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'achievement_everyone_disliked_that_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'company_rule_enduring' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'dyer_disciplined' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'reject_russo-turkish_war' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'china_shatters' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'failed_uprisings_culture_list' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'memento_mori_immunity' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'simon_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'louise_michel_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'coup_loc_char_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'simon_commission_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'lawrence_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'truce_funny' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'utilitarianism_done' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'canning_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'years_since_opening_of_japan_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'british_raj_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'district_of_columbia' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'cult_center' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'china_warlord_abolished_monarchy' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'chinese_central_government' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'lost_opium_wars' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'regent_immortality_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'east_indies_revolt_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1135]: Variable 'coup_loc_lobby_country_var' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[09:01:39][jomini_effect.cpp:1139]: Variable 'frankenstein_happened_global_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Event target 'annexing_overlord' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Event target 'egyptian_crisis_scope' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_effect.cpp:1139]: Event target 'dixie_acw_scope' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[09:01:39][jomini_eventmanager.cpp:376]: Event treaty_port_inheritance_events.1 is orphaned
+[09:01:39][jomini_eventmanager.cpp:376]: Event india_events.11 is orphaned
+[09:01:39][jomini_eventmanager.cpp:376]: Event ezo_republic.2 is orphaned
+[09:01:39][jomini_eventmanager.cpp:376]: Event japan_earthquakes.1 is orphaned
+[09:01:39][jomini_eventmanager.cpp:376]: Event tenpo_events.6 is orphaned
+[09:01:42][coastal_graphics.cpp:69]: Cannot find a port node for harbor in 'STATE_GALAPAGOS_RISE' (688)
+[09:01:42][coastal_graphics.cpp:69]: Cannot find a port node for harbor in 'STATE_GALAPAGOS_RISE' (688)
+[09:01:42][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_frigate_defense_mult is defined in script but not in code, it should either be added to code or flagged script_only.
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:42][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:01:43][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[09:02:19][jomini_script_system.cpp:247]: Script system error!
+  Error: Failed to scope to state region by key 'STATE_HAINAN'
+  Script location: common/history/pops/11_east_asia.txt:577
+
+[09:02:19][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 's' returned an unset scope
+  Script location: common/history/pops/11_east_asia.txt:577
+
+[09:02:19][jomini_script_system.cpp:247]: Script system error!
+  Error: region_state:CHI effect [ Wrong scope for effect: none, expected state_region ]
+  Script location: common/history/pops/11_east_asia.txt:578
+
+[09:02:19][pdx_assert.cpp:641]: Assertion failed: Attempted to create relations for invalid countries!
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'region_state' returned an invalid object
+  Script location: common/history/buildings/02_east_europe.txt:281
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/02_east_europe.txt:282
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/02_east_europe.txt:293
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/02_east_europe.txt:306
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: common/history/buildings/02_east_europe.txt:319
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,kAAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI144!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,sKnaTZwFAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/10_india.txt:1732
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,kAAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI144!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,sKnaTZwFAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Enclosure!! ]
+  Script location: common/history/buildings/10_india.txt:1745
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ simple_box! tooltippable_name tooltip:dw_1696362872,kAAAAA==,DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip ORI144!flag_overlay! Orissa!! must have invented tooltippable_name tooltip:dw_2693000601,QC98RpwFAAA=,DATA_TECHNOLOGY_NAME_TOOLTIP,TechnologyTooltip Navigation!! ]
+  Script location: common/history/buildings/10_india.txt:1758
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Cannot find naval HQ for France in region_west_africa ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:971
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Failed to create fleet formation for France ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:971
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Cannot find land HQ for Great Britain in  ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:1188
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Failed to create army formation for Great Britain ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:1188
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: transfer_to_formation effect [ Invalid target military formation ]
+  Script location: common/history/military_formations/00_military_formations_europe.txt:1261
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_character effect [ Failed to create character ]
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:34
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: Undefined event target 'lutfi_gen'
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:39
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'scope' returned an unset scope
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:39
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: transfer_to_formation effect [ Wrong scope for effect: none, expected character ]
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:40
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_character effect [ Failed to create character ]
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:93
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: Undefined event target 'hafiz_gen'
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:98
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'scope' returned an unset scope
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:98
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: transfer_to_formation effect [ Wrong scope for effect: none, expected character ]
+  Script location: common/history/military_formations/04_military_formations_middle_east.txt:99
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Cannot find land HQ for Bengal in  ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:898
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Failed to create army formation for Bengal ]
+  Script location: common/history/military_formations/05_military_formations_india.txt:898
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Cannot find land HQ for Shewa in  ]
+  Script location: common/history/military_formations/military_formations_ethiopia.txt:4
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: create_military_formation effect [ Failed to create army formation for Shewa ]
+  Script location: common/history/military_formations/military_formations_ethiopia.txt:4
+
+[09:02:21][jomini_script_system.cpp:247]: Script system error!
+  Error: transfer_to_formation effect [ Invalid target military formation ]
+  Script location: common/history/military_formations/military_formations_ethiopia.txt:40
+
+[09:02:26][state.cpp:7383]: State Kyōto has 1 of building type Lead Mines and can only support 0, its level will be reduced.
+[09:02:26][state.cpp:7383]: State Kaurna has 1 of building type Fishing Wharves and can only support 0, its level will be reduced.
+[09:02:26][state.cpp:7383]: State Western Australia has 1 of building type Logging Camps and can only support 0, its level will be reduced.
+[09:02:26][initializefrombookmark.cpp:1430]: Historical diplomatic pact vassal between PAN and KAS cannot be maintained and will break soon
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_grand_duchy_of_finland is not permitted to retain law Tenant Farmers, fix this or consider Obshchina instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_hanover is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country ION is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country HDJ is not permitted to retain law Hereditary Bureaucrats, fix this or consider Derebeys instead
+[09:02:26][country_law_manager.cpp:464]: Country ORI is not permitted to retain law Mercantilism, fix this or consider Isolationism instead
+[09:02:26][country_law_manager.cpp:464]: Country ORI is not permitted to retain law Outlawed Dissent, fix this or consider Right of Assembly instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_lower_canada is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_upper_canada is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country NBS is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country NVS is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_baltic_governorate is not permitted to retain law Tenant Farmers, fix this or consider Obshchina instead
+[09:02:26][country_law_manager.cpp:464]: Country KZH is not permitted to retain law Subjecthood, fix this or consider National Supremacy instead
+[09:02:26][country_law_manager.cpp:464]: Country KZH is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
+[09:02:26][country_law_manager.cpp:464]: Country KZH is not permitted to retain law Serfdom, fix this or consider Multipolar Serfdom instead
+[09:02:26][country_law_manager.cpp:464]: Country KZH is not permitted to retain law Right of Assembly, fix this or consider Glasnost instead
+[09:02:26][country_law_manager.cpp:464]: Country UZH is not permitted to retain law Subjecthood, fix this or consider National Supremacy instead
+[09:02:26][country_law_manager.cpp:464]: Country UZH is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
+[09:02:26][country_law_manager.cpp:464]: Country UZH is not permitted to retain law Serfdom, fix this or consider Multipolar Serfdom instead
+[09:02:26][country_law_manager.cpp:464]: Country UZH is not permitted to retain law Right of Assembly, fix this or consider Glasnost instead
+[09:02:26][country_law_manager.cpp:464]: Country OZH is not permitted to retain law Subjecthood, fix this or consider National Supremacy instead
+[09:02:26][country_law_manager.cpp:464]: Country OZH is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
+[09:02:26][country_law_manager.cpp:464]: Country OZH is not permitted to retain law Serfdom, fix this or consider Multipolar Serfdom instead
+[09:02:26][country_law_manager.cpp:464]: Country OZH is not permitted to retain law Right of Assembly, fix this or consider Glasnost instead
+[09:02:26][country_law_manager.cpp:464]: Country Russian-American Company is not permitted to retain law Subjecthood, fix this or consider National Supremacy instead
+[09:02:26][country_law_manager.cpp:464]: Country Russian-American Company is not permitted to retain law Hereditary Bureaucrats, fix this or consider Appointed Bureaucrats instead
+[09:02:26][country_law_manager.cpp:464]: Country Russian-American Company is not permitted to retain law Tenant Farmers, fix this or consider Multipolar Serfdom instead
+[09:02:26][country_law_manager.cpp:464]: Country East India Company is not permitted to retain law No Colonial Affairs, fix this or consider Colonial Resettlement instead
+[09:02:26][country_law_manager.cpp:464]: Country EGY is not permitted to retain law Hereditary Bureaucrats, fix this or consider Derebeys instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_south_africa is not permitted to retain law No Colonial Affairs, fix this or consider Frontier Colonization instead
+[09:02:26][country_law_manager.cpp:464]: Country TRI is not permitted to retain law Hereditary Bureaucrats, fix this or consider Derebeys instead
+[09:02:26][country_law_manager.cpp:464]: Country TUN is not permitted to retain law Hereditary Bureaucrats, fix this or consider Derebeys instead
+[09:02:26][country_law_manager.cpp:464]: Country dyn_c_british_west_africa is not permitted to retain law No Colonial Affairs, fix this or consider Frontier Colonization instead
+[09:02:26][country_law_manager.cpp:464]: Country SAS is not permitted to retain law No Colonial Affairs, fix this or consider Frontier Colonization instead
+[09:02:26][building_manager.cpp:1552]: Building in Ingria has 48 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Kharkov has 26 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Hindustani Madhya Pradesh has 35 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Hindustani Mysuru has 35 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Maharashtra has 100 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Hindustani Awadh has 180 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Delhi has 90 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:26][building_manager.cpp:1552]: Building in Agra has 90 of building type Barracks and can only support 25, its level will be reduced.
+[09:02:30][gui_search_bar.cpp:78]: Search bar could not find edit box 'search_edit'

@@ -22,7 +22,6 @@
 
 	timeout = 12775
 
-	
 	on_timeout = {
 		remove_modifier = sick_man_of_europe
 		add_modifier = {
@@ -36,7 +35,7 @@
 		if = {
 			limit = {
 	       		is_in_power_bloc = yes
-	        	is_power_bloc_leader = yes				
+	        	is_power_bloc_leader = yes
 			}
 			custom_tooltip = sick_man_of_europe_lose_power_bloc
 		}
@@ -193,13 +192,14 @@ je_sick_man_syria = {
 
 	on_weekly_pulse = {
 		events = {
-			egyptian_crisis_events.1
+			#egyptian_crisis_events.1
 		}
 	}
 
 	transferable = no
 
 	weight = 5000
+
 
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
@@ -246,7 +246,7 @@ je_sick_man_egypt = {
 
 	weight = 5000
 
-		
+
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
@@ -283,7 +283,7 @@ je_sick_man_economy = {
 	transferable = no
 
 	weight = 5000
-		
+
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
@@ -332,7 +332,7 @@ je_sick_man_education = {
 
 	weight = 5000
 
-		
+
 	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	progressbar = yes
@@ -415,6 +415,7 @@ je_sick_man_separatism = {
 
 	weight = 5000
 
+
 	should_be_pinned_by_default_uninvolved_or_context = yes
 
 	progressbar = yes
@@ -489,12 +490,12 @@ je_sick_man_bureaucracy = {
 	group = je_group_tanzimat
 
 	complete = {
-		NOR = { 
+		NOR = {
 			has_law_or_variant = law_type:law_hereditary_bureaucrats
 			has_law_or_variant = law_type:law_land_based_taxation
 			has_law_or_variant = law_type:law_consumption_based_taxation
 		}
-		bureaucracy >= 0 
+		bureaucracy >= 0
 		approaching_bureaucracy_shortage = no
 	}
 

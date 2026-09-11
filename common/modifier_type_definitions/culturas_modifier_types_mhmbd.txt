@@ -1,0 +1,649 @@
+# Piamontés #
+
+piedmontese_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+piedmontese_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+piedmontese_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+piedmontese_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+piedmontese_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+piedmontese_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Lombard #
+
+lombard_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+lombard_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+lombard_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+lombard_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+lombard_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+lombard_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Venetian #
+
+venetian_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+venetian_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+venetian_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+venetian_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+venetian_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+venetian_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Tuscan #
+
+tuscan_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+tuscan_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+tuscan_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+tuscan_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+tuscan_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+tuscan_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Emilian #
+
+emilian_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+emilian_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+emilian_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+emilian_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+emilian_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+emilian_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Sardinian #
+
+sardinian_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+sardinian_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+sardinian_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+sardinian_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+sardinian_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+sardinian_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Umbro #
+
+umbro_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+umbro_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+umbro_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+umbro_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+umbro_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+umbro_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Romanesco #
+
+romanesco_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+romanesco_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+romanesco_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+romanesco_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+romanesco_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+romanesco_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Central Italian #
+
+central_italian_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+central_italian_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+central_italian_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+central_italian_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+central_italian_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+central_italian_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Neapolitano #
+
+neapolitano_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+neapolitano_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+neapolitano_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+neapolitano_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+neapolitano_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+neapolitano_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Siciliano #
+
+siciliano_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+siciliano_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+siciliano_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+siciliano_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+siciliano_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+siciliano_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Dálmata #
+
+dalmata_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+dalmata_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+dalmata_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+dalmata_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+dalmata_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+dalmata_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+# Istriota #
+
+istriota_cultural_acceptance_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+istriota_cultural_acceptance_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+istriota_fervor_target_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+istriota_fervor_target_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+istriota_standard_of_living_modifier_negative={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+istriota_standard_of_living_modifier_positive={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

@@ -15,6 +15,15 @@ country_institution_cost_institution_military_mult={
 	}
 }
 
+country_institution_size_change_speed_institution_health_system_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
 building_group_bg_subsistence_agriculture_mortality_mult={
 	decimals=0
 	color=bad

@@ -2499,7 +2499,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -3067,7 +3067,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production_sawmills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -3626,7 +3626,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tobacco_plantation"

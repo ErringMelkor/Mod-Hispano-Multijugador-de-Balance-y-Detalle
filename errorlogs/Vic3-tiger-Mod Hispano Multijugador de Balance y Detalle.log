@@ -1,0 +1,1473 @@
+
+error(parse-error): unexpected comparator `?=`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1890 |             binds = c:FRA ?= this
+     |                           ^^ 
+
+error(structure): found loose value this, expected only `key =`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1890 |             binds = c:FRA ?= this
+     |                              ^^^^ 
+
+
+error(parse-error): unexpected `}`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1927 | }
+     | ^ 
+
+error(validation): `count = ` is only for `while` and `any_` lists
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1967 |         count >= 5
+     |         ^^^^^ 
+
+error(validation): expected `count =`, found `>=`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1967 |         count >= 5
+     |         ^^^^^ 
+
+
+
+
+error(modifiers): `ship_movement_speed_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\company_types\companies_mhmbd.txt
+2137 |         ship_movement_speed_mult = 0.2
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(parse-error): unexpected comparator `?=`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+2821 |             binds = c:GBR ?= this
+     |                           ^^ 
+
+error(structure): found loose value this, expected only `key =`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+2821 |             binds = c:GBR ?= this
+     |                              ^^^^ 
+
+-----------------------------------------------------------
+
+error(removed): 1.13
+  --> [MOD] common\journal_entries\je_age_of_alexander_ii.txt
+30 |                 is_ruler = no
+   |                 ^^^^^^^^ 
+   = Info: replaced by three `is_ruler_of_` triggers
+
+error(removed): 1.13
+  --> [MOD] common\journal_entries\je_age_of_nicholas_i.txt
+39 |                 is_ruler = no
+   |                 ^^^^^^^^ 
+   = Info: replaced by three `is_ruler_of_` triggers
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+   --> [MOD] common\political_movements\00_ideological_movements.txt
+589 |                 this.days_since_movement_defeated <= very_long_modifier_time
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+   --> [MOD] common\political_movements\00_ideological_movements.txt
+593 |                 value = this.days_since_movement_defeated
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1112 |                 this.days_since_movement_defeated <= very_long_modifier_time
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1116 |                 value = this.days_since_movement_defeated
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1570 |                 this.days_since_movement_defeated <= very_long_modifier_time
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1574 |                 value = this.days_since_movement_defeated
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1975 |                 this.days_since_movement_defeated <= very_long_modifier_time
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+1979 |                 value = this.days_since_movement_defeated
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+2386 |                 this.days_since_movement_defeated <= very_long_modifier_time
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+2390 |                 value = this.days_since_movement_defeated
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+2843 |                 this.days_since_movement_defeated <= very_long_modifier_time
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `days_since_movement_defeated`
+    --> [MOD] common\political_movements\00_ideological_movements.txt
+2847 |                 value = this.days_since_movement_defeated
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1059 |         power_bloc_religion_trade_route_competitiveness_mult = 0.75
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(removed): power_bloc_religion_trade_route_competitiveness_mult has been removed
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1059 |         power_bloc_religion_trade_route_competitiveness_mult = 0.75
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: removed in 1.9
+
+
+error(modifiers): `state_conscription_rate_add` is a modifier for state and will not flow from power bloc
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1824 |         state_conscription_rate_add = 0.01
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for power bloc
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `unit_defense_mult` is a modifier for unit (combat) and will not flow from power bloc
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1825 |         unit_defense_mult = 0.05
+     |         ^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for power bloc
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_interest_gain_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1927 |         ship_interest_gain_mult = 0.1
+     |         ^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_interest_gain_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1954 |         ship_interest_gain_mult = 0.1
+     |         ^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_interest_gain_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\power_bloc_principles\00_power_bloc_principles.txt
+1972 |         ship_interest_gain_mult = 0.1
+     |         ^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace production method group
+   --> [MOD] common\production_method_groups\08_monuments.txt
+593 | pmg_base_building_victoria_terminus = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+169 | pmg_base_building_victoria_terminus = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(modifiers): `country_bureaucrats_pol_str_mult` is a modifier for country and will not flow from building
+   --> [MOD] common\production_methods\monuments_mhmbd.txt
+285 |             country_bureaucrats_pol_str_mult = 1
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: valid modifiers are for building, goods
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\production_methods\monuments_mhmbd.txt
+380 |             state_loyalists_from_sol_change_mult = 0.1
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(removed): state_loyalists_from_sol_change_mult has been removed
+   --> [MOD] common\production_methods\monuments_mhmbd.txt
+380 |             state_loyalists_from_sol_change_mult = 0.1
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: removed in 1.8
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\production_methods\monuments_mhmbd.txt
+809 |             state_loyalists_from_sol_change_mult = 0.33
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(removed): state_loyalists_from_sol_change_mult has been removed
+   --> [MOD] common\production_methods\monuments_mhmbd.txt
+809 |             state_loyalists_from_sol_change_mult = 0.33
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: removed in 1.8
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 439 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 458 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 477 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 489 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 506 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 519 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 677 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 690 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(unknown-field): unknown token `summon_generic_make_ruler_effect`
+    --> [MOD] common\scripted_effects\00_victoria_ip4_scripted_effects.txt
+1989 |                 $ON_CREATED_EFFECT$ = yes # I heard you like scripted effects, so I put scripted effects in your scripted effects so you can call scripted effects whilst you call scripted effects.
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\scripted_effects\00_scripted_effects.txt
+ 708 |                 ON_CREATED_EFFECT = summon_generic_make_ruler_effect
+     |                                     ^ <-- from here
+
+error(logic): this iterator does not change the script value
+    --> [MOD] common\scripted_progress_bars\00_victoria_progress_bars.txt
+1606 |                 every_diplomatically_relevant_country = {
+     |                                                         ^ 
+     = Info: it should be either removed, or changed to do something useful
+
+error(validation): expected exactly 1 of default, default_green, default_bad, double_sided_gold, double_sided_bad, double_sided_two_spains
+    --> [MOD] common\scripted_progress_bars\00_victoria_progress_bars.txt
+2315 |  je_caudillo_progress_bar = {
+     |                             ^ 
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+ 489 |                 can_reach_target_country = { TARGET_COUNTRY = scope:country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+2339 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3516 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3535 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3554 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+5152 |                 NOT = { can_reach_target_country = { TARGET_COUNTRY = scope:target_country }}
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6517 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6689 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7101 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7148 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7235 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7677 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7694 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7746 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7961 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+8281 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+ 277 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1113 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1126 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1243 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1276 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2117 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2142 |                 NOT = { can_reach_target_country = { TARGET_COUNTRY = scope:target_country } }
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2159 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2940 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 155 |     can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6708 |                 limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
+     |                           ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 297 |             can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |             ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6708 |                 limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
+     |                           ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 353 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7129 |                 has_je_subjugation_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 410 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+5892 |                 has_je_befriend_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 480 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6302 |                 has_je_protect_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1064 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\treaty_articles\07_foreign_investment_rights.txt
+ 487 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+ 489 |                 can_reach_target_country = { TARGET_COUNTRY = scope:country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+2339 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3516 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3535 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+3554 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+5152 |                 NOT = { can_reach_target_country = { TARGET_COUNTRY = scope:target_country }}
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6517 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6689 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7101 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7148 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7235 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7677 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7694 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7746 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7961 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+8281 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+ 277 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1113 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1126 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1243 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1276 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2117 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2142 |                 NOT = { can_reach_target_country = { TARGET_COUNTRY = scope:target_country } }
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2159 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2940 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 155 |     can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6708 |                 limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
+     |                           ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 297 |             can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |             ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6708 |                 limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
+     |                           ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 353 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+7129 |                 has_je_subjugation_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 410 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+5892 |                 has_je_befriend_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+ 480 |     can_reach_target_country = { TARGET_COUNTRY = $TARGET$ }
+     |     ^ <-- from here
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+6302 |                 has_je_protect_reason = { TARGET = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `has_coastal_access`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1065 |             $TARGET_COUNTRY$ = { capital = { has_coastal_access = yes } }
+     |                                              ^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\treaty_articles\07_foreign_investment_rights.txt
+ 487 |                 can_reach_target_country = { TARGET_COUNTRY = scope:target_country }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+2131 |                 NOT = { can_reach_target_state = { TARGET_STATE = scope:target_state } }
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+2318 |                 NOT = { can_reach_target_state = { TARGET_STATE = scope:target_state } }
+     |                         ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1206 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1227 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1523 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+1819 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+2101 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\ai_strategies\02_diplomatic_strategies.txt
+3198 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+  22 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+  54 |                 can_reach_target_state = { TARGET_STATE = scope:target_state }
+     |                 ^ <-- from here
+
+error(unknown-field): unknown token `carrying_capacity`
+    --> [Vic3] common\scripted_triggers\00_scripted_triggers.txt
+1092 |             carrying_capacity >= 50
+     |             ^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\scripted_triggers\00_ai_triggers.txt
+  64 |             can_reach_target_state = { TARGET_STATE = scope:target_state }  # Willing to go overseas to acquire territories
+     |             ^ <-- from here
+
+error(unknown-field): unknown token `country_is_in_india`
+  --> [MOD] common\scripted_triggers\scripted_triggers_mbd.txt
+54 |     country_is_in_india = yes
+   |     ^^^^^^^^^^^^^^^^^^^ 
+
+error(prefixes): cannot use prefixes with ship type
+ --> [MOD] common\ship_types\00_ship_types_mhmbd.txt
+1 | INJECT:ship_type_supply_ship = {
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace state trait
+   --> [MOD] common\state_traits\spain_traits.txt
+  9 | state_trait_tagus_river = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\state_traits\05_western_europe_traits.txt
+231 | REPLACE_OR_CREATE:state_trait_tagus_river = {
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace state trait
+   --> [MOD] common\state_traits\spain_traits.txt
+ 17 | state_trait_tagus_estuary = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\state_traits\05_western_europe_traits.txt
+219 | REPLACE_OR_CREATE:state_trait_tagus_estuary = {
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): injecting into a non-existing item
+  --> [MOD] common\static_modifiers\00_france_static_modifiers_mhmbd.txt
+23 | INJECT:fra_republican_unrest = {
+   |        ^^^^^^^^^^^^^^^^^^^^^ 
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+    --> [Vic3] common\static_modifiers\00_ip3_04_modifiers.txt
+ 570 | movement_suppressed_after_civil_war = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\static_modifiers\00_code_static_modifiers.txt
+1062 | movement_suppressed_after_civil_war = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+   --> [Vic3] common\static_modifiers\brazil_2_modifiers.txt
+212 | amazon_theatre = {
+    | ^^^^^^^^^^^^^^ 
+   --> [MOD] common\static_modifiers\brasil_static_modifiers.txt
+ 20 | REPLACE_OR_CREATE:amazon_theatre = {
+    |                   ^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+   --> [Vic3] common\static_modifiers\brazil_2_modifiers.txt
+217 | amazon_migration = {
+    | ^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\static_modifiers\brasil_static_modifiers.txt
+ 25 | REPLACE_OR_CREATE:amazon_migration = {
+    |                   ^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+  --> [Vic3] common\static_modifiers\content_1_modifiers.txt
+15 | opium_wars_lost = {
+   | ^^^^^^^^^^^^^^^ 
+  --> [MOD] common\static_modifiers\china_static_modifiers.txt
+13 | REPLACE_OR_CREATE:opium_wars_lost = {
+   |                   ^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+  --> [Vic3] common\static_modifiers\content_1_modifiers.txt
+33 | opium_wars_export_modifier = {
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+  --> [MOD] common\static_modifiers\china_static_modifiers.txt
+17 | REPLACE_OR_CREATE:opium_wars_export_modifier = {
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+   --> [Vic3] common\static_modifiers\content_204_modifiers.txt
+282 | modifier_agricultural_development_trade = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\static_modifiers\brasil_static_modifiers.txt
+  8 | REPLACE_OR_CREATE:modifier_agricultural_development_trade = {
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(prefixes): must have a prefix such as `REPLACE:` to replace modifier
+   --> [Vic3] common\static_modifiers\content_204_modifiers.txt
+288 | modifier_agricultural_development_landowners = {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\static_modifiers\brasil_static_modifiers.txt
+ 14 | REPLACE_OR_CREATE:modifier_agricultural_development_landowners = {
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- original here
+
+error(parse-error): unrecognized character `\`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |               ^ 
+
+error(structure): found loose value interface, expected only `key =`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                ^^^^^^^^^ 
+
+error(parse-error): unrecognized character `\`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                         ^ 
+
+error(structure): found loose value icons, expected only `key =`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                          ^^^^^ 
+
+error(parse-error): unrecognized character `\`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                               ^ 
+
+error(structure): found loose value timed_modifier_icons, expected only `key =`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                                ^^^^^^^^^^^^^^^^^^^^ 
+
+error(parse-error): unrecognized character `\`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                                                    ^ 
+
+error(structure): found loose value modifier_fist_negative.dds, expected only `key =`
+ --> [MOD] common\static_modifiers\z_HMPS_flavor_modifiers.txt
+6 |     icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+  |                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(modifiers): `ship_hull_damage_mult` is a modifier for ship and will not flow from country
+   --> [MOD] common\technology\technologies\20_military.txt
+218 |         ship_hull_damage_mult = 0.05
+    |         ^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_crew_damage_mult` is a modifier for ship and will not flow from country
+   --> [MOD] common\technology\technologies\20_military.txt
+219 |         ship_crew_damage_mult = 0.05
+    |         ^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_hull_damage_mult` is a modifier for ship and will not flow from country
+   --> [MOD] common\technology\technologies\20_military.txt
+450 |         ship_hull_damage_mult = 0.05
+    |         ^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_crew_damage_mult` is a modifier for ship and will not flow from country
+   --> [MOD] common\technology\technologies\20_military.txt
+451 |         ship_crew_damage_mult = 0.05
+    |         ^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\technology\technologies\20_military.txt
+557 |         country_war_exhaustion_casualties_mult = -0.15
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the game engine will apply the modifier
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\technology\technologies\20_military.txt
+842 |         country_war_exhaustion_casualties_mult = -0.25
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the game engine will apply the modifier
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(modifiers): `ship_armor_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\technology\technologies\20_military.txt
+1105 |         ship_armor_mult = 0.05		
+     |         ^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_hull_damage_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\technology\technologies\20_military.txt
+1145 |         ship_hull_damage_mult = 0.1
+     |         ^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(modifiers): `ship_crew_damage_mult` is a modifier for ship and will not flow from country
+    --> [MOD] common\technology\technologies\20_military.txt
+1146 |         ship_crew_damage_mult = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
+
+error(removed): country_max_declared_interests_add has been removed
+   --> [MOD] common\technology\technologies\30_society.txt
+267 |         country_max_declared_interests_add = 1
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: removed in 1.13
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\technology\technologies\30_society.txt
+267 |         country_max_declared_interests_add = 1
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(removed): country_max_declared_interests_add has been removed
+   --> [MOD] common\technology\technologies\30_society.txt
+972 |         country_max_declared_interests_add = 1
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: removed in 1.13
+
+error(missing-item): modifier type definition does not exist
+   --> [MOD] common\technology\technologies\30_society.txt
+972 |         country_max_declared_interests_add = 1
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1184 |         state_capitalists_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1185 |         state_farmers_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1186 |         state_shopkeepers_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1187 |         state_bureaucrats_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1188 |         state_engineers_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1189 |         state_machinists_investment_pool_efficiency_add = 0.05
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(missing-item): modifier type definition does not exist
+    --> [MOD] common\technology\technologies\30_society.txt
+1515 |         country_war_exhaustion_casualties_mult = -0.25
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+     = Info: You can create it and the game engine will apply the modifier
+     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
+
+error(unknown-field): unknown token `ai_opium_dealer_no_alliance_trigger`
+   --> [MOD] common\treaty_articles\01_defensive_pact.txt
+430 |                 ai_opium_dealer_no_alliance_trigger = yes
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `add_building_level`
+   --> [MOD] events\HMPS_00_GM_Actions.txt
+345 |                 add_building_level = {
+    |                 ^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `add_building_level`
+   --> [MOD] events\HMPS_00_GM_Actions.txt
+353 |                 add_building_level = {
+    |                 ^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `add_building_level`
+   --> [MOD] events\HMPS_00_GM_Actions.txt
+377 |                 add_building_level = {
+    |                 ^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown token `add_building_level`
+   --> [MOD] events\HMPS_00_GM_Actions.txt
+385 |                 add_building_level = {
+    |                 ^^^^^^^^^^^^^^^^^^ 
+
+error(event-namespace): event file should start with `namespace = REPLACE_OR_CREATE:historical_agitators`
+ --> [MOD] events\agitators_events\dickens_event.txt
+3 | REPLACE_OR_CREATE:historical_agitators.14 = { #Dickens
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+  = Info: otherwise the event won't be found in-game
+
+error(unknown-field): unknown field `will_incorporate_state`
+  --> [MOD] common\ai_strategies\00_default_strategy.txt
+16 |     will_incorporate_state = {
+   |     ^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(logic): this `if` does not change the script value
+    --> [MOD] common\ai_strategies\00_default_strategy.txt
+5647 |             if = { # Russia cares more than anyone else
+     |             ^^ 
+
+error(unknown-field): unknown field `country_max_companies_add`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1898 |         country_max_companies_add = 1
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `country_company_throughput_bonus_add`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1899 |         country_company_throughput_bonus_add = 0.025
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `country_free_charters_add`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1900 |         country_free_charters_add = 3
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `any_scope_state`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1904 |         any_scope_state = {
+     |         ^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `building_railway`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1910 |         building_railway = {
+     |         ^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `building_trade_center`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1916 |         building_trade_center = {
+     |         ^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `value`
+    --> [MOD] common\company_types\companies_mhmbd.txt
+1925 |         value = 3 # Higher base value for flavored companies
+     |         ^^^^^ 
+
+error(unknown-field): unknown field `seal_and_signature_texture`
+   --> [MOD] common\country_definitions\00_countries.txt
+106 |     seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_austrian.dds"
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `should_target_state_in_unification_play`
+   --> [MOD] common\country_formation\00_major_formables.txt
+187 |     should_target_state_in_unification_play = {}
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `should_target_state_in_unification_play`
+   --> [MOD] common\country_formation\00_major_formables.txt
+315 |     should_target_state_in_unification_play = {}
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+error(unknown-field): unknown field `hq_region`
+    --> [MOD] common\history\military_formations\05_military_formations_india.txt
+1326 |             hq_region = sr:region_north_india
+     |             ^^^^^^^^^ 
+
+error(strict-scopes): scope:notification_target might not be available here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+4210 |                 scope:notification_target = {
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^ 
+4205 | on_diplo_play_back_down = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+
+error(strict-scopes): scope:actor might not be available here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+4213 |                 scope:actor = {
+     |                 ^^^^^^^^^^^ 
+4205 | on_diplo_play_back_down = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are notification_target
+
+error(logic): this `if` does not change the script value
+ --> [MOD] common\script_values\rus_values_mhmbd.txt
+2 |     if = {
+  |     ^^ 
+
+error(logic): this `if` does not change the script value
+   --> [MOD] common\script_values\rus_values_mhmbd.txt
+116 |     if = {
+    |     ^^ 
+
+error(unknown-field): unknown field `ai_will_do`
+  --> [MOD] common\scripted_buttons\rhine_scripted_buttons_mhmbd.txt
+11 |     ai_will_do = { always = no }
+   |     ^^^^^^^^^^ 
+
+error(unknown-field): unknown field `ai_will_do`
+  --> [MOD] common\scripted_buttons\rhine_scripted_buttons_mhmbd.txt
+65 |     ai_will_do = { always = no }
+   |     ^^^^^^^^^^ 
+
+error(strict-scopes): scope:other_country might not be available here
+   --> [MOD] common\treaty_articles\00_alliance.txt
+341 |             scope:other_country = {
+    |             ^^^^^^^^^^^^^^^^^^^ 
+336 |         inherent_accept_score = {
+    |         ^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are article, first_country, second_country or target
+
+error(strict-scopes): scope:other_country might not be available here
+   --> [MOD] common\treaty_articles\00_alliance.txt
+572 |                 scope:other_country = {
+    |                 ^^^^^^^^^^^^^^^^^^^ 
+555 |         contextual_accept_score = {
+    |         ^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are article, first_country, second_country or treaty
+
+error(strict-scopes): scope:other_country might not be available here
+   --> [MOD] common\treaty_articles\01_defensive_pact.txt
+220 |             scope:other_country = {
+    |             ^^^^^^^^^^^^^^^^^^^ 
+215 |         inherent_accept_score = {
+    |         ^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are article, first_country, second_country or target
+
+error(strict-scopes): scope:other_country might not be available here
+   --> [MOD] common\treaty_articles\01_defensive_pact.txt
+471 |                 scope:other_country = {
+    |                 ^^^^^^^^^^^^^^^^^^^ 
+454 |         contextual_accept_score = {
+    |         ^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are article, first_country, second_country or treaty
+
+error(strict-scopes): scope:article_options might not be available here
+   --> [MOD] common\treaty_articles\14_treaty_port.txt
+224 |         scope:article_options.input_state = {
+    |         ^^^^^^^^^^^^^^^^^^^^^ 
+223 |     on_withdrawal = {
+    |     ^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are article, non_withdrawing_country, treaty_options or withdrawing_country
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+  51 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  43 |         1 = agitators_election_events.1
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are agitator_ig_scope, agitator_movement_scope or agitator_party_scope
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+ 291 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  44 |         1 = agitators_election_events.2
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+ 715 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  46 |         1 = agitators_election_events.4
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are agitator_ig_scope, agitator_movement_scope, agitator_party_scope or opposition_party_scope
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+ 801 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  47 |         1 = agitators_election_events.5
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are agitator_ig_leader_scope, agitator_ig_scope, agitator_movement_scope or agitator_party_scope
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+1041 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  49 |         1 = agitators_election_events.7
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are agitator_ig_scope, agitator_movement_scope or agitator_party_scope
+
+error(strict-scopes): scope:agitator_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+1460 |         scope:agitator_scope = {
+     |         ^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  52 |         1 = agitators_election_events.10
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+     = Info: available names are agitator_ig_scope, agitator_movement_scope, agitator_party_scope or tumultuous_state_scope
+
+error(strict-scopes): scope:exiling_country_scope might not be available here
+    --> [Vic3] events\agitators_events\agitators_election_events.txt
+2494 |                 has_interest_marker_in_region = scope:exiling_country_scope.capital.region
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_election.txt
+  58 |         1 = agitators_election_events.16
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1871 |         elections_monthly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1858 | on_monthly_pulse_country_elections = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+
+error(strict-scopes): scope:coup_desired_law might not be available here
+    --> [Vic3] events\agitators_events\coup_events.txt
+1241 |                 law = scope:coup_desired_law.type
+     |                       ^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [Vic3] common\on_actions\00_on_actions_half_yearly.txt
+  50 |         25 = coup_aftermath_events.4
+     |              ^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+1812 |         coup_aftermath_half_yearly_events
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+1804 | on_half_yearly_pulse_country = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here
+
+error(strict-scopes): scope:isabel_scope might not be available here
+   --> [Vic3] events\brazil\pedro_brazil_events.txt
+966 |         add_journal_entry = { type = je_isabel target = scope:isabel_scope }
+    |                                                         ^^^^^^^^^^^^^^^^^^ 
+   --> [MOD] common\journal_entries\02_pedro_brazil.txt
+ 27 |             10 = pedro.12 # Death of Pedro's heirs
+    |                  ^^^^^^^^ <-- triggered from here
+  1 | je_pedro_brazil = {
+    | ^^^^^^^^^^^^^^^ <-- scopes initialized here
+    = Info: available names are brazil_scope, heir_scope, intelligentsia_ig, journal_entry, pedro_scope or target
+
+
+error(temporary-scope): `scope:universal_suffrage_ig` was temporary and is no longer available here
+    --> [Vic3] events\law_events\distribution_of_power_laws.txt
+ 809 |                 scope:universal_suffrage_ig ?= this
+     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+    --> [MOD] common\on_actions\00_code_on_actions.txt
+4619 |         10 = distribution_of_power_laws.8
+     |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-- triggered from here
+4576 | on_law_checkpoint_debate = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^ <-- scopes initialized here

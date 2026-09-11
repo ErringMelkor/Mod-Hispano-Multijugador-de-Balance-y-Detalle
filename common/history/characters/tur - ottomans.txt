@@ -122,7 +122,7 @@ CHARACTERS = {
 			historical = yes
 			age = 29
 			dna = dna_abdulkerim_nadir_pasha
-			hq = region_anatolia
+			hq = region_near_east
 			commander_rank = commander_rank_3
 			traits = {
 				cruel
@@ -137,7 +137,7 @@ CHARACTERS = {
 			last_name = "Pasha"
 			historical = yes
 			dna = dna_yaver_pasha
-			hq = region_anatolia
+			hq = region_near_east
 			commander_rank = commander_rank_3
 			age = 42
 			traits = {

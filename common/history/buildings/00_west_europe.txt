@@ -126,7 +126,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_naval_administration"
@@ -1218,7 +1218,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_naval_administration"
@@ -1651,7 +1651,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_motor_industry"
@@ -2545,7 +2545,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3895,7 +3895,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -4090,7 +4090,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -4154,7 +4154,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -4665,7 +4665,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -5407,7 +5407,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_railway"
@@ -6194,7 +6194,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -6765,7 +6765,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_sulfur_mine"
@@ -7520,7 +7520,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood_sawmills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:HOH={
