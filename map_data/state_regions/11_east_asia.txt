@@ -68,7 +68,7 @@ STATE_SICHUAN = {
         building_iron_mine = 54
         building_sulfur_mine = 35
         building_logging_camp = 32
-        building_hardwood_logging = 1
+        building_hardwood_logging = 3
     }
 }
 
@@ -89,7 +89,7 @@ STATE_YUNNAN = {
         building_sulfur_mine = 20
         building_gold_mine = 6
         building_logging_camp = 24
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
     }
     resource = {
         type = "building_gold_field"
@@ -113,7 +113,7 @@ STATE_GUIZHOU = {
         building_coal_mine = 18
         building_iron_mine = 4
         building_logging_camp = 32
-        building_hardwood_logging = 1
+        building_hardwood_logging = 4
     }
 }
 
@@ -273,7 +273,7 @@ STATE_OUTER_MANCHURIA = {
         building_iron_mine = 16
         building_lead_mine = 24
         building_logging_camp = 30
-        building_hardwood_logging = 3
+        building_hardwood_logging = 6
         building_fishing_wharf = 16
     }
     resource = {
@@ -303,7 +303,7 @@ STATE_SOUTHERN_MANCHURIA = {
         building_iron_mine = 85
         building_lead_mine = 45
         building_logging_camp = 35
-        building_hardwood_logging = 3
+        building_hardwood_logging = 4
     }
     resource = {
         type = "building_oil_rig"
@@ -326,7 +326,7 @@ STATE_NORTHERN_MANCHURIA = {
         building_coal_mine = 40
         building_iron_mine = 36
         building_logging_camp = 38
-        building_hardwood_logging = 3
+        building_hardwood_logging = 4
     }
     resource = {
         type = "building_oil_rig"
@@ -514,7 +514,7 @@ STATE_FUJIAN = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_logging_camp = 26
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
         building_fishing_wharf = 16
     }
     naval_exit_id = 3056
@@ -739,7 +739,7 @@ STATE_HUNAN = {
         building_sulfur_mine = 36
         building_fishing_wharf = 4
         building_logging_camp = 26
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
     }
 }
 
@@ -756,6 +756,7 @@ STATE_FORMOSA = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 12
+        building_hardwood_logging = 1
         building_fishing_wharf = 22
         building_coal_mine = 12
         building_gold_mine = 6

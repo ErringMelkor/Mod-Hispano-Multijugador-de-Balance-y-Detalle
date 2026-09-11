@@ -17,7 +17,7 @@
         building_lead_mine = 81
         building_gold_mine = 2
         building_logging_camp = 27
-        building_hardwood_logging = 4
+        building_hardwood_logging = 6
     }
     resource = {
         type = "building_gold_field"
@@ -43,7 +43,7 @@ STATE_TOMSK = {
         building_coal_mine = 85
         building_iron_mine = 27
         building_logging_camp = 26
-        building_hardwood_logging = 4
+        building_hardwood_logging = 6
     }
 }
 
@@ -83,7 +83,7 @@ STATE_TOBOLSK = {
         building_coal_mine = 44
         building_iron_mine = 10
         building_logging_camp = 30
-        building_hardwood_logging = 2
+        building_hardwood_logging = 3
     }
     resource = {
         type = "building_oil_rig"
@@ -108,7 +108,7 @@ STATE_UPPER_YENISEYSK = {
         building_coal_mine = 15
         building_iron_mine = 10
         building_logging_camp = 48
-        building_hardwood_logging = 2
+        building_hardwood_logging = 5
     }
 }
 
@@ -241,7 +241,7 @@ STATE_YAKUTSK = {
         building_coal_mine = 36
         building_lead_mine = 16
         building_logging_camp = 23
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
     }
     resource = {
         type = "building_gold_field"
@@ -271,7 +271,7 @@ STATE_TRANS_BAIKAL = {
         building_lead_mine = 28
         building_sulfur_mine = 24
         building_logging_camp = 24
-        building_hardwood_logging = 1
+        building_hardwood_logging = 4
     }
     resource = {
         type = "building_oil_rig"
@@ -296,7 +296,7 @@ STATE_IRKUTSK = {
         building_iron_mine = 36
         building_logging_camp = 30
         building_fishing_wharf = 4
-        building_hardwood_logging = 1
+        building_hardwood_logging = 4
     }
     resource = {
         type = "building_oil_rig"

@@ -943,7 +943,7 @@ STATE_WALLONIA = {
         building_lead_mine = 30
         building_sulfur_mine = 30
         building_logging_camp = 18
-        building_hardwood_logging = 4
+        building_hardwood_logging = 5
     }
 }
 
@@ -1017,6 +1017,7 @@ STATE_MORAVIA = {
     capped_resources = {
         building_coal_mine = 56
         building_logging_camp = 14
+        building_hardwood_logging = 1
     }
 }
 
@@ -1174,7 +1175,7 @@ STATE_WESTPHALIA = {
         building_iron_mine = 42
         building_sulfur_mine = 32
         building_logging_camp = 24
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
     }
 }
 
@@ -1283,7 +1284,7 @@ STATE_WURTTEMBERG = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 24
-        building_hardwood_logging = 2
+        building_hardwood_logging = 6
     }
 }
 
@@ -1302,7 +1303,7 @@ STATE_BADEN = {
         building_coal_mine = 20
         building_iron_mine = 15
         building_logging_camp = 24
-        building_hardwood_logging = 3
+        building_hardwood_logging = 8
     }
 }
 
@@ -1364,7 +1365,7 @@ STATE_BAVARIA = {
         building_iron_mine = 30
         building_lead_mine = 30
         building_logging_camp = 23
-        building_hardwood_logging = 1
+        building_hardwood_logging = 2
     }
 }
 
