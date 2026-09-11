@@ -70,4 +70,26 @@ prestige_good_latex = {
 	texture = "gfx/interface/icons/invention_icons/rubber.dds"
 }
 
-#Caucho de prestigio para Brasil y el Congo
+prestige_good_ghawar_oil = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/oil.dds"
+}
+
+prestige_good_caviar = {
+	base_good = fish
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/fish.dds"
+}
+
+prestige_good_nakajima_aircraft = {
+	base_good = aeroplanes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+}
+
+prestige_good_philipine_timber = {
+	base_good = wood
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/wood.dds"
+}
