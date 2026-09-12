@@ -1095,74 +1095,6 @@ error(modifiers): `ship_crew_damage_mult` is a modifier for ship and will not fl
      = Info: valid modifiers are for battle, building, country, interest group, political movement, state, tax, unit, goods, military formation
      = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Modifier_type_flow
 
-error(removed): country_max_declared_interests_add has been removed
-   --> [MOD] common\technology\technologies\30_society.txt
-267 |         country_max_declared_interests_add = 1
-    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-    = Info: removed in 1.13
-
-error(missing-item): modifier type definition does not exist
-   --> [MOD] common\technology\technologies\30_society.txt
-267 |         country_max_declared_interests_add = 1
-    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(removed): country_max_declared_interests_add has been removed
-   --> [MOD] common\technology\technologies\30_society.txt
-972 |         country_max_declared_interests_add = 1
-    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-    = Info: removed in 1.13
-
-error(missing-item): modifier type definition does not exist
-   --> [MOD] common\technology\technologies\30_society.txt
-972 |         country_max_declared_interests_add = 1
-    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-    = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-    = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1184 |         state_capitalists_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1185 |         state_farmers_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1186 |         state_shopkeepers_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1187 |         state_bureaucrats_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1188 |         state_engineers_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
-error(missing-item): modifier type definition does not exist
-    --> [MOD] common\technology\technologies\30_society.txt
-1189 |         state_machinists_investment_pool_efficiency_add = 0.05
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-     = Info: You can create it and the modifier will appear in game, but the engine will not apply any effect
-     = Wiki: https://vic3.paradoxwikis.com/Modifier_types#Defining_modifier_types
-
 error(missing-item): modifier type definition does not exist
     --> [MOD] common\technology\technologies\30_society.txt
 1515 |         country_war_exhaustion_casualties_mult = -0.25
@@ -1215,11 +1147,6 @@ error(unknown-field): unknown field `country_max_companies_add`
     --> [MOD] common\company_types\companies_mhmbd.txt
 1898 |         country_max_companies_add = 1
      |         ^^^^^^^^^^^^^^^^^^^^^^^^^ 
-
-error(unknown-field): unknown field `country_company_throughput_bonus_add`
-    --> [MOD] common\company_types\companies_mhmbd.txt
-1899 |         country_company_throughput_bonus_add = 0.025
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
 error(unknown-field): unknown field `country_free_charters_add`
     --> [MOD] common\company_types\companies_mhmbd.txt

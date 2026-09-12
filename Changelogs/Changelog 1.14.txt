@@ -19,3 +19,8 @@ Economía:
 		Ajustado el método de producción secundario de los aserraderos.
 		Aumentados los depósitos globales de madera dura entre un 20% y un 50%, con sesgo a depósitos estratégicos (amazonas, congo, burma, indonesia, bosque negro, valonia, manchuria, siberia).
 		Aumentada el insumo y producción de los campamentos de madera dura en los tiers 2 y 3; la rentabilidad sigue siendo la misma.
+	
+Tecnologías:
+	Sociedad:
+		Reajustada la inversión de "Fondos Mútuos" a favorecer a "Farmers" y "Shopkeepers".
+

@@ -57,3 +57,5 @@ goods_input_luxury_clothes_add = {
 		ai_value=0
 	}
 }
+
+

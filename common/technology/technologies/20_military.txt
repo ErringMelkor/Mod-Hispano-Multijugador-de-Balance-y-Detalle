@@ -554,7 +554,7 @@ electric_telegraph = {
 	category = military
 	
 	modifier = {
-		country_war_exhaustion_casualties_mult = -0.15
+		country_war_support_casualties_mult = -0.15
 		country_institution_military_max_investment_add = 1
 	}
 	
@@ -839,8 +839,10 @@ war_propaganda = {
 
 	modifier = {
 		unit_morale_loss_mult = -0.05
-		country_war_exhaustion_casualties_mult = -0.25
+		country_war_support_casualties_mult = -0.25
 		state_conscription_rate_mult = 0.2
+		country_war_support_battles_increase_mult = 0.25
+		country_war_support_battles_decrease_mult = -0.2
 	}
 	
 	unlocking_technologies = {	
