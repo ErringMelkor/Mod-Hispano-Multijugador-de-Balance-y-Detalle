@@ -8,12 +8,12 @@
 
 csa_static_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	building_training_rate_mult = 0.65
-	state_conscription_rate_add = 0.075
-	country_military_goods_cost_mult = -0.55
-	unit_supply_consumption_mult = -0.75
-	unit_defense_mult = 0.55
-	unit_offense_mult = 0.15
+	building_training_rate_mult = 0.5
+	state_conscription_rate_add = 0.05
+	country_military_goods_cost_mult = -0.5
+	unit_supply_consumption_mult = -0.5
+	unit_defense_mult = 0.35
+	unit_offense_mult = 0.25
 	unit_morale_loss_mult = -0.15
 	country_war_support_casualties_mult = -0.25
 	country_minting_add = 35000
