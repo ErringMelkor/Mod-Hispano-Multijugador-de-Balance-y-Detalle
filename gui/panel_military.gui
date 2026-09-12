@@ -24,16 +24,16 @@ types panel_military {
 			parentanchor = hcenter
 			margin_top = 10
 			margin_bottom = 20
-		
+
 			hbox = {
 				visible = "[InformationPanel.IsTabSelected('army')]"
 				layoutpolicy_horizontal = expanding
 				margin = { 10 15 }
-				
+
 				# Cost
 				vbox = {
 					layoutpolicy_vertical = expanding
-					using = military_total_expense_tooltip_with_graph
+					tooltip = "ARMY_TOTAL_EXPENSE_BREAKDOWN"
 
 					textbox = {
 						autoresize = yes
@@ -44,7 +44,7 @@ types panel_military {
 
 					hbox = {
 						textbox = {
-							raw_text = "#v #n @money!-[Country.PredictTotalMilitaryExpenses|D]#!#!"
+							raw_text = "@money![Negate_CFixedPoint(Country.PredictTotalArmyExpenses)|D+]"
 							autoresize = yes
 							align = left|nobaseline
 							using = fontsize_mega
@@ -95,33 +95,49 @@ types panel_military {
 					}
 				}
 			}
-			
+
 			big_mobilize_all_button = {}
 		}
-		
+
 	}
 
 	type tab_navy = top_illu {
-		size = { @panel_width_plus_20 230 }
+		size = { @panel_width_plus_20 150 }
 
 		background = {
 			texture = "gfx/interface/illustrations/top_illus/top_illu_navy.dds"
 			using = top_illu_properties
 		}
-		
-		flowcontainer = {
-			margin = { 0 20 }
-			parentanchor = hcenter
-			direction = vertical
 
-			military_panel_flotilla_info = {
+		flowcontainer = {
+			parentanchor = center
+			spacing = 50
+
+			flowcontainer = {
+				parentanchor = vcenter
+				direction = vertical
+				spacing = 10
+
+				military_panel_ship_info = {}
+
+				military_panel_ship_info = {
+					blockoverride "tooltip" {
+						tooltip = "NAVY_TOTAL_EXPENSE_BREAKDOWN"
+					}
+
+					blockoverride "first_text" {
+						raw_text = "@money![Negate_CFixedPoint(Country.PredictTotalNavyExpenses)|D+]"
+					}
+
+					blockoverride "second_text" {
+						text = "EXPENSES"
+					}
+				}
 			}
 
-			widget = { size = { 1 10 } }
-
-			supply_network_information_small = {}
-
-			widget = { size = { 1 10 } }
+			supply_network_information_small = {
+				parentanchor = vcenter
+			}
 		}
 	}
 
@@ -129,93 +145,137 @@ types panel_military {
 		onmousehierarchyenter = "[AccessHighlightManager.HighlightSupplyNetwork(Country.Self)]"
 		onmousehierarchyleave = "[AccessHighlightManager.RemoveHighlight]"
 		alwaystransparent = no
-		size = { 410 110 }
-	
+		size = { 330 130 }
+
 		using = entry_bg_fancy_solid_bg
 
 		vbox = {
 			margin = { 20 20 }
-			
+			max_update_rate = 8
+
 			hbox = {
 				tooltip = "SUPPLY_NETWORK_STRENGTH_TOOLTIP"
 				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
 
 				textbox = {
 					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
+					size = { 0 32 }
 					text = "SUPPLY_NETWORK_STRENGTH_TEXT"
-					align = left|nobaseline
-				}	
+					align = nobaseline
+				}
+
 				textbox = {
 					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
+					size = { 0 32 }
 					text = "SUPPLY_NETWORK_STRENGTH_VALUE"
 					align = right|nobaseline
 				}
 			}
 
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
-				tooltip = "NUM_SEA_NODES_TOOLTIP"
+			widget = {
+				size = { 290 26 }
+				max_update_rate = 8
+				tooltip = "COUNTRY_SAILORS_TOOLTIP"
 
-				textbox = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					text = "NUM_SEA_NODES_TEXT"
-					align = left|nobaseline
+				changed_value_increased_progressbar_horizontal = {
+					visible = "[And(Country.HasSailorDeficit, Country.IsGainingSailors)]"
+					size = { 100% 100% }
+
+					blockoverride "values" {
+						value = "[FixedPointToFloat(Country.GetSailorSufficiency)]"
+						min = 0
+						max = 1
+					}
 				}
-				textbox = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					text = "NUM_SEA_NODES_VALUE"
-					align = right|nobaseline
+
+				bad_progressbar_horizontal = {
+					visible = "[And(Country.HasSailorDeficit, Not(Country.IsGainingSailors))]"
+					size = { 100% 100% }
+
+					blockoverride "values" {
+						value = "[FixedPointToFloat(Country.GetSailorSufficiency)]"
+						min = 0
+						max = 1
+					}
+				}
+
+				default_progressbar_horizontal = {
+					visible = "[Not(Country.HasSailorDeficit)]"
+					size = { 100% 100% }
+
+					blockoverride "values" {
+						value = "[FixedPointToFloat(Country.GetSailorSufficiency)]"
+						min = 0
+						max = 1
+					}
+				}
+
+				flowcontainer = {
+					parentanchor = vcenter
+					spacing = 7
+
+					textbox = {
+						parentanchor = vcenter
+						margin_left = 10
+						autoresize = yes
+						align = nobaseline
+						text = "COUNTRY_SAILORS_LABEL"
+					}
+
+					textbox = {
+						parentanchor = vcenter
+						autoresize = yes
+						align = nobaseline
+						text = "COUNTRY_SAILORS_VALUE"
+					}
 				}
 			}
-
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
-				tooltip = "NUM_CONVOYS_TOOLTIP_EXTENDED"
-				
-				textbox = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					text = "USED_AVAILABE_CONVOYS_TEXT"
-					align = left|nobaseline
-				}
-				textbox = {
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					text = "USED_AVAILABE_CONVOYS_VALUE"
-					align = right|nobaseline
-				}
-			}
-		
 		}
 	}
 
-	type military_panel_flotilla_info = flowcontainer {
-		parentanchor = hcenter
-		direction = vertical 
-		spacing = 5
+	type military_panel_ship_info = flowcontainer {
+		direction = vertical
+		spacing = 2
 
-		### ARMY / FORCELIMIT
-		textbox = {
-			text = "PANEL_MILITARY_NAVY_CURRENT_FLOTILLAS"
-			tooltip = "PANEL_MILITARY_NAVY_CURRENT_FLOTILLAS_TOOLTIP"
-			autoresize = yes
-			align = left|nobaseline
-			parentanchor = hcenter
-			using = fontsize_mega
+		block "tooltip" {
+			tooltip = "PANEL_MILITARY_NAVY_CURRENT_SHIPS_TOOLTIP"
 		}
 
 		textbox = {
-			text = TOTAL_FLOTILLAS
-			parentanchor = hcenter
 			autoresize = yes
-			align = left|nobaseline
+			align = nobaseline
+			margin_left = 5
+
+			block "second_text" {
+				text = "TOTAL_SHIPS"
+			}
+		}
+
+		widget = {
+			size = { 100 35 }
+
+			background = {
+				using = entry_bg_simple
+				alpha = 0.5
+			}
+
+			background = {
+				using = dark_area
+			}
+
+			textbox = {
+				autoresize = yes
+				align = nobaseline
+				using = fontsize_xl
+				parentanchor = vcenter
+				margin_left = 5
+				max_width = 90
+				using = elide_fontsize_min
+
+				block "first_text" {
+					text = "PANEL_MILITARY_NAVY_CURRENT_SHIPS"
+				}
+			}
 		}
 
 	}
@@ -412,6 +472,14 @@ types panel_military {
 	type military_panel_army_content = flowcontainer {
 		direction = vertical
 
+		state = {
+			name = "_show"
+
+			start_sound = {
+				soundeffect = "event:/SFX/UI/SideBar/military"
+			}
+		}
+
 		tab_army = {
 			visible = "[Country.IsCommittedInDiplomaticPlay]"
 		}
@@ -421,10 +489,10 @@ types panel_military {
 			size = { @panel_width_plus_20 120 }
 		}
 
-		default_header_2texts = {
+		default_header = {
 			using = default_list_position
-			
-			blockoverride "text1" {
+
+			blockoverride "text" {
 				text = "MILITARY_FORMATIONS_ARMY_HEADER"
 			}
 		}
@@ -438,6 +506,11 @@ types panel_military {
 
 	type military_panel_navy_content = flowcontainer {
 		direction = vertical
+
+		state = {
+			name = "_show"
+			using = fleet_panel_open
+		}
 
 		tab_navy = {}
 
@@ -454,10 +527,10 @@ types panel_military {
 			text = "[Country.GetSeaNodesMightBeConvoyRaidedInDesc]"
 		}
 
-		default_header_2texts = {
+		default_header = {
 			using = default_list_position
-			
-			blockoverride "text1" {
+
+			blockoverride "text" {
 				text = "MILITARY_FORMATIONS_FLEET_HEADER"
 			}
 		}
@@ -476,23 +549,7 @@ types panel_military {
 	type panel_military = default_block_window {
 		name = "panel_military"
 		datacontext = "[PanelMilitary.AccessCountry]"
-			
-		blockoverride "animation_state_block" {
-			state = {
-				name = _show
-				start_sound = {
-					soundeffect = "event:/SFX/UI/SideBar/military"
-				}
-			}
 
-			state = {
-				name = _hide
-				start_sound = {
-					soundeffect = "event:/SFX/UI/SideBar/military_stop"
-				}
-			}
-		}
-		
 		blockoverride "window_header_name"
 		{
 			text = "MILITARY_PANEL"
@@ -623,86 +680,140 @@ types panel_military {
 				widget = {
 					size = { 1 1 }
 				}
-				
-				### UPGRADE ALL UNITS IN ALL FORMATIONS
+
+				flowcontainer = {
+					parentanchor = hcenter
+					spacing = 5
+
+					button = {
+						visible = "[InformationPanel.IsTabSelected('navy')]"
+						using = default_button
+						parentanchor = vcenter
+						size = { 255 50 }
+						enabled = "[LessThan_int32(GetPlayer.GetNumUnassignedAdmirals, GetPlayer.GetMaxUnassignedAdmirals)]"
+						onclick = "[PopupManager.ToggleRecruitAdmiral]"
+						tooltip = "[SelectLocalization(LessThan_int32(GetPlayer.GetNumUnassignedAdmirals, GetPlayer.GetMaxUnassignedAdmirals), 'MILITARY_FORMATION_RECRUIT_ADMIRAL', 'MILITARY_FORMATION_RECRUIT_ADMIRAL_LIMIT')]"
+						using = tooltip_ne
+
+						textbox = {
+							parentanchor = center
+							autoresize = yes
+							align = nobaseline
+							using = fontsize_large
+							using = elide_fontsize_min
+							max_width = 250
+							text = "RECRUIT_ADMIRAL_BUTTON"
+						}
+					}
+
+					button = {
+						visible = "[And(InformationPanel.IsTabSelected('navy'), HasDlcFeature('ship_designer'))]"
+						size = { 255 50 }
+						parentanchor = vcenter
+						using = default_button
+						onclick = "[PopupManager.ToggleShipDesignerPopup]"
+						onclick = "[RightClickMenuManager.Close]"
+						tooltip = "SHIP_DESIGNER_CREATE_NEW_TEMPLATE"
+
+						textbox = {
+							parentanchor = center
+							autoresize = yes
+							align = nobaseline
+							using = fontsize_large
+							using = elide_fontsize_min
+							max_width = 250
+							text = "ADD_NEW_TEMPLATE"
+						}
+					}
+				}
+
 				button = {
+					visible = "[InformationPanel.IsTabSelected('navy')]"
 					using = default_button_map_interaction
 					parentanchor = hcenter
 					size = { 520 50 }
-					onclick = "[Execute( PanelMilitary.GetUpgradeAllUnitsInAllFormationsCommand)]"
-					enabled = "[IsValid( PanelMilitary.GetUpgradeAllUnitsInAllFormationsCommand)]"
-					visible = [PanelMilitary.CanAnyUnitInAnyPlayerFormationBeUpgraded]
-					
+					using = default_content_fade
+					tooltip = "CREATE_FLEET_FORMATION_TOOLTIP"
+					onclick = "[PanelMilitary.OnClickRecruitFleetFormation]"
+
 					textbox = {
 						parentanchor = center
 						autoresize = yes
-						align = center|nobaseline
-						text = "MILITARY_FORMATION_UNITS_UPGRADE_ALL"
+						using = fontsize_large
+						align = nobaseline
+						using = elide_fontsize_min
+						max_width = 500
+						text = "CREATE_FLEET_FORMATION"
 					}
-					
-					tooltip = "MILITARY_FORMATION_UNITS_UPGRADE_ALL_ALL"
 				}
 
-				### CREATE FORMATIONS
-				button = {
-					name = "tutorial_highlight_create_army"
-					using = default_button_map_interaction
+				flowcontainer = {
 					parentanchor = hcenter
-					size = { 520 50 }
-					using = fontsize_large
-					onclick = "[PanelMilitary.OnClickRecruitArmyFormation]"
-					enabled = yes
-					visible = "[InformationPanel.IsTabSelected('army')]"
-					using = default_content_fade
+					spacing = 5
 
-					flowcontainer = {
-						parentanchor = center
+					button = {
+						visible = "[InformationPanel.IsTabSelected('army')]"
+						using = default_button
+						parentanchor = vcenter
+						size = { 255 50 }
+						enabled = "[LessThan_int32(GetPlayer.GetNumUnassignedGenerals, GetPlayer.GetMaxUnassignedGenerals)]"
+						onclick = "[PopupManager.ToggleRecruitGeneral]"
+						tooltip = "[SelectLocalization(LessThan_int32(GetPlayer.GetNumUnassignedGenerals, GetPlayer.GetMaxUnassignedGenerals), 'MILITARY_FORMATION_RECRUIT_GENERAL', 'MILITARY_FORMATION_RECRUIT_GENERAL_LIMIT')]"
+						using = tooltip_ne
 
-						icon = {
-							size = { 30 30 }
-							texture = "gfx/interface/buttons/button_icons/plus.dds"
-							parentanchor = vcenter
-						}
-						
 						textbox = {
-							parentanchor = vcenter
+							parentanchor = center
 							autoresize = yes
-							align = center|nobaseline
+							align = nobaseline
+							using = fontsize_large
+							using = elide_fontsize_min
+							max_width = 250
+							text = "RECRUIT_GENERAL_BUTTON"
+						}
+					}
+
+					### CREATE FORMATIONS
+					button = {
+						visible = "[InformationPanel.IsTabSelected('army')]"
+						name = "tutorial_highlight_create_army"
+						using = default_button_map_interaction
+						parentanchor = vcenter
+						size = { 255 50 }
+						using = default_content_fade
+						tooltip = "CREATE_ARMY_FORMATION_TOOLTIP"
+						onclick = "[PanelMilitary.OnClickRecruitArmyFormation]"
+
+						textbox = {
+							parentanchor = center
+							autoresize = yes
+							using = fontsize_large
+							align = nobaseline
+							using = elide_fontsize_min
+							max_width = 250
 							text = "CREATE_ARMY_FORMATION"
 						}
-
 					}
 				}
-				
+
 				button = {
+					visible = "[And(InformationPanel.IsTabSelected('army'), PanelMilitary.CanAnyUnitInAnyPlayerFormationBeUpgraded)]"
 					using = default_button_map_interaction
 					parentanchor = hcenter
 					size = { 520 50 }
-					using = fontsize_large
-					onclick = "[PanelMilitary.OnClickRecruitFleetFormation]"
-					enabled = yes
-					visible = "[InformationPanel.IsTabSelected('navy')]"
-					using = default_content_fade
+					tooltip = "MILITARY_FORMATION_UNITS_UPGRADE_ALL_ALL"
+					onclick = "[Execute( PanelMilitary.GetUpgradeAllUnitsInAllFormationsCommand)]"
+					enabled = "[IsValid( PanelMilitary.GetUpgradeAllUnitsInAllFormationsCommand)]"
 
-					flowcontainer = {
+					textbox = {
 						parentanchor = center
-
-						icon = {
-							size = { 30 30 }
-							texture = "gfx/interface/buttons/button_icons/plus.dds"
-							parentanchor = vcenter
-						}
-						
-						textbox = {
-							parentanchor = vcenter
-							autoresize = yes
-							align = center|nobaseline
-							text = "CREATE_FLEET_FORMATION"
-						}
-
+						autoresize = yes
+						align = nobaseline
+						using = fontsize_large
+						using = elide_fontsize_min
+						max_width = 500
+						text = "MILITARY_FORMATION_UNITS_UPGRADE_ALL"
 					}
 				}
-
 
 				widget = {
 					size = { 5 5 }
