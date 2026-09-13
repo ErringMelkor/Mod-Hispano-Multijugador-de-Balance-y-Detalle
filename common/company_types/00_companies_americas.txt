@@ -30,17 +30,9 @@ company_fundidora_monterrey = {
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
-			
-		}		
+		}	
 	}
 
 	attainable = {
@@ -107,15 +99,8 @@ company_el_aguila = {
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -192,15 +177,8 @@ company_csfa = {
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -272,15 +250,8 @@ company_caribbean_petroleum = {
 	potential = {
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -374,15 +345,8 @@ company_bunge_born = {
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -477,15 +441,8 @@ company_la_rosada = {
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -569,15 +526,8 @@ company_famae = {
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-          	country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -648,15 +598,8 @@ company_peruvian_amazon = {
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -731,15 +674,8 @@ company_kablin = {
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 

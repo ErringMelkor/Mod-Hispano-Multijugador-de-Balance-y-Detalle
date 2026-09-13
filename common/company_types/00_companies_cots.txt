@@ -19,15 +19,8 @@ company_sao_paulo_railway = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-            country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -117,15 +110,8 @@ company_estaleiro_maua = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -217,15 +203,8 @@ company_pernambuco_textiles = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -307,15 +286,8 @@ company_fundicao_ipanema = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -404,15 +376,8 @@ company_rossi = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -484,15 +449,8 @@ company_estanifera_llallagua = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -561,11 +519,9 @@ company_argentinian_wine = {
 	potential = {
 		has_dlc_feature = rp1_content
 		OR = {
-			c:ARG ?= this
-			c:PLT ?= this
-			c:FND ?= this
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
-		
 	}
 
 	possible = {
@@ -632,15 +588,8 @@ company_sudamericana_de_vapores = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -713,15 +662,8 @@ company_electricidad_de_caracas = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -794,15 +736,8 @@ company_cordoba_railway = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 
@@ -881,15 +816,8 @@ company_eea = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
 		}	
 	}
 

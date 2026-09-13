@@ -98,16 +98,9 @@ company_compania_sansinena_de_carnes_congeladas = {
 		has_dlc_feature = mp1_content
 		has_interest_marker_in_region = sr:region_la_plata
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
+			has_discrimination_trait = heritage_latin_american_settler	
 			country_has_primary_culture = cu:spanish
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
-		}	
+		}
 	}
 
 	attainable = {

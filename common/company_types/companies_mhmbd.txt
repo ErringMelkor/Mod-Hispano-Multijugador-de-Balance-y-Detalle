@@ -629,14 +629,8 @@ company_industrias_reunidas_matarazzo= {
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
 	}
 
@@ -809,14 +803,8 @@ company_wilson_sons= {
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
 	}
 
@@ -1381,14 +1369,8 @@ company_cemex= {
     potential = {
 		has_interest_marker_in_region = sr:region_central_america
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
 	}
 
@@ -1483,14 +1465,8 @@ company_pelladini= {
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
 	}
 
@@ -1644,14 +1620,8 @@ company_jose_cuervo= {
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
 		OR = {
-			country_has_primary_culture = cu:mexican
-			country_has_primary_culture = cu:brazilian
-			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:north_andean
-			country_has_primary_culture = cu:platinean
-            country_has_primary_culture = cu:chilean
-            country_has_primary_culture = cu:peruvian
-            country_has_primary_culture = cu:bolivian
+			has_discrimination_trait = heritage_latin_american_settler	
+			country_has_primary_culture = cu:spanish
 		}
 	}
 
