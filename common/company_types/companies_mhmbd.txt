@@ -2958,7 +2958,7 @@ company_aramco= {
 			}
 		}
 		any_scope_treaty = {
-			binds = c:dyn_c_united_states ?= this
+			binds = c:USA ?= this
 			any_scope_article = {
 				has_type = trade_privilege
 			}
@@ -2967,7 +2967,7 @@ company_aramco= {
 	}
 	
 	prosperity_modifier = {
-		building_oil_rig_throughput_add = 0.15
+		building_group_bg_oil_extraction_throughput_add = 0.15
 	}
 
 	ai_will_do = {
