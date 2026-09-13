@@ -14,7 +14,7 @@ company_kaiping_mining = {
 
 	extension_building_types = {
 		building_iron_mine
-		building_lead_mine
+		building_sulfur_mine
 	}
 
 	potential = {
@@ -33,7 +33,7 @@ company_kaiping_mining = {
 	}
 
 	possible = {
-		has_technology_researched = steam_donkey
+		has_technology_researched = watertube_boiler
 		has_technology_researched = railways
 		any_scope_state = {
 			OR = {
@@ -50,10 +50,11 @@ company_kaiping_mining = {
 
 	prosperity_modifier = {
 		country_tech_spread_mult = 0.1
+		interest_group_ig_industrialists_pol_str_mult = 0.1
 	}
 
 	ai_will_do = {
-		has_technology_researched = steam_donkey
+		has_technology_researched = watertube_boiler
 		has_technology_researched = railways
 		any_scope_state = {
 			OR = {
