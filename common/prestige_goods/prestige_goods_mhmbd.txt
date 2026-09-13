@@ -88,6 +88,12 @@ prestige_good_nakajima_aircraft = {
 	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 }
 
+prestige_good_guttapercha = {
+	base_good = rubber
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/rubber.dds"
+}
+
 prestige_good_philipine_timber = {
 	base_good = wood
 	prestige_bonus = 0.1
