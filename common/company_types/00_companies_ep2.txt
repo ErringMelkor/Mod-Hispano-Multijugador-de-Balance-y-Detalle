@@ -297,19 +297,15 @@ company_guthrie = {
 
 	building_types = {
 		building_coffee_plantation
-		building_tea_plantation
+		building_rubber_plantation
 	}
 
 	extension_building_types = {
-		building_rubber_plantation
-		building_logging_camp
 		building_tooling_workshop
 	}
 
 	possible_prestige_goods = {
-	}
-
-	prestige_goods_trigger = {
+		prestige_good_guttapercha
 	}
 
 	potential = {
@@ -333,18 +329,19 @@ company_guthrie = {
 				any_scope_building = {
 					OR = {
 						is_building_type = building_coffee_plantation
-						is_building_type = building_tea_plantation
+						is_building_type = building_rubber_plantation
 					}
 					level >= 5
 				}
 			}
 		}
+		has_technology_researched = rubber_mastication
 	}
 
 	prosperity_modifier = {
-		building_port_throughput_add = 0.05
-		state_trade_advantage_mult = 0.05
-		state_colony_growth_speed_mult = 0.05
+		building_port_throughput_add = 0.1
+		state_trade_advantage_mult = 0.15
+		building_trade_center_throughput_add = 0.1
 	}
 
 	ai_will_do = {
@@ -361,7 +358,7 @@ company_guthrie = {
 				state_region = s:STATE_MALAYA
 			}
 		}
-		building_tea_plantation = {
+		building_rubber_plantation = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_MALAYA
