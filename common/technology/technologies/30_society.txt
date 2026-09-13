@@ -541,7 +541,7 @@ organized_sports = {
 
 	modifier = {
 		country_prestige_mult = 0.1
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		state_radicals_from_political_movements_mult = -0.05
 	}
 
@@ -721,7 +721,7 @@ nationalism = {
 	modifier = {
 		country_authority_mult = 0.1
 		country_voting_power_mult = 0.1
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -983,7 +983,7 @@ civilizing_mission = {
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
 		country_infamy_generation_against_unrecognized_mult = -0.25
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -1154,7 +1154,7 @@ pan-nationalism = {
 		country_authority_mult = 0.1
 		country_support_separatism_strength_mult = 0.25
 		country_voting_power_mult = 0.1
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		country_infamy_generation_mult = -0.1
 	}
 	
@@ -1236,7 +1236,7 @@ camera = {
 	
 	modifier = {
 		country_prestige_mult = 0.05
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -1255,7 +1255,7 @@ philosophical_pragmatism = {
 	
 	modifier = {
 		country_influence_mult = 0.25
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
@@ -1406,7 +1406,7 @@ political_agitation = {
 		country_authority_mult = 0.1
 		country_voting_power_mult = 0.1
 		country_agitator_slots_add = 1
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -1498,7 +1498,7 @@ psychoanalysis = {
 	category = society
 	
 	modifier = {
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		state_bureaucracy_population_base_cost_factor_mult = -0.15
 		state_education_access_wealth_add = 0.0065
 	}
@@ -1519,7 +1519,7 @@ behaviorism = {
 	
 	modifier = {
 		country_influence_mult = 0.35
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		country_war_exhaustion_casualties_mult = -0.25
 		unit_morale_loss_mult = -0.05
 	}
@@ -1541,7 +1541,7 @@ film = {
 	
 	modifier = {
 		country_prestige_mult = 0.05
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 	}
 	
 	unlocking_technologies = {
@@ -1559,7 +1559,7 @@ multilateral_alliances = {
 	category = society
 	
 	modifier = {
-		country_diplomatic_play_maneuvers_mult = 10
+		country_diplomatic_play_maneuvers_mult = 0.10
 		country_infamy_generation_mult = -0.25
 		country_allow_multiple_alliances_bool = yes
 	}

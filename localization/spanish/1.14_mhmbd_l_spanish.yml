@@ -1,6 +1,6 @@
 ﻿﻿l_spanish:
  
- --Companies
+  #Compañías
   company_aramco: "Aramco"
   company_ansteel: "Ansteel"
   company_bmmi: "BMMI"
@@ -10,9 +10,16 @@
   company_itc_limited: "ITC Limited"
   company_tuason_sampedro: "Tuason y Sampedro"
   company_yuhan: "Yuhan Corporation"
-  
---Prestige good
+  company_mines_wendel_stiring: "Compagnie de Stiring-Wendel"
+
+  #Bienes de Prestigio    
   prestige_good_ghawar_oil: "Petróleo de Ghawar"
   prestige_good_caviar: "Caviar"
   prestige_good_nakajima_aircraft: "Aviones Nakajima"
   prestige_good_philipine_timber: "Maderas Filipinas"
+  prestige_good_metz_coal: "Carbón de Metz"
+  prestige_good_constantine_lead: "Plomo de Constantina"
+
+
+  #Modificadores
+  country_institution_size_change_speed_institution_health_system_mult: "Velocidad al Cambio de Institución para el Sistema de SAlud"

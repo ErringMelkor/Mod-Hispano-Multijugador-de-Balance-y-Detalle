@@ -28,5 +28,5 @@ REPLACE_OR_CREATE:decree_resource_throughput = {
 REPLACE_OR_CREATE:modifier_against_the_confederation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	state_conscription_rate_mult = 0.25
-	country_diplomatic_play_maneuvers_add = 25
+	country_diplomatic_play_maneuvers_mult = 0.25
 }

@@ -79,5 +79,5 @@ REPLACE_OR_CREATE:unreconstructed_state = {
 
 planear_gran_campana = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	country_diplomatic_play_maneuvers_add = 35
+	country_diplomatic_play_maneuvers_mult = 0.35
 }

@@ -25,3 +25,8 @@ Tecnologías:
 	Sociedad:
 		Reajustada la inversión de "Fondos Mútuos" a favorecer a "Farmers" y "Shopkeepers".
 
+# 13-06-26 #
+
+Corrección maniobras.
+Agregada localización.
+

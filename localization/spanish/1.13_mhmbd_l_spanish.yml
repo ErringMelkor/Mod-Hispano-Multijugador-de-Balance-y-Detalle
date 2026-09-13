@@ -6,7 +6,7 @@
   prestige_good_coffea_robusta: "Café Robusto"
   company_fedecafe: "Fedecafé"
 
-  Compañías
+  #Compañías
   company_la_forestal: "La Forestal"
   company_falabella: "Falabella"
   company_coltejer: "Coltejer"
@@ -37,7 +37,7 @@
   company_egyptian_sugar: "Sociedad General de Azúcares y Refinerias de Egipto"
   company_ethiopian_partnership: "Sociedad Colectiva para el Pueblo Etíope"
   
-  Bienes de Prestigio
+  #Bienes de Prestigio
   prestige_good_red_fife: "Grano Red Fife"
   prestige_good_guano: "Guano"
   prestige_good_specialty_sugar: "Azucar de Especialidad"
@@ -48,7 +48,7 @@
   prestige_good_earl_gray_tea: "Té Earl Gray"
   prestige_good_tempered_glass: "Vidrio Templado"
 
-  Azucar de Especicalidad (evento)
+  #Azucar de Especicalidad (evento)
   je_prestige_good_specialty_sugar: "$prestige_good_specialty_sugar$"
   je_prestige_good_specialty_sugar_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $sugar$#! @sugar!."
   je_prestige_good_specialty_sugar_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_specialty_sugar_var').GetValue]#!): #indent_newline:3 "
@@ -59,7 +59,7 @@
   notification_prestige_good_specialty_sugar_unlocked_desc: "Los [Concept('concept_building', '$concept_buildings$')] propiedad de [SCOPE.sCompany('relevant_company').GetName] ya pueden empezar a producir #b $prestige_good_specialty_sugar$#! @prestige_good_specialty_sugar!"
   notification_prestige_good_specialty_sugar_unlocked_tooltip: "#header $notification_prestige_good_specialty_sugar_unlocked_name$#!\n$TOOLTIP_DELIMITER$\n$notification_prestige_good_specialty_sugar_unlocked_desc$"
 
-  Alimentos Ultraprocesados (evento)
+  #Alimentos Ultraprocesados (evento)
   je_prestige_good_ultra_food: "$prestige_good_ultra_food$"
   je_prestige_good_ultra_food_reason: "[SCOPE.sCompany('relevant_company').GetName] se ha consolidado como un elemento importante dentro de nuestra economía. La compañía desea aprovechar la actual prosperidad para desarrollar su propia marca de #b $prestige_good_ultra_food$#! @prestige_good_ultra_food!. Si tiene éxito, podrá ser competitiva en el mercado internacional de #b $groceries$#! @groceries!."
   je_prestige_good_ultra_food_goal: "Mantén lo siguiente durante #v [GetPlayer.MakeScope.ScriptValue('prestige_good_journal_entry_months')] meses#! (actualmente #v [ROOT.GetCountry.MakeScope.Var('prestige_good_ultra_food_var').GetValue]#!): #indent_newline:3 "

@@ -8,6 +8,7 @@
 # can_colonize = whether a country of this rank can colonize
 # diplo_pact_cost = Diplomatic pacts with country of this rank have their cost multiplied by this amount - 1
 # treaty_article_cost = Treaty articles with country of this rank have their cost multiplied by this amount - 1
+# ai_pool_character_multiplier = Multiplier on how many randomly generated pool characters an AI country of this rank will get. This is done for performance reasons. Does not affect characters generated to pool via templates.
 
 ################
 ## RECOGNIZED ##
@@ -29,7 +30,7 @@ great_power = {
 	infamy_target_scaling = 0.20
 	
 	ai_pool_character_multiplier = 1.0
-	ai_innovation_critical_threshold = 0.80
+	ai_innovation_critical_threshold = 1.0
 
 	valid_country_types = {
 		recognized
@@ -39,7 +40,7 @@ great_power = {
 
 	modifier = {
 		country_influence_add = 1000
-		country_diplomatic_play_maneuvers_add = 35
+		country_diplomatic_play_maneuvers_add = 50
 		country_loan_interest_rate_mult = -0.35
 		country_agitator_slots_add = 2
 		country_support_independence_weekly_liberty_desire_add = 0.20
@@ -77,7 +78,7 @@ major_power = {
 	
 	modifier = {
 		country_influence_add = 750
-		country_diplomatic_play_maneuvers_add = 35
+		country_diplomatic_play_maneuvers_add = 50
 		country_tech_spread_mult = 0.05
 		country_loan_interest_rate_mult = -0.25
 		country_agitator_slots_add = 2
@@ -111,7 +112,7 @@ minor_power = {
 	
 	modifier = {
 		country_influence_add = 600
-		country_diplomatic_play_maneuvers_add = 35
+		country_diplomatic_play_maneuvers_add = 50
 		country_tech_spread_mult = 0.1
 		country_agitator_slots_add = 1
 		country_support_independence_weekly_liberty_desire_add = 0.03
@@ -139,7 +140,7 @@ insignificant_power = {
 	
 	modifier = {
 		country_influence_add = 500
-		country_diplomatic_play_maneuvers_add = 35
+		country_diplomatic_play_maneuvers_add = 50
 		country_loan_interest_rate_mult = 0.25
 		country_tech_spread_mult = 0.25
 		state_migration_pull_mult = -0.25
@@ -170,7 +171,7 @@ unrecognized_major_power = {
 	
 	modifier = {
 		country_influence_add = 750
-		country_diplomatic_play_maneuvers_add = 35
+		country_diplomatic_play_maneuvers_add = 50
 		country_tech_spread_mult = -0.1
 		country_loan_interest_rate_mult = 0.5
 		country_agitator_slots_add = 2

@@ -1,13 +1,13 @@
 ﻿russian_small_border_pursuit = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_infamy_decay_mult = -0.15
-	country_diplomatic_play_maneuvers_add = 15
+	country_diplomatic_play_maneuvers_mult = 0.15
 }
 
 russian_big_border_pursuit = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_infamy_decay_mult = -0.35
-	country_diplomatic_play_maneuvers_add = 25
+	country_diplomatic_play_maneuvers_mult = 0.25
 }
 
 russian_gentle_border_pursuit = {
