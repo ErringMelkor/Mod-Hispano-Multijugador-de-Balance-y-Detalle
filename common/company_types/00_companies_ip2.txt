@@ -157,11 +157,12 @@ company_david_sassoon = {
 
 	building_types = {
 		building_opium_plantation
-		building_cotton_plantation
+		building_port
+		building_trade_center
 	}
 
 	extension_building_types = {
-		building_port
+		building_gold_mine
 	}
 
 	possible_prestige_goods = {
@@ -190,24 +191,18 @@ company_david_sassoon = {
 
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_BOMBAY
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_cotton_plantation
-				level >= 5
-			}
-		}
-		any_scope_state = {
 			is_in_geographic_region = geographic_region_india
 			any_scope_building = {
 				is_building_type = building_opium_plantation
 				level >= 5
 			}
 		}
+		count >= 5
 	}
 
 	prosperity_modifier = {
 		state_trade_advantage_mult = 0.05
+		country_max_companies_add = 1
 	}
 
 	ai_will_do = {
@@ -218,18 +213,13 @@ company_david_sassoon = {
 	}
 
 	ai_construction_targets = {
-		building_cotton_plantation = {
-			level = 5
-			state_trigger = {
-				state_region = s:STATE_BOMBAY
-			}
-		}
 		building_opium_plantation = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_BOMBAY
 			}
 		}
+		count >= 5
 	}
 
 	ai_weight = {
