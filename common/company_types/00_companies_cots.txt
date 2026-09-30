@@ -18,10 +18,7 @@ company_sao_paulo_railway = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -109,10 +106,7 @@ company_estaleiro_maua = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -202,10 +196,7 @@ company_pernambuco_textiles = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -285,10 +276,7 @@ company_fundicao_ipanema = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -375,10 +363,7 @@ company_rossi = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -448,10 +433,7 @@ company_estanifera_llallagua = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_andes
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -518,10 +500,7 @@ company_argentinian_wine = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	possible = {
@@ -587,10 +566,7 @@ company_sudamericana_de_vapores = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_la_plata
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -661,10 +637,7 @@ company_electricidad_de_caracas = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_gran_colombia
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -735,10 +708,7 @@ company_cordoba_railway = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_la_plata
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -815,10 +785,7 @@ company_eea = {
 	potential = {
 		has_dlc_feature = rp1_content
 		has_interest_marker_in_region = sr:region_andes
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {

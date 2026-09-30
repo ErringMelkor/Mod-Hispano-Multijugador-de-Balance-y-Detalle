@@ -628,10 +628,7 @@ company_industrias_reunidas_matarazzo= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	attainable = {
@@ -802,10 +799,7 @@ company_wilson_sons= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	attainable = {
@@ -1368,10 +1362,7 @@ company_cemex= {
 
     potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	attainable = {
@@ -1464,10 +1455,7 @@ company_pelladini= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	attainable = {
@@ -1619,10 +1607,7 @@ company_jose_cuervo= {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}
+		has_discrimination_trait = heritage_latin_american_settler
 	}
 
 	attainable = {

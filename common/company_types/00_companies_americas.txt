@@ -29,10 +29,7 @@ company_fundidora_monterrey = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -98,10 +95,7 @@ company_el_aguila = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -176,10 +170,7 @@ company_csfa = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -249,10 +240,7 @@ company_caribbean_petroleum = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_gran_colombia
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -344,10 +332,7 @@ company_bunge_born = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -440,10 +425,7 @@ company_la_rosada = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -525,10 +507,7 @@ company_famae = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_la_plata
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -597,10 +576,7 @@ company_peruvian_amazon = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
@@ -673,10 +649,7 @@ company_kablin = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_brazil
-		OR = {
-			has_discrimination_trait = heritage_latin_american_settler	
-			country_has_primary_culture = cu:spanish
-		}	
+		has_discrimination_trait = heritage_latin_american_settler	
 	}
 
 	attainable = {
