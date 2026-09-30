@@ -10,11 +10,11 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_sulfur_add = 30
-			goods_input_oil_add = 30
+			goods_input_sulfur_add = 20 # 1000
+			goods_input_oil_add = 25 # 1000
 
 			# output goods
-			goods_output_rubber_add = 40
+			goods_output_rubber_add = 50 # 2000
 		}
 
 		level_scaled = {
@@ -39,11 +39,11 @@ pm_synthetic_oil_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_coal_add = 60
-			goods_input_electricity_add = 40
+			goods_input_coal_add = 65 # 2000
+			goods_input_electricity_add = 30 # 1050
 
 			# output goods
-			goods_output_oil_add = 20
+			goods_output_oil_add = 50 # 2000
 		}
 
 		level_scaled = {

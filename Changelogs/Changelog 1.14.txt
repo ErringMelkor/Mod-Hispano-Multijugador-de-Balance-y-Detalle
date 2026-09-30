@@ -39,3 +39,11 @@ Países:
 		Otorgado bono automático si no tiene jugador para ayudar a que no se lo canibalicen día 1.
 	Rusia:
 		Ganar la guerra ruso-turca otorga más lealistas de cultura rusa, y de culturas búlgara/armenia/georgiana si tomas la opción de volverlas primarias.
+
+Economía:
+	Edificios sintéticos:
+		Mejorados sus métodos de Producción:
+		· PM de Caucho sintético tiene valor neutro. (3000 -> 3000 = 0)
+		· PM de Petróleo sintético tiene menor valor negativo (3050 -> 2000 = -1050).
+		La intención de estos edificios no es que sean rentables, sino que te permitan suplir carencias estratégicas.
+		Son parte del contenido más viejo del mod, más viejo que el modelo nuevo de mercado, por lo que, aunque siguen sin ser rentables, deberían de ser viables estratégicamente.
