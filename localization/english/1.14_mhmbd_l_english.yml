@@ -23,5 +23,8 @@
 
   #Modifiers
   country_institution_size_change_speed_institution_health_system_mult: "Institution Size Change Speed for Health System"
+  modifier_imperial_examinations: "Imperial Examinations"
+  modifier_legacy_imperial_examinations: "Imperial Examinations Legacy"
+  hombre_automatizado_europa: "Automatized Man of Europe"
 
 

@@ -22,4 +22,8 @@
 
 
   #Modificadores
-  country_institution_size_change_speed_institution_health_system_mult: "Velocidad al Cambio de Institución para el Sistema de SAlud"
+  country_institution_size_change_speed_institution_health_system_mult: "Velocidad al Cambio de Institución para el Sistema de Salud"
+  modifier_imperial_examinations: "Examinaciones Imperiales"
+  modifier_legacy_imperial_examinations: "Legado de las Examinaciones Imperiales"
+  hombre_automatizado_europa: "Hombre Automatizado de Europa"
+
