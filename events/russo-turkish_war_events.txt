@@ -323,18 +323,17 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 		}
 		
 		add_loyalists = {
-			value = 0.15
+			value = 0.25
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
 			culture = cu:russian
 		}
 
 		add_loyalists = {
 			value = 0.5
-			pop_type = officers
-			culture = cu:russian
-		}
-
-		add_loyalists = {
-			value = 0.25
 			pop_type = soldiers
 			culture = cu:russian
 		}
@@ -405,8 +404,13 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 
 		
 		add_loyalists = {
-			value = 0.05
+			value = 0.1
 			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.35
+			culture = cu:bulgarian
 		}
 
 		add_loyalists = {
@@ -588,6 +592,20 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			culture = cu:russian
 		}
 
+		add_loyalists = {
+			value = 0.35
+			culture = cu:armenian
+		}
+		add_loyalists = {
+			value = 0.35
+			culture = cu:georgian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+
 		add_modifier = {
 			name = russian_winner
 			years = 10
@@ -702,6 +720,12 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			pop_type = soldiers
 			culture = cu:russian
 		}
+
+		add_loyalists = {
+			value = 0.1
+			culture = cu:russian
+		}
+		
 
 		add_modifier = {
 			name = russian_winner

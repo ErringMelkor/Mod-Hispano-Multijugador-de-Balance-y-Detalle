@@ -152,12 +152,27 @@ on_monthly_pulse = {
 
 		if = {
 			limit = {
+				c:TUR ?= {
+					is_player = no
+				}
+			}
+			c:TUR = {
+				add_modifier = {
+					name = hombre_automatizado_europa
+					days = 31
+				}
+			}
+		}
+
+		if = {
+			limit = {
 				year < 1930
 				NOT = { has_global_variable = germany_formed }
 				c:GER ?= { is_country_alive = yes }
 			}
 			set_global_variable = germany_formed
 		}
+		
 
 		# USA gets a positive/negative modifier depending on whether their capital is in Washington DC
 		c:USA ?= {

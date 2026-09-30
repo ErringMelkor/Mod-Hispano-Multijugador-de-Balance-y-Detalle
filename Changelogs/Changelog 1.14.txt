@@ -30,3 +30,12 @@ Tecnologías:
 Corrección maniobras.
 Agregada localización.
 
+# 30-09-26 #
+
+Países:
+	Gran Bretaña:
+		Deuda inicial: -3.7 -> -3.2
+	Otomanos:
+		Otorgado bono automático si no tiene jugador para ayudar a que no se lo canibalicen día 1.
+	Rusia:
+		Ganar la guerra ruso-turca otorga más lealistas de cultura rusa, y de culturas búlgara/armenia/georgiana si tomas la opción de volverlas primarias.

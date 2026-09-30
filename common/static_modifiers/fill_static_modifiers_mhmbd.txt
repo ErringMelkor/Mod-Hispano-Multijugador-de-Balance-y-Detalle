@@ -97,3 +97,10 @@ fill_autoridad_insignificante = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_authority_add = 450
 }
+
+hombre_automatizado_europa = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	battle_defense_owned_province_mult = 0.15
+	country_minting_add = 15000
+
+}
