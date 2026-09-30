@@ -2940,7 +2940,6 @@ company_aramco= {
 	possible = {
 		any_scope_state = {
 			state_region = s:STATE_NEJD
-			is_incorporated = yes
 			any_scope_building = {
 					is_building_type = building_oil_rig
 					level >= 5
@@ -2962,7 +2961,6 @@ company_aramco= {
 	ai_will_do = {
 		any_scope_state = {
 	        state_region = s:STATE_NEJD
-			is_incorporated = yes
 		}
 	}
 
