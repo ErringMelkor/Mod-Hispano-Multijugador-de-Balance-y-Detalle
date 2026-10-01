@@ -27,4 +27,8 @@
   modifier_legacy_imperial_examinations: "Imperial Examinations Legacy"
   hombre_automatizado_europa: "Automatized Man of Europe"
 
+  #Technologies
+  brass_cars: "Brass Alloys"
+  brass_cars_desc: "Stand-in for different alloys designed to lighten automobile's weight and easen mass production lines."
+
 

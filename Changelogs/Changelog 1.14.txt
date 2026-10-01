@@ -30,7 +30,7 @@ Tecnologías:
 Corrección maniobras.
 Agregada localización.
 
-# 30-09-26 #
+# 30-09-26 - 03-10-26 #
 
 Países:
 	Gran Bretaña:
@@ -41,6 +41,8 @@ Países:
 		Ganar la guerra ruso-turca otorga más lealistas de cultura rusa, y de culturas búlgara/armenia/georgiana si tomas la opción de volverlas primarias.
 	China:
 		Nerf al modificador de la Examinación Imperial: 5% alfabetización plana -> 0%.
+	Brasil:
+		Tiempo requerido para completar la entrada de diario de la marina brasileña: 40 años -> 20 años.
 
 Economía:
 	Edificios sintéticos:
@@ -49,3 +51,6 @@ Economía:
 		· PM de Petróleo sintético tiene menor valor negativo (3050 -> 2000 = -1050).
 		La intención de estos edificios no es que sean rentables, sino que te permitan suplir carencias estratégicas.
 		Son parte del contenido más viejo del mod, más viejo que el modelo nuevo de mercado, por lo que, aunque siguen sin ser rentables, deberían de ser viables estratégicamente.
+
+Tecnologías:
+	Creada nueva tecnología a partir de compresión ignición, "Aleaciones de Latón", para debilitar esa tech de tier 5.

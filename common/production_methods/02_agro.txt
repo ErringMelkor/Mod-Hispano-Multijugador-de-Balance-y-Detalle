@@ -257,7 +257,7 @@ pm_compression_ignition_tractors = {
 	}
 
 	unlocking_technologies = {
-		compression_ignition
+		brass_cars
 	}
 	building_modifiers = {
 		workforce_scaled = {

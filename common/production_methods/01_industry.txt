@@ -2108,7 +2108,7 @@ pm_mass_automobile_production = {
 	}
 
 	unlocking_technologies = {
-		compression_ignition
+		brass_cars
 	}
 
 	building_modifiers = {

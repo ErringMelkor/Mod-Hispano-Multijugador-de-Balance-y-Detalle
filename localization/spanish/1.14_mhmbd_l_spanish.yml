@@ -27,3 +27,6 @@
   modifier_legacy_imperial_examinations: "Legado de las Examinaciones Imperiales"
   hombre_automatizado_europa: "Hombre Automatizado de Europa"
 
+  #Tecnologías
+  brass_cars: "Aleaciones de Latón"
+  brass_cars_desc: "Experimentos con distintas combinaciones de materiales para aligerar el peso del automóbil y facilitar la cadena de producción."
