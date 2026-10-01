@@ -1,9 +1,9 @@
 Tecnologías:
-    Dividir tier 5 de coches y minas.
+    Dividir tier 5 de coches y minas. #Hecho
 
 Países:
     Brasil:
-        Reducir el tiempo de la misión de la flota a la mitad.
+        Reducir el tiempo de la misión de la flota a la mitad. #Hecho
 
 JE:
     Diseñar y crear la unificación cultural italiana.

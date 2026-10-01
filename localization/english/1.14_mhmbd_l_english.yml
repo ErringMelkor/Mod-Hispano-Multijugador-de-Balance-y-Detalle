@@ -31,4 +31,30 @@
   brass_cars: "Brass Alloys"
   brass_cars_desc: "Stand-in for different alloys designed to lighten automobile's weight and easen mass production lines."
 
+  #Cultures & Languages
+  piedmontese: "Piedmontese"
+  lombard: "Lombardo"
+  venetian: "Venetiano"
+  emilian: "Emiliano"
+  tuscan: "Toscano"
+  umbro: "Umbro"
+  romanesco: "Romanesco"
+  istriota: "Istriota"
+  dalmata: "Dalmata"
+  neapolitano: "Neapolitano"
+  siciliano: "Siciliano"
+  central_italian: "Central Italian"
+  sardinian: "Sardinian"
+
+  language_dalmata: "Dalmato"
+  language_galloitalic: "Gallo-Italic"
+  language_venetian: "Veneto"
+  language_toscano: "Toscano"
+  language_emiliano: "Emiliano"
+  language_sardu: "Sardu"
+  language_mediano: "Mediano"
+  language_meridionale: "Meridionale"
+  language_siciliano: "Siciliano"
+
+
 

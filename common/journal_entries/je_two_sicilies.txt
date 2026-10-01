@@ -75,11 +75,11 @@ je_bourbon_instability = {
 	on_complete = {
 		add_modifier = {
 			name = bourbon_integration
-			years = 10
+			years = 15
 			is_decaying = yes
 		}
 		add_loyalists = {
-			value = 0.35
+			value = 0.5
 			culture = cu:south_italian
 		}
 	}

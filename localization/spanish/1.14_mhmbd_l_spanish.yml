@@ -30,3 +30,28 @@
   #Tecnologías
   brass_cars: "Aleaciones de Latón"
   brass_cars_desc: "Experimentos con distintas combinaciones de materiales para aligerar el peso del automóbil y facilitar la cadena de producción."
+
+  #Culturas e Idiomas
+  piedmontese: "Piamontés"
+  lombard: "Lombardo"
+  venetian: "Venetiano"
+  emilian: "Emiliano"
+  tuscan: "Toscano"
+  umbro: "Umbro"
+  romanesco: "Romanesco"
+  istriota: "Istriota"
+  dalmata: "Dalmata"
+  neapolitano: "Neapolitano"
+  siciliano: "Siciliano"
+  central_italian: "Centroitaliano"
+  sardinian: "Cerdeño"
+
+  language_dalmata: "Dalmato"
+  language_galloitalic: "Galoitálico"
+  language_venetian: "Veneto"
+  language_toscano: "Toscano"
+  language_emiliano: "Emiliano"
+  language_sardu: "Sardu"
+  language_mediano: "Mediano"
+  language_meridionale: "Meridionale"
+  language_siciliano: "Siciliano"

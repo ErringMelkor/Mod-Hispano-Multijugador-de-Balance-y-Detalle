@@ -3967,6 +3967,16 @@ on_country_formed = {
 				c:ITA ?= ROOT
 			}
 			trigger_event = { id = italian_unification.1 popup = yes }
+			ig:ig_petty_bourgeoisie = {
+				set_ig_trait = ig_trait:ig_trait_galantuomini
+			}
+			ig:ig_intelligentsia = {
+				set_ig_trait = ig_trait:ig_trait_segundo_renacimiento
+			}
+			ig:ig_armed_forces = {
+				set_ig_trait = ig_trait:ig_trait_by_blood_alone
+			}
+			
 		}
 		else_if = {
 			limit = {

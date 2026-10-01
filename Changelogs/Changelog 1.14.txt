@@ -43,6 +43,9 @@ Países:
 		Nerf al modificador de la Examinación Imperial: 5% alfabetización plana -> 0%.
 	Brasil:
 		Tiempo requerido para completar la entrada de diario de la marina brasileña: 40 años -> 20 años.
+	Italia:
+		El bono por completar exitosamente la Entrada de Diario "Inestabilidad Borbónica" con las Dos Sicilias aumenta de 10 a 15 años y los lealistas de 35% a 50%.
+		
 
 Economía:
 	Edificios sintéticos:
