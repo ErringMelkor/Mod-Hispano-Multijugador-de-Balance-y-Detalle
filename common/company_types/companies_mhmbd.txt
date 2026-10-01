@@ -3420,7 +3420,7 @@ company_itc_limited= {
 	}
 	
 	prosperity_modifier = {
-		country_tech_spread_mult = 0.1
+		country_weekly_innovation_mult = 0.1
 	}
 
 	ai_will_do = {
