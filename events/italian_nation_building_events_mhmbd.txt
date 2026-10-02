@@ -319,46 +319,6 @@ questione_della_lingua_events.1 = {
 			}
 		}
 	}
-	
-
-	option = {
-		name = questione_della_lingua_events.1.b
-		custom_tooltip = {
-			text = questione_della_lingua_events.1.b_tt
-			set_variable = chose_integration_var
-		}
-		if = {
-			limit = {
-				OR = {
-					c:SPA ?= this
-					was_formed_from = SPA
-				}
-			}
-			add_radicals = {
-				culture = cu:spanish
-				value = medium_radicals
-			}
-			add_modifier = {
-				name = modifier_spain_basque_integration_aid
-			}
-		}
-		else_if = {
-			limit = {
-				OR = {
-					c:FRA ?= this
-					was_formed_from = FRA
-				}
-			}
-			add_radicals = {
-				culture = cu:french
-				value = medium_radicals
-			}
-			add_modifier = {
-				name = modifier_france_breton_integration_aid
-			}
-		}
-	}
-
 	option = {
 		name = questione_della_lingua_events.1.c
 		custom_tooltip = {

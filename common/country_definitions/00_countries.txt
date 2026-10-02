@@ -217,7 +217,7 @@ ITA = {
 
 	tier = empire
 
-	cultures = { north_italian south_italian }
+	cultures = { north_italian central_italian south_italian }
 	capital = STATE_LAZIO
 }
 
@@ -703,7 +703,7 @@ PAP = {
 
 	tier = kingdom
 
-	cultures = { south_italian north_italian }
+	cultures = { central_italian }
 	capital = STATE_LAZIO
 }
 
@@ -772,7 +772,7 @@ TUS = {
 	tier = principality
 
 	capital = STATE_TUSCANY
-	cultures = { north_italian central_italian }
+	cultures = { central_italian }
 	is_named_from_capital = yes
 }
 

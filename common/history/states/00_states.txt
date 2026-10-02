@@ -2010,7 +2010,6 @@ STATES = {
 			owned_provinces = { x56B04B xDDDD3B x6B4BA4 xD000E0 }
 		}
 
-		add_homeland = cu:north_italian
 		add_homeland = cu:french
 		add_homeland = cu:francoprovencal
 	}
@@ -2058,7 +2057,6 @@ STATES = {
 			owned_provinces = { x7080A0 xFAFCD4 x6A7662 xB04020 x32BA1A xF12431 }
 		}
 
-		add_homeland = cu:north_italian
 		add_homeland = cu:central_italian
 		add_homeland = cu:tuscan
 	}
@@ -2077,7 +2075,6 @@ STATES = {
 			owned_provinces = { xB5726E xB0C0A0 xB040A0 x3040A0 }
 		}
 
-		add_homeland = cu:south_italian
 		add_homeland = cu:central_italian
 		add_homeland = cu:romanesco
 	}
@@ -8539,7 +8536,6 @@ STATES = {
 			owned_provinces = { x30C021 x72531E xD3A384 xE782CC x6E8D07 xD8F07B }
 		}
 
-		add_homeland = cu:south_italian
 		add_homeland = cu:central_italian
 		add_homeland = cu:umbro
 	}
