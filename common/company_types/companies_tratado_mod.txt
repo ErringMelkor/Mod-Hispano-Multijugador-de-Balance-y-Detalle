@@ -1,4 +1,4 @@
-﻿company_east_indies_trading_company = {
+company_east_indies_trading_company = {
 	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	
@@ -9,6 +9,17 @@
 
 	extension_building_types = {
 		building_shipyard
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_generic_merchant_marine
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_merchant_marine_complete_tt
+			has_variable = prestige_good_generic_merchant_marine_var
+		}
 	}
 	
 	potential = {
@@ -29,6 +40,169 @@
 				is_building_type = building_trade_center
 				level >= 5
 			}
+		}
+		NOT = {
+			OR = {
+				has_company = company_type:company_augustine_heard
+				has_company = company_type:company_remi_schmidt
+				has_company = company_type:company_gibb_livingston
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		state_trade_advantage_mult = 0.1
+        country_max_companies_add = 1
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+company_augustine_heard = {
+	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	
+	building_types = {
+		building_trade_center
+		building_port
+		building_opium_plantation
+	}
+
+	extension_building_types = {
+		building_shipyard
+		building_tea_plantation
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_generic_opium
+	}
+
+	potential = {
+		is_in_geographic_region = geographic_region_han_homelands
+		c:USA ?= this
+	}
+
+    attainable = {
+	}
+
+	possible = {
+        c:USA ?= this
+		any_scope_state = {
+            is_in_geographic_region = geographic_region_han_homelands
+			is_treaty_port = yes
+            any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+		NOT = {
+			has_company = company_type:company_east_indies_trading_company
+		}
+	}
+	
+	prosperity_modifier = {
+		state_trade_advantage_mult = 0.1
+        country_max_companies_add = 1
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+company_remi_schmidt = {
+	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	
+	building_types = {
+		building_trade_center
+		building_port
+		building_silk_plantation
+	}
+
+	extension_building_types = {
+		building_shipyard
+		building_opium_plantation
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_suzhou_silk
+	}
+
+	potential = {
+		is_in_geographic_region = geographic_region_han_homelands
+		c:FRA ?= this
+	}
+
+    attainable = {
+	}
+
+	possible = {
+        c:FRA ?= this
+		any_scope_state = {
+            is_in_geographic_region = geographic_region_han_homelands
+			is_treaty_port = yes
+            any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+		NOT = {
+			has_company = company_type:company_east_indies_trading_company
+		}
+	}
+	
+	prosperity_modifier = {
+		state_trade_advantage_mult = 0.1
+        country_max_companies_add = 1
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
+
+company_gibb_livingston = {
+	icon = "gfx/interface/icons/company_icons/basic_shipyards.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	
+	building_types = {
+		building_trade_center
+		building_port
+		building_tea_plantation
+	}
+
+	extension_building_types = {
+		building_shipyard
+		building_cotton_plantation
+	}
+	
+	possible_prestige_goods = {
+		prestige_good_china_tea
+	}
+
+	potential = {
+		is_in_geographic_region = geographic_region_han_homelands
+		c:GBR ?= this
+	}
+
+    attainable = {
+	}
+
+	possible = {
+        c:GBR ?= this
+		any_scope_state = {
+            is_in_geographic_region = geographic_region_han_homelands
+			is_treaty_port = yes
+            any_scope_building = {
+				is_building_type = building_trade_center
+				level >= 5
+			}
+		}
+		NOT = {
+			has_company = company_type:company_east_indies_trading_company
 		}
 	}
 	

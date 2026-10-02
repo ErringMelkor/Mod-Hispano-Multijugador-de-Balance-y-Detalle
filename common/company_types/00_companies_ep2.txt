@@ -133,7 +133,7 @@ company_yasuda = {
 
 	potential = {
 		has_dlc_feature = ep2_content
-		has_interest_marker_in_region = sr:region_northeast_asia
+		c:JAP ?= this
 	}
 
 	attainable = {
@@ -151,39 +151,17 @@ company_yasuda = {
 			text = is_meiji_japan
 			has_variable = japan_restoration_complete
 		}
-		OR = {
-			s:STATE_KANTO = {
-				any_scope_state = {
-					owner = root
-					is_incorporated = yes
-					any_scope_building = {
-						OR = {
-							is_building_type = building_sulfur_mine
-							is_building_type = building_railway
-							is_building_type = building_port
-						}
-						level >= 5
-					}
-				}
-			}
-			s:STATE_TOKAI = {
-				any_scope_state = {
-					owner = root
-					is_incorporated = yes
-					any_scope_building = {
+		s:STATE_KANTO = {
+			any_scope_state = {
+				owner = root
+				is_incorporated = yes
+				any_scope_building = {
+					OR = {
 						is_building_type = building_sulfur_mine
-						level >= 5
+						is_building_type = building_railway
+						is_building_type = building_port
 					}
-				}
-			}
-			s:STATE_KYUSHU = {
-				any_scope_state = {
-					owner = root
-					is_incorporated = yes
-					any_scope_building = {
-						is_building_type = building_sulfur_mine
-						level >= 5
-					}
+					level >= 5
 				}
 			}
 		}
@@ -319,19 +297,15 @@ company_guthrie = {
 
 	building_types = {
 		building_coffee_plantation
-		building_tea_plantation
+		building_rubber_plantation
 	}
 
 	extension_building_types = {
-		building_rubber_plantation
-		building_logging_camp
 		building_tooling_workshop
 	}
 
 	possible_prestige_goods = {
-	}
-
-	prestige_goods_trigger = {
+		prestige_good_guttapercha
 	}
 
 	potential = {
@@ -355,18 +329,19 @@ company_guthrie = {
 				any_scope_building = {
 					OR = {
 						is_building_type = building_coffee_plantation
-						is_building_type = building_tea_plantation
+						is_building_type = building_rubber_plantation
 					}
 					level >= 5
 				}
 			}
 		}
+		has_technology_researched = rubber_mastication
 	}
 
 	prosperity_modifier = {
-		building_port_throughput_add = 0.05
-		state_trade_advantage_mult = 0.05
-		state_colony_growth_speed_mult = 0.05
+		building_port_throughput_add = 0.1
+		state_trade_advantage_mult = 0.15
+		building_trade_center_throughput_add = 0.1
 	}
 
 	ai_will_do = {
@@ -383,7 +358,7 @@ company_guthrie = {
 				state_region = s:STATE_MALAYA
 			}
 		}
-		building_tea_plantation = {
+		building_rubber_plantation = {
 			level = 5
 			state_trigger = {
 				state_region = s:STATE_MALAYA
@@ -1127,13 +1102,13 @@ company_nhm = {
 	preferred_headquarters = { STATE_WEST_JAVA }
 
 	building_types = {
-		building_tobacco_plantation
+		building_coffee_plantation
 		building_sugar_plantation
 		building_dye_plantation
 	}
 
 	extension_building_types = {
-		building_coffee_plantation
+		building_tobacco_plantation
 		building_opium_plantation
 		building_tea_plantation
 	}
