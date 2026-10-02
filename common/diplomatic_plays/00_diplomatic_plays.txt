@@ -243,7 +243,9 @@ dp_increase_autonomy = {
 			}
 		}			
 	}
-	
+
+	ai_acceptance_max = 90
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
@@ -279,6 +281,8 @@ dp_reduce_autonomy = {
 			}
 		}
 	}
+
+	ai_acceptance_max = 90
 
 	on_weekly_pulse = {}
 
@@ -386,7 +390,7 @@ dp_transfer_subject = {
 			is_subject = yes
 			NOT = { is_subject_of = root }
 		}
-		diplomatic_play_has_no_relations_blocker_with_overlord = yes			
+		diplomatic_play_has_no_relations_blocker_with_overlord = yes
 	}
 	
 	ai_acceptance_max = 90
@@ -549,7 +553,9 @@ dp_revolution = {
 			has_interest_marker_in_region = scope:initiator_capital_region
 		}
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -593,7 +599,9 @@ dp_secession = {
 			is_home_country_for = scope:initiator
 		}
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -678,7 +686,9 @@ dp_taiping_rebellion = {
 			is_home_country_for = scope:target_country
 		}
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
@@ -778,8 +788,8 @@ dp_demand_strait_access = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-			has_any_strait_province = scope:target_country
-			has_any_strait_control = scope:target_country
+			has_any_strait_province = yes
+			has_any_strait_control = yes
 		}
 		custom_tooltip = {
 			text = dp_demand_strait_access_already_has_access_tt
@@ -875,8 +885,8 @@ dp_demand_no_strait_closure = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-			has_any_strait_province = scope:target_country
-			has_any_strait_control = scope:target_country
+			has_any_strait_province = yes
+			has_any_strait_control = yes
 			custom_tooltip = {
 				text = dp_demand_no_strait_closure_already_bound_tt
 				can_close_straits = yes
@@ -909,7 +919,9 @@ dp_native_uprising = {
 	possible = {
 		is_country_type = decentralized
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
@@ -997,7 +1009,9 @@ dp_unify_italy = {
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = nationalism
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
@@ -1023,7 +1037,9 @@ dp_unify_scandinavia = {
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = nationalism
 	}
-	
+
+	ai_acceptance_max = 75
+
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}

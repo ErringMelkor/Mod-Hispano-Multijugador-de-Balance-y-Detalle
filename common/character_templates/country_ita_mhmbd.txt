@@ -9,7 +9,6 @@ SAR_camillo_benso_di_cavour_character_template = {
     interest_group = ig_landowners
 	home_region = STATE_PIEDMONT
     birth_date = 1810.8.10
-	role = character_role_politician
     traits = {
 		expert_political_operator
 		experienced_diplomat
