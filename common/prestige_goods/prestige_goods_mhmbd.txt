@@ -99,3 +99,105 @@ prestige_good_philipine_timber = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/wood.dds"
 }
+
+prestige_good_donald_mckey_clipper = {
+	base_good = clippers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/paddle_steamer.dds"
+}
+
+prestige_good_musical_instruments = {
+	base_good = fine_art
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/modern_financial_instruments.dds"
+}
+
+prestige_good_burberry_clothes = {
+	base_good = luxury_clothes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
+}
+
+prestige_good_mediterranean_tuna = {
+	base_good = fish
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_fish_prestige.dds"
+}
+
+prestige_good_cassina_furniture = {
+	base_good = luxury_furniture
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/psychoanalysis.dds"
+}
+
+prestige_good_holand_class_ships = {
+	base_good = steamers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/ironclad_tech.dds"
+}
+
+prestige_good_bt_tanks = {
+	base_good = tanks
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+}
+
+prestige_good_bituminuos_coal = {
+	base_good = coal
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/coal.dds"
+}
+
+prestige_good_hirtemberg_ammunition = {
+	base_good = ammunition
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+}
+
+prestige_good_jeans = {
+	base_good = clothes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/military_drill.dds"
+}
+
+prestige_good_mauser_ammunition = {
+	base_good = ammunition
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+}
+
+prestige_good_nordic_pine = {
+	base_good = wood
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/wood.dds"
+}
+
+prestige_good_nobel_explosives = {
+	base_good = explosives
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+}
+
+prestige_good_renault_tanks = {
+	base_good = tanks
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+}
+
+prestige_good_stahlwille_tools = {
+	base_good = tools
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/pneumatic_tools.dds"
+}
+
+prestige_good_vickers_tanks = {
+	base_good = tanks
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+}
+
+prestige_good_turkish_opium = {
+	base_good = opium
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/cigars_prestige.dds"
+}
