@@ -471,6 +471,7 @@ NEconomy = {
 	TRADE_CENTER_PREFERENCE_TOLL_DIVISOR = 0.05								# Weight is divided by 1 + ( toll rate in whole percent * this ) for strait tolls along the route between two Trade Centers' hubs
 	SEA_DISTANCE_EXPECTED_TRAVEL_DISTANCE = 1000							# Expected sea travel distance - distances below this do not apply any scaling, distances above scale linearly
 	MAX_TRADE_ROUTE_ALTERNATIVES = 3										# Maximum number of alternate sea paths calculated between world market hubs
+	TRADE_ROUTE_PREFERENCE_VARIANCE = 0.1									# Each pair of world market hubs scales the cost of each alternate sea path by a fixed random factor within +/- this, so trade spreads over routes of similar cost
 
 	MARKET_SHARE_FROM_GDP = 1.0					# Get this many points of market share per pound of GDP in states
 	MARKET_SHARE_MARKET_CONTROLLER_FACTOR = 1.33	# Market controller's market points count for this much more
@@ -715,7 +716,6 @@ NEconomy = {
 	TOLL_RATE_MEDIUM_TOLLS = 0.10						# Toll rate on Medium Tolls setting. Value is multiplied with goods value crossing a strait
 	TOLL_RATE_HIGH_TOLLS = 0.20							# Toll rate on High Tolls setting. Value is multiplied with goods value crossing a strait
 	TOLL_RATE_MULTIPLIER_FULL_CONTROL = 2.0				# Multiplie on the above value if a country controls both sides of a strait
-	STRAIT_FULL_CONTROL_TRADE_IMPORTANCE_MULT = 1.5	# Multiplier on strait trade importance when the controller controls both sides of the strait
 	STRAIT_TOLL_RATE_COOLDOWN_MONTHS = 6				# After changing a toll rate on a strait, you must wait this long to change it again
 	STRAIT_ACCESS_SETTING_COOLDOWN_MONTHS = 6			# After changing an access setting on a strait, you must wait this long to change it again
 	STRAIT_SETTING_COOLDOWN_GRACE_PERIOD_DAYS = 7		# After changing a strait setting, it takes this many days before the cooldown activates (to give you a chance to change your mind)
@@ -835,7 +835,7 @@ NMilitary = {
 	FLEET_PRESENCE_DECAY_PER_DAY = 0.02						# The amount of Presence a Fleet decays per day while not in Mission Area
 	FLEET_PRESENCE_TRANSPORTING_OR_INVADING = 1.0			# Sea Presence forced on fleets transporting armies or supporting a naval invasion
 	FLEET_GUARANTEED_BATTLE_SIZE = 0.5 						# It's guaranteed that half of the ships arrive regardless of sea presence
-	FLEET_SPOT_BASE_CHANCE = 0.0001							# Base chance to spot an enemy fleet, multiplied by the spotter's average Detection and the target's average Visibility
+	FLEET_SPOT_BASE_CHANCE = 0.00015							# Base chance to spot an enemy fleet, multiplied by the spotter's average Detection and the target's average Visibility
 	FLEET_SPOT_SCALING_MULTIPLIER = 0.01					# Scaling factor multiplier per total ship count when spotting a fleet
 
 	MILITARY_FORMATION_WEEKLY_MAX_UNIT_UPGRADES_ARMY = 0.1		# Each week a mobilized army can upgrade this (0.0-1.0) fraction of its total number of units.
@@ -901,10 +901,6 @@ NMilitary = {
 	FLEET_RESUPPLY_SURPLUS = 0.25								# How much above the maintenance rate (where delivered supply equals consumed supply) will a fleet get supplied when attempting to increase it's supply level
 	ARMY_RESUPPLY_SURPLUS = 0.25								# How much above the maintenance rate (where delivered supply equals consumed supply) will an army get supplied when attempting to increase it's supply level
 	FLEET_SUPPLY_REPLENISH_SHIP_MULT = 1.1						# How much more supply ships requested by fleets when under max supply stockpile
-	SHIP_POWER_PROJECTION_HULL_DAMAGE_MULTIPLIER = 0.33			# The multiplier applied to a ship's hull damage in calculating its power projection
-	SHIP_POWER_PROJECTION_CREW_DAMAGE_MULTIPLIER = 0.33			# The multiplier applied to a ship's crew damage in calculating its power projection
-	SHIP_POWER_PROJECTION_ARMOR_MULTIPLIER = 0.33				# The multiplier applied to a ship's armor in calculating its power projection
-	SHIP_POWER_PROJECTION_HIT_POINTS_MULTIPLIER = 0.1			# The multiplier applied to a ship's max hit points in calculating its power projection
 
 	SHIP_CREW_STARTING_VETERANCY_EXPERIENCE = 0						# The amount of experience crew for a ship starts with when recruited
 	SHIP_MAX_VETERANCY_EXPERIENCE = 1000 							# Experience cap for a ship. Should be higher than the highest veterancy level experience threshold.
@@ -917,6 +913,9 @@ NMilitary = {
 	SHIP_COMBAT_POWER_HULL_DAMAGE_MULTIPLIER = 0.75				# The multiplier applied to a ship's hull damage in calculating its combat power
 	SHIP_COMBAT_POWER_CREW_DAMAGE_MULTIPLIER = 0.25				# The multiplier applied to a ship's crew damage in calculating its combat power
 	SHIP_COMBAT_POWER_SPEED_MULTIPLIER = 3.0					# The multiplier applied to a ship's speed in calculating its combat power
+	SHIP_COMBAT_POWER_CREW_TO_HIT_POINTS_RATIO = 4				# How many hit points one point of crew is worth when deciding which of the two limits a ship's staying power
+	SHIP_COMBAT_POWER_ARMOR_EXPONENT = 0.15					# Armor is raised to this power in calculating combat power, so heavier armor helps but does not dominate
+	SHIP_COMBAT_POWER_READINESS_BASE = 10				# A ship's readiness gain is divided by this when scoring its combat power, so a ship at this much gain scores exactly its offensive capacity
 
 	COMBAT_UNIT_GROUP_MARINES_GROUP = "combat_unit_group_marines" # Marines type
 
@@ -929,6 +928,7 @@ NMilitary = {
 
 	NAVAL_MISSION_TYPE_INTERCEPT = "naval_mission_type_intercept"
 	NAVAL_MISSION_TYPE_PROJECT_POWER = "naval_mission_type_project_power"
+	NAVAL_MISSION_TYPE_PROTECT_SUPPLY = "naval_mission_type_protect_supply"
 
 	FRIENDLY_PORT_MAX_SUPPLY_DISTANCE_DISCOUNT = 0.5			# Maximum supply distance discount (0-1) when a formation is near a friendly port
 	FRIENDLY_PORT_MAX_DISTANCE = 2500							# Travel network distance at which the friendly port discount reaches zero
@@ -1108,29 +1108,66 @@ NDiplomacy = {
 	WAR_GOAL_REGIME_CHANGE_MIN_LAW_PROGRESSIVENESS_DIFFERENCE = 50 # If the difference between the target wargoal holder's laws in a law group are not at least this, don't change it as part of regime change
 	WAR_GOAL_INCREASE_AUTONOMY_MIN_LIBERTY_DESIRE = 75 # A subject must have at least this much LD to use the increase autonomy wargoal
 	WAR_GOAL_INDEPENDENCE_MIN_LIBERTY_DESIRE = 90 # A subject must have at least this much LD to use the independence wargoal
+	WAR_GOAL_LIBERATE_COUNTRY_MIN_POPULAR_SUPPORT = 0.1 # A movement wanting to secede as the liberated country must have at least this much popular support before liberate country can be used
 
+	WAR_GOAL_INFAMY_WORLD_SHARE_SCALE = 10000 # Infamy generated by taking a share of the world equal to 1, i.e. everything. Population and GDP shares are scaled by this
+	WAR_GOAL_INFAMY_POPULATION_WEIGHT = 0.375 # Weight of a state's share of world population in its base infamy value
+	WAR_GOAL_INFAMY_GDP_WEIGHT = 0.375 # Weight of a state's share of world GDP in its base infamy value
+	WAR_GOAL_INFAMY_FORCE_NATIONALIZATION_GDP_WEIGHT = 0.25 # Weight of the share of world GDP a country owns inside another when forcing its nationalization
+	WAR_GOAL_INFAMY_POPULATION_SHARE_MAX = 15 # A single state's population share can't contribute more base infamy than this
+	WAR_GOAL_INFAMY_GDP_SHARE_MAX = 15 # A single state's GDP share can't contribute more base infamy than this
+	WAR_GOAL_INFAMY_SHARE_SOFT_CAP = 10 # Above this, each of a state's population and GDP share contributions grows more slowly, until it reaches its max
+	WAR_GOAL_INFAMY_SHARE_SOFT_CAP_SLOPE = 0.5 # Fraction of a share contribution above WAR_GOAL_INFAMY_SHARE_SOFT_CAP that counts towards base infamy
+	WAR_GOAL_INFAMY_STATE_BASELINE = 5 # Flat base infamy of every state, added to its population and GDP share contributions
+	INFAMY_GAME_RULE_VERY_LOW_MULT = 0.5 # Calculated infamy is multiplied by this under the Very Low infamy game rule
+	INFAMY_GAME_RULE_LOW_MULT = 0.75 # Calculated infamy is multiplied by this under the Low infamy game rule
+	INFAMY_GAME_RULE_HIGH_MULT = 1.25 # Calculated infamy is multiplied by this under the High infamy game rule
+	INFAMY_GAME_RULE_VERY_HIGH_MULT = 1.5 # Calculated infamy is multiplied by this under the Very High infamy game rule
+	WAR_GOAL_INFAMY_MAJOR_DEMAND_MIN = 3 # Floor for a major non-territorial demand, e.g. a law commitment
+	WAR_GOAL_INFAMY_MAJOR_DEMAND_MAX = 10 # Ceiling for a major non-territorial demand
+	WAR_GOAL_INFAMY_MODERATE_DEMAND_MIN = 2 # Floor for a moderate non-territorial demand, e.g. military access
+	WAR_GOAL_INFAMY_MODERATE_DEMAND_MAX = 5 # Ceiling for a moderate non-territorial demand
+	WAR_GOAL_INFAMY_MINOR_DEMAND_MIN = 1 # Floor for a minor non-territorial demand, e.g. transit rights
+	WAR_GOAL_INFAMY_MINOR_DEMAND_MAX = 3 # Ceiling for a minor non-territorial demand
+	WAR_GOAL_INFAMY_MONEY_TRANSFER_TARGET_SHARE_MULT = 80 # Infamy from the share of the target's income being demanded, multiplied by this
+	WAR_GOAL_INFAMY_MONEY_TRANSFER_SELF_SHARE_MULT = 40 # Infamy from the demanded money as a share of the demander's own tax income, multiplied by this
+	WAR_GOAL_INFAMY_MONEY_TRANSFER_SHARE_MIN = 2 # Floor for each of the two money transfer infamy factors
+	WAR_GOAL_INFAMY_MONEY_TRANSFER_SHARE_MAX = 20 # Ceiling for each of the two money transfer infamy factors
+	WAR_GOAL_INFAMY_MONEY_TRANSFER_DEFENDER_MULT = 0.5 # Infamy is multiplied by this when enforcing money transfer against a country that started the diplomatic play
+	WAR_GOAL_INFAMY_GOODS_TRANSFER_SHARE_MULT = 10 # Infamy from each goods transfer share factor, multiplied by this. A share of 1 is the entire market supply on either side
+	WAR_GOAL_INFAMY_GOODS_TRANSFER_SHARE_MIN = 2 # Floor for each of the two goods transfer infamy factors
+	WAR_GOAL_INFAMY_GOODS_TRANSFER_SHARE_MAX = 10 # Ceiling for each of the two goods transfer infamy factors
+	WAR_GOAL_INFAMY_GOODS_TRANSFER_GRAIN_MULT = 2.0 # Infamy is multiplied by this when the goods demanded are grain
+	WAR_GOAL_INFAMY_GOODS_TRANSFER_STAPLE_FOOD_MULT = 1.5 # Infamy is multiplied by this when the goods demanded are another staple food
+	WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MULT = 5 # Infamy from each ship transfer share factor, multiplied by this. A share of 1 is the entire navy on either side
+	WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MIN = 0.5 # Floor for each of the two ship transfer infamy factors
+	WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MAX = 5 # Ceiling for each of the two ship transfer infamy factors
+	WAR_GOAL_INFAMY_SHIP_TRANSFER_FLAGSHIP_MULT = 2.0 # Infamy is multiplied by this when the ship demanded is the target's flagship
+	WAR_GOAL_INFAMY_NON_COLONIZATION_FRACTION = 0.25 # Fraction of the total infamy value of the decentralized states in a region that a non colonization agreement costs
+	WAR_GOAL_INFAMY_NON_COLONIZATION_CLAIM_MULT = 1.5 # Infamy is multiplied by this if the target has a claim on a state in the region
+	WAR_GOAL_INFAMY_MINIMUM = 1 # Floor for a single state's infamy value, and for a war goal's total infamy after all multipliers
+	WAR_GOAL_INFAMY_STANDING_INCORPORATED_CAPITAL = 2.0 # Base infamy is multiplied by this if the state is its owner's incorporated capital
+	WAR_GOAL_INFAMY_STANDING_INCORPORATED_HOMELAND = 1.5 # Base infamy is multiplied by this if the state is an incorporated Homeland of its owner's primary cultures
+	WAR_GOAL_INFAMY_STANDING_INCORPORATED = 1.0 # Base infamy is multiplied by this if the state is incorporated but neither capital nor Homeland
+	WAR_GOAL_INFAMY_STANDING_UNINCORPORATED = 0.5 # Base infamy is multiplied by this if the state is unincorporated
+	WAR_GOAL_INFAMY_SHARED_LANGUAGE_FACTOR = -0.15 # Infamy is adjusted by this if the state is a Homeland of a culture present in it that shares a language with the aggressor's primary cultures
+	WAR_GOAL_INFAMY_SHARED_LANGUAGE_BONUS_FACTOR = -0.1 # Infamy is further adjusted by this on top of WAR_GOAL_INFAMY_SHARED_LANGUAGE_FACTOR if the aggressor has country_shared_language_infamy_reduction_bool
+	WAR_GOAL_INFAMY_CLAIM_FACTOR = -0.75 # Infamy is adjusted by this if the aggressor has a claim on the state
+	WAR_GOAL_INFAMY_ADJACENCY_FACTOR = -0.1 # Infamy is adjusted by this if the aggressor is adjacent to the state
+	WAR_GOAL_INFAMY_SCRIPTED_UNIFICATION_FACTOR = -0.7 # Infamy is adjusted by this if the aggressor and the state's owner qualify for one of the scripted unification plays against each other
 	WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR = 10000 # The amount of population by which the factor below is multiplied
 	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER = 0.0225 # For each WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR population in a country/state, multiply infamy by this
 	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 5 # Infamy population multiplier can't be higher than this for each state affected
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 50 # Infamy population multiplier can't be higher than this, regardless of number of states affected
 	WAR_GOAL_INFAMY_HOMELAND_FACTOR = -0.25 # Infamy is adjusted by this if the states taken/puppeted etc are Homelands of the aggressor
-	WAR_GOAL_INFAMY_UNINCORPORATED_FACTOR = -0.65 # Infamy is adjusted by this if the states taken/puppeted etc are unincorporated
+	WAR_GOAL_INFAMY_HOMELAND_BONUS_FACTOR = -0.1 # Infamy is further adjusted by this on top of WAR_GOAL_INFAMY_HOMELAND_FACTOR if the aggressor has country_homeland_infamy_reduction_bool
+	WAR_GOAL_INFAMY_UNINCORPORATED_FACTOR = -0.5 # Infamy is adjusted by this if the states taken/puppeted etc are unincorporated
 	WAR_GOAL_INFAMY_REBELLING_SUBJECT_MULT = 0.25 # Infamy is multiplied by this for wargoals targeting a rebellious subject
 	WAR_GOAL_INFAMY_LOW_LIBERTY_DESIRE_SUBJECT_MULT = 0.25 # Infamy is multiplied by this for wargoals targeting a subject whose LD is below WAR_GOAL_INFAMY_LOW_LIBERTY_DESIRE_THRESHOLD
+	WAR_GOAL_INFAMY_REDUCE_AUTONOMY_LOW_LIBERTY_DESIRE_MULT = 0.5 # Reduce autonomy infamy is multiplied by this instead, so it costs a fifth of subjugation against a subject whose LD is below the threshold rather than two fifths
 	WAR_GOAL_INFAMY_LOW_LIBERTY_DESIRE_THRESHOLD = 25 # Threshold for WAR_GOAL_INFAMY_LOW_LIBERTY_DESIRE_SUBJECT_MULT
 	WAR_GOAL_INFAMY_RELATIONS_TARGET_IMPACT = -1 # Each point of infamy generated by an incident also has this impact on relations with the target
 	WAR_GOAL_INFAMY_RELATIONS_INTEREST_IMPACT = -0.5 # Each point of infamy generated by an incident also has this impact on relations with countries that have an interest in the target
 
-	WAR_GOAL_INFAMY_CONQUER_STATE = 4.65
-	WAR_GOAL_INFAMY_RETURN_STATE = 1
-	WAR_GOAL_INFAMY_MAKE_PROTECTORATE = 2.0
-	WAR_GOAL_INFAMY_MAKE_TRIBUTARY = 2.0
-	WAR_GOAL_INFAMY_MAKE_DOMINION = 2.0
-	WAR_GOAL_INFAMY_REDUCE_AUTONOMY = 2.0
-	WAR_GOAL_INFAMY_TRANSFER_SUBJECT = 2.0
-	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 4.75
-	WAR_GOAL_INFAMY_REGIME_CHANGE = 0.5
-	WAR_GOAL_INFAMY_FORCE_NATIONALIZATION = 2.5
 
 	WAR_GOAL_INFAMY_DIPLO_PLAY_BACK_DOWN_REFUND = -0.75 # Refund of infamy for war goals that are dropped due to one side backing down in a diplo play (applied to initiator/target)
 	WAR_GOAL_INFAMY_DIPLO_PLAY_BACKER_REFUND = -1.00 	# Refund of infamy for war goals that are dropped for backers in a diplo play (due to play not escalating to war or backer switching sides)
@@ -1168,6 +1205,7 @@ NDiplomacy = {
 	WAR_SUPPORT_MILITARY_MALUS_CURVE_LINEARITY = 0.58		# Shape of the low-war-support severity curve for the combat malus (same meaning as WAR_SUPPORT_RADICALIZATION_CURVE_LINEARITY)
 	WAR_SUPPORT_LIBERTY_DESIRE_CURVE_LINEARITY = 0.58		# Shape of the low-war-support severity curve for a subject's Liberty Desire, applied in liberty_desire_weekly_change (same meaning as WAR_SUPPORT_RADICALIZATION_CURVE_LINEARITY)
 	WAR_SUPPORT_LIBERTY_DESIRE_WEEKLY_MAX = 1				# Weekly Liberty Desire a subject fighting alongside its overlord gains at war support 0, scaled down by the curve above towards the threshold
+	WAR_SUPPORT_FROM_LIBERATION = 50						# Instant war support a subject gets when it is liberated or wins its independence in a war, so it does not immediately capitulate on its own
 
 	# Definitions for all the diplomatic catalysts that are called from code instead of script
 	# If these are changed, they also need to be changed in the database and vice versa
@@ -1245,12 +1283,9 @@ NDiplomacy = {
 	COUNTRY_TIER_HEGEMONY_PRESTIGE = 50
 
 	PRESTIGE_FROM_COUNTRY_GDP_DIVISOR = 1000000
-	PRESTIGE_FROM_COUNTRY_GDP = 4 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP
-	PRESTIGE_FROM_SUBJECT_GDP = 1.5 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP in subjects
-	PRESTIGE_FROM_ARMY_POWER_PROJECTION = 0.045 # Per point of power projection from army combat power
-	PRESTIGE_FROM_NAVY_POWER_PROJECTION = 0.025 # Per point of power projection from navy combat power
-	PRESTIGE_FROM_SUBJECT_ARMY_POWER_PROJECTION = 0.0005 # Per point of power projection from army combat power in subjects
-	PRESTIGE_FROM_SUBJECT_NAVY_POWER_PROJECTION = 0.01 # Per point of power projection from navy combat power in subjects
+	PRESTIGE_FROM_COUNTRY_GDP = 4 							# Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP
+	PRESTIGE_FROM_SUBJECT_GDP = 1.5 						# Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP in subjects
+	PRESTIGE_FROM_NAVY_POWER_PROJECTION_HIT_POINTS_REFERENCE = 1150	# Each ship's power projection is multiplied by its max hit points divided by this, so larger hulls give more prestige
 
 	PRESTIGE_FROM_PRESTIGE_GOODS_PRODUCTION = 3 # Multiplier on usual prestige from goods leaderboards
 
@@ -1261,7 +1296,7 @@ NDiplomacy = {
 	POWER_RANK_LOSS_THRESHOLD = 0.9
 
 	ARMY_POWER_PROJECTION_MODIFIER_MAX_SCALING = 1000 			# Above this amount of army power projection, the country_army_power_projection static modifier provides no further benefit
-	NAVY_POWER_PROJECTION_MODIFIER_MAX_SCALING = 1000 			# Above this amount of army power projection, the country_navy_power_projection static modifier provides no further benefit
+	NAVY_POWER_PROJECTION_MODIFIER_MAX_SCALING = 400 			# Above this amount of navy power projection, the country_navy_power_projection static modifier provides no further benefit
 
 	DEFAULT_STATES_REQUIRED_TO_RELEASE_COUNTRY = 0 				# Applied if nothing is specified in country_creation
 	DEFAULT_STATES_REQUIRED_TO_FORM_COUNTRY = 0.75 				# Applied if nothing is specified in country_formation
@@ -1280,15 +1315,14 @@ NDiplomacy = {
 	INTEREST_CLAIM_LOCALITY_WEIGHT = 0.20						# Each claim contributes this much locality weight (equivalent to owning this fraction of the whole state region)
 	INTEREST_GDP_TARGET_INVOLVEMENT = 2500						# Target involvement score multiplier for GDP share in a region
 	INTEREST_ARMY_TARGET_INVOLVEMENT = 0.33						# How much of army offense and defense is converted into target involvement for a present country
-	INTEREST_NAVY_TARGET_INVOLVEMENT = 0.33						# How much of navy power projection is converted into target involvement for a present country
-	INTEREST_NAVY_MISSION_MULTI_REGION_BONUS = 0.75				# Bonus to fleet involvement generation for each strategic region covered by a naval mission
+	INTEREST_NAVY_TARGET_INVOLVEMENT = 1						# How much of navy power projection is converted into target involvement for a present country
 	INTEREST_MIN_INVOLVEMENT_RATIO = 0.1						# Minimum ratio of the article and pacts max involvement per article type or diplomatic pact
 	REGION_LOCALITY_SHARE_THRESHOLD = 0.25     					# If you have at least this share of a region's locality, you get the local interest in the region
 	REGION_LOCALITY_COUNTRY_INCORPORATED_SHARE_THRESHOLD = 0.25 # If at least this share of your total incorporated states are in a region, you get the local interest in the region
 	INTEREST_TIER_MIN_RELEVANT_RANK = 2							# Min rank of an interest tier to be considered relevant
 	INTEREST_TIER_MIN_VIOLATE_SOVEREIGNTY_RANK = 2				# Min interest tier rank for a country to be an "interested party" for Violate Sovereignty (receive event to join defender). Use 2 for engaged or 3 for influential;
 	INTEREST_ARMY_INVOLVEMENT_CAP = 5000						# Max involvement from army strength
-	INTEREST_NAVY_INVOLVEMENT_CAP = 5000						# Max involvement from navy strength
+	INTEREST_NAVY_INVOLVEMENT_CAP = 3500						# Max involvement from navy strength
 	INTEREST_TREATY_PACT_INVOLVEMENT_CAP = 5000					# Max involvement from treaties and pacts
 	INTEREST_POWER_BLOC_MEMBER_TARGET_INVOLVEMENT = 2500		# Involvement generated by each non-subject power bloc member for the leader
 	INTEREST_TIER_REDUCTION_GRACE_PERIOD_DAYS = 30				# When a country increases its interest tier, this many days must pass before the tier can be reduced
@@ -1372,6 +1406,26 @@ NDiplomacy = {
 	NAVAL_HOSTILITIES_POINTS_BOMBARDMENT_BUILDING_DESTROYED = 10	# Fixed damage points per building level destroyed by bombardment
 	PAST_TEMPORARY_HOSTILITIES_KEEP_YEARS = 20						# Number of years to keep temporary hostilities data after expiry
 	PIRACY_DAMAGE_TRACKING_WEEKS = 26								# Number of weeks of piracy damage history to keep for averaging
+	LIBERTY_DESIRE_FROM_OVERLORD_DIPLOMATIC_PLAY = 25				# Liberty Desire a direct subject gains when its overlord starts a diplomatic play against it
+	LIBERTY_DESIRE_FROM_OVERLORD_WAR_GOAL_MAX = 25					# Most Liberty Desire a direct subject can gain from one war goal its overlord enforces against it
+	STRAIT_MILITARY_LOSS_MAX_SHARE = 0.5							# Share of the sea reachable from its world market hub that a country must lose to a strait closure to count as fully cut off
+	STRAIT_MILITARY_SEVERANCE_TOTAL_SHARE = 0.25					# Share of its port GDP that a country must have cut off from its world market hub by a strait closure to count as fully cut off. A split coastline divides the navy, so this counts for far more than the ports' share of the economy
+	STRAIT_MILITARY_DETOUR_NO_LOSS_RATIO = 1.5					# A port or fleet region a closure leaves reachable only by a route this many times longer, or less, counts as not cut off at all
+	STRAIT_MILITARY_DETOUR_FULL_LOSS_RATIO = 3					# A port or fleet region a closure leaves reachable only by a route this many times longer, or more, counts as fully cut off. In between it counts in proportion
+	STRAIT_TRADE_DEPENDENCE_TOTAL_GDP_SHARE = 0.25					# Trade volume crossing one strait, as a share of yearly GDP, that counts as depending on it completely. Even a country sending all its trade through a single strait only has a trade volume worth a fraction of its GDP, so this is what that fraction is measured against
+	STRAIT_GRIEVANCE_MIN_DEPENDENCE = 5							# Dependence on a strait (0-100) below which its settings neither damage relations nor matter to strait treaties
+	STRAIT_GRIEVANCE_DAILY_PROGRESS_BASE = -1.6					# Daily relations progress with a strait controller for any country above the dependence cutoff, scaled by the setting multipliers below
+	STRAIT_GRIEVANCE_DAILY_PROGRESS_PER_DEPENDENCE = -4			# Additional daily relations progress at complete dependence on the strait, scaled by the setting multipliers below
+	STRAIT_GRIEVANCE_LOW_TOLLS_MULT = 0.5							# Multiplier on the strait grievance for Low tolls
+	STRAIT_GRIEVANCE_MEDIUM_TOLLS_MULT = 0.65						# Multiplier on the strait grievance for Medium tolls
+	STRAIT_GRIEVANCE_HIGH_TOLLS_MULT = 0.8							# Multiplier on the strait grievance for High tolls
+	STRAIT_GRIEVANCE_NO_MILITARY_MULT = 0.65						# Multiplier on the strait grievance for blocked military passage
+	STRAIT_GRIEVANCE_CLOSED_MULT = 1								# Multiplier on the strait grievance for a closed strait
+	STRAIT_GRIEVANCE_LOW_TOLLS_MIN_RELATIONS = 20					# Relations a strait grievance for Low tolls cannot push below
+	STRAIT_GRIEVANCE_MEDIUM_TOLLS_MIN_RELATIONS = 0					# Relations a strait grievance for Medium tolls cannot push below
+	STRAIT_GRIEVANCE_HIGH_TOLLS_MIN_RELATIONS = -20					# Relations a strait grievance for High tolls cannot push below
+	STRAIT_GRIEVANCE_NO_MILITARY_MIN_RELATIONS = 0				# Relations a strait grievance for blocked military passage cannot push below
+	STRAIT_GRIEVANCE_CLOSED_MIN_RELATIONS = -50						# Relations a strait grievance for a closed strait cannot push below
 }
 
 NPowerBlocs = {
@@ -1426,7 +1480,7 @@ NPops = {
 	RADICALS_MAX_FROM_LOW_SOL = 0.075					# If pop is already this % radical, don't add more radicals from low SOL (Scales by delta between SoL and expected min SoL, so the whole pop is reached at a delta of 13.3)
 	RADICALS_MAX_FROM_DISCRIMINATION = 0.5				# If pop is already this % radical, don't add more radicals from discrimination (Scales by literacy)
 	RADICALS_MONTHLY_FROM_LOW_SOL = 0.003				# Scales by delta between SoL and expected min SoL
-	RADICALS_MONTHLY_FROM_LOW_WAR_SUPPORT = 0.02		# Fraction of the pop radicalized per month at full low-war-support severity (severity is 0 above the threshold, 1 at war support 0); the daily pop pass applies this divided by days per month
+	RADICALS_MONTHLY_FROM_LOW_WAR_SUPPORT = 0.03		# Fraction of the pop radicalized per month at full low-war-support severity (severity is 0 above the threshold, 1 at war support 0); each pop gets this on its monthly update
 	RADICALS_MAX_FROM_LOW_WAR_SUPPORT = 0.25			# If the pop is already this fraction radical, stop adding radicals from low war support (scaled by severity)
 	RADICALS_MONTHLY_FROM_DISCRIMINATION = 0.005 		# Scales by literacy
 
@@ -1995,8 +2049,6 @@ NBattle = {
 	POPULARITY_GAIN_NORMAL_LOSS	= -5				# Multiple of commander_battle_end_loss modifier the loser should get for a normal victory for the other side if the random chance roll is true
 	POPULARITY_GAIN_HEROIC_LOSS = -20				# Multiple of commander_battle_end_loss modifier the loser should get for a heroic victory for the other side if the random chance roll is true
 	POPULARITY_DECAY_MONTHS = 30					# The number of months battle popularity modifiers decay over
-	SHIP_BATTLE_DAYS_BETWEEN_UPDATES = 5						# The number of days between updates of a naval battle involving individual ships
-	SHIP_BATTLE_DESTROYED_SHIP_RATIO_RESIGN_THRESHOLD = 0.5		# The ratio of destroyed to originally active ships before a fleet resigns, when using individual ships
 
 	SHIP_REQUIRED_READINESS_TO_ACT = 100.0 			# How much readiness a ship needs to get up to before it can e.g. attack or withdraw
 	SHIP_DEFAULT_READINESS_GAIN = 10				# Default gain if not specified on template
@@ -2008,30 +2060,32 @@ NBattle = {
 	SHIP_ATTACK_ACCURACY_SPEED_RATIO = 5			# Each point of accuracy counters this many points of speed
 	SHIP_ATTACK_MISS_PER_SPEED = 0.03				# Miss chance change per point of (effective_speed - accuracy * ratio)
 	SHIP_ATTACK_VISIBILITY_DIVISOR = 15				# Target visibility is divided by this and subtracted from speed for hit calculation
+	UNSCREENED_DAMAGE_VULNERABILITY_DIVISOR = 100	# A target ship's vulnerability is divided by this to get the extra damage it takes when its side has no screening at all, scaled down by the screening its side does have
+	TARGETING_SCREENING_MAX_EFFECT = 0.9			# The share of attacks screening diverts away from a side's most vulnerable ships once it has enough screening to cover its full vulnerability, scaling up linearly from no screening at all
+	TARGETING_SHIP_WEIGHT_RANDOM_MIN = 0.01			# Each ship rolls a multiplier between this and the max below when it joins a battle, which scales how likely it is to be picked as a target for the rest of that battle
+	TARGETING_SHIP_WEIGHT_RANDOM_MAX = 1.0			# Set both of these to 1 to have every ship be targeted purely by its vulnerability, as before
 	SHIP_WITHDRAW_BASE_CHANCE = 0.5					# Base chance for a ship to successfully escape. The ship's speed is added to this.
 	SHIP_WITHDRAW_SPEED_FACTOR = 1.0				# Factor on speed when it's modifying withdraw chance.
 	SUPPLY_SHIP_WITHDRAW_CHANCE_MULT = 0.1			# Multiplier on supply ship withdraw success chance. Lower values make supply ships harder to escape with.
 
 	###### Withdraw Desire Calculation ######
-	## Withdraw desire = ( Damage Desire + Zero Damage Hit Ratio Desire ) * ( 1 + Overwhelming Odds Desire + Exposed Desire + Raiding Desire )
+	## Withdraw desire = ( Damage Desire + Zero Damage Hit Ratio Desire + Overwhelming Odds Desire ) * ( 1 + Raiding Desire )
 	# given that each term is applicable
 
 	SHIP_LIGHT_DAMAGE = 0.8							# Damage thresholds on ships for different behaviors
 	SHIP_MODERATE_DAMAGE = 0.5
 	SHIP_SEVERE_DAMAGE = 0.25
-	SHIP_WITHDRAW_DESIRE_LIGHT_DAMAGE = 0.05		# Chance for the ship to attempt withdrawing from a battle based on damage taken
-	SHIP_WITHDRAW_DESIRE_MODERATE_DAMAGE = 0.20
-	SHIP_WITHDRAW_DESIRE_SEVERE_DAMAGE = 0.80
+	SHIP_WITHDRAW_DESIRE_LIGHT_DAMAGE = 0.025		# Chance for the ship to attempt withdrawing from a battle based on damage taken
+	SHIP_WITHDRAW_DESIRE_MODERATE_DAMAGE = 0.10
+	SHIP_WITHDRAW_DESIRE_SEVERE_DAMAGE = 0.40
 
 	OVERWHELMING_ODDS_POWER_RATIO = 0.5 				# Power Ratio = Our Power / Enemy Power. If Power Ratio is below this threshold, the battle is considered to have overwhelming odds for the enemy and makes ships more likely to withdraw from battle
 	SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_BASE = 0.1 	# If our power ratio is lower than OVERWHELMING_ODDS_POWER_RATIO, we start adding this much to the ship's desire to withdraw. As the power ratio gets lower, we lerp the added withdraw desire up to SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_MAX
-	SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_MAX = 0.5	# The maximum added withdraw desire at a theoretical 0 power ratio
+	SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_MAX = 0.25	# The maximum added withdraw desire at a theoretical 0 power ratio
+	SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_MIN_DAYS = 5		# Facing overwhelming odds only starts making ships want to withdraw once the battle has lasted this many days
+	SHIP_WITHDRAW_DESIRE_OVERWHELMING_ODDS_MAX_DAYS = 15	# The added desire scales up from nothing at the day above to its full value once the battle has lasted this many days
 
-	PRIORITY_SHIPS_EXPOSED_THRESHOLD = 0.5								# If the battle side's ratio of total vulnerability / total screening is less than this, the side is considered to have it's priority ships exposed
-	PRIORITY_SHIP_WITHDRAW_DESIRE_MULT_PRIORITY_SHIPS_EXPOSED = 0.2		# If our priority ships are exposed, multiply the desire to withdraw by this for our priority ships
-	SCREENING_SHIP_WITHDRAW_DESIRE_MULT_PRIORITY_SHIPS_EXPOSED = -0.2   # If our priority ships are exposed, multiply the desire to withdraw by this for our screening ships
-
-	PRIORITY_SHIPS_EXPOSED_FOR_RAIDING_THRESHOLD = 0.25					# For raiding fleets, if the enemy's ratio of total vulnerability / total screening is less than this, the side is considered exposed.
+	PRIORITY_SHIPS_EXPOSED_FOR_RAIDING_THRESHOLD = 0.25					# For raiding fleets, if the enemy's ratio of total screening / total vulnerability is less than this, the side is considered exposed.
 	RAIDING_SHIP_WITHDRAW_DESIRE_MULT_PRIORITY_SHIPS_EXPOSED = 0.25		# For raiding fleets, if the enemy is not exposed, multiply the desire to withdraw by this
 
 	ZERO_DAMAGE_HIT_RATIO_THRESHOLD = 0.5								# For each side of the battle, if the number of hits that deal zero damage through the total number of hits ratio exceeds this threshold, we apply a bonus to the withdrawal chance
@@ -2046,9 +2100,9 @@ NBattle = {
 	FLEET_RAID_MAX_SUPPLY_LENGTH_DIVISOR = 5				# When deciding how many supply ships can be attacked at once, we cap the divisor for targeted num ships based on supply path length by this
 
 	NAVAL_BATTLE_LOG_INITIAL_SIZE_FACTOR = 8				# Initial reserved log size factor. This is multiplied by the number of ships in a battle to estimate number of entries needed. Too large a value and you allocate too much data, too little and you need to expand the array multiple times which is slow.
-	NAVAL_BATTLE_LOG_ENTRIES_PER_PAGE = 20				# Number of naval battle log entries shown per page in the battle log UI.
+	NAVAL_BATTLE_LOG_ENTRIES_PER_PAGE = 20					# Number of naval battle log entries shown per page in the battle log UI.
 	NAVAL_BATTLE_CONDITION_DAMAGE_RANGE = 0.25 				# When a naval battle condition applies damage to a ship, the actual damage will be in a range from (1 - this) * damage to (1 + this) * damage
-	NAVAL_BATTLE_CRIT_ARMOR_REDUCTION = 1.0					# How much armor is reduced percentually on a crit. 1 = ignores armor completely, 0 = armor is factored in as usual
+	NAVAL_BATTLE_CRIT_ARMOR_REDUCTION = 0.5					# How much armor is reduced percentually on a crit. 1 = ignores armor completely, 0 = armor is factored in as usual
 
 	DEFAULT_NAVAL_BATTLE_CONDITION_TYPE = "naval_condition_calm_waters"		# If a naval battle is not able to select a valid condition due to all weights being 0 or something, it will override the selection to use this battle condition. This is a backup though and ideally all battle conditions should have a non-zero weight and there should always be at least one possible condition
 
@@ -2083,7 +2137,8 @@ NWar = {
 	WAR_SUPPORT_CHANGE_DURATION_DRAIN_PER_MONTH = -0.05		# Per beat, per month the war has lasted beyond the grace period; a symmetric ever-growing drain that guarantees wars eventually end
 	WAR_SUPPORT_CHANGE_ENEMY_OCCUPATION_FACTOR = -5.0		# Per beat at 100% (weighted) enemy occupation; scales linearly with the occupied fraction
 	WAR_SUPPORT_CHANGE_GOLD_RESERVES_FACTOR = 0.25			# Per beat at full gold reserves; scales with the fraction of the reserve limit held
-	WAR_SUPPORT_CHANGE_TAKING_LOANS_EFFECT = -0.25			# Per beat while taking loans to fund the war
+	WAR_SUPPORT_CHANGE_TAKING_LOANS_EFFECT = -0.5			# Per beat while taking loans to fund the war at fully drawn credit; scales with the fraction of credit used
+	WAR_SUPPORT_CHANGE_SERVICING_DEBT_MULT = 0.5			# The effect above is multiplied by this while the country carries debt without taking further loans; the two never apply at once
 	WAR_SUPPORT_CHANGE_BANKRUPTCY_LOOMING_WEEKS = 20		# Insolvency this many weeks away at the current deficit is where the ramp below starts biting
 	WAR_SUPPORT_CHANGE_BANKRUPTCY_IMMINENT_EFFECT = -1.0	# Per beat while in default, and the full-strength end of the looming ramp above, which scales down to nothing at the week count above
 	WAR_SUPPORT_CHANGE_LOYAL_SUBJECT_EFFECT = 0.25			# Per beat for loyal subject in overlord's war
@@ -2119,7 +2174,7 @@ NWar = {
 	NAVAL_INVASION_PREPARATION_DURATION_DAYS = 14 						# How many days should pass since the first army arrived to the naval invasion front to start advancing it without the sea node being blocked by enemy fleet
 	LAND_INVASION_MAX_LAND_BATTLE_DEFEATS_AT_ZERO_OCCUPATION = 3 		# At this number of land defeats with zero occupation you fail the invasion
 	NAVAL_INVASION_MAX_LAND_BATTLE_DEFEATS_AT_ZERO_OCCUPATION = 3 		# At this number of land defeats with zero occupation you fail the naval invasion
-	NAVAL_INVASION_MIN_POWER_PROJECTION_RATIO_TO_BLOCK_LANDING = 0.25 	# How powerful a fleet must be to be considered as "blocking" a naval invading fleet
+	NAVAL_INVASION_MIN_COMBAT_POWER_RATIO_TO_BLOCK_LANDING = 0.25 	# How powerful a fleet must be to be considered as "blocking" a naval invading fleet
 
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.05
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_DEMILITARIZATION = 0.25
@@ -2138,6 +2193,9 @@ NWar = {
 	DEFAULT_WAR_GOAL_ENFORCEMENT_DEPLETE_PER_WEEK = 5	# The progress lost towards auto-enforcing non-occupied war goals each week, if nothing else is specified in the war goal type
 	WAR_GOAL_ENFORCEMENT_PROGRESS_MIN = 0
 	WAR_GOAL_ENFORCEMENT_PROGRESS_MAX = 100
+	WAR_GOAL_UNCONTESTED_DROP_WAR_MONTHS = 24	# An uncontested war goal is never dropped before the war has lasted this many months
+	WAR_GOAL_UNCONTESTED_DROP_GOAL_MONTHS = 12	# A war goal that has not been contested for this many months since it was created or last contested is dropped
+	WAR_GOAL_UNCONTESTED_WARNING_MONTHS = 3	# A war goal this many months away from being dropped for being uncontested is at risk of being dropped
 }
 
 NTravelNetwork = {
