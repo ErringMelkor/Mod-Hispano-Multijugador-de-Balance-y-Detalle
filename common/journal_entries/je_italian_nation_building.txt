@@ -1,1 +1,84 @@
 #Stub.
+
+je_questione_della_lingua = {
+	group = je_group_historical_content
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	# Italian Buttons
+
+
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = {
+				OR = {
+					is_homeland = cu:north_italian
+					is_homeland = cu:central_italian
+					is_homeland = cu:south_italian
+				}
+			}
+		}
+		c:ITA ?= this
+		NOT = {
+			has_variable = je_vernacular_policy_var
+		}
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+		
+	}
+
+	immediate = {
+		set_variable = je_vernacular_policy_var
+		if = {
+			limit = {
+				was_formed_from = SAR
+			}
+			cu:north_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+		else_if = {
+			limit = {
+				was_formed_from = SIC
+			}
+			cu:south_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					was_formed_from = TUS
+					was_formed_from = PAP
+				}
+			}
+			cu:central_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+		trigger_event = {
+			id = questione_della_lingua_events.1
+			popup = yes
+		}
+	}
+
+	on_weekly_pulse = {
+		effect = {
+		}
+	}
+
+	on_complete = {
+	}
+
+	invalid = {
+		has_variable = chose_to_not_care_var
+	}
+
+	weight = 10000
+
+		
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}
+

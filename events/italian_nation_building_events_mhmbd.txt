@@ -1,0 +1,369 @@
+﻿namespace = questione_della_lingua_events
+
+# Startup event
+questione_della_lingua_events.1 = {
+	type = country_event
+	placement = root
+
+	duration = 3
+
+	title = questione_della_lingua_events.1.t
+	desc = questione_della_lingua_events.1.d
+	flavor = questione_della_lingua_events.1.f
+
+    event_image = {
+		video = "votp_cops_march"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	trigger = {
+	}
+
+	cancellation_trigger = {
+
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				was_formed_from = SAR
+			}
+			cu:north_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+		else_if = {
+			limit = {
+				was_formed_from = SIC
+			}
+			cu:south_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					was_formed_from = TUS
+					was_formed_from = PAP
+				}
+			}
+			cu:central_italian ={
+				save_scope_as = official_culture_scope
+			}
+		}
+	}
+
+	option = {
+		name = questione_della_lingua_events.1.a
+		default_option = yes
+		custom_tooltip = {
+			text = questione_della_lingua_events.1.a_tt
+			set_variable = chose_assimilation_var
+		}
+		if = {
+			limit = {
+				was_formed_from = SAR
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:piedmontese
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:piedmontese
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:piedmontese
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:lombard
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:lombard
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:lombard
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:venetian
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:venetian
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:venetian
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:emilian
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:emilian
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:emilian
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:tuscan
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:tuscan
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:tuscan
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:umbro
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:umbro
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:umbro
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:romanesco
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:romanesco
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:romanesco
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:sardinian
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:sardinian
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:sardinian
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:istriota
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:istriota
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:istriota
+					value = small_radicals
+				}
+			}									
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:dalmata
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:dalmata
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:dalmata
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:neapolitano
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:neapolitano
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:neapolitano
+					value = small_radicals
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:siciliano
+						}
+					}
+				}
+				add_fervor_target_modifier = {
+					culture = cu:siciliano
+					days = normal_modifier_time
+					multiplier = -20
+				}
+				add_radicals = {
+					culture = cu:siciliano
+					value = small_radicals
+				}
+			}												
+		}
+		else_if = {
+			limit = {
+				OR = {
+					c:FRA ?= this
+					was_formed_from = FRA
+				}
+				NOT = {
+					any_scope_state = {
+						state_region = s:STATE_WALLONIA
+					}
+				}
+			}
+			custom_tooltip = conquest_of_wallonia_tt
+		}
+		hidden_effect = {
+			clear_variable_list = vernacular_policy_assimilation_states
+			every_scope_state = {
+				limit = {
+					state_region = {
+						is_homeland = scope:official_culture_scope
+					}
+					culture_percent_state = {
+						target = scope:official_culture_scope
+						value < 0.6
+					}
+				}
+				root = {
+					add_to_variable_list = {
+						name = vernacular_policy_assimilation_states
+						target = prev
+					}
+				}
+			}
+		}
+	}
+	
+
+	option = {
+		name = questione_della_lingua_events.1.b
+		custom_tooltip = {
+			text = questione_della_lingua_events.1.b_tt
+			set_variable = chose_integration_var
+		}
+		if = {
+			limit = {
+				OR = {
+					c:SPA ?= this
+					was_formed_from = SPA
+				}
+			}
+			add_radicals = {
+				culture = cu:spanish
+				value = medium_radicals
+			}
+			add_modifier = {
+				name = modifier_spain_basque_integration_aid
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					c:FRA ?= this
+					was_formed_from = FRA
+				}
+			}
+			add_radicals = {
+				culture = cu:french
+				value = medium_radicals
+			}
+			add_modifier = {
+				name = modifier_france_breton_integration_aid
+			}
+		}
+	}
+
+	option = {
+		name = questione_della_lingua_events.1.c
+		custom_tooltip = {
+			text = questione_della_lingua_events.1.c_tt
+			set_variable = chose_to_not_care_var
+		}
+	}
+}

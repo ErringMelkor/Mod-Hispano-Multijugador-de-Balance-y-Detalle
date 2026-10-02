@@ -1,11 +1,13 @@
-SAR_camillo_benso_di_cavour_character_template = {
+# Sardinia-Piedmont - SAR
+REPLACE_OR_CREATE:sar_benso_character_template = { # The Count of Cavour
     first_name = Camillo
     last_name = Benso
     historical = yes
+    dna = dna_count_of_cavour
     culture = cu:north_italian
     female = no
     religion = rel:catholic
-    ideology = ideology_market_liberal
+    ideology = ideology_reformer
     interest_group = ig_landowners
 	home_region = STATE_PIEDMONT
     birth_date = 1810.8.10
@@ -26,7 +28,48 @@ SAR_camillo_benso_di_cavour_character_template = {
         }
         earliest_usage_date = 1842.1.1
         latest_usage_date = 1865.1.1
-		chance = 100
         #guaranteed to spawn if possible
-    }	
+    }
 }
+REPLACE_OR_CREATE:sar_charles_albert_sardinia_template = {
+    # Charles Albert of Sardinia-Piedmont
+    is_general = yes
+    first_name = "Carlo_Alberto"
+    last_name = "di_Savoia"
+    historical = yes
+    culture = primary_culture
+    ruler = yes
+    dna = dna_charles_albert_of_savoy
+    birth_date = 1798.10.2
+    interest_group = ig_landowners
+    ideology = ideology_reformer
+    home_region = STATE_PIEDMONT
+    traits = {
+        reserved
+        romantic
+    }
+    on_created = {
+        set_variable = is_married
+        set_variable = house_savoy
+    }
+}
+REPLACE_OR_CREATE:sar_victor_emmanuel_template = {
+    # Victor Emmanuel II
+    first_name = "Vittorio_Emanuele"
+    last_name = "di_Savoia"
+    historical = yes
+    culture = primary_culture
+    heir = yes
+    birth_date = 1820.3.14 # pi day!
+    dna = dna_king_victor_emmanuel_02
+    interest_group = ig_intelligentsia
+    ideology = ideology_jingoist_leader
+    home_region = STATE_PIEDMONT
+    traits = {
+        ambitious
+    }
+    on_created = {
+        set_variable = house_savoy
+    }
+}
+
