@@ -119,6 +119,36 @@ je_questione_della_lingua = {
 						}
 						percent = 1
 					}
+					any_scope_state = {
+						filter = {
+							state_region = {
+								is_homeland = cu:central_italian
+							}
+						}
+						culture_percent_state = {
+							target = cu:central_italian
+							value >= 0.6
+						}
+						custom_tooltip = {
+							text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+						}
+						percent = 1
+					}
+					any_scope_state = {
+						filter = {
+							state_region = {
+								is_homeland = cu:south_italian
+							}
+						}
+						culture_percent_state = {
+							target = cu:south_italian
+							value >= 0.6
+						}
+						custom_tooltip = {
+							text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+						}
+						percent = 1
+					}
 				}
 			}
 		}
