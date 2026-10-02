@@ -194,3 +194,38 @@ exile_pool_culling_on_action = {
 		}
 	}
 }
+
+#Desaparicion de compañías
+
+on_monthly_pulse = {
+    effect = {
+        every_country = {
+            limit = {
+                has_company = company_type:company_lindt_sprungli
+                OR = {
+                    NOT = { has_state_in_state_region = s:STATE_EAST_SWITZERLAND }
+                    NOT = { has_state_in_state_region = s:STATE_WEST_SWITZERLAND }
+                }
+            }
+            find_company = company_type:company_lindt_sprungli = {
+                disband_company = yes
+            }
+        }
+    }
+}
+
+on_monthly_pulse = {
+    effect = {
+        every_country = {
+            limit = {
+				AND = {
+                	has_company = company_type:company_societe_renault_freres
+                	has_company = company_type:company_renault_departement_blindes
+				}
+			}
+            find_company = company_type:company_renault_departement_blindes = {
+                disband_company = yes
+            }
+        }
+    }
+}
