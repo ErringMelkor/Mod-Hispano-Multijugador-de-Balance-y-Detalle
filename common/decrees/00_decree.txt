@@ -310,7 +310,7 @@ decree_promote_national_values = {
 	}
 
 	modifier = {
-		state_assimilation_mult = 50
+		state_assimilation_mult = 0.5
 		state_conversion_mult = 0.5
 		state_allow_assimilation_in_homeland_bool = yes
 		state_allow_assimilation_without_presence_bool = yes

@@ -396,8 +396,16 @@ questione_della_lingua_events.2 = {
 		name = vernacular_events.2.a
 		default_option = yes
 		add_loyalists = {
-			culture = scope:official_culture_scope1
-			value = 0.1
+			culture = cu:north_italian
+			value = 0.15
+		}
+		add_loyalists = {
+			culture = cu:central_italian
+			value = 0.15
+		}
+		add_loyalists = {
+			culture = cu:south_italian
+			value = 0.15
 		}
 		add_modifier = {
 			name = modifier_increased_centralization
