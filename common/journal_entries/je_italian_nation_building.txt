@@ -64,6 +64,12 @@ je_questione_della_lingua = {
 			cu:north_italian ={
 				save_scope_as = official_culture_scope1
 			}
+			cu:central_italian ={
+				save_scope_as = official_culture_scope2
+			}
+			cu:south_italian ={
+				save_scope_as = official_culture_scope3
+			}
 		}
 		trigger_event = {
 			id = questione_della_lingua_events.1
@@ -77,9 +83,7 @@ je_questione_della_lingua = {
 				limit = {
 					has_variable = chose_assimilation_var
 				}
-				clear_variable_list = vernacular_policy_assimilation_states1
-				clear_variable_list = vernacular_policy_assimilation_states2
-				clear_variable_list = vernacular_policy_assimilation_states3
+				clear_variable_list = vernacular_policy_assimilation_states
 				every_scope_state = {
 					limit = {
 						state_region = {
@@ -92,7 +96,7 @@ je_questione_della_lingua = {
 					}
 					root = {
 						add_to_variable_list = {
-							name = vernacular_policy_assimilation_states1
+							name = vernacular_policy_assimilation_states
 							target = prev
 						}
 					}
@@ -109,7 +113,7 @@ je_questione_della_lingua = {
 					}
 					root = {
 						add_to_variable_list = {
-							name = vernacular_policy_assimilation_states2
+							name = vernacular_policy_assimilation_states
 							target = prev
 						}
 					}
@@ -126,7 +130,7 @@ je_questione_della_lingua = {
 					}
 					root = {
 						add_to_variable_list = {
-							name = vernacular_policy_assimilation_states3
+							name = vernacular_policy_assimilation_states
 							target = prev
 						}
 					}
@@ -136,8 +140,7 @@ je_questione_della_lingua = {
 	}
 
 	complete = {
-		AND = {
-			any_scope_state = {
+		any_scope_state = {
 				filter = {
 					state_region = {
 						is_homeland = cu:north_italian
@@ -148,7 +151,7 @@ je_questione_della_lingua = {
 					value >= 0.6
 				}
 				custom_tooltip = {
-					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_NORTH_ITALIAN_TT
 				}
 				percent = 1
 			}
@@ -163,7 +166,7 @@ je_questione_della_lingua = {
 					value >= 0.6
 				}
 				custom_tooltip = {
-					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_CENTRAL_ITALIAN_TT
 				}
 				percent = 1
 			}
@@ -178,17 +181,14 @@ je_questione_della_lingua = {
 					value >= 0.6
 				}
 				custom_tooltip = {
-					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_SOUTH_ITALIAN_TT
 				}
 				percent = 1
 			}
-		}
 	}
 
 	on_complete = {
-		clear_variable_list = vernacular_policy_assimilation_states1
-		clear_variable_list = vernacular_policy_assimilation_states2
-		clear_variable_list = vernacular_policy_assimilation_states3
+		clear_variable_list = vernacular_policy_assimilation_states
 		if = {
 			limit = {
 				has_variable = chose_assimilation_var
