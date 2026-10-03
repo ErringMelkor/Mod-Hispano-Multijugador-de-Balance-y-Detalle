@@ -52,16 +52,6 @@ je_questione_della_lingua = {
 					is_homeland = cu:north_italian
 				}
 			}
-			any_scope_state = {
-				state_region = {
-					is_homeland = cu:central_italian
-				}
-			}
-			any_scope_state = {
-				state_region = {
-					is_homeland = cu:south_italian
-				}
-			}
 		}
 	}
 
@@ -73,12 +63,6 @@ je_questione_della_lingua = {
 			}
 			cu:north_italian ={
 				save_scope_as = official_culture_scope1
-			}
-			cu:central_italian ={
-				save_scope_as = official_culture_scope2
-			}
-			cu:south_italian ={
-				save_scope_as = official_culture_scope3
 			}
 		}
 		trigger_event = {
@@ -152,56 +136,51 @@ je_questione_della_lingua = {
 	}
 
 	complete = {
-		OR = { # This strange OR wrap is for the sake of a sensible completion trigger block in the JE preview. This may rely on a bug to display correctly :B
-			trigger_if = {
-				limit = {
-					C:ITA ?= this
+		AND = {
+			any_scope_state = {
+				filter = {
+					state_region = {
+						is_homeland = cu:north_italian
+					}
 				}
-				any_scope_state = {
-					filter = {
-						state_region = {
-							is_homeland = cu:north_italian
-						}
-					}
-					culture_percent_state = {
-						target = cu:north_italian
-						value >= 0.6
-					}
-					custom_tooltip = {
-						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-					}
-					percent = 1
+				culture_percent_state = {
+					target = cu:north_italian
+					value >= 0.6
 				}
-				any_scope_state = {
-					filter = {
-						state_region = {
-							is_homeland = cu:central_italian
-						}
-					}
-					culture_percent_state = {
-						target = cu:central_italian
-						value >= 0.6
-					}
-					custom_tooltip = {
-						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-					}
-					percent = 1
+				custom_tooltip = {
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
 				}
-				any_scope_state = {
-					filter = {
-						state_region = {
-							is_homeland = cu:south_italian
-						}
+				percent = 1
+			}
+			any_scope_state = {
+				filter = {
+					state_region = {
+						is_homeland = cu:central_italian
 					}
-					culture_percent_state = {
-						target = cu:south_italian
-						value >= 0.6
-					}
-					custom_tooltip = {
-						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-					}
-					percent = 1
 				}
+				culture_percent_state = {
+					target = cu:central_italian
+					value >= 0.6
+				}
+				custom_tooltip = {
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+				}
+				percent = 1
+			}
+			any_scope_state = {
+				filter = {
+					state_region = {
+						is_homeland = cu:south_italian
+					}
+				}
+				culture_percent_state = {
+					target = cu:south_italian
+					value >= 0.6
+				}
+				custom_tooltip = {
+					text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+				}
+				percent = 1
 			}
 		}
 	}
@@ -229,5 +208,6 @@ je_questione_della_lingua = {
 
 		
 	should_be_pinned_by_default_uninvolved_or_context = yes
+
 }
 

@@ -291,12 +291,10 @@ questione_della_lingua_events.1 = {
 					culture = cu:siciliano
 					value = small_radicals
 				}
-			}												
-		}
+			}
+		}												
 		hidden_effect = {
 			clear_variable_list = vernacular_policy_assimilation_states1
-			clear_variable_list = vernacular_policy_assimilation_states2
-			clear_variable_list = vernacular_policy_assimilation_states3
 			every_scope_state = {
 				limit = {
 					state_region = {
@@ -314,6 +312,7 @@ questione_della_lingua_events.1 = {
 					}
 				}
 			}
+			clear_variable_list = vernacular_policy_assimilation_states2
 			every_scope_state = {
 				limit = {
 					state_region = {
@@ -331,6 +330,7 @@ questione_della_lingua_events.1 = {
 					}
 				}
 			}
+			clear_variable_list = vernacular_policy_assimilation_states3
 			every_scope_state = {
 				limit = {
 					state_region = {
@@ -349,11 +349,12 @@ questione_della_lingua_events.1 = {
 				}
 			}
 		}
+
 	}
 	option = {
-		name = questione_della_lingua_events.1.c
+		name = questione_della_lingua_events.1.b
 		custom_tooltip = {
-			text = questione_della_lingua_events.1.c_tt
+			text = questione_della_lingua_events.1.b_tt
 			set_variable = chose_to_not_care_var
 		}
 	}

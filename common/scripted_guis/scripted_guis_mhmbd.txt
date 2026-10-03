@@ -1,0 +1,50 @@
+je_vernacular_policy_assimilation_states_sgui = {
+    scope = country
+
+    effect = {
+        if = {
+            limit = {
+                has_variable_list = vernacular_policy_assimilation_states1
+            }
+            every_in_list = {
+                variable = vernacular_policy_assimilation_states1
+
+                custom_tooltip = "VERNACULAR_POLICY_ASSIMILATION_STATES_LIST_ENTRY" # for each print a line
+            }
+        }
+    }
+}
+
+je_vernacular_policy_assimilation_states_sgui = {
+    scope = country
+
+    effect = {
+        if = {
+            limit = {
+                has_variable_list = vernacular_policy_assimilation_states2
+            }
+            every_in_list = {
+                variable = vernacular_policy_assimilation_states2
+
+                custom_tooltip = "VERNACULAR_POLICY_ASSIMILATION_STATES_LIST_ENTRY" # for each print a line
+            }
+        }
+    }
+}
+
+je_vernacular_policy_assimilation_states_sgui = {
+    scope = country
+
+    effect = {
+        if = {
+            limit = {
+                has_variable_list = vernacular_policy_assimilation_states3
+            }
+            every_in_list = {
+                variable = vernacular_policy_assimilation_states3
+
+                custom_tooltip = "VERNACULAR_POLICY_ASSIMILATION_STATES_LIST_ENTRY" # for each print a line
+            }
+        }
+    }
+}
