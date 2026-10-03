@@ -9,53 +9,76 @@ je_questione_della_lingua = {
 
 
 	is_shown_when_inactive = {
-		any_scope_state = {
-			state_region = {
+		OR = {
+			AND = {
 				OR = {
-					is_homeland = cu:north_italian
-					is_homeland = cu:central_italian
-					is_homeland = cu:south_italian
+					country_has_primary_culture = cu:north_italian
+					country_has_primary_culture = cu:central_italian
+					country_has_primary_culture = cu:south_italian
+
 				}
+				OR = {
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:north_italian
+						}
+					}
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:central_italian
+						}
+					}
+					any_scope_state = {
+						state_region = {
+							is_homeland = cu:south_italian
+						}
+					}
+				}
+				
 			}
 		}
-		c:ITA ?= this
 		NOT = {
 			has_variable = je_vernacular_policy_var
 		}
 	}
 
 	possible = {
-		has_technology_researched = nationalism
-		
+		trigger_if = {
+			limit = {
+				c:ITA ?= this
+			}
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:north_italian
+				}
+			}
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:central_italian
+				}
+			}
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:south_italian
+				}
+			}
+		}
 	}
 
 	immediate = {
 		set_variable = je_vernacular_policy_var
 		if = {
 			limit = {
-				was_formed_from = SAR
+				c:ITA ?= this
 			}
 			cu:north_italian ={
-				save_scope_as = official_culture_scope
-			}
-		}
-		else_if = {
-			limit = {
-				was_formed_from = SIC
-			}
-			cu:south_italian ={
-				save_scope_as = official_culture_scope
-			}
-		}
-		else_if = {
-			limit = {
-				OR = {
-					was_formed_from = TUS
-					was_formed_from = PAP
-				}
+				save_scope_as = official_culture_scope1
 			}
 			cu:central_italian ={
-				save_scope_as = official_culture_scope
+				save_scope_as = official_culture_scope2
+			}
+			cu:south_italian ={
+				save_scope_as = official_culture_scope3
 			}
 		}
 		trigger_event = {
@@ -70,20 +93,56 @@ je_questione_della_lingua = {
 				limit = {
 					has_variable = chose_assimilation_var
 				}
-				clear_variable_list = vernacular_policy_assimilation_states
+				clear_variable_list = vernacular_policy_assimilation_states1
+				clear_variable_list = vernacular_policy_assimilation_states2
+				clear_variable_list = vernacular_policy_assimilation_states3
 				every_scope_state = {
 					limit = {
 						state_region = {
-							is_homeland = scope:official_culture_scope
+							is_homeland = cu:north_italian
 						}
 						culture_percent_state = {
-							target = scope:official_culture_scope
+							target = cu:north_italian
 							value < 0.6
 						}
 					}
 					root = {
 						add_to_variable_list = {
-							name = vernacular_policy_assimilation_states
+							name = vernacular_policy_assimilation_states1
+							target = prev
+						}
+					}
+				}
+				every_scope_state = {
+					limit = {
+						state_region = {
+							is_homeland = cu:central_italian
+						}
+						culture_percent_state = {
+							target = cu:central_italian
+							value < 0.6
+						}
+					}
+					root = {
+						add_to_variable_list = {
+							name = vernacular_policy_assimilation_states2
+							target = prev
+						}
+					}
+				}
+				every_scope_state = {
+					limit = {
+						state_region = {
+							is_homeland = cu:south_italian
+						}
+						culture_percent_state = {
+							target = cu:south_italian
+							value < 0.6
+						}
+					}
+					root = {
+						add_to_variable_list = {
+							name = vernacular_policy_assimilation_states3
 							target = prev
 						}
 					}
@@ -96,65 +155,70 @@ je_questione_della_lingua = {
 		OR = { # This strange OR wrap is for the sake of a sensible completion trigger block in the JE preview. This may rely on a bug to display correctly :B
 			trigger_if = {
 				limit = {
-					NOT = {
-						has_variable = chose_integration_var # inverted checks to enable sensible completion trigger block in the JE preview
-					}
+					C:ITA ?= this
 				}
-				trigger_if = {
-					limit = {
-						was_formed_from = SAR
+				any_scope_state = {
+					filter = {
+						state_region = {
+							is_homeland = cu:north_italian
+						}
 					}
-					any_scope_state = {
-						filter = {
-							state_region = {
-								is_homeland = cu:north_italian
-							}
-						}
-						culture_percent_state = {
-							target = cu:north_italian
-							value >= 0.6
-						}
-						custom_tooltip = {
-							text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-						}
-						percent = 1
+					culture_percent_state = {
+						target = cu:north_italian
+						value >= 0.6
 					}
-					any_scope_state = {
-						filter = {
-							state_region = {
-								is_homeland = cu:central_italian
-							}
-						}
-						culture_percent_state = {
-							target = cu:central_italian
-							value >= 0.6
-						}
-						custom_tooltip = {
-							text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-						}
-						percent = 1
+					custom_tooltip = {
+						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
 					}
-					any_scope_state = {
-						filter = {
-							state_region = {
-								is_homeland = cu:south_italian
-							}
+					percent = 1
+				}
+				any_scope_state = {
+					filter = {
+						state_region = {
+							is_homeland = cu:central_italian
 						}
-						culture_percent_state = {
-							target = cu:south_italian
-							value >= 0.6
-						}
-						custom_tooltip = {
-							text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
-						}
-						percent = 1
 					}
+					culture_percent_state = {
+						target = cu:central_italian
+						value >= 0.6
+					}
+					custom_tooltip = {
+						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+					}
+					percent = 1
+				}
+				any_scope_state = {
+					filter = {
+						state_region = {
+							is_homeland = cu:south_italian
+						}
+					}
+					culture_percent_state = {
+						target = cu:south_italian
+						value >= 0.6
+					}
+					custom_tooltip = {
+						text = VERNACULAR_POLICY_ASSIMILATION_STATES_TT
+					}
+					percent = 1
 				}
 			}
 		}
-	}	
+	}
 
 	on_complete = {
+		clear_variable_list = vernacular_policy_assimilation_states1
+		clear_variable_list = vernacular_policy_assimilation_states2
+		clear_variable_list = vernacular_policy_assimilation_states3
+		if = {
+			limit = {
+				has_variable = chose_assimilation_var
+			}
+			trigger_event = {
+				id = questione_della_lingua_events.2
+				popup = yes
+			}
+		}
 	}
 
 	invalid = {
