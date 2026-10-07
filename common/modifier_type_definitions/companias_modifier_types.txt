@@ -36,4 +36,41 @@ unit_combat_unit_type_shrapnel_artillery_defense_mult = {
 
 }
 
+building_group_building_steel_mill_construction_efficiency_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_group_bg_logging_construction_efficiency_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_group_building_textile_mill_tax_mult={
+	decimals=1
+	color=neutral
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_group_bg_extraction_unincorporated_throughput_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
 
