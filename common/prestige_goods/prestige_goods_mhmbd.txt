@@ -1,7 +1,19 @@
 ﻿prestige_good_galician_oil = {
 	base_good = oil
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/galician_oil.dds"
+}
+
+prestige_good_metz_coal = {
+	base_good = coal
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/metz_coal.dds"
+}
+
+prestige_good_constantine_lead = {
+	base_good = lead
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/constantine_lead.dds"
 }
 
 prestige_good_metz_coal = {
@@ -19,197 +31,197 @@ prestige_good_constantine_lead = {
 prestige_good_coffea_arabica = {
 	base_good = coffee
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/java_coffee_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/coffee_arabica.dds"
 }
 		
 prestige_good_renault_automobiles = {
 	base_good = automobiles
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/ford_automobiles_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/renault_automobiles.dds"
 }
 
 prestige_good_red_fife = {
 	base_good = grain
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/red_fife.dds"
 }
 
 prestige_good_guano = {
 	base_good = fertilizer
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/guano.dds"
 }
 
 prestige_good_specialty_sugar = {
 	base_good = sugar
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_sugar_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/specialty_sugar.dds"
 }
 
 prestige_good_ultra_food = {
 	base_good = groceries
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/ultra_food.dds"
 }
 
 prestige_good_premium_liquor = {
 	base_good = liquor
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/bacardi_rum_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/premium_liquor.dds"
 }
 
 prestige_good_tempered_glass = {
 	base_good = glass
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/tempered_glass.dds"
 }
 
 prestige_good_earl_gray_tea = {
 	base_good = tea
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/china_tea_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/earl_gray_tea.dds"
 }
 
 prestige_good_pineapple = {
 	base_good = fruit
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/good_pineapple.dds"
 }
 
 prestige_good_latex = {
 	base_good = rubber
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/rubber.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/latex.dds"
 }
 
 prestige_good_ghawar_oil = {
 	base_good = oil
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/ghawar_oil.dds"
 }
 
 prestige_good_caviar = {
 	base_good = fish
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/fish.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/caviar.dds"
 }
 
 prestige_good_nakajima_aircraft = {
 	base_good = aeroplanes
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/nakajima_aircraft.dds"
 }
 
 prestige_good_guttapercha = {
 	base_good = rubber
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/rubber.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/guttapercha.dds"
 }
 
 prestige_good_philipine_timber = {
 	base_good = wood
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/philipine_timber.dds"
 }
 
 prestige_good_donald_mckey_clipper = {
 	base_good = clippers
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/paddle_steamer.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/donald_mckey_clipper.dds"
 }
 
 prestige_good_musical_instruments = {
 	base_good = fine_art
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/modern_financial_instruments.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/musical_instruments.dds"
 }
 
 prestige_good_burberry_clothes = {
 	base_good = luxury_clothes
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/burberry_clothes.dds"
 }
 
 prestige_good_mediterranean_tuna = {
 	base_good = fish
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_fish_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/mediterranean_tuna.dds"
 }
 
 prestige_good_cassina_furniture = {
 	base_good = luxury_furniture
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/psychoanalysis.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/cassina_furniture.dds"
 }
 
 prestige_good_holand_class_ships = {
 	base_good = steamers
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/ironclad_tech.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/holand_class_ships.dds"
 }
 
 prestige_good_bt_tanks = {
 	base_good = tanks
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/bt_tanks.dds"
 }
 
 prestige_good_bituminuos_coal = {
 	base_good = coal
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/coal.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/bituminuos_coal.dds"
 }
 
 prestige_good_hirtemberg_ammunition = {
 	base_good = ammunition
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/hirtemberg_ammunition.dds"
 }
 
 prestige_good_jeans = {
 	base_good = clothes
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/military_drill.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/jeans.dds"
 }
 
 prestige_good_mauser_ammunition = {
 	base_good = ammunition
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/mauser_ammunition.dds"
 }
 
 prestige_good_nordic_pine = {
 	base_good = wood
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/nordic_pine.dds"
 }
 
 prestige_good_nobel_explosives = {
 	base_good = explosives
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/nobel_explosives.dds"
 }
 
 prestige_good_renault_tanks = {
 	base_good = tanks
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/renault_tanks.dds"
 }
 
 prestige_good_stahlwille_tools = {
 	base_good = tools
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/pneumatic_tools.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/stahlwille_tools.dds"
 }
 
 prestige_good_vickers_tanks = {
 	base_good = tanks
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/mobile_armor.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/vickers_tanks.dds"
 }
 
 prestige_good_turkish_opium = {
 	base_good = opium
 	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/cigars_prestige.dds"
+	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/turkish_opium.dds"
 }

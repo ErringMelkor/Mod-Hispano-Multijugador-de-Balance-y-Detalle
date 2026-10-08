@@ -3338,12 +3338,12 @@ company_caspian_company= {
 
 	building_types = {
 		building_fishing_wharf
+		building_port
+		building_shipyard
 	}
 
 	extension_building_types = {
 		building_whaling_station
-		building_port
-		building_shipyard
 	}
 
 	possible_prestige_goods = {
@@ -3384,7 +3384,7 @@ company_caspian_company= {
 	prosperity_modifier = {
 		building_fishing_wharf_throughput_add = 0.2
         state_trade_capacity_mult = 0.1
-        state_trade_advantage_mult = 0.05
+        state_trade_advantage_mult = 0.1
 	}
 
 	ai_will_do = {
@@ -3919,7 +3919,7 @@ company_bosendorfer = {
 	
 	prosperity_modifier = {
 		country_prestige_mult = 0.1
-		state_literacy_growth_add = 0.025
+		state_literacy_growth_add = 0.00025
 		country_society_tech_research_speed_mult = 0.1
 	}
 
@@ -4588,7 +4588,7 @@ company_giesche = {
 
 	possible = {
 		any_scope_state = {
-			OR = {
+			AND = {
 				state_region = s:STATE_EAST_PRUSSIA 
 				state_region = s:STATE_WEST_PRUSSIA
 				state_region = s:STATE_POSEN
@@ -4599,11 +4599,23 @@ company_giesche = {
 				state_region = s:STATE_EAST_GALICIA
 			}
 			is_incorporated = yes
+		}
+		any_scope_state = {
+			OR = {
+				state_region = s:STATE_EAST_PRUSSIA 
+				state_region = s:STATE_WEST_PRUSSIA
+				state_region = s:STATE_POSEN
+				state_region = s:STATE_GREATER_POLAND
+				state_region = s:STATE_LESSER_POLAND
+				state_region = s:STATE_MAZOVIA
+				state_region = s:STATE_WEST_GALICIA
+				state_region = s:STATE_EAST_GALICIA
+			}
 			any_scope_building = {
 					is_building_type = building_coal_mine
 					level >= 2
 			}
-			count >= 8
+			count >= 5
 		}
 	}
 	
@@ -4614,7 +4626,7 @@ company_giesche = {
 
 	ai_will_do = {
 		any_scope_state = {
-			OR = {
+			AND = {
 				state_region = s:STATE_EAST_PRUSSIA 
 				state_region = s:STATE_WEST_PRUSSIA
 				state_region = s:STATE_POSEN
@@ -4919,7 +4931,6 @@ company_lindt_sprungli = {
 				state_region = s:STATE_EAST_SWITZERLAND
 				state_region = s:STATE_WEST_SWITZERLAND
 			}
-			is_incorporated = yes
 			any_scope_building = {
 					is_building_type = building_food_industry
 					level >= 5
@@ -4940,7 +4951,6 @@ company_lindt_sprungli = {
 				state_region = s:STATE_EAST_SWITZERLAND
 				state_region = s:STATE_WEST_SWITZERLAND
 			}
-			is_incorporated = yes
 		}
 	}
 
@@ -5006,7 +5016,7 @@ company_mauser = {
 	prosperity_modifier = {
 		unit_morale_loss_mult = -0.1
 		unit_morale_recovery_mult = 0.1
-		unit_army_experience_gain_add = 0.1
+		unit_army_experience_gain_mult = 0.1
 	}
 
 	ai_will_do = {
@@ -5744,7 +5754,7 @@ company_vickers = {
 	
 	prosperity_modifier = {
 		building_group_bg_military_industry_throughput_add = 0.1
-		goods_output_aeroplanes_add = 0.1
+		goods_output_aeroplanes_mult = 0.1
 	}
 
 	ai_will_do = {
