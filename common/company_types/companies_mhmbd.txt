@@ -5896,6 +5896,7 @@ company_zeytinburnu_demir_fabrikasi = {
 		}
 	}
 	
+	#Revisar qué problema tienen.
 	prosperity_modifier = {
 		building_group_bg_military_industry_throughput_add = 0.15
 		interest_group_ig_armed_forces_pol_str_mult = 0.1
