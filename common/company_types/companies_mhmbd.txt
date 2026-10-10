@@ -4588,32 +4588,13 @@ company_giesche = {
 
 	possible = {
 		any_scope_state = {
-			AND = {
-				state_region = s:STATE_EAST_PRUSSIA 
-				state_region = s:STATE_WEST_PRUSSIA
-				state_region = s:STATE_POSEN
-				state_region = s:STATE_GREATER_POLAND
-				state_region = s:STATE_LESSER_POLAND
-				state_region = s:STATE_MAZOVIA
-				state_region = s:STATE_WEST_GALICIA
-				state_region = s:STATE_EAST_GALICIA
+			state_region = {
+				is_homeland = cu:polish
 			}
 			is_incorporated = yes
-		}
-		any_scope_state = {
-			OR = {
-				state_region = s:STATE_EAST_PRUSSIA 
-				state_region = s:STATE_WEST_PRUSSIA
-				state_region = s:STATE_POSEN
-				state_region = s:STATE_GREATER_POLAND
-				state_region = s:STATE_LESSER_POLAND
-				state_region = s:STATE_MAZOVIA
-				state_region = s:STATE_WEST_GALICIA
-				state_region = s:STATE_EAST_GALICIA
-			}
 			any_scope_building = {
-					is_building_type = building_coal_mine
-					level >= 2
+				is_building_type = building_coal_mine
+				level >= 5
 			}
 			count >= 5
 		}
@@ -4637,7 +4618,8 @@ company_giesche = {
 				state_region = s:STATE_EAST_GALICIA
 			}
 			is_incorporated = yes
-		}
+			
+		}	
 	}
 
 	ai_construction_targets = {
