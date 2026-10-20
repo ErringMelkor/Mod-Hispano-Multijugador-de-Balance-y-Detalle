@@ -483,3 +483,43 @@ building_departement_metropolitain = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+building_kotohira_gu = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_kotohira_gu.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_kotohira_gu }
+
+	potential = {
+		state_region = s:STATE_SHIKOKU
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_kure_naval_arsenal = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_kure_naval_arsenal.dds"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_kure_naval_arsenal }
+
+	potential = {
+		state_region = s:STATE_CHUGOKU
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
