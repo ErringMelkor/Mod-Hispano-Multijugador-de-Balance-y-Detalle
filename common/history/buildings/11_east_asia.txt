@@ -4205,6 +4205,11 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+			create_building = {
+				building = "building_kotohira_gu"
+				level = 1
+				activate_production_methods={ "pm_default_building_kotohira_gu" }
+			}
 		}
 	}
 	s:STATE_SEOUL={
