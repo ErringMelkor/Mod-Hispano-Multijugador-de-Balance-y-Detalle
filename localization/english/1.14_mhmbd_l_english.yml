@@ -8,6 +8,20 @@
   amendment_provincial_governors_desc: "High-ranking officials with devolved control over great ammounts of territory."
   amendment_green_standard_army: "Green Standard Army"
   amendment_green_standard_army_desc: "Though in paper an army composed by Han forces, in effect it is a paramilitary force tied to the provinces, understaffed and underequiped due to Manchu suspicions of disloyalty."
+
+  # Japan
+  strait_la_perouse: "La Pérouse Strait"
+  strait_osumi: "Estrecho de Ōsumi"
+  law_kokudaka_taxation: "Kokudaka System"
+  law_kentaikessen_navy: "Kentaikessen Doctrine"
+  HNN: "Hainan"
+  HNN_ADJ: "Hainanese"
+  building_kotohira_gu: "Kotohira-Gū"
+  pmg_base_building_kotohira_gu: "Base"
+  pm_default_building_kotohira_gu: "Kotohira-Gū"
+  building_kure_naval_arsenal: "Kure Naval Arsenal"
+  pmg_base_building_kure_naval_arsenal: "Base"
+  pm_default_building_kure_naval_arsenal: "Kure Arsenal"
  
   #Companies
   company_aramco: "Aramco"
