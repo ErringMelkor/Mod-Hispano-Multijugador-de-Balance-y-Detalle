@@ -66,3 +66,17 @@
   prestige_good_stahlwille_tools: "Stahlwille Tools"
   prestige_good_vickers_tanks: "Vickers 6-Ton"
   prestige_good_turkish_opium: "Turkish Opium"
+
+--Changes for Japan
+  strait_la_perouse: "La Pérouse Strait"
+  strait_osumi: "Estrecho de Ōsumi"
+  law_kokudaka_taxation: "Kokudaka System"
+  law_kentaikessen_navy: "Kentaikessen Doctrine"
+  HNN: "Hainan"
+  HNN_ADJ: "Hainanese"
+  building_kotohira_gu: "Kotohira-Gū"
+  pmg_base_building_kotohira_gu: "Base"
+  pm_default_building_kotohira_gu: "Kotohira-Gū"
+  building_kure_naval_arsenal: "Kure Naval Arsenal"
+  pmg_base_building_kure_naval_arsenal: "Base"
+  pm_default_building_kure_naval_arsenal: "Kure Arsenal"
