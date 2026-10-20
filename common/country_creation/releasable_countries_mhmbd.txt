@@ -4,3 +4,9 @@
 	}
 	ai_will_do = { always = no }
 }
+
+HNN = {
+	provinces = { x30B0E0 x62BF42 xDC137A xCB457A xA92B88 x156AC0 }
+
+	ai_will_do = { always = no }
+}
