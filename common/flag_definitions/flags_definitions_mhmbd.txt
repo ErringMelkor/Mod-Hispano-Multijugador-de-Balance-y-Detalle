@@ -1,0 +1,7 @@
+﻿HNN = { # Hainan
+	flag_definition = {
+		coa = HNN
+		subject_canton = HNN
+		priority = 1
+	}
+}
