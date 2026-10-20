@@ -8,6 +8,20 @@
   amendment_provincial_governors_desc: "Oficiales de alto rango sobre los que se descentraliza el control del país."
   amendment_green_standard_army: "Ejército del Estandarte Verde"
   amendment_green_standard_army_desc: "Aunque sobre el papel es un ejército compuesto por la etnia Han, en la práctica actúan como una policía paramilitar con faltas de equipo y personal sistémicas por las sospechas manchúes sobre su lealtad."
+
+  #Japón
+  strait_la_perouse: "Estrecho de La Pérouse"
+  strait_osumi: "Estrecho de Ōsumi"
+  law_kokudaka_taxation: "Sistema Kokudaka"
+  law_kentaikessen_navy: "Doctrina Kentaikessen"
+  HNN: "Hainan"
+  HNN_ADJ: "Hainanense"
+  building_kotohira_gu: "Kotohira-Gū"
+  pmg_base_building_kotohira_gu: "Base"
+  pm_default_building_kotohira_gu: "Kotohira-Gū"
+  building_kure_naval_arsenal: "Arsenal Naval de Kure"
+  pmg_base_building_kure_naval_arsenal: "Base"
+  pm_default_building_kure_naval_arsenal: "Arsenal de Kure"
  
   #Compañías
   company_aramco: "Aramco"
