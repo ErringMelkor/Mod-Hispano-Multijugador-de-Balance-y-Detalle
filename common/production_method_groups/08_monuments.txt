@@ -614,3 +614,27 @@ pmg_base_building_departement_metropolitain = {
 		pm_monument_no_effects
 	}
 }
+
+pmg_base_building_kotohira_gu = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = no
+
+	production_methods = {
+		pm_default_building_kotohira_gu
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
+
+pmg_base_building_kure_naval_arsenal = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	is_hidden_when_unavailable = no
+
+	production_methods = {
+		pm_default_building_kure_naval_arsenal
+		pm_monument_prestige_only
+		pm_monument_no_effects
+	}
+}
