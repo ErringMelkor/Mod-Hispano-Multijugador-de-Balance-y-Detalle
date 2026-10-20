@@ -107,3 +107,14 @@ GDN = {
 
 }
 
+HNN = {
+	color = { 177 97 41 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { yue han } 
+	religion = confucian
+	capital = STATE_GUANGDONG
+}
