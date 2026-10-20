@@ -1226,3 +1226,69 @@ pm_default_building_expanded_departement_metropolitain = {
 		}
 	}
 }
+
+pm_default_building_kotohira_gu = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	disallowing_laws = {
+		law_total_separation
+		law_atheist_state
+	}
+
+	unlocking_religions = { shinto mahayana }
+
+	is_hidden_when_unavailable = no
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			group_ig_devout_approval_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			interest_group_ig_devout_pop_attraction_mult = 0.1
+			building_group_bg_fishing_throughput_add = 0.1
+			building_group_bg_fishing_mortality_mult = -0.1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 800
+		}
+	}
+}
+
+pm_default_building_kure_naval_arsenal = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	unlocking_laws = {
+		law_kentaikessen_navy
+	}
+
+	is_hidden_when_unavailable = no
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_ship_construction_add = 20
+			country_ship_construction_efficiency_add = 0.1
+			country_ship_construction_goods_cost_mult = -0.05
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_shipyard_throughput_add = 0.25
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 400
+			building_employment_machinists_add = 200
+			building_employment_officers_add = 1000
+		}
+	}
+}
