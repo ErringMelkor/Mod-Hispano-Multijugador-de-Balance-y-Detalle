@@ -1194,7 +1194,7 @@
 				size = 486
 			}
 		}
-		region_state:ALK = {
+		region_state:RUS = {
 			create_pop = {
 				culture = ainu
 				religion = orthodox
