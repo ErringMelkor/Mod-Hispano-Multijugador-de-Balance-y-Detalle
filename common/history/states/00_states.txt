@@ -6855,7 +6855,7 @@ STATES = {
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:ALK
+			country = c:RUS
 			owned_provinces = {
 				x601140 xA060DF
 			}
