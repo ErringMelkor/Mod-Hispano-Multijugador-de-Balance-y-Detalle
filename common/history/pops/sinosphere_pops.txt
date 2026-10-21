@@ -64,7 +64,7 @@
 			}
 		}
 	}
-		s:STATE_PEGU = {
+	s:STATE_PEGU = {
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
@@ -89,32 +89,18 @@
 				culture = burmese
 				size = 35912
 			}
-		}
-		region_state:DEN = {
 			create_pop = {
 				culture = mon
 				religion = animist
-				size = 9102
+				size = 11025
 			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = mon
-				religion = animist
-				size = 1923
-			}
-
 		}
 	}
 	s:STATE_ARAKAN = {
-		region_state:GBR = {
+		region_state:BUR = {
 			create_pop = {
 				culture = burmese
 				size = 100888
-			}
-			create_pop = {
-				culture = british
-				size = 432
 			}
 			create_pop = {
 				culture = burmese
@@ -130,8 +116,6 @@
 				culture = burmese
 				size = 19000
 			}
-		}
-		region_state:KKI = {
 			create_pop = {
 				culture = lushai
 				size = 25888
@@ -142,7 +126,7 @@
 		region_state:SIA = {
 			create_pop = {
 				culture = karen
-				size = 180800
+				size = 361600
 			}
 			create_pop = {
 				culture = burmese
@@ -163,11 +147,11 @@
 			}
 			create_pop = {
 				culture = burmese
-				size = 36000
+				size = 148000
 			}
 			create_pop = {
 				culture = mon
-				size = 3480
+				size = 12276
 			}
 			create_pop = {
 				culture = karen
@@ -176,38 +160,11 @@
 			create_pop = {
 				pop_type = slaves
 				culture = karen
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				culture = thai
-				size = 44020
-			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = karen
-				size = 180800
-			}
-			create_pop = {
-				culture = british
-				size = 96
-			}
-			create_pop = {
-				culture = burmese
-				size = 112000
-			}
-			create_pop = {
-				culture = mon
-				size = 8796
-			}
-			create_pop = {
-				culture = thai
-				size = 36004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = karen
-				size = 20000
+				size = 80024
 			}
 		}
 	}
@@ -268,8 +225,6 @@
 				culture = burmese
 				size = 50200
 			}
-		}
-		region_state:KKI = {
 			create_pop = {
 				culture = lushai
 				size = 37012
@@ -353,7 +308,6 @@
 			}
 		}
 	}
-
 	s:STATE_CAMBODIA = {
 		region_state:SIA = {
 			create_pop = {
@@ -375,7 +329,6 @@
 			}
 		}
 		region_state:CAM = {
-			# +200k khmer; +48k animist; +20k esclavos
 			create_pop = {
 				culture = khmer
 				size = 823202
@@ -387,7 +340,7 @@
 			create_pop = {
 				culture = khmer
 				religion = animist
-				size = 60000
+				size = 93000
 			}
 			create_pop = {
 				culture = vietnamese
@@ -397,13 +350,6 @@
 				pop_type = slaves
 				culture = khmer
 				size = 60204
-			}
-		}
-		region_state:KLO = {
-			create_pop = {
-				culture = khmer
-				religion = animist
-				size = 33000
 			}
 			create_pop = {
 				culture = lao
@@ -439,7 +385,6 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		#+200k miao; +200k vietnamitas católicos; +200k esclavos; 800k católicos; +80k yue; +80k min; +300k miao; +100k esclavos
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
@@ -472,8 +417,6 @@
 				culture = vietnamese
 				size = 320100
 			}
-		}
-		region_state:SCT = {
 			create_pop = {
 				culture = lao
 				religion = animist
@@ -483,7 +426,6 @@
 	}
 	s:STATE_ANNAM = {
 		region_state:DAI = {
-			#+200k esclavos; +600k esclavos; +200k católicos
 			create_pop = {
 				culture = vietnamese
 				size = 1640333
@@ -515,7 +457,6 @@
 	}
 	s:STATE_MEKONG = {
 		region_state:DAI = {
-			#+200k esclavos animistas; +600k católicos; +100k animistas; +200k khmer; +100k esclavos
 			create_pop = {
 				culture = vietnamese
 				size = 1002396
@@ -558,8 +499,6 @@
 				religion = animist
 				size = 210000
 			}
-		}
-		region_state:DGR = {
 			create_pop = {
 				culture = champa
 				religion = animist
@@ -596,8 +535,6 @@
 				culture = khmu
 				size = 4000
 			}
-		}
-		region_state:SCT = {
 			create_pop = {
 				culture = lao
 				religion = animist
