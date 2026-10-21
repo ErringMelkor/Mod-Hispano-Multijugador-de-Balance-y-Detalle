@@ -1,0 +1,143 @@
+﻿DAI = {
+	dynamic_country_name = {
+		name = dyn_c_vietnam
+		adjective = DAI_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			scope:actor ?= {
+				NOT = { is_country_type = unrecognized }
+			}
+		}
+	}
+}
+
+IDC = { # Indochina
+	dynamic_country_name = {
+		name = dyn_c_IDC_DAI
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				was_formed_from = DAI
+				OR = {
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_presidential_republic
+				}
+				NOT = { has_law_or_variant = law_type:law_technocracy }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_BUR
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				was_formed_from = BUR
+				OR = {
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_presidential_republic
+				}
+				NOT = { has_law_or_variant = law_type:law_technocracy }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_SIA
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				was_formed_from = SIA
+				OR = {
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_presidential_republic
+				}
+				NOT = { has_law_or_variant = law_type:law_technocracy }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_monarchy
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 2
+
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_absolute_monarchy
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 3
+
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_communist
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 2
+
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_anarchist
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 3
+
+		trigger = {
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_theocracy
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 2
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_IDC_technocracy
+		adjective = IDC_ADJ
+
+		is_main_tag_only = yes
+		priority = 3
+
+		trigger = {
+			scope:actor ?= {
+				has_law_or_variant = law_type:law_technocracy
+			}
+		}
+	}
+}

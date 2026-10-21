@@ -1,0 +1,43 @@
+﻿color_dyn_c_IDC_communist = {
+	color = "burgundy_burgundy"
+	
+	possible = {
+		exists = c:IDC
+		c:IDC ?= THIS
+		coa_communist_trigger = yes
+		NOT = {
+			coa_anarchy_trigger = yes
+		}
+		NOT = {
+			has_law_or_variant = law_type:law_technocracy
+		}
+	}
+}
+
+color_dyn_c_IDC_anarchist = {
+	color = "peru_bolivia"
+
+	possible = {
+		exists = c:IDC
+		c:IDC ?= THIS
+		coa_anarchy_trigger = yes
+	}
+}
+
+color_dyn_c_IDC_theocracy = {
+	color = "white"
+	possible = {
+		exists = c:IDC
+		c:IDC ?= THIS
+		has_law_or_variant = law_type:law_theocracy
+	}
+}
+
+color_dyn_c_IDC_technocracy = {
+	color = "naples_purple"
+	possible = {
+		exists = c:IDC
+		c:IDC ?= THIS
+		has_law_or_variant = law_type:law_technocracy
+	}
+}
