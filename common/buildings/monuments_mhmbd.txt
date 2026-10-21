@@ -523,3 +523,88 @@ building_kure_naval_arsenal = {
 	ai_value = 15000
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+building_thaphae = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_thaphae"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_thaphae }
+
+	potential = {
+		state_region = s:STATE_CHIANG_MAI
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_yangon_railway_station = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_yangon_railway_station"
+	expandable = no
+	buildable = yes
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_yangon_railway_station }
+
+	unlocking_technologies = {
+		railways
+	}
+
+	potential = {
+		state_region = s:STATE_PEGU
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_bangkok_palace = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_bangkok_palace"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_bangkok_palace }
+
+	potential = {
+		state_region = s:STATE_BANGKOK
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_vanmieu = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/building_vanmieu"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	
+	production_method_groups = { pmg_base_building_vanmieu }
+
+	potential = {
+		state_region = s:STATE_TONKIN
+	}
+
+	required_construction = construction_cost_monument
+	
+	ai_value = 15000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
