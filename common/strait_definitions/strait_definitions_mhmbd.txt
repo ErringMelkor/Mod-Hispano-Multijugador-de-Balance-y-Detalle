@@ -23,3 +23,16 @@ strait_osumi = {
 	first_sea_endpoint = x00FBFB
 	second_sea_endpoint = x3D6A6A
 }
+
+canal_thai = {
+	type = artificial
+
+	total_block_requires_full_control = yes
+	military_block_requires_full_control = yes
+
+	first_land_endpoint = xC6D6FB
+	second_land_endpoint = x6D56E2
+
+	first_sea_endpoint = x61C8C8
+	second_sea_endpoint = x807D97
+}
