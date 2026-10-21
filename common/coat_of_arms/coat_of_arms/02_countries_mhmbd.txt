@@ -17,3 +17,197 @@ HNN = { # hainan
         	instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
 	}
 }
+
+SGP = { # singapur 
+
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+
+	colored_emblem = {
+		texture = "ce_crescent_star_turkey.dds"
+		color1 = "white"
+		color2 = "white"
+        	instance = { position = { 0.25 0.25 } scale = { 0.45 0.45 } }
+	}
+}
+
+IDC = { # Indochina o republica presidencial o republica parlamentaria
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "brown"
+	}
+}
+
+IDC_monarchy = { # Indochina Monarquia
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated_02.dds"
+		color1 = "blue_light"
+		color2 = "green"
+		color3 = "brown"
+	}
+	colored_emblem = {
+		texture = "ce_elephant_african.dds"
+		color1 = "grey"
+		color2 = "pearl"
+		color3 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+}
+
+IDC_absolute_monarchy = { # Indochina Monarquia Absoluta
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated_02.dds"
+		color1 = "blue_light"
+		color2 = "green"
+		color3 = "brown"
+	}
+	colored_emblem = {
+		texture = "ce_elephant_african.dds"
+		color1 = "grey"
+		color2 = "pearl"
+		color3 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	textured_emblem = {
+		texture = "te_crown_cut.dds"
+		instance = { scale = { 0.18 0.22 } position = { 0.325 0.255 } }
+	}
+}
+
+IDC_dictatorship = { # Indochina Dictadura
+
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+	color2 = "green"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+	}
+	colored_emblem = {
+		texture = "ce_elephant_asia.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.245 0.26 } }
+	}
+}
+
+IDC_fascist = { # Indochina Facista
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_triangle.dds"
+		color1 = "brown"
+		color2 = "brown"
+		instance = { scale = { 0.47 0.66 } position = { 0.5 0.44 } }
+	}
+}
+
+IDC_anarchist = { # Indochina Anarquista
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "green"
+		color2 = "brown"
+	}
+}
+
+IDC_communist = { # Indochina Comunista
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "brown"
+	}
+
+	colored_emblem = {
+		texture = "ce_frame_circle_per_fess.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle_round.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.48 0.48 } position = { 0.5 0.49 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 0.14 0.14 } position = { 0.5 0.195 } }
+	}
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.9 0.88 } position = { 0.5 0.5 } }
+	}
+}
+
+IDC_theocracy = { # Indochina Teocratica
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "brown"
+	}
+	colored_emblem = {
+		texture = "ce_buddha.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+IDC_technocracy = { # Indochina Tecnocratica
+
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+
+	colored_emblem = {
+		texture = "ce_infinity.dds"
+		color1 = "green"
+		color2 = "blue_light"
+	}
+}
