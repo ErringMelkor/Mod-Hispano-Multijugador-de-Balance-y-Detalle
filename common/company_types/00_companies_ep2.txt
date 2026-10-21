@@ -1026,7 +1026,7 @@ company_a_markwald_and_company = {
 	}
 
 	extension_building_types = {
-		building_tooling_workshop
+		building_shipyard
 		building_logging_camp
 	}
 
@@ -1068,8 +1068,8 @@ company_a_markwald_and_company = {
 	}
 
 	prosperity_modifier = {
-		state_trade_advantage_mult = 0.05
 		building_group_bg_logging_throughput_add = 0.1
+		building_shipyard_throughput_add = 0.2
 	}
 
 	ai_will_do = {
