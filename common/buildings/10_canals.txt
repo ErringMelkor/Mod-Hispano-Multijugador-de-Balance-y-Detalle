@@ -137,3 +137,35 @@ building_kiel_canal = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_harbour.dds"
 }
+
+building_thai_canal = {
+	building_group = bg_canals
+	icon = "gfx/interface/icons/building_icons/panama_canal.dds"
+	strait = canal_thai
+	expandable = no
+	downsizeable = no
+	unique = yes
+	required_construction = construction_cost_canal
+
+	ai_value = 100000 # Canals are very important
+
+	unlocking_technologies = {
+		civilizing_mission
+	}
+
+	potential = {
+		state_region = s:STATE_TENASSERIM
+	}
+
+	possible = {
+		owner = { 
+			owns_entire_state_region = STATE_TENASSERIM 
+		}
+	}
+
+	production_method_groups = {
+		pmg_thai_canal
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_harbour.dds"
+}
