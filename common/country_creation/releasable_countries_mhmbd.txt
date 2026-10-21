@@ -10,3 +10,9 @@ HNN = {
 
 	ai_will_do = { always = no }
 }
+
+SGP = {
+	provinces = { xC00130 }
+
+	ai_will_do = { always = no }
+}
