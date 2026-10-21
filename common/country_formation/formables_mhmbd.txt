@@ -54,3 +54,28 @@ NIT = {
 	}
 
 }
+
+IDC = {
+	states = {
+		STATE_CAMBODIA
+		STATE_MEKONG 
+		STATE_TONKIN 
+		STATE_ANNAM 
+		STATE_LAOS
+		STATE_CHIANG_MAI 
+		STATE_NAKHON_RATCHASIMA 
+		STATE_MALAYA 
+		STATE_TENASSERIM 
+		STATE_BANGKOK 
+		STATE_KACHIN 
+		STATE_SHAN_STATES 
+		STATE_MANDALAY 
+		STATE_PEGU 
+		STATE_ARAKAN
+	}
+
+	required_states_fraction = 0.8
+
+	ai_will_do = { always = yes }
+
+}
