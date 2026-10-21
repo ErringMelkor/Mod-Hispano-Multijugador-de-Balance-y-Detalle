@@ -5,3 +5,85 @@
 		priority = 1
 	}
 }
+
+SGP = { # singapur
+	flag_definition = {
+		coa = SGP
+		subject_canton = SGP
+		priority = 1
+	}
+}
+
+IDC = { # Indochina
+	flag_definition = {
+		coa = IDC
+		subject_canton = IDC
+		priority = 1
+	}
+	flag_definition = {
+		coa = IDC_dictatorship
+		subject_canton = IDC_dictatorship
+		priority = 10
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_monarchy
+		subject_canton = IDC_monarchy
+		priority = 5
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_absolute_monarchy
+		subject_canton = IDC_absolute_monarchy
+		priority = 10
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_fascist
+		subject_canton = IDC_fascist
+		priority = 2000
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_communist
+		subject_canton = IDC_communist
+		priority = 2000
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_anarchist
+		subject_canton = IDC_anarchist
+		priority = 5000
+		trigger = {
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_theocracy
+		subject_canton = IDC_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = IDC_technocracy
+		subject_canton = IDC_technocracy
+		priority = 5000
+		trigger = {
+			scope:actor ?= {
+				has_law_or_variant = law_type:law_technocracy
+			}
+		}
+	}
+}
