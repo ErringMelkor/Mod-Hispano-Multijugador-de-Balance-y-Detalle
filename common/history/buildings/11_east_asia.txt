@@ -2228,6 +2228,11 @@
 				reserves=1
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
 			}
+			create_building = {
+				building = "building_bangkok_palace"
+				level = 1
+				activate_production_methods={ "pm_default_building_bangkok_palace" }
+			}
 		}
 	}
 	s:STATE_TONKIN={
@@ -2429,6 +2434,11 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
+			}
+			create_building = {
+				building = "building_vanmieu"
+				level = 1
+				activate_production_methods={ "pm_default_building_vanmieu" }
 			}
 		}
 	}
@@ -2808,6 +2818,11 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_thaphae"
+				level = 1
+				activate_production_methods={ "pm_default_building_thaphae" }
 			}
 		}
 	}
