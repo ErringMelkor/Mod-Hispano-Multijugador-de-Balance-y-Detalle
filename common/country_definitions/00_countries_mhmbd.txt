@@ -141,3 +141,25 @@ HNN = {
 	religion = confucian
 	capital = STATE_GUANGDONG
 }
+
+SGP = {
+	color = { 255 102 156 }
+	
+	country_type = recognized
+	
+	tier = city_state
+	
+	cultures = { british }
+	capital = STATE_MALAYA
+}
+
+IDC = {
+	color = { 0 0 5 }
+
+	country_type = unrecognized
+
+	tier = empire
+
+	cultures = { vietnamese thai burmese }
+	capital = STATE_CHIANG_MAI
+}
