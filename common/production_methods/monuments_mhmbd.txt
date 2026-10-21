@@ -1292,3 +1292,215 @@ pm_default_building_kure_naval_arsenal = {
 		}
 	}
 }
+
+pm_default_building_thaphae = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			country_authority_add = 50
+			battle_defense_owned_province_mult = 0.05
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_trade_center_throughput_add = 0.1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 100
+			building_employment_officers_add = 500
+		}
+	}
+}
+
+pm_default_building_yangon_railway_station = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 100
+			building_group_bg_infrastructure_construction_efficiency_add = 0.1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_railway_throughput_add = 0.2
+			state_infrastructure_add = 50
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 200
+			building_employment_engineers_add = 500
+			building_employment_machinists_add = 2000
+		}
+	}
+}
+
+pm_default_building_bangkok_palace = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	unlocking_laws = {
+		law_monarchy
+	}
+
+	is_hidden_when_unavailable = no
+
+	state_modifiers = {
+		workforce_scaled = { 
+			country_legitimacy_headofstate_add = 5
+			country_authority_add = 50
+			country_prestige_add = 10
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 200
+			building_employment_bureaucrats_add = 800
+			building_employment_clergymen_add = 200
+		}
+	}
+}
+
+pm_default_building_vanmieu = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_laws = {
+		law_freedom_of_conscience
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			country_weekly_innovation_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_university_throughput_add = 0.05
+			state_pop_qualifications_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 200
+			building_employment_bureaucrats_add = 50
+			building_employment_academics_add = 200
+		}
+	}
+}
+
+pm_default_building_vanmieu_devout = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_laws = {
+		law_state_religion
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			group_ig_devout_approval_add = 1
+			country_weekly_innovation_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_university_throughput_add = 0.05
+			state_pop_qualifications_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 200
+			building_employment_bureaucrats_add = 50
+			building_employment_academics_add = 200
+		}
+	}
+}
+
+pm_default_building_vanmieu_intelligentsia = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_laws = {
+		law_total_separation
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			group_ig_intelligentsia_approval_add = 1
+			country_weekly_innovation_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_university_throughput_add = 0.05
+			state_pop_qualifications_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 200
+			building_employment_bureaucrats_add = 50
+			building_employment_academics_add = 200
+		}
+	}
+}
+
+pm_default_building_vanmieu_trade_unions = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = no
+
+	unlocking_laws = {
+		law_atheist_state
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+			group_ig_trade_unions_approval_add = 1
+			country_weekly_innovation_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = { 
+			building_university_throughput_add = 0.05
+			state_pop_qualifications_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 200
+			building_employment_bureaucrats_add = 50
+			building_employment_academics_add = 200
+		}
+	}
+}
