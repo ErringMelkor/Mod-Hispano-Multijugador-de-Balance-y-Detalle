@@ -93,16 +93,14 @@
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
 			}
 		}
-		region_state:GBR={
-		}
-		region_state:GBR={
+		region_state:SGP={
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:SGP"
 						levels=2
 						region="STATE_MALAYA"
 					}
@@ -114,7 +112,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:SGP"
 						levels=1
 						region="STATE_MALAYA"
 					}
@@ -126,7 +124,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:SGP"
 						levels=1
 					}
 				}
