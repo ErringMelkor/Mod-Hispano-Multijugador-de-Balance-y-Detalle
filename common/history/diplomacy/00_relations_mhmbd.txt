@@ -1,0 +1,10 @@
+﻿DIPLOMACY = {
+	c:SGP ?= {
+		set_relations = { country = c:GBR value = 80 }
+		set_relations = { country = c:CHI value = 50 }
+		set_relations = { country = c:JAP value = 30 }
+	}
+	c:GBR ?= {
+		set_relations = { country = c:SGP value = 80 }
+	}
+}

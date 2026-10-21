@@ -1,0 +1,10 @@
+﻿DIPLOMACY = {
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:SGP
+			type = dominion
+		}
+	c:SGP ?= {
+		add_liberty_desire = 60
+	}
+}
