@@ -1822,7 +1822,7 @@ CHI = {
 
 	tier = empire
 
-	cultures = { manchu han }
+	cultures = { manchu }
 	capital = STATE_BEIJING
 }
 

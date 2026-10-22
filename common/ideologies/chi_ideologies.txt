@@ -125,10 +125,10 @@ REPLACE_OR_CREATE:ideology_fiscal_conservative = {
 		law_graduated_taxation = strongly_disapprove
 	}
 
-	lawgroup_trade_policy = {		
-		law_protectionism = strongly_approve
+	lawgroup_trade_policy = {
+		law_isolationism = strongly_approve
 		law_mercantilism = approve
-		law_isolationism = neutral
+		law_protectionism = neutral
 		law_free_trade = strongly_disapprove	
 	}
 }

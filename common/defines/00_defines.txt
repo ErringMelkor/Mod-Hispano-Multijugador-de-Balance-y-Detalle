@@ -2193,7 +2193,7 @@ NWar = {
 	DEFAULT_WAR_GOAL_ENFORCEMENT_DEPLETE_PER_WEEK = 5	# The progress lost towards auto-enforcing non-occupied war goals each week, if nothing else is specified in the war goal type
 	WAR_GOAL_ENFORCEMENT_PROGRESS_MIN = 0
 	WAR_GOAL_ENFORCEMENT_PROGRESS_MAX = 100
-	WAR_GOAL_UNCONTESTED_DROP_WAR_MONTHS = 24	# An uncontested war goal is never dropped before the war has lasted this many months
+	WAR_GOAL_UNCONTESTED_DROP_WAR_MONTHS = 48	# An uncontested war goal is never dropped before the war has lasted this many months
 	WAR_GOAL_UNCONTESTED_DROP_GOAL_MONTHS = 12	# A war goal that has not been contested for this many months since it was created or last contested is dropped
 	WAR_GOAL_UNCONTESTED_WARNING_MONTHS = 3	# A war goal this many months away from being dropped for being uncontested is at risk of being dropped
 }

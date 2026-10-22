@@ -200,6 +200,10 @@ je_questione_della_lingua = {
 		}
 	}
 
+	modifiers_while_active = {
+		national_unification_italy
+	}
+
 	invalid = {
 		has_variable = chose_to_not_care_var
 	}

@@ -59,3 +59,31 @@ Economía:
 Tecnologías:
 	Creada nueva tecnología a partir de compresión ignición, "Aleaciones de Latón", para debilitar esa tech de tier 5.
 	
+
+# 22-10-26 #
+
+Países:
+	Suecia:
+		Retirada su tecnología única "Eficiencia Sueca".
+	México:
+		La compañía Mondragón requiere repetidores en vez de rifles de cerrojo.
+	China:
+		No comienza con los Han como cultura primaria.
+		Comienza con Ley de Súbditos en vez de Supremacía Nacional.
+		La ideología de "Conservadurismo Fiscal" favorece el Aislacionismo.
+	Italia:
+		Otorgado bono a su Entrada de Diario para facilitar la unificación cultural.
+
+Decretos:
+	Promover Valores Nacionales: 
+		50% asimilación -> 75%.
+	Promover Mobilidad Social:
+		Acceso a la Educación: 25% -> 15%
+		Velocidad de crecimiento de la Alfabetización: 0 -> +2,6% anual.
+		Cualificaciones: 30% -> 50%
+
+Guerra:
+	La duración mínima de los objetivos de guerra aumenta de 24 a 48 meses.
+
+Tecnologías:
+	Movidos los "Motores Diesel" a la tecnología de "Aleaciones de Latón"

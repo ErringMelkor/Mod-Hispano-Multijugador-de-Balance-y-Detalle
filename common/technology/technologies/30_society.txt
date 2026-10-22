@@ -1,19 +1,5 @@
 ﻿### ERA 1
 
-Swedish_efficiency = {
-	era = era_1
-	texture = "gfx/interface/icons/invention_icons/stormtroopers.dds"
-	category = society
-	can_research = no
-	
-	modifier = {
-		state_working_adult_ratio_add = 0.05
-	}
-	
-	ai_weight = {
-		value = 1
-	}
-}
 urbanization = {
 	# Unlocks Urban Centers building
 	era = era_1

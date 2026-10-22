@@ -1684,7 +1684,7 @@ pm_diesel_engines = {
 	}
 	
 	unlocking_technologies = {
-		compression_ignition
+		brass_cars
 	}
 	
 	building_modifiers = {

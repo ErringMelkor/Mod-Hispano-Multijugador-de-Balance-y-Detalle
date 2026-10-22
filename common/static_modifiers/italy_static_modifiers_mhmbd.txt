@@ -76,3 +76,9 @@ borbonic_instability = {
 	political_movement_radicalism_add = 0.25
 	country_fervor_target_siciliano_add = 30
 }
+
+national_unification_italy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_assimilation_full_acceptance_mult = 1
+	country_assimilation_second_rate_citizen_mult = 0.5
+}
