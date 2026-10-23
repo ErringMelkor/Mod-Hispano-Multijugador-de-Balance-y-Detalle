@@ -74,17 +74,16 @@ pm_thai_canal = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_prestige_add = 100
-			state_trade_advantage_mult = 0.25
-			country_max_companies_add = 1.25
-			country_minting_add = 15000
+			country_prestige_add = 50
+			state_trade_advantage_mult = 0.15
+			country_minting_add = 10000
 		}	
 	}
 
 	state_modifiers = {
 		level_scaled = {
-			state_migration_pull_mult = 0.35
-			state_migration_pull_add = 35
+			state_migration_pull_mult = 0.25
+			state_migration_pull_add = 10
 		}
 	}
 
