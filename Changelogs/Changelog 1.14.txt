@@ -98,3 +98,60 @@ Tecnologías:
 		Pragmatismo Filosófico: 0.5% por Nivel.
 		Psicoanálisis: 0.65% por Nivel -> 0.75% por Nivel.
 		El resultado final es que tener Pragmatismo Filosófico es semejante a un 10% (para compensar Mobilidad Social) y ligeramente superior a partir del Tier 4.
+
+Indochina:
+	-La región empieza sin presencia europea directa.
+
+	-No hay naciones descentralizadas.
+
+	-Modificadas sus tecnologías y leyes iniciales (cada país se enfoca en algo distinto de inicio)(Vietnam: en lo económico/ Siam: en lo interno/ Burma: en lo bélico). Se puede empezar con cualquiera de los 3.
+
+	-Añadido el Canal de Tailandia (solo es funcional, no es visible en el mapa)
+
+	-Singapur empieza como país y no como un micro estado de UK (es su colonia)(esta seria la única presencia de un europeo en la región). 
+
+	-Cuando Dai Nam es reconocido cambia su nombre a Vietnam.
+
+	-Poder formar Indochina.
+
+	-Banderas, Color y Nombre dinámico según el gobierno para Indochina.
+
+	-Modificada las siguientes compañías:
+	Markwald & Company, Ltd.
+	Bombay-Burmah Trading Corporation.
+
+	-Se añadió el Canal de Tailandia.
+
+	-Se retocó Angkor Wat.
+
+	-Se agregaron los siguientes monumentos:
+	Templo de la Literatura (Tonkin)
+	Gran Palacio de Bangkok (Bangkok)
+	Estación Central de Trenes de Yangon (Pegu)
+	Puerta Tha Phae (Chiang Mai)
+
+Japón:
+	-Agregada Azúcar en Taiwán.
+
+	-Nerfeado el nivel tecnológico de China (igual que la India). Empieza con subjecthood.
+
+	-Las Islas Kuriles ahora empiezan bajo dominio ruso y no bajo dominio de la compañía ruso-americana.
+
+	-Agregada una ley especial: Sistema Kokudaka (reemplaza a land taxation). 
+
+	-Agregada una ley especial: Doctrina Kentai Kessen (reemplaza a professional navy). 
+
+	-Se agregaron dos estrechos: Le Perouse (entre Sajalín y Hokkaido) y Ōsumi (entre Islas de Kyushu). 
+
+	-Se añadieron las siguientes tecnologías de inicio: desmotadora de algodón.
+
+	-Reducida a la mitad el tiempo de la devastación inicial del país.
+
+	-Hainan ahora es liberable como país.
+
+	-Se agregaron los siguientes monumentos:
+	Kotohira-Gū (Shikoku)(construido).
+	Arsenal Naval de Kure (Chugoku).
+
+	-Modificadas las siguientes compañías:
+	Noda Shoyu Co. Ltd.
