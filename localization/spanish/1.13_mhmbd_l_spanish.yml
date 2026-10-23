@@ -210,9 +210,9 @@
   bourbon_integration: "Borbonic Stability"
   borbonic_instability: "Borbonic Instability"
 
-  amendment_bashibazouk: "Bashi-Bazouk Irregulars"
-  amendment_bersaglieri: "Bersaglieri Sharpshooters"
-  armendment_cacciatori: "Cacciatori Sharpshooters"
+  amendment_bashibazouk: "Irregulares Bashi-Bazouk"
+  amendment_bersaglieri: "Regimiento de Bersaglieri"
+  amendment_cacciatori: "Regimiento de Cacciatori"
   
   law_derebeys: "Derebeys"
   law_derebeys_desc: "Local rule devolved to military warlords who help us defend our provinces."
@@ -245,8 +245,8 @@
   ig_trait_pietist_philanthropy_desc: "It is in our tradition to know the goods words of the Bible and to be humble about our wants."
 
 
-  goods_input_luxury_clothes_add:0 "@luxury_clothes! Luxury Clothes input"
-  goods_input_luxury_clothes_add_desc:0 "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
+  goods_input_luxury_clothes_add: "@luxury_clothes! Luxury Clothes input"
+  goods_input_luxury_clothes_add_desc: "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
 
 
   
