@@ -67,14 +67,21 @@ REPLACE_OR_CREATE:pm_default_building_angkor_wat = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pol_str_mult = 0.25
-			country_prestige_add = 25
+			country_prestige_add = 100
+			interest_group_ig_devout_approval_add = 1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			interest_group_ig_devout_pol_str_mult = 0.1
+			interest_group_ig_devout_pop_attraction_mult = 0.1
 		}
 	}
 
 	building_modifiers = {
-#		workforce_scaled = {
-#		}
+		#workforce_scaled = {
+		#}
 
 		level_scaled = {
 			building_employment_clergymen_add = 500
@@ -276,6 +283,7 @@ REPLACE_OR_CREATE:pm_default_building_white_house = {
 		workforce_scaled = {
 			building_government_administration_throughput_add = 0.2
 			state_migration_pull_mult = 1
+			state_infrastructure_add = 5
 		}
 	}
 
