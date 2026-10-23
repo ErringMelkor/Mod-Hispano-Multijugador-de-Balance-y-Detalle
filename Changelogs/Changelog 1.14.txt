@@ -60,7 +60,7 @@ Tecnologías:
 	Creada nueva tecnología a partir de compresión ignición, "Aleaciones de Latón", para debilitar esa tech de tier 5.
 	
 
-# 22-10-26 #
+# 22-10-26 - 24-10-26 #
 
 Países:
 	Suecia:
@@ -71,8 +71,14 @@ Países:
 		No comienza con los Han como cultura primaria.
 		Comienza con Ley de Súbditos en vez de Supremacía Nacional.
 		La ideología de "Conservadurismo Fiscal" favorece el Aislacionismo.
+		Agregadas dos Enmiendas, "Gobernadores Provinciales" y "Ejército del Estandarte Verde"
 	Italia:
 		Otorgado bono a su Entrada de Diario para facilitar la unificación cultural.
+	Alemania & Austria:
+		El rasgo de los Industrialistas, "Kohleexpertise", otorga +5% a la investigación de tecnologías de producción.
+		Ajustado la Entrada de Diario "Grunderzeit":
+			30 años -> 10 años.
+			10% de reducción a la tasa de interés -> 25%
 
 Decretos:
 	Promover Valores Nacionales: 
@@ -87,3 +93,8 @@ Guerra:
 
 Tecnologías:
 	Movidos los "Motores Diesel" a la tecnología de "Aleaciones de Latón"
+	Agregado Acceso a la Educación por Riqueza:
+		Dialéctica: 0.25% por Nivel.
+		Pragmatismo Filosófico: 0.5% por Nivel.
+		Psicoanálisis: 0.65% por Nivel -> 0.75% por Nivel.
+		El resultado final es que tener Pragmatismo Filosófico es semejante a un 10% (para compensar Mobilidad Social) y ligeramente superior a partir del Tier 4.

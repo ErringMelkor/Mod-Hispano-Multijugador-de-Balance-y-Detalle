@@ -29,6 +29,21 @@
 			level = 1
 		}
 
+		active_law:lawgroup_bureaucracy ?= {
+			add_amendment = {
+				type = amendment_provincial_governors
+				sponsor = PREV.ig:ig_landowners
+			}
+		}
+
+		active_law:lawgroup_policing ?= {
+			add_amendment = {
+				type = amendment_green_standard_army
+				sponsor = PREV.ig:ig_landowners
+			}
+		}
+		
+
 		set_variable = ryukyu_rival_member
 		
 	}

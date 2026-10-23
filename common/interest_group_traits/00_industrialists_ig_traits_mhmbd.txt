@@ -40,5 +40,6 @@ ig_trait_kohleexpertise = {
 
 	modifier = {
 		building_coal_mine_throughput_add = 0.15
+		country_production_tech_research_speed_mult = 0.05
 	}
 }

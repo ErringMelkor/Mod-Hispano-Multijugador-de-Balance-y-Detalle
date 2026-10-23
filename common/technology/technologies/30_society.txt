@@ -647,6 +647,7 @@ dialectics = {
 	
 	modifier = {
 		country_institution_schools_max_investment_add = 1
+		state_education_access_wealth_add = 0.0025
 	}
 	
 	unlocking_technologies = {
@@ -1243,6 +1244,7 @@ philosophical_pragmatism = {
 		country_influence_mult = 0.25
 		country_diplomatic_play_maneuvers_mult = 0.10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_education_access_wealth_add = 0.005
 	}
 	
 	unlocking_technologies = {
@@ -1486,7 +1488,7 @@ psychoanalysis = {
 	modifier = {
 		country_diplomatic_play_maneuvers_mult = 0.10
 		state_bureaucracy_population_base_cost_factor_mult = -0.15
-		state_education_access_wealth_add = 0.0065
+		state_education_access_wealth_add = 0.0075
 	}
 	
 	unlocking_technologies = {

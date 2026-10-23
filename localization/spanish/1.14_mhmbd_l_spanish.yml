@@ -1,4 +1,13 @@
 ﻿﻿l_spanish:
+
+  #Enmiendas
+  amendment_cacciatori_desc: "Regimientos de tiradores designados, famosos por sus tácticas de hostigamiento y habilidad con el rifle."
+  amendment_bersaglieri_desc: "Regimientos de tiradores designados, famosos por sus tácticas de hostigamiento y habilidad con el rifle."
+  amendment_bashibazouk_desc: "Fuerzas suplementarias al ejército regular, cuyo pago es sólo en espolios, e infames por su crueldad."
+  amendment_provincial_governors: Gobernadores Provinciales"
+  amendment_provincial_governors_desc: "Oficiales de alto rango sobre los que se descentraliza el control del país."
+  amendment_green_standard_army: "Ejército del Estandarte Verde"
+  amendment_green_standard_army_desc: "Aunque sobre el papel es un ejército compuesto por la etnia Han, en la práctica actúan como una policía paramilitar con faltas de equipo y personal sistémicas por las sospechas manchúes sobre su lealtad."
  
   #Compañías
   company_aramco: "Aramco"
@@ -78,6 +87,14 @@
   modifier_imperial_examinations: "Examinaciones Imperiales"
   modifier_legacy_imperial_examinations: "Legado de las Examinaciones Imperiales"
   hombre_automatizado_europa: "Hombre Automatizado de Europa"
+  unit_combat_unit_type_line_infantry_offense_mult: "Line Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
+  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry $unit_defense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
+
+  unit_combat_unit_type_irregular_infantry_offense_mult: "Irregular Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_irregular_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
+  unit_combat_unit_type_irregular_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
 
   #Tecnologías
   brass_cars: "Aleaciones de Latón"
@@ -107,4 +124,12 @@
   language_mediano: "Mediano"
   language_meridionale: "Meridionale"
   language_siciliano: "Siciliano"
+
+  #Por localizar
+  VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER: "Remaining [Concept('concept_state', '$concept_states$')]:"
+  VERNACULAR_POLICY_ASSIMILATION_STATES_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  VERNACULAR_POLICY_ASSIMILATION_STATES_NORTH_ITALIAN_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_north_italian_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  VERNACULAR_POLICY_ASSIMILATION_STATES_CENTRAL_ITALIAN_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_central_italian_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  VERNACULAR_POLICY_ASSIMILATION_STATES_SOUTH_ITALIAN_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_south_italian_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  VERNACULAR_POLICY_ASSIMILATION_STATES_LIST_ENTRY: "[AddLocalizationIf(THIS.GetState.IsValid, THIS.GetState.GetName)] ([THIS.ScriptValue('official_culture_fraction')|%1])"
 

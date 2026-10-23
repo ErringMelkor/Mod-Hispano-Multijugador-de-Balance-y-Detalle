@@ -1,4 +1,13 @@
 ﻿l_english:
+
+  #Amendments
+  amendment_cacciatori_desc: "Regiments of designated marksmen famed in their sharpshooting and harassing tactics."
+  amendment_bersaglieri_desc: "Regiments of designated marksmen famed in their sharpshooting and harassing tactics."
+  amendment_bashibazouk_desc: "Supplementary forces of our armies, paid up solely in plunder and infamous for their cruelty."
+  amendment_provincial_governors: "Provincial Governors"
+  amendment_provincial_governors_desc: "High-ranking officials with devolved control over great ammounts of territory."
+  amendment_green_standard_army: "Green Standard Army"
+  amendment_green_standard_army_desc: "Though in paper an army composed by Han forces, in effect it is a paramilitary force tied to the provinces, understaffed and underequiped due to Manchu suspicions of disloyalty."
  
   #Companies
   company_aramco: "Aramco"
@@ -78,6 +87,15 @@
   modifier_legacy_imperial_examinations: "Imperial Examinations Legacy"
   hombre_automatizado_europa: "Automatized Man of Europe"
 
+  unit_combat_unit_type_line_infantry_offense_mult: "Line Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
+  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry $unit_defense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
+
+  unit_combat_unit_type_irregular_infantry_offense_mult: "Irregular Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_irregular_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
+  unit_combat_unit_type_irregular_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
+
   #Technologies
   brass_cars: "Brass Alloys"
   brass_cars_desc: "Stand-in for different alloys designed to lighten automobile's weight and easen mass production lines."
@@ -113,7 +131,6 @@
   VERNACULAR_POLICY_ASSIMILATION_STATES_CENTRAL_ITALIAN_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_central_italian_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
   VERNACULAR_POLICY_ASSIMILATION_STATES_SOUTH_ITALIAN_TT: "$VERNACULAR_POLICY_ASSIMILATION_STATES_HEADER$\n[GetScriptedGui('je_vernacular_policy_assimilation_states_south_italian_sgui').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
   VERNACULAR_POLICY_ASSIMILATION_STATES_LIST_ENTRY: "[AddLocalizationIf(THIS.GetState.IsValid, THIS.GetState.GetName)] ([THIS.ScriptValue('official_culture_fraction')|%1])"
-
 
 
 

@@ -52,3 +52,12 @@ REPLACE_OR_CREATE:german_unifier_ruler = {
 }
 
 
+REPLACE_OR_CREATE:modifier_grunderzeit_boom = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	political_movement_pop_attraction_mult = -0.2
+	country_loan_interest_rate_mult = -0.25
+	state_capitalists_investment_pool_efficiency_mult = 0.2
+	state_shopkeepers_investment_pool_efficiency_mult = 0.2
+}
+
+

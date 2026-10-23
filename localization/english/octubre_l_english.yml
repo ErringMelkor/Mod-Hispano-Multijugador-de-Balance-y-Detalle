@@ -56,7 +56,7 @@
  ig_trait_unwavering_loyalty_desc: "The reforms of Mahmut the Second abolished the Timar System in 1831. The new army is a tool for centralization, personally loyal to the Sultan, and operates at different levels of society to ensure the prosperity of the Empire."
  
  nueva_indigeneidad: "New Indigeneity"
- unit_combat_unit_type_irregular_infantry_defense_mult: "Irregular Infantry Defense"
+ unit_combat_unit_type_irregular_infantry_defense_mult: "Irregular Infantry $unit_defense_add$ multiplier"
  
  
  desamortizacion_mendizabal: "First Disentailment"
