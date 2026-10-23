@@ -66,7 +66,7 @@ Países:
 	Suecia:
 		Retirada su tecnología única "Eficiencia Sueca".
 	México:
-		La compañía Mondragón requiere repetidores en vez de rifles de cerrojo.
+		La compañía Mondragón requiere repetidores en vez de rifles de cerrojo; otorga +5 de Defensa a los Carabineros.
 	China:
 		No comienza con los Han como cultura primaria.
 		Comienza con Ley de Súbditos en vez de Supremacía Nacional.

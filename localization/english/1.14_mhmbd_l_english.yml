@@ -135,14 +135,17 @@
   modifier_legacy_imperial_examinations: "Imperial Examinations Legacy"
   hombre_automatizado_europa: "Automatized Man of Europe"
 
-  unit_combat_unit_type_line_infantry_offense_mult: "Line Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_offense_mult: "Line Infantry $unit_offense_add$ Multiplier"
   unit_combat_unit_type_line_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
-  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry $unit_defense_add$ Multiplier."
+  unit_combat_unit_type_line_infantry_defense_mult: "Line Infantry $unit_defense_add$ Multiplier"
   unit_combat_unit_type_line_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
 
-  unit_combat_unit_type_irregular_infantry_offense_mult: "Irregular Infantry $unit_offense_add$ Multiplier."
+  unit_combat_unit_type_irregular_infantry_offense_mult: "Irregular Infantry $unit_offense_add$ Multiplier"
   unit_combat_unit_type_irregular_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
   unit_combat_unit_type_irregular_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
+
+  unit_combat_unit_type_carabineer_defense_add: "Carabineer $unit_defense_add$"
+  unit_combat_unit_type_carabineer_defense_add_desc: "A flat increase to the $unit_defense_add$."
 
   #Technologies
   brass_cars: "Brass Alloys"

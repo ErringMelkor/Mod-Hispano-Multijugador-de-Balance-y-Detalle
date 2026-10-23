@@ -144,6 +144,9 @@
   unit_combat_unit_type_irregular_infantry_offense_mult_desc: "A % increase or decrease to $unit_offense_add$."
   unit_combat_unit_type_irregular_infantry_defense_mult_desc: "A % increase or decrease to $unit_defense_add$."
 
+  unit_combat_unit_type_carabineer_defense_add: "Carabinero $unit_defense_add$"
+  unit_combat_unit_type_carabineer_defense_add_desc: "Incremento plano a la $unit_defense_add$."
+
   #Tecnologías
   brass_cars: "Aleaciones de Latón"
   brass_cars_desc: "Experimentos con distintas combinaciones de materiales para aligerar el peso del automóbil y facilitar la cadena de producción."
