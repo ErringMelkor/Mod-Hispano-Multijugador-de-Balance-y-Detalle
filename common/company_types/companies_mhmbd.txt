@@ -3167,7 +3167,7 @@ company_ansteel= {
 	
 	prosperity_modifier = {
 		country_max_weekly_construction_progress_add = 10
-		building_group_building_steel_mill_construction_efficiency_add= 25
+		building_group_building_steel_mill_construction_efficiency_add = 0.025
 	}
 
 	ai_will_do = {
