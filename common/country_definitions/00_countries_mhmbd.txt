@@ -154,7 +154,7 @@ SGP = {
 }
 
 IDC = {
-	color = { 0 0 5 }
+	color = { 40 40 40 }
 
 	country_type = unrecognized
 
