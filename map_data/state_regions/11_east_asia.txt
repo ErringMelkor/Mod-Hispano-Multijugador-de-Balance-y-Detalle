@@ -1446,5 +1446,10 @@ STATE_PYONGYANG = {
         building_logging_camp = 15
         building_fishing_wharf = 16
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3138
 }
