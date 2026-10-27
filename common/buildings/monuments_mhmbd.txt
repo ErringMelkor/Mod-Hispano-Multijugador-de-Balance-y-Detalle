@@ -526,7 +526,7 @@ building_kure_naval_arsenal = {
 
 building_thaphae = {
 	building_group = bg_monuments
-	icon = "gfx/interface/icons/building_icons/building_thaphae"
+	icon = "gfx/interface/icons/building_icons/building_thaphae.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -546,7 +546,7 @@ building_thaphae = {
 
 building_yangon_railway_station = {
 	building_group = bg_monuments
-	icon = "gfx/interface/icons/building_icons/building_yangon_railway_station"
+	icon = "gfx/interface/icons/building_icons/building_yangon_railway_station.dds"
 	expandable = no
 	buildable = yes
 	downsizeable = no
@@ -570,7 +570,7 @@ building_yangon_railway_station = {
 
 building_bangkok_palace = {
 	building_group = bg_monuments
-	icon = "gfx/interface/icons/building_icons/building_bangkok_palace"
+	icon = "gfx/interface/icons/building_icons/building_bangkok_palace.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -590,7 +590,7 @@ building_bangkok_palace = {
 
 building_vanmieu = {
 	building_group = bg_monuments
-	icon = "gfx/interface/icons/building_icons/building_vanmieu"
+	icon = "gfx/interface/icons/building_icons/building_vanmieu.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
