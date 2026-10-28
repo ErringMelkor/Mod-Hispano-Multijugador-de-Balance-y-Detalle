@@ -426,6 +426,28 @@ pm_serfdom_building_subsistence_rice_farm = {
 	}
 }
 
+pm_peasant_proprietorship_building_subsistence_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/homesteading.dds"
+	unlocking_laws = {
+		law_peasant_proprietorship
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = 0.1
+		}	
+	
+		unscaled = {
+			building_subsistence_output_add = 4
+		}
+		
+		level_scaled = {
+			building_employment_peasants_add = -100
+			building_employment_farmers_add = 100
+		}		
+	}
+}
+
 pm_homesteading_building_subsistence_rice_farm = {
 	texture = "gfx/interface/icons/production_method_icons/homesteading.dds"
 	unlocking_laws = {

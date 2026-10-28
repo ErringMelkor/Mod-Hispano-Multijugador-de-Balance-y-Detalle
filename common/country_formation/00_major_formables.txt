@@ -87,7 +87,7 @@ ITA = {
 		is_country_type = recognized
 		any_country_in_italy_old = {
 			has_technology_researched = nationalism
-			percent = 1
+			percent = 0.75
 		}
 	}
 
