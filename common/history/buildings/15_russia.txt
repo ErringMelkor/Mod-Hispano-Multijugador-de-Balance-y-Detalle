@@ -77,6 +77,17 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={ # Imperial Dorpat University
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:UBD"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 		}
 	}
 	s:STATE_RIGA={
@@ -994,23 +1005,64 @@
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
+			create_building={ # Imperial University of St. Vladimir
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 		}
 	}
 	s:STATE_ORYOL={
 		region_state:RUS={
 			create_building={
-				building="building_trade_center"
-				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				building="building_food_industry"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_food_industry"
 						country="c:RUS"
-						levels=8
+						levels=1
 						region="STATE_ORYOL"
 					}
 				}
 				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing"  }
 			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:RUS"
+						levels=6
+						region="STATE_ORYOL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_sugar_beets" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=1
+						region="STATE_ORYOL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+			}
+		}
+	}
+	s:STATE_TULA={
+		region_state:RUS={
 			create_building={
 				building="building_textile_mill"
 				add_ownership={
@@ -1018,7 +1070,7 @@
 						type="building_textile_mill"
 						country="c:RUS"
 						levels=2
-						region="STATE_ORYOL"
+						region="STATE_TULA"
 					}
 				}
 				reserves=1
@@ -1030,8 +1082,8 @@
 					building={
 						type="building_food_industry"
 						country="c:RUS"
-						levels=2
-						region="STATE_ORYOL"
+						levels=1
+						region="STATE_TULA"
 					}
 				}
 				reserves=1
@@ -1044,7 +1096,7 @@
 						type="building_tooling_workshop"
 						country="c:RUS"
 						levels=2
-						region="STATE_ORYOL"
+						region="STATE_TULA"
 					}
 				}
 				reserves=1
@@ -1067,12 +1119,12 @@
 					building={
 						type="building_manor_house"
 						country="c:RUS"
-						levels=4
-						region="STATE_ORYOL"
+						levels=2
+						region="STATE_TULA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_sugar_beets" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -1080,42 +1132,11 @@
 					building={
 						type="building_logging_camp"
 						country="c:RUS"
-						levels=8
-						region="STATE_ORYOL"
-					}
-					building={
-						type="building_financial_district"
-						country="c:RUS"
-						levels=2
-						region="STATE_MOSCOW"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_focused_hardwood_production" }
-			}
-			create_building={
-				building="building_hardwood_logging"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:RUS"
-						levels=2
-						region="STATE_ORYOL"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_equipment" "pm_road_carts" "pm_hardwood_sawmills" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					country={
-						country="c:RUS"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
 		}
 	}
@@ -1634,6 +1655,7 @@
 	}
 	s:STATE_ROSTOV={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
@@ -1827,10 +1849,22 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_focused_hardwood_production" "pm_no_equipment" "pm_road_carts"  }
 			}
+			create_building={ # Imperial Kazan University
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
+			}
 		}
 	}
 	s:STATE_URALSK={
 		region_state:RUS={
+			establish_cossack_host = yes
 		}
 		region_state:KZH={
 			create_building={
@@ -1914,6 +1948,12 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
+		region_state:RUS={
+		}
+	}
+	s:STATE_JETISY={
+		region_state:CHI={
+		}
 	}
 	s:STATE_AKMOLINSK={
 		region_state:OZH={
@@ -1930,6 +1970,7 @@
 			}
 		}
 		region_state:RUS={
+			establish_cossack_host = yes
 		}
 	}
 	s:STATE_FERGANA={
@@ -1960,6 +2001,7 @@
 	}
 	s:STATE_NORTH_CAUCASUS={
 		region_state:RUS={
+			establish_cossack_host = yes
 		}
 		region_state:CHC={
 			create_building={
@@ -1994,6 +2036,7 @@
 	}
 	s:STATE_TAURIDA={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -2343,6 +2386,7 @@
 	}
 	s:STATE_UFA={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -2384,6 +2428,7 @@
 	}
 	s:STATE_CHELYABINSK={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_iron_mine"
 				add_ownership={

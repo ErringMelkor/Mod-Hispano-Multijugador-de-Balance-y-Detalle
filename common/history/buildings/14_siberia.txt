@@ -1,6 +1,7 @@
 ﻿BUILDINGS={
 	s:STATE_URAL={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
@@ -72,10 +73,6 @@
 		region_state:RUS={
 		}
 	}
-	s:STATE_CHUKOTKA={
-		region_state:RUS={
-		}
-	}
 	s:STATE_KAMCHATKA={
 		region_state:RUS={
 		}
@@ -93,6 +90,17 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+			}
 		}
 	}
 	s:STATE_YAKUTSK={
@@ -101,6 +109,7 @@
 	}
 	s:STATE_TRANS_BAIKAL={
 		region_state:RUS={
+			establish_cossack_host = yes
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
