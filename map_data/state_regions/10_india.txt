@@ -13,9 +13,12 @@
         building_coal_mine = 101
         building_iron_mine = 56
         building_lead_mine = 24
+        building_copper_mine = 4
         building_logging_camp = 17
         building_fishing_wharf = 2
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.04
 }
 
 STATE_WEST_BENGAL = {
@@ -27,7 +30,7 @@ STATE_WEST_BENGAL = {
     farm = "x89538D"
     mine = "x272AEE"
     wood = "x2FF791"
-    port = "x0A2277"
+    port = "x89D769"
     arable_land = 553
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_dye_plantation" "building_opium_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
@@ -39,6 +42,12 @@ STATE_WEST_BENGAL = {
     }
 
     naval_exit_id = 3050
+    blockade_locator = {
+        position = { 6100 0 2019 }
+        yaw = 15
+    }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.04
 }
 
 STATE_EAST_BENGAL = {
@@ -47,7 +56,7 @@ STATE_EAST_BENGAL = {
     provinces = { "x025A94" "x0C82AB" "x117060" "x1E0385" "x30B0A0" "x3C68C9" "x3E5D45" "x40F5CE" "x4123FE" "x474C54" "x475FC4" "x55F631" "x6F1170" "x71E2DE" "x92DA2C" "x93E9F4" "xA605E3" "xAC2CB6" "xB06FC2" "xC81678" "xCA47BA" "xCB5C0A" "xD06FA1" "xD28E5F" "xD2E951" "xDA53DA" "xDFA414" "xE6CD14" "xF04684" "xF3A964" }
     traits = { "state_trait_bengal_delta" "state_trait_natural_harbors" }
     city = "xD2E951"
-    port = "x3C68C9"
+    port = "xC81678"
     farm = "xC81678"
     mine = "x93E9F4"
     wood = "xCA47BA"
@@ -60,6 +69,8 @@ STATE_EAST_BENGAL = {
         building_fishing_wharf = 11
     }
     naval_exit_id = 3050
+    min_cold_effect = 0.00
+    max_cold_effect = 0.03
 }
 
 STATE_ASSAM = {
@@ -88,6 +99,8 @@ STATE_ASSAM = {
         type = "building_rubber_plantation"
         undiscovered_amount = 18
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.05
 }
 
 STATE_DELHI = {
@@ -107,6 +120,8 @@ STATE_DELHI = {
         building_fishing_wharf = 2
         building_sulfur_mine = 18
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.07
 }
 
 STATE_AWADH = {
@@ -124,6 +139,8 @@ STATE_AWADH = {
         building_logging_camp = 8
         building_fishing_wharf = 2
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.05
 }
 
 
@@ -146,6 +163,8 @@ STATE_AGRA = {
         building_iron_mine = 16
         building_lead_mine = 12
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.07
 }
 
 STATE_GUJARAT = {
@@ -155,7 +174,7 @@ STATE_GUJARAT = {
     prime_land = { "x31D0E0" "xB0D060" "xADD2A3" "xCC1D23" "xF87E91" "xC7C3FD" "x3151E0" "x128888" "xD31590" "x3FFA53" x30D060 x075A8E xB3D1CD xB11F7B xBBB2BD x3151E0 x73656F xEB1229 xD8CEF7 xECB4F5 x90B589 x03C674 x30E365 x31D0E0 x9C8D06 xCC1D23 }
     traits = { "state_trait_natural_harbors" }
     city = "xF87E91"
-    port = "xB3D1CD"
+    port = "x31D0E0"
     farm = "x90B589"
     mine = "x164DBB"
     wood = "xB05060"
@@ -172,6 +191,8 @@ STATE_GUJARAT = {
         undiscovered_amount = 16
     }
     naval_exit_id = 3048
+    min_cold_effect = 0.00
+    max_cold_effect = 0.02
 }
 
 STATE_BUNDELKHAND = {
@@ -192,6 +213,8 @@ STATE_BUNDELKHAND = {
         building_coal_mine = 12
         building_iron_mine = 16
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.04
 }
 
 STATE_MALWA = {
@@ -211,6 +234,8 @@ STATE_MALWA = {
         building_iron_mine = 48
         building_coal_mine = 16
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.04
 }
 
 STATE_KASHMIR = {
@@ -231,6 +256,8 @@ STATE_KASHMIR = {
         building_logging_camp = 24
         building_hardwood_logging = 1
     }
+    min_cold_effect = 0.20
+    max_cold_effect = 0.70
 }
 
 STATE_PUNJAB = {
@@ -255,6 +282,8 @@ STATE_PUNJAB = {
         type = "building_oil_rig"
         undiscovered_amount = 7
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.10
 }
 
 STATE_HILL_PUNJAB = {
@@ -273,6 +302,8 @@ STATE_HILL_PUNJAB = {
         building_logging_camp = 18
         building_iron_mine = 18
     }
+    min_cold_effect = 0.10
+    max_cold_effect = 0.45
 }
 
 STATE_CENTRAL_PROVINCES = {
@@ -290,9 +321,12 @@ STATE_CENTRAL_PROVINCES = {
         building_iron_mine = 32
         building_coal_mine = 32
         building_lead_mine = 12
+        building_copper_mine = 4
         building_logging_camp = 24
         building_hardwood_logging = 2
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.01
 }
 
 STATE_SINDH = {
@@ -313,6 +347,8 @@ STATE_SINDH = {
         building_logging_camp = 2
     }
     naval_exit_id = 3048
+    min_cold_effect = 0.00
+    max_cold_effect = 0.05
 }
 
 STATE_RAJPUTANA = {
@@ -330,8 +366,11 @@ STATE_RAJPUTANA = {
         building_iron_mine = 24
         building_lead_mine = 24
         building_sulfur_mine = 24
+        building_copper_mine = 4
         building_logging_camp = 2
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.06
 }
 
 STATE_CEYLON = {
@@ -342,7 +381,7 @@ STATE_CEYLON = {
     prime_land = { x95AAA3 }
     traits = { "state_trait_galle_harbor" }
     city = "x23CE5A"
-    port = "x8D6FA8"
+    port = "xA0A0D0"
     farm = "xDF2050"
     mine = "xDAB923"
     wood = "xC23350"
@@ -400,6 +439,8 @@ STATE_ORISSA = {
         building_fishing_wharf = 7
     }
     naval_exit_id = 3050
+    min_cold_effect = 0.00
+    max_cold_effect = 0.01
 }
 
 STATE_CIRCARS = {
@@ -583,6 +624,10 @@ STATE_TENASSERIM = {
         undiscovered_amount = 16
     }
     naval_exit_id = 3051
+    blockade_locator = {
+        position = { 6337 0 1821 }
+        yaw = 48
+    }
 }
 
 STATE_KACHIN = {
@@ -600,8 +645,11 @@ STATE_KACHIN = {
         building_logging_camp = 24
         building_hardwood_logging = 5
         building_iron_mine = 7
+        building_copper_mine = 4
         building_gold_mine = 3
     }
+    min_cold_effect = 0.03
+    max_cold_effect = 0.18
 }
 
 STATE_SHAN_STATES = {
@@ -626,6 +674,8 @@ STATE_SHAN_STATES = {
         type = "building_rubber_plantation"
         undiscovered_amount = 2
     }
+    min_cold_effect = 0.02
+    max_cold_effect = 0.12
 }
 
 STATE_MANDALAY = {
@@ -653,6 +703,8 @@ STATE_MANDALAY = {
         type = "building_oil_rig"
         undiscovered_amount = 26
     }
+    min_cold_effect = 0.00
+    max_cold_effect = 0.01
 }
 
 STATE_PEGU = {
@@ -705,4 +757,6 @@ STATE_ARAKAN = {
         undiscovered_amount = 7
     }
     naval_exit_id = 3050
+    min_cold_effect = 0.00
+    max_cold_effect = 0.01
 }
