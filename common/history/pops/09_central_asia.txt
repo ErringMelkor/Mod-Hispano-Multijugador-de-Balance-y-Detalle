@@ -497,30 +497,22 @@
 				size = 113348
 			}
 			create_pop = {
-				culture = russian
-				size = 5408
+				culture = tatar
+				size = 2240
 			}
 		}
 		region_state:RUS = {
 			create_pop = {
 				culture = kazak
-				size = 21500
+				size = 6000
 			}
 			create_pop = {
 				culture = russian
-				size = 16451
+				size = 13500
 			}
 			create_pop = {
 				culture = mordvin
-				size = 3581
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 5004
-			}
-			create_pop = {
-				culture = tatar
-				size = 2240
+				size = 1581
 			}
 		}
 	}

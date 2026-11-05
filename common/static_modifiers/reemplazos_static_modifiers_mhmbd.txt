@@ -30,3 +30,35 @@ REPLACE_OR_CREATE:modifier_against_the_confederation = {
 	state_conscription_rate_mult = 0.25
 	country_diplomatic_play_maneuvers_mult = 0.25
 }
+
+REPLACE_OR_CREATE:zeppelins_military_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_army_offense_add = 5
+}
+
+REPLACE_OR_CREATE:modifier_texas_war_of_independence = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_defense_mult = 0.35
+	unit_offense_mult = 0.20
+	battle_total_combat_width_mult = -0.8
+}
+
+REPLACE_OR_CREATE:krakatoa_eruption_help_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_mult = 0.1
+}
+
+REPLACE_OR_CREATE:krakatoa_eruption_no_help_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_mult = 0.2
+}
+
+REPLACE_OR_CREATE:krakatoa_cost_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 0.5
+}
+
+REPLACE_OR_CREATE:modifier_has_annexed_another_subject = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_liberty_desire_add = 0.1
+}

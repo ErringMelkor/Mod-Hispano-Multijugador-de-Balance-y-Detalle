@@ -207,12 +207,12 @@ flagship_interest_gain = {
 
 commander_battle_end_victory = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	character_popularity_add = 10	# scaled by a positive define
+	character_popularity_add = 5	# scaled by a positive define
 }
 
 commander_battle_end_loss = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
-	character_popularity_add = 10	# scaled by a negative define
+	character_popularity_add = 5	# scaled by a negative define
 }
 
 opposition_agitator_popularity = {
@@ -224,6 +224,18 @@ in_default = {
 	building_throughput_add = -0.5
 	unit_offense_mult = -0.95
 	unit_defense_mult = -0.95
+}
+
+war_support_battle_effects_army = {
+	unit_offense_mult = -0.25
+	unit_defense_mult = -0.25
+	unit_morale_loss_mult = 0.5
+	unit_morale_damage_mult = -0.5
+}
+
+war_support_battle_effects_navy = {
+	ship_hull_damage_mult = -0.2
+	ship_crew_damage_mult = -0.2
 }
 
 declared_bankruptcy = {
@@ -837,6 +849,13 @@ country_gdp = {
 	country_minting_add = 1
 }
 
+# Scales with country GDP / COUNTRY_GDP_CONSTRUCTION_MODIFIER_DIVISOR / COUNTRY_GDP_CONSTRUCTION_MODIFIER_SCALED_MULTIPLIER
+# COUNTRY_GDP_CONSTRUCTION_MODIFIER_BASE_MULTIPLIER is added to this before the scaling effect
+# Clamped by COUNTRY_GDP_CONSTRUCTION_MODIFIER_MAX_MULTIPLIER
+country_gdp_construction = {
+	country_construction_add = 10
+}
+
 # Scales with total army power projection of a country
 country_army_power_projection = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
@@ -950,6 +969,11 @@ recently_promoted = {
 	character_loyalty_add = 10
 }
 
+revoked_favorite = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	character_loyalty_add = -50
+}
+
 # applied whenever a formation has more current units than command limit, unscaled
 low_command_limit = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
@@ -1057,9 +1081,4 @@ agreeable_to_imposition = {
 successfully_met_foreign_imposition_legitimacy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_legitimacy_base_add = 10
-}
-
-movement_suppressed_after_civil_war = {
-	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds"
-	political_movement_radicalism_add = -1
 }

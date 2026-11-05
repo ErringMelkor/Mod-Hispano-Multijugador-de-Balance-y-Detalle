@@ -271,7 +271,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 3000
 			}
 			create_pop = {
@@ -304,7 +304,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 100
 			}
 			create_pop = {
@@ -325,7 +325,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 200
 			}
 			create_pop = {
@@ -358,7 +358,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 10360
 			}
 			create_pop = {
@@ -398,7 +398,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 10100
 			}
 			create_pop = {
@@ -447,7 +447,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 11200
 			}
 			create_pop = {
@@ -505,7 +505,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 2000
 			}
 			create_pop = {
@@ -549,7 +549,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 8000
 			}
 			create_pop = {
@@ -612,7 +612,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 4000
 			}
 			create_pop = {
@@ -666,7 +666,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 105000
 			}
 			create_pop = {
@@ -779,7 +779,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 2000
 			}
 			create_pop = {
@@ -1396,7 +1396,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 2000
 			}
 			create_pop = {
@@ -1412,6 +1412,10 @@
 			create_pop = {
 				culture = turkish
 				size = 598129
+			}
+			create_pop = {
+				culture = armenian
+				size = 7368
 			}
 			create_pop = {
 				culture = greek
@@ -1436,7 +1440,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 52400
 			}
 			create_pop = {
@@ -1467,7 +1471,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 20100
 			}
 			create_pop = {
@@ -1494,7 +1498,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 43000
 			}
 			create_pop = {
@@ -1540,7 +1544,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 5000
 			}
 			create_pop = {
@@ -1576,7 +1580,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 11400
 			}
 			create_pop = {
@@ -1601,7 +1605,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 30100
 			}
 			create_pop = {
@@ -1638,7 +1642,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 18732
 			}
 			create_pop = {
@@ -1690,7 +1694,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 4300
 			}
 			create_pop = {
@@ -1793,7 +1797,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = circassian
 				size = 81000
 			}
 			create_pop = {

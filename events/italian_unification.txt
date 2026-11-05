@@ -107,6 +107,15 @@ italian_unification.1 = {
 				add_claim = ROOT
 			}
 		}
+		ig:ig_petty_bourgeoisie = {
+			set_ig_trait = ig_trait:ig_trait_galantuomini
+		}
+		ig:ig_intelligentsia = {
+			set_ig_trait = ig_trait:ig_trait_segundo_renacimiento
+		}
+		ig:ig_armed_forces = {
+			set_ig_trait = ig_trait:ig_trait_by_blood_alone
+		}		
 	}
 	option = {
 		name = italian_unification.1.b
@@ -174,6 +183,16 @@ italian_unification.1 = {
 				add_claim = ROOT
 			}
 		}
+
+		ig:ig_petty_bourgeoisie = {
+			set_ig_trait = ig_trait:ig_trait_galantuomini
+		}
+		ig:ig_intelligentsia = {
+			set_ig_trait = ig_trait:ig_trait_segundo_renacimiento
+		}
+		ig:ig_armed_forces = {
+			set_ig_trait = ig_trait:ig_trait_by_blood_alone
+		}		
 		
 		# ruler IG attraction
 		scope:ruler_ig_scope = {
@@ -189,6 +208,7 @@ italian_unification.1 = {
 		}
 		remove_modifier = unification_candidate
 	}
+	
 }
 
 # Annex an Italian country

@@ -184,7 +184,7 @@
 			else_if = {
 					limit = {
 						owner = {
-							c:BIC ?= this
+							c:PEC ?= this
 						}
 					}
 					# Name
@@ -240,7 +240,7 @@
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
-				c:BIC ?= this
+				c:PEC ?= this
 				any_primary_culture = {
 					cu:british = this
 				}
@@ -312,7 +312,7 @@
 						shares_language_trait_group_with_any_primary_culture = prev.owner
 					}
 					AND = {
-						c:BIC ?= prev.owner
+						c:PEC ?= prev.owner
 						has_discrimination_trait_group = heritage_group_south_asian
 					}
 					AND = {
@@ -328,15 +328,19 @@
 				}
 			}
 		}
-		NOR = {
+		NOT = {
 			is_pop_type = aristocrats
-			trigger_if = {
-				limit = {
-					NOT = {
-						c:BIC ?= owner
-					}
-				}
+		}
+		OR = {
+			NOT = {
 				is_pop_type = capitalists
+			}
+			custom_tooltip = {
+				text = capitalist_in_british_india_tt
+				AND = {
+					is_pop_type = capitalists
+					c:PEC ?= owner
+				}
 			}
 		}
 		OR = {
@@ -442,6 +446,19 @@
 			}
 		}
 
+		if = {
+			limit = {
+				is_pop_type = bureaucrats
+				owner.ig:ig_intelligentsia ?= {
+					has_ideology = ideology:ideology_managerial
+				}
+			}
+			multiply = {
+				desc = "POP_BUREAUCRATS_MANAGERIAL_INTELLIGENTSIA"
+				value = 0.5
+			}
+		}
+
 		add = {
 			desc = "HOMESTEADING_LAW"
 			if = {
@@ -482,7 +499,7 @@
 
 		if = {
 			limit = {
-				c:BIC ?= owner
+				c:PEC ?= owner
 				culture = {
 					has_discrimination_trait_group = heritage_group_european
 				}
@@ -495,7 +512,7 @@
 
 		if = {
 			limit = {
-				c:BIC ?= owner
+				c:PEC ?= owner
 				culture = {
 					has_discrimination_trait_group = heritage_group_south_asian
 				}

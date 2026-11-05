@@ -7,7 +7,7 @@
 	ideologies = {
 		ideology_jingoist
 		ideology_loyalist
-		ideology_patriotic
+		ideology_militarist
 	}
 
 	character_ideologies = {
@@ -27,6 +27,7 @@
 	}
 
 	on_enable = {
+		# ONLY HANDLE IG TRAITS IN THIS BLOCK
 		ig:ig_armed_forces ?= {
 			if = {
 				limit = {
@@ -120,7 +121,7 @@
 				limit = {
 					owner = {
 						has_dlc_feature = ip2_content
-						c:BIC ?= this
+						c:PEC ?= this
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_divided_ranks
@@ -167,9 +168,11 @@
 				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 			}
 		}
-		# Caudillo Ideology
-		if = {
+
+		# FLAVOUR AND IDEOLOGIES GO HERE
+		if = { # Caudillo Ideology
 			limit = {
+				is_in_geographic_region = geographic_region_latin_america
 				OR = {
 					country_has_primary_culture = cu:platinean
 					country_has_primary_culture = cu:south_andean
@@ -178,12 +181,12 @@
 					country_has_primary_culture = cu:mexican
 				}
 			}
+			add_modifier = age_of_caudillos_modifier
 			ig:ig_armed_forces ?= {
 				add_ideology = ideology_caudillismo
 			}
 		}
-		# Samurai
-		else_if = {
+		else_if = { # Samurai
 			limit = {
 				country_has_primary_culture = cu:japanese
 				NOT = { has_global_variable = fall_of_the_samurai_global_var }
@@ -193,17 +196,15 @@
 				set_interest_group_name = ig_samurai
 			}
 		}
-		# India
-		else_if = {
+		else_if = { # British India
 			limit = {
-				c:BIC ?= this
+				c:PEC ?= this
 			}
 			ig:ig_armed_forces ?= {
 				set_interest_group_name = ig_presidency_armies
 			}
 		}
-		# Sikh Empire
-		else_if = {
+		else_if = { # Sikh Empire
 			limit = {
 				c:PAN ?= this
 			}
@@ -213,13 +214,22 @@
 				add_ideology = ideology_sikh_militancy
 			}
 		}
+		# Russia
+		else_if = {
+			limit = {
+				c:RUS ?= this
+			}
+			ig:ig_armed_forces ?= {
+				add_ideology = ideology_tsarist
+			}
+		}
 	}
 	on_disable = {}
 
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
-				c:BIC ?= this
+				c:PEC ?= this
 				any_primary_culture = {
 					cu:british = this
 				}
@@ -299,6 +309,7 @@
 							OR = {
 								has_law_or_variant = law_type:law_colonial_resettlement
 								has_law_or_variant = law_type:law_frontier_colonization
+								has_law_or_variant = law_type:law_internal_colonization
 							}
 						}
 						state = {
@@ -411,6 +422,14 @@
 					}
 					add = 50
 				}
+				if = {
+					limit = {
+						owner = {
+							has_law = law_type:law_military_bureaucrats
+						}
+					}
+					add = 50
+				}
 			}
 		}
 
@@ -467,16 +486,15 @@
 			}
 		}
 
-		add = {
-			desc = "POP_MILITARY_BUREAUCRACY"
-			if = {
-				limit = {
-					is_pop_type = bureaucrats
-					owner = {
-						c:ALK ?= this
-						has_government_type = gov_chartered_company
-					}
+		if = {
+			limit = {
+				is_pop_type = bureaucrats
+				owner = {
+					has_law = law_type:law_military_bureaucrats
 				}
+			}
+			add = {
+				desc = "POP_MILITARY_BUREAUCRACY"
 				value = 100
 			}
 		}
@@ -618,7 +636,7 @@
 	commander_weight = {
 		value = 5.0
 	}
-	
+
 	magnate_weight = {
 		value = 1.0
 	}
@@ -707,7 +725,7 @@
 	commander_leader_weight = {
 		value = 3.0
 	}
-	
+
 	# Multiplier applied to the weight for an appropriate magnate will be selected from the character pool to lead the IG
 	# root = interest group
 	magnate_leader_weight = {

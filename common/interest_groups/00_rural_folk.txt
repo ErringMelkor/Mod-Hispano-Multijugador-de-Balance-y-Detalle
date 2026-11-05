@@ -27,6 +27,7 @@
 	}
 
 	on_enable = {
+		# ONLY HANDLE IG TRAITS IN THIS BLOCK
 		ig:ig_rural_folk ?= {
 			if = {
 				limit = {
@@ -84,7 +85,7 @@
 				limit = {
 					owner = { 
 						OR = {
-							c:BIC ?= this
+							c:PEC ?= this
 							any_primary_culture = {
 								has_discrimination_trait_group = heritage_group_south_asian
 								NOT = {
@@ -176,7 +177,7 @@
 		else_if = {
 			limit = {
 				OR = {
-					c:BIC ?= this
+					c:PEC ?= this
 					any_primary_culture = {
 						has_discrimination_trait_group = heritage_group_south_asian
 						NOT = {
@@ -201,12 +202,26 @@
 				set_interest_group_name = ig_kisanharu
 			}
 		}
+		else_if = {
+			limit = {
+				c:EGY ?= this
+			}
+			ig:ig_rural_folk ?= { set_interest_group_name = ig_fellahin }
+		}
+		else_if = { # Germans
+			limit = {
+				any_primary_culture = {
+					has_discrimination_trait = language_germanophone
+				}
+			}
+			ig:ig_rural_folk ?= { set_interest_group_name = ig_landvolk }
+		}
 	}
 	on_disable = {}
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
-				c:BIC ?= this
+				c:PEC ?= this
 				any_primary_culture = {
 					cu:british = this
 				}
@@ -340,7 +355,7 @@
 
 		if = {
 			limit = {
-				c:BIC ?= owner
+				c:PEC ?= owner
 				culture = {
 					has_discrimination_trait_group = heritage_group_european
 				}
@@ -468,13 +483,28 @@
 	commander_weight = {
 		value = 1.0
 	}
-	
+
 	magnate_weight = {
 		value = 0.25
 	}
 
 	executive_weight = {
 		value = 0.1
+
+		# The company owning BIC should not get non-industrialist executives
+		if = {
+			limit = {
+				exists = scope:company
+				exists = c:PEC
+				c:PEC ?= {
+					exists = owning_company
+					owning_company = scope:company
+				}
+			}
+			multiply = {
+				value = 0
+			}
+		}
 	}
 
 	noble_chance = {
