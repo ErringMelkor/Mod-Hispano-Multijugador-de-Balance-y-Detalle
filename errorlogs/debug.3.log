@@ -1,0 +1,356 @@
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/clausewitz
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/jomini
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/platform_specific_game_data
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game
+[20:06:55][jomini_game_setup.cpp:134]: Log system initialized.
+[20:06:55][pdx_task.cpp:87]: Spawning 9 normal worker threads
+[20:06:55][pdx_task.cpp:88]: Spawning 4 below normal worker threads
+[20:06:55][systemsettings.cpp:332]: "default_settings_v1_file" is not defined in path.settings. Default "pdx_default_settings.json" will be used.
+[20:06:55][systemsettings.cpp:332]: "settings_v1_file" is not defined in path.settings. Default "pdx_settings.json" will be used.
+[20:06:55][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "resolution" setting in "Graphics" category.
+[20:06:55][defines.cpp:230]: Define 'name' defined in 'common/defines/00_audio_persistent_objects.txt' not specified. Maybe a define macro is missing
+[20:06:55][defines.cpp:230]: Define 'scope' defined in 'common/defines/00_audio_persistent_objects.txt' not specified. Maybe a define macro is missing
+[20:06:55][defines.cpp:230]: Define 'FLAGSHIP_DECORATION_LOCATOR' defined in 'common/defines/00_graphics.txt' not specified. Maybe a define macro is missing
+[20:06:55][pdxfilewatcher_windows.cpp:363]: Invalid path passed in Directories: C:/Users/ricar/Documents/Paradox Interactive/Victoria 3/tools_import
+[20:06:55][main.cpp:564]: Total startup duration: 0.189293 seconds
+[20:06:55][pdx_account.cpp:600]: Starting up PDX SDK
+[20:06:55][gfx_dx11_master_context.cpp:149]: Adapter 0: AMD Radeon RX 6800 XT (16338.22 MB)
+[20:06:55][gfx_dx11_master_context.cpp:149]: Adapter 1: Microsoft Basic Render Driver (0.00 MB)
+[20:06:55][gfx_dx11_master_context.cpp:149]: Selected adapter: AMD Radeon RX 6800 XT (16338.22 MB)
+[20:06:55][gfx_dx11_master_context.cpp:296]: VendorId: 4098
+[20:06:55][gfx_dx11_master_context.cpp:297]: DeviceId: 29631
+[20:06:55][gfx_dx11_master_context.cpp:298]: SubSysId: 1728126638
+[20:06:55][gfx_dx11_master_context.cpp:299]: Revision: 193
+[20:06:55][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "upscale" setting in "Graphics" category.
+[20:06:55][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "upscale_quality" setting in "Graphics" category.
+[20:06:55][pdx_json_settings.cpp:325]: [SPdxJsonSettingsIO] "pdx_settings.json" file lacks "multi_sampling" setting in "Graphics" category.
+[20:06:55][pdx_audio2.cpp:540]: Legacy setting: audio_profile_headphones_path, use audio_profiles setting instead
+[20:06:55][pdx_audio2.cpp:547]: Legacy setting: audio_profile_tv_path, use audio_profiles setting instead
+[20:06:55][pdx_audio2.cpp:554]: Legacy setting: audio_profile_nightmode_path, use audio_profiles setting instead
+[20:06:55][pdx_audio2.cpp:614]: Creating FMOD sound engine
+[20:06:55][jominiapplication.cpp:698]: DLC:
+Voice of the People Preorder|dlc/dlc006_voice_of_the_people_preorder/dlc006.dlc
+State and Revolution|dlc/dlc019_ip5/dlc019_ip5.dlc
+Pivot of Empire|dlc/dlc011_ip2/dlc011_ip2.dlc
+Victoria 2 Remastered Soundtrack|dlc/dlc001_preorder/dlc001.dlc
+National Awakening|dlc/dlc014_ip3/dlc014_ip3.dlc
+The Great Wave|dlc/dlc018_ep2/dlc018_ep2.dlc
+Songs of the Homeland|dlc/dlc015_songs_of_the_homeland/dlc015.dlc
+Region Pack 1|dlc/dlc008_rp1/dlc008_rp1.dlc
+Free Trains Pack|dlc/dlc009_trains_pack/dlc009_trains_pack.dlc
+Sphere of Influence|dlc/dlc/dlc010_ep1/dlc010_ep1.dlc
+Dawn of Wonder|dlc/dlc007_ap1/dlc007_ap1.dlc
+Warships Bonus Pack|dlc/dlc017_warships_bonus_pack/dlc017_warships_bonus_pack.dlc
+Voice of the People|dlc/dlc004_voice_of_the_people/dlc004.dlc
+Trade Ships Bonus Pack|dlc/dlc012_trade_ships_bonus_pack/dlc012_trade_ships_bonus_pack.dlc
+Charters of Commerce|dlc/dlc013_mp1/dlc013_mp1.dlc
+Melodies for the Masses|dlc/dlc003_melodies_for_the_masses/dlc003.dlc
+American Buildings Pack|dlc/dlc002_american_buildings/dlc002.dlc
+Iberian Twilight|dlc/dlc016_ip4/dlc016_ip4.dlc
+Mod:
+Mod Hispano Multijugador de Balance y Detalle|C:\Users\ricar\Documents\Paradox Interactive\Victoria 3\mod\Mod Hispano Multijugador de Balance y Detalle
+
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc017_warships_bonus_pack
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc006_voice_of_the_people_preorder
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc004_voice_of_the_people
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc001_preorder
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc012_trade_ships_bonus_pack
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc018_ep2
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc019_ip5
+[20:06:55][dlc.cpp:422]: Folder not found for DLC/Mod dlc010: 
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc015_songs_of_the_homeland
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc008_rp1
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc011_ip2
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc014_ip3
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc003_melodies_for_the_masses
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc016_ip4
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc009_trains_pack
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc007_ap1
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc013_mp1
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Program Files (x86)/Steam/steamapps/common/Victoria 3/game/dlc/dlc002_american_buildings
+[20:06:55][virtualfilesystem_physfs.cpp:460]: Mounted Data: C:/Users/ricar/Documents/Paradox Interactive/Victoria 3/mod/Mod Hispano Multijugador de Balance y Detalle
+[20:06:55][dlc.cpp:748]: Mod Mod Hispano Multijugador de Balance y Detalle (3575706432) version  successfully matched game version 1.15.0.
+[20:06:56][pdx_matchmaking.cpp:62]: Matchmaking Interface: Steam
+[20:06:56][defines.cpp:230]: Define 'CHANGE_STRATEGY_POLITICAL_NEW_RULER' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MIN_COMBAT_UNITS_FOR_MULTIPLE_COMMANDERS_ABSOLUTE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MIN_COMBAT_UNITS_FOR_MULTIPLE_COMMANDERS_RELATIVE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RETIRE_COMMANDER_INTERACTION_KEY' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'COMMANDER_DESIRED_RANK_DISPARITY_IN_ARMY' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'COMMANDER_DESIRED_RANK_DISPARITY_IN_FLEET' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RECRUITABLE_COMMANDER_RANDOM_FACTOR' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'DIPLO_PLAY_DECIDE_ON_SUPPORT_ESCALATION' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'DIPLO_PLAY_FORCE_BALANCE_NAVY_FACTOR' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'INVADE_STATE_OWN_CAPITAL_WEIGHT_MULT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'NAVAL_INVASION_COOLDOWN_DAYS' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SHIP_CONSTRUCTION_WANTED_SHIPS_TO_BUILD_COST_FACTOR' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SHIP_CONSTRUCTION_WANTED_BUILT_SHIPS_COST_FACTOR' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MIN_SHIPS_TO_TRANSFER' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'HQ_DEFENSE_MIN_THEATER_SCORE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'NUM_DAYS_TO_REMEMBER_FAILED_FRONT_OR_HQ_ASSIGNMENT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BLOCKADE_ORDER_LEVEL_DELTA_WEIGHT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BLOCKADE_ORDER_NAVY_STRENGTH_RATIO_MULT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_RAID_CONVOYS_TASK_SCORE_FROM_STRENGTH' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_ESCORT_CONVOYS_TASK_SCORE_FROM_DEFENSE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_DEFEND_FROM_CONVOY_RAID_TASK_SCORE_FROM_PROTECTION' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_DEFEND_FROM_NAVAL_INVASION_TASK_SCORE_FROM_PROJECTION' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_DEFEND_FROM_NAVAL_INVASION_TASK_SCORE_FROM_SHIPS' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_DEFEND_FROM_BLOCKADE_TASK_SCORE_FROM_STRENGTH' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_MISSION_MAX_SEA_REGIONS' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RAID_CONVOYS_ORDER_SCORE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'INTERCEPT_ORDER_SCORE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SEA_NODE_OFFENSIVE_FLEET_SHIPPING_LANES_WEIGHT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SEA_NODE_OFFENSIVE_FLEET_STATE_BLOCKADE_WEIGHT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MONEY_SPENDING_LAND_THREAT_THRESHOLD' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MONEY_SPENDING_NAVY_THREAT_THRESHOLD' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MONEY_SPENDING_PRESTIGE_RIVAL_THRESHOLD' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_LOCAL_CONSUMPTION_MULTIPLIER' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_BELOW_DESIRED_INFRASTRUCTURE_FACTOR_MULT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_LOW_INVESTMENT_RESET_TIME' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'POWER_BLOC_STATUE_RANDOM_FACTOR' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'TREATIES_ACCEPTANCE_BASE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'PORT_BOMBARDMENT_ENEMY_NAVAL_POWER_MULT' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'COMFORTABLE_HQ_NAVY_SIZE' defined in 'common/defines/00_ai.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'name' defined in 'common/defines/00_audio_persistent_objects.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'scope' defined in 'common/defines/00_audio_persistent_objects.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SAVE_VERSION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'LAW_ENACTMENT_RULER_IDEOLOGY_EFFECT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CIVIL_WAR_UPRISING_STATE_EXCESSIVE_ARMY_FRACTION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'TRADE_CENTER_PREFERENCE_BASE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'PEASANT_STARTING_WAGE_RATE_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BUILDING_MAX_PROFIT_TO_PAUSE_HIRES' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WORLD_MARKET_MONOPOLY_MIN_SHARE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'INITIAL_MANPOWER_COST_MULTIPLIER' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MANPOWER_DIVISOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MIN_VARIABLE_DISTRIBUTION_PER_POP' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'MAX_VARIABLE_DISTRIBUTION_PER_POP' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'COMBAT_UNITS_PER_LEVEL' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_BASE_MIN_PROVINCES_TAKEN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_BASE_MAX_PROVINCES_TAKEN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_FRONT_PROVINCES_NUM_DIVISOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_THEATER_PROVINCES_NUM_DIVISOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_ATTACKING_UNIT_SCALE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_MAX_DEPTH_MIN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_MAX_DEPTH_MAX' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_MAX_DEPTH_FRONT_PROVINCES_NUM_DIVISOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_MAX_DEPTH_THEATER_PROVINCES_NUM_DIVISOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'DEFENSIVE_PROVINCES_RETAKEN_MAX_DEPTH' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_THEATER_UNIT_SCALE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_MAX_EXTRA' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_THEATER_MIN_SCALE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'BATTLE_PROVINCES_TAKEN_ABSOLUTE_MIN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_COOLDOWN_DAYS_MIN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_COOLDOWN_DAYS_MAX' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_MAX_DEFENSE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_GLOBAL_RECOVERY_RATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_LOCAL_RECOVERY_RATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONVOY_RAIDING_RECOVERY_RATE_PEACETIME_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'UNNECESSARY_PROMOTION_ARMED_FORCES_IG' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RIVALRY_SCALING_PER_INTEREST' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_JOIN_POWER_BLOC' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_LEAVE_POWER_BLOC' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_COLONIZATION_RIGHTS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_FORCE_NATIONALIZATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_HUMILIATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_UNIFICATION_LEADERSHIP' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_OPEN_MARKET' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_REGIME_CHANGE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_ANNEX_COUNTRY' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_LIBERATE_COUNTRY' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_MAKE_PROTECTORATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_REDUCE_AUTONOMY' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_INCREASE_AUTONOMY' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_MAKE_TRIBUTARY' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_MAKE_DOMINION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_CONQUER_STATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_RETURN_STATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_REVOKE_CLAIM' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_REVOKE_ALL_CLAIMS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_CONTAIN_THREAT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_TRANSFER_SUBJECT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_LIBERATE_SUBJECT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_UNIFICATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_INDEPENDENCE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_SECESSION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_HOMELAND_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'SWAY_OFFER_WARGOAL_MANEUVERS_COST_UNINCORPORATED_FACTOR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_LIBERATE_COUNTRY_MIN_POPULAR_SUPPORT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MULT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MIN' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_INFAMY_SHIP_TRANSFER_SHARE_MAX' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_INFAMY_SHIP_TRANSFER_FLAGSHIP_MULT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'INTEREST_NUM_DAYS_CHANGE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'JOIN_COOLDOWN_MONTHS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RADICALS_MAX_FROM_DISCRIMINATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'RADICALS_MONTHLY_FROM_DISCRIMINATION' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'HIGH_POP_THRESHOLD' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CULTURAL_FERVOR_PUBLIC_SCHOOLS_IMPACT' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'ROLE_RULER' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'ROLE_HEIR' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'TARGET_NUM_POOL_POLITICIANS_POWERFUL_IG' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'TARGET_NUM_POOL_POLITICIANS_INFLUENTIAL_IG' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'TARGET_NUM_POOL_POLITICIANS_MARGINAL_IG' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_INTERCEPT_CHANCE_BASE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLEET_RAID_SUPPLY_CHANCE_BASE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'DEVASTATION_INCREASE_RATE' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_UNCONTESTED_DROP_WAR_MONTHS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_UNCONTESTED_DROP_GOAL_MONTHS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'WAR_GOAL_UNCONTESTED_WARNING_MONTHS' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'CONNECTION_DOCKING_COST' defined in 'common/defines/00_defines.txt' not specified. Maybe a define macro is missing
+[20:06:56][defines.cpp:230]: Define 'FLAGSHIP_DECORATION_LOCATOR' defined in 'common/defines/00_graphics.txt' not specified. Maybe a define macro is missing
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/models'(.asset, , -1)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'fonts'(.font, , -1)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gui'(.gui, , -1)
+[20:06:56][application.cpp:925]: Starting checksum calculation
+[20:06:56][application.cpp:975]: Feeding into checksum: BLOCK_MP_AND_IRONMAN
+[20:06:56][application.cpp:983]: Feeding game version into checksum: 1.15.0
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/loadingscreens'(.dds, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/frontend/interface/frontend/startscreen.dds'(.dds, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/script_values'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_effects'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_triggers'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_modifiers'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_lists'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_guis'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/scripted_rules'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/customizable_localization'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/named_colors'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/coat_of_arms/coat_of_arms'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/coat_of_arms/template_lists'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/ethnicities'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/genes'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/accessory_variations'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/accessories'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/portrait_animations'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/cameras/'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/environments/'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/portraits/portrait_modifiers'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/game_concepts'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/ai_strategies'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/alert_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/buildings'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/building_groups'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/buy_packages'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/pop_needs'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/cultures'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/country_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/country_ranks'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/diplomatic_actions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/diplomatic_plays'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/dynamic_country_names'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'fonts'(.font, , -1) in 0.010 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/game_rules'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/goods'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/ideologies'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/interest_groups'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/interest_group_traits'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/loadingscreens'(.dds, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/government_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/frontend/interface/frontend/startscreen.dds'(.dds, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/on_actions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/script_values'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/objectives'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/objective_subgoals'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_effects'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/objective_subgoal_categories'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_triggers'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/proposal_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_modifiers'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/laws'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/institutions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/journal_entries'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_lists'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/law_groups'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/pop_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_guis'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/scripted_rules'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/customizable_localization'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/religions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/named_colors'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/subject_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/state_traits'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/coat_of_arms/coat_of_arms'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/strategic_regions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/technology/eras'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/coat_of_arms/template_lists'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/character_traits'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/character_templates'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/ethnicities'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/genes'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/country_definitions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/country_formation'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/country_creation'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/accessory_variations'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/terrain'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'events'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'map_data/state_regions'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gui'(.gui, , -1) in 0.021 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/accessories'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/map/city_data/city_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/portrait_animations'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/map/spline_network/route_graphics'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/cameras/'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/map/spline_network/military_route_graphics'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/environments/'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/portraits/portrait_modifiers'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/achievements'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/game_concepts'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/ai_strategies'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/map/gradient_border_settings'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/alert_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'gfx/map/map_modes'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/buildings'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/map_interaction_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/building_groups'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/buy_packages'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:420]: Starting pre-enumerating 'common/company_charter_types'(.txt, , 0)
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/pop_needs'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/cultures'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/country_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/country_ranks'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/diplomatic_actions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/diplomatic_plays'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/dynamic_country_names'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/game_rules'(.txt, , 0) in 0.000 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/goods'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/ideologies'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/interest_groups'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/interest_group_traits'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/government_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/on_actions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/objectives'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/objective_subgoals'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/objective_subgoal_categories'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/proposal_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/laws'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/institutions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/law_groups'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/journal_entries'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/religions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/pop_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/subject_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/state_traits'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/strategic_regions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/technology/eras'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/character_traits'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/character_templates'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/country_definitions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/country_formation'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/country_creation'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/terrain'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'events'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'map_data/state_regions'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/map/city_data/city_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/map/spline_network/route_graphics'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/map/spline_network/military_route_graphics'(.txt, , 0) in 0.001 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/achievements'(.txt, , 0) in 0.000 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/map/gradient_border_settings'(.txt, , 0) in 0.000 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'gfx/map/map_modes'(.txt, , 0) in 0.000 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/map_interaction_types'(.txt, , 0) in 0.000 seconds
+[20:06:56][virtualfilesystem.cpp:388]: Done enumerating 'common/company_charter_types'(.txt, , 0) in 0.001 seconds
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 38 and column 10 in localization/english/1.13_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 49 and column 11 in localization/english/1.13_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 60 and column 17 in localization/english/1.13_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 71 and column 9 in localization/english/1.13_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 82 and column 10 in localization/english/1.13_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 73 and column 22 in localization/english/1.14_mhmbd_l_english.yml
+[20:06:56][localization_reader.cpp:451]: Missing colon (:) separator at line 77 and column 17 in localization/english/1.14_mhmbd_l_english.yml
