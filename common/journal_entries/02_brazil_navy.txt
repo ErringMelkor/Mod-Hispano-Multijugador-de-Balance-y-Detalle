@@ -98,7 +98,7 @@ je_brazil_navy = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = {
 			id = brazil_navy.4
 			popup = yes

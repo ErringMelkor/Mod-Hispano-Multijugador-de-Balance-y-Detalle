@@ -91,7 +91,7 @@ je_prestige_good_specialty_sugar = {
         }
     }
 
-    on_complete = {
+    effect = {
         if = {
             limit = {
                 exists = scope:relevant_company
@@ -220,7 +220,7 @@ je_prestige_good_premium_liquor = {
         }
     }
 
-    on_complete = {
+    effect = {
         if = {
             limit = {
                 exists = scope:relevant_company
@@ -349,7 +349,7 @@ je_prestige_good_ultra_food = {
         }
     }
 
-    on_complete = {
+    effect = {
         if = {
             limit = {
                 exists = scope:relevant_company
@@ -478,7 +478,7 @@ je_prestige_good_tempered_glass = {
         }
     }
 
-    on_complete = {
+    effect = {
         if = {
             limit = {
                 exists = scope:relevant_company

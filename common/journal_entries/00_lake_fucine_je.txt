@@ -7,7 +7,7 @@
 		NOT = { has_modifier = lake_fucine_draining_modifier }
 	}
 
-	on_complete = {
+	effect = {
 		remove_modifier = lake_fucine_draining_modifier
 		trigger_event = { id = lake_fucine.1 }
 	}

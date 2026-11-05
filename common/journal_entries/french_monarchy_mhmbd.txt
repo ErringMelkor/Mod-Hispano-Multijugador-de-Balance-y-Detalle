@@ -1,6 +1,6 @@
 INJECT:je_cement_the_rightful_dynasty = {
 
-	on_complete = {
+	effect = {
 		add_loyalists = {
 			value = 0.1
 			culture = cu:french

@@ -14,7 +14,7 @@
 		}
 	}
 
-	on_complete = {
+	effect = {
 		add_modifier = {
 			name = modifier_legacy_imperial_examinations
 			months = 180

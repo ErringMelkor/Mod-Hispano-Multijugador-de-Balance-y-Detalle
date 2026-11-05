@@ -72,7 +72,7 @@ je_bourbon_instability = {
 		has_technology_researched = nationalism
 	}
 
-	on_complete = {
+	effect = {
 		add_modifier = {
 			name = bourbon_integration
 			years = 15

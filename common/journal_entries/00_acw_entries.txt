@@ -17,7 +17,7 @@
 		has_law_or_variant = law_type:law_slavery_banned
 	}
 
-	on_complete = {
+	effect = {
 		set_variable = je_acw_countdown_complete
 		remove_modifier = missouri_compromise
 		trigger_event = { id = slavery_law_events.7 days = 0 popup = yes }
@@ -103,7 +103,7 @@ je_acw_war = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = acw_je_events.2 }
 		if = {
 			limit = {
@@ -141,7 +141,7 @@ je_acw_reconstruction = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = acw_je_events.3 }
 		hidden_effect = { # sanity check just in case something somehow falls through the cracks
 			every_scope_state = {
@@ -218,7 +218,7 @@ je_acw_reincorporate = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		clear_variable_list = acw_dixie_states
 		custom_tooltip = {
 			text = dont_lose_dixie_culture
@@ -318,7 +318,7 @@ je_acw_equality = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		custom_tooltip = {
 			text = acw_african_american_culture
 			set_variable = acw_gain_african_american
@@ -380,7 +380,7 @@ je_acw_wild_wild_west = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		custom_tooltip = {
 			text = acw_no_outlaw_crisis
 		}

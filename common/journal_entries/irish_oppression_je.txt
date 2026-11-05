@@ -10,7 +10,7 @@
 		}
 	}
 
-	on_complete = {
+	effect = {
 		ig:ig_landowners = {
 			remove_ideology = ideology_british_hegemony
 		}

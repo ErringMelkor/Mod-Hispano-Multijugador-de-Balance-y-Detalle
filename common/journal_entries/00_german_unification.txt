@@ -89,7 +89,7 @@
 		NOT = { has_modifier = schleswig_holstein_question_solver }
 	}
 
-	on_complete = {
+	effect = {
 		add_modifier = {
 			name = schleswig_holstein_question_solver
 			days = long_modifier_time
@@ -152,7 +152,7 @@ je_german_unification_idea = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		hidden_effect = {
 			if = {
 				limit = {
@@ -318,7 +318,7 @@ je_north_german_unification = {
 			limit = {
 				c:PRU ?= this
 			}
-			trigger_event = { id = german_unification.6 } 
+			trigger_event = { id = german_unification.8 } 
 		}
 	}
 
@@ -331,7 +331,7 @@ je_north_german_unification = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = german_unification.1 } # North German Confederation
 		remove_variable = je_unification_progress
 	}
@@ -390,7 +390,7 @@ je_south_german_unification = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = german_unification.1 } # South German Confederation
 		remove_variable = je_unification_progress
 	}
@@ -434,11 +434,11 @@ je_german_unification = {
 	complete = {
 		custom_tooltip = {
 			c:GER ?= this
-			text = je_german_unification_complete_trigger_desc
+			text = je_german_unificatieffect_trigger_desc
 		}
 	}
 
-	on_complete = {
+	effect = {
 		show_as_tooltip = {
 			trigger_event = { id = german_unification.4 popup = yes } # German Unification
 		}

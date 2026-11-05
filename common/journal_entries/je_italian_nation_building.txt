@@ -187,7 +187,7 @@ je_questione_della_lingua = {
 			}
 	}
 
-	on_complete = {
+	effect = {
 		clear_variable_list = vernacular_policy_assimilation_states
 		if = {
 			limit = {

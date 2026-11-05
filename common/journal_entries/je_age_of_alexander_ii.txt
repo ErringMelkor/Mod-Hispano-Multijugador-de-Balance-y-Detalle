@@ -38,7 +38,7 @@ je_age_of_alexander_ii = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		remove_modifier = modifier_alexander_ii_rule
 		add_modifier = {
 			name = modifier_alexander_ii_legacy

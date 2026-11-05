@@ -87,7 +87,7 @@
 		}
 	}
 
-	on_complete = {
+	effect = {
 		show_as_tooltip = {
 			trigger_event = { id = italian_unification.1 popup = yes }
 		}

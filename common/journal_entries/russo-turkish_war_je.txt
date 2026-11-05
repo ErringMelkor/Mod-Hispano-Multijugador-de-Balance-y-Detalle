@@ -59,7 +59,7 @@
 		has_variable = russo-turkish_war_initialization
 	}
 
-	on_complete = {
+	effect = {
 		
 	}
 
@@ -192,7 +192,7 @@ je_great_russo_turkish_war = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 
 		trigger_event = { id = russo-turkish_war.2  popup = yes } #russia wins the great russo turkish war.
 
@@ -377,7 +377,7 @@ je_western_russo_turkish_war = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = russo-turkish_war.3  popup = yes } #russia wins the western russo turkish war.
 		c:TUR ={
 			set_variable = russian_victory
@@ -543,7 +543,7 @@ je_eastern_russo_turkish_war = {
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = russo-turkish_war.4  popup = yes } #russia wins the eastern russo turkish war.
 
 		c:TUR = {
@@ -695,7 +695,7 @@ je_turkish_pov_war = { #ottoman perspective
 		}
 	}
 
-	on_complete = {
+	effect = {
 		trigger_event = { id = russo-turkish_war.6  popup = yes } #ottomans win the war.
 	}
 

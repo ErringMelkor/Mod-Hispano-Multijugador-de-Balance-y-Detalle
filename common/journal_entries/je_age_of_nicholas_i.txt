@@ -47,7 +47,7 @@
 		}
 	}
 
-	on_complete = {
+	effect = {
 		remove_modifier = modifier_nicholas_i_rule
 		add_modifier = {
 			name = modifier_nicholas_i_legacy

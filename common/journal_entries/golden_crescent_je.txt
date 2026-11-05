@@ -47,7 +47,7 @@
 		}
 	}
 
-	on_complete = {
+	effect = {
 		ig:ig_rural_folk = {
 			remove_ideology = ideology_agrarian
 			add_ideology = ideology_modern_agrarian
