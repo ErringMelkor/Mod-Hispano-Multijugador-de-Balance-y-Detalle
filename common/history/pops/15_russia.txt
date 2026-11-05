@@ -575,35 +575,40 @@
 			}
 		}
 	}
-	s:STATE_EAST_KARELIA = { #DONE
+	s:STATE_EAST_KARELIA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 114636
+				size = 99000
 			}
 			create_pop = {
 				culture = finnish
-				size = 757
+				size = 400
 			}
 			create_pop = {
 				culture = karelian
-				size = 53619
+				size = 70000
 			}
 		}
 	}
-	s:STATE_NENETSIA = { #DONE
+	s:STATE_NENETSIA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 17170
+				size = 6000
 			}
 			create_pop = {
 				culture = ugrian
-				size = 13904
+				religion = orthodox
+				size = 11500
+			}
+			create_pop = {
+				culture = ugrian
+				size = 6000
 			}
 		}
 	}
-	s:STATE_ARKHANGELSK = { #DONE
+	s:STATE_ARKHANGELSK = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -611,7 +616,7 @@
 			}
 		}
 	}
-	s:STATE_GALICH = { #DONE
+	s:STATE_VOLOGDA = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -628,7 +633,12 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = byelorussian
-				size = 512334
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 309127
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 203207
 			}
 			create_pop = {
 				culture = lithuanian
@@ -636,7 +646,12 @@
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 133659
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 98908
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 34751
 			}
 			create_pop = {
 				culture = polish
@@ -660,7 +675,12 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 569714
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 292068
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 277646
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -680,7 +700,12 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 514176
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 242513
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 271663
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -700,7 +725,12 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 317823
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 238367
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 79456
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -720,7 +750,12 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 526356
+				religion = catholic # Uniate Greek Catholic Church (Pre Synod of Polotsk)
+				size = 121062
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 405294
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -744,7 +779,7 @@
 			}
 		}
 	}
-	s:STATE_KIEV = { #DONE
+	s:STATE_KIEV = {
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
