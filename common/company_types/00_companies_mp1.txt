@@ -537,6 +537,12 @@ company_maison_worth = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+		if = {
+			limit = {
+				divided_monarchists_ai_backs_orleanist = yes
+			}
+			add = 6
+		}
 	}
 }
 
@@ -632,7 +638,7 @@ company_colt_firearms = {
 
 	flavored_company = yes
 
-	preferred_headquarters = { STATE_MASSACHUSETTS }
+	preferred_headquarters = { STATE_CONNECTICUT }
 
 	building_types = {
 		building_arms_industry
@@ -1174,6 +1180,7 @@ company_norsk_hydro = {
 
 	extension_building_types = {
 		building_sulfur_mine
+		building_copper_mine
 	}
 
 	potential = {

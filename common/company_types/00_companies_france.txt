@@ -140,6 +140,12 @@ company_schneider_creusot = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+		if = {
+			limit = {
+				divided_monarchists_ai_backs_orleanist = yes
+			}
+			add = 6
+		}
 	}
 }
 
@@ -223,6 +229,12 @@ company_dmc = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+		if = {
+			limit = {
+				divided_monarchists_ai_backs_orleanist = yes
+			}
+			add = 6
+		}
 	}
 }
 
@@ -367,6 +379,12 @@ company_saint_etienne = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+		if = {
+			limit = {
+				divided_monarchists_ai_backs_orleanist = yes
+			}
+			add = 6
+		}
 	}
 }
 
@@ -437,6 +455,12 @@ company_fcm = {
 
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
+		if = {
+			limit = {
+				divided_monarchists_ai_backs_orleanist = yes
+			}
+			add = 6
+		}
 	}
 }
 

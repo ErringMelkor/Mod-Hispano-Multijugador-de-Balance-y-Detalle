@@ -577,6 +577,7 @@ company_ericsson = {
 
 	extension_building_types = {
 		building_iron_mine
+		building_copper_mine
 	}
 
 	possible_prestige_goods = {
@@ -1129,7 +1130,7 @@ company_mozambique_company = {
 	building_types = {
 		building_cotton_plantation
 		building_tea_plantation
-		building_rice_farm
+		building_millet_farm
 	}
 
 	extension_building_types = {

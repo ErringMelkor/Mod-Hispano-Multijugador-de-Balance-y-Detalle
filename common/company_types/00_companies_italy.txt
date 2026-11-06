@@ -193,9 +193,6 @@ company_ricordi = {
 		building_vineyard
 	}
 
-	possible_prestige_goods = {
-	}
-
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
 	}
@@ -400,4 +397,3 @@ company_stt = {
 		value = 3 # Higher base value for flavored companies
 	}
 }
-
