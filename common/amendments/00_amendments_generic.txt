@@ -1,7 +1,7 @@
 ﻿amendment_generic_sponsor_polstr_increase = {
 
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.025
+		country_bureaucracy_investment_cost_factor_mult = 0.035
 	}
 
 	sponsor_modifier = {
@@ -21,13 +21,14 @@
 	}
 
 	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
 	}
 }
 
 amendment_generic_sponsor_polstr_approval_increase = {
 
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.065
+		country_bureaucracy_investment_cost_factor_mult = 0.075
 	}
 
 	sponsor_modifier = {
@@ -48,13 +49,14 @@ amendment_generic_sponsor_polstr_approval_increase = {
 	}
 
 	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
 	}
 }
 
 amendment_generic_sponsor_polstr_increase_negotiation_1 = {
 
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.05
+		country_bureaucracy_investment_cost_factor_mult = 0.075
 	}
 
 	sponsor_modifier = {
@@ -75,6 +77,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_1 = {
 	}
 
 	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
 	}
 
 	amendment_activism_multiplier = 0.1
@@ -83,7 +86,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_1 = {
 amendment_generic_sponsor_polstr_increase_negotiation_2 = {
 
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.075
+		country_bureaucracy_investment_cost_factor_mult = 0.125
 	}
 
 	sponsor_modifier = {
@@ -104,6 +107,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_2 = {
 	}
 
 	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
 	}
 
 	amendment_activism_multiplier = 0.3
@@ -112,7 +116,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_2 = {
 amendment_generic_sponsor_polstr_increase_negotiation_3 = {
 
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.1
+		country_bureaucracy_investment_cost_factor_mult = 0.175
 	}
 
 	sponsor_modifier = {
@@ -133,6 +137,7 @@ amendment_generic_sponsor_polstr_increase_negotiation_3 = {
 	}
 
 	can_repeal = {
+		legitimacy >= legitimacy_to_repeal_amendment
 	}
 
 	amendment_activism_multiplier = 0.5
