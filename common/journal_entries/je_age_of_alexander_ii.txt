@@ -21,8 +21,8 @@ je_age_of_alexander_ii = {
 		}
 	}
 
-	complete = {
-		trigger_if = {
+	outcome = {
+		trigger = {
 			limit = {
 				exists = scope:RUS_alexander_ii_scope
 			}
@@ -60,24 +60,30 @@ je_age_of_alexander_ii = {
 		}
 	}
 
-	fail = {
-	}
-
-	on_fail = {
-		remove_modifier = modifier_alexander_ii_rule
-		add_modifier = {
-			name = modifier_alexander_ii_disaster
-			years = 10
+	outcome = {
+		header = je_standard_failure_header
+		effect_header = je_standard_on_failure_header
+		color = "blue_negative"
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			any_civil_war = {
+				is_civil_war_type = revolution
+			}
 		}
+		effect = {
+			remove_modifier = modifier_alexander_ii_rule
+			add_modifier = {
+				name = modifier_alexander_ii_disaster
+				years = 10
+			}			
+		}	
 	}
-
 	invalid = {
 		NOT = {
 			has_law_or_variant = law_type:law_monarchy
 		}
 	}
-
-	weight = 1000
+	weight = 5000
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 

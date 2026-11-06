@@ -48,87 +48,99 @@ je_bourbon_instability = {
     }
 
 
-	complete = {
-		OR = {
-			AND = {
-				country_has_monarchy_law = yes
-				custom_tooltip = {
-					text = je_bourbon_instability_tt
-					scope:journal_entry ?= {
-						"scripted_bar_progress(bourbon_instability_progress_bar)" >= 100
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			OR = {
+				AND = {
+					country_has_monarchy_law = yes
+					custom_tooltip = {
+						text = je_bourbon_instability_tt
+						scope:journal_entry ?= {
+							"scripted_bar_progress(bourbon_instability_progress_bar)" >= 100
+						}
+					}
+				}
+				AND = {
+					country_has_monarchy_law = yes
+					any_subject_or_below = {
+						OR = {
+							country_definition = cd:SCI
+							was_formed_from = SCI
+						}
 					}
 				}
 			}
-			AND = {
-				country_has_monarchy_law = yes
-				any_subject_or_below = {
-					OR = {
-						country_definition = cd:SCI
-						was_formed_from = SCI
-					}
-				}
+			has_technology_researched = nationalism
+		}		
+		effect = {
+			add_modifier = {
+				name = bourbon_integration
+				years = 15
+				is_decaying = yes
+			}
+			add_loyalists = {
+				value = 0.5
+				culture = cu:south_italian
 			}
 		}
-		has_technology_researched = nationalism
 	}
 
-	effect = {
-		add_modifier = {
-			name = bourbon_integration
-			years = 15
-			is_decaying = yes
-		}
-		add_loyalists = {
-			value = 0.5
-			culture = cu:south_italian
-		}
-	}
-
-	fail = {
-		OR = {
-			country_has_monarchy_law = no
-			AND = {
-				NOT = {
-					OR = {
-						has_subject_relation_with = c:SCI
+	outcome = {
+		header = je_standard_failure_header
+		effect_header = je_standard_on_failure_header
+		color = "blue_negative"
+		conclusion_desc = je_standard_failure_conclusion_desc
+		trigger = {
+			OR = {
+				country_has_monarchy_law = no
+				AND = {
+					NOT = {
+						OR = {
+							has_subject_relation_with = c:SCI
+							c:SCI = {
+								has_state_in_state_region = STATE_SICILY
+							}
+						}
+					}
+					NOT = {
+						has_state_in_state_region = STATE_SICILY
+					}
+				}
+				AND = {
+					has_subject_relation_with = c:SCI
+					NOT = {
 						c:SCI = {
 							has_state_in_state_region = STATE_SICILY
 						}
 					}
-				}
-				NOT = {
-					has_state_in_state_region = STATE_SICILY
-				}
-			}
-			AND = {
-				has_subject_relation_with = c:SCI
-				NOT = {
-					c:SCI = {
+					NOT = {
 						has_state_in_state_region = STATE_SICILY
 					}
 				}
-				NOT = {
+				AND = {
+					has_subject_relation_with = c:SCI
 					has_state_in_state_region = STATE_SICILY
 				}
-			}
-			AND = {
-				has_subject_relation_with = c:SCI
-				has_state_in_state_region = STATE_SICILY
-			}
+			}			
 		}
+		effect = {
+			on_fail = {
+				add_radicals = {
+					value = 0.15
+					culture = cu:neapolitano
+				}
+				add_radicals = {
+					value = 0.25
+					culture = cu:siciliano
+				}
+			}
+		}		
 	}
 
-	on_fail = {
-		add_radicals = {
-			value = 0.15
-			culture = cu:neapolitano
-		}
-		add_radicals = {
-			value = 0.25
-			culture = cu:siciliano
-		}
-	}
-
-	weight = 100
+	weight = 5000
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }

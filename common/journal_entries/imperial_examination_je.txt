@@ -7,18 +7,19 @@
 		modifier_imperial_examinations
 	}
 
-	complete = {
-		institution_investment_level = {
-			institution = institution_schools
-			value >= 3
+	outcome = {
+		trigger = {
+			institution_investment_level = {
+				institution = institution_schools
+				value >= 3
+			}
 		}
-	}
-
-	effect = {
-		add_modifier = {
-			name = modifier_legacy_imperial_examinations
-			months = 180
-			is_decaying = yes
+		effect = {
+			add_modifier = {
+				name = modifier_legacy_imperial_examinations
+				months = 180
+				is_decaying = yes
+			}
 		}
 	}
 

@@ -139,8 +139,13 @@ je_questione_della_lingua = {
 		}
 	}
 
-	complete = {
-		any_scope_state = {
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			any_scope_state = {
 				filter = {
 					state_region = {
 						is_homeland = cu:north_italian
@@ -184,18 +189,18 @@ je_questione_della_lingua = {
 					text = VERNACULAR_POLICY_ASSIMILATION_STATES_SOUTH_ITALIAN_TT
 				}
 				percent = 0.75
-			}
-	}
-
-	effect = {
-		clear_variable_list = vernacular_policy_assimilation_states
-		if = {
-			limit = {
-				has_variable = chose_assimilation_var
-			}
-			trigger_event = {
-				id = questione_della_lingua_events.2
-				popup = yes
+			}			
+		}	
+		effect = {
+			clear_variable_list = vernacular_policy_assimilation_states
+			if = {
+				limit = {
+					has_variable = chose_assimilation_var
+				}
+				trigger_event = {
+					id = questione_della_lingua_events.2
+					popup = yes
+				}
 			}
 		}
 	}
@@ -210,7 +215,6 @@ je_questione_della_lingua = {
 
 	weight = 10000
 
-		
 	should_be_pinned_by_default_uninvolved_or_context = yes
 
 }

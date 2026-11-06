@@ -23,51 +23,51 @@
 		}
 	}
 
-	complete = {
-		any_scope_state = {
-			state_region = s:STATE_WESTPHALIA
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_coal_mine
-				level >= 15
-			}
-		}
-		any_scope_state = {
-			state_region = s:STATE_RUHR
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_coal_mine
-				level >= 15
-			}
-		}
-		any_scope_state = {
-			state_region = s:STATE_NORTH_RHINE
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_coal_mine
-				level >= 15
-			}
-		}
-		
-	}
-
-	effect = {
-		trigger_event = {
-			id = ruhr_boom.1
-		}
-		set_variable = {
-			name = ruhr_boom_done
-			value = yes
-		}
-	}
-
-	
-	
-	
-
 	possible = {
 		has_technology_researched = dynamite
 		has_technology_researched = watertube_boiler
+	}	
+
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
+			any_scope_state = {
+				state_region = s:STATE_WESTPHALIA
+				is_incorporated = yes
+				any_scope_building = {
+					is_building_type = building_coal_mine
+					level >= 15
+				}
+			}
+			any_scope_state = {
+				state_region = s:STATE_RUHR
+				is_incorporated = yes
+				any_scope_building = {
+					is_building_type = building_coal_mine
+					level >= 15
+				}
+			}
+			any_scope_state = {
+				state_region = s:STATE_NORTH_RHINE
+				is_incorporated = yes
+				any_scope_building = {
+					is_building_type = building_coal_mine
+					level >= 15
+				}
+			}
+		}
+		effect = {
+			trigger_event = {
+				id = ruhr_boom.1
+			}
+			set_variable = {
+				name = ruhr_boom_done
+				value = yes
+			}
+		}	
 	}
 
 	weight = 10000

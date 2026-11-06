@@ -2,7 +2,7 @@ INJECT:je_cement_the_rightful_dynasty = {
 
 	effect = {
 		add_loyalists = {
-			value = 0.1
+			value = 0.15
 			culture = cu:french
 		}
 		add_modifier = {

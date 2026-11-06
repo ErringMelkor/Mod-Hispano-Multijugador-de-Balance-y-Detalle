@@ -34,31 +34,31 @@
 		}
 	}
 
-	complete = {
-		OR = {
-			leading_producer_of = g:opium
-			leading_producer_of = g:fabric
-			leading_producer_of = g:dye
-			leading_producer_of = g:tobacco
+	outcome = {
+		trigger = {
+			OR = {
+				leading_producer_of = g:opium
+				leading_producer_of = g:fabric
+				leading_producer_of = g:dye
+				leading_producer_of = g:tobacco
+			}
+			country_has_building_group_levels = {
+				type = bg_plantations
+				value  >= 150
+			}
 		}
-		country_has_building_group_levels = {
-			type = bg_plantations
-			value  >= 150
+		effect = {
+			ig:ig_rural_folk = {
+				remove_ideology = ideology_agrarian
+				add_ideology = ideology_modern_agrarian
+			}
+			add_modifier = {
+				name = persian_boom
+				months = 60
+				is_decaying = yes
+			}
 		}
 	}
-
-	effect = {
-		ig:ig_rural_folk = {
-			remove_ideology = ideology_agrarian
-			add_ideology = ideology_modern_agrarian
-		}
-		add_modifier = {
-			name = persian_boom
-			months = 60
-			is_decaying = yes
-		}
-	}
-
 
 	weight = 100
 

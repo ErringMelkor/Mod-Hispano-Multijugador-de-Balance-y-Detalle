@@ -30,8 +30,12 @@
 		set_variable = { name = boyars_out_var value = 0 }
 	}
 
-	complete = {
-		trigger_if = {
+	outcome = {
+		header = je_standard_completion_header
+		effect_header = je_standard_on_completion_header
+		color = "gold_positive"
+		conclusion_desc = je_standard_completion_conclusion_desc
+		trigger = {
 			limit = {
 				exists = scope:nicholas_i_scope
 			}
@@ -45,17 +49,15 @@
 				}
 			# se muere de manera natural.
 		}
-	}
-
-	effect = {
-		remove_modifier = modifier_nicholas_i_rule
-		add_modifier = {
-			name = modifier_nicholas_i_legacy
-			years = 10
-			multiplier = nicholas_i_agenda_value
+		effect = {
+			remove_modifier = modifier_nicholas_i_rule
+			add_modifier = {
+				name = modifier_nicholas_i_legacy
+				years = 10
+				multiplier = nicholas_i_agenda_value
+			}
+			set_variable = nicholas_completed_var
 		}
-
-		set_variable = nicholas_completed_var
 	}
 
 	on_monthly_pulse = {
@@ -82,30 +84,35 @@
 		}
 	}
 
-	fail = {
-		OR = {
-			any_civil_war = {
-				is_civil_war_type = revolution
-			}
-			custom_tooltip = {
-				text = landowners_out_of_government_for_six_months_or_more_tt
-				exists = var:boyars_out_var
-				var:boyars_out_var > 6
-				ig:ig_landowners ?= {
-					is_in_government = no
+	outcome = {
+		header = je_standard_failure_header
+		effect_header = je_standard_on_failure_header
+		color = "blue_negative"
+		conclusion_desc = je_standard_failure_conclusion_desc		
+		trigger = {
+			OR = {
+				any_civil_war = {
+					is_civil_war_type = revolution
+				}
+				custom_tooltip = {
+					text = landowners_out_of_government_for_six_months_or_more_tt
+					exists = var:boyars_out_var
+					var:boyars_out_var > 6
+					ig:ig_landowners ?= {
+						is_in_government = no
+					}
 				}
 			}
 		}
-	}
-
-	on_fail = {
-		remove_modifier = modifier_nicholas_i_rule
-		add_modifier = {
-			name = modifier_nicholas_i_disaster
-			years = 10
-		}
-		ig:ig_landowners ?= {
-			set_ig_trait = ig_trait:ig_trait_terrible_boyars
+		effect = {
+			remove_modifier = modifier_nicholas_i_rule
+			add_modifier = {
+				name = modifier_nicholas_i_disaster
+				years = 10
+			}
+			ig:ig_landowners ?= {
+				set_ig_trait = ig_trait:ig_trait_terrible_boyars
+			}			
 		}
 	}
 
@@ -115,7 +122,7 @@
 		}
 	}
 
-	weight = 1000
+	weight = 3000
 	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
