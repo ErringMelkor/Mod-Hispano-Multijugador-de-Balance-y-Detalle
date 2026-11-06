@@ -1,10 +1,13 @@
 je_prestige_good_specialty_sugar = {
-    icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_sugar_prestige.dds"
+    icon = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/specialty_sugar.dds"
 
 	group = je_group_technology
 
+    activation_description = {
+		always = yes
+	}
+
     is_shown_when_inactive = {
-        has_dlc_feature = mp1_content
         any_company = {
             can_potentially_produce_prestige_goods = prestige_good_specialty_sugar
             is_producing_prestige_goods = no
@@ -49,36 +52,62 @@ je_prestige_good_specialty_sugar = {
         }
     }
 
-    complete = {
-        trigger_if = {
-            limit = {
-                has_variable = prestige_sugar_timer_var
+    outcome = {
+        header = je_standard_completion_header
+        effect_header = je_standard_on_completion_header
+        color = "gold_positive"
+        conclusion_desc = je_standard_completion_conclusion_desc
+        trigger = {
+            trigger_if = {
+                limit = {
+                    has_variable = prestige_sugar_timer_var
+                }
+                scope:journal_entry = {
+                    is_goal_complete = yes
+                }
             }
-            scope:journal_entry = {
-                is_goal_complete = yes
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                scope:relevant_company ?= {
+                    company_is_prosperous = yes
+                }
+            }
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_goods
+                }
+                custom_tooltip = {
+                    text = relevant_goods_production_rank_tt
+                    "goods_production_rank(scope:relevant_goods)" <= 3
+                }
             }
         }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_company
+        effect = {
+            if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                custom_tooltip = {
+                    text = je_prestige_good_specialty_sugar_reward_tt
+                    scope:relevant_company ?= {
+                        set_variable = prestige_good_specialty_sugar_var
+                    }
+                }
             }
-            scope:relevant_company ?= {
-                company_is_prosperous = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_goods
-            }
-            custom_tooltip = {
-                text = relevant_goods_production_rank_tt
-                "goods_production_rank(scope:relevant_goods)" <= 3
-            }
+            post_notification = company_prestige_goods_production_activated
+            je_prestige_good_specialty_sugar_cleanup = yes
         }
     }
 
     on_monthly_pulse = {
         effect = {
+            rebind_prestige_good_company = {
+                GOODS = prestige_good_specialty_sugar
+                UNLOCK_VAR = prestige_good_specialty_sugar_var
+                TIMER_VAR = prestige_sugar_timer_var
+            }
             if = {
                 limit = {
                     scope:relevant_company ?= {
@@ -91,26 +120,7 @@ je_prestige_good_specialty_sugar = {
         }
     }
 
-    effect = {
-        if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            custom_tooltip = {
-                text = je_prestige_good_specialty_sugar_reward_tt
-                scope:relevant_company ?= {
-                    set_variable = prestige_good_specialty_sugar_var
-                }
-            }
-        }
-        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
-    }
-
-    invalid = {
-        NOT = {
-            exists = scope:relevant_company
-        }
-    }
+    can_deactivate = yes
 
 	current_value = {
 		value = root.var:prestige_sugar_timer_var
@@ -124,16 +134,19 @@ je_prestige_good_specialty_sugar = {
 
     weight = 1000
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_prestige_good_premium_liquor = {
-    icon = "gfx/interface/icons/goods_icons/prestige_goods/bacardi_rum_prestige.dds"
+    icon = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/premium_liquor.dds"
 
 	group = je_group_technology
 
+    activation_description = {
+		always = yes
+	}
+
     is_shown_when_inactive = {
-        has_dlc_feature = mp1_content
         any_company = {
             can_potentially_produce_prestige_goods = prestige_good_premium_liquor
             is_producing_prestige_goods = no
@@ -178,36 +191,62 @@ je_prestige_good_premium_liquor = {
         }
     }
 
-    complete = {
-        trigger_if = {
-            limit = {
-                has_variable = prestige_liquor_timer_var
+    outcome = {
+        header = je_standard_completion_header
+        effect_header = je_standard_on_completion_header
+        color = "gold_positive"
+        conclusion_desc = je_standard_completion_conclusion_desc
+        trigger = {
+            trigger_if = {
+                limit = {
+                    has_variable = prestige_liquor_timer_var
+                }
+                scope:journal_entry = {
+                    is_goal_complete = yes
+                }
             }
-            scope:journal_entry = {
-                is_goal_complete = yes
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                scope:relevant_company ?= {
+                    company_is_prosperous = yes
+                }
+            }
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_goods
+                }
+                custom_tooltip = {
+                    text = relevant_goods_production_rank_tt
+                    "goods_production_rank(scope:relevant_goods)" <= 3
+                }
             }
         }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_company
+        effect = {
+            if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                custom_tooltip = {
+                    text = je_prestige_good_premium_liquor_reward_tt
+                    scope:relevant_company ?= {
+                        set_variable = prestige_good_premium_liquor_var
+                    }
+                }
             }
-            scope:relevant_company ?= {
-                company_is_prosperous = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_goods
-            }
-            custom_tooltip = {
-                text = relevant_goods_production_rank_tt
-                "goods_production_rank(scope:relevant_goods)" <= 3
-            }
+            post_notification = company_prestige_goods_production_activated
+            je_prestige_good_premium_liquor_cleanup = yes
         }
     }
 
     on_monthly_pulse = {
         effect = {
+            rebind_prestige_good_company = {
+                GOODS = prestige_good_premium_liquor
+                UNLOCK_VAR = prestige_good_premium_liquor_var
+                TIMER_VAR = prestige_liquor_timer_var
+            }
             if = {
                 limit = {
                     scope:relevant_company ?= {
@@ -220,26 +259,7 @@ je_prestige_good_premium_liquor = {
         }
     }
 
-    effect = {
-        if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            custom_tooltip = {
-                text = je_prestige_good_premium_liquor_reward_tt
-                scope:relevant_company ?= {
-                    set_variable = prestige_good_premium_liquor_var
-                }
-            }
-        }
-        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
-    }
-
-    invalid = {
-        NOT = {
-            exists = scope:relevant_company
-        }
-    }
+    can_deactivate = yes
 
 	current_value = {
 		value = root.var:prestige_liquor_timer_var
@@ -253,145 +273,19 @@ je_prestige_good_premium_liquor = {
 
     weight = 1000
 
-	should_be_pinned_by_default = yes
-}
-
-je_prestige_good_ultra_food = {
-    icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_groceries_prestige.dds"
-
-	group = je_group_technology
-
-    is_shown_when_inactive = {
-        has_dlc_feature = mp1_content
-        any_company = {
-            can_potentially_produce_prestige_goods = prestige_good_ultra_food
-            is_producing_prestige_goods = no
-            NOT = {
-                has_variable = prestige_good_ultra_food_var
-            }
-        }
-    }
-
-    possible = {
-        any_company = {
-            can_potentially_produce_prestige_goods = prestige_good_ultra_food
-            is_producing_prestige_goods = no
-            company_is_prosperous = yes
-            NOT = {
-                custom_tooltip = {
-                    text = not_prestige_good_ultra_food_var_tt
-                    has_variable = prestige_good_ultra_food_var
-                }
-            }
-        }
-    }
-
-    immediate = {
-        random_company = {
-            limit = {
-                can_potentially_produce_prestige_goods = prestige_good_ultra_food
-                is_producing_prestige_goods = no
-                company_is_prosperous = yes
-                NOT = {
-                    has_variable = prestige_good_ultra_food_var
-                }
-            }
-            save_scope_as = relevant_company
-        }
-		set_variable = {
-			name = prestige_groceries_timer_var
-			value = 0
-		}
-        g:groceries = {
-            save_scope_as = relevant_goods
-        }
-    }
-
-    complete = {
-        trigger_if = {
-            limit = {
-                has_variable = prestige_groceries_timer_var
-            }
-            scope:journal_entry = {
-                is_goal_complete = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            scope:relevant_company ?= {
-                company_is_prosperous = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_goods
-            }
-            custom_tooltip = {
-                text = relevant_goods_production_rank_tt
-                "goods_production_rank(scope:relevant_goods)" <= 3
-            }
-        }
-    }
-
-    on_monthly_pulse = {
-        effect = {
-            if = {
-                limit = {
-                    scope:relevant_company ?= {
-                        company_is_prosperous = yes
-                    }
-                    "goods_production_rank(scope:relevant_goods)" <= 3
-                }
-                change_variable = { name = prestige_groceries_timer_var add = 1 }
-            }
-        }
-    }
-
-    effect = {
-        if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            custom_tooltip = {
-                text = je_prestige_good_ultra_food_reward_tt
-                scope:relevant_company ?= {
-                    set_variable = prestige_good_ultra_food_var
-                }
-            }
-        }
-        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
-    }
-
-    invalid = {
-        NOT = {
-            exists = scope:relevant_company
-        }
-    }
-
-	current_value = {
-		value = root.var:prestige_groceries_timer_var
-	}
-
-	goal_add_value = {
-		add = prestige_good_journal_entry_months
-	}
-
-	progressbar = yes
-
-    weight = 1000
-
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_prestige_good_tempered_glass = {
-    icon = "gfx/interface/icons/goods_icons/glass.dds"
+    icon = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/tempered_glass.dds"
 
 	group = je_group_technology
 
+    activation_description = {
+		always = yes
+	}
+
     is_shown_when_inactive = {
-        has_dlc_feature = mp1_content
         any_company = {
             can_potentially_produce_prestige_goods = prestige_good_tempered_glass
             is_producing_prestige_goods = no
@@ -436,36 +330,62 @@ je_prestige_good_tempered_glass = {
         }
     }
 
-    complete = {
-        trigger_if = {
-            limit = {
-                has_variable = prestige_glass_timer_var
+    outcome = {
+        header = je_standard_completion_header
+        effect_header = je_standard_on_completion_header
+        color = "gold_positive"
+        conclusion_desc = je_standard_completion_conclusion_desc
+        trigger = {
+            trigger_if = {
+                limit = {
+                    has_variable = prestige_glass_timer_var
+                }
+                scope:journal_entry = {
+                    is_goal_complete = yes
+                }
             }
-            scope:journal_entry = {
-                is_goal_complete = yes
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                scope:relevant_company ?= {
+                    company_is_prosperous = yes
+                }
+            }
+            trigger_if = {
+                limit = {
+                    exists = scope:relevant_goods
+                }
+                custom_tooltip = {
+                    text = relevant_goods_production_rank_tt
+                    "goods_production_rank(scope:relevant_goods)" <= 3
+                }
             }
         }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_company
+        effect = {
+            if = {
+                limit = {
+                    exists = scope:relevant_company
+                }
+                custom_tooltip = {
+                    text = je_prestige_good_tempered_glass_reward_tt
+                    scope:relevant_company ?= {
+                        set_variable = prestige_good_tempered_glass_var
+                    }
+                }
             }
-            scope:relevant_company ?= {
-                company_is_prosperous = yes
-            }
-        }
-        trigger_if = {
-            limit = {
-                exists = scope:relevant_goods
-            }
-            custom_tooltip = {
-                text = relevant_goods_production_rank_tt
-                "goods_production_rank(scope:relevant_goods)" <= 3
-            }
+            post_notification = company_prestige_goods_production_activated
+            je_prestige_good_tempered_glass_cleanup = yes
         }
     }
 
     on_monthly_pulse = {
         effect = {
+            rebind_prestige_good_company = {
+                GOODS = prestige_good_tempered_glass
+                UNLOCK_VAR = prestige_good_tempered_glass_var
+                TIMER_VAR = prestige_glass_timer_var
+            }
             if = {
                 limit = {
                     scope:relevant_company ?= {
@@ -478,26 +398,7 @@ je_prestige_good_tempered_glass = {
         }
     }
 
-    effect = {
-        if = {
-            limit = {
-                exists = scope:relevant_company
-            }
-            custom_tooltip = {
-                text = je_prestige_good_tempered_glass_reward_tt
-                scope:relevant_company ?= {
-                    set_variable = prestige_good_tempered_glass_var
-                }
-            }
-        }
-        post_notification = company_prestige_goods_production_activated # Stub, lo bonito sería que tuviera el suyo propio
-    }
-
-    invalid = {
-        NOT = {
-            exists = scope:relevant_company
-        }
-    }
+    can_deactivate = yes
 
 	current_value = {
 		value = root.var:prestige_glass_timer_var
@@ -511,5 +412,5 @@ je_prestige_good_tempered_glass = {
 
     weight = 1000
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

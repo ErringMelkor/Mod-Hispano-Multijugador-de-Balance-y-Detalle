@@ -1143,13 +1143,13 @@ company_postobon= {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_ultra_food
+		prestige_good_generic_groceries
 	}
 
 	prestige_goods_trigger = {
 		custom_tooltip = {
-			text = je_prestige_good_ultra_food_complete_tt
-			has_variable = prestige_good_ultra_food_var
+			text = je_prestige_goods_groceries_complete_tt
+			has_variable = prestige_good_generic_groceries_var
 		}
 	}
 
@@ -4883,13 +4883,13 @@ company_lindt_sprungli = {
 	}
 
 	possible_prestige_goods = {
-		prestige_good_ultra_food
+		prestige_good_generic_groceries
 	}
 
 	prestige_goods_trigger = {
 		custom_tooltip = {
-			text = je_prestige_good_ultra_food_complete_tt
-			has_variable = prestige_good_ultra_food_var
+			text = je_prestige_goods_groceries_complete_tt
+			has_variable = prestige_good_generic_groceries_var
 		}
 	}
 

@@ -58,12 +58,6 @@ prestige_good_specialty_sugar = {
 	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/specialty_sugar.dds"
 }
 
-prestige_good_ultra_food = {
-	base_good = groceries
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/mhmbd_goods_icons/ultra_food.dds"
-}
-
 prestige_good_premium_liquor = {
 	base_good = liquor
 	prestige_bonus = 0.1
