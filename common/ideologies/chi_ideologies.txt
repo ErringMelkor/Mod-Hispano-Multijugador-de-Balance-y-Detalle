@@ -24,7 +24,9 @@
 	lawgroup_bureaucracy = {
 		law_appointed_bureaucrats = approve
 		law_elected_bureaucrats = strongly_disapprove
+		law_military_bureaucrats = disapprove
 		law_hereditary_bureaucrats = disapprove
+		law_communal_administration = strongly_disapprove
 	}
 
 	lawgroup_policing = {

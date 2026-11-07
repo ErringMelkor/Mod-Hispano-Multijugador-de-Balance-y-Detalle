@@ -108,6 +108,8 @@ ideology_republican_paternalistic_usa = {
 		law_hereditary_bureaucrats = approve
 		law_appointed_bureaucrats = neutral
 		law_elected_bureaucrats = neutral
+		law_military_bureaucrats = disapprove
+		law_communal_administration = strongly_disapprove
 	}
 
 	lawgroup_policing = {

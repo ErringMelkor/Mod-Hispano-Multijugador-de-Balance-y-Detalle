@@ -1,9 +1,17 @@
 ### 05-11-26 - 07-11-26 ###
 
 Compañías:
+	Sustituciones por invalidez del anterior modificador:
 	Ansteel:
 		Bono de Prosperidad: +2.5% a la eficiencia de construcción construcción de industria pesada.
 	Tuason Sampedro:
 		Bono de Prosperidad: +5% a la eficiencia de construcción de recursos.
 	Burberry:
 		Bono de Prosperidad: +10% al throughput de Fábricas Textiles.
+	
+	Bono al throughput por Ranking de Prestigio: 10% -> 15%
+
+Japón:
+	Sistema Terakoya:
+		Bono a la Educación: 25% -> 27.5%
+		Bono a la Educación para Campesinos: 20% -> 22.5%

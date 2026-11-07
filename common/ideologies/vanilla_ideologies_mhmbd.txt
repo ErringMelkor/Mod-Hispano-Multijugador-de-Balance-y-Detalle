@@ -65,8 +65,10 @@ REPLACE_OR_CREATE:ideology_anti_clerical = {
 
 	lawgroup_bureaucracy = {
 		law_appointed_bureaucrats = approve
-		law_elected_bureaucrats = neutral	
+		law_elected_bureaucrats = neutral
+		law_military_bureaucrats = disapprove
 		law_hereditary_bureaucrats = disapprove
+		law_communal_administration = strongly_disapprove
 	}
 
 	lawgroup_caste_hegemony = {
