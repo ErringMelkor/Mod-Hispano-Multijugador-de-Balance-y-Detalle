@@ -1,0 +1,9 @@
+### 05-11-26 - 07-11-26 ###
+
+Compañías:
+	Ansteel:
+		Bono de Prosperidad: +2.5% a la eficiencia de construcción construcción de industria pesada.
+	Tuason Sampedro:
+		Bono de Prosperidad: +5% a la eficiencia de construcción de recursos.
+	Burberry:
+		Bono de Prosperidad: +10% al throughput de Fábricas Textiles.

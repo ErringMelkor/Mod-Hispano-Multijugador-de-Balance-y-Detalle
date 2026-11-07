@@ -148,6 +148,39 @@ dp_return_state = {
 	on_war_end = {}
 }
 
+dp_return_state_to_subject = {
+	requires_interest_marker = no
+
+	war_goal = return_state
+
+	texture = "gfx/interface/icons/war_goals/return_state.dds"
+
+	selectable_in_lens = {
+		is_ai = no
+		any_direct_subject = {
+			number_of_claims > 0
+		}
+	}
+
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target_country }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}
+		diplomatic_play_has_no_relations_blockers = yes
+	}
+
+	ai_acceptance_max = 90
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
 dp_liberate_subject = {
 	war_goal = liberate_subject
 
@@ -167,6 +200,48 @@ dp_liberate_subject = {
 
 	ai_acceptance_max = 90
 	
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_liberate_country = {
+	war_goal = liberate_country
+
+	texture = "gfx/interface/icons/war_goals/liberate_country.dds"
+
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target_country }
+		diplomatic_play_has_no_relations_blockers = yes
+	}
+
+	ai_acceptance_max = 90
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_release_as_subject = {
+	war_goal = release_as_subject
+
+	texture = "gfx/interface/icons/war_goals/liberate_country.dds"
+
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target_country }
+		diplomatic_play_has_no_relations_blockers = yes
+	}
+
+	ai_acceptance_max = 90
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -228,26 +303,26 @@ dp_leave_power_bloc = {
 
 dp_increase_autonomy = {
 	war_goal = increase_autonomy
-	
+
 	requires_interest_marker = no
-	
+
 	texture = "gfx/interface/icons/war_goals/increase_autonomy.dds"
-	
+
 	possible = {
-		is_subject = yes	
+		is_subject = yes
 		custom_tooltip = {
 			text = "REQUEST_AUTONOMY_RECENTLY_DENIED"
 			any_diplomatic_catalyst = {
 				is_diplomatic_catalyst_type = catalyst_autonomy_increase_denied
 				target = scope:target_country
 			}
-		}			
+		}
 	}
 
 	ai_acceptance_max = 90
 
 	on_weekly_pulse = {}
-	
+
 	on_war_begins = {}
 
 	on_war_end = {}
@@ -289,6 +364,29 @@ dp_reduce_autonomy = {
 	on_war_begins = {}
 
 	on_war_end = {}
+
+	on_demand_accepted = {
+		scope:target_country = {
+			add_liberty_desire = 50
+		}
+		custom_tooltip = {
+			text = "ADD_LIBERTY_DESIRE_TO_ALL_SUBJECTS"
+			every_direct_subject = {
+				limit = {
+					NOT = { this = scope:target_country }
+				}
+				add_liberty_desire = decrease_autonomy_liberty_desire_to_add
+			}
+		}
+		hidden_effect = {
+			scope:target_country = {
+				create_diplomatic_catalyst = {
+					type = catalyst_autonomy_change_imposed
+					target = root
+				}
+			}
+		}
+	}
 }
 
 dp_take_treaty_port = {
@@ -410,10 +508,7 @@ dp_annex_subject = {
 	possible = {
 		trigger_if = {
 			limit = {
-				OR = {
-					c:DLH ?= this
-					c:MRT ?= this
-				}
+				c:DLH ?= this
 				is_at_war = no
 				NOT = { has_variable = doctrine_of_lapse_cooldown }
 				NOT = { has_variable = doctrine_of_lapse_ended }
@@ -428,6 +523,13 @@ dp_annex_subject = {
 				text = CAN_USE_DOCTRINE_OF_LAPSE_INSTEAD
 				always = no
 			}
+		}
+		trigger_if = {
+			limit = {
+				c:RUS ?= this
+				c:POL ?= scope:target_country
+			}
+			NOT = { has_journal_entry = je_congress_poland }
 		}
 
 		NOT = { is_country_type = decentralized }
@@ -1474,6 +1576,8 @@ dp_unify_yugoslavia = {
 		is_subject = no
 		has_technology_researched = pan-nationalism
 	}
+
+	ai_acceptance_max = 75
 
 	on_weekly_pulse = {}
 

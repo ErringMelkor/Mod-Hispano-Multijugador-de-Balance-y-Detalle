@@ -32,7 +32,7 @@ REPLACE_OR_CREATE:RUS_alexander_ii = { #Alexander II, son of Nicholas I
 	birth_date = 1818.4.29
 	dna = dna_tsar_alexander_02
 	interest_group = ig_industrialists
-	ideology = ideology_market_liberal
+	ideology = ideology_modernizer_leader
 	traits = {
 		meticulous
 		romantic
@@ -47,18 +47,22 @@ REPLACE_OR_CREATE:RUS_alexander_ii = { #Alexander II, son of Nicholas I
 	}
 }
 
-RUS_Pavel_Kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de Nicolás I.
+REPLACE_OR_CREATE:RUS_pavel_kiselyov = { # Count Pavel Kiselyov, gran reformador de la época de Nicolás I.
 	first_name = Pavel
 	last_name = Kiselyov
+    #dna = dna_pavel_kiselyov # TODO
 	historical = yes
-	culture = cu:russian
+	birth_date = 1788.1.19
+	ig_leader = yes
+	culture=cu:russian
 	interest_group = ig_armed_forces
 	ideology = ideology_nicholean_reformer_leader
-	ig_leader = yes
-	birth_date = 1788.11.14
+	home_region = STATE_MOSCOW
 	
 	traits = {
 		meticulous
 		persistent
+		arrogant
+		experienced_political_operator
 	}
 }

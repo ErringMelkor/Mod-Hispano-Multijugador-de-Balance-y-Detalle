@@ -3162,12 +3162,12 @@ company_ansteel= {
 					level >= 5
 			}
 		}
-		has_technology_researched = open_hearth_furnace
+		has_technology_researched = open_hearth_process
 	}
 	
 	prosperity_modifier = {
 		country_max_weekly_construction_progress_add = 10
-		building_group_building_steel_mill_construction_efficiency_add = 0.025
+		building_group_bg_heavy_industry_construction_efficiency_add = 0.025
 	}
 
 	ai_will_do = {
@@ -3611,7 +3611,7 @@ company_tuason_sampedro= {
 	}
 	
 	prosperity_modifier = {
-		building_group_building_logging_camp_construction_efficiency_add= 10
+		building_group_bg_extraction_construction_efficiency_add= 0.05
 	}
 
 	ai_will_do = {
@@ -4070,7 +4070,7 @@ company_burberry = {
 	}
 	
 	prosperity_modifier = {
-		building_group_building_textile_mill_tax_mult = 0.2
+		building_textile_mill_throughput_add = 0.1
 		country_military_goods_cost_mult = -0.1
 	}
 

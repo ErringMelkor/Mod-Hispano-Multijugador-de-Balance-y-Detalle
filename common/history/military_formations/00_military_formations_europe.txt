@@ -1444,7 +1444,7 @@
 
 			combat_unit = { # L.-Gds. Lithuania Regiment
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KAUNAS
+				state_region = s:STATE_LITHUANIA
 				count = 1
 			}
 
@@ -1660,7 +1660,7 @@
 
 			combat_unit = { # Kostroma and Galich Jägers
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GALICH
+				state_region = s:STATE_VOLOGDA
 				count = 2
 			}
 
@@ -1761,7 +1761,7 @@
 			}
 			combat_unit = { # Lithuania and Volhynia Lancer Regiments.
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_KAUNAS
+				state_region = s:STATE_LITHUANIA
 				count = 2
 			}
 
@@ -1921,7 +1921,7 @@
 
 			combat_unit = { # Lithuania and Vilna Jägers
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KAUNAS
+				state_region = s:STATE_LITHUANIA
 				count = 2
 			}
 
@@ -1970,12 +1970,12 @@
 			# 5th Artillery Division
 			combat_unit = { # 13th, 14th, and 15th Field Artillery Brigades
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_SARATOV
 				count = 3
 			}
 			combat_unit = { # 5th Horse-Artillery Brigade
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_SARATOV
 				count = 1
 			}
 
@@ -2010,7 +2010,7 @@
 
 			combat_unit = { # Samogitia Grenadiers and Field Marshal Prince Barclay de Tolly’s Carabiniers
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KAUNAS
+				state_region = s:STATE_LITHUANIA
 				count = 2
 			}
 
@@ -2108,7 +2108,7 @@
 #			# Don Cossacks
 #			combat_unit = {
 #				type = unit_type:combat_unit_type_hussars
-#				state_region = s:STATE_TARTARIA
+#				state_region = s:STATE_SARATOV
 #				count = 10
 #			}
 #			# Don Cossacks

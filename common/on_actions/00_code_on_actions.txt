@@ -2196,13 +2196,6 @@ on_country_formed = {
 	effect = {
 		on_country_formed_culture_effects = yes
 		forest_of_bayonets_involve_country_effect = yes
-		if = {
-			limit = {
-				c:CHI ?= this
-				has_journal_entry = je_reunify_china
-			}
-			set_global_variable = { name = chinese_central_government value = ROOT }
-		}
 	}
 }
 
@@ -3172,14 +3165,6 @@ on_revolution_start = {
 		### Movement type variable setting
 		on_revolution_start_set_civil_war_variables_effect = yes
 		on_revolution_start_handle_target_revolution_effect = yes
-		if = {
-			limit = {
-				has_journal_entry = je_warlord_china
-				NOT = { has_variable = china_warlord_explosion_revolution }
-			}
-			chi_remove_1_fragile_unity = yes
-			set_variable = china_warlord_explosion_revolution
-		}
 		if = {
 			limit = {
 				is_involved_in_journal_entry = je_paris_commune
