@@ -66,6 +66,7 @@ ITA = {
 	possible = {
 		OR = {
 			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:central_italian
 			country_has_primary_culture = cu:south_italian
 		}
 		is_country_type = recognized
@@ -78,17 +79,13 @@ ITA = {
 
 	max_num_formation_candidates = 3
 	can_be_formation_candidate = {
-		country_rank >= rank_value:minor_power
+		country_rank >= rank_value:major_power
         NOR = {
             c:AUS ?= this
             c:KUK ?= this
             c:HRE ?= this
         }
 		is_country_type = recognized
-		any_country_in_italy_old = {
-			has_technology_researched = nationalism
-			percent = 0.75
-		}
 	}
 
 	can_be_unification_target = {
