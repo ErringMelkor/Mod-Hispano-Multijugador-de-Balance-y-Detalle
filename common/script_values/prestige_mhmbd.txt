@@ -1,0 +1,5 @@
+combined_total_power = {
+    value = gdp
+	multiply = 0.0001
+    add = army_power_projection
+}
