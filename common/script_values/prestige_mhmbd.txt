@@ -1,5 +1,22 @@
 combined_total_power = {
+
+    value = gdp_score
+    add = army_power_score
+    add = navy_power_score
+}
+
+gdp_score = {
     value = gdp
-	multiply = 0.0001
-    add = army_power_projection
+	multiply = 0.00001
+    multiply = 0.4
+}
+
+army_power_score = {
+    value = army_power_projection
+    multiply = 0.03003
+}
+
+navy_power_score = {
+    value = naval_power_projection
+    multiply = 0.011
 }
