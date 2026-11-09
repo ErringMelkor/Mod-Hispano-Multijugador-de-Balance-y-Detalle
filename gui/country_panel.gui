@@ -854,6 +854,22 @@ types country_panel_types
 					}
 				}
 
+	#			# TOTAL POWER
+				country_stats_entry = {
+					blockoverride "information_icon" {
+						texture = "gfx/interface/icons/generic_icons/prestige.dds"
+					}
+					blockoverride "stats_label" {
+						text = "TOTAL_POWER"
+					}
+					blockoverride "stats_value" {
+						raw_text = "#v [Country.MakeScope.ScriptValue('combined_total_power')|0]#!"
+					}
+					blockoverride "stats_tooltip" {
+						tooltip = "GDP: #v [Country.MakeScope.ScriptValue('gdp_score')|0]#! Army: #v [Country.MakeScope.ScriptValue('army_power_score')|0]#! Navy: #v [Country.MakeScope.ScriptValue('navy_power_score')|0]#!"
+					}
+				}				
+
 				#BATTALIONS
 				country_stats_entry = {
 					visible = "[Not(CountryPanel.GetCountry.IsColonizable)]"
@@ -1087,27 +1103,6 @@ types country_panel_types
 					}
 					blockoverride "stats_value" {
 						raw_text = "#v [Country.GetPrimaryCulturesDesc]#!"
-					}
-				}
-
-				## TOTAL POWER
-				country_stats_entry = {
-					alwaystransparent = no
-
-					blockoverride "information_icon" {
-						texture = "gfx/interface/icons/generic_icons/prestige.dds"
-					}
-
-					blockoverride "stats_label" {
-						text = "TOTAL_POWER"
-					}
-
-					blockoverride "stats_value" {
-						raw_text = "#v [Country.MakeScope.ScriptValue('combined_total_power')|0]#!"
-					}
-
-					blockoverride "stats_rank" {
-						raw_text = "-"
 					}
 				}
 			}
