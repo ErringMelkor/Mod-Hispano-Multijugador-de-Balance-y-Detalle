@@ -1959,16 +1959,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
-				building="building_naval_fortification"
-				add_ownership={
-					country={
-						country="c:CHI"
-						levels=1
-					}
-				}
-				activate_production_methods={ "pm_naval_fortification_basic"  }
-			}
-			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={

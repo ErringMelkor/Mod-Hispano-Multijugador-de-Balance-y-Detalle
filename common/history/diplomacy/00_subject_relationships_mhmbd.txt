@@ -4,6 +4,7 @@
 			country = c:SGP
 			type = dominion
 		}
+	}
 	c:SGP ?= {
 		add_liberty_desire = 60
 	}
