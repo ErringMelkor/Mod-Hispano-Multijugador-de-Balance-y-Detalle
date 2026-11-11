@@ -10,37 +10,41 @@
 	}
 	possible = {
 		has_technology_researched = nationalism
-		any_interest_group = {
-			is_in_government = yes
-			leader = {
-				OR = {
-					has_ideology = ideology:ideology_jingoist_leader
-					has_ideology = ideology:ideology_ethno_nationalist
-					has_ideology = ideology:ideology_traditionalist
-					has_ideology = ideology:ideology_fascist
-					has_ideology = ideology:ideology_authoritarian
+		OR = {
+			custom_tooltip = {
+				text = caucasus_secured_tt
+				has_global_variable = caucasus_consolidated_var
+			}
+			AND = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+					is_incorporated = yes
+				}
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_jingoist_leader
+							has_ideology = ideology:ideology_ethno_nationalist
+							has_ideology = ideology:ideology_traditionalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_authoritarian
+						}
+					}
 				}
 			}
-		}
-		custom_tooltip = {
-			text = caucasus_secured_tt
-			has_global_variable = caucasus_consolidated_var
-		}
-		any_scope_state = {
-			state_region = s:STATE_KARS
-			is_incorporated = yes
-		}
-		any_scope_state = {
-			state_region = s:STATE_GREATER_CAUCASUS
-			is_incorporated = yes
-		}
-		any_scope_state = {
-			state_region = s:STATE_DOBRUDJA
-			is_incorporated = yes
-		}
-		any_scope_state = {
-			state_region = s:STATE_BESSARABIA
-			is_incorporated = yes
 		}
 		hidden_trigger = {
 			NOT = {
