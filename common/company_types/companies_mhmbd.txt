@@ -194,6 +194,7 @@ company_fedecafe = {
 		OR = {
 			country_has_primary_culture = cu:north_andean
 			country_has_primary_culture = cu:colombian
+			country_has_primary_culture = cu:venezuelan
 		}	
 	}
 	
@@ -459,8 +460,9 @@ company_coltejer= {
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
 			c:CLM ?= this
+			c:VNZ ?= this
 			was_formed_from = CLM
-			was_formed_from = GCO
+			was_formed_from = VNZ
 		}
 	}
 
@@ -475,8 +477,9 @@ company_coltejer= {
 	possible = {
 		OR = {
 			c:CLM ?= this
+			c:VNZ ?= this
 			was_formed_from = CLM
-			was_formed_from = GCO
+			was_formed_from = VNZ
 		}
 		any_scope_state = {
 			state_region = s:STATE_ANTIOQUIA
@@ -883,8 +886,9 @@ company_peruvian_corporation= {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
 	}
 
@@ -899,8 +903,9 @@ company_peruvian_corporation= {
 	possible = {
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
 		any_scope_state = {
 			state_region = s:STATE_LIMA
@@ -975,8 +980,9 @@ company_guano_management= {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
 	}
 
@@ -991,8 +997,9 @@ company_guano_management= {
 	possible = {
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
 		any_scope_state = {
 			state_region = s:STATE_ICA
@@ -1067,8 +1074,9 @@ company_agro_paramonga= {
 		has_interest_marker_in_region = sr:region_andes
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
 	}
 
@@ -1083,8 +1091,9 @@ company_agro_paramonga= {
 	possible = {
 		OR = {
 			c:BOL ?= this
+			c:PEU ?= this
 			was_formed_from = BOL
-			was_formed_from = PBC
+			was_formed_from = PEU
 		}
         any_scope_state = {
 			state_region = s:STATE_LIMA
@@ -1157,8 +1166,9 @@ company_postobon= {
 		has_interest_marker_in_region = sr:region_gran_colombia
 		OR = {
 			c:CLM ?= this
+			c:VNZ ?= this
 			was_formed_from = CLM
-			was_formed_from = GCO
+			was_formed_from = VNZ
 		}
 	}
 
@@ -1173,8 +1183,9 @@ company_postobon= {
 	possible = {
 		OR = {
 			c:CLM ?= this
+			c:VNZ ?= this
 			was_formed_from = CLM
-			was_formed_from = GCO
+			was_formed_from = VNZ
 		}
 		any_scope_state = {
 			state_region = s:STATE_ANTIOQUIA
@@ -1237,7 +1248,6 @@ company_mondragon = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		
 		c:MEX ?= this
 	}
 	
@@ -1250,6 +1260,7 @@ company_mondragon = {
 	}		
 	
 	possible = {
+		c:MEX ?= this
 		has_technology_researched = repeaters
 		any_scope_state = {
 			state_region = s:STATE_MEXICO
@@ -1297,7 +1308,6 @@ company_la_cruz_azul = {
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
-		
 		c:MEX ?= this
 	}
 	
@@ -1310,6 +1320,7 @@ company_la_cruz_azul = {
 	}		
 	
 	possible = {
+		c:MEX ?= this
 		any_scope_state = {
 			state_region = s:STATE_MEXICO
 			is_incorporated = yes
@@ -1818,6 +1829,11 @@ company_managem  = {
 	}
 
 	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_north_africa
+			}
+		}
 	}
 
 	possible = {
@@ -2803,6 +2819,11 @@ company_lena_gold_mining_partnertship  = {
 	}
 
 	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_siberia
+			}
+		}
 	}
 
 	possible = {
@@ -3773,10 +3794,26 @@ company_alhstrom = {
 		building_glassworks
 	}
 
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
 	prestige_goods_trigger = {
 		custom_tooltip = {
 			text = je_prestige_goods_paper_complete_tt
 			has_variable = prestige_good_generic_paper_var
+		}
+	}
+
+	potential = {
+		has_interest_marker_in_region = sr:region_northern_europe
+	}
+
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_KUOPIO
+			}
 		}
 	}
 
@@ -3833,9 +3870,14 @@ company_societe_renault_freres = {
 	potential = {
 		has_interest_marker_in_region = sr:region_western_europe
 	}
-	
+
 	attainable = {
-	}	
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+					state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
+	}
 	
 	possible = {
 		has_technology_researched = combustion_engine

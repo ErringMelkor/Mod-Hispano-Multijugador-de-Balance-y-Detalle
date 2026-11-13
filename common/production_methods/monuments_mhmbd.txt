@@ -885,12 +885,11 @@ pm_default_building_penal_de_ushuaia= {
 
 	building_modifiers = {
 		#workforce_scaled = {
-		
-
-		level_scaled = {
-			building_employment_soldiers_add = 500
-			building_employment_laborers_add = 5000
-		}
+			level_scaled = {
+				building_employment_soldiers_add = 500
+				building_employment_laborers_add = 5000
+			}
+		}			
 	}
 }
 
@@ -915,11 +914,10 @@ pm_default_building_universidad_imperial= {
 
 	building_modifiers = {
 		#workforce_scaled = {
-		#
-
-		level_scaled = {
-			building_employment_bureaucrats_add = 5000
-			building_employment_academics_add = 5000
+			level_scaled = {
+				building_employment_bureaucrats_add = 5000
+				building_employment_academics_add = 5000
+			}
 		}
 	}	
 }
@@ -944,11 +942,10 @@ pm_default_building_qalawun_complex= {
 
 	building_modifiers = {
 		#workforce_scaled = {
-		#
-
-		level_scaled = {
-			building_employment_clergymen_add = 1000
-			building_employment_academics_add = 2000
+			level_scaled = {
+				building_employment_clergymen_add = 1000
+				building_employment_academics_add = 2000
+			}
 		}
 	}	
 }
@@ -968,17 +965,13 @@ pm_default_building_golestan_palace= {
 
 	building_modifiers = {
 		#workforce_scaled = {
-		#
-
-		level_scaled = {
-			building_employment_aristocrats_add = 1000
-			building_employment_bureaucrats_add = 2000
+			level_scaled = {
+				building_employment_aristocrats_add = 1000
+				building_employment_bureaucrats_add = 2000
+			}
 		}
 	}	
 }
-
-
-
 
 pm_default_building_fushimi_inari-taisha = {
 	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
@@ -1066,12 +1059,10 @@ pm_default_building_palais_royal_de_bruxelles = {
 
 	building_modifiers = {
 		#workforce_scaled = {
-		#
-
-
-		level_scaled = {
-			building_employment_aristocrats_add = 1000
-			building_employment_bureaucrats_add = 2000
+			level_scaled = {
+				building_employment_aristocrats_add = 1000
+				building_employment_bureaucrats_add = 2000
+			}
 		}
 	}	
 }
@@ -1365,7 +1356,7 @@ pm_default_building_bangkok_palace = {
 
 	is_hidden_when_unavailable = no
 
-	state_modifiers = {
+	country_modifiers = {
 		workforce_scaled = { 
 			country_legitimacy_headofstate_add = 5
 			country_authority_add = 50
@@ -1426,8 +1417,8 @@ pm_default_building_vanmieu_devout = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_prestige_add = 10
-			group_ig_devout_approval_add = 1
 			country_weekly_innovation_add = 1
+			interest_group_ig_devout_approval_add = 1
 		}
 	}
 
@@ -1459,8 +1450,8 @@ pm_default_building_vanmieu_intelligentsia = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_prestige_add = 10
-			group_ig_intelligentsia_approval_add = 1
 			country_weekly_innovation_add = 1
+			interest_group_ig_intelligentsia_approval_add = 1
 		}
 	}
 
@@ -1492,8 +1483,8 @@ pm_default_building_vanmieu_trade_unions = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_prestige_add = 10
-			group_ig_trade_unions_approval_add = 1
 			country_weekly_innovation_add = 1
+			interest_group_ig_trade_unions_approval_add = 1
 		}
 	}
 
